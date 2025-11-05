@@ -1,0 +1,15 @@
+## Links
+[[Principles Of Web Accessibility]]
+[https://www.youtube.com/live/xEtKkLdAnvI](https://www.youtube.com/live/xEtKkLdAnvI)
+[https://design.google/library/designing-global-accessibility-part-1](https://design.google/library/designing-global-accessibility-part-1)
+[https://design.google/library/designing-global-accessibility-part-2](https://design.google/library/designing-global-accessibility-part-2)
+[https://design.google/library/designing-global-accessibility-part-iii](https://design.google/library/designing-global-accessibility-part-iii)
+[https://www.nomensa.com/blog/introduction-inclusive-design/?mc_cid=fb78c9b5d6](https://www.nomensa.com/blog/introduction-inclusive-design/?mc_cid=fb78c9b5d6)
+[https://www.getstark.co/blog/accessibility-metrics-scorecard-template/](https://www.getstark.co/blog/accessibility-metrics-scorecard-template/)
+[https://neurodiversity.design/ux-law-definitions/#von-restorff-effect](https://neurodiversity.design/ux-law-definitions/#von-restorff-effect)
+[https://tetralogical.com/blog/2025/03/19/understanding-the-eaa/](https://tetralogical.com/blog/2025/03/19/understanding-the-eaa/)
+[https://makeitfable.com/article/how-to-get-started-with-accessibility-research/](https://makeitfable.com/article/how-to-get-started-with-accessibility-research/)
+[https://tetralogical.com/blog/2025/03/19/understanding-the-eaa/](https://tetralogical.com/blog/2025/03/19/understanding-the-eaa/)
+[https://martijnhols.nl/blog/accessibility-essentials-every-front-end-developer-should-know](https://martijnhols.nl/blog/accessibility-essentials-every-front-end-developer-should-know)
+[https://www.smashingmagazine.com/2025/04/fostering-accessibility-culture/?ref=sidebar](https://www.smashingmagazine.com/2025/04/fostering-accessibility-culture/?ref=sidebar)
+[https://coforma.io/perspectives/making-scannable-web-pages-for-assistive-technology](https://coforma.io/perspectives/making-scannable-web-pages-for-assistive-technology)
