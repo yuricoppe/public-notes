@@ -1,4 +1,6 @@
 ---
+Title: UX Busca
+---
   
 [[Anotações dos artigos]]
 [[Ferramentas de busca]]
