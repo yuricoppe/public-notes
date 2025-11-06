@@ -1,61 +1,75 @@
 [https://www.nngroup.com/articles/search-visible-and-simple/](https://www.nngroup.com/articles/search-visible-and-simple/)
 ---
 Um comentário típico é: "Não quero ter que navegar neste site do jeito que eles querem. Só quero encontrar o que estou procurando." É por isso que muitos usuários vão direto para a função de busca **da página inicial** .
----
+
 A busca também é uma válvula de escape para os usuários quando eles ficam presos na navegação. Quando não conseguem encontrar um lugar razoável para ir em seguida, frequentemente recorrem à função de busca do site. É por isso que você deve disponibilizar a busca em todas as páginas do site; não é possível prever onde os usuários estarão quando perceberem que estão perdidos.
----
-## **A pesquisa deve ser uma caixa**
-Os usuários costumam se movimentar de forma rápida e intensa quando buscam algo para pesquisar. Como vimos em estudos recentes, eles costumam vasculhar a página inicial em busca da _"caixinha onde posso digitar"._ Há muito tempo sabemos que [os usuários vasculham](https://www.nngroup.com/articles/why-web-users-scan-instead-reading/) , e as implicações são claras:
+
+## A pesquisa deve ser uma caixa
+
+Os usuários costumam se movimentar de forma rápida e intensa quando buscam algo para pesquisar. Como vimos em estudos recentes, eles costumam vasculhar a página inicial em busca da _"caixinha onde posso digitar"._ Há muito tempo sabemos que [os usuários vasculham](https://www.nngroup.com/articles/why-web-users-scan-instead-reading/), e as implicações são claras:
+
 - Nas páginas iniciais, a pesquisa deve ser um **campo de digitação e não um link.**
 - Coloque a caixa de pesquisa no **topo da página**, geralmente no canto direito (embora o esquerdo funcione quase tão bem).
 - O campo de entrada da pesquisa deve ser **amplo o suficiente** para conter a consulta típica; se a caixa for muito pequena, a consulta rolará e diminuirá a usabilidade.
+
 ---
+
 ## A Obsolescência da Busca na Internet
+
 Considerando que a busca está se tornando obsoleta na internet, poderia-se pensar que os usuários desenvolveriam habilidades avançadas de busca. No entanto, a realidade é diferente.
 Usuários típicos apresentam ==dificuldades significativas na reformulação de consultas==: se não obtiverem bons resultados na primeira tentativa, as tentativas subsequentes raramente são bem-sucedidas. Na verdade, muitos usuários costumam desistir. Um estudo recente que avaliou um grande grupo de pessoas realizando compras em vários sites de e-commerce revelou dados preocupantes sobre a taxa de sucesso das buscas:
+
 - **Sucesso na busca**
     - Primeira consulta: 51%
     - Segunda consulta: 32%
     - Terceira consulta: 18%
 Esses dados indicam que, se os usuários não encontrarem o resultado desejado na primeira consulta, as chances de sucesso em buscas adicionais diminuem consideravelmente. Para piorar, muitos usuários acabam não se esforçando para reformular as consultas; quase metade dos entrevistados que falharam na primeira busca desistiu imediatamente.
-as interfaces de busca poderiam apresentar maneiras simples de ampliar as consultas.
-a ênfase deve se concentrar em aumentar as chances de sucesso na primeira tentativa.
+- As interfaces de busca poderiam apresentar maneiras simples de ampliar as consultas.
+- A ênfase deve se concentrar em aumentar as chances de sucesso na primeira tentativa.
+
 Se a lista de resultados parecer inadequada, é provável que abandonem o site completamente, optando por buscar resultados em mecanismos de busca externos, como o Google.
+
 ---
-==**Enfatize a capacidade do seu mecanismo de busca de lidar com consultas de uma única palavra**== e consultas muito curtas de várias palavras e ainda produzir resultados de alta qualidade.==**Não ofereça busca avançada na página inicial.**== A busca avançada pode causar problemas para os usuários, pois eles invariavelmente a utilizam de forma errada. Quando fizer sentido, ofereça a busca avançada como uma opção para a qual os usuários podem acessar links na página de resultados da busca: "Não encontrou o que procurava? Experimente a busca avançada."
+
+**Enfatize a capacidade do seu mecanismo de busca de lidar com consultas de uma única palavra** e consultas muito curtas de várias palavras e ainda produzir resultados de alta qualidade.==**Não ofereça busca avançada na página inicial.**== A busca avançada pode causar problemas para os usuários, pois eles invariavelmente a utilizam de forma errada. Quando fizer sentido, ofereça a busca avançada como uma opção para a qual os usuários podem acessar links na página de resultados da busca: "Não encontrou o que procurava? Experimente a busca avançada."
 ---
   
 [https://www.pencilandpaper.io/articles/search-ux](https://www.pencilandpaper.io/articles/search-ux)
+
 ---
-mesmo em nossa era de IA, as pessoas ainda precisam procurar, encontrar e descobrir informações por meio de experiências de pesquisa.
+
+Mesmo em nossa era de IA, as pessoas ainda precisam procurar, encontrar e descobrir informações por meio de experiências de pesquisa.
+
 ---
+
 **Qual é o estado dos seus dados?**
+
 O que pode ser indexado? Os dados estão em boas condições para uma pesquisa eficaz? Há um profissional de dados responsável por garantir que seus dados estejam limpos? Ou muitos deles estão em mau estado? Isso pode limitar sua capacidade de tornar a experiência incrível.
+
 ---
+
 É importante entender que há uma diferença entre:
+
 - **Encontrar um resultado correto:**
-    
     os usuários desejam se concentrar em algo específico que eles sabem que existe – por exemplo, ID da amostra: 12342-22
-    
 - **Encontrar uma variedade de resultados:**
-    
     os usuários desejam analisar um conjunto de informações para comparar e contrastar potencialmente – por exemplo, “Amostras de sangue gene 125”
-    
 - **Não encontrar resultados:**
-    
     os usuários querem usar a pesquisa para verificar algo que sabem que não deveria ser encontrado na pesquisa – por exemplo, “amostra duplicada 3201-000”
-    
 - **Encontrar “onde” querem ir:**
-    
     Isso pode ser localizado em uma página específica (busca de localização) ou pode estar relacionado a chegar a um lugar em um aplicativo com muitos lugares nele – por exemplo, “amostras”
-    
+
 ---
-# **Melhores práticas da barra de pesquisa**
+
+## **Melhores práticas da barra de pesquisa**
+
 - Incluir um ícone de pesquisa que mostre aos usuários um estado de foco muito perceptível quando o cursor passa sobre ele (certifique-se de que o atalho de teclado para iniciar a pesquisa também seja bem pensado, especialmente em casos em que a pesquisa é uma ação comum)
 - Incluir o estado de foco quando a entrada foi “clicada”
 - Incluir algumas sugestões predefinidas no texto do espaço reservado (nos casos em que não está claro o que você pode pesquisar em um aplicativo)
 - Inclua o que está sendo pesquisado no texto do espaço reservado. Ex.: pesquisar no site inteiro vs. pesquisar itens na tabela abaixo.
+![[Pasted image 20251105231928.png]]
 ![[image 30.png|image 30.png]]
+
 ---
 # **Melhores práticas do menu suspenso de pesquisa:**
 - Incluir categorias de cabeçalho no menu suspenso para facilitar a digitalização
@@ -64,7 +78,7 @@ O que pode ser indexado? Os dados estão em boas condições para uma pesquisa e
 - Permitir rolagem no menu suspenso de pesquisa
 - Incluir feedback de carregamento mostra que o computador está pensando em algumas coisas – confira nosso artigo detalhado sobre **padrões de carregamento de UX**.
 - Mostre como os resultados correspondem usando uma técnica de destaque
-![[image 1 2.png|image 1 2.png]]
+![[Pasted image 20251105232013.png]]
 ---
 # **Melhores práticas de carregamento de pesquisa:**
 - Use feedback de carregamento específico ao contexto – o que significa que o feedback de carregamento é adaptado para diferentes durações de espera.
@@ -79,7 +93,7 @@ Para conjuntos de dados enormes, pode não ser viável indexar todos os locais p
 - Use paginação conforme necessário
 - Inclua controles de filtragem e classificação para que as pessoas possam refinar ainda mais os resultados que procuram (consulte nosso [artigo sobre filtragem](https://pencilandpaper.io/articles/ux-pattern-analysis-enterprise-filtering/)) para se aprofundar nas nuances em torno dos filtros
 - Incluir o feedback do estado vazio quando os resultados da pesquisa forem iguais a 0 – revise nosso artigo de padrões sobre [estados vazios](https://pencilandpaper.io/articles/ux-pattern-analysis-enterprise-filtering/) para mais práticas recomendadas.
-![[image 2 3.png|image 2 3.png]]
+![[Pasted image 20251105232148.png]]
 ---
 # **Pesquisa Avançada**
 A busca avançada envolve inserir uma lógica específica na sua consulta para especificar onde e como o sistema indexará o(s) banco(s) de dados para encontrar o que você precisa. Esse tipo de busca exige mais planejamento prévio para executar uma consulta eficaz.
@@ -100,7 +114,7 @@ Esse tipo de pesquisa tem características únicas em comparação a outras expe
     
     (“e”) – especificando que vários critérios podem ser incluídos, por exemplo, tipo = Artigos, E fonte = acadêmico
     
-![[image 3 2.png|image 3 2.png]]
+![[Pasted image 20251105232245.png]]
 ---
 # Erros Comuns de UX de Pesquisa
 ## 1. Má Qualidade do Resultado
@@ -121,6 +135,7 @@ Não usar a busca como uma solução para problemas de navegação ruim é cruci
 ---
 ### Participe das pesquisas em alta
 Imagine fazer login e ver imediatamente o que está em alta no momento. As buscas por tendências não só ajudam os usuários a descobrir conteúdo popular, como também criam um senso de comunidade, mostrando o que os outros estão interagindo. Quando os usuários veem uma lista de tópicos em alta, isso desperta sua curiosidade, convidando-os a aderir à onda ou explorar novas áreas de interesse.
+
 [![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXclF1-96aczSUnaPNLUsBoG5t298MKOv1Uck9U-5XcU7B9i-eAgDQkLI1cM3C9bnNuXjEaRYBBC9-VpRCIw2IbpWamEbvrJZx9bdu5JScfMBhpl6jzaGi8lQCQgJF2ov1qqjnq-ScyKzbmEDDk_pg3pJdw?key=FvmSL26F8YEgCNIpipQpBg)](https://lh7-rt.googleusercontent.com/docsz/AD_4nXclF1-96aczSUnaPNLUsBoG5t298MKOv1Uck9U-5XcU7B9i-eAgDQkLI1cM3C9bnNuXjEaRYBBC9-VpRCIw2IbpWamEbvrJZx9bdu5JScfMBhpl6jzaGi8lQCQgJF2ov1qqjnq-ScyKzbmEDDk_pg3pJdw?key=FvmSL26F8YEgCNIpipQpBg)
 ---
 ### Ofereça sugestões alternativas para resultados de estado vazio

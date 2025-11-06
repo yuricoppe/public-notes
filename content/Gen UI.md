@@ -12,11 +12,12 @@
 [https://www.fastcompany.com/91154411/say-goodbye-to-static-user-interfaces](https://www.fastcompany.com/91154411/say-goodbye-to-static-user-interfaces)
 [https://www.youtube.com/watch?v=DBhSfROq3wU&t=161s](https://www.youtube.com/watch?v=DBhSfROq3wU&t=161s)
 # Anotações
+  ![[Pasted image 20251105224911.png]]
   
-![[temp_image_1759344607292.jpg]]
-![[temp_image_1759344643920.jpg]]
-![[temp_image_1759344676742.jpg]]
-![[CleanShot_2025-10-09_at_22.15.35.png]]
-![[CleanShot_2025-10-09_at_22.03.48.png]]
-![[a06bffa0-bc84-42b1-9945-ca3fd458bc65.png]]
-![[image.png]]
+![[Pasted image 20251105224921.png]]
+![[Pasted image 20251105224943.png]]
+![[Pasted image 20251105225023.png]]
+![[Pasted image 20251105225033.png]]
+![[Pasted image 20251105225041.png]]
+![[Pasted image 20251105225048.png]]
+![[Pasted image 20251105225056.png]]

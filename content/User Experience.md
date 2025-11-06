@@ -2,22 +2,22 @@
 ## Geral
 [[UX Design]]
 [[UI Design]]
-[[Design Ops]]
+[[Design Ops/index]]
 [[Conteúdo]]
 ---
 ## Base
 [[Figma]]
 [[Design System]]
 [[Tokens]]
-[[Acessibilidade]]
+[[Acessibilidade/index]]
 [[Análise de Dados]]
 ---
 ## Específico
-[[UX Healthcare]]
-[[UX Busca]]
+[[UX Healthcare/index]]
+[[Busca/index]]
 [[Pesquisa de Satisfação do Cliente (CSAT)]]
 [[DataViz]]
-[[Pagamento]]
+[[Pagamento/index]]
 [[Gen UI]]
 ---
 # Links
