@@ -34,6 +34,7 @@
 # Dicas
 
 > [!info] Dicas de melhorias visuais para UI 
-> https://www.youtube.com/watch?v=wcZ6jSlZqDc
+> [https://www.youtube.com/watch?v=wcZ6jSlZqDc](https://www.youtube.com/watch?v=wcZ6jSlZqDc)
+
 # Referências
 [https://khagwal.com/interactions/](https://khagwal.com/interactions/)
