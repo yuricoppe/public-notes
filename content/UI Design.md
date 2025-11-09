@@ -31,5 +31,9 @@
 > A collection of free & fun SVG generators + other tools for web designers.  
 > [https://fffuel.co/](https://fffuel.co/)  
   
+# Dicas
+
+> [!info] Dicas de melhorias visuais para UI 
+> https://www.youtube.com/watch?v=wcZ6jSlZqDc
 # Referências
 [https://khagwal.com/interactions/](https://khagwal.com/interactions/)
