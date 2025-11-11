@@ -1,5 +1,6 @@
 ## Links
 [[Principles Of Web Accessibility]]
+
 [https://www.youtube.com/live/xEtKkLdAnvI](https://www.youtube.com/live/xEtKkLdAnvI)
 [https://design.google/library/designing-global-accessibility-part-1](https://design.google/library/designing-global-accessibility-part-1)
 [https://design.google/library/designing-global-accessibility-part-2](https://design.google/library/designing-global-accessibility-part-2)
@@ -13,3 +14,7 @@
 [https://martijnhols.nl/blog/accessibility-essentials-every-front-end-developer-should-know](https://martijnhols.nl/blog/accessibility-essentials-every-front-end-developer-should-know)
 [https://www.smashingmagazine.com/2025/04/fostering-accessibility-culture/?ref=sidebar](https://www.smashingmagazine.com/2025/04/fostering-accessibility-culture/?ref=sidebar)
 [https://coforma.io/perspectives/making-scannable-web-pages-for-assistive-technology](https://coforma.io/perspectives/making-scannable-web-pages-for-assistive-technology)
+
+> [!info] Inclusive Design Patterns For 2025
+> Melhor aula de acessibilidade.
+> https://www.youtube.com/watch?v=xEtKkLdAnvI&t=3s
