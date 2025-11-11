@@ -1,7 +1,9 @@
 > [!info] Figma for Edu: Advanced Protototyping Techniques  
 > Get the workshop file here: https://www.  
 > [https://www.youtube.com/watch?v=o3r1CBEFYX4](https://www.youtube.com/watch?v=o3r1CBEFYX4)  
-  
+
+> [!info] Novo figma slots
+> https://www.youtube.com/watch?v=pAnrocPfFEo
 ## Plugins
 ### Specs
 [https://www.figma.com/community/plugin/1205622541257680763/specs-formerly-eightshapes-specs](https://www.figma.com/community/plugin/1205622541257680763/specs-formerly-eightshapes-specs)
