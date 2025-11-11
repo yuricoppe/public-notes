@@ -17,4 +17,4 @@
 
 > [!info] Inclusive Design Patterns For 2025
 > Melhor aula de acessibilidade.
-> https://www.youtube.com/watch?v=xEtKkLdAnvI&t=3s
+> https://www.youtube.com/watch?v=xEtKkLdAnvI
