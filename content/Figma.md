@@ -47,4 +47,3 @@ The plugin verifies the accuracy of your designs and generates a detailed report
 Transform how you work with Figma variables. VV turns complex variable relationships into an intuitive visual map, letting you see and manage all your variables in one infinite canvas.
 
 ---
-

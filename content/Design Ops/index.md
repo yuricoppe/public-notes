@@ -21,4 +21,3 @@ description: "Artigos, processos, ferramentas e práticas de Design Operations"
 [https://learningloop.io/playbooks/](https://learningloop.io/playbooks/)
 
 ---
-

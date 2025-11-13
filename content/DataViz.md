@@ -12,4 +12,3 @@ title: "DataViz"
 [https://datavizproject.com/?ref=sidebar](https://datavizproject.com/?ref=sidebar)
 
 ---
-
