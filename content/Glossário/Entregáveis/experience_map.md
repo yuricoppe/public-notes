@@ -4,7 +4,7 @@ Um **Experience Map (Mapa de Experiência)** é uma visualização estratégica 
 
 ## Propósito Principal
 
-Os Mapas de Experiência são usados para:
+Os [[Componentes/maps|Mapas]] de Experiência são usados para:
 
 1.  **Entender a Experiência Holística:** Fornecer uma visão de ponta a ponta da experiência do cliente/usuário, incluindo interações que ocorrem fora do controle direto da organização.
 2.  **Identificar Dores e Oportunidades Não Atendidas:** Descobrir frustrações, necessidades não satisfeitas e oportunidades para inovação ou melhoria em toda a experiência, não apenas dentro de um produto específico.
@@ -17,7 +17,7 @@ Os Mapas de Experiência são usados para:
 
 A estrutura pode variar, mas geralmente inclui:
 
-*   **Persona/Ator Principal:** Quem está vivenciando esta experiência?
+*   **[[Entregáveis/persona|Persona]]/Ator Principal:** Quem está vivenciando esta experiência?
 *   **Fases/Estágios da Jornada:** As principais etapas cronológicas que a pessoa atravessa para alcançar seu objetivo (ex: Conscientização, Consideração, Aquisição, Uso, Pós-uso).
 *   **Ações:** O que a pessoa está fazendo em cada fase?
 *   **Pensamentos:** O que a pessoa está pensando em cada fase? Quais são suas perguntas, preocupações, motivações?
@@ -26,18 +26,18 @@ A estrutura pode variar, mas geralmente inclui:
 *   **Canais:** Onde essas interações ocorrem (ex: online, loja física, telefone).
 *   **Dores (Pain Points):** Frustrações, obstáculos ou dificuldades encontradas.
 *   **Oportunidades:** Áreas onde a experiência pode ser melhorada ou onde a organização pode agregar valor.
-*   **Métricas (Opcional):** Dados quantitativos que podem contextualizar a experiência em certos pontos.
+*   **[[Linguagem Visual/metricas_e_keylines|Métricas]] (Opcional):** Dados quantitativos que podem contextualizar a experiência em certos pontos.
 
-## Diferença entre Experience Map e Journey Map
+## Diferença entre Experience Map e [[Entregáveis/journey_map|Journey Map]]
 
-| Característica    | Experience Map (Mapa de Experiência)                                  | Journey Map (Mapa de Jornada do Usuário)                                  |
+| Característica    | Experience Map (Mapa de Experiência)                                  | [[Entregáveis/journey_map|Journey Map]] ([[Entregáveis/journey_map|Mapa de Jornada]] do Usuário)                                  |
 | :---------------- | :-------------------------------------------------------------------- | :---------------------------------------------------------------------- |
 | **Escopo**        | Amplo, independente de produto/serviço específico da empresa.         | Mais focado, descreve a interação com um produto/serviço específico.  |
 | **Perspectiva**   | Do cliente/usuário, olhando para o objetivo geral dele.              | Do usuário em relação a um produto/serviço da empresa.                |
 | **Foco**          | Entender a experiência humana completa para um determinado objetivo. | Melhorar a interação com um produto/serviço existente ou novo.       |
 | **Uso Principal** | Estratégico, identificar novas oportunidades, entender o contexto.    | Tático, otimizar fluxos, identificar problemas de usabilidade no produto. |
 
-Embora distintos, os termos são por vezes usados de forma intercambiável ou os mapas podem ter características híbridas. Um Mapa de Experiência pode ajudar a identificar onde um Mapa de Jornada do Usuário mais focado é necessário.
+Embora distintos, os termos são por vezes usados de forma intercambiável ou os [[Componentes/maps|mapas]] podem ter características híbridas. Um Mapa de Experiência pode ajudar a identificar onde um [[Entregáveis/journey_map|Mapa de Jornada]] do Usuário mais focado é necessário.
 
 ## Principais Benefícios
 

@@ -13,7 +13,7 @@ Define a paleta de cores primárias, secundárias, de feedback (sucesso, erro, a
 
 ## Detalhes Adicionais / Tópicos
 
-### Paletas de Cores
+### [[Linguagem Visual/paletas_por_categoria|Paletas]] de Cores
 - **Primária:** A cor principal da marca, usada em elementos de destaque e ações chave.
   - *Exemplo de Nomeação:* `cor-primaria-500` (tom principal), `cor-primaria-100` (tom mais claro), `cor-primaria-700` (tom mais escuro).
 - **Secundária:** Cores de apoio que complementam a primária, usadas para variações, estados ou elementos menos proeminentes.
@@ -28,7 +28,7 @@ Define a paleta de cores primárias, secundárias, de feedback (sucesso, erro, a
 ### Contraste e Acessibilidade
 - Todas as combinações de cor de texto sobre fundo devem atender aos critérios de contraste WCAG AA (mínimo 4.5:1 para texto normal, 3:1 para texto grande) e, idealmente, AAA.
 - Ferramentas de verificação de contraste devem ser usadas durante o design e desenvolvimento.
-- Evitar depender exclusivamente da cor para transmitir informação; usar também ícones, texto ou outros indicadores visuais.
+- Evitar depender exclusivamente da cor para transmitir informação; usar também [[Linguagem Visual/iconografia|ícones]], texto ou outros indicadores visuais.
 
 ### Significado das Cores
 - Considerar o impacto cultural e psicológico das cores.
@@ -45,26 +45,26 @@ Define a paleta de cores primárias, secundárias, de feedback (sucesso, erro, a
 ## Variações de Aplicação
 
 - **Cor Primária:**
-  - Descrição: Usada para ações principais, botões de destaque e elementos que requerem maior atenção (ex: CTAs principais, links ativos).
+  - Descrição: Usada para ações principais, [[Elementos/botoes|botões]] de destaque e elementos que requerem maior atenção (ex: CTAs principais, [[Elementos/links|links]] ativos).
   - Status: A definir
-  - Link para o Figma: [Link para Cor Primária no Figma]
+  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para Cor Primária no Figma]
 - **Cor Secundária:**
-  - Descrição: Usada para elementos de menor hierarquia, botões secundários, ênfase moderada e para adicionar variedade visual sem competir com a cor primária.
+  - Descrição: Usada para elementos de menor hierarquia, [[Elementos/botoes|botões]] secundários, ênfase moderada e para adicionar variedade visual sem competir com a cor primária.
   - Status: A definir
-  - Link para o Figma: [Link para Cor Secundária no Figma]
+  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para Cor Secundária no Figma]
 - **Cores de Feedback (Ex: Erro):**
-  - Descrição: Usada para indicar erros em formulários, mensagens de alerta críticas, status negativos. Deve ser acompanhada de texto ou ícone explicativo.
+  - Descrição: Usada para indicar erros em [[Padrões/form_structure|formulários]], [[Componentes/messaging|mensagens]] de alerta críticas, status negativos. Deve ser acompanhada de texto ou [[Linguagem Visual/iconografia|ícone]] explicativo.
   - Status: A definir
-  - Link para o Figma: [Link para Cores de Feedback no Figma]
+  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para Cores de Feedback no Figma]
 - **Cores Neutras:**
-  - Descrição: Usadas para textos de corpo, fundos de página, bordas de containers, divisores e elementos de interface que não necessitam de destaque cromático, garantindo legibilidade e uma base visual limpa.
+  - Descrição: Usadas para textos de corpo, fundos de página, bordas de [[Sistemas de Layout/containers_wrappers|containers]], divisores e elementos de interface que não necessitam de destaque cromático, garantindo legibilidade e uma base visual limpa.
   - Status: A definir
-  - Link para o Figma: [Link para Cores Neutras no Figma]
+  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para Cores Neutras no Figma]
 
 ## Status Geral
 
-**Status:** A definir (Recomenda-se definir as paletas e testar a acessibilidade antes de avançar para outros componentes)
+**Status:** A definir (Recomenda-se definir as [[Linguagem Visual/paletas_por_categoria|paletas]] e testar a acessibilidade antes de avançar para outros componentes)
 
-## Link para o Figma (Visão Geral de Cores)
+## [[Elementos/links|Link]] para o Figma (Visão Geral de Cores)
 
-[Link para a seção de Cores no Figma] 
+[[[Elementos/links|Link]] para a seção de Cores no Figma] 

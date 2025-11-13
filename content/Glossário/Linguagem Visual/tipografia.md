@@ -3,12 +3,12 @@
 ## Onde é usado
 
 A tipografia é crucial para a comunicação eficaz, legibilidade e a estética geral de uma interface. Ela é aplicada em:
-- Todos os textos: títulos, parágrafos, legendas, rótulos, links, botões.
+- Todos os textos: títulos, [[Elementos/paragrafo|parágrafos]], legendas, rótulos, [[Elementos/links|links]], [[Elementos/botoes|botões]].
 - Para estabelecer hierarquia visual clara, guiando o usuário pelo conteúdo.
 - Para garantir a acessibilidade, permitindo que o texto seja facilmente lido e compreendido por todos os usuários, incluindo aqueles com deficiências visuais.
 - Para reforçar a identidade da marca e o tom de voz do produto.
 
-Define as famílias tipográficas, pesos, tamanhos, alturas de linha e espaçamento entre letras para todos os textos do sistema, assegurando legibilidade, hierarquia visual e consistência.
+Define as famílias tipográficas, pesos, tamanhos, alturas de linha e [[Linguagem Visual/espacamento|espaçamento]] entre letras para todos os textos do sistema, assegurando legibilidade, hierarquia visual e consistência.
 
 ## Detalhes Adicionais / Tópicos
 
@@ -19,7 +19,7 @@ Define as famílias tipográficas, pesos, tamanhos, alturas de linha e espaçame
 
 ### Escala Tipográfica
 - Definir uma escala modular para tamanhos de fonte (ex: baseada em uma proporção como 1.2 ou 1.4) para criar harmonia e consistência entre os diferentes níveis de texto.
-- A escala deve incluir tamanhos para H1, H2, H3, H4, H5, H6, parágrafos, texto de destaque (lead), legendas, texto pequeno (small), etc.
+- A escala deve incluir tamanhos para H1, H2, H3, H4, H5, H6, [[Elementos/paragrafo|parágrafos]], texto de destaque (lead), legendas, texto pequeno (small), etc.
 
 ### Pesos e Estilos (Weights & Types)
 - Documentar os pesos disponíveis da família tipográfica (Light, Regular, Medium, Semibold, Bold, Black, etc.) e quando usar cada um.
@@ -33,7 +33,7 @@ Define as famílias tipográficas, pesos, tamanhos, alturas de linha e espaçame
 ### Comprimento da Linha (Line Length / Measure)
 - O número ideal de caracteres por linha para conforto de leitura (geralmente entre 45-75 caracteres).
 
-### Espaçamento entre Letras (Letter Spacing / Tracking)
+### [[Linguagem Visual/espacamento|Espaçamento]] entre Letras (Letter [[Linguagem Visual/espacamento|Spacing]] / Tracking)
 - Ajustes sutis podem ser necessários para títulos ou textos em caixa alta para melhorar a legibilidade.
 
 ### Web Fonts
@@ -59,7 +59,7 @@ Define as famílias tipográficas, pesos, tamanhos, alturas de linha e espaçame
   - Margem Inferior: [Ex: 1.5rem]
   - Outras Propriedades: [Ex: `text-transform: uppercase;` - se aplicável]
   - Status: A definir
-  - Link para o Figma: [Link para H1 no Figma]
+  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para H1 no Figma]
 
 - **Corpo de Texto (Paragraph):**
   - Descrição: Usado para blocos de texto principais, como artigos e descrições detalhadas.
@@ -69,22 +69,22 @@ Define as famílias tipográficas, pesos, tamanhos, alturas de linha e espaçame
   - Altura de Linha: [Ex: 1.6]
   - Margem Inferior: [Ex: 1rem]
   - Status: A definir
-  - Link para o Figma: [Link para Corpo de Texto no Figma]
+  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para Corpo de Texto no Figma]
 
-- **Legenda (Caption):**
-  - Descrição: Texto explicativo para imagens, tabelas ou outros elementos.
+- **[[Componentes/legend|Legenda]] ([[Componentes/caption|Caption]]):**
+  - Descrição: Texto explicativo para [[Elementos/imagem|imagens]], tabelas ou outros elementos.
   - Família: [Nome da Fonte de Leitura]
   - Peso: [Ex: Regular ou Italic]
   - Tamanho: [Ex: 0.875rem / 14px]
   - Altura de Linha: [Ex: 1.4]
-  - Cor: [Ex: Cor neutra mais clara que o corpo do texto]
+  - [[Linguagem Visual/cor|Cor]]: [Ex: [[Linguagem Visual/cor|Cor]] neutra mais clara que o corpo do texto]
   - Status: A definir
-  - Link para o Figma: [Link para Legenda no Figma]
+  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para [[Componentes/legend|Legenda]] no Figma]
 
 ## Status Geral
 
 **Status:** A definir (Crucial definir a escala e famílias antes de estilizar componentes)
 
-## Link para o Figma (Visão Geral de Tipografia)
+## [[Elementos/links|Link]] para o Figma (Visão Geral de Tipografia)
 
-[Link para a seção de Tipografia no Figma] 
+[[[Elementos/links|Link]] para a seção de Tipografia no Figma] 

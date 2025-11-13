@@ -1,12 +1,12 @@
-# Prototype Specification (Especificação de Protótipo)
+# [[Entregáveis/prototype|Prototype]] Specification (Especificação de [[Entregáveis/prototype|Protótipo]])
 
-Uma **Prototype Specification** é um documento que detalha o design, comportamento, interações e, às vezes, os aspectos técnicos de um protótipo. Ele serve como um guia para desenvolvedores que irão construir o produto final ou para outros designers que podem precisar entender ou evoluir o protótipo. Complementa o próprio protótipo interativo com anotações e explicações.
+Uma **[[Entregáveis/prototype|Prototype]] Specification** é um documento que detalha o design, comportamento, interações e, às vezes, os aspectos técnicos de um [[Entregáveis/prototype|protótipo]]. Ele serve como um guia para desenvolvedores que irão construir o produto final ou para outros designers que podem precisar entender ou evoluir o [[Entregáveis/prototype|protótipo]]. Complementa o próprio [[Entregáveis/prototype|protótipo]] interativo com anotações e explicações.
 
 ## Propósito Principal
 
-O objetivo principal de uma Especificação de Protótipo é:
+O objetivo principal de uma Especificação de [[Entregáveis/prototype|Protótipo]] é:
 
-*   **Comunicar Detalhes do Design:** Fornecer informações claras e inequívocas sobre como o protótipo (e, por extensão, o produto final pretendido) deve parecer, se comportar e funcionar.
+*   **Comunicar Detalhes do Design:** Fornecer informações claras e inequívocas sobre como o [[Entregáveis/prototype|protótipo]] (e, por extensão, o produto final pretendido) deve parecer, se comportar e funcionar.
 *   **Guiar o Desenvolvimento:** Ajudar os desenvolvedores a implementar o design com precisão.
 *   **Documentar Decisões de Design:** Registrar as escolhas de design e a lógica por trás delas.
 *   **Garantir Consistência:** Ajudar a manter a consistência na implementação de elementos de interface e interações.
@@ -14,29 +14,29 @@ O objetivo principal de uma Especificação de Protótipo é:
 
 ## Como Funciona
 
-O conteúdo de uma Especificação de Protótipo pode variar dependendo da complexidade do protótipo e das necessidades da equipe, mas geralmente inclui:
+O conteúdo de uma Especificação de [[Entregáveis/prototype|Protótipo]] pode variar dependendo da complexidade do [[Entregáveis/prototype|protótipo]] e das necessidades da equipe, mas geralmente inclui:
 
 1.  **Visão Geral:**
-    *   Objetivos do protótipo.
+    *   Objetivos do [[Entregáveis/prototype|protótipo]].
     *   Escopo (quais funcionalidades ou fluxos estão incluídos).
-    *   Link para o protótipo interativo.
-2.  **Especificações Visuais (se não cobertas por um Design System ou Style Guide separado):**
-    *   Paletas de cores, tipografia, iconografia.
+    *   [[Elementos/links|Link]] para o [[Entregáveis/prototype|protótipo]] interativo.
+2.  **Especificações Visuais (se não cobertas por um [[Entregáveis/design_system|Design System]] ou [[Entregáveis/style_guide|Style Guide]] separado):**
+    *   [[Linguagem Visual/paletas_por_categoria|Paletas]] de [[Linguagem Visual/cor|cores]], [[Linguagem Visual/tipografia|tipografia]], [[Linguagem Visual/iconografia|iconografia]].
     *   Layouts de tela, grids, espaçamentos.
     *   Estilos de componentes de UI.
 3.  **Especificações de Interação:**
-    *   Descrição detalhada de como os elementos interativos se comportam (estados de botões, menus, formulários, etc.).
+    *   Descrição detalhada de como os elementos interativos se comportam (estados de [[Elementos/botoes|botões]], [[Componentes/menu|menus]], [[Padrões/form_structure|formulários]], etc.).
     *   Mapeamento de fluxos de usuário e navegação entre telas.
     *   Gestos (para mobile) ou interações de teclado.
     *   Animações e transições.
-    *   Feedback do sistema (mensagens de erro, confirmações, indicadores de carregamento).
+    *   Feedback do sistema ([[Componentes/messaging|mensagens]] de erro, confirmações, indicadores de carregamento).
 4.  **Lógica Condicional e Regras de Negócio (quando aplicável):**
     *   Como o sistema responde a diferentes entradas de usuário ou condições.
 5.  **Conteúdo:**
     *   Especificações para texto (microcopy, rótulos, instruções).
-    *   Diretrizes para imagens ou outros tipos de mídia.
-6.  **Anotações:** Comentários específicos em capturas de tela ou diretamente no protótipo (se a ferramenta permitir) para explicar comportamentos ou requisitos particulares.
-7.  **Casos de Uso e Cenários:** Descrição de como os usuários interagem com o protótipo para realizar tarefas específicas.
+    *   Diretrizes para [[Elementos/imagem|imagens]] ou outros tipos de mídia.
+6.  **Anotações:** [[Componentes/comments|Comentários]] específicos em capturas de tela ou diretamente no [[Entregáveis/prototype|protótipo]] (se a ferramenta permitir) para explicar comportamentos ou requisitos particulares.
+7.  **Casos de Uso e Cenários:** Descrição de como os usuários interagem com o [[Entregáveis/prototype|protótipo]] para realizar tarefas específicas.
 8.  **Considerações de Acessibilidade (opcional, mas recomendado):** Notas sobre como garantir que o design seja acessível.
 
 ## Formato
@@ -54,8 +54,8 @@ O conteúdo de uma Especificação de Protótipo pode variar dependendo da compl
 
 ## Quando Utilizar
 
-*   Normalmente após a criação e teste de um protótipo de média a alta fidelidade, antes ou durante o "handoff" (entrega) para a equipe de desenvolvimento.
-*   Quando o protótipo por si só não é suficiente para transmitir todos os detalhes necessários para a implementação.
+*   Normalmente após a criação e teste de um [[Entregáveis/prototype|protótipo]] de média a alta fidelidade, antes ou durante o "handoff" (entrega) para a equipe de desenvolvimento.
+*   Quando o [[Entregáveis/prototype|protótipo]] por si só não é suficiente para transmitir todos os detalhes necessários para a implementação.
 *   Em projetos complexos com muitas interações ou regras de negócio específicas.
 
 ## Ferramentas Comuns
@@ -66,7 +66,7 @@ O conteúdo de uma Especificação de Protótipo pode variar dependendo da compl
 
 ## Referências (NN/g)
 
-*   Veja também: [Prototype](#prototype.md), [Design System](#design_system.md), [Style Guide](#) (será criado)
+*   Veja também: [Prototype](#[[Entregáveis/prototype|prototype]].md), [Design System](#design_system.md), [Style Guide](#) (será criado)
 
 ---
 

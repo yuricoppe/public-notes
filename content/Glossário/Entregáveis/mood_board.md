@@ -10,12 +10,12 @@ O principal objetivo de um mood board é estabelecer uma direção visual e/ou c
 
 1.  **Definir o Tema/Conceito:** Clarificar o objetivo do mood board (ex: o visual de um novo website, a sensação de uma campanha de marca, o estilo de um espaço físico).
 2.  **Coletar Inspiração:** Reunir diversos elementos visuais e textuais que evocam o tema desejado. Isso pode incluir:
-    *   **Imagens:** Fotografias, ilustrações, texturas, padrões.
-    *   **Cores:** Paletas de cores, amostras de cores.
-    *   **Tipografia:** Exemplos de fontes, estilos de texto.
+    *   **[[Elementos/imagem|Imagens]]:** Fotografias, ilustrações, texturas, padrões.
+    *   **[[Linguagem Visual/cor|Cores]]:** [[Linguagem Visual/paletas_por_categoria|Paletas]] de [[Linguagem Visual/cor|cores]], amostras de [[Linguagem Visual/cor|cores]].
+    *   **[[Linguagem Visual/tipografia|Tipografia]]:** Exemplos de fontes, estilos de texto.
     *   **Palavras-Chave:** Adjetivos, frases, citações que descrevem o humor ou conceito.
     *   **Materiais (para mood boards físicos):** Amostras de tecido, papel, texturas.
-    *   **Ícones e UI Elements (para design digital):** Exemplos de estilos de interface.
+    *   **[[Linguagem Visual/iconografia|Ícones]] e UI Elements (para design digital):** Exemplos de estilos de interface.
 3.  **Selecionar e Organizar:** Escolher os elementos mais relevantes e impactantes da coleção.
 4.  **Compor o Board:** Arranjar os elementos selecionados em uma composição visual coesa. A disposição pode ser intuitiva, buscando um equilíbrio e harmonia que reforcem o conceito central.
 5.  **Apresentar e Discutir:** Compartilhar o mood board com a equipe e/ou stakeholders para discutir a direção visual, coletar feedback e refinar o conceito.
@@ -47,7 +47,7 @@ O principal objetivo de um mood board é estabelecer uma direção visual e/ou c
 
 ## Referências (NN/g)
 
-*   Veja também: [Style Guide](#) (Nota: Link para Style Guide será atualizado quando o documento correspondente for criado), [Design System](#design_system.md)
+*   Veja também: [Style Guide](#) (Nota: [[Elementos/links|Link]] para [[Entregáveis/style_guide|Style Guide]] será atualizado quando o documento correspondente for criado), [Design System](#design_system.md)
 
 ---
 

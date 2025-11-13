@@ -14,7 +14,7 @@ Este mapa fornece uma visão holística do produto da perspectiva do usuário, f
 - **Etapas/Tarefas do Usuário (User Tasks/Steps):** Ações ou tarefas menores que compõem cada atividade da espinha dorsal (ex: para "Reservar Hotel", as tarefas podem ser "Pesquisar Hotéis", "Comparar Preços", "Selecionar Quarto", "Inserir Pagamento"). Estas são organizadas verticalmente sob cada atividade.
 - **Histórias de Usuário (User Stories):** Detalhes específicos ou funcionalidades que permitem ao usuário completar cada tarefa. Frequentemente escritas no formato "Como um [tipo de usuário], eu quero [ação] para que [benefício]". São colocadas abaixo das tarefas correspondentes.
 - **Releases/Versões (Opcional):** Linhas horizontais que cortam o mapa para agrupar histórias em releases ou sprints, ajudando a visualizar o que será entregue e quando.
-- **Personas (Opcional):** Pode-se indicar para qual persona cada atividade ou conjunto de histórias é mais relevante.
+- **[[Entregáveis/persona|Personas]] (Opcional):** Pode-se indicar para qual [[Entregáveis/persona|persona]] cada atividade ou conjunto de histórias é mais relevante.
 
 ## Benefícios
 
@@ -30,13 +30,13 @@ Este mapa fornece uma visão holística do produto da perspectiva do usuário, f
 
 - **Planejamento de Produto e Release:** Especialmente em metodologias Ágeis.
 - **Definição de MVP:** Para focar nas funcionalidades essenciais da primeira versão.
-- **Gerenciamento de Backlog:** Para organizar e visualizar o backlog de forma mais significativa do que uma lista linear.
+- **Gerenciamento de Backlog:** Para organizar e visualizar o backlog de forma mais significativa do que uma [[Elementos/listas|lista]] linear.
 - **Workshops de Iniciação de Projeto (Inception Workshops).**
 - **Para garantir que o desenvolvimento esteja alinhado com a jornada do usuário.**
 
 ## Como Construir um User-Story Map
 
-1.  **Definir o Usuário (Personas):** Quem são os usuários e quais seus objetivos principais?
+1.  **Definir o Usuário ([[Entregáveis/persona|Personas]]):** Quem são os usuários e quais seus objetivos principais?
 2.  **Mapear a Espinha Dorsal:** Identificar as grandes atividades que o usuário realiza em sequência.
 3.  **Detalhar as Tarefas:** Para cada atividade da espinha dorsal, listar as etapas ou tarefas menores.
 4.  **Escrever as Histórias de Usuário:** Para cada tarefa, gerar as histórias de usuário que habilitam essa tarefa.
@@ -48,14 +48,14 @@ Este mapa fornece uma visão holística do produto da perspectiva do usuário, f
 - **Colaboração é Chave:** O valor do mapa é maximizado quando criado colaborativamente.
 - **Documento Vivo:** Deve ser atualizado à medida que o produto evolui e novos aprendizados surgem.
 - **Ferramentas:** Pode ser feito fisicamente (com post-its em uma parede) ou digitalmente com ferramentas especializadas.
-- **Não é Apenas sobre Funcionalidades:** Deve refletir a jornada e os objetivos do usuário, não apenas uma lista de features.
+- **Não é Apenas sobre Funcionalidades:** Deve refletir a jornada e os objetivos do usuário, não apenas uma [[Elementos/listas|lista]] de features.
 
 ## Relacionado
 
 - [História de UX (Story UX)](./story_ux.md)
 - [Jobs-to-Be-Done](./job_to_be_done.md)
 - [Mapa de Jornada (Journey Map)](./journey_map.md)
-- [Persona](./persona.md)
+- [Persona](./[[Entregáveis/persona|persona]].md)
 
 ## Referência Externa
 

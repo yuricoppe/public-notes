@@ -1,6 +1,6 @@
 # Cognitive Map (Mapa Cognitivo)
 
-Um **Cognitive Map (Mapa Cognitivo)** é uma representação visual do modelo mental de uma pessoa ou grupo sobre um determinado processo, conceito, sistema ou ambiente. Diferentemente de outros mapas mais estruturados, o mapeamento cognitivo é uma técnica de forma livre (free-form) e pode utilizar diversas abordagens de visualização, como listas com marcadores, fluxogramas, mapas conceituais, mapas mentais ou até mesmo diagramas de afinidade, dependendo do que melhor representa a estrutura mental do indivíduo.
+Um **Cognitive Map (Mapa Cognitivo)** é uma representação visual do modelo mental de uma pessoa ou grupo sobre um determinado processo, conceito, sistema ou ambiente. Diferentemente de outros [[Componentes/maps|mapas]] mais estruturados, o mapeamento cognitivo é uma técnica de forma livre (free-form) e pode utilizar diversas abordagens de visualização, como [[Elementos/listas|listas]] com marcadores, fluxogramas, [[Componentes/maps|mapas]] conceituais, [[Componentes/maps|mapas]] mentais ou até mesmo diagramas de afinidade, dependendo do que melhor representa a estrutura mental do indivíduo.
 
 ## Propósito Principal
 
@@ -18,7 +18,7 @@ A criação de um mapa cognitivo geralmente envolve:
 
 1.  **Coleta de Dados:** Através de entrevistas, observações, ou sessões de verbalização (think-aloud protocols), onde os participantes explicam seu entendimento sobre um tópico.
 2.  **Externalização:** O participante pode ser solicitado a desenhar, esquematizar ou listar os componentes e relações do conceito em questão.
-3.  **Visualização pelo Pesquisador:** O pesquisador então organiza e refina essa externalização em uma forma visual mais clara, que pode ser um dos vários tipos de diagramas (mapa mental, conceitual, etc.).
+3.  **Visualização pelo Pesquisador:** O pesquisador então organiza e refina essa externalização em uma forma visual mais clara, que pode ser um dos vários tipos de diagramas ([[Entregáveis/mind_map|mapa mental]], conceitual, etc.).
 4.  **Iteração e Validação (Opcional):** O mapa pode ser revisado com o participante para garantir que representa acuradamente seu modelo mental.
 
 ## Características Chave
@@ -28,13 +28,13 @@ A criação de um mapa cognitivo geralmente envolve:
 *   **Foco na Estrutura do Pensamento:** Mais do que apenas listar itens, busca mostrar as relações, hierarquias e a organização percebida dos conceitos.
 *   **Qualitativo:** Baseia-se em dados qualitativos para entender a profundidade do modelo mental.
 
-## Métodos de Visualização Comuns (Podem Ser Usados para Representar Mapas Cognitivos)
+## Métodos de Visualização Comuns (Podem Ser Usados para Representar [[Componentes/maps|Mapas]] Cognitivos)
 
 *   **[Concept Map (Mapa Conceitual)](./concept_map.md):** Mostra relações entre conceitos através de nós e setas direcionadas e rotuladas.
 *   **[Mind Map (Mapa Mental)](./mind_map.md):** Organiza informações hierarquicamente ao redor de um conceito central, com ramificações.
 *   **[Affinity Diagram (Diagrama de Afinidade)](./affinity_diagram.md):** Agrupa ideias e conceitos baseados em afinidade (usado mais para grupos).
 *   **Fluxogramas:** Representam processos e sequências de decisão.
-*   **Listas e Esboços:** Formas mais simples de externalização.
+*   **[[Elementos/listas|Listas]] e Esboços:** Formas mais simples de externalização.
 
 ## Principais Benefícios
 
@@ -54,8 +54,8 @@ A criação de um mapa cognitivo geralmente envolve:
 ## Referências (NN/g)
 
 *   Artigo Relacionado: [Cognitive Mapping in User Research](https://www.nngroup.com/articles/cognitive-mapping-user-research/)
-*   Vídeo Relacionado: [3 Powerful Visual Mapping Strategies in UX Design](https://www.nngroup.com/videos/visual-mapping-strategies-ux-design/) (Cobre Mapas Cognitivos, Mapas Mentais e Mapas Conceituais)
-*   Veja também: [Concept Map](./concept_map.md), [Mind Map](./mind_map.md), [Affinity Diagram](./affinity_diagram.md) (Nota: Links serão atualizados ou verificados conforme os documentos são criados).
+*   Vídeo Relacionado: [3 Powerful Visual Mapping Strategies in UX Design](https://www.nngroup.com/videos/visual-mapping-strategies-ux-design/) (Cobre [[Componentes/maps|Mapas]] Cognitivos, [[Componentes/maps|Mapas]] Mentais e [[Componentes/maps|Mapas]] Conceituais)
+*   Veja também: [Concept Map](./concept_map.md), [Mind Map](./mind_map.md), [Affinity Diagram](./affinity_diagram.md) (Nota: [[Elementos/links|Links]] serão atualizados ou verificados conforme os documentos são criados).
 
 ---
 

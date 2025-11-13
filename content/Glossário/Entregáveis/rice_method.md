@@ -44,7 +44,7 @@ As iniciativas com as maiores pontuações RICE são priorizadas mais alto.
 ## Como Funciona
 
 1.  **Listar Ideias/Funcionalidades:** Reunir todas as iniciativas a serem priorizadas.
-2.  **Estimar Cada Fator:** Para cada item da lista, a equipe (geralmente de forma colaborativa) estima os valores para Alcance, Impacto, Confiança e Esforço.
+2.  **Estimar Cada Fator:** Para cada item da [[Elementos/listas|lista]], a equipe (geralmente de forma colaborativa) estima os valores para Alcance, Impacto, Confiança e Esforço.
 3.  **Calcular a Pontuação RICE:** Aplicar a fórmula para obter a pontuação de cada item.
 4.  **Classificar e Priorizar:** Ordenar os itens pela pontuação RICE, do maior para o menor.
 5.  **Discutir e Refinar:** A pontuação RICE é um guia, não uma regra absoluta. A equipe deve discutir os resultados, considerar outros fatores qualitativos e fazer ajustes se necessário.

@@ -8,7 +8,7 @@ O Teste de Esboço é uma técnica simples e eficaz para avaliar a clareza e a c
 
 ## Como Funciona
 
-1.  **Preparação:** Selecione o entregável que deseja testar (ex: um wireframe, fluxograma, persona, relatório de pesquisa).
+1.  **Preparação:** Selecione o entregável que deseja testar (ex: um [[Entregáveis/wireframe|wireframe]], fluxograma, [[Entregáveis/persona|persona]], relatório de pesquisa).
 2.  **Seleção do Participante:** Escolha um colega ou stakeholder que tenha alguma familiaridade com o contexto do projeto, mas que não tenha criado o documento.
 3.  **Instruções:** Peça ao participante para revisar o documento por um período limitado (ex: 5-10 minutos) e, em seguida, criar um esboço rápido ou um resumo escrito dos pontos principais e do propósito do documento.
 4.  **Observação:** Observe o participante enquanto ele cria o esboço/resumo. Preste atenção em quais informações ele captura, quais omite e se há sinais de confusão.

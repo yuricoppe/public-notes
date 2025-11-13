@@ -4,19 +4,19 @@ Um artefato estratégico e vivo que alinha, prioriza e comunica o trabalho futur
 
 ## Visão Geral
 
-Um Roadmap de UX é um plano de alto nível que descreve as principais iniciativas, projetos e áreas de foco para a equipe de Experiência do Usuário ao longo do tempo. Ele não é apenas uma lista de funcionalidades, mas uma declaração estratégica sobre como a equipe de UX contribuirá para os objetivos do negócio e melhorará a experiência do usuário.
+Um Roadmap de UX é um plano de alto nível que descreve as principais iniciativas, projetos e áreas de foco para a equipe de Experiência do Usuário ao longo do tempo. Ele não é apenas uma [[Elementos/listas|lista]] de funcionalidades, mas uma declaração estratégica sobre como a equipe de UX contribuirá para os objetivos do negócio e melhorará a experiência do usuário.
 
 Ele ajuda a alinhar a equipe de UX, comunicar prioridades para stakeholders e garantir que os esforços de UX sejam proativos e estratégicos, em vez de puramente reativos.
 
 ## Componentes Chave
 
-- **Temas/Iniciativas Estratégicas de UX:** Grandes áreas de foco ou problemas a serem resolvidos (ex: "Melhorar o Onboarding de Novos Usuários", "Redesenhar o Processo de Checkout", "Implementar Pesquisa Contínua").
-- **Objetivos de UX:** Metas específicas que cada iniciativa visa alcançar, frequentemente ligadas a métricas de UX ou KPIs de negócio (ex: "Aumentar a taxa de conclusão do onboarding em 20%", "Reduzir o tempo de checkout em 15 segundos").
+- **Temas/Iniciativas Estratégicas de UX:** Grandes áreas de foco ou problemas a serem resolvidos (ex: "Melhorar o [[Padrões/launch|Onboarding]] de Novos Usuários", "Redesenhar o Processo de [[Padrões/purchase_checkout|Checkout]]", "Implementar Pesquisa Contínua").
+- **Objetivos de UX:** Metas específicas que cada iniciativa visa alcançar, frequentemente ligadas a [[Linguagem Visual/metricas_e_keylines|métricas]] de UX ou KPIs de negócio (ex: "Aumentar a taxa de conclusão do [[Padrões/launch|onboarding]] em 20%", "Reduzir o tempo de [[Padrões/purchase_checkout|checkout]] em 15 segundos").
 - **Projetos/Entregáveis:** Esforços concretos ou artefatos que serão produzidos dentro de cada iniciativa.
 - **Cronograma (Horizonte de Planejamento):** Geralmente dividido em fases como "Agora" (curto prazo), "Próximo" (médio prazo) e "Futuro/Depois" (longo prazo), em vez de datas específicas rígidas.
 - **Prioridades:** Indicação da importância relativa das iniciativas.
-- **Métricas de Sucesso (Opcional, mas Recomendado):** Como o impacto das iniciativas de UX será medido.
-- **Dependências:** Conexões com outras equipes ou roadmaps (ex: Product Roadmap, Tech Roadmap).
+- **[[Linguagem Visual/metricas_e_keylines|Métricas]] de Sucesso (Opcional, mas Recomendado):** Como o impacto das iniciativas de UX será medido.
+- **Dependências:** Conexões com outras equipes ou roadmaps (ex: [[Entregáveis/product_roadmap|Product Roadmap]], Tech Roadmap).
 - **Status (Opcional):** Para acompanhar o progresso das iniciativas.
 
 ## Benefícios
@@ -38,9 +38,9 @@ Ele ajuda a alinhar a equipe de UX, comunicar prioridades para stakeholders e ga
 ## Tipos de UX Roadmaps
 
 Conforme o glossário da NN/g, existem diferentes granularidades:
-- **Product Roadmap:** Foca nas funcionalidades e no desenvolvimento do produto ao longo do tempo (UX é um componente).
-- **Field Roadmap:** Mais amplo, cobre problemas de UX em várias áreas ou produtos.
-- **Specialty Roadmap:** Focado em uma disciplina específica de UX (ex: Pesquisa, Design System).
+- **[[Entregáveis/product_roadmap|Product Roadmap]]:** Foca nas funcionalidades e no desenvolvimento do produto ao longo do tempo (UX é um componente).
+- **[[Entregáveis/field_roadmap|Field Roadmap]]:** Mais amplo, cobre problemas de UX em várias áreas ou produtos.
+- **[[Entregáveis/specialty_roadmap|Specialty Roadmap]]:** Focado em uma disciplina específica de UX (ex: Pesquisa, [[Entregáveis/design_system|Design System]]).
 - **UX Roadmap (geral):** Pode ser um destes ou uma combinação, dependendo do contexto da equipe.
 
 O termo "UX Roadmap" aqui se refere ao plano estratégico específico da equipe de UX.

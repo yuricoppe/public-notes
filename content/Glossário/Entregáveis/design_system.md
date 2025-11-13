@@ -1,6 +1,6 @@
 # Design System (Sistema de Design)
 
-Um **Design System (Sistema de Design)** é uma coleção abrangente e viva de componentes de interface reutilizáveis, diretrizes claras, princípios de design e código, tudo organizado e documentado para guiar o design e desenvolvimento de produtos digitais de forma consistente e eficiente. É mais do que apenas uma biblioteca de UI ou um guia de estilo; é um ecossistema completo que promove a colaboração entre designers e desenvolvedores.
+Um **Design System (Sistema de Design)** é uma coleção abrangente e viva de componentes de interface reutilizáveis, diretrizes claras, princípios de design e [[Elementos/codigo|código]], tudo organizado e documentado para guiar o design e desenvolvimento de produtos digitais de forma consistente e eficiente. É mais do que apenas uma biblioteca de UI ou um [[Entregáveis/style_guide|guia de estilo]]; é um ecossistema completo que promove a colaboração entre designers e desenvolvedores.
 
 ## Propósito Principal
 
@@ -19,18 +19,18 @@ Os principais objetivos de um Design System são:
 Um Design System robusto geralmente inclui:
 
 *   **Fundamentos do Design (Design Foundations/Tokens):**
-    *   **Cores:** Paletas primárias, secundárias, de destaque, de feedback.
-    *   **Tipografia:** Escalas tipográficas, famílias de fontes, pesos, alturas de linha.
-    *   **Espaçamento e Grid:** Sistemas de espaçamento, layouts de grid.
-    *   **Iconografia:** Biblioteca de ícones e diretrizes de uso.
-    *   **Imagem e Ilustração:** Estilos e diretrizes.
+    *   **[[Linguagem Visual/cor|Cores]]:** [[Linguagem Visual/paletas_por_categoria|Paletas]] primárias, secundárias, de destaque, de feedback.
+    *   **[[Linguagem Visual/tipografia|Tipografia]]:** Escalas tipográficas, famílias de fontes, pesos, alturas de linha.
+    *   **[[Linguagem Visual/espacamento|Espaçamento]] e Grid:** Sistemas de [[Linguagem Visual/espacamento|espaçamento]], layouts de grid.
+    *   **[[Linguagem Visual/iconografia|Iconografia]]:** Biblioteca de [[Linguagem Visual/iconografia|ícones]] e diretrizes de uso.
+    *   **[[Elementos/imagem|Imagem]] e Ilustração:** Estilos e diretrizes.
     *   **Tom de Voz e Linguagem:** Princípios para a comunicação escrita.
 *   **Componentes de UI (UI Components):**
-    *   Elementos básicos como Botões, Inputs, Checkboxes, Rádios, Toggles, Badges, etc.
-    *   Componentes mais complexos como Cards, Modais, Navegações, Tabelas, Acordeões, Carrosséis, etc.
-    *   Para cada componente: documentação de uso, especificações visuais, código (HTML/CSS, React, Angular, Vue, etc.), diretrizes de acessibilidade, variações e estados.
+    *   Elementos básicos como [[Elementos/botoes|Botões]], Inputs, [[Elementos/form_controls|Checkboxes]], Rádios, [[Elementos/interruptor|Toggles]], [[Componentes/badges|Badges]], etc.
+    *   Componentes mais complexos como [[Componentes/cards|Cards]], [[Componentes/dialog|Modais]], Navegações, Tabelas, Acordeões, Carrosséis, etc.
+    *   Para cada componente: documentação de uso, especificações visuais, [[Elementos/codigo|código]] (HTML/CSS, React, Angular, Vue, etc.), diretrizes de acessibilidade, variações e estados.
 *   **Padrões de UI (UI Patterns):**
-    *   Soluções de design reutilizáveis para problemas comuns de interface (ex: formulários, busca, onboarding, gerenciamento de dados).
+    *   Soluções de design reutilizáveis para problemas comuns de interface (ex: [[Padrões/form_structure|formulários]], busca, [[Padrões/launch|onboarding]], gerenciamento de dados).
     *   Como combinar componentes para criar experiências eficazes.
 *   **Diretrizes de Acessibilidade (Accessibility Guidelines - a11y):**
     *   Como garantir que os produtos sejam utilizáveis por pessoas com diversas habilidades.
@@ -38,27 +38,27 @@ Um Design System robusto geralmente inclui:
     *   Valores e objetivos que guiam as decisões de design em toda a organização.
 *   **Recursos para Designers e Desenvolvedores:**
     *   Bibliotecas de UI para ferramentas de design (Figma, Sketch, Adobe XD).
-    *   Bibliotecas de componentes de código.
+    *   Bibliotecas de componentes de [[Elementos/codigo|código]].
     *   Ferramentas e plugins.
 *   **Governança e Manutenção:**
     *   Processo para propor, revisar, aprovar e implementar novos componentes ou atualizações.
     *   Quem é responsável pela manutenção e evolução do sistema.
     *   Versionamento.
 
-## Design System vs. Guia de Estilo vs. Biblioteca de Padrões
+## Design System vs. [[Entregáveis/style_guide|Guia de Estilo]] vs. Biblioteca de Padrões
 
-*   **Guia de Estilo (Style Guide):** Foca nos aspectos visuais e de marca (cores, tipografia, logo). É uma parte do Design System.
+*   **[[Entregáveis/style_guide|Guia de Estilo]] ([[Entregáveis/style_guide|Style Guide]]):** Foca nos aspectos visuais e de marca ([[Linguagem Visual/cor|cores]], [[Linguagem Visual/tipografia|tipografia]], logo). É uma parte do Design System.
 *   **Biblioteca de Padrões (Pattern Library):** Coleção de soluções de design reutilizáveis (padrões de UI). Também é uma parte do Design System.
-*   **Design System:** É o conjunto completo e integrado de todos esses elementos, incluindo código, princípios, governança e documentação mais abrangente.
+*   **Design System:** É o conjunto completo e integrado de todos esses elementos, incluindo [[Elementos/codigo|código]], princípios, governança e documentação mais abrangente.
 
 ## Principais Benefícios
 
-*   **Desenvolvimento Acelerado:** Reutilização de código e design.
+*   **Desenvolvimento Acelerado:** Reutilização de [[Elementos/codigo|código]] e design.
 *   **Redução de Inconsistências:** Experiência de marca unificada.
 *   **Colaboração Melhorada:** Designers e desenvolvedores trabalham com os mesmos blocos de construção.
 *   **Manutenção Simplificada:** Atualizações centralizadas.
 *   **Melhor Experiência do Usuário:** Interfaces mais previsíveis e fáceis de usar.
-*   **Onboarding Facilitado:** Novos membros da equipe podem se familiarizar mais rapidamente com os padrões.
+*   **[[Padrões/launch|Onboarding]] Facilitado:** Novos membros da equipe podem se familiarizar mais rapidamente com os padrões.
 
 ## Quando Implementar/Utilizar
 
@@ -71,7 +71,7 @@ Um Design System robusto geralmente inclui:
 ## Referências (NN/g)
 
 *   Artigo Relacionado: [Design Systems vs. Style Guides](https://www.nngroup.com/articles/design-systems-vs-style-guides/)
-*   Veja também: [Style Guide](./style_guide.md), [Mood Board](./mood_board.md) (Nota: Links serão atualizados quando os documentos correspondentes forem criados).
+*   Veja também: [Style Guide](./style_guide.md), [Mood Board](./mood_board.md) (Nota: [[Elementos/links|Links]] serão atualizados quando os documentos correspondentes forem criados).
 
 ---
 

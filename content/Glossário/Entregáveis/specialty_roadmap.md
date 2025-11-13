@@ -4,16 +4,16 @@ Um subconjunto de roadmaps de campo que se concentram apenas em problemas dentro
 
 ## Visão Geral
 
-Um Roadmap de Especialidade é um plano estratégico focado em uma disciplina particular dentro da experiência do usuário, como Pesquisa UX, Design de Conteúdo, Design System, Acessibilidade, etc. Diferente de um Product Roadmap (que foca em funcionalidades do produto) ou um UX Roadmap mais amplo (que cobre todas as iniciativas de UX), o Specialty Roadmap detalha as metas, iniciativas, prioridades e cronogramas para o desenvolvimento e amadurecimento de uma área de especialização específica.
+Um Roadmap de Especialidade é um plano estratégico focado em uma disciplina particular dentro da experiência do usuário, como Pesquisa UX, Design de Conteúdo, [[Entregáveis/design_system|Design System]], Acessibilidade, etc. Diferente de um [[Entregáveis/product_roadmap|Product Roadmap]] (que foca em funcionalidades do produto) ou um [[Entregáveis/ux_roadmap|UX Roadmap]] mais amplo (que cobre todas as iniciativas de UX), o Specialty Roadmap detalha as metas, iniciativas, prioridades e cronogramas para o desenvolvimento e amadurecimento de uma área de especialização específica.
 
 ## Componentes Chave
 
 - **Foco da Especialidade:** Claramente definido (ex: Pesquisa Operacional, Maturidade em Design de Interação).
-- **Metas da Especialidade:** Objetivos específicos que a equipe de especialistas busca alcançar (ex: "Integrar insights de pesquisa em 80% das decisões de design de produto até o Q4" ou "Lançar a v2 do Design System com cobertura para componentes mobile").
+- **Metas da Especialidade:** Objetivos específicos que a equipe de especialistas busca alcançar (ex: "Integrar insights de pesquisa em 80% das decisões de design de produto até o Q4" ou "Lançar a v2 do [[Entregáveis/design_system|Design System]] com cobertura para componentes mobile").
 - **Iniciativas e Projetos:** Ações e projetos concretos planejados para atingir as metas.
 - **Prioridades:** Classificação das iniciativas com base em impacto, esforço, dependências, etc.
 - **Cronograma:** Linha do tempo para a execução das iniciativas (ex: trimestral, semestral).
-- **Métricas de Sucesso:** Como o progresso e o sucesso da especialidade serão medidos.
+- **[[Linguagem Visual/metricas_e_keylines|Métricas]] de Sucesso:** Como o progresso e o sucesso da especialidade serão medidos.
 - **Recursos Necessários:** Pessoas, ferramentas ou orçamento necessários.
 - **Dependências:** Conexões com outros roadmaps ou equipes.
 
@@ -34,7 +34,7 @@ Um Roadmap de Especialidade é um plano estratégico focado em uma disciplina pa
 
 ## Considerações
 
-- **Alinhamento com Roadmaps Maiores:** Deve estar alinhado com o UX Roadmap geral e o Product Roadmap.
+- **Alinhamento com Roadmaps Maiores:** Deve estar alinhado com o [[Entregáveis/ux_roadmap|UX Roadmap]] geral e o [[Entregáveis/product_roadmap|Product Roadmap]].
 - **Flexibilidade:** Deve ser adaptável a mudanças nas prioridades do negócio ou descobertas da equipe.
 - **Colaboração:** Desenvolvido em colaboração com os especialistas da área e stakeholders relevantes.
 - **Comunicação:** Compartilhado amplamente para garantir visibilidade e alinhamento.

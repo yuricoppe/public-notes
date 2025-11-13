@@ -27,7 +27,7 @@ Embora a estrutura possa variar, um Plano de Pesquisa de UX geralmente inclui:
 4.  **Questões de Pesquisa (Research Questions):**
     *   As perguntas específicas que o estudo tentará responder para atingir os objetivos. Devem ser focadas e pesquisáveis.
 5.  **Metodologia (Methodology):**
-    *   Qual abordagem de pesquisa será usada (ex: entrevistas com usuários, teste de usabilidade, survey, card sorting, pesquisa de campo)?
+    *   Qual abordagem de pesquisa será usada (ex: entrevistas com usuários, teste de usabilidade, [[Entregáveis/survey|survey]], [[Componentes/cards|card]] sorting, pesquisa de campo)?
     *   Justificativa para a escolha do método.
     *   Descrição detalhada de como o método será aplicado (ex: tipo de teste de usabilidade, formato das entrevistas).
 6.  **Participantes (Participants):**
@@ -39,7 +39,7 @@ Embora a estrutura possa variar, um Plano de Pesquisa de UX geralmente inclui:
 7.  **Cronograma (Timeline/Schedule):**
     *   Datas estimadas para as principais fases da pesquisa: planejamento, recrutamento, coleta de dados, análise, elaboração de relatório e apresentação.
 8.  **Entregáveis (Deliverables):**
-    *   Quais serão os resultados ou artefatos produzidos pela pesquisa (ex: relatório de descobertas, apresentação, personas, journey maps, clipes de vídeo)?
+    *   Quais serão os resultados ou artefatos produzidos pela pesquisa (ex: relatório de descobertas, apresentação, [[Entregáveis/persona|personas]], journey [[Componentes/maps|maps]], clipes de vídeo)?
 9.  **Equipe de Pesquisa e Papéis:** Quem é responsável por cada aspecto da pesquisa.
 10. **Riscos e Mitigações (Opcional):** Possíveis desafios e como serão abordados.
 11. **Orçamento (Opcional):** Custos associados à pesquisa (recrutamento, ferramentas, etc.).

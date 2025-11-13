@@ -1,6 +1,6 @@
 # Content Inventory (Inventário de Conteúdo)
 
-Um **Content Inventory (Inventário de Conteúdo)** é uma lista abrangente e quantitativa de todo o conteúdo digital existente em uma plataforma, como um website, aplicativo ou intranet. Ele cataloga cada peça de conteúdo, geralmente em nível de página ou de ativo individual (como PDFs, imagens, vídeos), e registra características específicas sobre cada item.
+Um **Content Inventory (Inventário de Conteúdo)** é uma [[Elementos/listas|lista]] abrangente e quantitativa de todo o conteúdo digital existente em uma plataforma, como um website, aplicativo ou intranet. Ele cataloga cada peça de conteúdo, geralmente em nível de página ou de ativo individual (como PDFs, [[Elementos/imagem|imagens]], vídeos), e registra características específicas sobre cada item.
 
 O inventário de conteúdo é frequentemente o primeiro passo para uma [Content Audit (Auditoria de Conteúdo)](./content_audit.md), que envolve a avaliação qualitativa desse conteúdo.
 
@@ -9,7 +9,7 @@ O inventário de conteúdo é frequentemente o primeiro passo para uma [Content 
 Os principais objetivos de um inventário de conteúdo são:
 
 1.  **Compreender o Escopo do Conteúdo:** Ter uma visão clara de todo o conteúdo existente, sua quantidade e onde está localizado.
-2.  **Base para Auditoria e Análise:** Fornecer a lista completa de itens que serão posteriormente avaliados em uma auditoria de conteúdo.
+2.  **Base para Auditoria e Análise:** Fornecer a [[Elementos/listas|lista]] completa de itens que serão posteriormente avaliados em uma [[Entregáveis/content_audit|auditoria de conteúdo]].
 3.  **Planejamento de Migração:** Essencial ao planejar a migração de conteúdo para uma nova plataforma ou sistema de gerenciamento de conteúdo (CMS).
 4.  **Identificação de Propriedade e Responsabilidade:** Registrar quem é o proprietário ou responsável pela manutenção de cada peça de conteúdo.
 5.  **Organização e Gerenciamento:** Ajudar a organizar e gerenciar grandes volumes de conteúdo digital.
@@ -23,7 +23,7 @@ Os principais objetivos de um inventário de conteúdo são:
     *   ID Único
     *   URL / Localização do Arquivo
     *   Título da Página / Nome do Ativo
-    *   Tipo de Conteúdo (ex: página HTML, PDF, imagem, vídeo, post de blog)
+    *   Tipo de Conteúdo (ex: página HTML, PDF, [[Elementos/imagem|imagem]], vídeo, post de blog)
     *   Autor / Proprietário do Conteúdo
     *   Data da Última Modificação / Publicação
     *   Contagem de Palavras (para texto)
@@ -33,7 +33,7 @@ Os principais objetivos de um inventário de conteúdo são:
     *   Tamanho do Arquivo
     *   Idioma
     *   Seções/Categorias do Site
-    *   Métricas básicas de analytics (ex: visualizações de página nos últimos X meses) - opcional, mas útil para a auditoria.
+    *   [[Linguagem Visual/metricas_e_keylines|Métricas]] básicas de analytics (ex: visualizações de página nos últimos X meses) - opcional, mas útil para a auditoria.
 4.  **Coletar os Dados:**
     *   **Manualmente:** Navegando pelo site e registrando cada página/ativo.
     *   **Automaticamente:** Usando ferramentas de crawling (ex: Screaming Frog SEO Spider, Sitebulb) para extrair URLs e alguns metadados. A entrada manual ainda será necessária para outros atributos.
@@ -68,8 +68,8 @@ Cada linha representa uma peça de conteúdo (página ou ativo), e cada coluna r
 ## Ferramentas Úteis
 
 *   **Planilhas:** Google Sheets, Microsoft Excel (essenciais).
-*   **Crawlers de Website:** Screaming Frog SEO Spider, Sitebulb, Xenu's Link Sleuth (para automatizar a coleta de URLs e alguns metadados).
-*   **Sistemas de Gerenciamento de Conteúdo (CMS):** Muitos CMSs oferecem funcionalidades de exportação de listas de conteúdo.
+*   **Crawlers de Website:** Screaming Frog SEO Spider, Sitebulb, Xenu's [[Elementos/links|Link]] Sleuth (para automatizar a coleta de URLs e alguns metadados).
+*   **Sistemas de Gerenciamento de Conteúdo (CMS):** Muitos CMSs oferecem funcionalidades de exportação de [[Elementos/listas|listas]] de conteúdo.
 
 ## Referências (NN/g)
 

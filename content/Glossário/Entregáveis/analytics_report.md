@@ -36,13 +36,13 @@ Um Analytics Report pode incluir, mas não se limita a:
 
 *   Regularmente (semanal, mensal, trimestralmente) para monitorar a saúde do produto.
 *   Antes e depois de grandes lançamentos ou redesenhos para medir o impacto.
-*   Para investigar quedas ou picos inesperados em métricas chave.
+*   Para investigar quedas ou picos inesperados em [[Linguagem Visual/metricas_e_keylines|métricas]] chave.
 *   Ao planejar novas funcionalidades ou melhorias, para entender o contexto atual.
 
 ## Considerações
 
 *   **Definir Objetivos Claros:** O que se espera aprender com o relatório?
-*   **Foco em Métricas Acionáveis:** Métricas que podem levar a ações concretas.
+*   **Foco em [[Linguagem Visual/metricas_e_keylines|Métricas]] Acionáveis:** [[Linguagem Visual/metricas_e_keylines|Métricas]] que podem levar a ações concretas.
 *   **Contextualização:** Os dados devem ser interpretados dentro de um contexto (ex: sazonalidade, campanhas de marketing).
 *   **Visualização de Dados:** Utilizar gráficos e tabelas para facilitar a compreensão.
 
@@ -50,7 +50,7 @@ Um Analytics Report pode incluir, mas não se limita a:
 
 *   Artigo Relacionado: [Translating UX Goals into Analytics Measurement Plans](https://www.nngroup.com/articles/analytics-ux-goals-measurement-plans/)
 *   Vídeo Relacionado: [Analytics vs. Quantitative Usability Testing](https://www.nngroup.com/videos/analytics-vs-quant-usability/)
-*   Veja também: [Dashboard](#), [Usability Report](#) (Nota: Links serão atualizados quando os documentos correspondentes forem criados)
+*   Veja também: [Dashboard](#), [Usability Report](#) (Nota: [[Elementos/links|Links]] serão atualizados quando os documentos correspondentes forem criados)
 
 ---
 

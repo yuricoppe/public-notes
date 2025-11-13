@@ -1,28 +1,28 @@
-# Sistema de Espaçamento (Spacing System)
+# Sistema de [[Linguagem Visual/espacamento|Espaçamento]] ([[Linguagem Visual/espacamento|Spacing]] System)
 
 ## Descrição Geral
-O sistema de espaçamento define uma escala consistente e previsível para aplicar margens (`margin`), preenchimentos (`padding`) e o espaço vazio (`white space`) entre os elementos da interface do usuário. Um sistema de espaçamento bem definido é crucial para criar layouts visualmente harmoniosos, melhorar a legibilidade e garantir uma hierarquia visual clara.
+O sistema de [[Linguagem Visual/espacamento|espaçamento]] define uma escala consistente e previsível para aplicar margens (`margin`), preenchimentos (`padding`) e o espaço vazio (`white space`) entre os elementos da interface do usuário. Um sistema de [[Linguagem Visual/espacamento|espaçamento]] bem definido é crucial para criar layouts visualmente harmoniosos, melhorar a legibilidade e garantir uma hierarquia visual clara.
 
 ## Princípios Chave
 - **Consistência:** Usar uma escala predefinida em vez de valores arbitrários.
-- **Hierarquia Visual:** O espaçamento ajuda a agrupar elementos relacionados e a separar os não relacionados, guiando o olho do usuário.
+- **Hierarquia Visual:** O [[Linguagem Visual/espacamento|espaçamento]] ajuda a agrupar elementos relacionados e a separar os não relacionados, guiando o olho do usuário.
 - **Ritmo Vertical e Horizontal:** Contribui para um fluxo visual agradável.
 - **Manutenibilidade:** Facilita a aplicação e o ajuste de espaçamentos em todo o portal.
 
-## Nossa Escala de Espaçamento
+## Nossa Escala de [[Linguagem Visual/espacamento|Espaçamento]]
 
-Nossa escala é baseada em um **valor fundamental de 4px**. Múltiplos deste valor são usados para definir os diferentes níveis de espaçamento. Isso proporciona flexibilidade suficiente enquanto mantém a consistência.
+Nossa escala é baseada em um **valor fundamental de 4px**. Múltiplos deste valor são usados para definir os diferentes níveis de [[Linguagem Visual/espacamento|espaçamento]]. Isso proporciona flexibilidade suficiente enquanto mantém a consistência.
 
 | Token/Variável (Exemplo) | Valor (px) | Uso Comum                                                               |
 |--------------------------|------------|-------------------------------------------------------------------------|
-| `space-xxs`              | 4px        | Espaçamento mínimo, entre ícones e texto adjacente, pequenos ajustes.   |
-| `space-xs`               | 8px        | Pequeno espaçamento, entre itens de uma lista compacta, paddings internos. |
-| `space-sm`               | 12px       | Espaçamento pequeno-médio.                                              |
-| `space-md` (base)        | 16px       | Espaçamento padrão, margens de parágrafos, padding de cards.             |
-| `space-lg`               | 24px       | Espaçamento grande, entre seções de conteúdo distintas, margens de títulos. |
-| `space-xl`               | 32px       | Espaçamento extra grande, separação de blocos maiores de layout.          |
-| `space-xxl`              | 48px       | Espaçamento muito grande, para ênfase ou separação significativa.       |
-| `space-xxxl`             | 64px       | Espaçamento máximo, grandes áreas de respiro.                             |
+| `space-xxs`              | 4px        | [[Linguagem Visual/espacamento|Espaçamento]] mínimo, entre [[Linguagem Visual/iconografia|ícones]] e texto adjacente, pequenos ajustes.   |
+| `space-xs`               | 8px        | Pequeno [[Linguagem Visual/espacamento|espaçamento]], entre itens de uma [[Elementos/listas|lista]] compacta, paddings internos. |
+| `space-sm`               | 12px       | [[Linguagem Visual/espacamento|Espaçamento]] pequeno-médio.                                              |
+| `space-md` (base)        | 16px       | [[Linguagem Visual/espacamento|Espaçamento]] padrão, margens de [[Elementos/paragrafo|parágrafos]], padding de [[Componentes/cards|cards]].             |
+| `space-lg`               | 24px       | [[Linguagem Visual/espacamento|Espaçamento]] grande, entre seções de conteúdo distintas, margens de títulos. |
+| `space-xl`               | 32px       | [[Linguagem Visual/espacamento|Espaçamento]] extra grande, separação de blocos maiores de layout.          |
+| `space-xxl`              | 48px       | [[Linguagem Visual/espacamento|Espaçamento]] muito grande, para ênfase ou separação significativa.       |
+| `space-xxxl`             | 64px       | [[Linguagem Visual/espacamento|Espaçamento]] máximo, grandes áreas de respiro.                             |
 
 **Nota:** Estes são exemplos de tokens. Os nomes exatos das variáveis (ex: em CSS/Sass) podem variar, mas devem seguir essa progressão.
 
@@ -51,25 +51,25 @@ Nossa escala é baseada em um **valor fundamental de 4px**. Múltiplos deste val
   margin-bottom: var(--space-xs);
 }
 
-.item-lista + .item-lista {
-  margin-top: var(--space-sm); /* Espaçamento entre itens de lista */
+.item-[[Elementos/listas|lista]] + .item-[[Elementos/listas|lista]] {
+  margin-top: var(--space-sm); /* [[Linguagem Visual/espacamento|Espaçamento]] entre itens de lista */
 }
 ```
 
 ## Diretrizes de Uso
-- **Use a Escala:** Sempre que possível, utilize os valores definidos na escala de espaçamento em vez de valores customizados.
-- **Consistência Vertical e Horizontal:** Tente manter um ritmo consistente. Se um card tem `padding: 16px` (space-md), outros cards similares também deveriam ter.
-- **Relação com o Grid:** O sistema de espaçamento complementa o sistema de grid. Os gutters do grid são uma forma de espaçamento, mas o sistema de espaçamento se aplica de forma mais granular.
+- **Use a Escala:** Sempre que possível, utilize os valores definidos na escala de [[Linguagem Visual/espacamento|espaçamento]] em vez de valores customizados.
+- **Consistência Vertical e Horizontal:** Tente manter um ritmo consistente. Se um card tem `padding: 16px` (space-md), outros [[Componentes/cards|cards]] similares também deveriam ter.
+- **Relação com o Grid:** O sistema de [[Linguagem Visual/espacamento|espaçamento]] complementa o [[Sistemas de Layout/grid_system|sistema de grid]]. Os gutters do grid são uma forma de [[Linguagem Visual/espacamento|espaçamento]], mas o sistema de [[Linguagem Visual/espacamento|espaçamento]] se aplica de forma mais granular.
 - **Espaço em Branco é Importante:** Não tenha medo de usar espaçamentos maiores (ex: `space-xl`, `space-xxl`) para criar áreas de respiro e separar seções de conteúdo distintas. Isso melhora a legibilidade e o foco.
-- **Ajustes Responsivos:** Em alguns casos, os valores de espaçamento podem precisar ser ajustados em diferentes breakpoints (`breakpoints.md`) para otimizar o layout em telas menores. Por exemplo, `margin-bottom: var(--space-lg)` em desktop pode se tornar `margin-bottom: var(--space-md)` em mobile.
+- **Ajustes Responsivos:** Em alguns casos, os valores de [[Linguagem Visual/espacamento|espaçamento]] podem precisar ser ajustados em diferentes breakpoints (`breakpoints.md`) para otimizar o layout em telas menores. Por exemplo, `margin-bottom: var(--space-lg)` em desktop pode se tornar `margin-bottom: var(--space-md)` em mobile.
 
 ## Densidade da Informação
-- A escolha do nível de espaçamento afeta a densidade da informação. Interfaces mais densas podem usar valores menores da escala, enquanto interfaces que priorizam o respiro e o foco em menos elementos usarão valores maiores.
+- A escolha do nível de [[Linguagem Visual/espacamento|espaçamento]] afeta a densidade da informação. Interfaces mais densas podem usar valores menores da escala, enquanto interfaces que priorizam o respiro e o foco em menos elementos usarão valores maiores.
 - A densidade deve ser apropriada para o contexto e o objetivo da página ou componente.
 
 ## Ferramentas
 - Utilizar variáveis CSS ou tokens de design em ferramentas como Figma para garantir a aplicação consistente da escala.
 
 ## Recursos Adicionais / Figma
-- [Link para a documentação da Escala de Espaçamento no Figma]
+- [[[Elementos/links|Link]] para a documentação da Escala de [[Linguagem Visual/espacamento|Espaçamento]] no Figma]
 - [Exemplos de componentes e layouts aplicando a escala] 

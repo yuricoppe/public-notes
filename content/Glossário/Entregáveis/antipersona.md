@@ -22,7 +22,7 @@ O desenvolvimento de antipersonas serve a múltiplos propósitos:
 
 ## Elementos de uma Antipersona
 
-Similar a uma persona, uma antipersona pode incluir:
+Similar a uma [[Entregáveis/persona|persona]], uma antipersona pode incluir:
 
 *   **Nome Fictício e Foto/Ilustração (opcional, mas ajuda a visualizar):** Ex: "Vlad, o Violador de Dados".
 *   **Motivações e Objetivos:** O que eles tentam alcançar ao interagir (maliciosamente) com o produto?
@@ -56,7 +56,7 @@ Similar a uma persona, uma antipersona pode incluir:
 
 *   Artigo Relacionado: [Antipersonas: What, How, Who, and Why?](https://www.nngroup.com/articles/antipersonas/)
 *   Vídeo Relacionado: [Antipersonas in UX](https://www.nngroup.com/videos/antipersonas-ux/)
-*   Veja também: [Persona](#) (Nota: Link para Persona será atualizado quando o documento correspondente for criado)
+*   Veja também: [Persona](#) (Nota: [[Elementos/links|Link]] para [[Entregáveis/persona|Persona]] será atualizado quando o documento correspondente for criado)
 
 ---
 

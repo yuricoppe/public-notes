@@ -29,44 +29,44 @@ Estabelece as diretrizes para margens (espaço externo), preenchimentos (padding
 - Crucial para não sobrecarregar o usuário com informação e para destacar o conteúdo importante.
 
 ### Unidades/Medidas
-- **Pixels (px):** Unidade absoluta, boa para consistência fina (ex: bordas, ícones pequenos).
+- **Pixels (px):** Unidade absoluta, boa para consistência fina (ex: bordas, [[Linguagem Visual/iconografia|ícones]] pequenos).
 - **Rems/Ems:** Unidades relativas ao tamanho da fonte do elemento raiz (rem) ou do elemento pai (em). Boas para escalabilidade e acessibilidade, pois se ajustam às preferências de tamanho de fonte do usuário.
 - Recomenda-se o uso de `rem` para espaçamentos que devem escalar com o texto e `px` para detalhes finos que não devem.
 
-### Métricas e Linhas-Chave (Keylines)
+### [[Linguagem Visual/metricas_e_keylines|Métricas]] e Linhas-Chave ([[Linguagem Visual/metricas_e_keylines|Keylines]])
 - Linhas guia imaginárias que ajudam a alinhar elementos de forma consistente em toda a interface, especialmente em layouts complexos e grids.
 
 ### Estrutura e Layout
-- Como o espaçamento contribui para a estrutura de componentes individuais (ex: cards, botões) e para o layout geral da página (ex: espaçamento entre seções, colunas de um grid).
+- Como o espaçamento contribui para a estrutura de componentes individuais (ex: [[Componentes/cards|cards]], [[Elementos/botoes|botões]]) e para o layout geral da página (ex: espaçamento entre seções, colunas de um grid).
 
-### Fotografia e Mídia
-- Considerar o espaço ao redor de imagens, vídeos e outros elementos de mídia para que "respirem" e não pareçam apertados no layout.
+### [[Linguagem Visual/fotografia|Fotografia]] e Mídia
+- Considerar o espaço ao redor de [[Elementos/imagem|imagens]], vídeos e outros elementos de mídia para que "respirem" e não pareçam apertados no layout.
 
 ## Escala de Espaçamento (Exemplo Prático com Nomes Semânticos)
 
 - **`espaco-squish-xs` (Espaçamento Interno Mínimo):**
   - Valor: [Ex: 4px]
-  - Uso: Padding interno muito pequeno para componentes compactos, como tags ou badges pequenas.
+  - Uso: Padding interno muito pequeno para componentes compactos, como tags ou [[Componentes/badges|badges]] pequenas.
   - Status: A definir
 
 - **`espaco-inset-s` (Espaçamento Interno Pequeno):**
   - Valor: [Ex: 8px]
-  - Uso: Padding interno para botões pequenos, itens de lista, inputs.
+  - Uso: Padding interno para [[Elementos/botoes|botões]] pequenos, itens de [[Elementos/listas|lista]], inputs.
   - Status: A definir
 
 - **`espaco-stack-m` (Empilhamento Médio):**
   - Valor: [Ex: 16px]
-  - Uso: Margem vertical entre parágrafos, itens de uma lista vertical, ou entre um rótulo e seu campo.
+  - Uso: Margem vertical entre [[Elementos/paragrafo|parágrafos]], itens de uma [[Elementos/listas|lista]] vertical, ou entre um rótulo e seu campo.
   - Status: A definir
 
 - **`espaco-inline-m` (Espaçamento em Linha Médio):**
   - Valor: [Ex: 16px]
-  - Uso: Margem horizontal entre elementos lado a lado, como botões em um grupo.
+  - Uso: Margem horizontal entre elementos lado a lado, como [[Elementos/botoes|botões]] em um grupo.
   - Status: A definir
 
 - **`espaco-section-l` (Espaçamento de Seção Grande):**
   - Valor: [Ex: 32px ou 48px]
-  - Uso: Margem vertical entre grandes seções de uma página, ou padding de containers principais.
+  - Uso: Margem vertical entre grandes seções de uma página, ou padding de [[Sistemas de Layout/containers_wrappers|containers]] principais.
   - Status: A definir
 
 *(Nota: Os nomes e valores são exemplos e devem ser adaptados à necessidade do projeto. O uso de nomes semânticos para os tokens de espaçamento pode melhorar a comunicação e a intenção do design.)*
@@ -75,6 +75,6 @@ Estabelece as diretrizes para margens (espaço externo), preenchimentos (padding
 
 **Status:** A definir (Fundamental para a consistência visual de todos os componentes e layouts)
 
-## Link para o Figma (Visão Geral de Espaçamento)
+## [[Elementos/links|Link]] para o Figma (Visão Geral de Espaçamento)
 
-[Link para as diretrizes de Espaçamento e a escala de tokens no Figma] 
+[[[Elementos/links|Link]] para as diretrizes de Espaçamento e a escala de tokens no Figma] 

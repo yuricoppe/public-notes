@@ -4,19 +4,19 @@ O componente "Block" ou "Container" refere-se a um agrupador visual genérico us
 
 ## Casos de Uso
 
--   **Agrupar Conteúdo Relacionado:** Envolver um título, parágrafos e uma imagem que formam uma unidade lógica.
+-   **Agrupar Conteúdo Relacionado:** Envolver um título, [[Elementos/paragrafo|parágrafos]] e uma [[Elementos/imagem|imagem]] que formam uma unidade lógica.
 -   **Criar Seções em uma Página:** Definir áreas distintas em um layout (ex: uma seção de "Sobre Nós", uma seção de "Serviços").
--   **Base para Outros Componentes:** Muitos componentes (como Cards, Modals, Widgets) são, em essência, tipos especializados de blocos/contêineres.
+-   **Base para Outros Componentes:** Muitos componentes (como [[Componentes/cards|Cards]], Modals, Widgets) são, em essência, tipos especializados de blocos/contêineres.
 -   **Aplicar Estilos de Fundo ou Bordas:** Usar um bloco para adicionar um fundo colorido, uma borda ou preenchimento (padding) a um grupo de elementos.
 -   **Controle de Layout:** Pode ser usado em conjunto com sistemas de grid para definir a largura ou o alinhamento de uma seção.
 
 ## Elementos Comuns
 
--   **Conteúdo Interno:** Qualquer combinação de texto, imagens, outros componentes de UI.
--   **(Opcional) Padding:** Espaçamento interno entre a borda do bloco e seu conteúdo.
--   **(Opcional) Margin:** Espaçamento externo entre o bloco e outros elementos.
--   **(Opcional) Background:** Cor de fundo, imagem de fundo ou gradiente.
--   **(Opcional) Border:** Linha ao redor do bloco (com espessura, estilo e cor variáveis).
+-   **Conteúdo Interno:** Qualquer combinação de texto, [[Elementos/imagem|imagens]], outros componentes de UI.
+-   **(Opcional) Padding:** [[Linguagem Visual/espacamento|Espaçamento]] interno entre a borda do bloco e seu conteúdo.
+-   **(Opcional) Margin:** [[Linguagem Visual/espacamento|Espaçamento]] externo entre o bloco e outros elementos.
+-   **(Opcional) Background:** [[Linguagem Visual/cor|Cor]] de fundo, [[Elementos/imagem|imagem]] de fundo ou gradiente.
+-   **(Opcional) Border:** Linha ao redor do bloco (com espessura, estilo e [[Linguagem Visual/cor|cor]] variáveis).
 -   **(Opcional) Box Shadow:** Sombra para dar profundidade.
 -   **(Opcional) Border Radius:** Cantos arredondados.
 

@@ -21,11 +21,11 @@ O objetivo principal de um protótipo é:
     *   Rápidos e baratos de criar e modificar.
 
 *   **Média Fidelidade (Medium-Fidelity / Mid-Fi):**
-    *   Geralmente criados digitalmente (ex: wireframes clicáveis), com mais detalhes de layout e conteúdo do que os Lo-Fi, mas ainda sem o design visual final.
+    *   Geralmente criados digitalmente (ex: [[Entregáveis/wireframe|wireframes]] clicáveis), com mais detalhes de layout e conteúdo do que os Lo-Fi, mas ainda sem o design visual final.
     *   Permitem testar fluxos de navegação e interações básicas.
 
 *   **Alta Fidelidade (High-Fidelity / Hi-Fi):**
-    *   Parecem e funcionam de forma muito próxima ao produto final, incluindo design visual detalhado (cores, tipografia, imagens) e interatividade avançada.
+    *   Parecem e funcionam de forma muito próxima ao produto final, incluindo design visual detalhado ([[Linguagem Visual/cor|cores]], [[Linguagem Visual/tipografia|tipografia]], [[Elementos/imagem|imagens]]) e interatividade avançada.
     *   Criados com ferramentas de design e prototipagem (ex: Figma, Sketch, Adobe XD).
     *   Melhores para testar a experiência do usuário de forma mais completa e para apresentações a stakeholders.
 
@@ -34,9 +34,9 @@ O objetivo principal de um protótipo é:
 1.  **Definir Objetivos:** Clarificar o que se espera aprender ou testar com o protótipo.
 2.  **Escolher a Fidelidade:** Decidir o nível de detalhe e interatividade necessário com base nos objetivos, no estágio do projeto e nos recursos disponíveis.
 3.  **Criar o Protótipo:** Usar as ferramentas apropriadas para construir a simulação da interface.
-    *   Para protótipos interativos, definir os links entre telas e os gatilhos de interação (cliques, gestos, etc.).
+    *   Para protótipos interativos, definir os [[Elementos/links|links]] entre telas e os gatilhos de interação (cliques, gestos, etc.).
 4.  **Testar com Usuários:** Conduzir sessões de teste de usabilidade, onde os participantes tentam realizar tarefas com o protótipo.
-5.  **Coletar Feedback:** Observar os usuários, ouvir seus comentários e fazer perguntas para entender sua experiência.
+5.  **Coletar Feedback:** Observar os usuários, ouvir seus [[Componentes/comments|comentários]] e fazer perguntas para entender sua experiência.
 6.  **Analisar e Iterar:** Analisar os resultados dos testes e usar os insights para refinar o design e o protótipo.
 
 ## Principais Benefícios
@@ -61,8 +61,8 @@ O objetivo principal de um protótipo é:
 
 ## Referências (NN/g)
 
-*   Vídeo Relacionado: [Prototypes vs. Wireframes in UX Projects](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-*   Veja também: [Paper Prototype](#paper_prototype.md), [Wireframe](#) (será criado), [Mockup](#mockup.md), [Prototype Specification](#) (será criado)
+*   Vídeo Relacionado: [Prototypes vs. Wireframes in UX Projects](https://www.nngroup.com/videos/prototypes-vs-[[Entregáveis/wireframe|wireframes]]-ux-projects/)
+*   Veja também: [Paper Prototype](#paper_prototype.md), [Wireframe](#) (será criado), [Mockup](#[[Entregáveis/mockup|mockup]].md), [Prototype Specification](#) (será criado)
 
 ---
 

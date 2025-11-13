@@ -46,9 +46,9 @@ O Calendar Picker é um componente de interface que permite aos usuários seleci
 
 ## Estrutura Comum
 
--   Cabeçalho com nome do mês/ano e botões de navegação (anterior/próximo).
+-   [[Elementos/cabecalhos|Cabeçalho]] com nome do mês/ano e [[Elementos/botoes|botões]] de navegação (anterior/próximo).
 -   Grid do calendário com dias da semana e os dias do mês.
--   (Opcional) Rodapé com botões de ação (ex: "Aplicar", "Cancelar", "Limpar").
+-   (Opcional) [[Componentes/footer|Rodapé]] com [[Elementos/botoes|botões]] de ação (ex: "Aplicar", "Cancelar", "Limpar").
 
 ## O Que Evitar
 

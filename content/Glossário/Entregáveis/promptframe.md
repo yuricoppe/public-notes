@@ -1,6 +1,6 @@
 # Promptframe
 
-Um **Promptframe** é um tipo de wireframe ou protótipo de baixa fidelidade especificamente projetado para interfaces de usuário conversacionais (CUIs) ou interações baseadas em prompts, como aquelas encontradas em chatbots, assistentes de voz ou ferramentas de IA generativa. Ele foca em mapear os diálogos, os prompts do sistema e as possíveis respostas do usuário.
+Um **Promptframe** é um tipo de [[Entregáveis/wireframe|wireframe]] ou [[Entregáveis/prototype|protótipo]] de baixa fidelidade especificamente projetado para interfaces de usuário conversacionais (CUIs) ou interações baseadas em prompts, como aquelas encontradas em chatbots, assistentes de voz ou ferramentas de IA generativa. Ele foca em mapear os diálogos, os prompts do sistema e as possíveis respostas do usuário.
 
 ## Propósito Principal
 
@@ -23,7 +23,7 @@ O objetivo principal de um promptframe é:
     *   **Exemplos de Respostas do Usuário:** Variações de como o usuário pode responder (ex: "Qual é o meu saldo?", "Ver saldo", "Histórico de transações, por favor").
     *   **Respostas do Sistema/Próximos Prompts:** Como o sistema reage a cada tipo de resposta do usuário, levando ao próximo prompt ou ação.
     *   **Tratamento de Erros e Esclarecimentos:** Como o sistema lida com entradas inesperadas, ambiguidades ou quando não entende o usuário (ex: "Desculpe, não entendi. Você poderia repetir?").
-4.  **Formato Visual:** Promptframes podem ser simples caixas de texto, storyboards, ou usar formatos de wireframe adaptados, focando no conteúdo do diálogo e na sequência.
+4.  **Formato Visual:** Promptframes podem ser simples caixas de texto, storyboards, ou usar formatos de [[Entregáveis/wireframe|wireframe]] adaptados, focando no conteúdo do diálogo e na sequência.
 5.  **Testar e Iterar:** Usar os promptframes para simular conversas (role-playing) ou para testes de usabilidade com usuários para refinar os diálogos.
 
 ## Principais Benefícios
@@ -49,7 +49,7 @@ O objetivo principal de um promptframe é:
 
 ## Referências (NN/g)
 
-*   Este é um termo mais recente e específico para design conversacional. O glossário da NN/g não o lista explicitamente, mas se relaciona com os princípios de wireframing e prototipagem aplicados a CUIs.
+*   Este é um termo mais recente e específico para design conversacional. O glossário da NN/g não o [[Elementos/listas|lista]] explicitamente, mas se relaciona com os princípios de wireframing e prototipagem aplicados a CUIs.
 *   Pode ser visto como uma especialização de [Wireframe](#) (será criado) ou [Prototype](#) (será criado) para interações baseadas em linguagem.
 
 ---

@@ -22,7 +22,7 @@ Este relatório é um entregável crucial para designers, desenvolvedores, geren
     *   **Participantes:** Perfil dos participantes (critérios de recrutamento, número de participantes).
     *   **Tarefas:** Descrição das tarefas que os participantes realizaram.
     *   **Procedimento:** Como o teste foi conduzido (moderado, não moderado, presencial, remoto).
-    *   **Métricas Coletadas:** (ex: taxa de sucesso da tarefa, tempo na tarefa, erros, métricas de satisfação como SUS - System Usability Scale).
+    *   **[[Linguagem Visual/metricas_e_keylines|Métricas]] Coletadas:** (ex: taxa de sucesso da tarefa, tempo na tarefa, erros, [[Linguagem Visual/metricas_e_keylines|métricas]] de satisfação como SUS - System Usability Scale).
 
 4.  **Resultados/Descobertas (Findings):**
     *   Descrição detalhada dos problemas de usabilidade observados.
@@ -40,7 +40,7 @@ Este relatório é um entregável crucial para designers, desenvolvedores, geren
 
 7.  **Apêndices (Opcional):**
     *   Roteiro do teste.
-    *   Formulário de consentimento.
+    *   [[Padrões/form_structure|Formulário]] de consentimento.
     *   Questionários aplicados.
     *   Dados brutos (com cuidado com a privacidade).
 
@@ -50,7 +50,7 @@ Este relatório é um entregável crucial para designers, desenvolvedores, geren
 - **Identificação de Problemas:** Descobre obstáculos e frustrações na experiência do usuário.
 - **Priorização de Melhorias:** Ajuda a focar os esforços de design e desenvolvimento nas áreas mais críticas.
 - **Comunicação Clara:** Apresenta as descobertas de forma estruturada e compreensível.
-- **Registro Histórico:** Serve como um registro do estado da usabilidade do produto em um determinado momento.
+- **[[Padrões/create_account|Registro]] Histórico:** Serve como um [[Padrões/create_account|registro]] do estado da usabilidade do produto em um determinado momento.
 - **Justificativa para Mudanças:** Fornece argumentos para justificar alterações no design.
 
 ## Quando Utilizar
@@ -70,7 +70,7 @@ Este relatório é um entregável crucial para designers, desenvolvedores, geren
 
 ## Relacionado
 
-- [Screener](./screener.md)
+- [Screener](./[[Entregáveis/screener|screener]].md)
 - [Plano de Pesquisa (Research Plan)](./research_plan.md)
 - [Repositório de Pesquisa (Research Repository)](./research_repository.md)
 

@@ -23,13 +23,13 @@ O objetivo principal de um Mapa de Processo é:
     *   **Entradas (Inputs):** O que é necessário para iniciar uma atividade ou o processo.
     *   **Saídas (Outputs):** O resultado de uma atividade ou do processo.
     *   **Responsáveis (Swimlanes/Raias):** Opcionalmente, o mapa pode ser dividido em raias para mostrar quem (indivíduo, equipe, departamento) é responsável por cada etapa.
-    *   **Métricas (Opcional):** Tempo, custo, ou outras métricas relevantes para cada etapa.
+    *   **[[Linguagem Visual/metricas_e_keylines|Métricas]] (Opcional):** Tempo, custo, ou outras [[Linguagem Visual/metricas_e_keylines|métricas]] relevantes para cada etapa.
 4.  **Desenhar o Mapa:** Utilizar símbolos padronizados de fluxograma para representar os diferentes componentes e o fluxo do processo. Começar com um rascunho e refinar.
 5.  **Analisar e Validar:** Revisar o mapa com as pessoas envolvidas no processo para garantir sua precisão e completude. Analisar o mapa para identificar áreas de melhoria.
 
 ## Níveis de Detalhe
 
-Mapas de processo podem variar em nível de detalhe:
+[[Componentes/maps|Mapas]] de processo podem variar em nível de detalhe:
 
 *   **Alto Nível (Macro):** Mostra as principais fases ou atividades do processo.
 *   **Nível Detalhado (Micro):** Descreve cada pequena tarefa e decisão dentro de uma atividade.
@@ -46,7 +46,7 @@ Mapas de processo podem variar em nível de detalhe:
 
 *   Para analisar e melhorar processos de negócios internos.
 *   No design ou redesenho de fluxos de trabalho de usuários em um sistema ou serviço.
-*   Para entender a jornada do cliente em um nível mais operacional (complementar ao Journey Map).
+*   Para entender a jornada do cliente em um nível mais operacional (complementar ao [[Entregáveis/journey_map|Journey Map]]).
 *   Em projetos de melhoria de qualidade ou eficiência.
 *   Para documentar procedimentos operacionais padrão.
 
@@ -58,7 +58,7 @@ Mapas de processo podem variar em nível de detalhe:
 
 ## Referências (NN/g)
 
-*   Veja também: [User Flow](#) (Nota: Link para User Flow será atualizado quando o documento correspondente for criado), [HTA Diagram (Hierarchical Task-Analysis Diagram)](#hta_diagram.md), [Service Blueprint](#) (Nota: Link para Service Blueprint será atualizado quando o documento correspondente for criado)
+*   Veja também: [User Flow](#) (Nota: [[Elementos/links|Link]] para [[Entregáveis/user_flow|User Flow]] será atualizado quando o documento correspondente for criado), [HTA Diagram (Hierarchical Task-Analysis Diagram)](#hta_diagram.md), [Service Blueprint](#) (Nota: [[Elementos/links|Link]] para [[Entregáveis/service_blueprint|Service Blueprint]] será atualizado quando o documento correspondente for criado)
 
 ---
 

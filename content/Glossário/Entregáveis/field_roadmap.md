@@ -1,6 +1,6 @@
 # Field Roadmap (Roadmap de Campo)
 
-Um **Field Roadmap (Roadmap de Campo)** é um tipo de roadmap de UX que se concentra nos problemas que uma equipe de UX planeja resolver para os usuários dentro de um "campo" ou área de foco específica do produto ou serviço. Diferentemente de um [Product Roadmap](./product_roadmap.md) que geralmente lista funcionalidades e datas de lançamento, um Field Roadmap é orientado a problemas e temas.
+Um **Field Roadmap (Roadmap de Campo)** é um tipo de roadmap de UX que se concentra nos problemas que uma equipe de UX planeja resolver para os usuários dentro de um "campo" ou área de foco específica do produto ou serviço. Diferentemente de um [Product Roadmap](./product_roadmap.md) que geralmente [[Elementos/listas|lista]] funcionalidades e datas de lançamento, um Field Roadmap é orientado a problemas e temas.
 
 Ele é um dos três tipos de roadmaps em UX e design de produto identificados pelo Nielsen Norman Group, sendo os outros o [Product Roadmap](./product_roadmap.md) e o [Specialty Roadmap](./specialty_roadmap.md).
 
@@ -16,11 +16,11 @@ Os principais objetivos de um Field Roadmap são:
 
 ## Características Chave
 
-*   **Orientado a Problemas do Usuário:** Em vez de listar "Funcionalidade X", lista algo como "Resolver a dificuldade dos usuários em encontrar informações de contato" ou "Reduzir a complexidade do processo de checkout".
+*   **Orientado a Problemas do Usuário:** Em vez de listar "Funcionalidade X", [[Elementos/listas|lista]] algo como "Resolver a dificuldade dos usuários em encontrar informações de contato" ou "Reduzir a complexidade do processo de [[Padrões/purchase_checkout|checkout]]".
 *   **Temático:** Os problemas podem ser agrupados em temas maiores de experiência.
 *   **Foco em Resultados para o Usuário:** Enfatiza o impacto positivo que a resolução desses problemas terá na experiência do usuário.
 *   **Horizonte de Tempo Flexível:** Geralmente usa horizontes de tempo mais amplos e flexíveis (ex: Agora, Próximo, Futuro ou Trimestres) em vez de datas de lançamento específicas para funcionalidades.
-*   **Focado em uma Área de Produto/Serviço (Campo):** Delimita o escopo a uma área particular da experiência do usuário (ex: o campo do "onboarding", o campo da "busca de produtos", o campo do "gerenciamento de perfil").
+*   **Focado em uma Área de Produto/Serviço (Campo):** Delimita o escopo a uma área particular da experiência do usuário (ex: o campo do "[[Padrões/launch|onboarding]]", o campo da "busca de produtos", o campo do "gerenciamento de perfil").
 
 ## Conteúdo Típico
 
@@ -28,14 +28,14 @@ Os principais objetivos de um Field Roadmap são:
 *   **Problemas do Usuário:** Declarações claras dos problemas que os usuários enfrentam nessa área.
 *   **Temas de Experiência:** Agrupamentos de problemas relacionados.
 *   **Resultados Desejados para o Usuário:** Como a vida do usuário será melhor após a resolução desses problemas.
-*   **Métricas de Sucesso (Opcional):** Como o impacto da resolução dos problemas será medido (ex: redução na taxa de erro, aumento na satisfação do usuário).
+*   **[[Linguagem Visual/metricas_e_keylines|Métricas]] de Sucesso (Opcional):** Como o impacto da resolução dos problemas será medido (ex: redução na taxa de erro, aumento na satisfação do usuário).
 *   **Iniciativas de UX Propostas:** Ideias de alto nível sobre como os problemas podem ser abordados (pesquisa, design, teste).
 *   **Horizonte de Tempo:** Quando se espera focar em cada problema/tema.
 
 ## Relação com Outros Roadmaps
 
-*   **[Product Roadmap](./product_roadmap.md):** O Field Roadmap informa o Product Roadmap. Ao identificar e priorizar problemas do usuário, a equipe de UX pode influenciar quais funcionalidades são construídas. As soluções para os problemas do Field Roadmap podem se tornar itens no Product Roadmap.
-*   **[Specialty Roadmap](./specialty_roadmap.md):** É um subconjunto ainda mais focado do Field Roadmap, concentrando-se em problemas dentro de uma única especialidade de UX (ex: um roadmap apenas para pesquisa de usuários dentro do campo de "onboarding").
+*   **[Product Roadmap](./product_roadmap.md):** O Field Roadmap informa o [[Entregáveis/product_roadmap|Product Roadmap]]. Ao identificar e priorizar problemas do usuário, a equipe de UX pode influenciar quais funcionalidades são construídas. As soluções para os problemas do Field Roadmap podem se tornar itens no [[Entregáveis/product_roadmap|Product Roadmap]].
+*   **[Specialty Roadmap](./specialty_roadmap.md):** É um subconjunto ainda mais focado do Field Roadmap, concentrando-se em problemas dentro de uma única especialidade de UX (ex: um roadmap apenas para pesquisa de usuários dentro do campo de "[[Padrões/launch|onboarding]]").
 
 ## Principais Benefícios
 

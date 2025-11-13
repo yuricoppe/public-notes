@@ -5,9 +5,9 @@ O componente Loading / Spinner (Indicador de Carregamento) é um elemento visual
 ## Casos de Uso
 
 -   Carregamento inicial de uma página ou seção.
--   Submissão de formulários.
--   Busca de dados ou aplicação de filtros.
--   Carregamento de conteúdo assíncrono (ex: imagens, dados em uma tabela).
+-   Submissão de [[Padrões/form_structure|formulários]].
+-   Busca de dados ou aplicação de [[Componentes/filters|filtros]].
+-   Carregamento de conteúdo assíncrono (ex: [[Elementos/imagem|imagens]], dados em uma tabela).
 -   Qualquer operação que leve um tempo perceptível para ser concluída (geralmente > 200-500ms).
 
 ## Tipos Comuns
@@ -25,8 +25,8 @@ O componente Loading / Spinner (Indicador de Carregamento) é um elemento visual
 -   **Feedback Imediato (mas não muito cedo):** Para operações muito rápidas (<200ms), um spinner pode piscar e ser mais distrativo do que útil. Mostrar apenas se a espera for perceptível.
 -   **Clareza:** O indicador deve ser claramente visível e compreensível como um sinal de que o sistema está ocupado.
 -   **Não Intrusivo (quando apropriado):**
-    *   Para carregamento de página inteira ou modal, um overlay com spinner centralizado pode ser adequado.
-    *   Para carregamento de pequenas seções ou botões, um spinner menor e localizado próximo ao elemento é melhor.
+    *   Para carregamento de página inteira ou [[Componentes/dialog|modal]], um overlay com spinner centralizado pode ser adequado.
+    *   Para carregamento de pequenas seções ou [[Elementos/botoes|botões]], um spinner menor e localizado próximo ao elemento é melhor.
 -   **Consistência:** Usar o mesmo estilo de indicador de carregamento para operações semelhantes em todo o produto.
 -   **Performance da Animação:** A animação do spinner em si deve ser suave e leve (CSS animations são preferíveis a GIFs pesados ou JavaScript complexo para animações simples).
 -   **Acessibilidade (a11y):**
@@ -40,8 +40,8 @@ O componente Loading / Spinner (Indicador de Carregamento) é um elemento visual
 
 ## Variações de Estilo
 
--   **Tamanho:** Spinners podem variar de pequenos (para botões) a grandes (para carregamento de página).
--   **Cor:** Alinhada com a paleta da marca.
+-   **Tamanho:** Spinners podem variar de pequenos (para [[Elementos/botoes|botões]]) a grandes (para carregamento de página).
+-   **[[Linguagem Visual/cor|Cor]]:** Alinhada com a paleta da marca.
 -   **Velocidade da Animação.**
 
 ## O Que Evitar

@@ -79,7 +79,7 @@ Em CSS, os breakpoints são geralmente implementados usando Media Queries.
 ## Diretrizes de Uso
 - **Adaptação do Grid:** O sistema de grid (`grid_system.md`) se adaptará com base nestes breakpoints (ex: número de colunas visíveis, empilhamento).
 - **Visibilidade de Elementos:** Alguns elementos podem ser ocultados ou mostrados dependendo do breakpoint (ex: navegação mobile vs. desktop).
-- **Tamanho de Tipografia e Espaçamento:** As escalas de tipografia e espaçamento (`spacing_system.md`) podem ser ajustadas para otimizar a legibilidade em diferentes telas.
+- **Tamanho de [[Linguagem Visual/tipografia|Tipografia]] e [[Linguagem Visual/espacamento|Espaçamento]]:** As escalas de [[Linguagem Visual/tipografia|tipografia]] e espaçamento (`spacing_system.md`) podem ser ajustadas para otimizar a legibilidade em diferentes telas.
 - **Layout de Componentes:** Componentes individuais podem ter variações de layout para diferentes breakpoints.
 - **Priorize a Experiência:** O objetivo não é apenas fazer o layout "caber", mas garantir que ele seja usável e agradável em cada breakpoint.
 
@@ -87,5 +87,5 @@ Em CSS, os breakpoints são geralmente implementados usando Media Queries.
 É crucial testar a aparência e funcionalidade do portal em cada um desses breakpoints (e em larguras intermediárias) usando as ferramentas de desenvolvedor do navegador e, se possível, em dispositivos reais.
 
 ## Recursos Adicionais / Figma
-- [Link para visualizações dos layouts em cada breakpoint no Figma]
+- [[[Elementos/links|Link]] para visualizações dos layouts em cada breakpoint no Figma]
 - [Guias de como os componentes específicos se adaptam aos breakpoints] 

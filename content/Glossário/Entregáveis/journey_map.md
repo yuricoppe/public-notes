@@ -9,7 +9,7 @@ O objetivo principal de um Journey Map é entender e comunicar a experiência do
 ## Como Funciona
 
 1.  **Definir o Escopo:**
-    *   **Persona:** Qual usuário ou segmento de cliente está sendo mapeado?
+    *   **[[Entregáveis/persona|Persona]]:** Qual usuário ou segmento de cliente está sendo mapeado?
     *   **Cenário/Objetivo:** Qual objetivo específico o usuário está tentando alcançar?
     *   **Nível de Detalhe:** Quão granular será o mapa (alto nível vs. detalhado)?
 2.  **Coletar Dados:** Utilizar dados de pesquisa com usuários (entrevistas, surveys, testes de usabilidade, analytics) para informar o mapa. A pesquisa é fundamental para criar um mapa preciso e baseado em evidências, em vez de suposições.
@@ -49,7 +49,7 @@ O objetivo principal de um Journey Map é entender e comunicar a experiência do
 ## Referências (NN/g)
 
 *   Artigo Relacionado: [Journey Mapping to Understand Customer Needs](https://www.nngroup.com/articles/journey-mapping/)
-*   Ver também: [Experience Map](#) (Nota: Link para Experience Map será atualizado quando o documento correspondente for criado), [Service Blueprint](#) (Nota: Link para Service Blueprint será atualizado quando o documento correspondente for criado), [Asset Map](#) (Nota: Link para Asset Map será atualizado quando o documento correspondente for criado), [Storyboard](#) (Nota: Link para Storyboard será atualizado quando o documento correspondente for criado), [User-Story Map](#) (Nota: Link para User-Story Map será atualizado quando o documento correspondente for criado)
+*   Ver também: [Experience Map](#) (Nota: [[Elementos/links|Link]] para [[Entregáveis/experience_map|Experience Map]] será atualizado quando o documento correspondente for criado), [Service Blueprint](#) (Nota: [[Elementos/links|Link]] para [[Entregáveis/service_blueprint|Service Blueprint]] será atualizado quando o documento correspondente for criado), [Asset Map](#) (Nota: [[Elementos/links|Link]] para [[Entregáveis/asset_map|Asset Map]] será atualizado quando o documento correspondente for criado), [Storyboard](#) (Nota: [[Elementos/links|Link]] para [[Entregáveis/storyboard|Storyboard]] será atualizado quando o documento correspondente for criado), [User-Story Map](#) (Nota: [[Elementos/links|Link]] para User-Story Map será atualizado quando o documento correspondente for criado)
 
 ---
 

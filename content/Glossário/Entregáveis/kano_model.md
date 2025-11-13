@@ -12,7 +12,7 @@ O modelo classifica as funcionalidades (ou atributos do produto) em cinco catego
 
 1.  **Must-be Quality / Basic Expectations (Qualidade Obrigatória / Expectativas Básicas):**
     *   São funcionalidades que os clientes esperam e tomam como certas. Sua ausência causa grande insatisfação, mas sua presença não aumenta significativamente a satisfação, pois são consideradas o mínimo necessário.
-    *   Exemplo: Freios em um carro, a capacidade de fazer login em um aplicativo seguro.
+    *   Exemplo: Freios em um carro, a capacidade de fazer [[Padrões/authentication|login]] em um aplicativo seguro.
 
 2.  **One-dimensional Quality / Performance Attributes (Qualidade Unidimensional / Atributos de Performance):**
     *   Para estas funcionalidades, a satisfação do cliente é proporcional ao nível de performance. Quanto melhor a funcionalidade, maior a satisfação; quanto pior, maior a insatisfação.
@@ -24,7 +24,7 @@ O modelo classifica as funcionalidades (ou atributos do produto) em cinco catego
 
 4.  **Indifferent Quality (Qualidade Indiferente):**
     *   A presença ou ausência dessas funcionalidades não tem impacto significativo na satisfação do cliente. Os clientes simplesmente não se importam com elas.
-    *   Exemplo: A cor específica de um componente interno do motor de um carro que o usuário nunca vê.
+    *   Exemplo: A [[Linguagem Visual/cor|cor]] específica de um componente interno do motor de um carro que o usuário nunca vê.
 
 5.  **Reverse Quality (Qualidade Reversa):**
     *   A presença dessas funcionalidades causa insatisfação, e sua ausência leva à satisfação. Alguns clientes ativamente não querem essas funcionalidades.
@@ -32,7 +32,7 @@ O modelo classifica as funcionalidades (ou atributos do produto) em cinco catego
 
 ## Como Funciona (Coleta de Dados)
 
-Para aplicar o Modelo de Kano, geralmente se utiliza um questionário específico. Para cada funcionalidade sendo avaliada, duas perguntas são feitas ao cliente:
+Para aplicar o Modelo de Kano, geralmente se utiliza um [[Entregáveis/survey|questionário]] específico. Para cada funcionalidade sendo avaliada, duas perguntas são feitas ao cliente:
 
 *   **Pergunta Funcional:** Como você se sentiria se esta funcionalidade ESTIVESSE presente? (Opções: Gosto, Espero, Neutro, Tolero, Não gosto)
 *   **Pergunta Disfuncional:** Como você se sentiria se esta funcionalidade NÃO ESTIVESSE presente? (Mesmas opções)

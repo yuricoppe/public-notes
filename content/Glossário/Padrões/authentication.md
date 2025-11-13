@@ -12,8 +12,8 @@ A autenticação é o processo de verificar a identidade de um usuário, sistema
 
 ## Elementos Comuns / Estrutura Típica
 - Campos de entrada para credenciais (ex: email/usuário, senha).
-- Botão de ação primário para submeter (ex: "Entrar", "Login").
-- Links para ações secundárias (ex: "Esqueci minha senha", "Criar conta").
+- [[Elementos/botoes|Botão]] de ação primário para submeter (ex: "Entrar", "Login").
+- [[Elementos/links|Links]] para ações secundárias (ex: "Esqueci minha senha", "Criar conta").
 - Opção para "Lembrar-me" ou "Manter conectado".
 - Feedback visual para erros de validação ou status do processo.
 - Possível integração com provedores de identidade terceiros (ex: Google, Facebook, SAML).
@@ -21,17 +21,17 @@ A autenticação é o processo de verificar a identidade de um usuário, sistema
 
 ## Comportamento e Interação
 1. O usuário navega para uma área restrita ou clica em "Entrar".
-2. O sistema apresenta o formulário de autenticação.
+2. O sistema apresenta o [[Padrões/form_structure|formulário]] de autenticação.
 3. O usuário insere suas credenciais.
 4. O sistema valida as credenciais.
-5.  - **Sucesso:** O usuário é redirecionado para o recurso solicitado ou dashboard.
+5.  - **Sucesso:** O usuário é redirecionado para o recurso solicitado ou [[Entregáveis/dashboard|dashboard]].
     - **Falha:** O sistema exibe uma mensagem de erro clara e permite nova tentativa.
 6. Processos de "Esqueci minha senha" envolvem verificação de identidade (ex: via email) e redefinição de senha.
 
 ## Diretrizes de Uso e Boas Práticas
 
 ### Faça
-- Use linguagem clara e direta para rótulos e mensagens.
+- Use linguagem clara e direta para rótulos e [[Componentes/messaging|mensagens]].
 - Forneça feedback imediato e útil para erros de entrada.
 - Indique claramente os requisitos de senha (complexidade, comprimento) no momento da criação ou redefinição.
 - Ofereça opções de visibilidade da senha (mostrar/ocultar).
@@ -41,16 +41,16 @@ A autenticação é o processo de verificar a identidade de um usuário, sistema
 
 ### Não Faça
 - Não armazene senhas em texto plano. Utilize hashing seguro.
-- Não exponha informações sensíveis em mensagens de erro (ex: "usuário não encontrado" vs "usuário ou senha inválidos").
+- Não exponha informações sensíveis em [[Componentes/messaging|mensagens]] de erro (ex: "usuário não encontrado" vs "usuário ou senha inválidos").
 - Não utilize CAPTCHAs excessivamente complexos ou inacessíveis.
 - Não dificulte o processo de logout.
 - Não implemente fluxos de autenticação que possam ser facilmente interceptados (ex: falta de HTTPS).
 
 ## Considerações de Acessibilidade
-- Garanta que todos os campos de formulário tenham rótulos associados (`<label for>`).
+- Garanta que todos os campos de [[Padrões/form_structure|formulário]] tenham rótulos associados (`<label for>`).
 - As mensagens de erro devem ser associadas aos campos correspondentes e ser perceptíveis por leitores de tela (ex: usando `aria-describedby` ou `aria-live`).
 - Todos os elementos interativos devem ser navegáveis e operáveis via teclado.
-- Mantenha um bom contraste de cores para textos, campos e botões.
+- Mantenha um bom contraste de [[Linguagem Visual/cor|cores]] para textos, campos e [[Elementos/botoes|botões]].
 - Considere os requisitos do WCAG 2.2 para autenticação acessível (ex: critério 3.3.8 Accessible Authentication).
 
 ## Exemplos / Cenários de Uso
@@ -65,11 +65,11 @@ A autenticação é o processo de verificar a identidade de um usuário, sistema
 - **Autenticação de Dois Fatores (2FA) / Múltiplos Fatores (MFA):** Requer uma segunda forma de verificação além da senha.
 - **Autenticação Biométrica:** Usando impressão digital, reconhecimento facial, etc. (mais comum em mobile).
 - **Autenticação baseada em Token/API Key:** Para sistemas e serviços.
-- **Login sem Senha (Passwordless):** Usando links mágicos enviados por email, códigos OTP, etc.
+- **Login sem Senha (Passwordless):** Usando [[Elementos/links|links]] mágicos enviados por email, códigos OTP, etc.
 
 ## Status
 A definir
 
 ## Recursos Adicionais / Figma
-- [Link para o design de telas de Autenticação no Figma]
-- [Link para a documentação da API de autenticação, se aplicável] 
+- [[[Elementos/links|Link]] para o design de telas de Autenticação no Figma]
+- [[[Elementos/links|Link]] para a documentação da API de autenticação, se aplicável] 

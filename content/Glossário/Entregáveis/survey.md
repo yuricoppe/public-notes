@@ -41,7 +41,7 @@ Em UX, surveys são frequentemente usados para entender atitudes, opiniões, pre
 ## Tipos de Perguntas Comuns
 
 - **Escala Likert:** (Ex: "Avalie sua satisfação: Muito Insatisfeito - Insatisfeito - Neutro - Satisfeito - Muito Satisfeito").
-- **Múltipla Escolha:** Selecionar uma ou mais opções de uma lista.
+- **Múltipla Escolha:** Selecionar uma ou mais opções de uma [[Elementos/listas|lista]].
 - **Ranking:** Ordenar itens por preferência.
 - **Dicotômicas:** (Ex: Sim/Não).
 - **Abertas:** Para coletar feedback detalhado ou qualitativo.
@@ -57,7 +57,7 @@ Em UX, surveys são frequentemente usados para entender atitudes, opiniões, pre
 
 ## Relacionado
 
-- [Screener](./screener.md)
+- [Screener](./[[Entregáveis/screener|screener]].md)
 - [Plano de Pesquisa (Research Plan)](./research_plan.md)
 - [Persona Estatística (Statistical Persona)](./statistical_persona.md)
 

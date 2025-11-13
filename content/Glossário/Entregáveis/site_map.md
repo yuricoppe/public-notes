@@ -11,7 +11,7 @@ Um mapa do site (site map) é um diagrama hierárquico que ilustra a estrutura d
 - **Estrutura Hierárquica:** Mostra as páginas principais, subpáginas e a relação entre elas (pai-filho).
 - **Níveis de Navegação:** Indica a profundidade da informação e como o usuário navega de uma seção para outra.
 - **Rótulos de Conteúdo:** Nomes claros e concisos para cada página ou seção.
-- **Links (Opcional):** Pode indicar os principais links de navegação entre as páginas.
+- **[[Elementos/links|Links]] (Opcional):** Pode indicar os principais [[Elementos/links|links]] de navegação entre as páginas.
 
 ## Benefícios
 
@@ -19,18 +19,18 @@ Um mapa do site (site map) é um diagrama hierárquico que ilustra a estrutura d
 - **Otimiza para SEO:** Facilita o rastreamento e indexação do site pelos motores de busca.
 - **Planejamento de Conteúdo:** Auxilia na organização lógica do conteúdo e na identificação de lacunas ou redundâncias.
 - **Comunicação da Estrutura:** Serve como referência para a equipe de design e desenvolvimento.
-- **Base para Design de UI/UX:** Informa o design da navegação principal, menus e links internos.
+- **Base para Design de UI/UX:** Informa o design da navegação principal, [[Componentes/menu|menus]] e [[Elementos/links|links]] internos.
 
 ## Quando Utilizar
 
 - **Fase de Planejamento:** Ao iniciar um novo projeto de website ou uma grande reformulação.
 - **Arquitetura da Informação:** Como um dos principais entregáveis para definir a organização do conteúdo.
 - **Redesenho de Sites:** Para analisar a estrutura existente e planejar melhorias.
-- **Comunicação com Stakeholders:** Para visualizar e aprovar a estrutura do site.
+- **Comunicação com Stakeholders:** Para visualizar e aprovar a [[Padrões/site_app_structure|estrutura do site]].
 
 ## Tipos Comuns
 
-- **Visual Site Maps:** Diagramas gráficos que mostram a hierarquia (mais comum para UX).
+- **Visual Site [[Componentes/maps|Maps]]:** Diagramas gráficos que mostram a hierarquia (mais comum para UX).
 - **XML Sitemaps:** Arquivos formatados para motores de busca, listando todas as URLs importantes de um site.
 
 ## Considerações
@@ -43,7 +43,7 @@ Um mapa do site (site map) é um diagrama hierárquico que ilustra a estrutura d
 
 ## Relacionado
 
-- [Wireflow](./wireflow.md)
+- [Wireflow](./[[Entregáveis/wireflow|wireflow]].md)
 - [Fluxo do Usuário (User Flow)](./user_flow.md)
 - [Mapa de Ativos (Asset Map)](./asset_map.md)
 

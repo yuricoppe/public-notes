@@ -3,7 +3,7 @@
 ## Onde é usado
 
 O movimento, quando bem aplicado, torna a interface mais intuitiva, responsiva e agradável. Ele é usado para:
-- Fornecer feedback sobre interações do usuário (ex: um botão que reage ao clique).
+- Fornecer feedback sobre interações do usuário (ex: um [[Elementos/botoes|botão]] que reage ao clique).
 - Guiar o foco do usuário entre visualizações ou estados diferentes.
 - Indicar relações espaciais ou hierárquicas entre elementos.
 - Melhorar a percepção de performance, mascarando pequenos atrasos de carregamento.
@@ -34,9 +34,9 @@ Define os princípios de animação e transições na interface, como timing, ea
 ### Tipos de Transições e Animações
 - **Fade (Esmaecer):** Alterar a opacidade para mostrar/esconder elementos.
 - **Slide (Deslizar):** Mover elementos para dentro/fora da tela ou para novas posições.
-- **Scale (Escalar):** Aumentar/diminuir o tamanho de elementos (ex: para modais, pop-ups).
-- **Expand/Collapse (Expandir/Recolher):** Para acordeões, menus, etc.
-- **Mudança de Cor/Estilo:** Transições suaves entre estados visuais (ex: hover em botões).
+- **Scale (Escalar):** Aumentar/diminuir o tamanho de elementos (ex: para [[Componentes/dialog|modais]], pop-ups).
+- **Expand/Collapse (Expandir/Recolher):** Para acordeões, [[Componentes/menu|menus]], etc.
+- **Mudança de [[Linguagem Visual/cor|Cor]]/Estilo:** Transições suaves entre estados visuais (ex: hover em [[Elementos/botoes|botões]]).
 
 ### Performance
 - Priorizar animações de propriedades CSS que são mais performáticas (ex: `transform`, `opacity`).
@@ -45,33 +45,33 @@ Define os princípios de animação e transições na interface, como timing, ea
 
 ## Exemplos de Aplicação
 
-- **Transição de Hover em Botões:**
-  - Descrição: Feedback visual sutil ao passar o mouse sobre um botão, indicando interatividade.
+- **Transição de Hover em [[Elementos/botoes|Botões]]:**
+  - Descrição: Feedback visual sutil ao passar o mouse sobre um [[Elementos/botoes|botão]], indicando interatividade.
   - Duração: [Ex: 150ms]
   - Easing: [Ex: ease-out]
   - Propriedades Animadas: [Ex: `background-color`, `box-shadow`, `transform: scale(1.05)`]
   - Status: A definir
-  - Link para o Figma/Exemplo: [Link para exemplo de animação no Figma ou protótipo]
+  - [[Elementos/links|Link]] para o Figma/Exemplo: [[[Elementos/links|Link]] para exemplo de animação no Figma ou [[Entregáveis/prototype|protótipo]]]
 
-- **Abertura de Modal:**
-  - Descrição: Animação ao exibir um modal, geralmente combinando fade e scale para uma entrada suave.
+- **Abertura de [[Componentes/dialog|Modal]]:**
+  - Descrição: Animação ao exibir um [[Componentes/dialog|modal]], geralmente combinando fade e scale para uma entrada suave.
   - Duração: [Ex: 300ms]
   - Easing: [Ex: ease-in-out]
   - Tipo: [Ex: Scale-in com Fade-in do overlay]
   - Status: A definir
-  - Link para o Figma/Exemplo: [Link para exemplo de animação no Figma ou protótipo]
+  - [[Elementos/links|Link]] para o Figma/Exemplo: [[[Elementos/links|Link]] para exemplo de animação no Figma ou [[Entregáveis/prototype|protótipo]]]
 
-- **Carregamento (Loading Spinner/Indicator):**
+- **Carregamento ([[Componentes/loading_spinner|Loading Spinner]]/Indicator):**
   - Descrição: Animação contínua para indicar que o sistema está processando algo.
   - Tipo: [Ex: Rotação, Pulsar]
   - Easing: [Ex: linear para rotação contínua]
   - Status: A definir
-  - Link para o Figma/Exemplo: [Link para animação de carregamento]
+  - [[Elementos/links|Link]] para o Figma/Exemplo: [[[Elementos/links|Link]] para animação de carregamento]
 
 ## Status Geral
 
 **Status:** A definir (Definir após os componentes básicos, pois muitas animações são aplicadas a eles)
 
-## Link para o Figma (Visão Geral de Movimento)
+## [[Elementos/links|Link]] para o Figma (Visão Geral de Movimento)
 
-[Link para as diretrizes de Movimento no Figma ou documentação de animação] 
+[[[Elementos/links|Link]] para as diretrizes de Movimento no Figma ou documentação de animação] 

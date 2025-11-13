@@ -6,33 +6,33 @@ Links são usados para navegação, permitindo que os usuários acessem outras p
 
 ## Detalhes Adicionais / Tópicos
 
-- Estilo visual claro para indicar interatividade (cor, sublinhado).
+- Estilo visual claro para indicar interatividade ([[Linguagem Visual/cor|cor]], sublinhado).
 - Estados: normal, hover, visitado, ativo/foco.
-- Links inline (dentro de parágrafos) e links em bloco (como itens de menu).
-- Links para downloads ou que abrem em nova aba devem ser indicados (ícone, texto).
+- Links inline (dentro de [[Elementos/paragrafo|parágrafos]]) e links em bloco (como itens de [[Componentes/menu|menu]]).
+- Links para downloads ou que abrem em nova aba devem ser indicados ([[Linguagem Visual/iconografia|ícone]], texto).
 
 ## Variações
 
 - **Link Padrão (Inline):**
   - Descrição: Link de texto dentro de um bloco de conteúdo.
-  - Cor (Normal): [Cor do Link Padrão]
-  - Cor (Hover): [Cor do Link Hover]
+  - [[Linguagem Visual/cor|Cor]] (Normal): [[[Linguagem Visual/cor|Cor]] do Link Padrão]
+  - [[Linguagem Visual/cor|Cor]] (Hover): [[[Linguagem Visual/cor|Cor]] do Link Hover]
   - Decoração (Normal): [Ex: Sublinhado]
   - Decoração (Hover): [Ex: Sem sublinhado ou sublinhado mais forte]
   - Status: A definir
   - Link para o Figma: [Link para Link Padrão no Figma]
 
 - **Link Externo:**
-  - Descrição: Link que leva o usuário para fora do site/aplicação atual. Pode incluir um ícone indicativo.
-  - Ícone: [Ex: Ícone de "nova aba" ou "link externo"]
+  - Descrição: Link que leva o usuário para fora do site/aplicação atual. Pode incluir um [[Linguagem Visual/iconografia|ícone]] indicativo.
+  - [[Linguagem Visual/iconografia|Ícone]]: [Ex: [[Linguagem Visual/iconografia|Ícone]] de "nova aba" ou "link externo"]
   - Status: A definir
   - Link para o Figma: [Link para Link Externo no Figma]
 
-- **Link como Botão (Standalone):**
-  - Descrição: Um link que é estilizado para parecer um botão, mas semanticamente é uma navegação.
-  - Estilo: Similar a um botão terciário ou secundário.
+- **Link como [[Elementos/botoes|Botão]] (Standalone):**
+  - Descrição: Um link que é estilizado para parecer um [[Elementos/botoes|botão]], mas semanticamente é uma navegação.
+  - Estilo: Similar a um [[Elementos/botoes|botão]] terciário ou secundário.
   - Status: A definir
-  - Link para o Figma: [Link para Link como Botão no Figma]
+  - Link para o Figma: [Link para Link como [[Elementos/botoes|Botão]] no Figma]
 
 ## Status Geral
 

@@ -8,11 +8,11 @@ Um **Asset Map (Mapa de Ativos)** é um método de visualização cronológica e
 2.  **Mapear a Jornada do Usuário de Forma Tangível:** Conectar os passos da jornada do usuário com os ativos reais que ele encontra.
 3.  **Identificar Lacunas e Redundâncias:** Descobrir onde faltam informações ou ativos necessários, ou onde existem ativos redundantes ou conflitantes.
 4.  **Facilitar a Colaboração:** Proporcionar uma visão compartilhada para equipes multidisciplinares (design, conteúdo, desenvolvimento, marketing) sobre como os diferentes componentes da experiência se encaixam.
-5.  **Auditoria de Conteúdo e Design:** Servir como base para uma auditoria mais detalhada dos ativos existentes.
+5.  **[[Entregáveis/content_audit|Auditoria de Conteúdo]] e Design:** Servir como base para uma auditoria mais detalhada dos ativos existentes.
 
 ## Como Construir um Asset Map
 
-1.  **Definir o Escopo:** Escolha um fluxo de trabalho chave ou uma jornada do usuário específica para mapear (ex: processo de onboarding, realização de uma compra, solicitação de suporte).
+1.  **Definir o Escopo:** Escolha um fluxo de trabalho chave ou uma jornada do usuário específica para mapear (ex: processo de [[Padrões/launch|onboarding]], realização de uma compra, solicitação de suporte).
 2.  **Identificar Canais e Pontos de Contato:** Liste todos os canais (website, aplicativo móvel, e-mail, chat, etc.) e pontos de contato específicos dentro desses canais que o usuário encontra.
 3.  **Coletar os Ativos:** Reúna capturas de tela, gravações, textos de e-mail, scripts de chatbot, e qualquer outro material que represente o que o usuário vê e interage.
 4.  **Organizar Cronologicamente:** Disponha os ativos na sequência em que o usuário os encontraria ao longo do fluxo de trabalho ou jornada.
@@ -28,8 +28,8 @@ Um **Asset Map (Mapa de Ativos)** é um método de visualização cronológica e
 
 *   **Linha do Tempo/Sequência:** Indicando a progressão do usuário.
 *   **Canais:** Claramente identificados para cada etapa (ex: Web, App, Email).
-*   **Representações Visuais dos Ativos:** Screenshots, mockups simplificados, ou descrições textuais dos ativos.
-*   **Anotações:** Comentários sobre consistência, problemas, oportunidades.
+*   **Representações Visuais dos Ativos:** Screenshots, [[Entregáveis/mockup|mockups]] simplificados, ou descrições textuais dos ativos.
+*   **Anotações:** [[Componentes/comments|Comentários]] sobre consistência, problemas, oportunidades.
 *   **Swimlanes (Opcional):** Para diferentes canais ou tipos de interação.
 
 ## Principais Benefícios
@@ -51,7 +51,7 @@ Um **Asset Map (Mapa de Ativos)** é um método de visualização cronológica e
 ## Referências (NN/g)
 
 *   Artigo Relacionado: [Asset Mapping for Experience Consistency](https://www.nngroup.com/articles/asset-mapping-experience-consistency/)
-*   Veja também: [Journey Map](#), [Wireflow](#) (Nota: Links serão atualizados quando os documentos correspondentes forem criados)
+*   Veja também: [Journey Map](#), [Wireflow](#) (Nota: [[Elementos/links|Links]] serão atualizados quando os documentos correspondentes forem criados)
 
 ---
 
