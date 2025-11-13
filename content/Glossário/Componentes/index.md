@@ -1,5 +1,5 @@
 ---
-title: "Index"
+title: "Componentes de UI (UI Components)"
 
 ---
 

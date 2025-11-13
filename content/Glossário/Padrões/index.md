@@ -1,5 +1,5 @@
 ---
-title: "Index"
+title: "Padrões de UI (UI Patterns)"
 
 ---
 
