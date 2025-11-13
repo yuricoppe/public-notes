@@ -19,27 +19,27 @@ Breadcrumbs são um sistema de navegação secundário que mostra a localizaçã
     *   Exemplo: `Página Anterior > Página Anterior > Página Atual` (Menos comum para navegação principal, mais para processos lineares).
 
 3.  **Baseados em Atributo (Attribute-based):**
-    *   Mostram atributos ou [[Componentes/filters|filtros]] selecionados para chegar a um conjunto de resultados (comum em e-commerce).
+    *   Mostram atributos ou [[Glossário/Componentes/filters|filtros]] selecionados para chegar a um conjunto de resultados (comum em e-commerce).
     *   Exemplo: `Home > Roupas > Camisetas > Tamanho: M > Cor: Azul`
 
 ## Melhores Práticas
 
--   **Posicionamento:** Geralmente no topo da área de conteúdo principal, abaixo do [[Elementos/cabecalhos|cabeçalho]] principal e acima do título da página.
+-   **Posicionamento:** Geralmente no topo da área de conteúdo principal, abaixo do [[Glossário/Elementos/cabecalhos|cabeçalho]] principal e acima do título da página.
 -   **Separador:** Usar um separador visual claro entre os links (ex: `>`, `/`, `»`). O `>` é o mais comum e reconhecido.
--   **[[Elementos/links|Link]] para Home:** O primeiro item deve ser quase sempre um [[Elementos/links|link]] para a página inicial.
--   **Página Atual:** O último item representa a página atual. Geralmente não é um [[Elementos/links|link]], mas texto simples em destaque (ex: negrito) para indicar a localização ativa.
+-   **[[Glossário/Elementos/links|Link]] para Home:** O primeiro item deve ser quase sempre um [[Glossário/Elementos/links|link]] para a página inicial.
+-   **Página Atual:** O último item representa a página atual. Geralmente não é um [[Glossário/Elementos/links|link]], mas texto simples em destaque (ex: negrito) para indicar a localização ativa.
 -   **Clareza:** Usar títulos de página concisos e descritivos.
 -   **Não Substituir Navegação Primária:** Breadcrumbs são um auxílio, não devem substituir a navegação principal do site.
 -   **Responsividade:** Em telas pequenas, podem ser truncados, roláveis horizontalmente, ou o primeiro/último item pode ser priorizado.
 -   **Acessibilidade (a11y):**
     *   Envolver os breadcrumbs em um elemento `<nav>` com um `aria-label="Breadcrumb"` (ou o equivalente em português, como "Trilha de navegação").
-    *   Usar uma [[Elementos/listas|lista]] ordenada (`<ol>`) ou não ordenada (`<ul>`) para os itens, pois representam uma sequência ou conjunto de [[Elementos/links|links]] de navegação.
+    *   Usar uma [[Glossário/Elementos/listas|lista]] ordenada (`<ol>`) ou não ordenada (`<ul>`) para os itens, pois representam uma sequência ou conjunto de [[Glossário/Elementos/links|links]] de navegação.
     *   Para o item da página atual que não é um link, usar `aria-current="page"`.
 
 ## Variações de Estilo
 
 -   Tamanho da fonte.
--   [[Linguagem Visual/cor|Cor]] dos [[Elementos/links|links]] e do texto da página atual.
+-   [[Glossário/Linguagem Visual/cor|Cor]] dos [[Glossário/Elementos/links|links]] e do texto da página atual.
 -   Estilo do separador.
 
 ## Exemplos
@@ -58,4 +58,4 @@ Breadcrumbs são um sistema de navegação secundário que mostra a localizaçã
 
 -   Usar breadcrumbs para navegação em um único nível ou em sites muito rasos.
 -   Usar breadcrumbs baseados em histórico para navegação primária, pois pode ser confuso.
--   Tornar o item da página atual um [[Elementos/links|link]] para si mesmo. 
+-   Tornar o item da página atual um [[Glossário/Elementos/links|link]] para si mesmo. 

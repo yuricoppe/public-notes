@@ -17,12 +17,12 @@ O objetivo principal de um Product Roadmap é:
 1.  **Definir a Visão e Estratégia do Produto:** O roadmap deve ser derivado de uma clara visão de produto e estratégia de negócios.
 2.  **Coletar Entradas:** Reunir ideias, solicitações de funcionalidades, feedback de clientes, insights de mercado e necessidades de negócio de várias fontes.
 3.  **Priorizar Iniciativas:** Avaliar e priorizar as iniciativas e temas com base em seu valor estratégico, impacto no cliente, esforço necessário e outros critérios (ex: usando frameworks como RICE, MoSCoW).
-4.  **Estruturar o Roadmap:** Organizar as iniciativas priorizadas em um cronograma. Os roadmaps modernos tendem a ser baseados em temas e resultados, em vez de [[Elementos/listas|listas]] detalhadas de funcionalidades com datas rígidas. Elementos comuns incluem:
-    *   **Temas ou Objetivos Estratégicos:** Agrupar funcionalidades em torno de metas maiores (ex: "Melhorar a Experiência de [[Padrões/launch|Onboarding]]", "Aumentar a Retenção de Usuários").
+4.  **Estruturar o Roadmap:** Organizar as iniciativas priorizadas em um cronograma. Os roadmaps modernos tendem a ser baseados em temas e resultados, em vez de [[Glossário/Elementos/listas|listas]] detalhadas de funcionalidades com datas rígidas. Elementos comuns incluem:
+    *   **Temas ou Objetivos Estratégicos:** Agrupar funcionalidades em torno de metas maiores (ex: "Melhorar a Experiência de [[Glossário/Padrões/launch|Onboarding]]", "Aumentar a Retenção de Usuários").
     *   **Linha do Tempo (Horizontes):** Geralmente dividido em fases como "Agora" (Curto Prazo), "Próximo" (Médio Prazo) e "Futuro/Depois" (Longo Prazo), em vez de datas específicas.
     *   **Iniciativas/Epics:** Grandes blocos de trabalho ou funcionalidades chave dentro de cada tema.
     *   **Status (opcional):** Indicação do progresso.
-    *   **[[Linguagem Visual/metricas_e_keylines|Métricas]] de Sucesso (opcional):** Como o sucesso de cada tema ou iniciativa será medido.
+    *   **[[Glossário/Linguagem Visual/metricas_e_keylines|Métricas]] de Sucesso (opcional):** Como o sucesso de cada tema ou iniciativa será medido.
 5.  **Comunicar e Iterar:** Compartilhar o roadmap com os stakeholders e revisá-lo e atualizá-lo regularmente à medida que o mercado, as prioridades e o aprendizado evoluem.
 
 ## Tipos de Roadmaps

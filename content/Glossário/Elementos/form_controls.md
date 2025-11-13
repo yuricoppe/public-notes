@@ -1,10 +1,10 @@
-# Controles de [[Padrões/form_structure|Formulário]] (Form Controls)
+# Controles de [[Glossário/Padrões/form_structure|Formulário]] (Form Controls)
 
 ## Onde é usado
 
-Controles de [[Padrões/form_structure|formulário]] são elementos interativos que permitem aos usuários inserir e submeter dados. São a espinha dorsal de qualquer funcionalidade que envolva coleta de informações do usuário.
+Controles de [[Glossário/Padrões/form_structure|formulário]] são elementos interativos que permitem aos usuários inserir e submeter dados. São a espinha dorsal de qualquer funcionalidade que envolva coleta de informações do usuário.
 
-## [[Elementos/listas|Lista]] de Subcomponentes/Variações Principais
+## [[Glossário/Elementos/listas|Lista]] de Subcomponentes/Variações Principais
 
 - **Campo de Texto (Text Input):**
   - Descrição: Permite a inserção de uma única linha de texto.
@@ -13,64 +13,64 @@ Controles de [[Padrões/form_structure|formulário]] são elementos interativos 
   - Placeholder: Texto de ajuda exibido antes da inserção.
   - Rótulo (Label): Descrição do campo.
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para Campo de Texto no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Campo de Texto no Figma]
 
 - **Área de Texto (Text Area):**
   - Descrição: Permite a inserção de múltiplas linhas de texto.
   - Redimensionável: [Sim/Não]
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para Área de Texto no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Área de Texto no Figma]
 
-- **[[Elementos/botoes|Botão]] de Rádio (Radio [[Elementos/botoes|Button]]):**
+- **[[Glossário/Elementos/botoes|Botão]] de Rádio (Radio [[Glossário/Elementos/botoes|Button]]):**
   - Descrição: Permite ao usuário selecionar uma única opção de um conjunto mutuamente exclusivo.
   - Agrupamento: Necessário para a funcionalidade correta (mesmo `name`).
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para [[Elementos/botoes|Botão]] de Rádio no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para [[Glossário/Elementos/botoes|Botão]] de Rádio no Figma]
 
 - **Caixa de Seleção (Checkbox):**
   - Descrição: Permite ao usuário selecionar uma ou mais opções de um conjunto, ou para ligar/desligar uma opção.
   - Estado Indeterminado: Suportado para hierarquias de checkboxes.
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para Caixa de Seleção no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Caixa de Seleção no Figma]
 
-- **[[Componentes/menu|Menu]] de Seleção (Select / Dropdown):**
-  - Descrição: Permite ao usuário selecionar uma ou mais opções de uma [[Elementos/listas|lista]] suspensa.
+- **[[Glossário/Componentes/menu|Menu]] de Seleção (Select / Dropdown):**
+  - Descrição: Permite ao usuário selecionar uma ou mais opções de uma [[Glossário/Elementos/listas|lista]] suspensa.
   - Tipos: Seleção única, seleção múltipla.
-  - Com busca: Opcional para [[Elementos/listas|listas]] longas.
+  - Com busca: Opcional para [[Glossário/Elementos/listas|listas]] longas.
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para [[Componentes/menu|Menu]] de Seleção no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para [[Glossário/Componentes/menu|Menu]] de Seleção no Figma]
 
 - **Upload de Arquivo (File Upload):**
   - Descrição: Permite ao usuário selecionar arquivos do seu dispositivo para envio.
   - Feedback de progresso: Importante para arquivos grandes.
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para Upload de Arquivo no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Upload de Arquivo no Figma]
 
 - **Rótulos Flutuantes (Floating Labels):**
   - Descrição: Rótulos que se movem de dentro do campo para cima quando o campo está focado ou preenchido.
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para Rótulos Flutuantes no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Rótulos Flutuantes no Figma]
 
 - **Microcopy:**
-  - Descrição: Textos curtos de ajuda ou instrução próximos aos campos (placeholders, tooltips, [[Componentes/messaging|mensagens]] de validação).
+  - Descrição: Textos curtos de ajuda ou instrução próximos aos campos (placeholders, tooltips, [[Glossário/Componentes/messaging|mensagens]] de validação).
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para diretrizes de Microcopy no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para diretrizes de Microcopy no Figma]
 
 - **Obrigatório (Required):**
   - Descrição: Indicação visual (ex: asterisco) e lógica de que um campo deve ser preenchido.
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para indicação de Campo Obrigatório no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para indicação de Campo Obrigatório no Figma]
 
 - **Validação (Validation):**
   - Descrição: Feedback visual e textual sobre o estado da entrada do usuário (ex: erro, sucesso, aviso).
-  - [[Componentes/messaging|Mensagens]]: Claras e concisas.
+  - [[Glossário/Componentes/messaging|Mensagens]]: Claras e concisas.
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para estados de Validação no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para estados de Validação no Figma]
 
 ## Status Geral
 
 **Status:** A definir
 
-## [[Elementos/links|Link]] para o Figma (Visão Geral de Controles de [[Padrões/form_structure|Formulário]])
+## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Controles de [[Glossário/Padrões/form_structure|Formulário]])
 
-[[[Elementos/links|Link]] para a seção de Controles de [[Padrões/form_structure|Formulário]] no Figma] 
+[[[Glossário/Elementos/links|Link]] para a seção de Controles de [[Glossário/Padrões/form_structure|Formulário]] no Figma] 

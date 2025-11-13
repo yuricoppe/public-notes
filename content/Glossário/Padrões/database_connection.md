@@ -16,7 +16,7 @@ Este padrão é mais relevante para desenvolvedores e arquitetos, mas as implica
 - **String de Conexão/DSN (Data Source Name):** Contém informações como host, porta, nome do banco, usuário e senha.
 - **Driver do Banco de Dados:** Software que permite à aplicação comunicar-se com um tipo específico de SGBD.
 - **Pool de Conexões:** Um cache de conexões de banco de dados mantidas para que possam ser reutilizadas, evitando o custo de abrir uma nova conexão para cada requisição.
-- **Mecanismos de [[Padrões/authentication|Autenticação]]:** Como a aplicação se autentica no SGBD (ex: usuário/senha, [[Padrões/authentication|autenticação]] integrada, tokens).
+- **Mecanismos de [[Glossário/Padrões/authentication|Autenticação]]:** Como a aplicação se autentica no SGBD (ex: usuário/senha, [[Glossário/Padrões/authentication|autenticação]] integrada, tokens).
 - **Tratamento de Erros e Timeouts:** Lógica para lidar com falhas na conexão, timeouts e tentativas de reconexão.
 - **Gerenciamento de Transações:** Garantir a atomicidade, consistência, isolamento e durabilidade (ACID) das operações.
 - **Configuração de Criptografia (ex: SSL/TLS):** Para proteger os dados em trânsito entre a aplicação e o banco.
@@ -36,7 +36,7 @@ Este padrão é mais relevante para desenvolvedores e arquitetos, mas as implica
 ### Faça
 - Utilize pooling de conexões na maioria das aplicações web para melhorar a performance e escalabilidade.
 - Configure timeouts apropriados para conexões e consultas para evitar que a aplicação fique bloqueada indefinidamente.
-- Proteja as credenciais do banco de dados usando gerenciadores de segredos ou variáveis de ambiente; nunca as coloque diretamente no [[Elementos/codigo|código]].
+- Proteja as credenciais do banco de dados usando gerenciadores de segredos ou variáveis de ambiente; nunca as coloque diretamente no [[Glossário/Elementos/codigo|código]].
 - Use conexões criptografadas (SSL/TLS) entre a aplicação e o banco, especialmente em ambientes de produção ou quando trafegando dados sensíveis.
 - Feche ou libere as conexões assim que não forem mais necessárias para evitar o esgotamento de recursos.
 - Monitore a saúde e o uso das conexões do banco de dados.
@@ -44,7 +44,7 @@ Este padrão é mais relevante para desenvolvedores e arquitetos, mas as implica
 
 ### Não Faça
 - Não abra uma nova conexão para cada requisição do usuário se um pool de conexões puder ser usado.
-- Não use credenciais de superusuário do banco de dados para a aplicação; conceda apenas as [[Padrões/permissions|permissões]] mínimas necessárias (Princípio do Menor Privilégio).
+- Não use credenciais de superusuário do banco de dados para a aplicação; conceda apenas as [[Glossário/Padrões/permissions|permissões]] mínimas necessárias (Princípio do Menor Privilégio).
 - Não ignore erros de conexão; logue-os e trate-os adequadamente.
 - Não deixe conexões abertas desnecessariamente por longos períodos.
 
@@ -53,7 +53,7 @@ Este padrão é mais relevante para desenvolvedores e arquitetos, mas as implica
 
 ## Exemplos / Cenários de Uso
 - Um portal buscando informações de produtos em um banco de dados SQL.
-- Uma aplicação salvando dados de um [[Padrões/form_structure|formulário]] de usuário em um banco NoSQL.
+- Uma aplicação salvando dados de um [[Glossário/Padrões/form_structure|formulário]] de usuário em um banco NoSQL.
 - Um sistema de relatórios consultando um data warehouse.
 - Microserviços acessando seus respectivos bancos de dados.
 
@@ -68,4 +68,4 @@ A definir
 
 ## Recursos Adicionais / Figma
 - N/A (Este é um padrão mais conceitual de backend/arquitetura, não tendo representação visual direta em Figma para UI Patterns de front-end).
-- [[[Elementos/links|Link]] para a documentação de configuração do ORM ou biblioteca de acesso a dados do projeto] 
+- [[[Glossário/Elementos/links|Link]] para a documentação de configuração do ORM ou biblioteca de acesso a dados do projeto] 

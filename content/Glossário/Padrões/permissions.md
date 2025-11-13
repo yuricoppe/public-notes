@@ -13,14 +13,14 @@ O padrão de permissões descreve como um sistema gerencia e comunica ao usuári
 
 ## Elementos Comuns / Estrutura Típica (na UI)
 - **Feedback Visual para Ações Bloqueadas:**
-    - [[Elementos/botoes|Botões]]/[[Elementos/links|links]] desabilitados (com tooltips explicando o motivo, se possível).
+    - [[Glossário/Elementos/botoes|Botões]]/[[Glossário/Elementos/links|links]] desabilitados (com tooltips explicando o motivo, se possível).
     - Omissão de funcionalidades/seções da UI para as quais o usuário não tem acesso.
-    - [[Componentes/messaging|Mensagens]] de erro ou acesso negado ao tentar acessar um recurso diretamente.
+    - [[Glossário/Componentes/messaging|Mensagens]] de erro ou acesso negado ao tentar acessar um recurso diretamente.
 - **Interfaces de Gerenciamento de Permissões (para administradores):**
     - Listagem de usuários e papéis (roles).
     - Atribuição de papéis a usuários.
     - Definição de permissões granulares para cada papel (ex: CRUD - Criar, Ler, Atualizar, Deletar - para diferentes entidades).
-    - [[Elementos/form_controls|Checkboxes]], [[Elementos/interruptor|toggles]] ou [[Componentes/menu|menus]] para configurar permissões.
+    - [[Glossário/Elementos/form_controls|Checkboxes]], [[Glossário/Elementos/interruptor|toggles]] ou [[Glossário/Componentes/menu|menus]] para configurar permissões.
 - **Comunicação de Nível de Acesso:**
     - Indicação do papel atual do usuário (ex: "Logado como Administrador").
     - Seções da documentação explicando os diferentes níveis de acesso.
@@ -48,31 +48,31 @@ O padrão de permissões descreve como um sistema gerencia e comunica ao usuári
 
 ### Não Faça
 - Não exponha funcionalidades que o usuário não pode usar de forma que cause frustração. É melhor ocultá-las se não houver benefício em mostrá-las desabilitadas.
-- Não use [[Componentes/messaging|mensagens]] de erro genéricas para falhas de permissão; seja específico quando a segurança permitir.
+- Não use [[Glossário/Componentes/messaging|mensagens]] de erro genéricas para falhas de permissão; seja específico quando a segurança permitir.
 - Não torne o sistema de gerenciamento de permissões excessivamente complexo para os administradores.
 - Não conceda permissões excessivas por padrão.
 
 ## Considerações de Acessibilidade
 - Se elementos interativos estiverem desabilitados devido a permissões, garanta que o estado desabilitado seja comunicado a tecnologias assistivas (usando `aria-disabled="true"`).
 - Se um tooltip for usado para explicar por que um controle está desabilitado, certifique-se de que o tooltip seja acessível.
-- [[Componentes/messaging|Mensagens]] de erro de acesso negado devem ser acessíveis e fáceis de entender.
-- A interface de gerenciamento de permissões (para administradores) deve seguir todas as diretrizes gerais de acessibilidade para [[Padrões/form_structure|formulários]] e controles interativos.
+- [[Glossário/Componentes/messaging|Mensagens]] de erro de acesso negado devem ser acessíveis e fáceis de entender.
+- A interface de gerenciamento de permissões (para administradores) deve seguir todas as diretrizes gerais de acessibilidade para [[Glossário/Padrões/form_structure|formulários]] e controles interativos.
 
 ## Exemplos / Cenários de Uso
-- Um editor de conteúdo não pode publicar artigos, apenas salvá-los como rascunho (o [[Elementos/botoes|botão]] "Publicar" está desabilitado ou ausente).
-- Um usuário básico não vê [[Elementos/links|links]] para seções de administração no [[Componentes/menu|menu]] de navegação.
+- Um editor de conteúdo não pode publicar artigos, apenas salvá-los como rascunho (o [[Glossário/Elementos/botoes|botão]] "Publicar" está desabilitado ou ausente).
+- Um usuário básico não vê [[Glossário/Elementos/links|links]] para seções de administração no [[Glossário/Componentes/menu|menu]] de navegação.
 - Um administrador configurando se um papel "Marketing" pode criar, editar ou apenas visualizar campanhas.
-- Um sistema de gerenciamento de projetos onde diferentes membros da equipe têm diferentes níveis de acesso a tarefas e [[Padrões/settings|configurações]].
+- Um sistema de gerenciamento de projetos onde diferentes membros da equipe têm diferentes níveis de acesso a tarefas e [[Glossário/Padrões/settings|configurações]].
 
 ## Variações Comuns
 - **Controle de Acesso Baseado em Papel (RBAC - Role-Based Access Control):** Usuários são atribuídos a papéis, e os papéis têm permissões.
 - **Controle de Acesso Baseado em Atributos (ABAC - Attribute-Based Access Control):** Permissões são concedidas com base em atributos do usuário, do recurso e do ambiente.
-- **[[Elementos/listas|Listas]] de Controle de Acesso (ACLs - Access Control Lists):** Especificam quais usuários ou grupos têm permissão para quais objetos.
+- **[[Glossário/Elementos/listas|Listas]] de Controle de Acesso (ACLs - Access Control Lists):** Especificam quais usuários ou grupos têm permissão para quais objetos.
 - **Permissões Implícitas vs. Explícitas:** Algumas permissões podem ser herdadas ou implícitas, enquanto outras são explicitamente concedidas.
 
 ## Status
 A definir
 
 ## Recursos Adicionais / Figma
-- [[[Elementos/links|Link]] para exemplos de UI de gerenciamento de permissões no Figma (se aplicável)]
-- [[[Elementos/links|Link]] para a documentação da arquitetura de papéis e permissões do sistema] 
+- [[[Glossário/Elementos/links|Link]] para exemplos de UI de gerenciamento de permissões no Figma (se aplicável)]
+- [[[Glossário/Elementos/links|Link]] para a documentação da arquitetura de papéis e permissões do sistema] 

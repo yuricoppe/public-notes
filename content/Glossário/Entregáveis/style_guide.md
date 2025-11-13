@@ -6,23 +6,23 @@ Uma peça de documentação que contém diretrizes específicas, referências vi
 
 Um Guia de Estilo é um documento abrangente que estabelece padrões e diretrizes para a aparência, comportamento e tom de voz de um produto, marca ou sistema. Ele serve como uma fonte de verdade para designers, desenvolvedores, redatores e outros membros da equipe, garantindo consistência e coerência em todas as manifestações da marca ou produto.
 
-Embora frequentemente associado ao design visual ([[Linguagem Visual/cor|cores]], [[Linguagem Visual/tipografia|tipografia]], [[Linguagem Visual/iconografia|iconografia]]), um Guia de Estilo pode abranger também diretrizes de redação, tom de voz, princípios de interação e outros aspectos da experiência do usuário e da identidade da marca.
+Embora frequentemente associado ao design visual ([[Glossário/Linguagem Visual/cor|cores]], [[Glossário/Linguagem Visual/tipografia|tipografia]], [[Glossário/Linguagem Visual/iconografia|iconografia]]), um Guia de Estilo pode abranger também diretrizes de redação, tom de voz, princípios de interação e outros aspectos da experiência do usuário e da identidade da marca.
 
 ## Componentes Comuns de um Guia de Estilo
 
 **1. Identidade Visual da Marca:**
    - Logo (variações, uso correto e incorreto).
-   - Paleta de [[Linguagem Visual/cor|Cores]] (primárias, secundárias, neutras, com códigos hex, RGB, CMYK).
-   - [[Linguagem Visual/tipografia|Tipografia]] (famílias tipográficas, hierarquia, tamanhos, pesos, [[Linguagem Visual/espacamento|espaçamento]]).
-   - [[Linguagem Visual/iconografia|Iconografia]] (estilo, biblioteca de [[Linguagem Visual/iconografia|ícones]], uso).
-   - Imaginário (estilo de [[Linguagem Visual/fotografia|fotografia]], ilustrações, diretrizes de uso).
+   - Paleta de [[Glossário/Linguagem Visual/cor|Cores]] (primárias, secundárias, neutras, com códigos hex, RGB, CMYK).
+   - [[Glossário/Linguagem Visual/tipografia|Tipografia]] (famílias tipográficas, hierarquia, tamanhos, pesos, [[Glossário/Linguagem Visual/espacamento|espaçamento]]).
+   - [[Glossário/Linguagem Visual/iconografia|Iconografia]] (estilo, biblioteca de [[Glossário/Linguagem Visual/iconografia|ícones]], uso).
+   - Imaginário (estilo de [[Glossário/Linguagem Visual/fotografia|fotografia]], ilustrações, diretrizes de uso).
 
 **2. Elementos de Interface do Usuário (UI Elements):**
-   - [[Elementos/botoes|Botões]] (estados, tamanhos, tipos).
-   - [[Padrões/form_structure|Formulários]] (campos de entrada, seletores, [[Elementos/form_controls|caixas de seleção]], [[Elementos/botoes|botões]] de rádio).
-   - Navegação ([[Componentes/menu|menus]], abas, [[Componentes/breadcrumbs|breadcrumbs]]).
-   - [[Componentes/cards|Cards]], [[Componentes/dialog|modais]], tooltips, etc.
-   - [[Linguagem Visual/espacamento|Espaçamento]] e Grid (diretrizes de layout).
+   - [[Glossário/Elementos/botoes|Botões]] (estados, tamanhos, tipos).
+   - [[Glossário/Padrões/form_structure|Formulários]] (campos de entrada, seletores, [[Glossário/Elementos/form_controls|caixas de seleção]], [[Glossário/Elementos/botoes|botões]] de rádio).
+   - Navegação ([[Glossário/Componentes/menu|menus]], abas, [[Glossário/Componentes/breadcrumbs|breadcrumbs]]).
+   - [[Glossário/Componentes/cards|Cards]], [[Glossário/Componentes/dialog|modais]], tooltips, etc.
+   - [[Glossário/Linguagem Visual/espacamento|Espaçamento]] e Grid (diretrizes de layout).
 
 **3. Tom de Voz e Linguagem (Content Style Guide):**
    - Princípios de Tom de Voz (ex: amigável, formal, técnico).
@@ -46,7 +46,7 @@ Embora frequentemente associado ao design visual ([[Linguagem Visual/cor|cores]]
 - **Eficiência:** Reduz a necessidade de tomar decisões de design repetitivas, economizando tempo para designers e desenvolvedores.
 - **Escalabilidade:** Facilita a expansão do produto ou marca mantendo a coerência.
 - **Melhora a Comunicação da Marca:** Reforça a identidade da marca e seus valores.
-- **Integração Facilitada ([[Padrões/launch|Onboarding]]):** Ajuda novos membros da equipe a entenderem rapidamente os padrões.
+- **Integração Facilitada ([[Glossário/Padrões/launch|Onboarding]]):** Ajuda novos membros da equipe a entenderem rapidamente os padrões.
 - **Qualidade:** Mantém um alto padrão de design e experiência do usuário.
 
 ## Quando Utilizar
@@ -54,11 +54,11 @@ Embora frequentemente associado ao design visual ([[Linguagem Visual/cor|cores]]
 - Essencial para qualquer produto digital ou marca que busca consistência.
 - Ao desenvolver um novo produto ou realizar um redesign significativo.
 - Quando várias equipes ou indivíduos estão trabalhando no mesmo produto/marca.
-- Para servir de base para um [[Entregáveis/design_system|Design System]] mais robusto.
+- Para servir de base para um [[Glossário/Entregáveis/design_system|Design System]] mais robusto.
 
-## Style Guide vs. [[Entregáveis/design_system|Design System]]
+## Style Guide vs. [[Glossário/Entregáveis/design_system|Design System]]
 
-Um Guia de Estilo foca nas diretrizes e na aparência visual e de conteúdo. Um [[Entregáveis/design_system|Design System]] é mais abrangente; ele inclui um Guia de Estilo, mas também uma biblioteca de componentes de UI reutilizáveis (com [[Elementos/codigo|código]]), padrões de design, e às vezes ferramentas e processos. O Guia de Estilo é um componente fundamental de um [[Entregáveis/design_system|Design System]].
+Um Guia de Estilo foca nas diretrizes e na aparência visual e de conteúdo. Um [[Glossário/Entregáveis/design_system|Design System]] é mais abrangente; ele inclui um Guia de Estilo, mas também uma biblioteca de componentes de UI reutilizáveis (com [[Glossário/Elementos/codigo|código]]), padrões de design, e às vezes ferramentas e processos. O Guia de Estilo é um componente fundamental de um [[Glossário/Entregáveis/design_system|Design System]].
 
 ## Considerações
 

@@ -4,7 +4,7 @@ Um **Chronological Map (Mapa Cronológico)** é uma categoria de entregáveis de
 
 ## Propósito Principal
 
-O objetivo central dos [[Componentes/maps|mapas]] cronológicos é entender e comunicar como a experiência de um usuário (ou cliente) se desdobra através de uma sequência de eventos, interações e pontos de contato. Eles ajudam a:
+O objetivo central dos [[Glossário/Componentes/maps|mapas]] cronológicos é entender e comunicar como a experiência de um usuário (ou cliente) se desdobra através de uma sequência de eventos, interações e pontos de contato. Eles ajudam a:
 
 1.  **Visualizar a Experiência Completa:** Oferecem uma visão holística da jornada do usuário, em vez de focar em interações isoladas.
 2.  **Identificar Pontos de Dor e Oportunidades:** Revelam momentos de frustração, confusão ou deleite ao longo do tempo.
@@ -12,17 +12,17 @@ O objetivo central dos [[Componentes/maps|mapas]] cronológicos é entender e co
 4.  **Facilitar a Empatia:** Ajudam as equipes a se colocarem no lugar do usuário e entenderem sua perspectiva temporal.
 5.  **Alinhar Equipes:** Criam um entendimento compartilhado sobre a experiência do usuário entre diferentes departamentos.
 
-## Tipos Comuns de [[Componentes/maps|Mapas]] Cronológicos
+## Tipos Comuns de [[Glossário/Componentes/maps|Mapas]] Cronológicos
 
-O Nielsen Norman Group destaca três tipos principais de [[Componentes/maps|mapas]] cronológicos:
+O Nielsen Norman Group destaca três tipos principais de [[Glossário/Componentes/maps|mapas]] cronológicos:
 
 1.  **[Experience Map (Mapa de Experiência)](./experience_map.md):** Visualiza a experiência completa de uma pessoa ao tentar atingir um objetivo, geralmente abrangendo múltiplos canais e pontos de contato, e é independente de um produto ou serviço específico da empresa.
 2.  **[Service Blueprint (Blueprint de Serviço)](./service_blueprint.md):** Foca em como um serviço é entregue pela organização, mapeando as ações do cliente (frontstage), as ações dos funcionários de linha de frente (frontstage), as ações dos funcionários de bastidores (backstage) e os processos de suporte, tudo conectado aos pontos de contato da jornada do cliente.
-3.  **[User Journey Map (Mapa de Jornada do Usuário)](./journey_map.md):** Descreve a experiência de um usuário ao interagir com um produto ou serviço específico de uma empresa para alcançar um objetivo. É mais focado no produto do que um [[Entregáveis/experience_map|mapa de experiência]].
+3.  **[User Journey Map (Mapa de Jornada do Usuário)](./journey_map.md):** Descreve a experiência de um usuário ao interagir com um produto ou serviço específico de uma empresa para alcançar um objetivo. É mais focado no produto do que um [[Glossário/Entregáveis/experience_map|mapa de experiência]].
 
 ## Elementos Comuns (Variam Conforme o Tipo de Mapa)
 
-Embora a estrutura varie, muitos [[Componentes/maps|mapas]] cronológicos incluem:
+Embora a estrutura varie, muitos [[Glossário/Componentes/maps|mapas]] cronológicos incluem:
 
 *   **Fases/Estágios:** As principais etapas da experiência ao longo do tempo.
 *   **Ações do Usuário:** O que o usuário faz em cada estágio.
@@ -51,7 +51,7 @@ Embora a estrutura varie, muitos [[Componentes/maps|mapas]] cronológicos inclue
 
 *   Artigo Relacionado: [Why Map in Discovery: 3 Mapping Methods](https://www.nngroup.com/articles/discovery-mapping-methods/)
 *   Vídeo Relacionado: [Discovery Mapping Methods](https://www.nngroup.com/videos/discovery-mapping-methods/)
-*   Veja também: [Experience Map](./experience_map.md), [Service Blueprint](./service_blueprint.md), [User Journey Map](./journey_map.md) (Nota: [[Elementos/links|Links]] serão atualizados ou verificados conforme os documentos são criados).
+*   Veja também: [Experience Map](./experience_map.md), [Service Blueprint](./service_blueprint.md), [User Journey Map](./journey_map.md) (Nota: [[Glossário/Elementos/links|Links]] serão atualizados ou verificados conforme os documentos são criados).
 
 ---
 

@@ -4,7 +4,7 @@ O conjunto típico ou ideal de etapas necessárias para realizar uma tarefa comu
 
 ## Visão Geral
 
-Um Fluxo do Usuário (User Flow) é um diagrama que visualiza o caminho que um usuário (geralmente uma [[Entregáveis/persona|persona]]) percorre através de uma interface digital para completar uma tarefa específica ou alcançar um objetivo. Ele mapeia cada etapa da interação, desde o ponto de entrada até a conclusão bem-sucedida da tarefa, incluindo decisões, ações e as telas ou estados correspondentes da interface.
+Um Fluxo do Usuário (User Flow) é um diagrama que visualiza o caminho que um usuário (geralmente uma [[Glossário/Entregáveis/persona|persona]]) percorre através de uma interface digital para completar uma tarefa específica ou alcançar um objetivo. Ele mapeia cada etapa da interação, desde o ponto de entrada até a conclusão bem-sucedida da tarefa, incluindo decisões, ações e as telas ou estados correspondentes da interface.
 
 User Flows são cruciais para entender e otimizar a experiência do usuário, garantindo que os caminhos para tarefas importantes sejam claros, eficientes e intuitivos.
 
@@ -13,9 +13,9 @@ User Flows são cruciais para entender e otimizar a experiência do usuário, ga
 Um User Flow geralmente utiliza formas padronizadas para representar diferentes elementos:
 
 - **Ponto de Entrada:** Onde o usuário inicia o fluxo (ex: página inicial, e-mail, anúncio).
-- **Ações/Passos:** As interações específicas que o usuário realiza (ex: clicar em um [[Elementos/botoes|botão]], preencher um [[Padrões/form_structure|formulário]]).
+- **Ações/Passos:** As interações específicas que o usuário realiza (ex: clicar em um [[Glossário/Elementos/botoes|botão]], preencher um [[Glossário/Padrões/form_structure|formulário]]).
 - **Telas/Páginas:** As interfaces que o usuário vê em cada etapa.
-- **Pontos de Decisão:** Momentos em que o usuário precisa fazer uma escolha que ramifica o fluxo (ex: "[[Padrões/authentication|Login]] ou Criar Conta?").
+- **Pontos de Decisão:** Momentos em que o usuário precisa fazer uma escolha que ramifica o fluxo (ex: "[[Glossário/Padrões/authentication|Login]] ou Criar Conta?").
 - **Conectores/Setas:** Indicam a direção do fluxo e a progressão entre as etapas.
 - **Ponto de Saída/Conclusão:** Onde a tarefa é completada com sucesso.
 - **Loops (Opcional):** Para indicar ações repetitivas.
@@ -34,15 +34,15 @@ Um User Flow geralmente utiliza formas padronizadas para representar diferentes 
 
 - **Fase de Design de Produto:** Ao planejar novas funcionalidades ou otimizar existentes.
 - **Arquitetura da Informação e Design de Interação:** Para definir como os usuários navegarão e interagirão com o sistema.
-- **Antes de criar [[Entregáveis/wireframe|Wireframes]] ou [[Entregáveis/mockup|Mockups]] detalhados:** Para ter uma visão clara do fluxo antes de detalhar as telas.
+- **Antes de criar [[Glossário/Entregáveis/wireframe|Wireframes]] ou [[Glossário/Entregáveis/mockup|Mockups]] detalhados:** Para ter uma visão clara do fluxo antes de detalhar as telas.
 - **Para analisar e melhorar fluxos existentes em um produto.**
 - **Em discussões com a equipe para alinhar o entendimento de uma funcionalidade.**
 
-## User Flow vs. [[Entregáveis/journey_map|Journey Map]] vs. [[Entregáveis/wireflow|Wireflow]]
+## User Flow vs. [[Glossário/Entregáveis/journey_map|Journey Map]] vs. [[Glossário/Entregáveis/wireflow|Wireflow]]
 
 - **User Flow:** Foca nas etapas e interações dentro do produto digital para completar uma tarefa específica.
-- **[[Entregáveis/journey_map|Journey Map]] ([[Entregáveis/journey_map|Mapa de Jornada]]):** Mais amplo, mapeia toda a experiência do cliente com uma marca ou serviço, incluindo pontos de contato online e offline, emoções e pensamentos ao longo do tempo.
-- **[[Entregáveis/wireflow|Wireflow]]:** Combina [[Entregáveis/wireframe|wireframes]] (layouts de página de baixa fidelidade) com a estrutura de um fluxograma, mostrando tanto o layout da tela quanto o fluxo de interação entre elas.
+- **[[Glossário/Entregáveis/journey_map|Journey Map]] ([[Glossário/Entregáveis/journey_map|Mapa de Jornada]]):** Mais amplo, mapeia toda a experiência do cliente com uma marca ou serviço, incluindo pontos de contato online e offline, emoções e pensamentos ao longo do tempo.
+- **[[Glossário/Entregáveis/wireflow|Wireflow]]:** Combina [[Glossário/Entregáveis/wireframe|wireframes]] (layouts de página de baixa fidelidade) com a estrutura de um fluxograma, mostrando tanto o layout da tela quanto o fluxo de interação entre elas.
 
 ## Considerações
 
@@ -56,9 +56,9 @@ Um User Flow geralmente utiliza formas padronizadas para representar diferentes 
 
 - [Mapa de Processo (Process Map)](./process_map.md)
 - [Diagrama HTA (Hierarchical Task-Analysis Diagram)](./hta_diagram.md)
-- [Wireflow](./[[Entregáveis/wireflow|wireflow]].md)
+- [Wireflow](./[[Glossário/Entregáveis/wireflow|wireflow]].md)
 - [Mapa do Site (Site Map)](./site_map.md)
-- [Storyboard](./[[Entregáveis/storyboard|storyboard]].md)
+- [Storyboard](./[[Glossário/Entregáveis/storyboard|storyboard]].md)
 
 ## Referência Externa
 

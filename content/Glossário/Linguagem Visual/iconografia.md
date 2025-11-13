@@ -13,7 +13,7 @@ Descreve a biblioteca de ícones do sistema, incluindo seu estilo visual, tamanh
 ## Detalhes Adicionais / Tópicos
 
 ### Estilo Visual Consistente
-- Definir um estilo visual único para todos os ícones (ex: contornado, preenchido, duas [[Linguagem Visual/cor|cores]], etc.).
+- Definir um estilo visual único para todos os ícones (ex: contornado, preenchido, duas [[Glossário/Linguagem Visual/cor|cores]], etc.).
 - Manter a mesma espessura de linha, cantos arredondados (se houver) e nível de detalhe.
 
 ### Tamanhos Padrão
@@ -35,7 +35,7 @@ Descreve a biblioteca de ícones do sistema, incluindo seu estilo visual, tamanh
 - **PNG/WEBP:** Para ícones rasterizados ou ilustrações mais complexas, se vetores não forem adequados. Fornecer em múltiplas resoluções.
 
 ### Categorias de Ícones
-- **Navegação:** Usados em [[Componentes/menu|menus]], barras de navegação (ex: Home, Perfil, [[Padrões/settings|Configurações]]).
+- **Navegação:** Usados em [[Glossário/Componentes/menu|menus]], barras de navegação (ex: Home, Perfil, [[Glossário/Padrões/settings|Configurações]]).
 - **Ação:** Indicam funcionalidades interativas (ex: Salvar, Editar, Excluir, Adicionar, Pesquisar).
 - **Informativo/Status:** Comunicam estados ou fornecem informação (ex: Erro, Sucesso, Aviso, Ajuda, Informação).
 - **Decorativo:** Usados primariamente para apelo visual, sem funcionalidade intrínseca.
@@ -45,8 +45,8 @@ Descreve a biblioteca de ícones do sistema, incluindo seu estilo visual, tamanh
 - Devem seguir o estilo geral da iconografia.
 
 ### Ilustrações
-- Gráficos mais detalhados usados para enriquecer a experiência, em telas de [[Padrões/launch|onboarding]], estados vazios, ou para comunicar conceitos complexos de forma visual.
-- Definir o estilo das ilustrações para manter a consistência com o restante do [[Entregáveis/design_system|Design System]].
+- Gráficos mais detalhados usados para enriquecer a experiência, em telas de [[Glossário/Padrões/launch|onboarding]], estados vazios, ou para comunicar conceitos complexos de forma visual.
+- Definir o estilo das ilustrações para manter a consistência com o restante do [[Glossário/Entregáveis/design_system|Design System]].
 
 ### Alinhamento
 - Definir diretrizes para o alinhamento de ícones com texto (verticalmente) e com outros elementos da interface.
@@ -55,11 +55,11 @@ Descreve a biblioteca de ícones do sistema, incluindo seu estilo visual, tamanh
 
 - **Ícone de Ação (Ex: Salvar `💾`):**
   - Descrição: Representa uma ação que o usuário pode realizar, como salvar dados.
-  - Tamanhos Comuns: [Ex: 24x24px para [[Elementos/botoes|botões]], 16x16px para [[Elementos/links|links]] de ação]
+  - Tamanhos Comuns: [Ex: 24x24px para [[Glossário/Elementos/botoes|botões]], 16x16px para [[Glossário/Elementos/links|links]] de ação]
   - Estilo: [Ex: Contornado, espessura de 2px]
   - Alternativa Textual: "Salvar"
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para Ícone de Salvar no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Ícone de Salvar no Figma]
 
 - **Ícone Informativo (Ex: Ajuda `?`):**
   - Descrição: Fornece acesso a informações de ajuda ou contexto adicional.
@@ -67,12 +67,12 @@ Descreve a biblioteca de ícones do sistema, incluindo seu estilo visual, tamanh
   - Estilo: [Ex: Preenchido]
   - Alternativa Textual: "Ajuda"
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para Ícone de Ajuda no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Ícone de Ajuda no Figma]
 
 ## Status Geral
 
 **Status:** A definir (É importante ter uma biblioteca base de ícones antes de construir muitos componentes)
 
-## [[Elementos/links|Link]] para o Figma (Visão Geral da Iconografia)
+## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral da Iconografia)
 
-[[[Elementos/links|Link]] para a biblioteca de Ícones no Figma] 
+[[[Glossário/Elementos/links|Link]] para a biblioteca de Ícones no Figma] 

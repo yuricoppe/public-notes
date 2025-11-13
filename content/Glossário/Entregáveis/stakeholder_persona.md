@@ -1,17 +1,17 @@
-# Stakeholder [[Entregáveis/persona|Persona]]
+# Stakeholder [[Glossário/Entregáveis/persona|Persona]]
 
 Um personagem fictício que representa um personagem típico do seu grupo de stakeholders.
 
 ## Visão Geral
 
-Stakeholder [[Entregáveis/persona|Personas]] são representações semi-fictícias dos principais stakeholders envolvidos ou impactados por um projeto. Semelhante às User [[Entregáveis/persona|Personas]], elas ajudam a equipe do projeto a entender as necessidades, motivações, preocupações, expectativas e o contexto dos stakeholders. Isso facilita uma comunicação mais eficaz, o gerenciamento de expectativas e a tomada de decisões mais informada, considerando o impacto nos diferentes grupos de interesse.
+Stakeholder [[Glossário/Entregáveis/persona|Personas]] são representações semi-fictícias dos principais stakeholders envolvidos ou impactados por um projeto. Semelhante às User [[Glossário/Entregáveis/persona|Personas]], elas ajudam a equipe do projeto a entender as necessidades, motivações, preocupações, expectativas e o contexto dos stakeholders. Isso facilita uma comunicação mais eficaz, o gerenciamento de expectativas e a tomada de decisões mais informada, considerando o impacto nos diferentes grupos de interesse.
 
 ## Componentes Chave
 
-Uma Stakeholder [[Entregáveis/persona|Persona]] geralmente inclui:
+Uma Stakeholder [[Glossário/Entregáveis/persona|Persona]] geralmente inclui:
 
-- **Nome Fictício e Cargo/Papel:** Para humanizar a [[Entregáveis/persona|persona]].
-- **Foto ou Ilustração (Opcional):** Para tornar a [[Entregáveis/persona|persona]] mais memorável.
+- **Nome Fictício e Cargo/Papel:** Para humanizar a [[Glossário/Entregáveis/persona|persona]].
+- **Foto ou Ilustração (Opcional):** Para tornar a [[Glossário/Entregáveis/persona|persona]] mais memorável.
 - **Informações Demográficas Relevantes:** (ex: departamento, anos na empresa, nível de influência).
 - **Objetivos e Metas:** O que o stakeholder espera alcançar em relação ao projeto ou à sua área de responsabilidade.
 - **Motivações:** O que impulsiona suas decisões e engajamento.
@@ -39,15 +39,15 @@ Uma Stakeholder [[Entregáveis/persona|Persona]] geralmente inclui:
 
 ## Considerações
 
-- **Baseado em Pesquisa:** Idealmente, as [[Entregáveis/persona|personas]] de stakeholder devem ser baseadas em entrevistas e pesquisas reais com stakeholders, não apenas em suposições.
+- **Baseado em Pesquisa:** Idealmente, as [[Glossário/Entregáveis/persona|personas]] de stakeholder devem ser baseadas em entrevistas e pesquisas reais com stakeholders, não apenas em suposições.
 - **Foco no Relevante:** Incluir apenas informações que sejam pertinentes para o engajamento e gerenciamento do stakeholder no contexto do projeto.
-- **Número Gerenciável:** Criar um número limitado de [[Entregáveis/persona|personas]] que representem os grupos de stakeholders mais críticos.
-- **Evolução:** Assim como o projeto, as preocupações e o papel dos stakeholders podem mudar, então as [[Entregáveis/persona|personas]] podem precisar de atualização.
+- **Número Gerenciável:** Criar um número limitado de [[Glossário/Entregáveis/persona|personas]] que representem os grupos de stakeholders mais críticos.
+- **Evolução:** Assim como o projeto, as preocupações e o papel dos stakeholders podem mudar, então as [[Glossário/Entregáveis/persona|personas]] podem precisar de atualização.
 
 ## Relacionado
 
 - [Perfil do Stakeholder (Stakeholder Profile)](./stakeholder_profile.md)
-- [Persona](./[[Entregáveis/persona|persona]].md)
+- [Persona](./[[Glossário/Entregáveis/persona|persona]].md)
 - [Mapa de Relacionamento (Relationship Map)](./relationship_map.md)
 
 ## Referência Externa

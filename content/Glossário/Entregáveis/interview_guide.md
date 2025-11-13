@@ -38,7 +38,7 @@ O objetivo principal de um Guia de Entrevista é assegurar que as sessões de en
 *   Perfil do participante ideal.
 *   Logística (data, hora, local/ferramenta, duração).
 *   Introdução (script).
-*   [[Elementos/listas|Lista]] de perguntas abertas, organizadas por tópicos.
+*   [[Glossário/Elementos/listas|Lista]] de perguntas abertas, organizadas por tópicos.
 *   Perguntas de sondagem sugeridas.
 *   Conclusão (script).
 *   Espaço para anotações.
@@ -50,7 +50,7 @@ O objetivo principal de um Guia de Entrevista é assegurar que as sessões de en
 
 ## Referências (NN/g)
 
-*   Ver também: [Screener](#) (Nota: [[Elementos/links|Link]] para [[Entregáveis/screener|Screener]] será atualizado quando o documento correspondente for criado), [Research Plan](#) (Nota: [[Elementos/links|Link]] para [[Entregáveis/research_plan|Research Plan]] será atualizado quando o documento correspondente for criado), [Usability Report](#) (Nota: [[Elementos/links|Link]] para [[Entregáveis/usability_report|Usability Report]] será atualizado quando o documento correspondente for criado)
+*   Ver também: [Screener](#) (Nota: [[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/screener|Screener]] será atualizado quando o documento correspondente for criado), [Research Plan](#) (Nota: [[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/research_plan|Research Plan]] será atualizado quando o documento correspondente for criado), [Usability Report](#) (Nota: [[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/usability_report|Usability Report]] será atualizado quando o documento correspondente for criado)
 
 ---
 

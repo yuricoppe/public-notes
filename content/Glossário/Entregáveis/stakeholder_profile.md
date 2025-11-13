@@ -4,7 +4,7 @@ Um artefato para organizar e entender os insights dos stakeholders para que poss
 
 ## Visão Geral
 
-O Perfil do Stakeholder é um documento conciso que resume informações chave sobre um stakeholder individual ou um grupo de stakeholders. Diferente da Stakeholder [[Entregáveis/persona|Persona]], que pode ser mais narrativa e focada em "humanizar", o Perfil do Stakeholder tende a ser mais direto e factual, concentrando-se em dados que informarão diretamente as estratégias de engajamento e comunicação.
+O Perfil do Stakeholder é um documento conciso que resume informações chave sobre um stakeholder individual ou um grupo de stakeholders. Diferente da Stakeholder [[Glossário/Entregáveis/persona|Persona]], que pode ser mais narrativa e focada em "humanizar", o Perfil do Stakeholder tende a ser mais direto e factual, concentrando-se em dados que informarão diretamente as estratégias de engajamento e comunicação.
 
 Ele serve como uma referência rápida para a equipe do projeto entender quem são os stakeholders, qual seu nível de interesse e influência, quais são suas principais expectativas e preocupações, e como melhor interagir com eles.
 
@@ -37,7 +37,7 @@ Um Perfil de Stakeholder pode incluir:
 - **Fase de Iniciação e Planejamento do Projeto:** Para mapear e analisar os stakeholders.
 - **Desenvolvimento de Planos de Comunicação e Engajamento:** Como base para criar estratégias direcionadas.
 - **Ao longo do Projeto:** Para referenciar e ajustar as estratégias de interação conforme necessário.
-- **Em Projetos com Muitos Stakeholders:** Para manter um [[Padrões/create_account|registro]] organizado das informações chave de cada um.
+- **Em Projetos com Muitos Stakeholders:** Para manter um [[Glossário/Padrões/create_account|registro]] organizado das informações chave de cada um.
 
 ## Considerações
 
@@ -49,7 +49,7 @@ Um Perfil de Stakeholder pode incluir:
 ## Relacionado
 
 - [Stakeholder Persona](./stakeholder_persona.md)
-- [Persona](./[[Entregáveis/persona|persona]].md)
+- [Persona](./[[Glossário/Entregáveis/persona|persona]].md)
 - [Mapa de Relacionamento (Relationship Map)](./relationship_map.md)
 - [Matriz RACI (RACI Matrix)](./raci_matrix.md)
 

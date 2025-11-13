@@ -1,41 +1,41 @@
-# Footnotes (Notas de [[Componentes/footer|Rodapé]])
+# Footnotes (Notas de [[Glossário/Componentes/footer|Rodapé]])
 
-Footnotes (Notas de [[Componentes/footer|Rodapé]]) são referências ou informações adicionais colocadas na parte inferior de uma página (ou seção) para fornecer esclarecimentos, citações de fontes, ou [[Componentes/comments|comentários]] sobre um ponto específico no corpo do texto principal. Elas são indicadas no texto por um número sobrescrito, símbolo ou letra.
+Footnotes (Notas de [[Glossário/Componentes/footer|Rodapé]]) são referências ou informações adicionais colocadas na parte inferior de uma página (ou seção) para fornecer esclarecimentos, citações de fontes, ou [[Glossário/Componentes/comments|comentários]] sobre um ponto específico no corpo do texto principal. Elas são indicadas no texto por um número sobrescrito, símbolo ou letra.
 
 ## Casos de Uso
 
 -   **Citações Acadêmicas:** Referenciar fontes em trabalhos de pesquisa, artigos.
 -   **Esclarecimentos:** Fornecer definições, traduções ou informações contextuais que não se encaixam fluidamente no texto principal.
--   **[[Componentes/comments|Comentários]] do Autor:** Adicionar observações ou tangentes sem interromper o fluxo principal da leitura.
+-   **[[Glossário/Componentes/comments|Comentários]] do Autor:** Adicionar observações ou tangentes sem interromper o fluxo principal da leitura.
 -   **Atribuições:** Dar crédito a fontes de dados específicos, citações curtas ou ideias.
 -   **Textos Legais ou Técnicos:** Para explicar termos ou cláusulas específicas.
 
 ## Elementos Essenciais
 
-1.  **Marcador de Referência no Texto:** Um número (geralmente sobrescrito: ¹, ², ³), asterisco (*, **, ***), ou outra convenção de símbolo no corpo do texto, indicando a presença de uma nota de [[Componentes/footer|rodapé]].
-    *   Este marcador é geralmente um [[Elementos/links|link]] que leva o usuário diretamente para a nota de [[Componentes/footer|rodapé]] correspondente.
+1.  **Marcador de Referência no Texto:** Um número (geralmente sobrescrito: ¹, ², ³), asterisco (*, **, ***), ou outra convenção de símbolo no corpo do texto, indicando a presença de uma nota de [[Glossário/Componentes/footer|rodapé]].
+    *   Este marcador é geralmente um [[Glossário/Elementos/links|link]] que leva o usuário diretamente para a nota de [[Glossário/Componentes/footer|rodapé]] correspondente.
 
-2.  **Seção de Notas de [[Componentes/footer|Rodapé]]:** Localizada na parte inferior da página (ou, em alguns contextos digitais, no final de um artigo ou seção).
+2.  **Seção de Notas de [[Glossário/Componentes/footer|Rodapé]]:** Localizada na parte inferior da página (ou, em alguns contextos digitais, no final de um artigo ou seção).
     *   Geralmente separada do texto principal por uma linha horizontal.
     *   Cada nota é listada com seu marcador correspondente seguido pelo texto da nota.
 
-3.  **Texto da Nota de [[Componentes/footer|Rodapé]]:** O conteúdo explicativo, [[Elementos/block_quote|citação]] ou comentário.
-    *   **(Opcional, mas bom para usabilidade) [[Elementos/links|Link]] de Retorno:** A partir da nota de [[Componentes/footer|rodapé]], um [[Elementos/links|link]] (geralmente no marcador da nota) que leva de volta ao ponto de referência no texto principal.
+3.  **Texto da Nota de [[Glossário/Componentes/footer|Rodapé]]:** O conteúdo explicativo, [[Glossário/Elementos/block_quote|citação]] ou comentário.
+    *   **(Opcional, mas bom para usabilidade) [[Glossário/Elementos/links|Link]] de Retorno:** A partir da nota de [[Glossário/Componentes/footer|rodapé]], um [[Glossário/Elementos/links|link]] (geralmente no marcador da nota) que leva de volta ao ponto de referência no texto principal.
 
 ## Melhores Práticas
 
--   **Discrição:** As notas de [[Componentes/footer|rodapé]] devem ser para informações suplementares. Se a informação é crucial para o entendimento do texto principal, ela deve estar no próprio texto.
+-   **Discrição:** As notas de [[Glossário/Componentes/footer|rodapé]] devem ser para informações suplementares. Se a informação é crucial para o entendimento do texto principal, ela deve estar no próprio texto.
 -   **Consistência na Numeração/Marcação:** Usar um sistema consistente para os marcadores (numérico sequencial é o mais comum).
--   **Clareza:** O texto da nota de [[Componentes/footer|rodapé]] deve ser claro e conciso.
+-   **Clareza:** O texto da nota de [[Glossário/Componentes/footer|rodapé]] deve ser claro e conciso.
 -   **Posicionamento:** Tradicionalmente no pé da página. Em conteúdo digital longo, pode ser ao final do artigo/seção para evitar que o usuário perca o contexto ao rolar até o final da página a todo momento.
 -   **Acessibilidade (a11y) e Usabilidade Digital:**
-    *   Os marcadores de referência no texto devem ser [[Elementos/links|links]] clicáveis para a nota correspondente.
-    *   Cada nota na seção de notas de [[Componentes/footer|rodapé]] deve ter um `id` para ser o alvo do [[Elementos/links|link]].
-    *   O marcador na nota de [[Componentes/footer|rodapé]] também pode ser um [[Elementos/links|link]] de volta para o ponto no texto (usando um `id` no marcador original ou em um `<span>` ao redor dele).
-    *   Usar `aria-describedby` no elemento que contém o marcador de referência no texto, apontando para o ID da nota de [[Componentes/footer|rodapé]], pode ajudar leitores de tela a anunciar que há uma nota associada.
-    *   Outra abordagem para acessibilidade é usar `role="doc-footnote"` para o contêiner da nota e `role="doc-noteref"` para a referência no texto, embora o suporte possa variar. A abordagem de [[Elementos/links|links]] internos (`<a>` com `href="#id"`) é mais robusta.
+    *   Os marcadores de referência no texto devem ser [[Glossário/Elementos/links|links]] clicáveis para a nota correspondente.
+    *   Cada nota na seção de notas de [[Glossário/Componentes/footer|rodapé]] deve ter um `id` para ser o alvo do [[Glossário/Elementos/links|link]].
+    *   O marcador na nota de [[Glossário/Componentes/footer|rodapé]] também pode ser um [[Glossário/Elementos/links|link]] de volta para o ponto no texto (usando um `id` no marcador original ou em um `<span>` ao redor dele).
+    *   Usar `aria-describedby` no elemento que contém o marcador de referência no texto, apontando para o ID da nota de [[Glossário/Componentes/footer|rodapé]], pode ajudar leitores de tela a anunciar que há uma nota associada.
+    *   Outra abordagem para acessibilidade é usar `role="doc-footnote"` para o contêiner da nota e `role="doc-noteref"` para a referência no texto, embora o suporte possa variar. A abordagem de [[Glossário/Elementos/links|links]] internos (`<a>` com `href="#id"`) é mais robusta.
     *   Considerar tooltips ou popovers para notas curtas em interfaces digitais, como alternativa a rolar para o fim da página, mas isso já se afasta do conceito tradicional de footnote.
--   **Estilo Visual:** As notas de [[Componentes/footer|rodapé]] geralmente têm um tamanho de fonte menor que o texto principal e podem ter um recuo.
+-   **Estilo Visual:** As notas de [[Glossário/Componentes/footer|rodapé]] geralmente têm um tamanho de fonte menor que o texto principal e podem ter um recuo.
 
 ## Variações em Mídia Digital
 
@@ -45,7 +45,7 @@ Footnotes (Notas de [[Componentes/footer|Rodapé]]) são referências ou informa
 
 ## O Que Evitar
 
--   Usar notas de [[Componentes/footer|rodapé]] para informações essenciais que deveriam estar no corpo do texto.
+-   Usar notas de [[Glossário/Componentes/footer|rodapé]] para informações essenciais que deveriam estar no corpo do texto.
 -   Numeração inconsistente ou confusa.
--   Notas de [[Componentes/footer|rodapé]] excessivamente longas (se for muito longa, talvez mereça ser uma seção à parte ou um apêndice).
+-   Notas de [[Glossário/Componentes/footer|rodapé]] excessivamente longas (se for muito longa, talvez mereça ser uma seção à parte ou um apêndice).
 -   Dificultar a navegação entre o texto e a nota (ex: marcadores não clicáveis). 

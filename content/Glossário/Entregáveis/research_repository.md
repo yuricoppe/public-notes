@@ -22,18 +22,18 @@ Um Repositório de Pesquisa eficaz geralmente inclui:
     *   Transcrições.
     *   Notas de observação.
     *   Respostas de surveys.
-    *   Dados de testes de usabilidade (vídeos, logs de cliques, [[Linguagem Visual/metricas_e_keylines|métricas]]).
-    *   Artefatos de participantes (ex: resultados de [[Componentes/cards|card]] sorting).
+    *   Dados de testes de usabilidade (vídeos, logs de cliques, [[Glossário/Linguagem Visual/metricas_e_keylines|métricas]]).
+    *   Artefatos de participantes (ex: resultados de [[Glossário/Componentes/cards|card]] sorting).
 2.  **Achados e Insights Atômicos:**
-    *   Os dados brutos são analisados e decompostos em "nuggets" ou "insights atômicos" – pequenas unidades de conhecimento (uma observação, um fato, uma [[Elementos/block_quote|citação]], um problema de usabilidade) apoiadas por evidências.
+    *   Os dados brutos são analisados e decompostos em "nuggets" ou "insights atômicos" – pequenas unidades de conhecimento (uma observação, um fato, uma [[Glossário/Elementos/block_quote|citação]], um problema de usabilidade) apoiadas por evidências.
     *   Cada nugget é tipicamente etiquetado (tagging) com metadados relevantes.
 3.  **Metadados e Taxonomia:**
     *   Um sistema de etiquetagem (tags) consistente e uma taxonomia bem definida são cruciais para a capacidade de pesquisa.
-    *   Metadados podem incluir: tipo de produto/funcionalidade, tipo de usuário/[[Entregáveis/persona|persona]], método de pesquisa, data, pesquisador, sentimento do usuário, tags temáticas, etc.
+    *   Metadados podem incluir: tipo de produto/funcionalidade, tipo de usuário/[[Glossário/Entregáveis/persona|persona]], método de pesquisa, data, pesquisador, sentimento do usuário, tags temáticas, etc.
 4.  **Relatórios de Pesquisa e Sumários:**
-    *   [[Elementos/links|Links]] para relatórios completos de estudos, apresentações e outros documentos de síntese.
+    *   [[Glossário/Elementos/links|Links]] para relatórios completos de estudos, apresentações e outros documentos de síntese.
 5.  **Artefatos de Pesquisa:**
-    *   [Personas](#[[Entregáveis/persona|persona]].md), [Journey Maps](#journey_map.md), [Service Blueprints](#) (será criado), etc., derivados da pesquisa.
+    *   [Personas](#[[Glossário/Entregáveis/persona|persona]].md), [Journey Maps](#journey_map.md), [Service Blueprints](#) (será criado), etc., derivados da pesquisa.
 6.  **Funcionalidade de Busca Poderosa:** Essencial para encontrar informações relevantes rapidamente.
 7.  **Formas de Compartilhar e Exportar:** Facilitar a disseminação dos insights.
 

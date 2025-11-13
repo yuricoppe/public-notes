@@ -1,19 +1,19 @@
 # Storyboard
 
-Um artefato que comunica uma história através de [[Elementos/imagem|imagens]] exibidas em uma sequência de painéis que mapeiam cronologicamente os principais eventos da história.
+Um artefato que comunica uma história através de [[Glossário/Elementos/imagem|imagens]] exibidas em uma sequência de painéis que mapeiam cronologicamente os principais eventos da história.
 
 ## Visão Geral
 
-Storyboards são uma técnica de visualização que usa uma série de ilustrações ou [[Elementos/imagem|imagens]] organizadas em sequência para contar uma história ou descrever a experiência de um usuário com um produto ou serviço. Originários do cinema e da animação, os storyboards em UX ajudam a comunicar o contexto de uso, as ações do usuário, e as respostas do sistema de uma forma dinâmica e facilmente compreensível.
+Storyboards são uma técnica de visualização que usa uma série de ilustrações ou [[Glossário/Elementos/imagem|imagens]] organizadas em sequência para contar uma história ou descrever a experiência de um usuário com um produto ou serviço. Originários do cinema e da animação, os storyboards em UX ajudam a comunicar o contexto de uso, as ações do usuário, e as respostas do sistema de uma forma dinâmica e facilmente compreensível.
 
 Eles são particularmente eficazes para explorar e comunicar cenários de interação, visualizar o fluxo de uma tarefa e alinhar a equipe em torno de uma visão compartilhada da experiência do usuário.
 
 ## Componentes Chave
 
-- **Painéis (Quadros):** [[Elementos/imagem|Imagens]] ou esboços individuais que representam momentos chave na história.
+- **Painéis (Quadros):** [[Glossário/Elementos/imagem|Imagens]] ou esboços individuais que representam momentos chave na história.
 - **Sequência:** A ordem cronológica dos painéis que mostra a progressão da história.
 - **Cenas:** O ambiente ou contexto onde a ação ocorre em cada painel.
-- **Personagens:** Representações dos usuários (muitas vezes [[Entregáveis/persona|personas]]) e outros atores envolvidos.
+- **Personagens:** Representações dos usuários (muitas vezes [[Glossário/Entregáveis/persona|personas]]) e outros atores envolvidos.
 - **Ações:** O que os personagens estão fazendo em cada painel.
 - **Diálogos/Pensamentos (Opcional):** Pequenos textos ou balões de fala/pensamento para adicionar clareza.
 - **Anotações/Legendas:** Breves descrições abaixo de cada painel explicando o que está acontecendo, as emoções do usuário, ou funcionalidades do sistema sendo usadas.
@@ -38,8 +38,8 @@ Eles são particularmente eficazes para explorar e comunicar cenários de intera
 ## Tipos de Storyboard
 
 - **Esboços (Sketch Storyboards):** Desenhos simples e rápidos, focados na ideia e no fluxo.
-- **[[Entregáveis/wireframe|Wireframe]] Storyboards:** Usam [[Entregáveis/wireframe|wireframes]] de baixa fidelidade nos painéis para mostrar a interface.
-- **Storyboards de Alta Fidelidade:** Podem incluir [[Entregáveis/mockup|mockups]] mais detalhados ou até fotografias.
+- **[[Glossário/Entregáveis/wireframe|Wireframe]] Storyboards:** Usam [[Glossário/Entregáveis/wireframe|wireframes]] de baixa fidelidade nos painéis para mostrar a interface.
+- **Storyboards de Alta Fidelidade:** Podem incluir [[Glossário/Entregáveis/mockup|mockups]] mais detalhados ou até fotografias.
 
 ## Considerações
 
@@ -53,7 +53,7 @@ Eles são particularmente eficazes para explorar e comunicar cenários de intera
 - [História de UX (Story UX)](./story_ux.md)
 - [Fluxo do Usuário (User Flow)](./user_flow.md)
 - [Mapa de Jornada (Journey Map)](./journey_map.md)
-- [Persona](./[[Entregáveis/persona|persona]].md)
+- [Persona](./[[Glossário/Entregáveis/persona|persona]].md)
 
 ## Referência Externa
 

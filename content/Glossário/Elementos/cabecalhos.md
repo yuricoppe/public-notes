@@ -19,7 +19,7 @@ Os cabeçalhos são usados para estruturar o conteúdo de uma página, indicando
   - Peso: [Ex: Bold]
   - Margem (inferior): [Ex: 24px]
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para H1 no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para H1 no Figma]
 
 - **H2 (Cabeçalho Nível 2):**
   - Descrição: Título de seção principal.
@@ -28,7 +28,7 @@ Os cabeçalhos são usados para estruturar o conteúdo de uma página, indicando
   - Peso: [Ex: Bold]
   - Margem (superior/inferior): [Ex: 20px / 12px]
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para H2 no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para H2 no Figma]
 
 - **H3 (Cabeçalho Nível 3):**
   - Descrição: Título de subseção.
@@ -37,16 +37,16 @@ Os cabeçalhos são usados para estruturar o conteúdo de uma página, indicando
   - Peso: [Ex: Bold ou Semibold]
   - Margem (superior/inferior): [Ex: 16px / 8px]
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para H3 no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para H3 no Figma]
 
 - **H4, H5, H6:** (Seguir padrão similar, ajustando tamanho, peso e margens para indicar menor proeminência)
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para H4-H6 no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para H4-H6 no Figma]
 
 ## Status Geral
 
 **Status:** A definir
 
-## [[Elementos/links|Link]] para o Figma (Visão Geral de Cabeçalhos)
+## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Cabeçalhos)
 
-[[[Elementos/links|Link]] para a seção de Cabeçalhos no Figma] 
+[[[Glossário/Elementos/links|Link]] para a seção de Cabeçalhos no Figma] 

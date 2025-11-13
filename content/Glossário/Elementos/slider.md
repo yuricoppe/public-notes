@@ -3,8 +3,8 @@
 ## Onde é usado
 
 Controles deslizantes (sliders) são usados para permitir que o usuário selecione um valor ou um intervalo de valores dentro de um range definido, arrastando uma alça ao longo de uma trilha. São úteis para:
-- Ajustar [[Padrões/settings|configurações]] como volume, brilho, zoom.
-- Selecionar valores numéricos em [[Padrões/form_structure|formulários]] (ex: preço, idade, porcentagem) de forma visual.
+- Ajustar [[Glossário/Padrões/settings|configurações]] como volume, brilho, zoom.
+- Selecionar valores numéricos em [[Glossário/Padrões/form_structure|formulários]] (ex: preço, idade, porcentagem) de forma visual.
 - Definir um intervalo (range slider).
 
 ## Detalhes Adicionais / Tópicos
@@ -20,40 +20,40 @@ Controles deslizantes (sliders) são usados para permitir que o usuário selecio
 
 - **Slider de Valor Único:**
   - Descrição: Permite selecionar um único valor no range.
-  - Estilo da Trilha: [[[Linguagem Visual/cor|Cor]], espessura, cantos arredondados]
-  - Estilo da Alça: [Tamanho, [[Linguagem Visual/cor|cor]], sombra, estado de hover/foco]
+  - Estilo da Trilha: [[[Glossário/Linguagem Visual/cor|Cor]], espessura, cantos arredondados]
+  - Estilo da Alça: [Tamanho, [[Glossário/Linguagem Visual/cor|cor]], sombra, estado de hover/foco]
   - Exibição de Valor: [Ex: Tooltip ao arrastar, valor numérico fixo ao lado]
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para Slider de Valor Único no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Slider de Valor Único no Figma]
 
 - **Slider de Intervalo (Range Slider):**
   - Descrição: Possui duas alças para selecionar um valor mínimo e máximo dentro de um range.
   - Estilo das Alças: Podem ser idênticas ou diferenciadas se necessário.
   - Preenchimento do Intervalo: A área entre as duas alças geralmente é destacada.
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para Slider de Intervalo no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Slider de Intervalo no Figma]
 
 - **Slider com Passos Discretos:**
   - Descrição: O valor só pode ser selecionado em incrementos específicos, indicados por marcadores na trilha.
-  - Estilo dos Marcadores: [Formato, [[Linguagem Visual/cor|cor]]]
+  - Estilo dos Marcadores: [Formato, [[Glossário/Linguagem Visual/cor|cor]]]
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para Slider com Passos no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Slider com Passos no Figma]
 
 - **Slider Vertical:**
   - Descrição: Orientado verticalmente, comum para controles de volume.
   - Status: A definir
-  - [[Elementos/links|Link]] para o Figma: [[[Elementos/links|Link]] para Slider Vertical no Figma]
+  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Slider Vertical no Figma]
 
 ## Melhores Práticas
 
 - Use sliders quando a seleção de um valor aproximado é aceitável ou quando a faixa de valores é contínua.
-- Para seleção de valores exatos e discretos, um campo de input numérico ou um [[Elementos/form_controls|select]] podem ser mais apropriados, ou usados em conjunto com o slider.
+- Para seleção de valores exatos e discretos, um campo de input numérico ou um [[Glossário/Elementos/form_controls|select]] podem ser mais apropriados, ou usados em conjunto com o slider.
 - Forneça feedback claro sobre o valor selecionado.
 
 ## Status Geral
 
 **Status:** A definir
 
-## [[Elementos/links|Link]] para o Figma (Visão Geral de Sliders)
+## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Sliders)
 
-[[[Elementos/links|Link]] para a seção de Sliders no Figma] 
+[[[Glossário/Elementos/links|Link]] para a seção de Sliders no Figma] 

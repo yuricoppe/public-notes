@@ -8,7 +8,7 @@ Nosso portal utiliza um **sistema de grid de 12 colunas flexíveis**.
 ## Princípios Chave
 - **Consistência:** Todos os layouts de página e componentes devem se alinhar a este grid.
 - **Flexibilidade:** O grid de 12 colunas permite uma ampla variedade de subdivisões para diferentes necessidades de layout.
-- **Responsividade:** O grid é projetado para se adaptar fluidamente a diferentes [[Sistemas de Layout/breakpoints|breakpoints]].
+- **Responsividade:** O grid é projetado para se adaptar fluidamente a diferentes [[Glossário/Sistemas de Layout/breakpoints|breakpoints]].
 
 ## Especificações
 
@@ -27,7 +27,7 @@ Nosso portal utiliza um **sistema de grid de 12 colunas flexíveis**.
 
 - Os elementos de layout principais (seções, contêineres de conteúdo) devem abranger um número de colunas do grid.
 - O conteúdo dentro desses elementos também deve respeitar o alinhamento do grid.
-- Os gutters são os espaços *entre* as colunas. O conteúdo não deve vazar para dentro dos gutters, a menos que seja uma decisão de design intencional e justificada (ex: [[Elementos/imagem|imagens]] que sangram).
+- Os gutters são os espaços *entre* as colunas. O conteúdo não deve vazar para dentro dos gutters, a menos que seja uma decisão de design intencional e justificada (ex: [[Glossário/Elementos/imagem|imagens]] que sangram).
 
 ### Exemplo de Classes (Conceitual)
 
@@ -58,14 +58,14 @@ Em um sistema de classes CSS, isso poderia ser representado como:
 ## Responsividade
 
 - Em telas menores (tablets e mobiles), as colunas podem precisar ser empilhadas (stack) verticalmente ou ter suas proporções ajustadas.
-- A definição de como as colunas se comportam em diferentes [[Sistemas de Layout/breakpoints|breakpoints]] será detalhada em `breakpoints.md` e nas especificações dos componentes.
+- A definição de como as colunas se comportam em diferentes [[Glossário/Sistemas de Layout/breakpoints|breakpoints]] será detalhada em `breakpoints.md` e nas especificações dos componentes.
 
 ## Boas Práticas
 - **Planeje o Layout:** Antes de implementar, pense em como o conteúdo se encaixará no grid.
 - **Evite Quebrar o Grid:** Não force elementos a desalinharem sem uma boa razão.
-- **Use o Grid para [[Linguagem Visual/espacamento|Espaçamento]] Horizontal:** O grid ajuda a manter o [[Linguagem Visual/espacamento|espaçamento]] horizontal consistente.
+- **Use o Grid para [[Glossário/Linguagem Visual/espacamento|Espaçamento]] Horizontal:** O grid ajuda a manter o [[Glossário/Linguagem Visual/espacamento|espaçamento]] horizontal consistente.
 - **Teste em Diferentes Telas:** Verifique sempre como o layout do grid se comporta em diversos dispositivos.
 
 ## Recursos Adicionais / Figma
-- [[[Elementos/links|Link]] para a especificação do Grid System no Figma]
+- [[[Glossário/Elementos/links|Link]] para a especificação do Grid System no Figma]
 - [Exemplos de layouts de página utilizando o grid] 

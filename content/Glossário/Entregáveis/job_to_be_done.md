@@ -14,7 +14,7 @@ O objetivo principal do JTBD é ajudar as empresas a inovar e criar produtos/ser
     *   **Emocional:** Como o cliente quer se sentir ao realizar o "job" (ex: confiante, seguro, realizado).
     *   **Social:** Como o cliente quer ser percebido pelos outros ao realizar o "job" (ex: competente, atualizado).
 3.  **Mapear o Processo do "Job":** Entender as etapas que o cliente percorre para realizar o "job", desde a identificação da necessidade até a conclusão.
-4.  **Identificar [[Linguagem Visual/metricas_e_keylines|Métricas]] de Sucesso:** Definir o que significa para o cliente ter o "job" bem-feito (resultados desejados, dores evitadas).
+4.  **Identificar [[Glossário/Linguagem Visual/metricas_e_keylines|Métricas]] de Sucesso:** Definir o que significa para o cliente ter o "job" bem-feito (resultados desejados, dores evitadas).
 5.  **Descobrir Oportunidades de Inovação:** Identificar onde as soluções atuais falham em ajudar o cliente a realizar o "job" de forma satisfatória e onde há oportunidades para criar soluções melhores.
 
 ## Principais Benefícios
@@ -40,12 +40,12 @@ Uma declaração de JTBD geralmente segue um formato como:
 ## Ferramentas Comuns
 
 *   Entrevistas com clientes (especialmente o método "Jobs-to-Be-Done Interview" de Bob Moesta e Chris Spiek).
-*   [[Componentes/maps|Mapas]] de jornada do cliente (adaptados para focar no "job").
+*   [[Glossário/Componentes/maps|Mapas]] de jornada do cliente (adaptados para focar no "job").
 *   Surveys quantitativas para validar a prevalência de certos "jobs".
 
 ## Referências (NN/g)
 
-*   Ver também: [Story](#) (Nota: [[Elementos/links|Link]] para Story será atualizado quando o documento correspondente for criado), [User-Story Map](#) (Nota: [[Elementos/links|Link]] para User-Story Map será atualizado quando o documento correspondente for criado)
+*   Ver também: [Story](#) (Nota: [[Glossário/Elementos/links|Link]] para Story será atualizado quando o documento correspondente for criado), [User-Story Map](#) (Nota: [[Glossário/Elementos/links|Link]] para User-Story Map será atualizado quando o documento correspondente for criado)
 
 ---
 

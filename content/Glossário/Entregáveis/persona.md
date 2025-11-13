@@ -1,6 +1,6 @@
 # Persona
 
-Uma **Persona** em UX é um personagem fictício e [[Entregáveis/archetype|arquétipo]] criado para representar um grupo de usuários com comportamentos, objetivos, necessidades e dores semelhantes. Personas são baseadas em pesquisa com usuários reais e ajudam a equipe de design e desenvolvimento a entender, empatizar e tomar decisões centradas no usuário ao longo de todo o ciclo de vida do produto.
+Uma **Persona** em UX é um personagem fictício e [[Glossário/Entregáveis/archetype|arquétipo]] criado para representar um grupo de usuários com comportamentos, objetivos, necessidades e dores semelhantes. Personas são baseadas em pesquisa com usuários reais e ajudam a equipe de design e desenvolvimento a entender, empatizar e tomar decisões centradas no usuário ao longo de todo o ciclo de vida do produto.
 
 ## Propósito Principal
 
@@ -26,19 +26,19 @@ O objetivo principal de criar personas é:
     *   **Dores e Frustrações:** Obstáculos e problemas que enfrentam.
     *   **Motivações:** O que os impulsiona.
     *   **Cenários de Uso:** Situações típicas em que usariam o produto.
-    *   **[[Elementos/block_quote|Citação]]:** Uma frase curta que resume sua atitude ou principal preocupação.
+    *   **[[Glossário/Elementos/block_quote|Citação]]:** Uma frase curta que resume sua atitude ou principal preocupação.
     *   **Nível de Habilidade Tecnológica (se aplicável).**
 5.  **Priorizar Personas:** Geralmente, uma ou duas personas primárias são o foco principal, com personas secundárias representando outros grupos importantes.
 6.  **Compartilhar e Utilizar:** Disseminar as personas na equipe e usá-las consistentemente para guiar decisões de design, desenvolvimento e estratégia de produto.
 
 ## Tipos de Personas (conforme NN/g)
 
-*   **[[Entregáveis/proto_persona|Proto Persona]] (Ad Hoc Persona):** Criada com base no conhecimento existente da equipe e suposições, quando não há tempo ou recursos para pesquisa. Deve ser validada com pesquisa posteriormente.
-*   **[[Entregáveis/qualitative_persona|Qualitative Persona]]:** Baseada em pesquisa qualitativa com um pequeno número de usuários.
-*   **[[Entregáveis/statistical_persona|Statistical Persona]]:** Emerge da análise estatística de dados de uma pesquisa com uma grande amostra, informada por pesquisa qualitativa inicial.
-*   **[[Entregáveis/antipersona|Antipersona]]:** Representa um grupo de usuários que poderia usar indevidamente um produto de forma a impactar negativamente os usuários-alvo e o negócio.
-*   **[[Entregáveis/archetype|Archetype]]:** Uma representação abstrata de um tipo de usuário, resumindo comportamentos e motivações sem detalhes pessoais específicos como nomes ou fotos.
-*   **[[Entregáveis/stakeholder_persona|Stakeholder Persona]]:** Um personagem fictício que representa um tipo de stakeholder do projeto.
+*   **[[Glossário/Entregáveis/proto_persona|Proto Persona]] (Ad Hoc Persona):** Criada com base no conhecimento existente da equipe e suposições, quando não há tempo ou recursos para pesquisa. Deve ser validada com pesquisa posteriormente.
+*   **[[Glossário/Entregáveis/qualitative_persona|Qualitative Persona]]:** Baseada em pesquisa qualitativa com um pequeno número de usuários.
+*   **[[Glossário/Entregáveis/statistical_persona|Statistical Persona]]:** Emerge da análise estatística de dados de uma pesquisa com uma grande amostra, informada por pesquisa qualitativa inicial.
+*   **[[Glossário/Entregáveis/antipersona|Antipersona]]:** Representa um grupo de usuários que poderia usar indevidamente um produto de forma a impactar negativamente os usuários-alvo e o negócio.
+*   **[[Glossário/Entregáveis/archetype|Archetype]]:** Uma representação abstrata de um tipo de usuário, resumindo comportamentos e motivações sem detalhes pessoais específicos como nomes ou fotos.
+*   **[[Glossário/Entregáveis/stakeholder_persona|Stakeholder Persona]]:** Um personagem fictício que representa um tipo de stakeholder do projeto.
 
 ## Principais Benefícios
 
@@ -64,7 +64,7 @@ O objetivo principal de criar personas é:
 *   Artigo Relacionado: [Personas vs. Archetypes](https://www.nngroup.com/articles/personas-vs-archetypes/)
 *   Artigo Relacionado: [3 Persona Types: Lightweight, Qualitative, and Statistical](https://www.nngroup.com/articles/persona-types/)
 *   Vídeo Relacionado: [Statistically-Generated Personas](https://www.nngroup.com/videos/statistically-generated-personas/)
-*   Veja também: [Antipersona](#[[Entregáveis/antipersona|antipersona]].md), [Archetype](#[[Entregáveis/archetype|archetype]].md), [Proto Persona](#) (será criado), [Qualitative Persona](#) (será criado), [Statistical Persona](#) (será criado), [Stakeholder Persona](#) (será criado), [Empathy Map](#empathy_map.md)
+*   Veja também: [Antipersona](#[[Glossário/Entregáveis/antipersona|antipersona]].md), [Archetype](#[[Glossário/Entregáveis/archetype|archetype]].md), [Proto Persona](#) (será criado), [Qualitative Persona](#) (será criado), [Statistical Persona](#) (será criado), [Stakeholder Persona](#) (será criado), [Empathy Map](#empathy_map.md)
 
 ---
 

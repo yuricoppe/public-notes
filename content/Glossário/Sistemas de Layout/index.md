@@ -6,11 +6,11 @@ Este diretório define os princípios e as especificações para os sistemas de 
 
 Aqui você encontrará informações sobre:
 
-- **[[Sistemas de Layout/grid_system|Sistema de Grid]]:** Especificações do grid principal (número de colunas, gutters, margens) e como aplicá-lo para alinhar os elementos da interface.
-- **[[Sistemas de Layout/breakpoints|Breakpoints]] Responsivos:** Definição dos pontos de quebra ([[Sistemas de Layout/breakpoints|breakpoints]]) para adaptar o layout a diferentes tamanhos de tela (desktop, tablet, mobile) e as diretrizes para cada um.
-- **[[Linguagem Visual/espacamento|Espaçamento]] ([[Linguagem Visual/espacamento|Spacing]] System):** Uma escala de [[Linguagem Visual/espacamento|espaçamento]] definida (ex: baseada em múltiplos de 4px ou 8px) para controlar as margens, paddings e o espaço entre os elementos de forma consistente.
-- **Estruturas de Página Comuns:** Padrões de layout para seções comuns como [[Elementos/cabecalhos|cabeçalhos]], rodapés, barras laterais e áreas de conteúdo principal.
-- **Containeres e [[Sistemas de Layout/containers_wrappers|Wrappers]]:** Diretrizes para o uso de elementos de contêiner que ajudam a controlar a largura máxima do conteúdo e a centralização na página.
+- **[[Glossário/Sistemas de Layout/grid_system|Sistema de Grid]]:** Especificações do grid principal (número de colunas, gutters, margens) e como aplicá-lo para alinhar os elementos da interface.
+- **[[Glossário/Sistemas de Layout/breakpoints|Breakpoints]] Responsivos:** Definição dos pontos de quebra ([[Glossário/Sistemas de Layout/breakpoints|breakpoints]]) para adaptar o layout a diferentes tamanhos de tela (desktop, tablet, mobile) e as diretrizes para cada um.
+- **[[Glossário/Linguagem Visual/espacamento|Espaçamento]] ([[Glossário/Linguagem Visual/espacamento|Spacing]] System):** Uma escala de [[Glossário/Linguagem Visual/espacamento|espaçamento]] definida (ex: baseada em múltiplos de 4px ou 8px) para controlar as margens, paddings e o espaço entre os elementos de forma consistente.
+- **Estruturas de Página Comuns:** Padrões de layout para seções comuns como [[Glossário/Elementos/cabecalhos|cabeçalhos]], rodapés, barras laterais e áreas de conteúdo principal.
+- **Containeres e [[Glossário/Sistemas de Layout/containers_wrappers|Wrappers]]:** Diretrizes para o uso de elementos de contêiner que ajudam a controlar a largura máxima do conteúdo e a centralização na página.
 
 ## Importância
 

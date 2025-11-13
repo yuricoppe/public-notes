@@ -1,7 +1,7 @@
 # Containeres e Wrappers
 
 ## Descrição Geral
-Containeres e wrappers são elementos de layout fundamentais usados para controlar a largura, o alinhamento e, às vezes, o [[Linguagem Visual/espacamento|espaçamento]] do conteúdo principal dentro de uma página ou seção. Eles ajudam a manter a consistência visual e a legibilidade, especialmente em telas largas.
+Containeres e wrappers são elementos de layout fundamentais usados para controlar a largura, o alinhamento e, às vezes, o [[Glossário/Linguagem Visual/espacamento|espaçamento]] do conteúdo principal dentro de uma página ou seção. Eles ajudam a manter a consistência visual e a legibilidade, especialmente em telas largas.
 
 ## Princípios Chave
 - **Controle de Largura:** Evitar que o conteúdo se estenda excessivamente em telas grandes, o que pode prejudicar a legibilidade (linhas de texto muito longas).
@@ -22,21 +22,21 @@ Containeres e wrappers são elementos de layout fundamentais usados para control
 **Exemplo (Conceitual HTML/CSS):**
 ```html
 <body>
-  <[[Componentes/header|header]]>
+  <[[Glossário/Componentes/header|header]]>
     <div class="container">
-      <!-- Conteúdo do [[Elementos/cabecalhos|Cabeçalho]] -->
+      <!-- Conteúdo do [[Glossário/Elementos/cabecalhos|Cabeçalho]] -->
     </div>
-  </[[Componentes/header|header]]>
+  </[[Glossário/Componentes/header|header]]>
   <main>
     <div class="container">
       <!-- Conteúdo Principal da Página -->
     </div>
   </main>
-  <[[Componentes/footer|footer]]>
+  <[[Glossário/Componentes/footer|footer]]>
     <div class="container">
-      <!-- Conteúdo do [[Componentes/footer|Rodapé]] -->
+      <!-- Conteúdo do [[Glossário/Componentes/footer|Rodapé]] -->
     </div>
-  </[[Componentes/footer|footer]]>
+  </[[Glossário/Componentes/footer|footer]]>
 </body>
 ```
 ```css
@@ -49,7 +49,7 @@ Containeres e wrappers são elementos de layout fundamentais usados para control
   padding-right: 16px; /* Exemplo de padding, alinhado com margens do grid mobile */
 }
 
-/* Em [[Sistemas de Layout/breakpoints|breakpoints]] maiores, o padding pode aumentar */
+/* Em [[Glossário/Sistemas de Layout/breakpoints|breakpoints]] maiores, o padding pode aumentar */
 @media (min-width: 768px) {
   .container {
     padding-left: 24px;
@@ -66,10 +66,10 @@ Containeres e wrappers são elementos de layout fundamentais usados para control
 ```
 
 ### 2. Wrapper de Seção (Section Wrapper)
-- **Propósito:** Agrupar conteúdo dentro de uma seção específica, aplicando paddings internos ou um estilo de fundo, sem necessariamente impor a largura máxima total da página (útil para seções com fundo de [[Linguagem Visual/cor|cor]] que se estendem por toda a largura da tela, mas com conteúdo centralizado).
+- **Propósito:** Agrupar conteúdo dentro de uma seção específica, aplicando paddings internos ou um estilo de fundo, sem necessariamente impor a largura máxima total da página (útil para seções com fundo de [[Glossário/Linguagem Visual/cor|cor]] que se estendem por toda a largura da tela, mas com conteúdo centralizado).
 - **Especificações:**
     - **Largura:** Geralmente `width: 100%;` para permitir fundos de largura total.
-    - **Padding Interno:** Pode aplicar [[Linguagem Visual/espacamento|espaçamento]] vertical (`padding-top`, `padding-bottom`) usando o `spacing_system.md`.
+    - **Padding Interno:** Pode aplicar [[Glossário/Linguagem Visual/espacamento|espaçamento]] vertical (`padding-top`, `padding-bottom`) usando o `spacing_system.md`.
     - **Conteúdo Centralizado:** Frequentemente contém um `.container` dentro dele para centralizar o texto e os elementos principais da seção.
 
 **Exemplo (Conceitual HTML/CSS):**
@@ -89,7 +89,7 @@ Containeres e wrappers são elementos de layout fundamentais usados para control
 }
 
 .feature-section {
-  background-[[Linguagem Visual/cor|color]]: #f0f0f0; /* Fundo de [[Linguagem Visual/cor|cor]] que se estende */
+  background-[[Glossário/Linguagem Visual/cor|color]]: #f0f0f0; /* Fundo de [[Glossário/Linguagem Visual/cor|cor]] que se estende */
 }
 ```
 
@@ -97,12 +97,12 @@ Containeres e wrappers são elementos de layout fundamentais usados para control
 - **Hierarquia:** O `.container` principal é geralmente o mais externo para o conteúdo da página. Wrappers de seção podem existir dentro dele ou, mais comumente, o `.container` pode estar aninhado dentro de um `section-wrapper` de largura total.
 - **Não Abuse:** Use apenas quando necessário para controle de layout e agrupamento.
 - **Consistência:** Mantenha a implementação dos containers e wrappers consistente.
-- **Relação com o Grid:** O `.container` é fundamental para o funcionamento do [[Sistemas de Layout/grid_system|sistema de grid]], pois define os limites dentro dos quais as colunas do grid operam.
+- **Relação com o Grid:** O `.container` é fundamental para o funcionamento do [[Glossário/Sistemas de Layout/grid_system|sistema de grid]], pois define os limites dentro dos quais as colunas do grid operam.
 
 ## Responsividade
 - A `max-width` do `.container` garante que o conteúdo não fique excessivamente largo em desktops.
 - Em telas menores, como `width: 100%` é aplicado, o container se ajustará à largura da tela, e os paddings laterais (se aplicados diretamente no container) fornecerão as margens necessárias.
 
 ## Recursos Adicionais / Figma
-- [[[Elementos/links|Link]] para exemplos de uso de Containeres e Wrappers no Figma]
+- [[[Glossário/Elementos/links|Link]] para exemplos de uso de Containeres e Wrappers no Figma]
 - [Como o Grid System interage com os Containeres] 

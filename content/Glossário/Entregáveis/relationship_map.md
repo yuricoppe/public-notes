@@ -19,8 +19,8 @@ O objetivo principal de um Mapa de Relacionamento é:
 2.  **Identificar as Entidades Chave:** Listar todas as entidades relevantes (pessoas, grupos, sistemas, etc.) que fazem parte do escopo.
 3.  **Determinar os Tipos de Relacionamento:** Definir os diferentes tipos de conexões ou interações que existem entre as entidades (ex: fluxo de informação, dependência, influência, parceria, hierarquia, transação financeira).
 4.  **Mapear as Entidades e Conexões:**
-    *   Representar cada entidade como um nó no mapa (usando formas, [[Linguagem Visual/cor|cores]] ou [[Linguagem Visual/iconografia|ícones]] para diferenciar tipos de entidades).
-    *   Desenhar linhas ou setas entre as entidades para representar os relacionamentos. A espessura, [[Linguagem Visual/cor|cor]] ou estilo da linha podem indicar a força, frequência ou natureza do relacionamento.
+    *   Representar cada entidade como um nó no mapa (usando formas, [[Glossário/Linguagem Visual/cor|cores]] ou [[Glossário/Linguagem Visual/iconografia|ícones]] para diferenciar tipos de entidades).
+    *   Desenhar linhas ou setas entre as entidades para representar os relacionamentos. A espessura, [[Glossário/Linguagem Visual/cor|cor]] ou estilo da linha podem indicar a força, frequência ou natureza do relacionamento.
     *   Adicionar rótulos às conexões para descrever o tipo de relacionamento.
 5.  **Analisar o Mapa:** Examinar o mapa completo para identificar:
     *   **Padrões:** Agrupamentos, centralidade de certas entidades, caminhos críticos.
@@ -30,12 +30,12 @@ O objetivo principal de um Mapa de Relacionamento é:
     *   **Redundâncias:** Múltiplos caminhos para o mesmo fim.
 6.  **Iterar e Refinar:** O mapa de relacionamento pode ser um artefato vivo, atualizado à medida que novas informações surgem ou o sistema evolui.
 
-## Tipos de [[Componentes/maps|Mapas]] de Relacionamento
+## Tipos de [[Glossário/Componentes/maps|Mapas]] de Relacionamento
 
-Existem vários tipos específicos de [[Componentes/maps|mapas]] de relacionamento, como:
+Existem vários tipos específicos de [[Glossário/Componentes/maps|mapas]] de relacionamento, como:
 
-*   **Stakeholder [[Componentes/maps|Maps]]:** Focam nos stakeholders de um projeto e suas relações entre si e com o projeto.
-*   **Ecosystem [[Componentes/maps|Maps]]:** Mostram as interconexões entre uma organização, seus produtos/serviços, parceiros, concorrentes e clientes.
+*   **Stakeholder [[Glossário/Componentes/maps|Maps]]:** Focam nos stakeholders de um projeto e suas relações entre si e com o projeto.
+*   **Ecosystem [[Glossário/Componentes/maps|Maps]]:** Mostram as interconexões entre uma organização, seus produtos/serviços, parceiros, concorrentes e clientes.
 *   **Organizational Charts (com foco nas interações):** Vão além da hierarquia formal para mostrar fluxos de trabalho e comunicação.
 *   **Service Blueprints (em parte):** Mapeiam relacionamentos entre clientes, pontos de contato e processos de serviço internos/externos.
 

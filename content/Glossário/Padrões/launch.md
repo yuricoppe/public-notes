@@ -12,7 +12,7 @@ O padrão de "Lançamento" refere-se à primeira experiência que um usuário te
 
 ## Elementos Comuns / Estrutura Típica
 - **Telas de Boas-vindas (Welcome Screens):** Introdução concisa ao produto/funcionalidade.
-- **Carrossel de Benefícios/Funcionalidades (Benefit/Feature [[Elementos/slider|Sliders]]):** Destaque visual e textual dos principais benefícios ou como usar funcionalidades chave.
+- **Carrossel de Benefícios/Funcionalidades (Benefit/Feature [[Glossário/Elementos/slider|Sliders]]):** Destaque visual e textual dos principais benefícios ou como usar funcionalidades chave.
 - **Guias Interativos (Interactive Tours / Product Tours):** Tooltips ou destaques que guiam o usuário através da interface real, passo a passo.
 - **Checklists de Configuração Inicial (Setup Checklists):** Para tarefas que precisam ser completadas para otimizar a experiência inicial.
 - **Vídeos Introdutórios Curtos:** Apresentação visual rápida.
@@ -49,13 +49,13 @@ O padrão de "Lançamento" refere-se à primeira experiência que um usuário te
 
 ## Considerações de Acessibilidade
 - Garanta que todo o conteúdo textual seja legível e tenha bom contraste.
-- Todos os elementos interativos ([[Elementos/botoes|botões]] "próximo", "pular", campos de [[Padrões/form_structure|formulário]]) devem ser acessíveis via teclado e por leitores de tela.
+- Todos os elementos interativos ([[Glossário/Elementos/botoes|botões]] "próximo", "pular", campos de [[Glossário/Padrões/form_structure|formulário]]) devem ser acessíveis via teclado e por leitores de tela.
 - Se usar carrosséis, garanta que haja controles acessíveis para pausar, avançar e retroceder, e que o conteúdo seja acessível se a animação automática estiver desativada.
 - Para guias interativos, certifique-se de que o foco seja gerenciado corretamente e que as dicas/tooltips sejam anunciadas por leitores de tela.
 - Vídeos devem ter legendas e, idealmente, transcrições.
 
 ## Exemplos / Cenários de Uso
-- Primeiro [[Padrões/authentication|login]] em um aplicativo SaaS.
+- Primeiro [[Glossário/Padrões/authentication|login]] em um aplicativo SaaS.
 - Introdução a uma nova seção de um portal de notícias com funcionalidades personalizadas.
 - Guia de configuração inicial para um painel de administração.
 - Apresentação de uma funcionalidade recém-lançada que altera significativamente o fluxo de trabalho.
@@ -70,5 +70,5 @@ O padrão de "Lançamento" refere-se à primeira experiência que um usuário te
 A definir
 
 ## Recursos Adicionais / Figma
-- [[[Elementos/links|Link]] para os designs das telas de onboarding no Figma]
-- [[[Elementos/links|Link]] para [[Entregáveis/prototype|protótipos]] de fluxos de lançamento/onboarding] 
+- [[[Glossário/Elementos/links|Link]] para os designs das telas de onboarding no Figma]
+- [[[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/prototype|protótipos]] de fluxos de lançamento/onboarding] 

@@ -32,7 +32,7 @@ O objetivo principal de um Landscape Map é fornecer uma visão sistêmica de um
 *   **Identificação de Contexto:** Ajuda a situar um problema ou solução dentro de um contexto mais amplo.
 *   **Descoberta Estratégica:** Revela oportunidades estratégicas, riscos e áreas para intervenção.
 *   **Alinhamento:** Facilita o entendimento compartilhado entre diversas equipes e stakeholders.
-*   **Base para Outros Entregáveis:** Pode informar a criação de journey [[Componentes/maps|maps]], service blueprints, etc.
+*   **Base para Outros Entregáveis:** Pode informar a criação de journey [[Glossário/Componentes/maps|maps]], service blueprints, etc.
 
 ## Quando Utilizar
 
@@ -50,7 +50,7 @@ O objetivo principal de um Landscape Map é fornecer uma visão sistêmica de um
 
 ## Referências (NN/g)
 
-*   Veja também: [Affinity Diagram](#affinity_diagram.md), [Journey Map](#journey_map.md), [Ecosystem Map](#ecosystem_map.md) (Nota: O [[Entregáveis/ecosystem_map|Ecosystem Map]] é frequentemente usado como sinônimo ou um tipo específico de Landscape Map focado nas interconexões de um sistema de produtos/serviços).
+*   Veja também: [Affinity Diagram](#affinity_diagram.md), [Journey Map](#journey_map.md), [Ecosystem Map](#ecosystem_map.md) (Nota: O [[Glossário/Entregáveis/ecosystem_map|Ecosystem Map]] é frequentemente usado como sinônimo ou um tipo específico de Landscape Map focado nas interconexões de um sistema de produtos/serviços).
 
 ---
 

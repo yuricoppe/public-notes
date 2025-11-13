@@ -21,12 +21,12 @@ O objetivo principal da análise MoSCoW é ajudar as equipes a priorizar requisi
 2.  **S - Should have (Deveria ter):**
     *   Requisitos importantes, mas não vitais. Sua ausência pode ser dolorosa ou inconveniente, mas existem soluções alternativas (workarounds) ou a entrega ainda pode ser viável sem eles.
     *   Devem ser incluídos se possível, mas seu adiamento é menos impactante que o de um "Must have".
-    *   Exemplo: Em um site de e-commerce, a funcionalidade de salvar uma [[Elementos/listas|lista]] de desejos é um "Should have".
+    *   Exemplo: Em um site de e-commerce, a funcionalidade de salvar uma [[Glossário/Elementos/listas|lista]] de desejos é um "Should have".
 
 3.  **C - Could have (Poderia ter):**
     *   Requisitos desejáveis, mas menos importantes. São considerados "nice to have" e só devem ser incluídos se houver tempo e recursos disponíveis, após a implementação dos "Must have" e "Should have".
     *   Têm um impacto limitado se deixados de fora.
-    *   Exemplo: Em um site de e-commerce, a funcionalidade de personalizar o tema de [[Linguagem Visual/cor|cores]] da interface do usuário é um "Could have".
+    *   Exemplo: Em um site de e-commerce, a funcionalidade de personalizar o tema de [[Glossário/Linguagem Visual/cor|cores]] da interface do usuário é um "Could have".
 
 4.  **W - Won't have (Não terá desta vez):**
     *   Requisitos que foram explicitamente acordados como não fazendo parte do escopo da entrega atual. Eles podem ser considerados para inclusão em liberações futuras.

@@ -18,7 +18,7 @@ Os principais objetivos de um Mapa de Ecossistema são:
 
 *   **Produtos e Serviços:** Os principais offerings da organização e, possivelmente, de terceiros relevantes.
 *   **Canais:** Os meios pelos quais os usuários interagem (ex: website, aplicativo móvel, e-mail, mídias sociais, telefone, chat, lojas físicas).
-*   **Pontos de Contato (Touchpoints):** Interações específicas dentro dos canais (ex: página de [[Padrões/authentication|login]], e-mail de confirmação, conversa com atendente).
+*   **Pontos de Contato (Touchpoints):** Interações específicas dentro dos canais (ex: página de [[Glossário/Padrões/authentication|login]], e-mail de confirmação, conversa com atendente).
 *   **Atores (Opcional, mas frequente):**
     *   **Usuários/Clientes:** Segmentos de usuários e suas jornadas.
     *   **Equipes Internas:** Departamentos ou funções dentro da organização.
@@ -36,7 +36,7 @@ Os principais objetivos de um Mapa de Ecossistema são:
 5.  **Organizar e Agrupar:** Estruturar o mapa de forma lógica, agrupando elementos relacionados ou usando camadas para diferentes níveis de detalhe.
 6.  **Analisar e Iterar:** Usar o mapa para identificar insights, discutir com a equipe e refinar o mapa conforme necessário.
 
-## Diferença de Outros [[Componentes/maps|Mapas]]
+## Diferença de Outros [[Glossário/Componentes/maps|Mapas]]
 
 *   **[Journey Map](./journey_map.md):** Foca na experiência linear de um usuário específico ao longo do tempo para atingir um objetivo.
 *   **[Service Blueprint](./service_blueprint.md):** Detalha os processos internos e externos para entregar um serviço específico.
