@@ -1,4 +1,9 @@
-# Contact Us (Fale Conosco)
+---
+title: "contact us"
+
+---
+
+## Contact Us (Fale Conosco)
 
 O componente ou seção "Contact Us" (Fale Conosco) fornece aos usuários os meios para entrar em contato com a organização ou equipe de suporte. Pode variar de um simples [[Glossário/Elementos/links|link]] para uma página de contato a um [[Glossário/Padrões/form_structure|formulário]] de contato integrado.
 
@@ -60,4 +65,4 @@ Dependendo da complexidade, pode incluir:
 -   Falta de confirmação após o envio.
 -   [[Glossário/Elementos/links|Links]] de e-mail ou telefone que não funcionam.
 -   Esconder as informações de contato ou dificultar o processo.
--   Não responder aos contatos recebidos de forma oportuna. 
+-   Não responder aos contatos recebidos de forma oportuna.

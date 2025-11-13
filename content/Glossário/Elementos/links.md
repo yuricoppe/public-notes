@@ -1,4 +1,9 @@
-# Links
+---
+title: "links"
+
+---
+
+## Links
 
 ## Onde é usado
 
@@ -40,4 +45,4 @@ Links são usados para navegação, permitindo que os usuários acessem outras p
 
 ## Link para o Figma (Visão Geral de Links)
 
-[Link para a seção de Links no Figma] 
+[Link para a seção de Links no Figma]

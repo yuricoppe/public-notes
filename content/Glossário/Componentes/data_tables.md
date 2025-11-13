@@ -1,4 +1,9 @@
-# Data Tables (Tabelas de Dados)
+---
+title: "data tables"
+
+---
+
+## Data Tables (Tabelas de Dados)
 
 Data Tables são componentes usados para exibir conjuntos de dados estruturados em linhas e colunas, permitindo fácil visualização, comparação, e frequentemente, interação com os dados (como ordenação, filtragem e paginação).
 
@@ -56,4 +61,4 @@ Data Tables são componentes usados para exibir conjuntos de dados estruturados 
 -   Densidade de informação muito alta ou muito baixa.
 -   Falta de feedback claro para ações como ordenação ou filtragem.
 -   Design responsivo pobre que torna a tabela inutilizável em telas menores.
--   Não usar a semântica HTML correta, prejudicando a acessibilidade. 
+-   Não usar a semântica HTML correta, prejudicando a acessibilidade.

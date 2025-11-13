@@ -1,4 +1,9 @@
-# Linguagem Visual (Visual Language)
+---
+title: "README"
+
+---
+
+## Linguagem Visual (Visual Language)
 
 Este diretório descreve a Linguagem Visual do portal, que engloba os princípios de design de alto nível, a identidade da marca e as diretrizes estilísticas que informam todos os aspectos da experiência do usuário e da interface do usuário. A linguagem visual é a expressão da personalidade da nossa marca através do design.
 
@@ -30,4 +35,4 @@ Os tópicos dentro da linguagem visual serão detalhados em arquivos `.md` espec
 - **Elementos de UI (`ui_elements/`) e Componentes de UI (`ui_components/`):** A linguagem visual informa a criação e o estilo dos elementos e componentes. Por exemplo, os princípios de design podem influenciar a escolha de [[Glossário/Linguagem Visual/cor|cores]] (um elemento) ou o comportamento de um [[Glossário/Elementos/botoes|botão]] (um componente).
 - **Conteúdo (Artigos, Etapas):** O tom de voz definido aqui deve ser consistentemente aplicado em todo o conteúdo textual do portal.
 
-Manter uma linguagem visual forte e consistente é crucial para construir o reconhecimento da marca e a confiança do usuário. 
+Manter uma linguagem visual forte e consistente é crucial para construir o reconhecimento da marca e a confiança do usuário.

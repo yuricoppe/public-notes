@@ -1,4 +1,9 @@
-# MoSCoW Analysis (Análise MoSCoW)
+---
+title: "moscow analysis"
+
+---
+
+## MoSCoW Analysis (Análise MoSCoW)
 
 A **Análise MoSCoW** é uma técnica de priorização usada na gestão de projetos, desenvolvimento de software e análise de negócios para alcançar um entendimento comum com os stakeholders sobre a importância que eles atribuem a cada requisito. O acrônimo MoSCoW representa quatro categorias de prioridade:
 
@@ -69,4 +74,4 @@ O objetivo principal da análise MoSCoW é ajudar as equipes a priorizar requisi
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

@@ -1,4 +1,9 @@
-# Relationship Map (Mapa de Relacionamento)
+---
+title: "relationship map"
+
+---
+
+## Relationship Map (Mapa de Relacionamento)
 
 Um **Relationship Map** (Mapa de Relacionamento) é uma ferramenta visual usada para ilustrar as conexões, interdependências e a natureza das relações entre várias entidades dentro de um sistema ou contexto específico. Essas entidades podem ser pessoas, equipes, organizações, produtos, serviços, processos ou quaisquer outros elementos relevantes.
 
@@ -65,4 +70,4 @@ Existem vários tipos específicos de [[Glossário/Componentes/maps|mapas]] de r
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

@@ -1,4 +1,9 @@
-# Controles de [[Glossário/Padrões/form_structure|Formulário]] (Form Controls)
+---
+title: "form controls"
+
+---
+
+## Controles de [[Glossário/Padrões/form_structure|Formulário]] (Form Controls)
 
 ## Onde é usado
 
@@ -73,4 +78,4 @@ Controles de [[Glossário/Padrões/form_structure|formulário]] são elementos i
 
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Controles de [[Glossário/Padrões/form_structure|Formulário]])
 
-[[[Glossário/Elementos/links|Link]] para a seção de Controles de [[Glossário/Padrões/form_structure|Formulário]] no Figma] 
+[[[Glossário/Elementos/links|Link]] para a seção de Controles de [[Glossário/Padrões/form_structure|Formulário]] no Figma]

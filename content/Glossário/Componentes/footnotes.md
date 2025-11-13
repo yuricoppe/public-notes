@@ -1,4 +1,9 @@
-# Footnotes (Notas de [[Glossário/Componentes/footer|Rodapé]])
+---
+title: "footnotes"
+
+---
+
+## Footnotes (Notas de [[Glossário/Componentes/footer|Rodapé]])
 
 Footnotes (Notas de [[Glossário/Componentes/footer|Rodapé]]) são referências ou informações adicionais colocadas na parte inferior de uma página (ou seção) para fornecer esclarecimentos, citações de fontes, ou [[Glossário/Componentes/comments|comentários]] sobre um ponto específico no corpo do texto principal. Elas são indicadas no texto por um número sobrescrito, símbolo ou letra.
 
@@ -48,4 +53,4 @@ Footnotes (Notas de [[Glossário/Componentes/footer|Rodapé]]) são referências
 -   Usar notas de [[Glossário/Componentes/footer|rodapé]] para informações essenciais que deveriam estar no corpo do texto.
 -   Numeração inconsistente ou confusa.
 -   Notas de [[Glossário/Componentes/footer|rodapé]] excessivamente longas (se for muito longa, talvez mereça ser uma seção à parte ou um apêndice).
--   Dificultar a navegação entre o texto e a nota (ex: marcadores não clicáveis). 
+-   Dificultar a navegação entre o texto e a nota (ex: marcadores não clicáveis).

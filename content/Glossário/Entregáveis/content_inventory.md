@@ -1,4 +1,9 @@
-# Content Inventory (Inventário de Conteúdo)
+---
+title: "content inventory"
+
+---
+
+## Content Inventory (Inventário de Conteúdo)
 
 Um **Content Inventory (Inventário de Conteúdo)** é uma [[Glossário/Elementos/listas|lista]] abrangente e quantitativa de todo o conteúdo digital existente em uma plataforma, como um website, aplicativo ou intranet. Ele cataloga cada peça de conteúdo, geralmente em nível de página ou de ativo individual (como PDFs, [[Glossário/Elementos/imagem|imagens]], vídeos), e registra características específicas sobre cada item.
 
@@ -80,4 +85,4 @@ Cada linha representa uma peça de conteúdo (página ou ativo), e cada coluna r
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

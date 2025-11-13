@@ -1,4 +1,9 @@
-# [[Glossário/Entregáveis/prototype|Prototype]] Specification (Especificação de [[Glossário/Entregáveis/prototype|Protótipo]])
+---
+title: "prototype specification"
+
+---
+
+## [[Glossário/Entregáveis/prototype|Prototype]] Specification (Especificação de [[Glossário/Entregáveis/prototype|Protótipo]])
 
 Uma **[[Glossário/Entregáveis/prototype|Prototype]] Specification** é um documento que detalha o design, comportamento, interações e, às vezes, os aspectos técnicos de um [[Glossário/Entregáveis/prototype|protótipo]]. Ele serve como um guia para desenvolvedores que irão construir o produto final ou para outros designers que podem precisar entender ou evoluir o [[Glossário/Entregáveis/prototype|protótipo]]. Complementa o próprio [[Glossário/Entregáveis/prototype|protótipo]] interativo com anotações e explicações.
 
@@ -70,4 +75,4 @@ O conteúdo de uma Especificação de [[Glossário/Entregáveis/prototype|Protó
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

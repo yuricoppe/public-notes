@@ -1,4 +1,9 @@
-# Story (UX Story / História de UX)
+---
+title: "story ux"
+
+---
+
+## Story (UX Story / História de UX)
 
 Um relato de eventos da perspectiva do usuário; os eventos na história mostram a evolução de uma experiência.
 
@@ -58,4 +63,4 @@ Uma boa História de UX geralmente inclui:
 ## Referência Externa
 
 - [UX Stories Communicate Designs (Nielsen Norman Group)](https://www.nngroup.com/articles/ux-stories/)
-- [Framing UX Data with Storytelling (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/framing-ux-data-storytelling/) 
+- [Framing UX Data with Storytelling (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/framing-ux-data-storytelling/)

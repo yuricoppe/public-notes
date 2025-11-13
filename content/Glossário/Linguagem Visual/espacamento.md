@@ -1,4 +1,9 @@
-# Espaçamento (Space)
+---
+title: "espacamento"
+
+---
+
+## Espaçamento (Space)
 
 ## Onde é usado
 
@@ -14,32 +19,40 @@ Estabelece as diretrizes para margens (espaço externo), preenchimentos (padding
 ## Detalhes Adicionais / Tópicos
 
 ### Escala de Espaçamento Consistente
+
 - Definir uma escala de espaçamento modular (ex: baseada em múltiplos de 4px ou 8px) para todos os valores de margem e padding.
 - Isso garante consistência, previsibilidade e facilita a tomada de decisões de design e desenvolvimento.
 - *Exemplo de Tokens/Variáveis:* `espaco-xs: 4px`, `espaco-s: 8px`, `espaco-m: 16px`, `espaco-l: 24px`, `espaco-xl: 32px`, `espaco-xxl: 48px`.
 
 ### Margens (Margins)
+
 - Espaço fora das bordas de um elemento. Usado para separar um elemento de outros.
 
 ### Preenchimentos (Paddings)
+
 - Espaço dentro das bordas de um elemento, entre a borda e o conteúdo.
 
 ### Espaço em Branco (Whitespace / Negative Space)
+
 - O espaço vazio ao redor e entre os elementos. Não precisa ser literalmente branco.
 - Crucial para não sobrecarregar o usuário com informação e para destacar o conteúdo importante.
 
 ### Unidades/Medidas
+
 - **Pixels (px):** Unidade absoluta, boa para consistência fina (ex: bordas, [[Glossário/Linguagem Visual/iconografia|ícones]] pequenos).
 - **Rems/Ems:** Unidades relativas ao tamanho da fonte do elemento raiz (rem) ou do elemento pai (em). Boas para escalabilidade e acessibilidade, pois se ajustam às preferências de tamanho de fonte do usuário.
 - Recomenda-se o uso de `rem` para espaçamentos que devem escalar com o texto e `px` para detalhes finos que não devem.
 
 ### [[Glossário/Linguagem Visual/metricas_e_keylines|Métricas]] e Linhas-Chave ([[Glossário/Linguagem Visual/metricas_e_keylines|Keylines]])
+
 - Linhas guia imaginárias que ajudam a alinhar elementos de forma consistente em toda a interface, especialmente em layouts complexos e grids.
 
 ### Estrutura e Layout
+
 - Como o espaçamento contribui para a estrutura de componentes individuais (ex: [[Glossário/Componentes/cards|cards]], [[Glossário/Elementos/botoes|botões]]) e para o layout geral da página (ex: espaçamento entre seções, colunas de um grid).
 
 ### [[Glossário/Linguagem Visual/fotografia|Fotografia]] e Mídia
+
 - Considerar o espaço ao redor de [[Glossário/Elementos/imagem|imagens]], vídeos e outros elementos de mídia para que "respirem" e não pareçam apertados no layout.
 
 ## Escala de Espaçamento (Exemplo Prático com Nomes Semânticos)
@@ -77,4 +90,4 @@ Estabelece as diretrizes para margens (espaço externo), preenchimentos (padding
 
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Espaçamento)
 
-[[[Glossário/Elementos/links|Link]] para as diretrizes de Espaçamento e a escala de tokens no Figma] 
+[[[Glossário/Elementos/links|Link]] para as diretrizes de Espaçamento e a escala de tokens no Figma]

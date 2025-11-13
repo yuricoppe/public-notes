@@ -1,4 +1,9 @@
-# Menu (Genérico)
+---
+title: "menu"
+
+---
+
+## Menu (Genérico)
 
 O componente Menu é uma [[Glossário/Elementos/listas|lista]] de opções ou ações apresentadas ao usuário. Pode ser usado para navegação, executar comandos ou selecionar [[Glossário/Padrões/settings|configurações]]. Esta documentação cobre o conceito genérico de menu, que pode se manifestar de várias formas (ex: [[Glossário/Elementos/form_controls|dropdown]] menu, context menu, navigation menu).
 
@@ -53,4 +58,4 @@ O componente Menu é uma [[Glossário/Elementos/listas|lista]] de opções ou a�
 -   Menus desorganizados ou com muitos itens não agrupados.
 -   Dificuldade em fechar um menu (ex: sem tecla Escape, ou área de clique pequena para fechar).
 -   Submenus que desaparecem muito facilmente ao tentar mover o mouse para eles (problema comum em menus [[Glossário/Elementos/form_controls|dropdown]] com submenus laterais).
--   Ignorar a navegação por teclado ou a acessibilidade ARIA. 
+-   Ignorar a navegação por teclado ou a acessibilidade ARIA.

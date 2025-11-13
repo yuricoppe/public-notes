@@ -1,4 +1,9 @@
-# Scenario Map (Mapa de Cenário)
+---
+title: "scenario map"
+
+---
+
+## Scenario Map (Mapa de Cenário)
 
 Um **Scenario Map** (Mapa de Cenário) é uma ferramenta de visualização usada em UX para explorar e entender como diferentes tipos de usuários ([[Glossário/Entregáveis/persona|personas]]) podem interagir com um produto ou serviço em diversas situações ou para alcançar objetivos específicos. Ele conecta [[Glossário/Entregáveis/persona|personas]] a cenários de uso, ajudando a equipe a antecipar necessidades e projetar experiências mais relevantes.
 
@@ -66,4 +71,4 @@ O objetivo principal de um Mapa de Cenário é:
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

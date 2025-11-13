@@ -1,4 +1,9 @@
-# Cognitive Map (Mapa Cognitivo)
+---
+title: "cognitive map"
+
+---
+
+## Cognitive Map (Mapa Cognitivo)
 
 Um **Cognitive Map (Mapa Cognitivo)** é uma representação visual do modelo mental de uma pessoa ou grupo sobre um determinado processo, conceito, sistema ou ambiente. Diferentemente de outros [[Glossário/Componentes/maps|mapas]] mais estruturados, o mapeamento cognitivo é uma técnica de forma livre (free-form) e pode utilizar diversas abordagens de visualização, como [[Glossário/Elementos/listas|listas]] com marcadores, fluxogramas, [[Glossário/Componentes/maps|mapas]] conceituais, [[Glossário/Componentes/maps|mapas]] mentais ou até mesmo diagramas de afinidade, dependendo do que melhor representa a estrutura mental do indivíduo.
 
@@ -59,4 +64,4 @@ A criação de um mapa cognitivo geralmente envolve:
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

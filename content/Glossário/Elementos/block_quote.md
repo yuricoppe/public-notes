@@ -1,4 +1,9 @@
-# Citação em Bloco (Block Quote)
+---
+title: "block quote"
+
+---
+
+## Citação em Bloco (Block Quote)
 
 ## Onde é usado
 
@@ -30,4 +35,4 @@ Utilizado para destacar citações diretas ou trechos de texto que são retirado
 
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Block Quotes)
 
-[[[Glossário/Elementos/links|Link]] para a seção de Block Quotes no Figma] 
+[[[Glossário/Elementos/links|Link]] para a seção de Block Quotes no Figma]

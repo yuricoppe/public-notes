@@ -1,4 +1,9 @@
-# Sketch Test (Teste de Esboço)
+---
+title: "sketch test"
+
+---
+
+## Sketch Test (Teste de Esboço)
 
 Um método de pesquisa que consiste em fornecer um entregável a um colega, pedir que ele crie um breve esboço ou resumo dele e, em seguida, observar o resultado para identificar e refinar quaisquer elementos confusos ou pouco claros no documento original.
 
@@ -39,4 +44,4 @@ O Teste de Esboço é uma técnica simples e eficaz para avaliar a clareza e a c
 
 ## Referência Externa
 
-- [The Sketch Test: How to Test and Improve Your UX Deliverables and Other Documents (Nielsen Norman Group)](https://www.nngroup.com/articles/sketch-test/) 
+- [The Sketch Test: How to Test and Improve Your UX Deliverables and Other Documents (Nielsen Norman Group)](https://www.nngroup.com/articles/sketch-test/)

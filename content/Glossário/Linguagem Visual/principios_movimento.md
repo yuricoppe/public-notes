@@ -1,4 +1,9 @@
-# Princípios do [[Glossário/Linguagem Visual/movimento|Movimento]]
+---
+title: "principios movimento"
+
+---
+
+## Princípios do [[Glossário/Linguagem Visual/movimento|Movimento]]
 
 Esta seção aborda os princípios fundamentais que guiam o uso de [[Glossário/Linguagem Visual/movimento|movimento]] e animações na interface, com o objetivo de criar experiências de usuário mais intuitivas, responsivas e agradáveis.
 
@@ -64,4 +69,4 @@ O [[Glossário/Linguagem Visual/movimento|movimento]], quando bem aplicado, pode
 -   Animações longas e desnecessárias.
 -   [[Glossário/Linguagem Visual/movimento|Movimento]] que obstrui o conteúdo ou a tarefa do usuário.
 -   Excesso de animações diferentes na mesma tela.
--   Animações que causam problemas de performance. 
+-   Animações que causam problemas de performance.

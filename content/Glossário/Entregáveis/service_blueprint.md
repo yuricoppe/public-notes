@@ -1,4 +1,9 @@
-# Service Blueprint
+---
+title: "service blueprint"
+
+---
+
+## Service Blueprint
 
 Um diagrama que visualiza as relações entre diferentes componentes de serviço — pessoas, adereços (evidências físicas ou digitais) e processos — que estão diretamente ligados a pontos de contato em uma jornada específica do cliente.
 
@@ -52,4 +57,4 @@ Tradicionalmente, um Service Blueprint é dividido em seções horizontais (swim
 - [Service Blueprints: Definition (Nielsen Norman Group)](https://www.nngroup.com/articles/service-blueprints-definition/)
 - [4 Key Components of Service Blueprints (Nielsen Norman Group)](https://www.nngroup.com/videos/service-blueprint-components/)
 - [Template: NN/g_Service Blueprint_Excel Template(XLSX)](https://media.nngroup.com/media/editor/2019/10/11/NNg_Service-Blueprint_Excel-Template.xlsx)
-- [Template: NN/g_Service Blueprint_Apple Numbers Template(NUMBERS)](https://media.nngroup.com/media/editor/2019/10/11/NNg_Service-Blueprint_Apple-Numbers-Template.numbers) 
+- [Template: NN/g_Service Blueprint_Apple Numbers Template(NUMBERS)](https://media.nngroup.com/media/editor/2019/10/11/NNg_Service-Blueprint_Apple-Numbers-Template.numbers)

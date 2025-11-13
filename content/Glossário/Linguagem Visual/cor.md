@@ -1,4 +1,9 @@
-# Cor (Color)
+---
+title: "cor"
+
+---
+
+## Cor (Color)
 
 ## Onde é usado
 
@@ -14,6 +19,7 @@ Define a paleta de cores primárias, secundárias, de feedback (sucesso, erro, a
 ## Detalhes Adicionais / Tópicos
 
 ### [[Glossário/Linguagem Visual/paletas_por_categoria|Paletas]] de Cores
+
 - **Primária:** A cor principal da marca, usada em elementos de destaque e ações chave.
   - *Exemplo de Nomeação:* `cor-primaria-500` (tom principal), `cor-primaria-100` (tom mais claro), `cor-primaria-700` (tom mais escuro).
 - **Secundária:** Cores de apoio que complementam a primária, usadas para variações, estados ou elementos menos proeminentes.
@@ -26,15 +32,18 @@ Define a paleta de cores primárias, secundárias, de feedback (sucesso, erro, a
     - **Informação:** Azul (Ex: `cor-info-500`) - para dicas, informações contextuais.
 
 ### Contraste e Acessibilidade
+
 - Todas as combinações de cor de texto sobre fundo devem atender aos critérios de contraste WCAG AA (mínimo 4.5:1 para texto normal, 3:1 para texto grande) e, idealmente, AAA.
 - Ferramentas de verificação de contraste devem ser usadas durante o design e desenvolvimento.
 - Evitar depender exclusivamente da cor para transmitir informação; usar também [[Glossário/Linguagem Visual/iconografia|ícones]], texto ou outros indicadores visuais.
 
 ### Significado das Cores
+
 - Considerar o impacto cultural e psicológico das cores.
 - Documentar o uso intencional de cada cor para manter a consistência.
 
 ### Amostras (Swatches)
+
 - Cada cor da paleta deve ser documentada com:
     - Nome da cor (ex: "Azul Primário Principal")
     - Variável CSS/SCSS (ex: `var(--cor-primaria-500)`, `$cor-primaria-500`)
@@ -67,4 +76,4 @@ Define a paleta de cores primárias, secundárias, de feedback (sucesso, erro, a
 
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Cores)
 
-[[[Glossário/Elementos/links|Link]] para a seção de Cores no Figma] 
+[[[Glossário/Elementos/links|Link]] para a seção de Cores no Figma]

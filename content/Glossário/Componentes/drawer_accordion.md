@@ -1,4 +1,9 @@
-# Drawer / Accordion (Gaveta / Acordeão)
+---
+title: "drawer accordion"
+
+---
+
+## Drawer / Accordion (Gaveta / Acordeão)
 
 "Drawer" (Gaveta) e "Accordion" (Acordeão) são componentes de interface utilizados para mostrar e ocultar seções de conteúdo, ajudando a organizar informações e reduzir a desordem visual. Embora agrupados aqui pela funcionalidade de revelação de conteúdo, possuem características e usos distintos.
 
@@ -7,6 +12,7 @@
 Drawers, também conhecidos como "Off-Canvas Panels" ou "Sidebars Móveis", são painéis que deslizam para dentro ou para fora da viewport, geralmente a partir da lateral (esquerda ou direita) ou da parte inferior/superior da tela. São muito usados para navegação ou [[Glossário/Componentes/filters|filtros]] em interfaces mobile.
 
 ### Casos de Uso do Drawer:
+
 -   [[Glossário/Componentes/menu|Menu]] de navegação principal em dispositivos móveis (ex: [[Glossário/Componentes/menu|menu]] hambúrguer).
 -   [[Glossário/Componentes/filters|Filtros]] e opções de ordenação em listagens.
 -   Painéis de [[Glossário/Padrões/settings|configurações]] rápidas.
@@ -14,6 +20,7 @@ Drawers, também conhecidos como "Off-Canvas Panels" ou "Sidebars Móveis", são
 -   Notificações ou feeds laterais.
 
 ### Elementos Comuns do Drawer:
+
 -   **Gatilho (Trigger):** [[Glossário/Elementos/botoes|Botão]] (ex: [[Glossário/Linguagem Visual/iconografia|ícone]] de hambúrguer, [[Glossário/Linguagem Visual/iconografia|ícone]] de filtro) que abre e fecha o drawer.
 -   **Painel do Drawer:** O contêiner que desliza e contém o conteúdo.
 -   **Conteúdo:** [[Glossário/Elementos/links|Links]] de navegação, [[Glossário/Padrões/form_structure|formulários]] de filtro, [[Glossário/Padrões/settings|configurações]], etc.
@@ -21,6 +28,7 @@ Drawers, também conhecidos como "Off-Canvas Panels" ou "Sidebars Móveis", são
 -   **(Opcional) Overlay:** Para escurecer o conteúdo principal quando o drawer está aberto.
 
 ### Melhores Práticas do Drawer:
+
 -   **Transição Suave:** A animação de entrada/saída deve ser rápida e fluida.
 -   **Fechamento Fácil:** Além do gatilho, permitir fechar clicando no overlay (se houver) ou com a tecla `Escape`.
 -   **Foco:** Gerenciar o foco do teclado para dentro do drawer quando aberto.
@@ -32,6 +40,7 @@ Drawers, também conhecidos como "Off-Canvas Panels" ou "Sidebars Móveis", são
 Accordions são [[Glossário/Elementos/listas|listas]] de [[Glossário/Elementos/cabecalhos|cabeçalhos]] empilhados verticalmente, onde cada [[Glossário/Elementos/cabecalhos|cabeçalho]] pode ser clicado para revelar ou ocultar uma seção de conteúdo associada abaixo dele. Apenas um (ou múltiplos, dependendo da configuração) painel de conteúdo fica visível por vez.
 
 ### Casos de Uso do Accordion:
+
 -   FAQs (Perguntas Frequentes).
 -   Sumários de conteúdo longo, permitindo expandir seções.
 -   [[Glossário/Componentes/menu|Menus]] de navegação multinível compactos.
@@ -39,12 +48,14 @@ Accordions são [[Glossário/Elementos/listas|listas]] de [[Glossário/Elementos
 -   Linhas de tempo ou processos passo a passo.
 
 ### Elementos Comuns do Accordion:
+
 -   **Item do Accordion:** Consiste em um [[Glossário/Elementos/cabecalhos|cabeçalho]] e um painel de conteúdo.
 -   **[[Glossário/Elementos/cabecalhos|Cabeçalho]] ([[Glossário/Componentes/header|Header]]/Trigger):** Texto do título da seção, clicável para expandir/recolher.
     *   Geralmente inclui um [[Glossário/Linguagem Visual/iconografia|ícone]] indicador (ex: `+`/`-`, `▼`/`▲`) do estado (expandido/recolhido).
 -   **Painel de Conteúdo (Content Panel):** A área que é mostrada/oculta.
 
 ### Melhores Práticas do Accordion:
+
 -   **Indicação Clara de Estado:** O [[Glossário/Linguagem Visual/iconografia|ícone]] no [[Glossário/Elementos/cabecalhos|cabeçalho]] deve mudar para refletir se o painel está aberto ou fechado.
 -   **Transição Suave:** Animação sutil ao abrir/fechar painéis.
 -   **Um Painel Aberto por Vez (Comum):** Tradicionalmente, abrir um painel fecha o que estava aberto anteriormente. Permitir múltiplos painéis abertos simultaneamente é uma variação.
@@ -62,4 +73,4 @@ Accordions são [[Glossário/Elementos/listas|listas]] de [[Glossário/Elementos
 -   Má gestão do foco do teclado.
 -   Indicadores de estado confusos ou ausentes.
 -   No Accordion: Ninhos muito profundos de acordeões dentro de acordeões.
--   No Drawer: Usar para conteúdo que deveria estar sempre visível ou que exige muito contexto da página principal. 
+-   No Drawer: Usar para conteúdo que deveria estar sempre visível ou que exige muito contexto da página principal.

@@ -1,4 +1,9 @@
-# Chat (Live) (Chat em Tempo Real)
+---
+title: "chat live"
+
+---
+
+## Chat (Live) (Chat em Tempo Real)
 
 O componente de Chat em Tempo Real permite a comunicação síncrona entre usuários ou entre um usuário e um agente de suporte. É crucial para fornecer assistência imediata, facilitar a colaboração ou criar comunidades interativas.
 
@@ -65,4 +70,4 @@ O componente de Chat em Tempo Real permite a comunicação síncrona entre usuá
 -   Interface desorganizada ou difícil de ler.
 -   Falta de feedback sobre o status das [[Glossário/Componentes/messaging|mensagens]] ou conexão.
 -   Rolagem automática que impede o usuário de ler [[Glossário/Componentes/messaging|mensagens]] mais antigas.
--   Não informar os usuários se o chat é com um bot ou um humano. 
+-   Não informar os usuários se o chat é com um bot ou um humano.

@@ -1,4 +1,9 @@
-# Movimento (Motion)
+---
+title: "movimento"
+
+---
+
+## Movimento (Motion)
 
 ## Onde é usado
 
@@ -14,6 +19,7 @@ Define os princípios de animação e transições na interface, como timing, ea
 ## Detalhes Adicionais / Tópicos
 
 ### Princípios de Movimento
+
 - **Funcional:** O movimento deve ter um propósito claro, ajudando o usuário a entender o que está acontecendo.
 - **Responsivo:** As animações devem iniciar rapidamente em resposta à interação do usuário.
 - **Consistente:** Usar padrões de movimento semelhantes para ações ou transições equivalentes.
@@ -21,10 +27,12 @@ Define os princípios de animação e transições na interface, como timing, ea
 - **Performático:** As animações devem ser fluidas (idealmente 60fps) e não devem degradar a performance da aplicação.
 
 ### Timing
+
 - Definir durações padrão para diferentes tipos de animação (ex: curta para feedback rápido, média para transições de painel).
 - *Exemplo de Escala:* Rápido (100-200ms), Médio (200-400ms), Lento (400-600ms).
 
 ### Easing (Curvas de Aceleração)
+
 - Controla como a velocidade de uma animação muda ao longo do tempo.
 - `ease-in`: Começa devagar, acelera no final (bom para elementos entrando na tela).
 - `ease-out`: Começa rápido, desacelera no final (bom para elementos saindo da tela ou feedback rápido).
@@ -32,6 +40,7 @@ Define os princípios de animação e transições na interface, como timing, ea
 - `linear`: Velocidade constante (raramente usado para UI, pode parecer mecânico).
 
 ### Tipos de Transições e Animações
+
 - **Fade (Esmaecer):** Alterar a opacidade para mostrar/esconder elementos.
 - **Slide (Deslizar):** Mover elementos para dentro/fora da tela ou para novas posições.
 - **Scale (Escalar):** Aumentar/diminuir o tamanho de elementos (ex: para [[Glossário/Componentes/dialog|modais]], pop-ups).
@@ -39,6 +48,7 @@ Define os princípios de animação e transições na interface, como timing, ea
 - **Mudança de [[Glossário/Linguagem Visual/cor|Cor]]/Estilo:** Transições suaves entre estados visuais (ex: hover em [[Glossário/Elementos/botoes|botões]]).
 
 ### Performance
+
 - Priorizar animações de propriedades CSS que são mais performáticas (ex: `transform`, `opacity`).
 - Evitar animar propriedades que causam reflow/repaint excessivo (ex: `width`, `height`, `top`, `left` em elementos complexos).
 - Testar o desempenho das animações em dispositivos menos potentes.
@@ -74,4 +84,4 @@ Define os princípios de animação e transições na interface, como timing, ea
 
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Movimento)
 
-[[[Glossário/Elementos/links|Link]] para as diretrizes de Movimento no Figma ou documentação de animação] 
+[[[Glossário/Elementos/links|Link]] para as diretrizes de Movimento no Figma ou documentação de animação]

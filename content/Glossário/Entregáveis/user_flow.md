@@ -1,4 +1,9 @@
-# User Flow (Fluxo do Usuário)
+---
+title: "user flow"
+
+---
+
+## User Flow (Fluxo do Usuário)
 
 O conjunto típico ou ideal de etapas necessárias para realizar uma tarefa comum com um produto. Os fluxos de usuário podem ser representados com artefatos como wireflows, fluxogramas ou diagramas de tarefas.
 
@@ -62,4 +67,4 @@ Um User Flow geralmente utiliza formas padronizadas para representar diferentes 
 
 ## Referência Externa
 
-- [User Journeys vs. User Flows (Nielsen Norman Group)](https://www.nngroup.com/articles/user-journeys-vs-user-flows/) 
+- [User Journeys vs. User Flows (Nielsen Norman Group)](https://www.nngroup.com/articles/user-journeys-vs-user-flows/)

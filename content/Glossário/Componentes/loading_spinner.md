@@ -1,4 +1,9 @@
-# Loading / Spinner (Indicador de Carregamento)
+---
+title: "loading spinner"
+
+---
+
+## Loading / Spinner (Indicador de Carregamento)
 
 O componente Loading / Spinner (Indicador de Carregamento) é um elemento visual animado que informa ao usuário que uma ação está em progresso e que o sistema está trabalhando em segundo plano. Ele ajuda a gerenciar as expectativas do usuário durante períodos de espera.
 
@@ -51,4 +56,4 @@ O componente Loading / Spinner (Indicador de Carregamento) é um elemento visual
 -   Animações de carregamento excessivamente complexas ou que consomem muitos recursos.
 -   Falta de qualquer feedback durante esperas longas.
 -   Indicadores de carregamento enganosos (ex: uma barra de progresso que para em 99% por muito tempo).
--   Bloquear a interface inteira por uma pequena operação em segundo plano. 
+-   Bloquear a interface inteira por uma pequena operação em segundo plano.

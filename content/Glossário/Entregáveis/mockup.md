@@ -1,4 +1,9 @@
-# Mockup
+---
+title: "mockup"
+
+---
+
+## Mockup
 
 Um **Mockup** é uma representação estática, de média a alta fidelidade, do design de um produto ou interface. Diferentemente de um [[Glossário/Entregáveis/wireframe|wireframe]] (que foca na estrutura e funcionalidade), um mockup apresenta a aparência visual do produto final, incluindo esquemas de [[Glossário/Linguagem Visual/cor|cores]], [[Glossário/Linguagem Visual/tipografia|tipografia]], [[Glossário/Linguagem Visual/iconografia|iconografia]], [[Glossário/Elementos/imagem|imagens]] e outros elementos de design gráfico. No entanto, ele geralmente não é interativo como um [[Glossário/Entregáveis/prototype|protótipo]].
 
@@ -50,4 +55,4 @@ O objetivo principal de um mockup é comunicar o design visual e a estética de 
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

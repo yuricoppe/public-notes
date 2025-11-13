@@ -1,4 +1,9 @@
-# Impact–Effort Matrix (Matriz Impacto x Esforço)
+---
+title: "impact effort matrix"
+
+---
+
+## Impact–Effort Matrix (Matriz Impacto x Esforço)
 
 Uma **Impact–Effort Matrix (Matriz Impacto x Esforço)**, também conhecida como Matriz de Priorização ou Grade Impacto/Valor vs. Esforço, é uma ferramenta visual simples de tomada de decisão usada para ajudar equipes a priorizar tarefas, funcionalidades, ideias ou iniciativas.
 
@@ -80,4 +85,4 @@ A matriz é tipicamente dividida em quatro quadrantes:
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group e práticas comuns de gerenciamento de produto.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group e práticas comuns de gerenciamento de produto.*

@@ -1,4 +1,9 @@
-# Screener
+---
+title: "screener"
+
+---
+
+## Screener
 
 Um [[Glossário/Entregáveis/survey|questionário]] que coleta informações sobre as experiências dos participantes candidatos para identificar e priorizar rapidamente candidatos ideais que sejam representativos do seu público-alvo e excluir quaisquer candidatos que possam não ser um "bom ajuste" para o seu estudo de pesquisa.
 
@@ -42,4 +47,4 @@ Screeners são essenciais para garantir que os participantes da pesquisa sejam a
 ## Referência Externa
 
 - [Recruiting and Screening Candidates for User Research Projects (Nielsen Norman Group)](https://www.nngroup.com/articles/recruiting-and-screening-candidates/)
-- [Screen Your Research Participants to Avoid Bias in User Research (Nielsen Norman Group)](https://www.nngroup.com/videos/screener-research-participants/) 
+- [Screen Your Research Participants to Avoid Bias in User Research (Nielsen Norman Group)](https://www.nngroup.com/videos/screener-research-participants/)

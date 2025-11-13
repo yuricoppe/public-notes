@@ -1,4 +1,9 @@
-# Listas (Lists)
+---
+title: "listas"
+
+---
+
+## Listas (Lists)
 
 ## Onde é usado
 
@@ -41,4 +46,4 @@ Listas são usadas para agrupar itens relacionados de forma ordenada (numerada) 
 
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Listas)
 
-[[[Glossário/Elementos/links|Link]] para a seção de Listas no Figma] 
+[[[Glossário/Elementos/links|Link]] para a seção de Listas no Figma]

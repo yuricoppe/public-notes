@@ -1,4 +1,9 @@
-# Feasibility, Desirability, and Viability Scorecard (Scorecard de Viabilidade, Desejabilidade e Praticabilidade)
+---
+title: "feasibility desirability viability scorecard"
+
+---
+
+## Feasibility, Desirability, and Viability Scorecard (Scorecard de Viabilidade, Desejabilidade e Praticabilidade)
 
 Um **Feasibility, Desirability, and Viability Scorecard** (Placar de Praticabilidade, Desejabilidade e Viabilidade) é uma ferramenta de avaliação usada para analisar ideias, conceitos de produto ou funcionalidades propostas sob três lentes críticas. O objetivo é ajudar as equipes a tomar decisões mais equilibradas e informadas sobre em quais iniciativas investir.
 
@@ -75,4 +80,4 @@ As três dimensões são:
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group e frameworks comuns de design de produto.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group e frameworks comuns de design de produto.*

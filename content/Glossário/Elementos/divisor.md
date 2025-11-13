@@ -1,4 +1,9 @@
-# Divisor / Régua (Divider / Rule)
+---
+title: "divisor"
+
+---
+
+## Divisor / Régua (Divider / Rule)
 
 ## Onde é usado
 
@@ -36,4 +41,4 @@ Divisores ou réguas horizontais (e às vezes verticais) são usados para separa
 
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Divisores)
 
-[[[Glossário/Elementos/links|Link]] para a seção de Divisores no Figma] 
+[[[Glossário/Elementos/links|Link]] para a seção de Divisores no Figma]

@@ -1,4 +1,9 @@
-# Estrutura e Layout
+---
+title: "estrutura layout"
+
+---
+
+## Estrutura e Layout
 
 Esta seção define as diretrizes para a organização estrutural das páginas e a disposição dos elementos de interface (layout), visando criar uma experiência de usuário consistente, intuitiva e adaptável a diferentes dispositivos.
 
@@ -75,4 +80,4 @@ Descrever e ilustrar alguns padrões de layout reutilizáveis que são aplicados
 ## Próximos Passos
 
 -   Criar templates de layout reutilizáveis no Figma.
--   Desenvolver componentes de layout base para o [[Glossário/Elementos/codigo|código]]. 
+-   Desenvolver componentes de layout base para o [[Glossário/Elementos/codigo|código]].

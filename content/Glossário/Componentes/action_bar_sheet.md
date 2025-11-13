@@ -1,4 +1,9 @@
-# Barra de Ação / Planilha de Ação (Action Bar / Action Sheet)
+---
+title: "action bar sheet"
+
+---
+
+## Barra de Ação / Planilha de Ação (Action Bar / Action Sheet)
 
 ## Onde é usado
 
@@ -15,11 +20,13 @@ Um tipo de diálogo [[Glossário/Componentes/dialog|modal]] que desliza da parte
 ## Detalhes Adicionais / Tópicos
 
 ### Barra de Ação (Action Bar)
+
 - **Posicionamento:** Topo, [[Glossário/Componentes/footer|rodapé]], ou flutuante (contextual).
 - **Conteúdo:** Títulos, [[Glossário/Elementos/botoes|botões]] de ação ([[Glossário/Linguagem Visual/iconografia|ícone]] ou texto), [[Glossário/Componentes/menu|menus]], campos de busca.
 - **Comportamento:** Pode ser fixa, rolar com a página ou aparecer/desaparecer contextualmente.
 
 ### Planilha de Ação (Action Sheet)
+
 - **Ativação:** Disparada por uma ação do usuário (clique em [[Glossário/Elementos/botoes|botão]], item de [[Glossário/Elementos/listas|lista]]).
 - **Conteúdo:** [[Glossário/Elementos/listas|Lista]] de [[Glossário/Elementos/botoes|botões]] de ação, cada um representando uma escolha.
 - **Ação Destrutiva:** Ações como "Excluir" devem ser visualmente distintas (ex: [[Glossário/Linguagem Visual/cor|cor]] vermelha) e, idealmente, posicionadas separadamente ou exigir confirmação adicional.
@@ -64,4 +71,4 @@ Um tipo de diálogo [[Glossário/Componentes/dialog|modal]] que desliza da parte
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral)
 
 [[[Glossário/Elementos/links|Link]] para Action Bars no Figma]
-[[[Glossário/Elementos/links|Link]] para Action Sheets no Figma] 
+[[[Glossário/Elementos/links|Link]] para Action Sheets no Figma]

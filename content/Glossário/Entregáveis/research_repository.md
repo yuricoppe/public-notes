@@ -1,4 +1,9 @@
-# Research Repository (Repositório de Pesquisa)
+---
+title: "research repository"
+
+---
+
+## Research Repository (Repositório de Pesquisa)
 
 Um **Research Repository** (Repositório de Pesquisa), também conhecido como "research library" ou "insights platform", é um sistema centralizado para armazenar, organizar, gerenciar, pesquisar e compartilhar todos os dados e achados de pesquisa de UX de uma organização. Ele transforma os resultados de estudos individuais em um corpo de conhecimento acessível e reutilizável.
 
@@ -67,4 +72,4 @@ A criação de um repositório pode variar em complexidade:
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

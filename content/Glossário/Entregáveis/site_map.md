@@ -1,4 +1,9 @@
-# Site Map (Mapa do Site)
+---
+title: "site map"
+
+---
+
+## Site Map (Mapa do Site)
 
 Uma representação visual da organização do conteúdo do seu site.
 
@@ -49,4 +54,4 @@ Um mapa do site (site map) é um diagrama hierárquico que ilustra a estrutura d
 
 ## Referência Externa
 
-- [Information Architecture vs. Sitemaps: What's the Difference? (Nielsen Norman Group)](https://www.nngroup.com/articles/information-architecture-vs-sitemaps/) 
+- [Information Architecture vs. Sitemaps: What's the Difference? (Nielsen Norman Group)](https://www.nngroup.com/articles/information-architecture-vs-sitemaps/)

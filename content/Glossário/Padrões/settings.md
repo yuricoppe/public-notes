@@ -1,9 +1,16 @@
-# Configurações (Settings)
+---
+title: "settings"
+
+---
+
+## Configurações (Settings)
 
 ## Descrição Geral
+
 O padrão de configurações refere-se à área de um portal ou aplicação onde os usuários podem personalizar sua experiência, gerenciar preferências de conta, configurar notificações, ajustar opções de privacidade e outras customizações relacionadas ao seu uso do sistema. Uma boa tela de configurações empodera o usuário e permite que ele adapte o produto às suas necessidades.
 
 ## Princípios Chave / Objetivos
+
 - **Controle do Usuário:** Permitir que os usuários tenham controle sobre sua conta e experiência.
 - **Clareza e Organização:** Apresentar as opções de forma lógica e fácil de entender, evitando sobrecarga.
 - **Descoberta (Discoverability):** Facilitar a localização das configurações relevantes.
@@ -12,6 +19,7 @@ O padrão de configurações refere-se à área de um portal ou aplicação onde
 - **Consistência:** Manter uma estrutura e interação consistentes com o restante do portal.
 
 ## Elementos Comuns / Estrutura Típica
+
 - **Navegação por Seções:** Geralmente organizada em categorias (ex: "Perfil", "Notificações", "Segurança", "Privacidade", "Aparência").
 - **[[Glossário/Elementos/form_controls|Controles de Formulário]]:**
     - [[Glossário/Elementos/form_controls|Campos de texto]] para informações de perfil (nome, email, etc.).
@@ -24,6 +32,7 @@ O padrão de configurações refere-se à área de um portal ou aplicação onde
 - **Opções de Redefinição:** Possibilidade de reverter para configurações padrão, quando aplicável.
 
 ## Comportamento e Interação
+
 1. O usuário navega para a seção de Configurações.
 2. O usuário seleciona uma categoria de configurações (se houver navegação interna).
 3. O usuário interage com os controles para modificar as opções desejadas.
@@ -35,6 +44,7 @@ O padrão de configurações refere-se à área de um portal ou aplicação onde
 ## Diretrizes de Uso e Boas Práticas
 
 ### Faça
+
 - Organize as configurações em grupos lógicos e use uma navegação clara (ex: abas verticais ou [[Glossário/Componentes/menu|menu]] lateral).
 - Use linguagem simples e direta para descrever cada configuração.
 - Forneça padrões sensatos e seguros.
@@ -44,6 +54,7 @@ O padrão de configurações refere-se à área de um portal ou aplicação onde
 - Mantenha a consistência visual e interativa com o restante do portal.
 
 ### Não Faça
+
 - Não sobrecarregue uma única tela com muitas opções não relacionadas; use agrupamento e seções.
 - Não use jargões técnicos que o usuário comum possa não entender.
 - Não esconda configurações importantes ou difíceis de encontrar.
@@ -51,6 +62,7 @@ O padrão de configurações refere-se à área de um portal ou aplicação onde
 - Não torne o processo de salvar ou descartar alterações confuso.
 
 ## Considerações de Acessibilidade
+
 - Todas as seções de navegação e [[Glossário/Elementos/form_controls|controles de formulário]] devem ser acessíveis via teclado e por leitores de tela.
 - Use rótulos claros (`<label for>`) para todos os campos e controles.
 - Agrupe configurações relacionadas usando `fieldset` e `legend` quando apropriado.
@@ -59,6 +71,7 @@ O padrão de configurações refere-se à área de um portal ou aplicação onde
 - Forneça alternativas textuais para [[Glossário/Linguagem Visual/iconografia|ícones]] que comunicam significado.
 
 ## Exemplos / Cenários de Uso
+
 - Alterar informações do perfil do usuário (nome, foto, bio).
 - Configurar preferências de notificação por email ou push.
 - Mudar senha ou configurar [[Glossário/Padrões/authentication|autenticação]] de dois fatores.
@@ -67,13 +80,16 @@ O padrão de configurações refere-se à área de um portal ou aplicação onde
 - Gerenciar dispositivos conectados à conta.
 
 ## Variações Comuns
+
 - **Configurações Globais vs. Configurações de Item Específico:** Algumas configurações afetam todo o portal/aplicação, enquanto outras podem ser contextuais a um item ou seção específica.
 - **Perfis de Configuração:** Possibilidade de salvar e alternar entre diferentes conjuntos de configurações.
 - **Configurações em Linha (Inline Settings):** Pequenas opções de configuração diretamente no contexto da funcionalidade que afetam (ex: um [[Glossário/Linguagem Visual/iconografia|ícone]] de "configurações" em um widget).
 
 ## Status
+
 A definir
 
 ## Recursos Adicionais / Figma
+
 - [[[Glossário/Elementos/links|Link]] para os designs das telas de Configurações no Figma]
-- [[[Glossário/Elementos/links|Link]] para os componentes de [[Glossário/Padrões/form_structure|formulário]] usados nas Configurações] 
+- [[[Glossário/Elementos/links|Link]] para os componentes de [[Glossário/Padrões/form_structure|formulário]] usados nas Configurações]

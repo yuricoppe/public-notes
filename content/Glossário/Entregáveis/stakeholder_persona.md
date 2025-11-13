@@ -1,4 +1,9 @@
-# Stakeholder [[Glossário/Entregáveis/persona|Persona]]
+---
+title: "stakeholder persona"
+
+---
+
+## Stakeholder [[Glossário/Entregáveis/persona|Persona]]
 
 Um personagem fictício que representa um personagem típico do seu grupo de stakeholders.
 
@@ -53,4 +58,4 @@ Uma Stakeholder [[Glossário/Entregáveis/persona|Persona]] geralmente inclui:
 ## Referência Externa
 
 - [UX Stakeholder Engagement 101 (Nielsen Norman Group)](https://www.nngroup.com/articles/ux-stakeholder-engagement/)
-- [UX Stakeholder Engagement 101 (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/stakeholder-engagement/) 
+- [UX Stakeholder Engagement 101 (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/stakeholder-engagement/)

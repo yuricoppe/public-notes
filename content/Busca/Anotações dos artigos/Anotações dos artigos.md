@@ -1,5 +1,12 @@
-[https://www.nngroup.com/articles/search-visible-and-simple/](https://www.nngroup.com/articles/search-visible-and-simple/)
 ---
+title: "Anotações dos artigos"
+
+---
+
+[https://www.nngroup.com/articles/search-visible-and-simple/](https://www.nngroup.com/articles/search-visible-and-simple/)
+
+---
+
 Um comentário típico é: "Não quero ter que navegar neste site do jeito que eles querem. Só quero encontrar o que estou procurando." É por isso que muitos usuários vão direto para a função de busca **da página inicial** .
 
 A busca também é uma válvula de escape para os usuários quando eles ficam presos na navegação. Quando não conseguem encontrar um lugar razoável para ir em seguida, frequentemente recorrem à função de busca do site. É por isso que você deve disponibilizar a busca em todas as páginas do site; não é possível prever onde os usuários estarão quando perceberem que estão perdidos.
@@ -32,8 +39,9 @@ Se a lista de resultados parecer inadequada, é provável que abandonem o site c
 ---
 
 **Enfatize a capacidade do seu mecanismo de busca de lidar com consultas de uma única palavra** e consultas muito curtas de várias palavras e ainda produzir resultados de alta qualidade.==**Não ofereça busca avançada na página inicial.**== A busca avançada pode causar problemas para os usuários, pois eles invariavelmente a utilizam de forma errada. Quando fizer sentido, ofereça a busca avançada como uma opção para a qual os usuários podem acessar links na página de resultados da busca: "Não encontrou o que procurava? Experimente a busca avançada."
+
 ---
-  
+
 [https://www.pencilandpaper.io/articles/search-ux](https://www.pencilandpaper.io/articles/search-ux)
 
 ---
@@ -67,11 +75,11 @@ O que pode ser indexado? Os dados estão em boas condições para uma pesquisa e
 - Incluir o estado de foco quando a entrada foi “clicada”
 - Incluir algumas sugestões predefinidas no texto do espaço reservado (nos casos em que não está claro o que você pode pesquisar em um aplicativo)
 - Inclua o que está sendo pesquisado no texto do espaço reservado. Ex.: pesquisar no site inteiro vs. pesquisar itens na tabela abaixo.
-![[Pasted image 20251105231928.png]]
+![png](../../attachments/Pasted%20image%2020251105231928.png)
 
 ---
 
-# **Melhores práticas do menu suspenso de pesquisa:**
+## **Melhores práticas do menu suspenso de pesquisa:**
 
 - Incluir categorias de cabeçalho no menu suspenso para facilitar a digitalização
 - Foco automático no principal resultado da pesquisa
@@ -79,10 +87,11 @@ O que pode ser indexado? Os dados estão em boas condições para uma pesquisa e
 - Permitir rolagem no menu suspenso de pesquisa
 - Incluir feedback de carregamento mostra que o computador está pensando em algumas coisas – confira nosso artigo detalhado sobre **padrões de carregamento de UX**.
 - Mostre como os resultados correspondem usando uma técnica de destaque
-![[image 1 2.png|image 1 2.png]]
+![image 1 2.png|image 1 2](../../attachments/image%201%202.png%7Cimage%201%202.png)
 
 ---
-# **Melhores práticas de carregamento de pesquisa:**
+
+## **Melhores práticas de carregamento de pesquisa:**
 
 - Use feedback de carregamento específico ao contexto – o que significa que o feedback de carregamento é adaptado para diferentes durações de espera.
 [![](https://cdn.prod.website-files.com/65d605a3b4417479c154329f/65e19e1312c79a10b418752d_Screen-Recording-2023-09-06-at-2.08.11-PM.gif)](https://cdn.prod.website-files.com/65d605a3b4417479c154329f/65e19e1312c79a10b418752d_Screen-Recording-2023-09-06-at-2.08.11-PM.gif)
@@ -100,7 +109,7 @@ Para conjuntos de dados enormes, pode não ser viável indexar todos os locais p
 - Use paginação conforme necessário
 - Inclua controles de filtragem e classificação para que as pessoas possam refinar ainda mais os resultados que procuram (consulte nosso [artigo sobre filtragem](https://pencilandpaper.io/articles/ux-pattern-analysis-enterprise-filtering/)) para se aprofundar nas nuances em torno dos filtros
 - Incluir o feedback do estado vazio quando os resultados da pesquisa forem iguais a 0 – revise nosso artigo de padrões sobre [estados vazios](https://pencilandpaper.io/articles/ux-pattern-analysis-enterprise-filtering/) para mais práticas recomendadas.
-![[image 2 3.png|image 2 3.png]]
+![image 2 3.png|image 2 3](../../attachments/image%202%203.png%7Cimage%202%203.png)
 
 ---
 
@@ -117,12 +126,11 @@ Esse tipo de pesquisa tem características únicas em comparação a outras expe
     (“ou”) – especificando duas ou mais coisas que podem não coexistir, por exemplo, contém “vermelho” ou “azul”.
 4. **Critérios aditivos**
     (“e”) – especificando que vários critérios podem ser incluídos, por exemplo, tipo = Artigos, E fonte = acadêmico
-![[image 3 2.png|image 3 2.png]]
+![image 3 2.png|image 3 2](../../attachments/image%203%202.png%7Cimage%203%202.png)
 
 ---
 
 ## Erros Comuns de UX de Pesquisa
-
 
 ### 1. Má Qualidade do Resultado
 
@@ -149,7 +157,7 @@ Mostrar que a busca está sendo processada é fundamental. Feedback de carregame
 Não usar a busca como uma solução para problemas de navegação ruim é crucial. Nem todos utilizam a busca como principal meio de navegação. A busca não substitui uma navegação sólida, e depender dela pode resultar em uma experiência de usuário insatisfatória.
 
 ---
-  
+
 [https://nulab.com/learn/design-and-ux/search-ux-best-practices/](https://nulab.com/learn/design-and-ux/search-ux-best-practices/)
 
 ---
@@ -180,7 +188,7 @@ Adicionar abas para representar vários objetos de dados pode tornar os resultad
 Cada aba deve ser claramente identificada (por exemplo, "Produtos", "Artigos", "Contas") para simplificar a navegação. Isso ajuda os usuários a localizar as informações desejadas rapidamente, ao mesmo tempo em que oferece uma indicação visual que organiza os resultados de forma fácil de assimilar, o que reduz a carga cognitiva. Boas notícias para a paciência dos seus visitantes.
 
 ---
-  
+
 [https://uxplanet.org/best-practices-for-search-results-1bbed9d7a311](https://uxplanet.org/best-practices-for-search-results-1bbed9d7a311)
 
 ---
@@ -218,7 +226,7 @@ O número de resultados correspondentes ajuda o usuário a fazer reformulações
 ## **6. Mantenha as consultas de pesquisa recentes dos usuários**
 
 A formulação de consultas exige algum esforço. Mesmo quando os usuários sabem o que pesquisaram na última vez que visitaram seu site, eles ainda precisam se lembrar de informações. Ao projetar uma experiência de pesquisa, você deve ter em mente uma regra básica de usabilidade:
-![[image 4 2.png|image 4 2.png]]
+![image 4 2.png|image 4 2](../../attachments/image%204%202.png%7Cimage%204%202.png)
 **Dica:** Apresente menos de 10 consultas para que as informações não fiquem muito confusas. Para dispositivos móveis, é melhor mostrar de 3 a 5 consultas.
 
 ---
@@ -229,7 +237,7 @@ A formulação de consultas exige algum esforço. Mesmo quando os usuários sabe
 - Destaque claramente os filtros ativados. Os usuários sabem quais filtros estão ativos.
 
 ---
-  
+
 [https://medium.com/@halolab/search-results-page-design-ui-ux-best-practices-f2157eea8226](https://medium.com/@halolab/search-results-page-design-ui-ux-best-practices-f2157eea8226)
 
 ---
@@ -242,10 +250,10 @@ O objetivo do site, nesse sentido, é ser um representante de vendas informal. T
 ---
 
 Como um mecanismo de busca que utiliza busca semântica, o DuckDuckGo exibe todos os significados das palavras-chave entre os primeiros resultados. Mais importante ainda, ele também possui um painel extra que permite visualizar alternativas, atendendo assim às necessidades dos clientes e criando seu próprio campo de informações.
-![[image 5 2.png|image 5 2.png]]
+![image 5 2.png|image 5 2](../../attachments/image%205%202.png%7Cimage%205%202.png)
 
 ---
-  
+
 [https://baymard.com/blog/no-results-page](https://baymard.com/blog/no-results-page)
 
 ---
@@ -274,7 +282,7 @@ Para máxima eficácia, **exiba uma prévia** dos 3 a 5 principais produtos pa
 Se apenas uma consulta alternativa for encontrada, ela deverá ser **aplicada automaticamente,** com um aviso explicando que não havia resultados disponíveis para a consulta original, mas o site encontrou resultados relevantes para a pesquisa revisada.
 
 ---
-  
+
 [https://baymard.com/blog/ecommerce-search-query-types](https://baymard.com/blog/ecommerce-search-query-types)
 
 ---
@@ -291,7 +299,7 @@ Se apenas uma consulta alternativa for encontrada, ela deverá ser **aplicada a
 - "Buscas Não-Produto" falham em 50% dos sites, negligenciando a necessidade de informações como políticas de retorno e ajuda do cliente.
 
 ---
-  
+
 [https://www.nngroup.com/articles/enriched-site-search-suggestions/](https://www.nngroup.com/articles/enriched-site-search-suggestions/)
 
 ---

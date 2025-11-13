@@ -1,4 +1,9 @@
-# Content Audit (Auditoria de Conteúdo)
+---
+title: "content audit"
+
+---
+
+## Content Audit (Auditoria de Conteúdo)
 
 Uma **Content Audit (Auditoria de Conteúdo)** é um processo sistemático de avaliação da qualidade, relevância, eficácia e precisão de todo o conteúdo digital existente em uma plataforma (como um website, blog, intranet ou aplicativo). Ela vai além de simplesmente listar o conteúdo (o que é feito no [Content Inventory](./content_inventory.md)); uma auditoria envolve uma análise crítica para determinar o que funciona, o que não funciona, o que precisa ser melhorado, o que pode ser removido e onde existem lacunas.
 
@@ -71,4 +76,4 @@ Os principais objetivos de uma auditoria de conteúdo são:
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

@@ -1,4 +1,9 @@
-# Archetype (Arquétipo)
+---
+title: "archetype"
+
+---
+
+## Archetype (Arquétipo)
 
 Um **Archetype (Arquétipo)** em UX é uma representação abstrata de um tipo de usuário, focada em seus comportamentos, atitudes, motivações, dores (pain points) e objetivos. Diferentemente de uma [[Glossário/Entregáveis/persona|persona]] tradicional, um arquétipo geralmente não inclui detalhes pessoais específicos como nome fictício, foto ou dados demográficos detalhados. Ele busca capturar a essência de um padrão de comportamento ou mentalidade.
 
@@ -64,4 +69,4 @@ Ambos são ferramentas valiosas e, por vezes, podem ser usados em conjunto. Arqu
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

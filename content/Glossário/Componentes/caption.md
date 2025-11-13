@@ -1,4 +1,9 @@
-# Caption ([[Glossário/Componentes/legend|Legenda]])
+---
+title: "caption"
+
+---
+
+## Caption ([[Glossário/Componentes/legend|Legenda]])
 
 Captions, ou legendas, são textos descritivos curtos associados a outros elementos da interface, como [[Glossário/Elementos/imagem|imagens]], tabelas, gráficos, ou grupos de campos de [[Glossário/Padrões/form_structure|formulário]]. Elas fornecem contexto adicional, atribuição ou uma breve explicação sobre o elemento ao qual se referem.
 
@@ -52,4 +57,4 @@ Captions, ou legendas, são textos descritivos curtos associados a outros elemen
 -   Legendas longas que se assemelham a [[Glossário/Elementos/paragrafo|parágrafos]] de texto.
 -   Informações redundantes que já estão claras pelo contexto ou pelo próprio elemento.
 -   Estilo que dificulta a leitura ou que se confunde com outros elementos textuais.
--   Não usar os elementos HTML semânticos apropriados (`<caption>`, `<figcaption>`, `<legend>`). 
+-   Não usar os elementos HTML semânticos apropriados (`<caption>`, `<figcaption>`, `<legend>`).

@@ -1,4 +1,9 @@
-# Persona
+---
+title: "persona"
+
+---
+
+## Persona
 
 Uma **Persona** em UX é um personagem fictício e [[Glossário/Entregáveis/archetype|arquétipo]] criado para representar um grupo de usuários com comportamentos, objetivos, necessidades e dores semelhantes. Personas são baseadas em pesquisa com usuários reais e ajudam a equipe de design e desenvolvimento a entender, empatizar e tomar decisões centradas no usuário ao longo de todo o ciclo de vida do produto.
 
@@ -68,4 +73,4 @@ O objetivo principal de criar personas é:
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

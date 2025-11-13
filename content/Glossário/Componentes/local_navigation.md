@@ -1,4 +1,9 @@
-# Local Navigation (Navegação Local)
+---
+title: "local navigation"
+
+---
+
+## Local Navigation (Navegação Local)
 
 Local Navigation (Navegação Local) refere-se a sistemas de navegação que permitem ao usuário mover-se entre seções ou visualizações relacionadas dentro de uma área específica de um site ou aplicativo. É distinta da navegação global (principal) do site.
 
@@ -50,4 +55,4 @@ Local Navigation (Navegação Local) refere-se a sistemas de navegação que per
 -   Esconder opções de navegação local importantes.
 -   Falta de indicação clara do item ativo.
 -   Navegação local inconsistente entre diferentes partes de uma seção.
--   Muitas opções em um [[Glossário/Componentes/menu|menu]] horizontal que quebra em múltiplas linhas de forma desajeitada. 
+-   Muitas opções em um [[Glossário/Componentes/menu|menu]] horizontal que quebra em múltiplas linhas de forma desajeitada.

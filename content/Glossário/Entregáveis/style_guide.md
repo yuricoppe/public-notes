@@ -1,4 +1,9 @@
-# Style Guide (Guia de Estilo)
+---
+title: "style guide"
+
+---
+
+## Style Guide (Guia de Estilo)
 
 Uma peça de documentação que contém diretrizes específicas, referências visuais e princípios de design.
 
@@ -74,4 +79,4 @@ Um Guia de Estilo foca nas diretrizes e na aparência visual e de conteúdo. Um 
 
 ## Referência Externa
 
-- [Design Systems vs. Style Guides (Nielsen Norman Group)](https://www.nngroup.com/articles/design-systems-vs-style-guides/) 
+- [Design Systems vs. Style Guides (Nielsen Norman Group)](https://www.nngroup.com/articles/design-systems-vs-style-guides/)

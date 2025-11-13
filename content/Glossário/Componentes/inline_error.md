@@ -1,4 +1,9 @@
-# Inline Error (Erro Inline)
+---
+title: "inline error"
+
+---
+
+## Inline Error (Erro Inline)
 
 O componente Inline Error (Erro Inline) é uma mensagem de erro exibida diretamente próxima ao elemento de interface que causou o erro, como um campo de [[Glossário/Padrões/form_structure|formulário]] inválido. Ele fornece feedback contextual e imediato para ajudar o usuário a identificar e corrigir o problema.
 
@@ -44,4 +49,4 @@ O componente Inline Error (Erro Inline) é uma mensagem de erro exibida diretame
 -   Posicionar a mensagem de erro longe do campo correspondente.
 -   Usar apenas [[Glossário/Linguagem Visual/cor|cor]] para indicar o erro.
 -   [[Glossário/Componentes/messaging|Mensagens]] de erro que culpam o usuário (ex: "Você digitou errado"). Manter um tom neutro e útil.
--   Não limpar as [[Glossário/Componentes/messaging|mensagens]] de erro quando o problema for corrigido. 
+-   Não limpar as [[Glossário/Componentes/messaging|mensagens]] de erro quando o problema for corrigido.

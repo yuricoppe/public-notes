@@ -1,4 +1,9 @@
-# Paper [[Glossário/Entregáveis/prototype|Prototype]] ([[Glossário/Entregáveis/prototype|Protótipo]] de Papel)
+---
+title: "paper prototype"
+
+---
+
+## Paper [[Glossário/Entregáveis/prototype|Prototype]] ([[Glossário/Entregáveis/prototype|Protótipo]] de Papel)
 
 Um **Paper [[Glossário/Entregáveis/prototype|Prototype]]** é uma técnica de prototipagem de baixa fidelidade que envolve a criação de representações desenhadas à mão de interfaces de usuário em papel. Esses desenhos são usados para simular a interatividade de um sistema digital, com um facilitador "interpretando" o sistema, trocando as telas de papel em resposta às "ações" do usuário (como apontar para um [[Glossário/Elementos/botoes|botão]]).
 
@@ -51,4 +56,4 @@ O objetivo principal de um [[Glossário/Entregáveis/prototype|protótipo]] de p
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

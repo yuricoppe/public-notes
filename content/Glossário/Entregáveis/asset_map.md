@@ -1,4 +1,9 @@
-# Asset Map (Mapa de Ativos)
+---
+title: "asset map"
+
+---
+
+## Asset Map (Mapa de Ativos)
 
 Um **Asset Map (Mapa de Ativos)** é um método de visualização cronológica e de alto nível que exibe e organiza todas as telas, elementos de interface, conteúdos e pontos de contato que os usuários encontram ao longo de diferentes canais enquanto completam um fluxo de trabalho específico ou uma jornada. O principal objetivo é avaliar a consistência da experiência do usuário através desses diversos ativos.
 
@@ -55,4 +60,4 @@ Um **Asset Map (Mapa de Ativos)** é um método de visualização cronológica e
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

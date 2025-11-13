@@ -1,4 +1,9 @@
-# Statistical [[Glossário/Entregáveis/persona|Persona]] ([[Glossário/Entregáveis/persona|Persona]] Estatística)
+---
+title: "statistical persona"
+
+---
+
+## Statistical [[Glossário/Entregáveis/persona|Persona]] ([[Glossário/Entregáveis/persona|Persona]] Estatística)
 
 Um tipo de [[Glossário/Entregáveis/persona|persona]] que emerge da análise estatística de uma pesquisa de grande amostra, informada por pesquisa qualitativa inicial.
 
@@ -59,4 +64,4 @@ Similar a outras [[Glossário/Entregáveis/persona|personas]], mas com ênfase n
 ## Referência Externa
 
 - [3 [[Glossário/Entregáveis/persona|Persona]] Types: Lightweight, Qualitative, and Statistical (Nielsen Norman Group)](https://www.nngroup.com/articles/[[Glossário/Entregáveis/persona|persona]]-types/)
-- [Statistically-Generated Personas (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/statistically-generated-[[Glossário/Entregáveis/persona|personas]]/) 
+- [Statistically-Generated Personas (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/statistically-generated-[[Glossário/Entregáveis/persona|personas]]/)

@@ -1,9 +1,16 @@
-# Sistema de [[Glossário/Linguagem Visual/espacamento|Espaçamento]] ([[Glossário/Linguagem Visual/espacamento|Spacing]] System)
+---
+title: "spacing system"
+
+---
+
+## Sistema de [[Glossário/Linguagem Visual/espacamento|Espaçamento]] ([[Glossário/Linguagem Visual/espacamento|Spacing]] System)
 
 ## Descrição Geral
+
 O sistema de [[Glossário/Linguagem Visual/espacamento|espaçamento]] define uma escala consistente e previsível para aplicar margens (`margin`), preenchimentos (`padding`) e o espaço vazio (`white space`) entre os elementos da interface do usuário. Um sistema de [[Glossário/Linguagem Visual/espacamento|espaçamento]] bem definido é crucial para criar layouts visualmente harmoniosos, melhorar a legibilidade e garantir uma hierarquia visual clara.
 
 ## Princípios Chave
+
 - **Consistência:** Usar uma escala predefinida em vez de valores arbitrários.
 - **Hierarquia Visual:** O [[Glossário/Linguagem Visual/espacamento|espaçamento]] ajuda a agrupar elementos relacionados e a separar os não relacionados, guiando o olho do usuário.
 - **Ritmo Vertical e Horizontal:** Contribui para um fluxo visual agradável.
@@ -57,6 +64,7 @@ Nossa escala é baseada em um **valor fundamental de 4px**. Múltiplos deste val
 ```
 
 ## Diretrizes de Uso
+
 - **Use a Escala:** Sempre que possível, utilize os valores definidos na escala de [[Glossário/Linguagem Visual/espacamento|espaçamento]] em vez de valores customizados.
 - **Consistência Vertical e Horizontal:** Tente manter um ritmo consistente. Se um card tem `padding: 16px` (space-md), outros [[Glossário/Componentes/cards|cards]] similares também deveriam ter.
 - **Relação com o Grid:** O sistema de [[Glossário/Linguagem Visual/espacamento|espaçamento]] complementa o [[Glossário/Sistemas de Layout/grid_system|sistema de grid]]. Os gutters do grid são uma forma de [[Glossário/Linguagem Visual/espacamento|espaçamento]], mas o sistema de [[Glossário/Linguagem Visual/espacamento|espaçamento]] se aplica de forma mais granular.
@@ -64,12 +72,15 @@ Nossa escala é baseada em um **valor fundamental de 4px**. Múltiplos deste val
 - **Ajustes Responsivos:** Em alguns casos, os valores de [[Glossário/Linguagem Visual/espacamento|espaçamento]] podem precisar ser ajustados em diferentes breakpoints (`breakpoints.md`) para otimizar o layout em telas menores. Por exemplo, `margin-bottom: var(--space-lg)` em desktop pode se tornar `margin-bottom: var(--space-md)` em mobile.
 
 ## Densidade da Informação
+
 - A escolha do nível de [[Glossário/Linguagem Visual/espacamento|espaçamento]] afeta a densidade da informação. Interfaces mais densas podem usar valores menores da escala, enquanto interfaces que priorizam o respiro e o foco em menos elementos usarão valores maiores.
 - A densidade deve ser apropriada para o contexto e o objetivo da página ou componente.
 
 ## Ferramentas
+
 - Utilizar variáveis CSS ou tokens de design em ferramentas como Figma para garantir a aplicação consistente da escala.
 
 ## Recursos Adicionais / Figma
+
 - [[[Glossário/Elementos/links|Link]] para a documentação da Escala de [[Glossário/Linguagem Visual/espacamento|Espaçamento]] no Figma]
-- [Exemplos de componentes e layouts aplicando a escala] 
+- [Exemplos de componentes e layouts aplicando a escala]

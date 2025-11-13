@@ -1,4 +1,9 @@
-# RICE Method (Método RICE)
+---
+title: "rice method"
+
+---
+
+## RICE Method (Método RICE)
 
 O **Método RICE** é um framework de pontuação usado para priorizar ideias de projetos, funcionalidades de produtos ou iniciativas. Ele ajuda as equipes a tomar decisões mais objetivas sobre em que trabalhar, avaliando os itens com base em quatro fatores. O acrônimo RICE significa:
 
@@ -82,4 +87,4 @@ As iniciativas com as maiores pontuações RICE são priorizadas mais alto.
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

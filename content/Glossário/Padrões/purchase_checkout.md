@@ -1,9 +1,16 @@
-# Compra / Checkout (Purchase/Checkout)
+---
+title: "purchase checkout"
+
+---
+
+## Compra / Checkout (Purchase/Checkout)
 
 ## Descrição Geral
+
 O padrão de compra/checkout descreve o processo pelo qual um usuário seleciona produtos ou serviços, fornece informações de pagamento e envio (se aplicável), revisa seu pedido e finaliza uma transação comercial. É uma das interações mais críticas em portais de e-commerce ou serviços pagos, onde a clareza, segurança e eficiência são primordiais para evitar o abandono do carrinho.
 
 ## Princípios Chave / Objetivos
+
 - **Confiança e Segurança:** Assegurar ao usuário que suas informações de pagamento e dados pessoais estão seguros.
 - **Clareza e Transparência:** Apresentar todas as informações relevantes de forma clara (produtos, preços, taxas, impostos, prazos de entrega).
 - **Eficiência e Simplicidade:** Minimizar o número de etapas e a quantidade de informação solicitada, tornando o processo rápido e fácil.
@@ -12,6 +19,7 @@ O padrão de compra/checkout descreve o processo pelo qual um usuário seleciona
 - **Confirmação:** Fornecer feedback claro de que o pedido foi concluído com sucesso.
 
 ## Elementos Comuns / Estrutura Típica
+
 - **Revisão do Carrinho/Pedido:** [[Glossário/Elementos/listas|Lista]] detalhada dos itens, quantidades, preços unitários e subtotais.
 - **Informações de Envio (se aplicável):**
     - Campos para endereço de entrega.
@@ -28,6 +36,7 @@ O padrão de compra/checkout descreve o processo pelo qual um usuário seleciona
 - **Informações de Contato do Cliente.**
 
 ## Comportamento e Interação
+
 1. O usuário adiciona itens ao carrinho e prossegue para o checkout.
 2. O sistema guia o usuário através das etapas (ex: informações pessoais/envio, detalhes do pagamento, revisão).
 3. O usuário preenche os [[Glossário/Padrões/form_structure|formulários]] necessários.
@@ -41,6 +50,7 @@ O padrão de compra/checkout descreve o processo pelo qual um usuário seleciona
 ## Diretrizes de Uso e Boas Práticas
 
 ### Faça
+
 - Mantenha o processo o mais curto e linear possível. Idealmente, um checkout de página única ou poucas etapas bem definidas.
 - Indique claramente o progresso através das etapas do checkout.
 - Mostre um resumo do pedido sempre visível ou facilmente acessível.
@@ -52,6 +62,7 @@ O padrão de compra/checkout descreve o processo pelo qual um usuário seleciona
 - Otimize para dispositivos móveis ([[Glossário/Padrões/form_structure|formulários]] fáceis de preencher, [[Glossário/Elementos/botoes|botões]] grandes).
 
 ### Não Faça
+
 - Não surpreenda o usuário com custos inesperados no final do processo.
 - Não exija [[Glossário/Padrões/create_account|registro]] obrigatório para comprar, se puder evitar.
 - Não peça informações redundantes ou desnecessárias.
@@ -60,6 +71,7 @@ O padrão de compra/checkout descreve o processo pelo qual um usuário seleciona
 - Não redirecione para fora do site para pagamento sem um aviso claro (exceto para provedores de pagamento conhecidos como PayPal).
 
 ## Considerações de Acessibilidade
+
 - Todos os campos de [[Glossário/Padrões/form_structure|formulário]] devem ter rótulos claros e associados (`<label for>`).
 - Mensagens de erro e sucesso devem ser acessíveis e associadas aos campos relevantes.
 - Garanta que todos os elementos interativos sejam operáveis via teclado.
@@ -68,21 +80,25 @@ O padrão de compra/checkout descreve o processo pelo qual um usuário seleciona
 - Se usar um indicador de progresso, garanta que ele seja acessível.
 
 ## Exemplos / Cenários de Uso
+
 - Compra de produtos físicos em uma loja virtual.
 - Assinatura de um serviço online (SaaS, streaming).
 - Pagamento de uma fatura ou taxa em um portal de serviços.
 - Compra de ingressos para eventos.
 
 ## Variações Comuns
+
 - **Checkout de Página Única (One-Page Checkout):** Todos os campos e informações em uma única página, geralmente usando seções expansíveis (accordions).
 - **Checkout Multi-Etapas (Multi-Step Checkout):** Processo dividido em várias páginas ou abas (ex: 1. Informações Pessoais, 2. Envio, 3. Pagamento, 4. Revisão).
 - **Checkout Expresso/Rápido:** Para usuários com contas e informações salvas, permitindo finalizar a compra com poucos cliques.
 - **Checkout Incorporado (Embedded Checkout):** Componentes de pagamento de terceiros (ex: Stripe Elements, PayPal [[Glossário/Elementos/botoes|buttons]]) integrados diretamente na página.
 
 ## Status
+
 A definir
 
 ## Recursos Adicionais / Figma
+
 - [[[Glossário/Elementos/links|Link]] para os designs das telas de carrinho e checkout no Figma]
 - [[[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/prototype|protótipos]] do fluxo de compra]
-- [[[Glossário/Elementos/links|Link]] para a documentação da API de pagamento, se aplicável] 
+- [[[Glossário/Elementos/links|Link]] para a documentação da API de pagamento, se aplicável]

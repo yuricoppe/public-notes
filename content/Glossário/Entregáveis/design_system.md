@@ -1,4 +1,9 @@
-# Design System (Sistema de Design)
+---
+title: "design system"
+
+---
+
+## Design System (Sistema de Design)
 
 Um **Design System (Sistema de Design)** é uma coleção abrangente e viva de componentes de interface reutilizáveis, diretrizes claras, princípios de design e [[Glossário/Elementos/codigo|código]], tudo organizado e documentado para guiar o design e desenvolvimento de produtos digitais de forma consistente e eficiente. É mais do que apenas uma biblioteca de UI ou um [[Glossário/Entregáveis/style_guide|guia de estilo]]; é um ecossistema completo que promove a colaboração entre designers e desenvolvedores.
 
@@ -75,4 +80,4 @@ Um Design System robusto geralmente inclui:
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

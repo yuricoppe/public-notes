@@ -1,4 +1,9 @@
-# Journey Map (Mapa de Jornada do Usuário)
+---
+title: "journey map"
+
+---
+
+## Journey Map (Mapa de Jornada do Usuário)
 
 Um **Journey Map** (Mapa de Jornada do Usuário) é uma visualização do processo que uma pessoa (usuário, cliente) atravessa para atingir um objetivo específico com uma empresa ou produto. Ele mapeia as diferentes etapas da experiência do usuário, desde a conscientização inicial até o engajamento pós-interação, incluindo seus pensamentos, sentimentos, ações, pontos de contato e dores em cada fase.
 
@@ -53,4 +58,4 @@ O objetivo principal de um Journey Map é entender e comunicar a experiência do
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

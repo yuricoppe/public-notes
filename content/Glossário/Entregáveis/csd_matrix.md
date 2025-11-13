@@ -1,4 +1,9 @@
-# CSD Matrix (Matriz de Certezas, Suposições e Dúvidas)
+---
+title: "csd matrix"
+
+---
+
+## CSD Matrix (Matriz de Certezas, Suposições e Dúvidas)
 
 Uma **CSD Matrix (Matriz de Certezas, Suposições e Dúvidas)** é uma ferramenta colaborativa utilizada no início de um projeto ou de uma fase de descoberta para ajudar a equipe a externalizar e organizar o conhecimento coletivo sobre um determinado desafio, problema ou público-alvo. A sigla CSD vem do inglês *Certainties, Suppositions, and Doubts*.
 
@@ -72,4 +77,4 @@ A matriz é tipicamente dividida em três colunas (ou quadrantes):
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group e outras fontes relevantes para ferramentas de UX.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group e outras fontes relevantes para ferramentas de UX.*

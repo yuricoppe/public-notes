@@ -1,4 +1,9 @@
-# Imagem (Image)
+---
+title: "imagem"
+
+---
+
+## Imagem (Image)
 
 ## Onde é usado
 
@@ -61,4 +66,4 @@ Imagens são elementos visuais cruciais para transmitir informações, ilustrar 
 
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Imagens)
 
-[[[Glossário/Elementos/links|Link]] para a seção de Imagens e diretrizes de mídia no Figma] 
+[[[Glossário/Elementos/links|Link]] para a seção de Imagens e diretrizes de mídia no Figma]

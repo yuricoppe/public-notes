@@ -1,4 +1,9 @@
-# Métricas e Keylines
+---
+title: "metricas e keylines"
+
+---
+
+## Métricas e Keylines
 
 Esta documentação estabelece as métricas, grids e keylines utilizados para garantir consistência visual, alinhamento preciso e [[Glossário/Linguagem Visual/espacamento|espaçamento]] harmonioso em todas as interfaces do nosso produto.
 
@@ -47,11 +52,13 @@ Baseada na nossa unidade de `8px`:
 Keylines são linhas guias invisíveis que ajudam a alinhar elementos na interface de forma consistente. Elas são especialmente importantes para alinhar texto, [[Glossário/Linguagem Visual/iconografia|ícones]] e outros elementos dentro de componentes e em relação à tela.
 
 ### Keylines Verticais Comuns:
+
 -   Alinhamento de texto com [[Glossário/Linguagem Visual/iconografia|ícones]].
 -   Alinhamento de títulos com o corpo do texto.
 -   Alinhamento de elementos dentro de [[Glossário/Elementos/listas|listas]] ou tabelas.
 
 ### Keylines Horizontais Comuns:
+
 -   Linha de base do texto.
 -   Alinhamento superior e central de elementos em uma barra de navegação ou [[Glossário/Elementos/cabecalhos|cabeçalho]].
 
@@ -76,4 +83,4 @@ Keylines são linhas guias invisíveis que ajudam a alinhar elementos na interfa
 ## Considerações de Responsividade
 
 -   Como a escala de [[Glossário/Linguagem Visual/espacamento|espaçamento]] e o grid se adaptam a diferentes tamanhos de tela.
--   [[Glossário/Sistemas de Layout/breakpoints|Breakpoints]] principais e como o layout se ajusta. 
+-   [[Glossário/Sistemas de Layout/breakpoints|Breakpoints]] principais e como o layout se ajusta.

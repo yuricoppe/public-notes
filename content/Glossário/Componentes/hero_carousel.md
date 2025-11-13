@@ -1,4 +1,9 @@
-# Hero Carousel (Carrossel de Destaque)
+---
+title: "hero carousel"
+
+---
+
+## Hero Carousel (Carrossel de Destaque)
 
 O Hero Carousel (Carrossel de Destaque) é uma variação do componente Hero/Billboard que exibe múltiplos slides de destaque em rotação. Cada slide geralmente contém uma [[Glossário/Elementos/imagem|imagem]] ou vídeo, título, descrição e um Call to Action (CTA), similar a um Hero individual.
 
@@ -51,4 +56,4 @@ Elementos específicos do Carrossel:
 -   Transições muito rápidas ou complexas que dificultam a leitura.
 -   Conteúdo importante escondido em slides posteriores que a maioria dos usuários não verá.
 -   Ignorar as implicações de performance de carregar múltiplas [[Glossário/Elementos/imagem|imagens]]/vídeos grandes.
--   Usar um carrossel quando um simples grid ou uma [[Glossário/Elementos/listas|lista]] de destaques seria mais eficaz. 
+-   Usar um carrossel quando um simples grid ou uma [[Glossário/Elementos/listas|lista]] de destaques seria mais eficaz.

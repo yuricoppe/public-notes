@@ -1,4 +1,9 @@
-# Header ([[Glossário/Elementos/cabecalhos|Cabeçalho]] de Página/Seção)
+---
+title: "header"
+
+---
+
+## Header ([[Glossário/Elementos/cabecalhos|Cabeçalho]] de Página/Seção)
 
 O componente Header ([[Glossário/Elementos/cabecalhos|Cabeçalho]]), neste contexto, refere-se a uma área no topo de uma página, seção ou componente (como um [[Glossário/Componentes/cards|Card]] ou [[Glossário/Componentes/dialog|Modal]]) que introduz o conteúdo subsequente. Ele é distinto do "Global Header/Navbar" ([[Glossário/Elementos/cabecalhos|cabeçalho]] de navegação principal do site).
 
@@ -44,4 +49,4 @@ O componente Header ([[Glossário/Elementos/cabecalhos|Cabeçalho]]), neste cont
 -   Usar tags de [[Glossário/Elementos/cabecalhos|cabeçalho]] apenas para estilização de texto (sem considerar a semântica).
 -   Títulos excessivamente longos ou truncados de forma inadequada.
 -   [[Glossário/Elementos/cabecalhos|Cabeçalhos]] que não se destacam suficientemente do resto do conteúdo.
--   Inconsistência nos níveis de [[Glossário/Elementos/cabecalhos|cabeçalho]] ou no estilo visual. 
+-   Inconsistência nos níveis de [[Glossário/Elementos/cabecalhos|cabeçalho]] ou no estilo visual.

@@ -1,4 +1,9 @@
-# Wireframe
+---
+title: "wireframe"
+
+---
+
+## Wireframe
 
 Um esboço esquelético de um layout de design usado para representar a estrutura e a funcionalidade de uma interface antes que o design visual seja considerado.
 
@@ -57,4 +62,4 @@ O principal objetivo de um wireframe é definir a arquitetura da informação de
 ## Referência Externa
 
 - [How to Draw a Wireframe (Even if You Can't Draw) (Nielsen Norman Group)](https://www.nngroup.com/articles/how-to-draw-wireframe/)
-- [Prototypes vs. Wireframes in UX Projects (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/prototypes-vs-wireframes/) 
+- [Prototypes vs. Wireframes in UX Projects (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/prototypes-vs-wireframes/)

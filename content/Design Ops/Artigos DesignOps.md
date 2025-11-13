@@ -1,7 +1,12 @@
-[https://www.nngroup.com/articles/design-operations-101/](https://www.nngroup.com/articles/design-operations-101/)
-  
 ---
-  
+title: "Artigos DesignOps"
+
+---
+
+[https://www.nngroup.com/articles/design-operations-101/](https://www.nngroup.com/articles/design-operations-101/)
+
+---
+
 **🇧🇷 Em português:**
 - ["DesignOps ajudando a alavancar os resultados de negócios"](https://brasil.uxdesign.cc/designops-ajudando-a-alavancar-os-resultados-de-neg%C3%B3cios-eb970709115a): Discute como uma área de Design bem estruturada pode ser fundamental para os resultados de negócios.
 - ["Sobre primeiras vezes: uma reflexão da minha atuação em..."](https://brasil.uxdesign.cc/sobre-primeiras-vezes-uma-reflex%C3%A3o-da-minha-atua%C3%A7%C3%A3o-em-designops-4831ab73221c): Um UX Designer reflete sobre suas experiências iniciais em projetos e oferece dicas.

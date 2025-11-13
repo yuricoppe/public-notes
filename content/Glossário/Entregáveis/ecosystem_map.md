@@ -1,4 +1,9 @@
-# Ecosystem Map (Mapa de Ecossistema)
+---
+title: "ecosystem map"
+
+---
+
+## Ecosystem Map (Mapa de Ecossistema)
 
 Um **Ecosystem Map (Mapa de Ecossistema)** é uma visualização holística que ilustra todos os diferentes produtos, serviços, plataformas, canais, pontos de contato e, às vezes, até mesmo os atores (internos e externos) que compõem o ambiente complexo no qual um usuário interage com uma organização ou tenta alcançar um objetivo maior. Ele ajuda a entender as interconexões e interdependências dentro desse sistema.
 
@@ -65,4 +70,4 @@ Os principais objetivos de um Mapa de Ecossistema são:
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group e práticas comuns de UX.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group e práticas comuns de UX.*

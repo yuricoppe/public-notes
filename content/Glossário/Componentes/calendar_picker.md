@@ -1,4 +1,9 @@
-# Calendar Picker (Seletor de Data)
+---
+title: "calendar picker"
+
+---
+
+## Calendar Picker (Seletor de Data)
 
 O Calendar Picker é um componente de interface que permite aos usuários selecionar uma data ou um intervalo de datas de forma visual e intuitiva a partir de um calendário.
 
@@ -55,4 +60,4 @@ O Calendar Picker é um componente de interface que permite aos usuários seleci
 -   Interface de navegação de mês/ano confusa ou difícil.
 -   Falta de indicação clara do dia atual ou selecionado.
 -   Impedir a entrada manual da data no campo de input associado (a menos que haja uma forte razão para isso).
--   Não considerar a localização para formatos de data e linguagem. 
+-   Não considerar a localização para formatos de data e linguagem.

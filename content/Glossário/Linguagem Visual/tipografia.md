@@ -1,4 +1,9 @@
-# Tipografia (Typography)
+---
+title: "tipografia"
+
+---
+
+## Tipografia (Typography)
 
 ## Onde é usado
 
@@ -13,37 +18,46 @@ Define as famílias tipográficas, pesos, tamanhos, alturas de linha e [[Glossá
 ## Detalhes Adicionais / Tópicos
 
 ### Famílias Tipográficas (Font Families)
+
 - Especificar as fontes primárias e secundárias (se houver).
 - Incluir fontes de fallback (web safe fonts) caso a principal não carregue.
 - *Exemplo:* `font-family: 'NomeDaFontePrincipal', 'NomeDaFonteSecundaria', Arial, sans-serif;`
 
 ### Escala Tipográfica
+
 - Definir uma escala modular para tamanhos de fonte (ex: baseada em uma proporção como 1.2 ou 1.4) para criar harmonia e consistência entre os diferentes níveis de texto.
 - A escala deve incluir tamanhos para H1, H2, H3, H4, H5, H6, [[Glossário/Elementos/paragrafo|parágrafos]], texto de destaque (lead), legendas, texto pequeno (small), etc.
 
 ### Pesos e Estilos (Weights & Types)
+
 - Documentar os pesos disponíveis da família tipográfica (Light, Regular, Medium, Semibold, Bold, Black, etc.) e quando usar cada um.
 - Definir o uso de estilos como Itálico (para ênfase, citações) e Normal.
 
 ### Altura da Linha (Line Height)
+
 - Essencial para legibilidade, especialmente em blocos de texto longos.
 - Geralmente definida como um múltiplo do tamanho da fonte (ex: 1.4 a 1.8).
 - Deve haver espaço suficiente entre as linhas para evitar que o texto pareça apertado.
 
 ### Comprimento da Linha (Line Length / Measure)
+
 - O número ideal de caracteres por linha para conforto de leitura (geralmente entre 45-75 caracteres).
 
 ### [[Glossário/Linguagem Visual/espacamento|Espaçamento]] entre Letras (Letter [[Glossário/Linguagem Visual/espacamento|Spacing]] / Tracking)
+
 - Ajustes sutis podem ser necessários para títulos ou textos em caixa alta para melhorar a legibilidade.
 
 ### Web Fonts
+
 - Especificar como as fontes são carregadas (ex: `@font-face`, Google Fonts API).
 - Considerar o impacto no desempenho e otimizar o carregamento (ex: `font-display: swap;`).
 
 ### Grid de Linha de Base (Baseline Grid)
+
 - Um sistema de linhas horizontais invisíveis que ajuda a alinhar verticalmente o texto e outros elementos, criando um ritmo vertical consistente.
 
 ### Acessibilidade
+
 - Tamanho mínimo de fonte para corpo de texto (geralmente 16px CSS).
 - Contraste adequado entre texto e fundo (ver documentação de `Cor`).
 - Permitir que os usuários redimensionem o texto sem quebra de layout.
@@ -87,4 +101,4 @@ Define as famílias tipográficas, pesos, tamanhos, alturas de linha e [[Glossá
 
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Tipografia)
 
-[[[Glossário/Elementos/links|Link]] para a seção de Tipografia no Figma] 
+[[[Glossário/Elementos/links|Link]] para a seção de Tipografia no Figma]

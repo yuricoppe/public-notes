@@ -1,4 +1,9 @@
-# Prototype (Protótipo)
+---
+title: "prototype"
+
+---
+
+## Prototype (Protótipo)
 
 Um **Prototype** (Protótipo) em UX é uma simulação ou modelo de um produto ou interface que permite testar e avaliar ideias de design e a experiência do usuário antes do desenvolvimento completo. Protótipos podem variar em fidelidade (de baixa a alta) e interatividade, e são usados para explorar, comunicar e validar soluções de design com usuários e stakeholders.
 
@@ -66,4 +71,4 @@ O objetivo principal de um protótipo é:
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

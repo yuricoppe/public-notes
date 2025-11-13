@@ -1,9 +1,16 @@
-# Criação de Conta (Create Account)
+---
+title: "create account"
+
+---
+
+## Criação de Conta (Create Account)
 
 ## Descrição Geral
+
 O padrão de criação de conta (também conhecido como registro ou sign-up) permite que novos usuários estabeleçam uma identidade e acesso a um sistema ou portal. Envolve a coleta de informações essenciais do usuário, a definição de credenciais de acesso e, frequentemente, a aceitação de termos de serviço e políticas de privacidade.
 
 ## Princípios Chave / Objetivos
+
 - **Facilidade de Uso:** Tornar o processo de registro o mais simples e rápido possível.
 - **Clareza:** Informar claramente quais dados são necessários e por quê.
 - **Segurança:** Garantir a segurança das informações fornecidas e das credenciais criadas.
@@ -11,6 +18,7 @@ O padrão de criação de conta (também conhecido como registro ou sign-up) per
 - **Conformidade:** Assegurar a conformidade com regulamentações de privacidade (ex: LGPD, GDPR).
 
 ## Elementos Comuns / Estrutura Típica
+
 - Campos de entrada para informações pessoais (ex: nome, email, data de nascimento).
 - Campos para definição de credenciais (ex: nome de usuário, senha, confirmação de senha).
 - [[Glossário/Elementos/form_controls|Checkbox]] para aceitação de Termos de Serviço e Política de Privacidade.
@@ -21,6 +29,7 @@ O padrão de criação de conta (também conhecido como registro ou sign-up) per
 - Opcional: Campos para informações de perfil adicionais (podem ser coletados após o registro inicial).
 
 ## Comportamento e Interação
+
 1. O usuário seleciona a opção para criar uma nova conta.
 2. O sistema apresenta o [[Glossário/Padrões/form_structure|formulário]] de registro.
 3. O usuário preenche os campos obrigatórios e opcionais.
@@ -38,6 +47,7 @@ O padrão de criação de conta (também conhecido como registro ou sign-up) per
 ## Diretrizes de Uso e Boas Práticas
 
 ### Faça
+
 - Solicite apenas as informações estritamente necessárias para a criação da conta na etapa inicial. Informações adicionais podem ser coletadas posteriormente.
 - Indique claramente quais campos são obrigatórios e quais são opcionais.
 - Forneça feedback em tempo real sobre a validade dos dados inseridos e a força da senha.
@@ -47,6 +57,7 @@ O padrão de criação de conta (também conhecido como registro ou sign-up) per
 - Otimize o processo para dispositivos móveis.
 
 ### Não Faça
+
 - Não crie [[Glossário/Padrões/form_structure|formulários]] de registro excessivamente longos e complexos.
 - Não peça informações sensíveis desnecessariamente.
 - Não use CAPTCHAs que sejam difíceis de resolver ou inacessíveis.
@@ -54,6 +65,7 @@ O padrão de criação de conta (também conhecido como registro ou sign-up) per
 - Não defina senhas fracas como padrão ou permita senhas óbvias sem aviso.
 
 ## Considerações de Acessibilidade
+
 - Todos os campos de [[Glossário/Padrões/form_structure|formulário]] devem ter rótulos (`<label for>`) claros e associados.
 - As [[Glossário/Componentes/messaging|mensagens]] de erro e sucesso devem ser acessíveis a leitores de tela e visualmente distintas.
 - Requisitos de senha devem ser comunicados de forma acessível antes que o usuário comece a digitar.
@@ -62,20 +74,24 @@ O padrão de criação de conta (também conhecido como registro ou sign-up) per
 - Evite depender apenas de indicações visuais ([[Glossário/Linguagem Visual/cor|cor]]) para feedback; use também texto ou [[Glossário/Linguagem Visual/iconografia|ícones]].
 
 ## Exemplos / Cenários de Uso
+
 - Registro em uma nova rede social.
 - Criação de conta em uma loja virtual para realizar compras.
 - Inscrição em um serviço de streaming.
 - Cadastro para acesso a um fórum ou comunidade online.
 
 ## Variações Comuns
+
 - **Registro Rápido:** Apenas email e senha, com coleta de mais dados posteriormente.
 - **Registro com Verificação:** Requer verificação de email ou SMS para ativar a conta.
 - **Registro Social:** Usar contas existentes (Google, Facebook) para criar a conta no novo sistema.
 - **Registro por Convite:** Acesso ao [[Glossário/Padrões/form_structure|formulário]] de registro apenas através de um [[Glossário/Elementos/links|link]] de convite.
 
 ## Status
+
 A definir
 
 ## Recursos Adicionais / Figma
+
 - [[[Glossário/Elementos/links|Link]] para o design de telas de Criação de Conta no Figma]
-- [[[Glossário/Elementos/links|Link]] para os Termos de Serviço e Política de Privacidade padrão] 
+- [[[Glossário/Elementos/links|Link]] para os Termos de Serviço e Política de Privacidade padrão]

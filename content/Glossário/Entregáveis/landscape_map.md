@@ -1,4 +1,9 @@
-# Landscape Map (Mapa de Paisagem)
+---
+title: "landscape map"
+
+---
+
+## Landscape Map (Mapa de Paisagem)
 
 Um **Landscape Map** (Mapa de Paisagem ou Mapa do Ecossistema) é uma visualização de alto nível que captura os vários componentes, relacionamentos e interações dentro de um sistema complexo, ambiente ou domínio de problema. Ele ajuda a entender o "quadro geral" e o contexto em que um produto, serviço ou experiência do usuário existe.
 
@@ -54,4 +59,4 @@ O objetivo principal de um Landscape Map é fornecer uma visão sistêmica de um
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

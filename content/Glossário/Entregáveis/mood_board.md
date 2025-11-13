@@ -1,4 +1,9 @@
-# Mood Board
+---
+title: "mood board"
+
+---
+
+## Mood Board
 
 A **Mood Board** is a type of collage consisting of images, text, and samples of objects in a composition. It can be based upon a set topic or can be any material chosen at random. A mood board can be used to convey a general idea or feeling about a particular topic. They may be physical or digital, and can be effective presentation tools.
 
@@ -51,4 +56,4 @@ O principal objetivo de um mood board é estabelecer uma direção visual e/ou c
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

@@ -1,4 +1,9 @@
-# Fotografia
+---
+title: "fotografia"
+
+---
+
+## Fotografia
 
 Esta seção orienta sobre o uso de fotografia em nosso produto, definindo o estilo, o propósito e as melhores práticas para garantir que as [[Glossário/Elementos/imagem|imagens]] contribuam positivamente para a experiência do usuário e reforcem a identidade da marca.
 
@@ -86,4 +91,4 @@ Nosso estilo fotográfico deve ser:
 -   [[Glossário/Elementos/imagem|Imagens]] de baixa resolução ou pixeladas.
 -   Uso excessivo de [[Glossário/Componentes/filters|filtros]] ou edições que distorçam a realidade.
 -   [[Glossário/Elementos/imagem|Imagens]] que não agregam valor ou distraem do conteúdo principal.
--   Ignorar as diretrizes de otimização e acessibilidade. 
+-   Ignorar as diretrizes de otimização e acessibilidade.

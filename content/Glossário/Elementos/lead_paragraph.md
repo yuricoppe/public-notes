@@ -1,4 +1,9 @@
-# [[Glossário/Elementos/paragrafo|Parágrafo]] de Destaque (Lead Paragraph)
+---
+title: "lead paragraph"
+
+---
+
+## [[Glossário/Elementos/paragrafo|Parágrafo]] de Destaque (Lead Paragraph)
 
 ## Onde é usado
 
@@ -42,4 +47,4 @@ Utilizado no início de um artigo, seção ou página para fornecer um resumo in
 
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Lead Paragraphs)
 
-[[[Glossário/Elementos/links|Link]] para a seção de Lead Paragraphs no Figma] 
+[[[Glossário/Elementos/links|Link]] para a seção de Lead Paragraphs no Figma]

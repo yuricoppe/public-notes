@@ -1,4 +1,9 @@
-# Controle Deslizante (Slider)
+---
+title: "slider"
+
+---
+
+## Controle Deslizante (Slider)
 
 ## Onde é usado
 
@@ -56,4 +61,4 @@ Controles deslizantes (sliders) são usados para permitir que o usuário selecio
 
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Sliders)
 
-[[[Glossário/Elementos/links|Link]] para a seção de Sliders no Figma] 
+[[[Glossário/Elementos/links|Link]] para a seção de Sliders no Figma]

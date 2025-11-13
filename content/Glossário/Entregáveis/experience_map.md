@@ -1,4 +1,9 @@
-# Experience Map (Mapa de Experiência)
+---
+title: "experience map"
+
+---
+
+## Experience Map (Mapa de Experiência)
 
 Um **Experience Map (Mapa de Experiência)** é uma visualização estratégica que ilustra a experiência completa de uma pessoa ao tentar alcançar um objetivo ou satisfazer uma necessidade específica, independentemente de um único produto ou serviço de uma empresa. Ele abrange todo o espectro de ações, pensamentos, sentimentos, pontos de contato e canais que uma pessoa encontra ao longo dessa jornada mais ampla.
 
@@ -63,4 +68,4 @@ Embora distintos, os termos são por vezes usados de forma intercambiável ou os
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

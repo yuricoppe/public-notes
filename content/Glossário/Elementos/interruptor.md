@@ -1,4 +1,9 @@
-# Interruptor (Switch)
+---
+title: "interruptor"
+
+---
+
+## Interruptor (Switch)
 
 ## Onde é usado
 
@@ -39,4 +44,4 @@ Interruptores (ou toggles) são usados para alternar entre dois estados de uma c
 
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Interruptores)
 
-[[[Glossário/Elementos/links|Link]] para a seção de Interruptores no Figma] 
+[[[Glossário/Elementos/links|Link]] para a seção de Interruptores no Figma]

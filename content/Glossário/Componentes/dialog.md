@@ -1,4 +1,9 @@
-# Dialog (Caixa de Diálogo ou Modal)
+---
+title: "dialog"
+
+---
+
+## Dialog (Caixa de Diálogo ou Modal)
 
 Dialogs (também conhecidos como Modals ou Pop-ups) são janelas ou overlays que aparecem sobre o conteúdo principal da página, exigindo a interação do usuário antes que ele possa retornar à interface principal. Eles são usados para apresentar informações importantes, solicitar confirmação, ou obter entrada do usuário para uma tarefa específica.
 
@@ -53,4 +58,4 @@ Dialogs (também conhecidos como Modals ou Pop-ups) são janelas ou overlays que
 -   Dialogs com muito conteúdo ou que exigem rolagem excessiva.
 -   Impedir o fechamento do dialog sem uma razão muito forte (ex: erro crítico que precisa ser resolvido).
 -   Múltiplos dialogs abertos ao mesmo tempo.
--   Abrir dialogs inesperadamente (ex: ao carregar a página, a menos que seja para algo crucial como consentimento de cookies ou um alerta crítico). 
+-   Abrir dialogs inesperadamente (ex: ao carregar a página, a menos que seja para algo crucial como consentimento de cookies ou um alerta crítico).

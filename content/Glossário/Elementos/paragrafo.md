@@ -1,4 +1,9 @@
-# Parágrafo (Paragraph)
+---
+title: "paragrafo"
+
+---
+
+## Parágrafo (Paragraph)
 
 ## Onde é usado
 
@@ -56,4 +61,4 @@ Utilizado para exibir blocos de texto padrão em todo o conteúdo do site ou apl
 
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Parágrafos)
 
-[[[Glossário/Elementos/links|Link]] para a seção de Parágrafos e estilos de texto no Figma] 
+[[[Glossário/Elementos/links|Link]] para a seção de Parágrafos e estilos de texto no Figma]

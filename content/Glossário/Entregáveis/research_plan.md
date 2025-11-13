@@ -1,4 +1,9 @@
-# Research Plan (Plano de Pesquisa)
+---
+title: "research plan"
+
+---
+
+## Research Plan (Plano de Pesquisa)
 
 Um **Research Plan** (Plano de Pesquisa) é um documento que descreve os objetivos, métodos, participantes, cronograma e entregáveis de um estudo de pesquisa de UX. Ele serve como um roteiro para a equipe de pesquisa e uma ferramenta de comunicação para alinhar os stakeholders sobre o propósito e o escopo da pesquisa.
 
@@ -75,4 +80,4 @@ Embora a estrutura possa variar, um Plano de Pesquisa de UX geralmente inclui:
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

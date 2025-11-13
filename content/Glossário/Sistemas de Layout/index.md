@@ -1,4 +1,9 @@
-# Sistemas de Layout
+---
+title: "Index"
+
+---
+
+## Sistemas de Layout
 
 Este diretório define os princípios e as especificações para os sistemas de layout utilizados no portal. O objetivo é garantir uma organização espacial consistente e harmoniosa em todas as páginas, facilitando a responsividade e a manutenibilidade visual.
 
@@ -20,4 +25,4 @@ Um sistema de layout robusto é fundamental para:
 - **Design Responsivo:** Facilitar a adaptação fluida da interface a diferentes dispositivos.
 - **Desenvolvimento Eficiente:** Fornecer uma base clara para os desenvolvedores implementarem os designs.
 
-Consulte os arquivos Markdown neste diretório para as especificações detalhadas de cada aspecto do sistema de layout. 
+Consulte os arquivos Markdown neste diretório para as especificações detalhadas de cada aspecto do sistema de layout.

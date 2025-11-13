@@ -1,4 +1,9 @@
-# Empathy Map (Mapa de Empatia)
+---
+title: "empathy map"
+
+---
+
+## Empathy Map (Mapa de Empatia)
 
 Um **Empathy Map (Mapa de Empatia)** é uma ferramenta de visualização colaborativa usada para articular o que se sabe sobre um tipo particular de usuário ou [[Glossário/Entregáveis/persona|persona]]. Ele ajuda as equipes a desenvolverem uma compreensão mais profunda e compartilhada das experiências, pensamentos, sentimentos, dores e ganhos de um usuário, promovendo a empatia.
 
@@ -87,4 +92,4 @@ Algumas versões do Mapa de Empatia também incluem explicitamente:
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

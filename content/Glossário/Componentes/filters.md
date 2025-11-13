@@ -1,4 +1,9 @@
-# Filters (Filtros)
+---
+title: "filters"
+
+---
+
+## Filters (Filtros)
 
 Filtros são componentes de interface que permitem aos usuários refinar e reduzir um conjunto de dados (como uma [[Glossário/Elementos/listas|lista]] de produtos, resultados de busca, itens em uma tabela) com base em critérios específicos. Eles ajudam os usuários a encontrar o que procuram de forma mais rápida e eficiente.
 
@@ -52,4 +57,4 @@ Filtros podem ser compostos por diversos elementos de UI:
 -   Filtros escondidos ou difíceis de encontrar.
 -   Falta de feedback sobre quais filtros estão ativos ou como limpá-los.
 -   Atualização lenta dos resultados após aplicar um filtro.
--   Controles de filtro que não são adequados para o tipo de dado (ex: usar [[Glossário/Elementos/form_controls|checkboxes]] para uma seleção única obrigatória). 
+-   Controles de filtro que não são adequados para o tipo de dado (ex: usar [[Glossário/Elementos/form_controls|checkboxes]] para uma seleção única obrigatória).

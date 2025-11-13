@@ -1,4 +1,9 @@
-# Block / Container (Bloco / Contêiner de Conteúdo)
+---
+title: "block container"
+
+---
+
+## Block / Container (Bloco / Contêiner de Conteúdo)
 
 O componente "Block" ou "Container" refere-se a um agrupador visual genérico usado para envolver e organizar seções de conteúdo ou outros componentes de UI. Ele ajuda a criar estrutura, separação visual e aplicar estilos consistentes a um grupo de elementos.
 
@@ -42,4 +47,4 @@ O componente "Block" ou "Container" refere-se a um agrupador visual genérico us
 
 -   Criar muitos níveis de blocos aninhados desnecessariamente, o que pode complicar o HTML e o CSS.
 -   Usar blocos de forma que o conteúdo pareça preso ou confinado demais, sem respiro visual adequado.
--   Inconsistência no uso de padding e margin, levando a um layout desalinhado. 
+-   Inconsistência no uso de padding e margin, levando a um layout desalinhado.

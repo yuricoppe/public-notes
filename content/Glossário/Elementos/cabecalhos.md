@@ -1,4 +1,9 @@
-# Cabeçalhos (Headers H1 - H6)
+---
+title: "cabecalhos"
+
+---
+
+## Cabeçalhos (Headers H1 - H6)
 
 ## Onde é usado
 
@@ -49,4 +54,4 @@ Os cabeçalhos são usados para estruturar o conteúdo de uma página, indicando
 
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Cabeçalhos)
 
-[[[Glossário/Elementos/links|Link]] para a seção de Cabeçalhos no Figma] 
+[[[Glossário/Elementos/links|Link]] para a seção de Cabeçalhos no Figma]

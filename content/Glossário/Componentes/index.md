@@ -1,4 +1,9 @@
-# Componentes de UI (UI Components)
+---
+title: "Index"
+
+---
+
+## Componentes de UI (UI Components)
 
 Este diretório é dedicado à documentação dos Componentes de UI (Interface do Usuário) reutilizáveis do portal. Componentes de UI são blocos de construção interativos e funcionais, geralmente mais complexos que os Elementos de UI básicos. Eles são montados a partir de elementos de UI e são usados para construir as seções e funcionalidades dentro dos Templates de Página.
 
@@ -44,4 +49,4 @@ Cada componente de UI documentado neste diretório (geralmente em seu próprio a
 - **Elementos de UI (`ui_elements/`):** Componentes de UI são construídos utilizando os elementos de UI básicos ([[Glossário/Linguagem Visual/cor|cores]], [[Glossário/Linguagem Visual/tipografia|tipografia]], [[Glossário/Linguagem Visual/iconografia|ícones]]).
 - **Templates de Página (`page_templates/`):** Componentes de UI são os blocos de construção que preenchem as estruturas definidas nos templates de página.
 
-Consulte os arquivos individuais neste diretório para as especificações de cada componente. 
+Consulte os arquivos individuais neste diretório para as especificações de cada componente.

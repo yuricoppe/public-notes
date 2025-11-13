@@ -1,4 +1,9 @@
-# Survey (Pesquisa/Questionário)
+---
+title: "survey"
+
+---
+
+## Survey (Pesquisa/Questionário)
 
 Um questionário que coleta percepções e atitudes autorreportadas dos participantes através de um conjunto de perguntas de múltipla escolha ou abertas.
 
@@ -63,4 +68,4 @@ Em UX, surveys são frequentemente usados para entender atitudes, opiniões, pre
 
 ## Referência Externa
 
-- [Should You Run a Survey? (Nielsen Norman Group)](https://www.nngroup.com/articles/should-you-run-survey/) 
+- [Should You Run a Survey? (Nielsen Norman Group)](https://www.nngroup.com/articles/should-you-run-survey/)

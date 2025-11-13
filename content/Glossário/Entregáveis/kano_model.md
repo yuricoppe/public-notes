@@ -1,4 +1,9 @@
-# Kano Model (Modelo de Kano)
+---
+title: "kano model"
+
+---
+
+## Kano Model (Modelo de Kano)
 
 O **Kano Model** é uma teoria para desenvolvimento de produtos e satisfação do cliente desenvolvida nos anos 80 pelo Professor Noriaki Kano. Ele classifica as preferências do cliente em cinco categorias para ajudar a priorizar funcionalidades e entender como elas contribuem para a satisfação (ou insatisfação) do cliente.
 
@@ -66,4 +71,4 @@ As respostas combinadas para cada par de perguntas são então mapeadas em uma t
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

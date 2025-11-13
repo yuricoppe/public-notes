@@ -1,4 +1,9 @@
-# Hero / Billboard (Componente de Destaque Principal)
+---
+title: "hero billboard"
+
+---
+
+## Hero / Billboard (Componente de Destaque Principal)
 
 O componente Hero (Herói) ou Billboard (Painel) é uma área de destaque proeminente, geralmente posicionada no topo de uma página inicial ou página de destino (landing page). Seu objetivo é capturar a atenção do usuário imediatamente, comunicar a proposta de valor principal e incentivar uma ação específica.
 
@@ -57,4 +62,4 @@ O componente Hero (Herói) ou Billboard (Painel) é uma área de destaque proemi
 -   Texto ilegível devido a baixo contraste com o fundo.
 -   Performance ruim devido a assets não otimizados.
 -   Ignorar a adaptação para dispositivos móveis.
--   Carrosséis automáticos que o usuário não controla. 
+-   Carrosséis automáticos que o usuário não controla.

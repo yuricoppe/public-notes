@@ -1,4 +1,9 @@
-# [[Glossário/Elementos/botoes|Botão]] "Voltar ao Topo" (Back to Top)
+---
+title: "back to top"
+
+---
+
+## [[Glossário/Elementos/botoes|Botão]] "Voltar ao Topo" (Back to Top)
 
 ## Onde é usado
 
@@ -34,4 +39,4 @@ O [[Glossário/Elementos/botoes|botão]] "Voltar ao Topo" é um controle de nave
 
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral)
 
-[[[Glossário/Elementos/links|Link]] para o componente [[Glossário/Elementos/botoes|Botão]] Voltar ao Topo no Figma] 
+[[[Glossário/Elementos/links|Link]] para o componente [[Glossário/Elementos/botoes|Botão]] Voltar ao Topo no Figma]

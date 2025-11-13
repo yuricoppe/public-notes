@@ -1,4 +1,9 @@
-# Promptframe
+---
+title: "promptframe"
+
+---
+
+## Promptframe
 
 Um **Promptframe** é um tipo de [[Glossário/Entregáveis/wireframe|wireframe]] ou [[Glossário/Entregáveis/prototype|protótipo]] de baixa fidelidade especificamente projetado para interfaces de usuário conversacionais (CUIs) ou interações baseadas em prompts, como aquelas encontradas em chatbots, assistentes de voz ou ferramentas de IA generativa. Ele foca em mapear os diálogos, os prompts do sistema e as possíveis respostas do usuário.
 
@@ -54,4 +59,4 @@ O objetivo principal de um promptframe é:
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

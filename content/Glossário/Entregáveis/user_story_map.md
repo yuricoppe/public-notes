@@ -1,4 +1,9 @@
-# User-Story Map (Mapa de Histórias de Usuário / Story Map)
+---
+title: "user story map"
+
+---
+
+## User-Story Map (Mapa de Histórias de Usuário / Story Map)
 
 Um método de mapa lean-UX usado por equipes Ágeis para visualizar as interações que a equipe espera que os usuários realizem para completar seus objetivos em um produto digital.
 
@@ -60,4 +65,4 @@ Este mapa fornece uma visão holística do produto da perspectiva do usuário, f
 ## Referência Externa
 
 - [Mapping User Stories in Agile (Nielsen Norman Group)](https://www.nngroup.com/articles/mapping-user-stories-agile/)
-- [User Story Mapping 101 (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/user-story-mapping/) 
+- [User Story Mapping 101 (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/user-story-mapping/)

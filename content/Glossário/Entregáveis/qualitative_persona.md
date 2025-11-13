@@ -1,4 +1,9 @@
-# Qualitative [[Glossário/Entregáveis/persona|Persona]] ([[Glossário/Entregáveis/persona|Persona]] Qualitativa)
+---
+title: "qualitative persona"
+
+---
+
+## Qualitative [[Glossário/Entregáveis/persona|Persona]] ([[Glossário/Entregáveis/persona|Persona]] Qualitativa)
 
 Uma **Qualitative [[Glossário/Entregáveis/persona|Persona]]** ([[Glossário/Entregáveis/persona|Persona]] Qualitativa) é um tipo de [[Glossário/Entregáveis/persona|persona]] de usuário construída primariamente a partir de dados de pesquisa qualitativa, como entrevistas em profundidade, estudos de campo, testes de usabilidade com pensamento em voz alta e grupos focais. Elas se concentram em fornecer uma compreensão rica e contextual das necessidades, comportamentos, objetivos e dores de um grupo de usuários específico.
 
@@ -67,4 +72,4 @@ O objetivo principal de uma [[Glossário/Entregáveis/persona|Persona]] Qualitat
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

@@ -1,4 +1,9 @@
-# Process Map (Mapa de Processo)
+---
+title: "process map"
+
+---
+
+## Process Map (Mapa de Processo)
 
 Um **Process Map** (Mapa de Processo) é uma ferramenta de visualização que descreve o fluxo de trabalho ou as etapas sequenciais envolvidas na execução de um processo específico. Ele mostra como um trabalho é feito, identificando as atividades, os pontos de decisão, as entradas, as saídas e os responsáveis por cada etapa.
 
@@ -62,4 +67,4 @@ O objetivo principal de um Mapa de Processo é:
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

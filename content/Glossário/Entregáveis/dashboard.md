@@ -1,4 +1,9 @@
-# Dashboard (Painel de Controle)
+---
+title: "dashboard"
+
+---
+
+## Dashboard (Painel de Controle)
 
 Um **Dashboard (Painel de Controle)** em UX e análise de produtos é uma interface visual que organiza e apresenta informações importantes e [[Glossário/Linguagem Visual/metricas_e_keylines|métricas]] chave de forma concisa e fácil de entender. Ele fornece uma visão geral do desempenho de um produto, sistema ou processo, permitindo o monitoramento contínuo e a identificação rápida de tendências, anomalias ou áreas que necessitam de atenção.
 
@@ -75,4 +80,4 @@ Os principais objetivos de um dashboard são:
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

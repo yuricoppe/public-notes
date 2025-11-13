@@ -1,4 +1,9 @@
-# Code Block (Bloco de [[Glossário/Elementos/codigo|Código]])
+---
+title: "code block"
+
+---
+
+## Code Block (Bloco de [[Glossário/Elementos/codigo|Código]])
 
 O componente Code Block é usado para exibir trechos de [[Glossário/Elementos/codigo|código]] de programação de forma legível e estruturada, geralmente com destaque de sintaxe (syntax highlighting) e funcionalidades adicionais como copiar o [[Glossário/Elementos/codigo|código]].
 
@@ -66,4 +71,4 @@ function greet(name) {
 -   Destaque de sintaxe com baixo contraste ou [[Glossário/Linguagem Visual/cor|cores]] confusas.
 -   Fontes não monoespaçadas para o [[Glossário/Elementos/codigo|código]].
 -   Bloquear a seleção de texto manual.
--   Processamento de syntax highlighting muito pesado que cause lentidão. 
+-   Processamento de syntax highlighting muito pesado que cause lentidão.

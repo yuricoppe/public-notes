@@ -1,4 +1,9 @@
-# Hierarchical Task Analysis (HTA) Diagram (Diagrama de Análise Hierárquica de Tarefas)
+---
+title: "hta diagram"
+
+---
+
+## Hierarchical Task Analysis (HTA) Diagram (Diagrama de Análise Hierárquica de Tarefas)
 
 Um **Hierarchical Task Analysis (HTA) Diagram (Diagrama de Análise Hierárquica de Tarefas)** é uma representação estruturada que decompõe uma tarefa complexa ou objetivo do usuário em uma hierarquia de sub-tarefas e operações menores e mais gerenciáveis. Ele mostra como as tarefas de alto nível são compostas por passos menores e a ordem em que esses passos precisam ser executados.
 
@@ -72,4 +77,4 @@ Um diagrama HTA geralmente tem uma estrutura de árvore ou um formato de [[Gloss
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group e técnicas clássicas de análise de tarefas.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group e técnicas clássicas de análise de tarefas.*

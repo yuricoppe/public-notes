@@ -1,4 +1,9 @@
-# Padrões de UI (UI Patterns)
+---
+title: "Index"
+
+---
+
+## Padrões de UI (UI Patterns)
 
 Este diretório documenta os Padrões de UI, que são soluções reutilizáveis e comprovadas para problemas comuns de design de interação e experiência do usuário (UX) dentro do portal. Diferentemente dos Componentes de UI, que são blocos de construção específicos, os Padrões de UI descrevem abordagens e fluxos para resolver desafios de design recorrentes.
 
@@ -53,4 +58,4 @@ Cada padrão de UI documentado neste diretório deve incluir:
 - **Diretrizes de Uso (Quando usar, quando evitar).**
 - **Boas Práticas e Considerações de Acessibilidade.**
 
-Consulte os arquivos individuais neste diretório para as especificações de cada padrão de UI. 
+Consulte os arquivos individuais neste diretório para as especificações de cada padrão de UI.

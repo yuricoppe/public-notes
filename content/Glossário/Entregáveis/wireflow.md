@@ -1,4 +1,9 @@
-# Wireflow
+---
+title: "wireflow"
+
+---
+
+## Wireflow
 
 Um formato de especificação de design que combina layouts de página no estilo [[Glossário/Entregáveis/wireframe|wireframe]] com uma forma simplificada, semelhante a um fluxograma, de representar interações.
 
@@ -54,4 +59,4 @@ Eles são particularmente úteis para projetar e documentar fluxos de tarefas co
 
 ## Referência Externa
 
-- [Wireflows: A UX Deliverable for Workflows and Apps (Nielsen Norman Group)](https://www.nngroup.com/articles/wireflows/) 
+- [Wireflows: A UX Deliverable for Workflows and Apps (Nielsen Norman Group)](https://www.nngroup.com/articles/wireflows/)

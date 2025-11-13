@@ -1,4 +1,9 @@
-# Botões (Buttons)
+---
+title: "botoes"
+
+---
+
+## Botões (Buttons)
 
 ## Onde é usado
 
@@ -65,4 +70,4 @@ Botões são elementos interativos que permitem aos usuários realizar ações, 
 
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Botões)
 
-[[[Glossário/Elementos/links|Link]] para a seção de Botões no Figma] 
+[[[Glossário/Elementos/links|Link]] para a seção de Botões no Figma]

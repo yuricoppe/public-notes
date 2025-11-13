@@ -1,9 +1,16 @@
-# Containeres e Wrappers
+---
+title: "containers wrappers"
+
+---
+
+## Containeres e Wrappers
 
 ## Descrição Geral
+
 Containeres e wrappers são elementos de layout fundamentais usados para controlar a largura, o alinhamento e, às vezes, o [[Glossário/Linguagem Visual/espacamento|espaçamento]] do conteúdo principal dentro de uma página ou seção. Eles ajudam a manter a consistência visual e a legibilidade, especialmente em telas largas.
 
 ## Princípios Chave
+
 - **Controle de Largura:** Evitar que o conteúdo se estenda excessivamente em telas grandes, o que pode prejudicar a legibilidade (linhas de texto muito longas).
 - **Centralização:** Facilitar a centralização do bloco principal de conteúdo na janela de visualização.
 - **Consistência:** Aplicar uma largura máxima consistente para o conteúdo principal em todo o portal.
@@ -12,6 +19,7 @@ Containeres e wrappers são elementos de layout fundamentais usados para control
 ## Tipos Comuns
 
 ### 1. Container Principal (Main Page Container)
+
 - **Propósito:** Envolver o conteúdo principal da página, aplicando uma largura máxima e centralizando-o na tela.
 - **Especificações:**
     - **Largura Máxima:** Alinhada com a `Largura Máxima do Conteúdo` definida no `grid_system.md` (ex: 1200px).
@@ -66,6 +74,7 @@ Containeres e wrappers são elementos de layout fundamentais usados para control
 ```
 
 ### 2. Wrapper de Seção (Section Wrapper)
+
 - **Propósito:** Agrupar conteúdo dentro de uma seção específica, aplicando paddings internos ou um estilo de fundo, sem necessariamente impor a largura máxima total da página (útil para seções com fundo de [[Glossário/Linguagem Visual/cor|cor]] que se estendem por toda a largura da tela, mas com conteúdo centralizado).
 - **Especificações:**
     - **Largura:** Geralmente `width: 100%;` para permitir fundos de largura total.
@@ -94,15 +103,18 @@ Containeres e wrappers são elementos de layout fundamentais usados para control
 ```
 
 ## Diretrizes de Uso
+
 - **Hierarquia:** O `.container` principal é geralmente o mais externo para o conteúdo da página. Wrappers de seção podem existir dentro dele ou, mais comumente, o `.container` pode estar aninhado dentro de um `section-wrapper` de largura total.
 - **Não Abuse:** Use apenas quando necessário para controle de layout e agrupamento.
 - **Consistência:** Mantenha a implementação dos containers e wrappers consistente.
 - **Relação com o Grid:** O `.container` é fundamental para o funcionamento do [[Glossário/Sistemas de Layout/grid_system|sistema de grid]], pois define os limites dentro dos quais as colunas do grid operam.
 
 ## Responsividade
+
 - A `max-width` do `.container` garante que o conteúdo não fique excessivamente largo em desktops.
 - Em telas menores, como `width: 100%` é aplicado, o container se ajustará à largura da tela, e os paddings laterais (se aplicados diretamente no container) fornecerão as margens necessárias.
 
 ## Recursos Adicionais / Figma
+
 - [[[Glossário/Elementos/links|Link]] para exemplos de uso de Containeres e Wrappers no Figma]
-- [Como o Grid System interage com os Containeres] 
+- [Como o Grid System interage com os Containeres]

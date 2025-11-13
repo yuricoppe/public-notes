@@ -1,4 +1,9 @@
-# Job-to-Be-Done (JTBD)
+---
+title: "job to be done"
+
+---
+
+## Job-to-Be-Done (JTBD)
 
 O framework **Job-to-Be-Done (JTBD)** foca em entender a "tarefa" ou "trabalho" fundamental que um cliente está tentando realizar em uma determinada circunstância, e como um produto ou serviço pode ajudá-lo a alcançar esse objetivo. Em vez de se concentrar em atributos demográficos ou de produto, o JTBD busca descobrir as motivações e os resultados desejados subjacentes às escolhas do cliente.
 
@@ -49,4 +54,4 @@ Uma declaração de JTBD geralmente segue um formato como:
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

@@ -1,4 +1,9 @@
-# Analytics Report (Relatório de Análise de Dados)
+---
+title: "analytics report"
+
+---
+
+## Analytics Report (Relatório de Análise de Dados)
 
 Um **Analytics Report** é um documento que descreve e interpreta o que os usuários fazem com um produto digital já lançado (site, aplicativo, etc.). Ele se baseia em dados quantitativos coletados por ferramentas de análise (como Google Analytics, Mixpanel, Amplitude, entre outras) para fornecer insights sobre o comportamento do usuário.
 
@@ -54,4 +59,4 @@ Um Analytics Report pode incluir, mas não se limita a:
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

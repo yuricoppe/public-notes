@@ -1,4 +1,9 @@
-# Antipersona
+---
+title: "antipersona"
+
+---
+
+## Antipersona
 
 Uma **Antipersona** é uma representação de um grupo de usuários que uma organização **não** quer atrair ou para quem o produto/serviço **não** se destina. Mais crucialmente, no contexto de UX e segurança, uma antipersona também pode representar um usuário ou ator mal-intencionado que poderia abusar do produto ou sistema de maneiras que prejudicam os usuários-alvo, o negócio ou a integridade do serviço.
 
@@ -60,4 +65,4 @@ Similar a uma [[Glossário/Entregáveis/persona|persona]], uma antipersona pode 
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

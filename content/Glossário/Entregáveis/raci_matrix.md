@@ -1,4 +1,9 @@
-# RACI Matrix (Matriz RACI)
+---
+title: "raci matrix"
+
+---
+
+## RACI Matrix (Matriz RACI)
 
 Uma **RACI Matrix** (Matriz RACI), também conhecida como RACI Chart, é uma ferramenta de gerenciamento de projetos e atribuição de responsabilidades. Ela é usada para esclarecer e definir os papéis e responsabilidades dos membros da equipe e stakeholders para cada tarefa, decisão ou entregável em um projeto. O acrônimo RACI significa:
 
@@ -72,4 +77,4 @@ Existem algumas variações do modelo RACI, como:
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

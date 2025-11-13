@@ -1,4 +1,9 @@
-# Cookie Notification (Notificação de Cookies)
+---
+title: "cookie notification"
+
+---
+
+## Cookie Notification (Notificação de Cookies)
 
 O componente de Notificação de Cookies (também conhecido como banner de cookies ou consentimento de cookies) informa os usuários sobre o uso de cookies no site/aplicativo e, dependendo da legislação aplicável (como GDPR, LGPD), solicita o consentimento do usuário para o uso de cookies não essenciais.
 
@@ -49,4 +54,4 @@ O componente de Notificação de Cookies (também conhecido como banner de cooki
 -   Tornar difícil encontrar como rejeitar ou gerenciar cookies.
 -   Assumir consentimento apenas pela rolagem da página ou continuação da navegação para cookies não essenciais (não conforme com GDPR/LGPD para consentimento explícito).
 -   Falta de clareza sobre quais cookies são usados e para quê.
--   Não registrar a prova do consentimento (timestamp, preferências escolhidas). 
+-   Não registrar a prova do consentimento (timestamp, preferências escolhidas).

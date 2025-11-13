@@ -1,4 +1,9 @@
-# Skill Map (Mapa de Habilidades)
+---
+title: "skill map"
+
+---
+
+## Skill Map (Mapa de Habilidades)
 
 Uma atividade colaborativa usada para visualizar os pontos fortes e fracos dos profissionais de UX e das equipes de UX, a fim de fazer um inventário da composição da equipe existente.
 
@@ -56,4 +61,4 @@ O Mapa de Habilidades é uma ferramenta visual que ajuda equipes e indivíduos a
 
 - [Skill Mapping: A Digital Template for Remote Teams (Nielsen Norman Group)](https://www.nngroup.com/articles/skill-mapping-template/)
 - [3 Uses for Skill Mapping in UX Teams (Nielsen Norman Group)](https://www.nngroup.com/videos/skill-mapping-uses/)
-- [Template: NN/g_Skill Map_Excel Template(XLSX)](https://media.nngroup.com/media/editor/2020/03/30/NNg_Skill-Map_Excel-Template.xlsx) 
+- [Template: NN/g_Skill Map_Excel Template(XLSX)](https://media.nngroup.com/media/editor/2020/03/30/NNg_Skill-Map_Excel-Template.xlsx)

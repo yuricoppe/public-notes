@@ -1,4 +1,9 @@
-# Footer (Rodapé)
+---
+title: "footer"
+
+---
+
+## Footer (Rodapé)
 
 O Footer (Rodapé) é uma seção de conteúdo localizada na parte inferior de uma página web ou tela de aplicativo. Geralmente contém informações secundárias, [[Glossário/Elementos/links|links]] de navegação, direitos autorais e outros elementos que não são o foco principal do conteúdo da página, mas são importantes para a completude e usabilidade do site.
 
@@ -53,4 +58,4 @@ O Footer (Rodapé) é uma seção de conteúdo localizada na parte inferior de u
 -   [[Glossário/Elementos/links|Links]] quebrados ou desatualizados.
 -   Design que se destaca demais e compete com o conteúdo principal da página.
 -   Texto muito pequeno ou com baixo contraste que dificulta a leitura.
--   Não usar o elemento `<footer>` apropriado. 
+-   Não usar o elemento `<footer>` apropriado.

@@ -1,4 +1,9 @@
-# Código (Code)
+---
+title: "codigo"
+
+---
+
+## Código (Code)
 
 ## Onde é usado
 
@@ -37,4 +42,4 @@ Utilizado para exibir trechos de código inline (dentro de um [[Glossário/Eleme
 
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Código)
 
-[[[Glossário/Elementos/links|Link]] para a seção de Código no Figma] 
+[[[Glossário/Elementos/links|Link]] para a seção de Código no Figma]

@@ -1,4 +1,9 @@
-# Mind Map (Mapa Mental)
+---
+title: "mind map"
+
+---
+
+## Mind Map (Mapa Mental)
 
 Um **Mind Map** (Mapa Mental) é um diagrama usado para representar visualmente informações e ideias. Ele começa com um conceito central e se ramifica em subtópicos e ideias relacionadas, usando palavras-chave, [[Glossário/Elementos/imagem|imagens]] e [[Glossário/Linguagem Visual/cor|cores]] para organizar e conectar os pensamentos de forma não linear e hierárquica.
 
@@ -47,4 +52,4 @@ O objetivo principal de um Mind Map é facilitar o brainstorming, a organizaçã
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

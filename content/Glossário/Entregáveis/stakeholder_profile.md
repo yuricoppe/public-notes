@@ -1,4 +1,9 @@
-# Stakeholder Profile (Perfil do Stakeholder)
+---
+title: "stakeholder profile"
+
+---
+
+## Stakeholder Profile (Perfil do Stakeholder)
 
 Um artefato para organizar e entender os insights dos stakeholders para que possam ser usados estrategicamente para o sucesso de um projeto.
 
@@ -56,4 +61,4 @@ Um Perfil de Stakeholder pode incluir:
 ## Referência Externa
 
 - [UX Stakeholder Engagement 101 (Nielsen Norman Group)](https://www.nngroup.com/articles/ux-stakeholder-engagement/)
-- [UX Stakeholder Engagement 101 (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/stakeholder-engagement/) 
+- [UX Stakeholder Engagement 101 (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/stakeholder-engagement/)

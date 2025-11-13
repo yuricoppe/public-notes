@@ -1,4 +1,9 @@
-# Toast / Snackbar
+---
+title: "toast"
+
+---
+
+## Toast / Snackbar
 
 Toasts (também conhecidos como Snackbars, especialmente no Material Design) são [[Glossário/Componentes/messaging|mensagens]] curtas e não intrusivas que fornecem feedback breve sobre uma operação. Eles geralmente aparecem temporariamente na tela (na parte inferior ou superior) e desaparecem sozinhos após alguns segundos, ou podem ser dispensados pelo usuário.
 
@@ -46,4 +51,4 @@ Toasts (também conhecidos como Snackbars, especialmente no Material Design) sã
 -   Muitos toasts aparecendo ao mesmo tempo e poluindo a tela.
 -   Toasts que cobrem elementos interativos importantes.
 -   Usar toasts para erros críticos ou [[Glossário/Componentes/messaging|mensagens]] que exigem uma decisão do usuário (para isso, use [[Glossário/Componentes/dialog|Dialogs]]).
--   Falta de feedback via `aria-live` para usuários de leitores de tela. 
+-   Falta de feedback via `aria-live` para usuários de leitores de tela.

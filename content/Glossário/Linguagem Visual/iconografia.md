@@ -1,4 +1,9 @@
-# Iconografia (Iconography)
+---
+title: "iconografia"
+
+---
+
+## Iconografia (Iconography)
 
 ## Onde é usado
 
@@ -13,42 +18,51 @@ Descreve a biblioteca de ícones do sistema, incluindo seu estilo visual, tamanh
 ## Detalhes Adicionais / Tópicos
 
 ### Estilo Visual Consistente
+
 - Definir um estilo visual único para todos os ícones (ex: contornado, preenchido, duas [[Glossário/Linguagem Visual/cor|cores]], etc.).
 - Manter a mesma espessura de linha, cantos arredondados (se houver) e nível de detalhe.
 
 ### Tamanhos Padrão
+
 - Definir uma grade de tamanhos para os ícones (ex: 16x16, 24x24, 32x32 pixels) para garantir nitidez e alinhamento.
 - Especificar como os ícones devem escalar e se comportar em diferentes densidades de tela.
 
 ### Semântica e Clareza
+
 - Cada ícone deve ter um significado claro e universalmente compreensível dentro do contexto do sistema.
 - Evitar ícones abstratos ou ambíguos.
 - Testar a compreensão dos ícones com usuários, se possível.
 
 ### Acessibilidade
+
 - Para ícones que transmitem informação ou representam ações (não puramente decorativos), fornecer alternativas textuais (ex: `aria-label`, texto dentro de um `<span>` visualmente escondido).
 - Garantir contraste suficiente entre o ícone e seu fundo.
 
 ### Formatos de Arquivo
+
 - **SVG (Scalable Vector Graphics):** Preferível para ícones, pois são vetoriais, escaláveis sem perda de qualidade e podem ser manipulados via CSS/JS.
 - **Fontes de Ícones (Icon Fonts):** Alternativa que agrupa ícones em um arquivo de fonte. Pode ser eficiente, mas SVG oferece mais flexibilidade.
 - **PNG/WEBP:** Para ícones rasterizados ou ilustrações mais complexas, se vetores não forem adequados. Fornecer em múltiplas resoluções.
 
 ### Categorias de Ícones
+
 - **Navegação:** Usados em [[Glossário/Componentes/menu|menus]], barras de navegação (ex: Home, Perfil, [[Glossário/Padrões/settings|Configurações]]).
 - **Ação:** Indicam funcionalidades interativas (ex: Salvar, Editar, Excluir, Adicionar, Pesquisar).
 - **Informativo/Status:** Comunicam estados ou fornecem informação (ex: Erro, Sucesso, Aviso, Ajuda, Informação).
 - **Decorativo:** Usados primariamente para apelo visual, sem funcionalidade intrínseca.
 
 ### Pictogramas
+
 - Representações visuais simplificadas de objetos ou conceitos.
 - Devem seguir o estilo geral da iconografia.
 
 ### Ilustrações
+
 - Gráficos mais detalhados usados para enriquecer a experiência, em telas de [[Glossário/Padrões/launch|onboarding]], estados vazios, ou para comunicar conceitos complexos de forma visual.
 - Definir o estilo das ilustrações para manter a consistência com o restante do [[Glossário/Entregáveis/design_system|Design System]].
 
 ### Alinhamento
+
 - Definir diretrizes para o alinhamento de ícones com texto (verticalmente) e com outros elementos da interface.
 
 ## Variações (Exemplos por Tipo de Ícone)
@@ -75,4 +89,4 @@ Descreve a biblioteca de ícones do sistema, incluindo seu estilo visual, tamanh
 
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral da Iconografia)
 
-[[[Glossário/Elementos/links|Link]] para a biblioteca de Ícones no Figma] 
+[[[Glossário/Elementos/links|Link]] para a biblioteca de Ícones no Figma]

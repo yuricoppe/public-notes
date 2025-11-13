@@ -1,4 +1,9 @@
-# Interview Guide (Guia de Entrevista)
+---
+title: "interview guide"
+
+---
+
+## Interview Guide (Guia de Entrevista)
 
 Um **Interview Guide** é um documento estruturado que delineia as perguntas e tópicos a serem cobertos durante uma entrevista com usuários ou stakeholders. Ele serve como um roteiro para o entrevistador, garantindo que todos os pontos importantes sejam abordados de forma consistente em múltiplas entrevistas, ao mesmo tempo que permite flexibilidade para explorar respostas interessantes e inesperadas.
 
@@ -54,4 +59,4 @@ O objetivo principal de um Guia de Entrevista é assegurar que as sessões de en
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

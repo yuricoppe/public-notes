@@ -1,4 +1,9 @@
-# Cards (Cartões)
+---
+title: "cards"
+
+---
+
+## Cards (Cartões)
 
 Cards são contêineres de interface que agrupam informações e ações relacionadas sobre um único tópico ou item. Eles são uma forma popular de apresentar conteúdo de maneira organizada e escaneável, especialmente em layouts de grade ou [[Glossário/Elementos/listas|listas]].
 
@@ -57,4 +62,4 @@ Um card pode conter uma combinação dos seguintes elementos:
 -   Cards com alturas muito variáveis em um mesmo grid, o que pode criar um layout desordenado (a menos que seja um layout estilo Masonry intencional).
 -   Excesso de informações ou ações, tornando o card confuso.
 -   Falta de clareza sobre o que é clicável.
--   Contraste insuficiente entre o texto e o fundo do card, especialmente se usar [[Glossário/Elementos/imagem|imagens]] de fundo. 
+-   Contraste insuficiente entre o texto e o fundo do card, especialmente se usar [[Glossário/Elementos/imagem|imagens]] de fundo.

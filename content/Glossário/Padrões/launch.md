@@ -1,9 +1,16 @@
-# Lançamento (Launch) / Onboarding Inicial
+---
+title: "launch"
+
+---
+
+## Lançamento (Launch) / Onboarding Inicial
 
 ## Descrição Geral
+
 O padrão de "Lançamento" refere-se à primeira experiência que um usuário tem ao interagir com um portal ou uma nova funcionalidade significativa pela primeira vez. Frequentemente, isso envolve um processo de onboarding inicial que visa apresentar o valor do produto/funcionalidade, guiar o usuário pelas principais características e, possivelmente, ajudá-lo a configurar preferências iniciais.
 
 ## Princípios Chave / Objetivos
+
 - **Primeira Impressão Positiva:** Criar um momento "Aha!" que demonstre o valor e engaje o usuário desde o início.
 - **Orientação:** Ajudar o usuário a entender o propósito principal, a navegação e as funcionalidades chave.
 - **Redução de Ansiedade:** Aliviar qualquer intimidação que um novo sistema complexo possa causar.
@@ -11,6 +18,7 @@ O padrão de "Lançamento" refere-se à primeira experiência que um usuário te
 - **Conversão (quando aplicável):** Guiar o usuário para completar uma ação desejada (ex: completar o perfil, criar o primeiro item).
 
 ## Elementos Comuns / Estrutura Típica
+
 - **Telas de Boas-vindas (Welcome Screens):** Introdução concisa ao produto/funcionalidade.
 - **Carrossel de Benefícios/Funcionalidades (Benefit/Feature [[Glossário/Elementos/slider|Sliders]]):** Destaque visual e textual dos principais benefícios ou como usar funcionalidades chave.
 - **Guias Interativos (Interactive Tours / Product Tours):** Tooltips ou destaques que guiam o usuário através da interface real, passo a passo.
@@ -21,6 +29,7 @@ O padrão de "Lançamento" refere-se à primeira experiência que um usuário te
 - **Barra de Progresso (para onboardings multi-etapas).
 
 ## Comportamento e Interação
+
 1. O usuário acessa o portal/funcionalidade pela primeira vez (ou após um reset/grande atualização).
 2. O fluxo de lançamento/onboarding é iniciado automaticamente ou oferecido proativamente.
 3. O usuário progride através das etapas do onboarding (ex: visualizando telas, interagindo com guias, preenchendo informações).
@@ -31,6 +40,7 @@ O padrão de "Lançamento" refere-se à primeira experiência que um usuário te
 ## Diretrizes de Uso e Boas Práticas
 
 ### Faça
+
 - Mantenha o onboarding curto, focado e relevante para as necessidades do usuário.
 - Destaque o valor e os benefícios, não apenas as funcionalidades.
 - Use linguagem clara, concisa e encorajadora.
@@ -41,6 +51,7 @@ O padrão de "Lançamento" refere-se à primeira experiência que um usuário te
 - Ofereça a possibilidade de revisitar o tour ou dicas posteriormente.
 
 ### Não Faça
+
 - Não sobrecarregue o usuário com muita informação de uma vez.
 - Não torne o onboarding obrigatório sem uma razão muito forte.
 - Não o torne muito longo ou tedioso.
@@ -48,6 +59,7 @@ O padrão de "Lançamento" refere-se à primeira experiência que um usuário te
 - Não peça muitas informações pessoais logo de cara.
 
 ## Considerações de Acessibilidade
+
 - Garanta que todo o conteúdo textual seja legível e tenha bom contraste.
 - Todos os elementos interativos ([[Glossário/Elementos/botoes|botões]] "próximo", "pular", campos de [[Glossário/Padrões/form_structure|formulário]]) devem ser acessíveis via teclado e por leitores de tela.
 - Se usar carrosséis, garanta que haja controles acessíveis para pausar, avançar e retroceder, e que o conteúdo seja acessível se a animação automática estiver desativada.
@@ -55,20 +67,24 @@ O padrão de "Lançamento" refere-se à primeira experiência que um usuário te
 - Vídeos devem ter legendas e, idealmente, transcrições.
 
 ## Exemplos / Cenários de Uso
+
 - Primeiro [[Glossário/Padrões/authentication|login]] em um aplicativo SaaS.
 - Introdução a uma nova seção de um portal de notícias com funcionalidades personalizadas.
 - Guia de configuração inicial para um painel de administração.
 - Apresentação de uma funcionalidade recém-lançada que altera significativamente o fluxo de trabalho.
 
 ## Variações Comuns
+
 - **Onboarding Passivo:** Telas informativas ou vídeos que o usuário consome.
 - **Onboarding Interativo:** Requer que o usuário realize ações para progredir (ex: clicar em elementos, preencher um campo de exemplo).
 - **Onboarding Contextual:** Dicas ou guias que aparecem quando o usuário acessa uma funcionalidade específica pela primeira vez, em vez de um grande tour inicial.
 - **Progressive Onboarding:** Revelar informações e funcionalidades gradualmente, à medida que o usuário explora o sistema.
 
 ## Status
+
 A definir
 
 ## Recursos Adicionais / Figma
+
 - [[[Glossário/Elementos/links|Link]] para os designs das telas de onboarding no Figma]
-- [[[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/prototype|protótipos]] de fluxos de lançamento/onboarding] 
+- [[[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/prototype|protótipos]] de fluxos de lançamento/onboarding]

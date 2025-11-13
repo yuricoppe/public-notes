@@ -1,4 +1,9 @@
-# Emblemas / Selos (Badges)
+---
+title: "badges"
+
+---
+
+## Emblemas / Selos (Badges)
 
 ## Onde é usado
 
@@ -60,4 +65,4 @@ São geralmente posicionados próximos ao elemento ao qual se referem.
 
 ## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Badges)
 
-[[[Glossário/Elementos/links|Link]] para a seção de Badges no Figma] 
+[[[Glossário/Elementos/links|Link]] para a seção de Badges no Figma]

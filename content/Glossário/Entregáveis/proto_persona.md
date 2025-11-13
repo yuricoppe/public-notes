@@ -1,4 +1,9 @@
-# Proto [[Glossário/Entregáveis/persona|Persona]] (Ad Hoc [[Glossário/Entregáveis/persona|Persona]])
+---
+title: "proto persona"
+
+---
+
+## Proto [[Glossário/Entregáveis/persona|Persona]] (Ad Hoc [[Glossário/Entregáveis/persona|Persona]])
 
 Uma **Proto [[Glossário/Entregáveis/persona|Persona]]** (também conhecida como Ad Hoc [[Glossário/Entregáveis/persona|Persona]] ou [[Glossário/Entregáveis/persona|Persona]] Provisória) é uma representação de um tipo de usuário criada com base no conhecimento e suposições existentes da equipe de design/produto, em vez de pesquisa extensiva com usuários. Elas são desenvolvidas rapidamente para ajudar a equipe a começar a pensar sobre os usuários e suas necessidades quando não há tempo ou recursos imediatos para uma pesquisa mais aprofundada.
 
@@ -60,4 +65,4 @@ O objetivo principal de uma Proto [[Glossário/Entregáveis/persona|Persona]] é
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*

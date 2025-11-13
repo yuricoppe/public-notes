@@ -1,4 +1,9 @@
-# Elementos de UI (UI Elements)
+---
+title: "Index"
+
+---
+
+## Elementos de UI (UI Elements)
 
 Este diretório define os elementos fundamentais e atômicos que formam a base visual e estilística de toda a interface do usuário (UI) do portal. Elementos de UI são os "átomos" do nosso [[Glossário/Entregáveis/design_system|Design System]], a partir dos quais componentes mais complexos são construídos.
 
@@ -35,4 +40,4 @@ Cada elemento (ou grupo de elementos, como a paleta de [[Glossário/Linguagem Vi
 - **Linguagem Visual (`visual_language/`):** Os elementos de UI são a concretização das diretrizes mais amplas da linguagem visual.
 - **Componentes de UI (`ui_components/`):** Os elementos de UI são os blocos de construção estilísticos dos componentes de UI.
 
-É essencial que todos os novos designs e implementações adiram estritamente aos elementos definidos aqui para manter a integridade visual do portal. 
+É essencial que todos os novos designs e implementações adiram estritamente aos elementos definidos aqui para manter a integridade visual do portal.

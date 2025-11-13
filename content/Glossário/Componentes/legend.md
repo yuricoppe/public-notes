@@ -1,4 +1,9 @@
-# Legend (Legenda de Gráficos/[[Glossário/Componentes/maps|Mapas]])
+---
+title: "legend"
+
+---
+
+## Legend (Legenda de Gráficos/[[Glossário/Componentes/maps|Mapas]])
 
 O componente Legend (Legenda) é usado para explicar o significado de símbolos, [[Glossário/Linguagem Visual/cor|cores]], padrões ou outros indicadores visuais utilizados em gráficos, [[Glossário/Componentes/maps|mapas]], diagramas ou outras visualizações de dados. Ele ajuda os usuários a interpretar corretamente a informação apresentada.
 
@@ -46,4 +51,4 @@ O componente Legend (Legenda) é usado para explicar o significado de símbolos,
 -   Posicionar a legenda muito longe da visualização, tornando difícil a referência.
 -   Legendas muito longas ou desorganizadas.
 -   Usar apenas [[Glossário/Linguagem Visual/cor|cor]] para transmitir informação sem alternativas acessíveis.
--   Legendas interativas que não são intuitivas ou acessíveis. 
+-   Legendas interativas que não são intuitivas ou acessíveis.

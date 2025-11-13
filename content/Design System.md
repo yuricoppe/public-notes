@@ -1,4 +1,11 @@
-# Links
+---
+title: "Design System"
+description: "Links, ferramentas, templates e processos para Design Systems"
+
+---
+
+## Links
+
 [https://redesigningdesign.systems/](https://redesigningdesign.systems/)
 [https://thedesignsystem.guide/knowledge-base](https://thedesignsystem.guide/knowledge-base)
 [https://thedesignsystem.guide/knowledge-base/creating-figma-components-in-a-design-system-file](https://thedesignsystem.guide/knowledge-base/creating-figma-components-in-a-design-system-file)
@@ -16,13 +23,18 @@
 [https://www.youtube.com/watch?v=opTANvl9G1g](https://www.youtube.com/watch?v=opTANvl9G1g)
 [https://www.youtube.com/watch?v=ALkqhXv0GPk](https://www.youtube.com/watch?v=ALkqhXv0GPk)
 [https://alistapart.com/article/design-dialects-breaking-the-rules-not-the-system/](https://alistapart.com/article/design-dialects-breaking-the-rules-not-the-system/)
-# Ferramentas
+
+## Ferramentas
+
 [https://www.figma.com/community/plugin/1323794044088972088/figlint](https://www.figma.com/community/plugin/1323794044088972088/figlint)
 [https://www.figma.com/community/plugin/1457362132545070106/variable-visualizer](https://www.figma.com/community/plugin/1457362132545070106/variable-visualizer)
-# Templates
+
+## Templates
+
 [https://www.figma.com/@rominadesigner](https://www.figma.com/@rominadesigner)
-  
-# Processos
+
+## Processos
+
 [https://primer.style/product/contribute/handling-new-patterns/](https://primer.style/product/contribute/handling-new-patterns/)
 [https://bradfrost.com/blog/post/a-design-system-governance-process/](https://bradfrost.com/blog/post/a-design-system-governance-process/)
 [https://medium.com/zalando-design/zalandos-design-system-contribution-model-73ab36f8591e](https://medium.com/zalando-design/zalandos-design-system-contribution-model-73ab36f8591e)

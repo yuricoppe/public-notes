@@ -1,4 +1,9 @@
-# Breadcrumbs (Migalhas de Pão)
+---
+title: "breadcrumbs"
+
+---
+
+## Breadcrumbs (Migalhas de Pão)
 
 Breadcrumbs são um sistema de navegação secundário que mostra a localização do usuário em um site ou aplicativo. Eles ajudam o usuário a entender a hierarquia da informação e a navegar de volta para níveis anteriores.
 
@@ -58,4 +63,4 @@ Breadcrumbs são um sistema de navegação secundário que mostra a localizaçã
 
 -   Usar breadcrumbs para navegação em um único nível ou em sites muito rasos.
 -   Usar breadcrumbs baseados em histórico para navegação primária, pois pode ser confuso.
--   Tornar o item da página atual um [[Glossário/Elementos/links|link]] para si mesmo. 
+-   Tornar o item da página atual um [[Glossário/Elementos/links|link]] para si mesmo.

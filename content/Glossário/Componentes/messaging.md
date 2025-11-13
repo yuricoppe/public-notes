@@ -1,4 +1,9 @@
-# Messaging (Sistemas de Mensagens)
+---
+title: "messaging"
+
+---
+
+## Messaging (Sistemas de Mensagens)
 
 O componente de Messaging (Sistemas de Mensagens) refere-se a diversos elementos de UI usados para comunicar informações importantes, feedback, alertas ou status ao usuário. Isso pode variar de mensagens inline discretas a notificações mais proeminentes.
 
@@ -57,4 +62,4 @@ Este é um conceito guarda-chuva. Componentes específicos como `Toast/Snackbar`
 -   Usar [[Glossário/Linguagem Visual/cor|cores]] de forma inconsistente ou que não sigam as convenções semânticas.
 -   Interromper o usuário com [[Glossário/Componentes/dialog|modais]] para informações triviais.
 -   Mensagens que desaparecem muito rápido para serem lidas (no caso de [[Glossário/Componentes/toast|toasts]]).
--   Falta de feedback quando o usuário espera (ex: após submeter um [[Glossário/Padrões/form_structure|formulário]]). 
+-   Falta de feedback quando o usuário espera (ex: após submeter um [[Glossário/Padrões/form_structure|formulário]]).

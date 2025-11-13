@@ -1,4 +1,9 @@
-# Comments (Comentários)
+---
+title: "comments"
+
+---
+
+## Comments (Comentários)
 
 O componente de Comentários permite que os usuários publiquem e visualizem feedback, discussões ou anotações relacionadas a um conteúdo específico, como um artigo, produto, postagem de blog ou tarefa.
 
@@ -67,4 +72,4 @@ O componente de Comentários permite que os usuários publiquem e visualizem fee
 -   [[Glossário/Padrões/form_structure|Formulários]] de comentário complexos ou que exigem muita informação.
 -   Falta de moderação ou ferramentas para lidar com abuso.
 -   Interface de comentários desorganizada ou difícil de acompanhar as discussões.
--   Não permitir que usuários anônimos (se desejado) participem facilmente (ex: exigindo [[Glossário/Padrões/authentication|login]] para tudo). 
+-   Não permitir que usuários anônimos (se desejado) participem facilmente (ex: exigindo [[Glossário/Padrões/authentication|login]] para tudo).

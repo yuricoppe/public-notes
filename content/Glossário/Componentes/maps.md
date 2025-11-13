@@ -1,4 +1,9 @@
-# Maps (Mapas)
+---
+title: "maps"
+
+---
+
+## Maps (Mapas)
 
 O componente de Mapas é usado para exibir informações geográficas de forma visual e interativa. Ele permite aos usuários localizar endereços, visualizar rotas, explorar áreas ou ver a distribuição espacial de dados.
 
@@ -52,4 +57,4 @@ O componente de Mapas é usado para exibir informações geográficas de forma v
 -   Controles de mapa confusos ou escondidos.
 -   Falta de feedback claro para interações.
 -   Não fornecer alternativas para usuários que não podem interagir com o mapa visualmente.
--   Carregar um mapa interativo quando um simples mapa estático ([[Glossário/Elementos/imagem|imagem]]) seria suficiente. 
+-   Carregar um mapa interativo quando um simples mapa estático ([[Glossário/Elementos/imagem|imagem]]) seria suficiente.

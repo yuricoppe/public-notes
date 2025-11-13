@@ -1,4 +1,9 @@
-# Concept Map (Mapa Conceitual)
+---
+title: "concept map"
+
+---
+
+## Concept Map (Mapa Conceitual)
 
 Um **Concept Map (Mapa Conceitual)** é um diagrama que representa visualmente as relações entre diferentes conceitos. Ele é composto por **nós** (geralmente círculos ou caixas) que representam os conceitos, e **arestas direcionadas e rotuladas** (setas com texto) que ilustram as conexões e a natureza da relação entre esses conceitos. A relação é tipicamente expressa por uma frase de ligação curta, como "é parte de", "leva a", "influencia", "é um exemplo de".
 
@@ -63,4 +68,4 @@ Em UX, os [[Glossário/Componentes/maps|Mapas]] Conceituais são usados para:
 
 ---
 
-*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.* 
+*Este documento é parte do glossário de entregáveis de UX, baseado no conteúdo do Nielsen Norman Group.*
