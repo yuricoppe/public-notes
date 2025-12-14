@@ -34,6 +34,10 @@ description: "Conceitos, princípios e recursos sobre User Interface Design"
 > Generate fluid typography code snippets using modern CSS clamp function and fine-tune fluid typography behavior using this robust and sleek editor.
 > [https://modern-fluid-typography.vercel.app/](https://modern-fluid-typography.vercel.app/)
 
+>[!info] Os elementos do estilo tipográfico aplicados à web
+>  Um guia prático para tipografia na web
+>[https://webtypography.net/toc](https://webtypography.net/toc)
+
 ## Generators
 
 > [!info] free SVG generators, web design tools & modern HTML templates
