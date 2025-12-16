@@ -12,3 +12,6 @@ title: "DataViz"
 [https://datavizproject.com/?ref=sidebar](https://datavizproject.com/?ref=sidebar)
 
 ---
+### Tabelas
+https://www.nngroup.com/articles/mobile-tables/
+https://medium.com/design-bootcamp/designing-user-friendly-data-tables-for-mobile-devices-c470c82403ad
