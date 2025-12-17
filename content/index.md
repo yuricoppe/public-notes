@@ -41,6 +41,7 @@ description: "Base de conhecimento sobre UX Design, UI Design, Design Systems, A
 ## Referências
 
 [https://refero.design/](https://refero.design/)
+[https://component.gallery/components/](https://component.gallery/components/)
 
 ---
 
