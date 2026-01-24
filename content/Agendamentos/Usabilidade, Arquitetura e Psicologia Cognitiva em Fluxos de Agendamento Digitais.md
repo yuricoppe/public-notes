@@ -1,5 +1,5 @@
 
-## 1. Introdução à Ecologia do Agendamento Digital
+## 1. Introdução ao Agendamento Digital
 
 O design de interfaces para agendamento e reserva transcende a mera implementação de calendários digitais; ele representa um ponto de convergência crítico entre a logística operacional de um serviço e a expectativa cognitiva do usuário. Em um ecossistema digital saturado, onde a fricção é o principal determinante do abandono, a eficácia de um fluxo de agendamento não é medida apenas pela conclusão da tarefa, mas pela carga cognitiva exigida para realizá-la e pela robustez do sistema contra erros humanos previsíveis.
 
