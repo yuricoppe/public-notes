@@ -271,3 +271,6 @@ Os desafios específicos do setor de saúde são amplamente discutidos, incluind
 ---
 
 [[UX Login e Cadastro]]
+
+https://cadabra.studio/blog/insurance-user-experience/
+https://hicronsoftware.com/blog/insurance-user-experience-design/

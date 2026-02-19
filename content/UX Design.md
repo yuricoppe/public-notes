@@ -23,6 +23,7 @@ description: "Recursos, ferramentas e referências sobre User Experience Design"
 > [https://www.deceptive.design/](https://www.deceptive.design/)
 
 ## Tools
+https://nanonets.com/blog/form-data-extraction/
 
 ## Surveys
 
