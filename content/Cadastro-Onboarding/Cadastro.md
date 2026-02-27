@@ -13,11 +13,13 @@ If you get a lot of spam, then putting a CAPTCHA on your form may be necessary. 
 
 A simpler approach that won’t lower your conversion rate is to use a hidden and required text field generated with client-side Javascript. Spambots can’t fill in the field because they can’t interact with objects in client-side JavaScript; only users can. This method is simpler and less intrusive and so will reduce spam without hurting your conversion rate. The only problem is that it relies on JavaScript to work which might be suboptimal in some cases. You could also use [Honeypot Captcha approach](https://haacked.com/archive/2007/09/11/honeypot-captcha.aspx): you can create a honeypot form field that should be left blank and then use CSS to hide it from human users, but not bots. When the form is submitted, you check to make sure the value of that form field is blank. If it isn’t, then you can safely ignore the submission because it was submitted by a spam bot.
 ![](https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/550ef4ab-debb-4fb4-b7ac-c9138e14145e/javascript-captcha.png)
+
 ---
 
 https://www.smashingmagazine.com/2011/08/new-approaches-to-designing-login-forms/
 https://www.smashingmagazine.com/2012/10/password-masking-hurt-signup-form/
 https://www.smashingmagazine.com/2018/03/ux-contact-forms-essentials-conversions/
+
 ---
 https://www.smashingmagazine.com/2022/08/authentication-ux-design-guidelines/
 
