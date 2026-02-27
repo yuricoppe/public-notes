@@ -2,7 +2,9 @@
 
 https://www.smashingmagazine.com/2008/07/web-form-design-patterns-sign-up-forms/
 https://www.smashingmagazine.com/2008/07/web-form-design-patterns-sign-up-forms-part-2/
+
 ---
+
 https://www.smashingmagazine.com/2011/05/innovative-techniques-to-simplify-signups-and-logins/
 ### Combat Spam by Hiding a Text Field With JavaScript, Instead of Using CAPTCHA
 
