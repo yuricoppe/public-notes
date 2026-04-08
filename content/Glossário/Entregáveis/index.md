@@ -142,7 +142,7 @@ Documentação de padrões, componentes e diretrizes.
 
 - [[design_system|Design System]]
 - [[style_guide|Style Guide (Guia de Estilo)]]
-- [[dashboard|Dashboard]]
+- [[Glossário/Entregáveis/dashboard|Dashboard]]
 
 ---
 
