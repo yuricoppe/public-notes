@@ -3,6 +3,9 @@ title: "UX Design"
 description: "Recursos, ferramentas e referências sobre User Experience Design"
 
 ---
+## Artigos
+
+https://www.smashingmagazine.com/2026/04/legacy-systems/
 
 ## Utilidades
 
