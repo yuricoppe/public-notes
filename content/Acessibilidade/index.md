@@ -25,3 +25,8 @@ description: "Princípios, recursos e boas práticas de acessibilidade web"
 > [!info] Inclusive Design Patterns For 2025
 > Melhor aula de acessibilidade.
 > https://www.youtube.com/watch?v=xEtKkLdAnvI
+
+## Sessão expirada
+https://www.smashingmagazine.com/2026/04/session-timeouts-accessibility-barrier-authentication-design/
+https://the-european.eu/story-53902/this-one-digital-glitch-is-pushing-disabled-people-to-breaking-point.html
+*"It warns users at least two minutes in advance and allows them to extend the session."*

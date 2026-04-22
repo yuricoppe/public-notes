@@ -12,7 +12,7 @@ title: "Gen UI"
 [https://uxdesign.cc/an-introduction-to-generative-uis-01dcf6bca808](https://uxdesign.cc/an-introduction-to-generative-uis-01dcf6bca808)
 [https://www.oreilly.com/radar/interfaces-that-build-themselves/](https://www.oreilly.com/radar/interfaces-that-build-themselves/)
 [https://www.youtube.com/watch?v=MbWgRuM-7X8](https://www.youtube.com/watch?v=MbWgRuM-7X8)
-
+https://microsoft.design/articles/design-isnt-dying-its-shifting-left/
 ## Cases
 
 [https://fantasy.co/work/art-basel](https://fantasy.co/work/art-basel)

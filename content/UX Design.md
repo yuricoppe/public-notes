@@ -7,6 +7,7 @@ description: "Recursos, ferramentas e referências sobre User Experience Design"
 ## Utilidades
 
 [https://www.nngroup.com/articles/ux-deliverables-glossary/](https://www.nngroup.com/articles/ux-deliverables-glossary/)
+https://principles.design/
 
 ---
 
