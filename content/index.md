@@ -68,5 +68,6 @@ description: "Base de conhecimento sobre UX Design, UI Design, Design Systems, A
 [https://www.youtube.com/@UXDX./videos](https://www.youtube.com/@UXDX./videos)
 [https://www.youtube.com/@Figma](https://www.youtube.com/@Figma)
 [https://www.youtube.com/@whosajid](https://www.youtube.com/@whosajid)
+https://www.youtube.com/playlist?list=PLoROMvodv4rMyupDF2O00r19JsmolyXdD (Stanford Human-Computer Interaction Seminar)
 
 ---
