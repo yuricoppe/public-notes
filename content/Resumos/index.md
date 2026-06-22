@@ -1,0 +1,2 @@
+[Happy path e estados de sistema](obsidian://open?vault=content&file=Resumos%2FRelatorio_Happy_Path_Design.pdf)
+[Como Decisões de Design Impactam a Eficácia de Intervenções Digitais de Saúde](obsidian://open?vault=content&file=Resumos%2Fanalise_palestra_design_saude_digital.pdf)
