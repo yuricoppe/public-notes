@@ -196,7 +196,7 @@ Documentação de testes, validações e resultados.
 - [[../index|Glossário Principal]]
 - [[../Componentes/index|Componentes de UI]]
 - [[../Padrões/index|Padrões de Design]]
-- [[../../UX Design|UX Design]]
+- [[UX Design/index|UX Design]]
 - [[../../Design Ops/index|Design Ops]]
 
 ---

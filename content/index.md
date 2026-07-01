@@ -8,7 +8,7 @@ description: "Base de conhecimento sobre UX Design, UI Design, Design Systems, A
 
 ## Geral
 
-[[UX Design]]
+[[UX Design/index]]
 [[UI Design]]
 [[Design Ops/index]]
 [[Conteúdo]]

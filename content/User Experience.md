@@ -7,7 +7,7 @@ title: "User Experience"
 
 ## Geral
 
-[[UX Design]]
+[[UX Design/index]]
 [[UI Design]]
 [[Design Ops/index]]
 [[Conteúdo]]
