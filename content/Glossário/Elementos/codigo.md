@@ -1,5 +1,5 @@
 ---
-title: "codigo"
+title: "Código (Code)"
 
 ---
 
@@ -21,25 +21,25 @@ Utilizado para exibir trechos de código inline (dentro de um [[Glossário/Eleme
 - **Código Inline:**
   - Descrição: Estilo para trechos curtos de código dentro do texto.
   - Fonte: [Nome da Fonte Monoespaçada]
-  - Fundo: [Ex: [[Glossário/Linguagem Visual/cor|Cor]] de fundo sutil para diferenciar do texto normal]
+  - Fundo: [Ex: Cor de fundo sutil para diferenciar do texto normal]
   - Padding: [Ex: Pequeno padding horizontal]
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Código Inline no Figma]
+  - Link para o Figma: [Link para Código Inline no Figma]
 
 - **Bloco de Código:**
   - Descrição: Estilo para blocos de código de múltiplas linhas.
   - Fonte: [Nome da Fonte Monoespaçada]
-  - Fundo: [[[Glossário/Linguagem Visual/cor|Cor]] de Fundo para Bloco de Código]
+  - Fundo: [Cor de Fundo para Bloco de Código]
   - Destaque de Sintaxe: [Sim/Não, e quais linguagens suportadas]
   - Numeração de Linhas: [Opcional]
   - [[Glossário/Elementos/botoes|Botão]] de Copiar: [Opcional]
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Bloco de Código no Figma]
+  - Link para o Figma: [Link para Bloco de Código no Figma]
 
 ## Status Geral
 
 **Status:** A definir
 
-## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Código)
+## Link para o Figma (Visão Geral de Código)
 
-[[[Glossário/Elementos/links|Link]] para a seção de Código no Figma]
+[Link para a seção de Código no Figma]

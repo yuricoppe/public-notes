@@ -63,7 +63,7 @@ Existem diferentes tipos de roadmaps para diferentes públicos e propósitos:
 
 *   Artigo Relacionado: [3 Types of Roadmaps in UX and Product Design](https://www.nngroup.com/articles/ux-product-roadmaps/)
 *   Vídeo Relacionado: [3 Types of Roadmaps](https://www.nngroup.com/videos/3-types-roadmaps/)
-*   Veja também: [UX Roadmap](#) (será criado), [Field Roadmap](#field_roadmap.md), [Specialty Roadmap](#) (será criado)
+*   Veja também: [[Glossário/Entregáveis/ux_roadmap|UX Roadmap]], [[Glossário/Entregáveis/field_roadmap|Field Roadmap]], [[Glossário/Entregáveis/specialty_roadmap|Specialty Roadmap]]
 
 ---
 

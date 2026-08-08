@@ -1,5 +1,5 @@
 ---
-title: "menu"
+title: "Menu (Genérico)"
 
 ---
 
@@ -10,19 +10,19 @@ O componente Menu é uma [[Glossário/Elementos/listas|lista]] de opções ou a�
 ## Casos de Uso
 
 -   **Menu de Navegação Principal (Navbar Menu):** Parte da navegação global do site.
--   **Menu [[Glossário/Elementos/form_controls|Dropdown]]:** Uma [[Glossário/Elementos/listas|lista]] de opções que aparece quando um [[Glossário/Elementos/botoes|botão]] ou item de menu é clicado/hover.
--   **Menu de Contexto (Context Menu / Right-Click Menu):** Uma [[Glossário/Elementos/listas|lista]] de ações relevantes para um elemento específico da interface, geralmente acionada por um clique com o [[Glossário/Elementos/botoes|botão]] direito ou toque longo.
--   **Menu de Ações de Item (Item Action Menu):** Um menu (frequentemente um [[Glossário/Linguagem Visual/iconografia|ícone]] de "três pontos" ou "kebab") associado a um item em uma [[Glossário/Elementos/listas|lista]] ou [[Glossário/Componentes/cards|card]], revelando ações para aquele item.
--   **Menu de [[Glossário/Padrões/settings|Configurações]] de Conta/Perfil.**
+-   **Menu Dropdown:** Uma lista de opções que aparece quando um [[Glossário/Elementos/botoes|botão]] ou item de menu é clicado/hover.
+-   **Menu de Contexto (Context Menu / Right-Click Menu):** Uma lista de ações relevantes para um elemento específico da interface, geralmente acionada por um clique com o botão direito ou toque longo.
+-   **Menu de Ações de Item (Item Action Menu):** Um menu (frequentemente um [[Glossário/Linguagem Visual/iconografia|ícone]] de "três pontos" ou "kebab") associado a um item em uma lista ou [[Glossário/Componentes/cards|card]], revelando ações para aquele item.
+-   **Menu de Configurações de Conta/Perfil.**
 -   **Menu de [[Glossário/Componentes/filters|Filtros]] ou Ordenação.**
 
 ## Elementos Comuns
 
--   **Gatilho (Trigger):** O elemento que abre o menu (pode ser um [[Glossário/Elementos/botoes|botão]], [[Glossário/Elementos/links|link]], [[Glossário/Linguagem Visual/iconografia|ícone]], ou o próprio item de menu pai em um menu multinível).
--   **Contêiner do Menu:** O painel que contém a [[Glossário/Elementos/listas|lista]] de itens de menu.
+-   **Gatilho (Trigger):** O elemento que abre o menu (pode ser um botão, [[Glossário/Elementos/links|link]], ícone, ou o próprio item de menu pai em um menu multinível).
+-   **Contêiner do Menu:** O painel que contém a lista de itens de menu.
 -   **Itens de Menu (Menu Items):**
     *   Rótulo textual da opção/ação.
-    *   (Opcional) [[Glossário/Linguagem Visual/iconografia|Ícone]] à esquerda do rótulo.
+    *   (Opcional) Ícone à esquerda do rótulo.
     *   (Opcional) Indicador de submenu (ex: seta para a direita) se o item abrir outro nível de menu.
     *   (Opcional) Tecla de atalho (ex: Ctrl+S).
     *   (Opcional) Estado (desabilitado, selecionado/ativo).
@@ -41,21 +41,21 @@ O componente Menu é uma [[Glossário/Elementos/listas|lista]] de opções ou a�
     *   Usar `aria-expanded` no gatilho para indicar se o menu está aberto ou fechado.
     *   Gerenciar o foco corretamente: ao abrir, o foco vai para o primeiro item; ao fechar, retorna ao gatilho.
 -   **Consistência:** Manter um estilo e comportamento consistentes para menus em toda a aplicação.
--   **Evitar Níveis Múltiplos Excessivos:** Submenus muito profundos podem ser difíceis de navegar (especialmente em menus [[Glossário/Elementos/form_controls|dropdown]]).
+-   **Evitar Níveis Múltiplos Excessivos:** Submenus muito profundos podem ser difíceis de navegar (especialmente em menus dropdown).
 -   **Responsividade:** Menus devem se adaptar a diferentes tamanhos de tela. Menus de navegação podem se transformar em menus hambúrguer. Menus de contexto podem precisar de ajustes.
 
 ## Variações Comuns
 
 -   **Menu Horizontal vs. Vertical.**
--   **Menu Popup ([[Glossário/Elementos/form_controls|Dropdown]], Contexto).**
+-   **Menu Popup (Dropdown, Contexto).**
 -   **Menu Fixo (Navbar).**
--   **Menu com [[Glossário/Linguagem Visual/iconografia|Ícones]] e Texto.**
--   **Menu Apenas com [[Glossário/Linguagem Visual/iconografia|Ícones]] (com tooltips para acessibilidade).**
+-   **Menu com Ícones e Texto.**
+-   **Menu Apenas com Ícones (com tooltips para acessibilidade).**
 
 ## O Que Evitar
 
 -   Rótulos de menu ambíguos ou muito longos.
 -   Menus desorganizados ou com muitos itens não agrupados.
 -   Dificuldade em fechar um menu (ex: sem tecla Escape, ou área de clique pequena para fechar).
--   Submenus que desaparecem muito facilmente ao tentar mover o mouse para eles (problema comum em menus [[Glossário/Elementos/form_controls|dropdown]] com submenus laterais).
+-   Submenus que desaparecem muito facilmente ao tentar mover o mouse para eles (problema comum em menus dropdown com submenus laterais).
 -   Ignorar a navegação por teclado ou a acessibilidade ARIA.

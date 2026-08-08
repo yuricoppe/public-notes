@@ -50,7 +50,7 @@ Uma declaração de JTBD geralmente segue um formato como:
 
 ## Referências (NN/g)
 
-*   Ver também: [Story](#) (Nota: [[Glossário/Elementos/links|Link]] para Story será atualizado quando o documento correspondente for criado), [User-Story Map](#) (Nota: [[Glossário/Elementos/links|Link]] para User-Story Map será atualizado quando o documento correspondente for criado)
+*   Ver também: [[Glossário/Entregáveis/story_ux|Story]], [[Glossário/Entregáveis/user_story_map|User-Story Map]]
 
 ---
 

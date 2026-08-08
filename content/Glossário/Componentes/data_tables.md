@@ -24,7 +24,7 @@ Data Tables são componentes usados para exibir conjuntos de dados estruturados 
 
 ## Funcionalidades Avançadas (Comuns)
 
--   **Ordenação (Sorting):** Permitir que o usuário clique nos [[Glossário/Elementos/cabecalhos|cabeçalhos]] das colunas para ordenar os dados em ordem ascendente ou descendente.
+-   **Ordenação (Sorting):** Permitir que o usuário clique nos cabeçalhos das colunas para ordenar os dados em ordem ascendente ou descendente.
 -   **Paginação (Pagination):** Dividir grandes conjuntos de dados em várias páginas para melhorar o desempenho e a usabilidade.
 -   **Filtragem (Filtering):** Oferecer opções para filtrar os dados com base em critérios específicos (ex: busca por texto, seleção de status).
 -   **Seleção de Linhas (Row Selection):** Permitir que o usuário selecione uma ou mais linhas para realizar ações em lote (ex: deletar, editar, exportar).
@@ -38,14 +38,14 @@ Data Tables são componentes usados para exibir conjuntos de dados estruturados 
 -   **Legibilidade:** Usar [[Glossário/Linguagem Visual/tipografia|tipografia]] clara, [[Glossário/Linguagem Visual/espacamento|espaçamento]] adequado (padding nas células) e contraste suficiente.
 -   **Escaneabilidade:** Facilitar a leitura rápida dos dados. Listras de zebra (alternar [[Glossário/Linguagem Visual/cor|cor]] de fundo das linhas) podem ajudar.
 -   **Responsividade:** Tabelas são notoriamente difíceis de tornar responsivas.
-    *   **Abordagens Comuns:** Rolagem horizontal, colapsar colunas menos importantes em um [[Glossário/Componentes/menu|menu]] "mais", transformar linhas em [[Glossário/Componentes/cards|cards]] em telas pequenas, ou priorizar colunas.
+    *   **Abordagens Comuns:** Rolagem horizontal, colapsar colunas menos importantes em um menu "mais", transformar linhas em [[Glossário/Componentes/cards|cards]] em telas pequenas, ou priorizar colunas.
 -   **Performance:** Para tabelas muito grandes, considerar virtualização de linhas/colunas (renderizar apenas o que está visível) ou paginação do lado do servidor.
 -   **Acessibilidade (a11y):**
     *   Usar a marcação HTML correta: `<table>`, `<thead>`, `<tbody>`, `<tr>`, `<th>` (com atributo `scope="col"` ou `scope="row"`), e `<td>`.
     *   Fornecer um `<caption>` para a tabela, descrevendo seu propósito.
     *   Garantir que todas as funcionalidades interativas (ordenação, paginação, [[Glossário/Componentes/filters|filtros]], seleções, ações) sejam acessíveis e operáveis por teclado.
     *   Indicar o estado de ordenação atual (ex: com um ícone e `aria-sort` no `<th>`).
--   **Clareza nos [[Glossário/Elementos/cabecalhos|Cabeçalhos]]:** Devem ser concisos e descritivos.
+-   **Clareza nos Cabeçalhos:** Devem ser concisos e descritivos.
 -   **Consistência de Dados:** Formatar dados de forma consistente dentro de cada coluna (ex: datas, moedas).
 
 ## Variações

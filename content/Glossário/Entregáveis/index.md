@@ -193,11 +193,11 @@ Documentação de testes, validações e resultados.
 
 ## Recursos Relacionados
 
-- [[../index|Glossário Principal]]
-- [[../Componentes/index|Componentes de UI]]
-- [[../Padrões/index|Padrões de Design]]
+- [[Glossário/index|Glossário Principal]]
+- [[Glossário/Componentes/index|Componentes de UI]]
+- [[Glossário/Padrões/index|Padrões de Design]]
 - [[UX Design/index|UX Design]]
-- [[../../Design Ops/index|Design Ops]]
+- [[Design Ops/index|Design Ops]]
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "permissions"
+title: "Permissões (Permissions)"
 
 ---
 
@@ -59,7 +59,7 @@ O padrão de permissões descreve como um sistema gerencia e comunica ao usuári
 ### Não Faça
 
 - Não exponha funcionalidades que o usuário não pode usar de forma que cause frustração. É melhor ocultá-las se não houver benefício em mostrá-las desabilitadas.
-- Não use [[Glossário/Componentes/messaging|mensagens]] de erro genéricas para falhas de permissão; seja específico quando a segurança permitir.
+- Não use mensagens de erro genéricas para falhas de permissão; seja específico quando a segurança permitir.
 - Não torne o sistema de gerenciamento de permissões excessivamente complexo para os administradores.
 - Não conceda permissões excessivas por padrão.
 
@@ -67,13 +67,13 @@ O padrão de permissões descreve como um sistema gerencia e comunica ao usuári
 
 - Se elementos interativos estiverem desabilitados devido a permissões, garanta que o estado desabilitado seja comunicado a tecnologias assistivas (usando `aria-disabled="true"`).
 - Se um tooltip for usado para explicar por que um controle está desabilitado, certifique-se de que o tooltip seja acessível.
-- [[Glossário/Componentes/messaging|Mensagens]] de erro de acesso negado devem ser acessíveis e fáceis de entender.
+- Mensagens de erro de acesso negado devem ser acessíveis e fáceis de entender.
 - A interface de gerenciamento de permissões (para administradores) deve seguir todas as diretrizes gerais de acessibilidade para [[Glossário/Padrões/form_structure|formulários]] e controles interativos.
 
 ## Exemplos / Cenários de Uso
 
-- Um editor de conteúdo não pode publicar artigos, apenas salvá-los como rascunho (o [[Glossário/Elementos/botoes|botão]] "Publicar" está desabilitado ou ausente).
-- Um usuário básico não vê [[Glossário/Elementos/links|links]] para seções de administração no [[Glossário/Componentes/menu|menu]] de navegação.
+- Um editor de conteúdo não pode publicar artigos, apenas salvá-los como rascunho (o botão "Publicar" está desabilitado ou ausente).
+- Um usuário básico não vê links para seções de administração no menu de navegação.
 - Um administrador configurando se um papel "Marketing" pode criar, editar ou apenas visualizar campanhas.
 - Um sistema de gerenciamento de projetos onde diferentes membros da equipe têm diferentes níveis de acesso a tarefas e [[Glossário/Padrões/settings|configurações]].
 
@@ -90,5 +90,5 @@ A definir
 
 ## Recursos Adicionais / Figma
 
-- [[[Glossário/Elementos/links|Link]] para exemplos de UI de gerenciamento de permissões no Figma (se aplicável)]
-- [[[Glossário/Elementos/links|Link]] para a documentação da arquitetura de papéis e permissões do sistema]
+- [Link para exemplos de UI de gerenciamento de permissões no Figma (se aplicável)]
+- [Link para a documentação da arquitetura de papéis e permissões do sistema]

@@ -1,5 +1,5 @@
 ---
-title: "cor"
+title: "Cor (Color)"
 
 ---
 
@@ -18,7 +18,7 @@ Define a paleta de cores primárias, secundárias, de feedback (sucesso, erro, a
 
 ## Detalhes Adicionais / Tópicos
 
-### [[Glossário/Linguagem Visual/paletas_por_categoria|Paletas]] de Cores
+### Paletas de Cores
 
 - **Primária:** A cor principal da marca, usada em elementos de destaque e ações chave.
   - *Exemplo de Nomeação:* `cor-primaria-500` (tom principal), `cor-primaria-100` (tom mais claro), `cor-primaria-700` (tom mais escuro).
@@ -56,24 +56,24 @@ Define a paleta de cores primárias, secundárias, de feedback (sucesso, erro, a
 - **Cor Primária:**
   - Descrição: Usada para ações principais, [[Glossário/Elementos/botoes|botões]] de destaque e elementos que requerem maior atenção (ex: CTAs principais, [[Glossário/Elementos/links|links]] ativos).
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Cor Primária no Figma]
+  - Link para o Figma: [Link para Cor Primária no Figma]
 - **Cor Secundária:**
-  - Descrição: Usada para elementos de menor hierarquia, [[Glossário/Elementos/botoes|botões]] secundários, ênfase moderada e para adicionar variedade visual sem competir com a cor primária.
+  - Descrição: Usada para elementos de menor hierarquia, botões secundários, ênfase moderada e para adicionar variedade visual sem competir com a cor primária.
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Cor Secundária no Figma]
+  - Link para o Figma: [Link para Cor Secundária no Figma]
 - **Cores de Feedback (Ex: Erro):**
-  - Descrição: Usada para indicar erros em [[Glossário/Padrões/form_structure|formulários]], [[Glossário/Componentes/messaging|mensagens]] de alerta críticas, status negativos. Deve ser acompanhada de texto ou [[Glossário/Linguagem Visual/iconografia|ícone]] explicativo.
+  - Descrição: Usada para indicar erros em [[Glossário/Padrões/form_structure|formulários]], [[Glossário/Componentes/messaging|mensagens]] de alerta críticas, status negativos. Deve ser acompanhada de texto ou ícone explicativo.
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Cores de Feedback no Figma]
+  - Link para o Figma: [Link para Cores de Feedback no Figma]
 - **Cores Neutras:**
   - Descrição: Usadas para textos de corpo, fundos de página, bordas de [[Glossário/Sistemas de Layout/containers_wrappers|containers]], divisores e elementos de interface que não necessitam de destaque cromático, garantindo legibilidade e uma base visual limpa.
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Cores Neutras no Figma]
+  - Link para o Figma: [Link para Cores Neutras no Figma]
 
 ## Status Geral
 
 **Status:** A definir (Recomenda-se definir as [[Glossário/Linguagem Visual/paletas_por_categoria|paletas]] e testar a acessibilidade antes de avançar para outros componentes)
 
-## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Cores)
+## Link para o Figma (Visão Geral de Cores)
 
-[[[Glossário/Elementos/links|Link]] para a seção de Cores no Figma]
+[Link para a seção de Cores no Figma]

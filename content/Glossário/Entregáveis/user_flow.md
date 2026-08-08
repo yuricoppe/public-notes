@@ -43,11 +43,11 @@ Um User Flow geralmente utiliza formas padronizadas para representar diferentes 
 - **Para analisar e melhorar fluxos existentes em um produto.**
 - **Em discussões com a equipe para alinhar o entendimento de uma funcionalidade.**
 
-## User Flow vs. [[Glossário/Entregáveis/journey_map|Journey Map]] vs. [[Glossário/Entregáveis/wireflow|Wireflow]]
+## User Flow vs. Journey Map vs. Wireflow
 
 - **User Flow:** Foca nas etapas e interações dentro do produto digital para completar uma tarefa específica.
-- **[[Glossário/Entregáveis/journey_map|Journey Map]] ([[Glossário/Entregáveis/journey_map|Mapa de Jornada]]):** Mais amplo, mapeia toda a experiência do cliente com uma marca ou serviço, incluindo pontos de contato online e offline, emoções e pensamentos ao longo do tempo.
-- **[[Glossário/Entregáveis/wireflow|Wireflow]]:** Combina [[Glossário/Entregáveis/wireframe|wireframes]] (layouts de página de baixa fidelidade) com a estrutura de um fluxograma, mostrando tanto o layout da tela quanto o fluxo de interação entre elas.
+- **[[Glossário/Entregáveis/journey_map|Journey Map]] (Mapa de Jornada):** Mais amplo, mapeia toda a experiência do cliente com uma marca ou serviço, incluindo pontos de contato online e offline, emoções e pensamentos ao longo do tempo.
+- **[[Glossário/Entregáveis/wireflow|Wireflow]]:** Combina wireframes (layouts de página de baixa fidelidade) com a estrutura de um fluxograma, mostrando tanto o layout da tela quanto o fluxo de interação entre elas.
 
 ## Considerações
 
@@ -59,11 +59,11 @@ Um User Flow geralmente utiliza formas padronizadas para representar diferentes 
 
 ## Relacionado
 
-- [Mapa de Processo (Process Map)](./process_map.md)
-- [Diagrama HTA (Hierarchical Task-Analysis Diagram)](./hta_diagram.md)
-- [Wireflow](./[[Glossário/Entregáveis/wireflow|wireflow]].md)
-- [Mapa do Site (Site Map)](./site_map.md)
-- [Storyboard](./[[Glossário/Entregáveis/storyboard|storyboard]].md)
+- [[Glossário/Entregáveis/process_map|Mapa de Processo (Process Map)]]
+- [[Glossário/Entregáveis/hta_diagram|Diagrama HTA (Hierarchical Task-Analysis Diagram)]]
+- [[Glossário/Entregáveis/wireflow|Wireflow]]
+- [[Glossário/Entregáveis/site_map|Mapa do Site (Site Map)]]
+- [[Glossário/Entregáveis/storyboard|Storyboard]]
 
 ## Referência Externa
 

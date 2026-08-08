@@ -55,7 +55,7 @@ O objetivo principal de um Guia de Entrevista é assegurar que as sessões de en
 
 ## Referências (NN/g)
 
-*   Ver também: [Screener](#) (Nota: [[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/screener|Screener]] será atualizado quando o documento correspondente for criado), [Research Plan](#) (Nota: [[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/research_plan|Research Plan]] será atualizado quando o documento correspondente for criado), [Usability Report](#) (Nota: [[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/usability_report|Usability Report]] será atualizado quando o documento correspondente for criado)
+*   Ver também: [[Glossário/Entregáveis/screener|Screener]], [[Glossário/Entregáveis/research_plan|Research Plan]], [[Glossário/Entregáveis/usability_report|Usability Report]]
 
 ---
 

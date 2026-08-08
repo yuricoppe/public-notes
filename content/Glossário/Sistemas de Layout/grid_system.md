@@ -65,16 +65,16 @@ Em um sistema de classes CSS, isso poderia ser representado como:
 ## Responsividade
 
 - Em telas menores (tablets e mobiles), as colunas podem precisar ser empilhadas (stack) verticalmente ou ter suas proporções ajustadas.
-- A definição de como as colunas se comportam em diferentes [[Glossário/Sistemas de Layout/breakpoints|breakpoints]] será detalhada em `breakpoints.md` e nas especificações dos componentes.
+- A definição de como as colunas se comportam em diferentes breakpoints será detalhada em `breakpoints.md` e nas especificações dos componentes.
 
 ## Boas Práticas
 
 - **Planeje o Layout:** Antes de implementar, pense em como o conteúdo se encaixará no grid.
 - **Evite Quebrar o Grid:** Não force elementos a desalinharem sem uma boa razão.
-- **Use o Grid para [[Glossário/Linguagem Visual/espacamento|Espaçamento]] Horizontal:** O grid ajuda a manter o [[Glossário/Linguagem Visual/espacamento|espaçamento]] horizontal consistente.
+- **Use o Grid para [[Glossário/Linguagem Visual/espacamento|Espaçamento]] Horizontal:** O grid ajuda a manter o espaçamento horizontal consistente.
 - **Teste em Diferentes Telas:** Verifique sempre como o layout do grid se comporta em diversos dispositivos.
 
 ## Recursos Adicionais / Figma
 
-- [[[Glossário/Elementos/links|Link]] para a especificação do Grid System no Figma]
+- [Link para a especificação do Grid System no Figma]
 - [Exemplos de layouts de página utilizando o grid]

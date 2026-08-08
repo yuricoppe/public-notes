@@ -20,7 +20,7 @@ Estas estruturas são construídas utilizando nosso Sistema de Grid (`grid_syste
 
 ## Estruturas Padrão
 
-### 1. [[Glossário/Elementos/cabecalhos|Cabeçalho]] ([[Glossário/Componentes/header|Header]])
+### 1. Cabeçalho (Header)
 
 - **Propósito:** Fornecer identidade da marca (logo), navegação principal, busca e, possivelmente, [[Glossário/Elementos/links|links]] de conta/[[Glossário/Padrões/authentication|login]].
 - **Posicionamento:** Geralmente fixo no topo da página ou rola com o conteúdo.
@@ -31,24 +31,24 @@ Estas estruturas são construídas utilizando nosso Sistema de Grid (`grid_syste
 - **Responsividade:**
     - Em telas menores, a navegação principal pode ser substituída por um [[Glossário/Componentes/menu|menu]] "hambúrguer".
     - Elementos podem ser reorganizados ou simplificados.
-- **Componentes Comuns:** Logo, [[Glossário/Elementos/links|Links]] de Navegação, Campo de Busca, [[Glossário/Elementos/botoes|Botão]] de [[Glossário/Componentes/menu|Menu]] Mobile, [[Glossário/Linguagem Visual/iconografia|Ícones]].
+- **Componentes Comuns:** Logo, Links de Navegação, Campo de Busca, [[Glossário/Elementos/botoes|Botão]] de Menu Mobile, Ícones.
 
-### 2. [[Glossário/Componentes/footer|Rodapé]] ([[Glossário/Componentes/footer|Footer]])
+### 2. Rodapé (Footer)
 
-- **Propósito:** Fornecer navegação secundária, informações de contato, [[Glossário/Elementos/links|links]] legais (termos, privacidade), direitos autorais e, possivelmente, [[Glossário/Elementos/links|links]] para redes sociais.
+- **Propósito:** Fornecer navegação secundária, informações de contato, links legais (termos, privacidade), direitos autorais e, possivelmente, links para redes sociais.
 - **Posicionamento:** Sempre na parte inferior da página.
 - **Layout Típico:**
-    - Pode ser dividido em múltiplas colunas para organizar os [[Glossário/Elementos/links|links]].
+    - Pode ser dividido em múltiplas colunas para organizar os links.
     - Informações de direitos autorais geralmente centralizadas ou alinhadas à esquerda na base.
 - **Responsividade:**
     - Colunas podem ser empilhadas em telas menores.
     - O [[Glossário/Linguagem Visual/espacamento|espaçamento]] pode ser reduzido.
-- **Componentes Comuns:** [[Glossário/Elementos/links|Links]] de Navegação, Texto de Copyright, [[Glossário/Linguagem Visual/iconografia|Ícones]] de Redes Sociais, Logo (opcional, menor).
+- **Componentes Comuns:** Links de Navegação, Texto de Copyright, Ícones de Redes Sociais, Logo (opcional, menor).
 
 ### 3. Área de Conteúdo Principal (Main Content Area)
 
 - **Propósito:** Exibir o conteúdo primário da página (artigo, [[Glossário/Elementos/listas|lista]] de produtos, [[Glossário/Padrões/form_structure|formulário]], etc.).
-- **Posicionamento:** Entre o [[Glossário/Elementos/cabecalhos|cabeçalho]] e o [[Glossário/Componentes/footer|rodapé]]. Pode estar ao lado de uma barra lateral.
+- **Posicionamento:** Entre o cabeçalho e o [[Glossário/Componentes/footer|rodapé]]. Pode estar ao lado de uma barra lateral.
 - **Layout Típico:**
     - Ocupa a maior parte da largura disponível no grid, especialmente em layouts sem barra lateral.
     - O layout interno varia enormemente dependendo do template da página (`page_templates/`).
@@ -64,22 +64,22 @@ Estas estruturas são construídas utilizando nosso Sistema de Grid (`grid_syste
     - Ocupa um número menor de colunas do grid (ex: 3 ou 4 de 12 colunas).
     - O conteúdo é disposto verticalmente.
 - **Responsividade:**
-    - Em telas menores (ex: mobile), a barra lateral é frequentemente ocultada, movida para baixo do conteúdo principal ou acessível através de um [[Glossário/Elementos/botoes|botão]].
-- **Componentes Comuns:** [[Glossário/Componentes/menu|Menus]] de Navegação Secundária, [[Glossário/Elementos/listas|Listas]] de [[Glossário/Componentes/filters|Filtros]], [[Glossário/Componentes/cards|Cards]] de Informação, CTAs Secundários.
+    - Em telas menores (ex: mobile), a barra lateral é frequentemente ocultada, movida para baixo do conteúdo principal ou acessível através de um botão.
+- **Componentes Comuns:** Menus de Navegação Secundária, Listas de Filtros, [[Glossário/Componentes/cards|Cards]] de Informação, CTAs Secundários.
 
 ## Combinações Comuns
 
-- **Página de Largura Total:** [[Glossário/Elementos/cabecalhos|Cabeçalho]], Área de Conteúdo Principal, [[Glossário/Componentes/footer|Rodapé]].
-- **Página com Barra Lateral à Direita:** [[Glossário/Elementos/cabecalhos|Cabeçalho]], Área de Conteúdo Principal (esquerda), Barra Lateral (direita), [[Glossário/Componentes/footer|Rodapé]].
-- **Página com Barra Lateral à Esquerda:** [[Glossário/Elementos/cabecalhos|Cabeçalho]], Barra Lateral (esquerda), Área de Conteúdo Principal (direita), [[Glossário/Componentes/footer|Rodapé]].
+- **Página de Largura Total:** Cabeçalho, Área de Conteúdo Principal, Rodapé.
+- **Página com Barra Lateral à Direita:** Cabeçalho, Área de Conteúdo Principal (esquerda), Barra Lateral (direita), Rodapé.
+- **Página com Barra Lateral à Esquerda:** Cabeçalho, Barra Lateral (esquerda), Área de Conteúdo Principal (direita), Rodapé.
 
 ## Diretrizes
 
-- **Hierarquia Clara:** Use o sistema de [[Glossário/Linguagem Visual/espacamento|espaçamento]] para definir claramente os limites entre essas grandes seções.
+- **Hierarquia Clara:** Use o sistema de espaçamento para definir claramente os limites entre essas grandes seções.
 - **Consistência no Posicionamento:** Por exemplo, se a barra lateral é usada, tente manter seu posicionamento (esquerda/direita) consistente em seções relacionadas do portal.
 - **Foco no Conteúdo:** A estrutura deve servir ao conteúdo, não o contrário.
 
 ## Recursos Adicionais / Figma
 
-- [[[Glossário/Elementos/links|Link]] para exemplos de estruturas de página no Figma]
+- [Link para exemplos de estruturas de página no Figma]
 - [Templates de página (`page_templates/`) que demonstram essas estruturas]

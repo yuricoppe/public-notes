@@ -1,5 +1,5 @@
 ---
-title: "antipersona"
+title: "Antipersona"
 
 ---
 
@@ -61,7 +61,7 @@ Similar a uma [[Glossário/Entregáveis/persona|persona]], uma antipersona pode 
 
 *   Artigo Relacionado: [Antipersonas: What, How, Who, and Why?](https://www.nngroup.com/articles/antipersonas/)
 *   Vídeo Relacionado: [Antipersonas in UX](https://www.nngroup.com/videos/antipersonas-ux/)
-*   Veja também: [Persona](#) (Nota: [[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/persona|Persona]] será atualizado quando o documento correspondente for criado)
+*   Veja também: [[Glossário/Entregáveis/persona|Persona]]
 
 ---
 

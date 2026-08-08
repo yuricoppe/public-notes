@@ -54,7 +54,7 @@ O objetivo principal de um Journey Map é entender e comunicar a experiência do
 ## Referências (NN/g)
 
 *   Artigo Relacionado: [Journey Mapping to Understand Customer Needs](https://www.nngroup.com/articles/journey-mapping/)
-*   Ver também: [Experience Map](#) (Nota: [[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/experience_map|Experience Map]] será atualizado quando o documento correspondente for criado), [Service Blueprint](#) (Nota: [[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/service_blueprint|Service Blueprint]] será atualizado quando o documento correspondente for criado), [Asset Map](#) (Nota: [[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/asset_map|Asset Map]] será atualizado quando o documento correspondente for criado), [Storyboard](#) (Nota: [[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/storyboard|Storyboard]] será atualizado quando o documento correspondente for criado), [User-Story Map](#) (Nota: [[Glossário/Elementos/links|Link]] para User-Story Map será atualizado quando o documento correspondente for criado)
+*   Ver também: [[Glossário/Entregáveis/experience_map|Experience Map]], [[Glossário/Entregáveis/service_blueprint|Service Blueprint]], [[Glossário/Entregáveis/asset_map|Asset Map]], [[Glossário/Entregáveis/storyboard|Storyboard]], [[Glossário/Entregáveis/user_story_map|User-Story Map]]
 
 ---
 

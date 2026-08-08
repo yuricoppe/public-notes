@@ -3,15 +3,15 @@ title: "prototype specification"
 
 ---
 
-## [[Glossário/Entregáveis/prototype|Prototype]] Specification (Especificação de [[Glossário/Entregáveis/prototype|Protótipo]])
+## Prototype Specification (Especificação de Protótipo)
 
-Uma **[[Glossário/Entregáveis/prototype|Prototype]] Specification** é um documento que detalha o design, comportamento, interações e, às vezes, os aspectos técnicos de um [[Glossário/Entregáveis/prototype|protótipo]]. Ele serve como um guia para desenvolvedores que irão construir o produto final ou para outros designers que podem precisar entender ou evoluir o [[Glossário/Entregáveis/prototype|protótipo]]. Complementa o próprio [[Glossário/Entregáveis/prototype|protótipo]] interativo com anotações e explicações.
+Uma **[[Glossário/Entregáveis/prototype|Prototype]] Specification** é um documento que detalha o design, comportamento, interações e, às vezes, os aspectos técnicos de um protótipo. Ele serve como um guia para desenvolvedores que irão construir o produto final ou para outros designers que podem precisar entender ou evoluir o protótipo. Complementa o próprio protótipo interativo com anotações e explicações.
 
 ## Propósito Principal
 
-O objetivo principal de uma Especificação de [[Glossário/Entregáveis/prototype|Protótipo]] é:
+O objetivo principal de uma Especificação de Protótipo é:
 
-*   **Comunicar Detalhes do Design:** Fornecer informações claras e inequívocas sobre como o [[Glossário/Entregáveis/prototype|protótipo]] (e, por extensão, o produto final pretendido) deve parecer, se comportar e funcionar.
+*   **Comunicar Detalhes do Design:** Fornecer informações claras e inequívocas sobre como o protótipo (e, por extensão, o produto final pretendido) deve parecer, se comportar e funcionar.
 *   **Guiar o Desenvolvimento:** Ajudar os desenvolvedores a implementar o design com precisão.
 *   **Documentar Decisões de Design:** Registrar as escolhas de design e a lógica por trás delas.
 *   **Garantir Consistência:** Ajudar a manter a consistência na implementação de elementos de interface e interações.
@@ -19,12 +19,12 @@ O objetivo principal de uma Especificação de [[Glossário/Entregáveis/prototy
 
 ## Como Funciona
 
-O conteúdo de uma Especificação de [[Glossário/Entregáveis/prototype|Protótipo]] pode variar dependendo da complexidade do [[Glossário/Entregáveis/prototype|protótipo]] e das necessidades da equipe, mas geralmente inclui:
+O conteúdo de uma Especificação de Protótipo pode variar dependendo da complexidade do protótipo e das necessidades da equipe, mas geralmente inclui:
 
 1.  **Visão Geral:**
-    *   Objetivos do [[Glossário/Entregáveis/prototype|protótipo]].
+    *   Objetivos do protótipo.
     *   Escopo (quais funcionalidades ou fluxos estão incluídos).
-    *   [[Glossário/Elementos/links|Link]] para o [[Glossário/Entregáveis/prototype|protótipo]] interativo.
+    *   Link para o protótipo interativo.
 2.  **Especificações Visuais (se não cobertas por um [[Glossário/Entregáveis/design_system|Design System]] ou [[Glossário/Entregáveis/style_guide|Style Guide]] separado):**
     *   [[Glossário/Linguagem Visual/paletas_por_categoria|Paletas]] de [[Glossário/Linguagem Visual/cor|cores]], [[Glossário/Linguagem Visual/tipografia|tipografia]], [[Glossário/Linguagem Visual/iconografia|iconografia]].
     *   Layouts de tela, grids, espaçamentos.
@@ -40,8 +40,8 @@ O conteúdo de uma Especificação de [[Glossário/Entregáveis/prototype|Protó
 5.  **Conteúdo:**
     *   Especificações para texto (microcopy, rótulos, instruções).
     *   Diretrizes para [[Glossário/Elementos/imagem|imagens]] ou outros tipos de mídia.
-6.  **Anotações:** [[Glossário/Componentes/comments|Comentários]] específicos em capturas de tela ou diretamente no [[Glossário/Entregáveis/prototype|protótipo]] (se a ferramenta permitir) para explicar comportamentos ou requisitos particulares.
-7.  **Casos de Uso e Cenários:** Descrição de como os usuários interagem com o [[Glossário/Entregáveis/prototype|protótipo]] para realizar tarefas específicas.
+6.  **Anotações:** [[Glossário/Componentes/comments|Comentários]] específicos em capturas de tela ou diretamente no protótipo (se a ferramenta permitir) para explicar comportamentos ou requisitos particulares.
+7.  **Casos de Uso e Cenários:** Descrição de como os usuários interagem com o protótipo para realizar tarefas específicas.
 8.  **Considerações de Acessibilidade (opcional, mas recomendado):** Notas sobre como garantir que o design seja acessível.
 
 ## Formato
@@ -59,8 +59,8 @@ O conteúdo de uma Especificação de [[Glossário/Entregáveis/prototype|Protó
 
 ## Quando Utilizar
 
-*   Normalmente após a criação e teste de um [[Glossário/Entregáveis/prototype|protótipo]] de média a alta fidelidade, antes ou durante o "handoff" (entrega) para a equipe de desenvolvimento.
-*   Quando o [[Glossário/Entregáveis/prototype|protótipo]] por si só não é suficiente para transmitir todos os detalhes necessários para a implementação.
+*   Normalmente após a criação e teste de um protótipo de média a alta fidelidade, antes ou durante o "handoff" (entrega) para a equipe de desenvolvimento.
+*   Quando o protótipo por si só não é suficiente para transmitir todos os detalhes necessários para a implementação.
 *   Em projetos complexos com muitas interações ou regras de negócio específicas.
 
 ## Ferramentas Comuns
@@ -71,7 +71,7 @@ O conteúdo de uma Especificação de [[Glossário/Entregáveis/prototype|Protó
 
 ## Referências (NN/g)
 
-*   Veja também: [Prototype](#[[Glossário/Entregáveis/prototype|prototype]].md), [Design System](#design_system.md), [Style Guide](#) (será criado)
+*   Veja também: [[Glossário/Entregáveis/prototype|Prototype]], [[Glossário/Entregáveis/design_system|Design System]], [[Glossário/Entregáveis/style_guide|Style Guide]]
 
 ---
 

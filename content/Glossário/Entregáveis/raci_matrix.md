@@ -73,7 +73,7 @@ Existem algumas variações do modelo RACI, como:
 
 ## Referências (NN/g)
 
-*   Veja também: [Skill Map](#) (será criado), [Relationship Map](#) (será criado)
+*   Veja também: [[Glossário/Entregáveis/skill_map|Skill Map]], [[Glossário/Entregáveis/relationship_map|Relationship Map]]
 
 ---
 

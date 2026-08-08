@@ -35,7 +35,7 @@ O padrão de criação de conta (também conhecido como registro ou sign-up) per
 3. O usuário preenche os campos obrigatórios e opcionais.
 4. O usuário define e confirma sua senha, seguindo os critérios de complexidade.
 5. O usuário aceita os termos e políticas.
-6. O usuário submete o [[Glossário/Padrões/form_structure|formulário]].
+6. O usuário submete o formulário.
 7. O sistema valida os dados e a disponibilidade do nome de usuário/email.
 8.  - **Sucesso:**
         - O sistema cria a nova conta.
@@ -53,25 +53,25 @@ O padrão de criação de conta (também conhecido como registro ou sign-up) per
 - Forneça feedback em tempo real sobre a validade dos dados inseridos e a força da senha.
 - Permita que os usuários vejam a senha que estão digitando (opção "mostrar senha").
 - Envie um email de boas-vindas e/ou confirmação.
-- Informe sobre o uso dos dados coletados ([[Glossário/Elementos/links|link]] para Política de Privacidade).
+- Informe sobre o uso dos dados coletados (link para Política de Privacidade).
 - Otimize o processo para dispositivos móveis.
 
 ### Não Faça
 
-- Não crie [[Glossário/Padrões/form_structure|formulários]] de registro excessivamente longos e complexos.
+- Não crie formulários de registro excessivamente longos e complexos.
 - Não peça informações sensíveis desnecessariamente.
 - Não use CAPTCHAs que sejam difíceis de resolver ou inacessíveis.
-- Não esconda os [[Glossário/Elementos/links|links]] para Termos de Serviço e Política de Privacidade.
+- Não esconda os links para Termos de Serviço e Política de Privacidade.
 - Não defina senhas fracas como padrão ou permita senhas óbvias sem aviso.
 
 ## Considerações de Acessibilidade
 
-- Todos os campos de [[Glossário/Padrões/form_structure|formulário]] devem ter rótulos (`<label for>`) claros e associados.
-- As [[Glossário/Componentes/messaging|mensagens]] de erro e sucesso devem ser acessíveis a leitores de tela e visualmente distintas.
+- Todos os campos de formulário devem ter rótulos (`<label for>`) claros e associados.
+- As mensagens de erro e sucesso devem ser acessíveis a leitores de tela e visualmente distintas.
 - Requisitos de senha devem ser comunicados de forma acessível antes que o usuário comece a digitar.
 - Garanta navegação e operação por teclado para todos os elementos.
 - Mantenha contraste de [[Glossário/Linguagem Visual/cor|cores]] adequado.
-- Evite depender apenas de indicações visuais ([[Glossário/Linguagem Visual/cor|cor]]) para feedback; use também texto ou [[Glossário/Linguagem Visual/iconografia|ícones]].
+- Evite depender apenas de indicações visuais (cor) para feedback; use também texto ou [[Glossário/Linguagem Visual/iconografia|ícones]].
 
 ## Exemplos / Cenários de Uso
 
@@ -85,7 +85,7 @@ O padrão de criação de conta (também conhecido como registro ou sign-up) per
 - **Registro Rápido:** Apenas email e senha, com coleta de mais dados posteriormente.
 - **Registro com Verificação:** Requer verificação de email ou SMS para ativar a conta.
 - **Registro Social:** Usar contas existentes (Google, Facebook) para criar a conta no novo sistema.
-- **Registro por Convite:** Acesso ao [[Glossário/Padrões/form_structure|formulário]] de registro apenas através de um [[Glossário/Elementos/links|link]] de convite.
+- **Registro por Convite:** Acesso ao formulário de registro apenas através de um link de convite.
 
 ## Status
 
@@ -93,5 +93,5 @@ A definir
 
 ## Recursos Adicionais / Figma
 
-- [[[Glossário/Elementos/links|Link]] para o design de telas de Criação de Conta no Figma]
-- [[[Glossário/Elementos/links|Link]] para os Termos de Serviço e Política de Privacidade padrão]
+- [Link para o design de telas de Criação de Conta no Figma]
+- [Link para os Termos de Serviço e Política de Privacidade padrão]

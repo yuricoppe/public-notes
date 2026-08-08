@@ -14,7 +14,7 @@ Um Roadmap de Especialidade é um plano estratégico focado em uma disciplina pa
 ## Componentes Chave
 
 - **Foco da Especialidade:** Claramente definido (ex: Pesquisa Operacional, Maturidade em Design de Interação).
-- **Metas da Especialidade:** Objetivos específicos que a equipe de especialistas busca alcançar (ex: "Integrar insights de pesquisa em 80% das decisões de design de produto até o Q4" ou "Lançar a v2 do [[Glossário/Entregáveis/design_system|Design System]] com cobertura para componentes mobile").
+- **Metas da Especialidade:** Objetivos específicos que a equipe de especialistas busca alcançar (ex: "Integrar insights de pesquisa em 80% das decisões de design de produto até o Q4" ou "Lançar a v2 do Design System com cobertura para componentes mobile").
 - **Iniciativas e Projetos:** Ações e projetos concretos planejados para atingir as metas.
 - **Prioridades:** Classificação das iniciativas com base em impacto, esforço, dependências, etc.
 - **Cronograma:** Linha do tempo para a execução das iniciativas (ex: trimestral, semestral).
@@ -39,16 +39,16 @@ Um Roadmap de Especialidade é um plano estratégico focado em uma disciplina pa
 
 ## Considerações
 
-- **Alinhamento com Roadmaps Maiores:** Deve estar alinhado com o [[Glossário/Entregáveis/ux_roadmap|UX Roadmap]] geral e o [[Glossário/Entregáveis/product_roadmap|Product Roadmap]].
+- **Alinhamento com Roadmaps Maiores:** Deve estar alinhado com o UX Roadmap geral e o Product Roadmap.
 - **Flexibilidade:** Deve ser adaptável a mudanças nas prioridades do negócio ou descobertas da equipe.
 - **Colaboração:** Desenvolvido em colaboração com os especialistas da área e stakeholders relevantes.
 - **Comunicação:** Compartilhado amplamente para garantir visibilidade e alinhamento.
 
 ## Relacionado
 
-- [Roadmap (UX Roadmap)](./ux_roadmap.md)
-- [Product Roadmap](./product_roadmap.md)
-- [Field Roadmap](./field_roadmap.md)
+- [[Glossário/Entregáveis/ux_roadmap|Roadmap (UX Roadmap)]]
+- [[Glossário/Entregáveis/product_roadmap|Product Roadmap]]
+- [[Glossário/Entregáveis/field_roadmap|Field Roadmap]]
 
 ## Referência Externa
 

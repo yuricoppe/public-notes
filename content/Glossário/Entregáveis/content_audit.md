@@ -5,7 +5,7 @@ title: "content audit"
 
 ## Content Audit (Auditoria de Conteúdo)
 
-Uma **Content Audit (Auditoria de Conteúdo)** é um processo sistemático de avaliação da qualidade, relevância, eficácia e precisão de todo o conteúdo digital existente em uma plataforma (como um website, blog, intranet ou aplicativo). Ela vai além de simplesmente listar o conteúdo (o que é feito no [Content Inventory](./content_inventory.md)); uma auditoria envolve uma análise crítica para determinar o que funciona, o que não funciona, o que precisa ser melhorado, o que pode ser removido e onde existem lacunas.
+Uma **Content Audit (Auditoria de Conteúdo)** é um processo sistemático de avaliação da qualidade, relevância, eficácia e precisão de todo o conteúdo digital existente em uma plataforma (como um website, blog, intranet ou aplicativo). Ela vai além de simplesmente listar o conteúdo (o que é feito no [[Glossário/Entregáveis/content_inventory|Content Inventory]]); uma auditoria envolve uma análise crítica para determinar o que funciona, o que não funciona, o que precisa ser melhorado, o que pode ser removido e onde existem lacunas.
 
 ## Propósito Principal
 
@@ -23,10 +23,10 @@ Os principais objetivos de uma auditoria de conteúdo são:
 ## Processo de uma Auditoria de Conteúdo
 
 1.  **Definir Escopo e Objetivos:** O que será auditado (todo o site, uma seção específica?) e quais são os principais objetivos da auditoria?
-2.  **Realizar um [Content Inventory](./content_inventory.md) ([[Glossário/Entregáveis/content_inventory|Inventário de Conteúdo]]):** Criar uma [[Glossário/Elementos/listas|lista]] abrangente de todo o conteúdo dentro do escopo, geralmente em uma planilha. Este é o passo fundamental antes da auditoria.
-3.  **Definir Critérios de Avaliação:** Estabelecer os critérios e [[Glossário/Linguagem Visual/metricas_e_keylines|métricas]] que serão usados para avaliar cada peça de conteúdo. Isso pode incluir:
+2.  **Realizar um Content Inventory (Inventário de Conteúdo):** Criar uma [[Glossário/Elementos/listas|lista]] abrangente de todo o conteúdo dentro do escopo, geralmente em uma planilha. Este é o passo fundamental antes da auditoria.
+3.  **Definir Critérios de Avaliação:** Estabelecer os critérios e métricas que serão usados para avaliar cada peça de conteúdo. Isso pode incluir:
     *   **Qualitativos:** Relevância, precisão, clareza, tom de voz, utilidade, qualidade da escrita, alinhamento com a marca, apelo visual.
-    *   **Quantitativos:** [[Glossário/Linguagem Visual/metricas_e_keylines|Métricas]] de analytics (visualizações de página, tempo na página, taxa de rejeição, conversões), dados de SEO (rankings de palavras-chave, backlinks), dados de engajamento social.
+    *   **Quantitativos:** Métricas de analytics (visualizações de página, tempo na página, taxa de rejeição, conversões), dados de SEO (rankings de palavras-chave, backlinks), dados de engajamento social.
 4.  **Coletar Dados:** Reunir os dados quantitativos para cada item do inventário.
 5.  **Analisar e Avaliar:** Revisar cada peça de conteúdo em relação aos critérios definidos, atribuindo pontuações ou fazendo anotações qualitativas.
 6.  **Sintetizar Descobertas e Recomendações:** Agrupar os achados, identificar padrões, e formular recomendações acionáveis (ex: "Manter", "Melhorar/Atualizar", "Consolidar", "Remover/Arquivar", "Criar Novo").
@@ -37,7 +37,7 @@ Os principais objetivos de uma auditoria de conteúdo são:
 *   Resumo executivo das principais descobertas e recomendações.
 *   Análise detalhada do desempenho do conteúdo.
 *   Identificação de conteúdo forte e fraco.
-*   [[Glossário/Elementos/listas|Lista]] de conteúdo ROT.
+*   Lista de conteúdo ROT.
 *   Identificação de lacunas de conteúdo.
 *   Recomendações específicas por peça de conteúdo ou por categoria.
 *   Priorização das ações recomendadas.
@@ -55,7 +55,7 @@ Os principais objetivos de uma auditoria de conteúdo são:
 
 *   Antes de um grande redesenho de site ou migração de plataforma.
 *   Regularmente (ex: anualmente) como parte da manutenção e otimização do conteúdo.
-*   Quando as [[Glossário/Linguagem Visual/metricas_e_keylines|métricas]] de desempenho do conteúdo estão caindo.
+*   Quando as métricas de desempenho do conteúdo estão caindo.
 *   Ao desenvolver uma nova estratégia de conteúdo.
 *   Quando há mudanças significativas no negócio, público-alvo ou mercado.
 
@@ -72,7 +72,7 @@ Os principais objetivos de uma auditoria de conteúdo são:
 *   Artigo Relacionado: [Content Inventory and Auditing 101](https://www.nngroup.com/articles/content-inventory-auditing/)
 *   Vídeo Relacionado: [How To: Content Inventory and Audit](https://www.nngroup.com/videos/content-inventory-audit/)
 *   Template: [NN/g Content Inventory and Auditing Excel Template (XLSX)](https://media.nngroup.com/media/editor/2020/03/19/NNg_Content%20Inventory%20and%20Auditing_Excel%20Template.xlsx)
-*   Veja também: [Content Inventory](./content_inventory.md)
+*   Veja também: [[Glossário/Entregáveis/content_inventory|Content Inventory]]
 
 ---
 

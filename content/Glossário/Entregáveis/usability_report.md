@@ -27,7 +27,7 @@ Este relatório é um entregável crucial para designers, desenvolvedores, geren
     *   **Participantes:** Perfil dos participantes (critérios de recrutamento, número de participantes).
     *   **Tarefas:** Descrição das tarefas que os participantes realizaram.
     *   **Procedimento:** Como o teste foi conduzido (moderado, não moderado, presencial, remoto).
-    *   **[[Glossário/Linguagem Visual/metricas_e_keylines|Métricas]] Coletadas:** (ex: taxa de sucesso da tarefa, tempo na tarefa, erros, [[Glossário/Linguagem Visual/metricas_e_keylines|métricas]] de satisfação como SUS - System Usability Scale).
+    *   **[[Glossário/Linguagem Visual/metricas_e_keylines|Métricas]] Coletadas:** (ex: taxa de sucesso da tarefa, tempo na tarefa, erros, métricas de satisfação como SUS - System Usability Scale).
 
 4.  **Resultados/Descobertas (Findings):**
     *   Descrição detalhada dos problemas de usabilidade observados.
@@ -55,7 +55,7 @@ Este relatório é um entregável crucial para designers, desenvolvedores, geren
 - **Identificação de Problemas:** Descobre obstáculos e frustrações na experiência do usuário.
 - **Priorização de Melhorias:** Ajuda a focar os esforços de design e desenvolvimento nas áreas mais críticas.
 - **Comunicação Clara:** Apresenta as descobertas de forma estruturada e compreensível.
-- **[[Glossário/Padrões/create_account|Registro]] Histórico:** Serve como um [[Glossário/Padrões/create_account|registro]] do estado da usabilidade do produto em um determinado momento.
+- **[[Glossário/Padrões/create_account|Registro]] Histórico:** Serve como um registro do estado da usabilidade do produto em um determinado momento.
 - **Justificativa para Mudanças:** Fornece argumentos para justificar alterações no design.
 
 ## Quando Utilizar
@@ -75,9 +75,9 @@ Este relatório é um entregável crucial para designers, desenvolvedores, geren
 
 ## Relacionado
 
-- [Screener](./[[Glossário/Entregáveis/screener|screener]].md)
-- [Plano de Pesquisa (Research Plan)](./research_plan.md)
-- [Repositório de Pesquisa (Research Repository)](./research_repository.md)
+- [[Glossário/Entregáveis/screener|Screener]]
+- [[Glossário/Entregáveis/research_plan|Plano de Pesquisa (Research Plan)]]
+- [[Glossário/Entregáveis/research_repository|Repositório de Pesquisa (Research Repository)]]
 
 ## Referência Externa
 

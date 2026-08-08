@@ -45,7 +45,7 @@ O componente Loading / Spinner (Indicador de Carregamento) é um elemento visual
 
 ## Variações de Estilo
 
--   **Tamanho:** Spinners podem variar de pequenos (para [[Glossário/Elementos/botoes|botões]]) a grandes (para carregamento de página).
+-   **Tamanho:** Spinners podem variar de pequenos (para botões) a grandes (para carregamento de página).
 -   **[[Glossário/Linguagem Visual/cor|Cor]]:** Alinhada com a paleta da marca.
 -   **Velocidade da Animação.**
 

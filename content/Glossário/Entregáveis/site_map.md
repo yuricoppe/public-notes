@@ -16,7 +16,7 @@ Um mapa do site (site map) é um diagrama hierárquico que ilustra a estrutura d
 - **Estrutura Hierárquica:** Mostra as páginas principais, subpáginas e a relação entre elas (pai-filho).
 - **Níveis de Navegação:** Indica a profundidade da informação e como o usuário navega de uma seção para outra.
 - **Rótulos de Conteúdo:** Nomes claros e concisos para cada página ou seção.
-- **[[Glossário/Elementos/links|Links]] (Opcional):** Pode indicar os principais [[Glossário/Elementos/links|links]] de navegação entre as páginas.
+- **[[Glossário/Elementos/links|Links]] (Opcional):** Pode indicar os principais links de navegação entre as páginas.
 
 ## Benefícios
 
@@ -24,7 +24,7 @@ Um mapa do site (site map) é um diagrama hierárquico que ilustra a estrutura d
 - **Otimiza para SEO:** Facilita o rastreamento e indexação do site pelos motores de busca.
 - **Planejamento de Conteúdo:** Auxilia na organização lógica do conteúdo e na identificação de lacunas ou redundâncias.
 - **Comunicação da Estrutura:** Serve como referência para a equipe de design e desenvolvimento.
-- **Base para Design de UI/UX:** Informa o design da navegação principal, [[Glossário/Componentes/menu|menus]] e [[Glossário/Elementos/links|links]] internos.
+- **Base para Design de UI/UX:** Informa o design da navegação principal, [[Glossário/Componentes/menu|menus]] e links internos.
 
 ## Quando Utilizar
 
@@ -48,9 +48,9 @@ Um mapa do site (site map) é um diagrama hierárquico que ilustra a estrutura d
 
 ## Relacionado
 
-- [Wireflow](./[[Glossário/Entregáveis/wireflow|wireflow]].md)
-- [Fluxo do Usuário (User Flow)](./user_flow.md)
-- [Mapa de Ativos (Asset Map)](./asset_map.md)
+- [[Glossário/Entregáveis/wireflow|Wireflow]]
+- [[Glossário/Entregáveis/user_flow|Fluxo do Usuário (User Flow)]]
+- [[Glossário/Entregáveis/asset_map|Mapa de Ativos (Asset Map)]]
 
 ## Referência Externa
 

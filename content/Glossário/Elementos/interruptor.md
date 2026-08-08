@@ -1,5 +1,5 @@
 ---
-title: "interruptor"
+title: "Interruptor (Switch)"
 
 ---
 
@@ -20,28 +20,28 @@ Interruptores (ou toggles) são usados para alternar entre dois estados de uma c
 
 - **Interruptor Padrão:**
   - Descrição: Controle binário para ligar/desligar uma opção.
-  - Estilo (Ligado): [Ex: [[Glossário/Linguagem Visual/cor|Cor]] de destaque, indicador na posição "ligado"]
-  - Estilo (Desligado): [Ex: [[Glossário/Linguagem Visual/cor|Cor]] neutra, indicador na posição "desligado"]
+  - Estilo (Ligado): [Ex: Cor de destaque, indicador na posição "ligado"]
+  - Estilo (Desligado): [Ex: Cor neutra, indicador na posição "desligado"]
   - Tamanho: [Definir dimensões]
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Interruptor Padrão no Figma]
+  - Link para o Figma: [Link para Interruptor Padrão no Figma]
 
 - **Interruptor com Rótulo:**
   - Descrição: Inclui um texto descritivo adjacente ao controle.
   - Posição do Rótulo: [Esquerda/Direita]
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Interruptor com Rótulo no Figma]
+  - Link para o Figma: [Link para Interruptor com Rótulo no Figma]
 
 - **Interruptor Desabilitado:**
   - Descrição: Estado visual que indica que a opção não pode ser alterada no momento.
-  - Estilo: [Ex: Opacidade reduzida, [[Glossário/Linguagem Visual/cor|cores]] esmaecidas]
+  - Estilo: [Ex: Opacidade reduzida, cores esmaecidas]
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Interruptor Desabilitado no Figma]
+  - Link para o Figma: [Link para Interruptor Desabilitado no Figma]
 
 ## Status Geral
 
 **Status:** A definir
 
-## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Interruptores)
+## Link para o Figma (Visão Geral de Interruptores)
 
-[[[Glossário/Elementos/links|Link]] para a seção de Interruptores no Figma]
+[Link para a seção de Interruptores no Figma]

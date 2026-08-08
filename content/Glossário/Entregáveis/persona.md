@@ -1,5 +1,5 @@
 ---
-title: "persona"
+title: "Persona"
 
 ---
 
@@ -42,7 +42,7 @@ O objetivo principal de criar personas é:
 *   **[[Glossário/Entregáveis/qualitative_persona|Qualitative Persona]]:** Baseada em pesquisa qualitativa com um pequeno número de usuários.
 *   **[[Glossário/Entregáveis/statistical_persona|Statistical Persona]]:** Emerge da análise estatística de dados de uma pesquisa com uma grande amostra, informada por pesquisa qualitativa inicial.
 *   **[[Glossário/Entregáveis/antipersona|Antipersona]]:** Representa um grupo de usuários que poderia usar indevidamente um produto de forma a impactar negativamente os usuários-alvo e o negócio.
-*   **[[Glossário/Entregáveis/archetype|Archetype]]:** Uma representação abstrata de um tipo de usuário, resumindo comportamentos e motivações sem detalhes pessoais específicos como nomes ou fotos.
+*   **Archetype:** Uma representação abstrata de um tipo de usuário, resumindo comportamentos e motivações sem detalhes pessoais específicos como nomes ou fotos.
 *   **[[Glossário/Entregáveis/stakeholder_persona|Stakeholder Persona]]:** Um personagem fictício que representa um tipo de stakeholder do projeto.
 
 ## Principais Benefícios
@@ -69,7 +69,7 @@ O objetivo principal de criar personas é:
 *   Artigo Relacionado: [Personas vs. Archetypes](https://www.nngroup.com/articles/personas-vs-archetypes/)
 *   Artigo Relacionado: [3 Persona Types: Lightweight, Qualitative, and Statistical](https://www.nngroup.com/articles/persona-types/)
 *   Vídeo Relacionado: [Statistically-Generated Personas](https://www.nngroup.com/videos/statistically-generated-personas/)
-*   Veja também: [Antipersona](#[[Glossário/Entregáveis/antipersona|antipersona]].md), [Archetype](#[[Glossário/Entregáveis/archetype|archetype]].md), [Proto Persona](#) (será criado), [Qualitative Persona](#) (será criado), [Statistical Persona](#) (será criado), [Stakeholder Persona](#) (será criado), [Empathy Map](#empathy_map.md)
+*   Veja também: Antipersona, Archetype, Proto Persona, Qualitative Persona, Statistical Persona, Stakeholder Persona, [[Glossário/Entregáveis/empathy_map|Empathy Map]]
 
 ---
 

@@ -39,14 +39,14 @@ Cada componente de UI documentado neste diretório (geralmente em seu próprio a
 - **Visualização:** Exemplo visual (screenshot, [[Glossário/Elementos/links|link]] para Figma).
 - **Variações e Estados:** Diferentes aparências (ex: primário, secundário) e estados (ex: normal, hover, active, disabled, erro).
 - **Especificações de Uso:** Quando e como usar o componente.
-- **Opções/Propriedades Configuráveis:** Parâmetros que podem ser ajustados (ex: texto, [[Glossário/Linguagem Visual/iconografia|ícone]], [[Glossário/Linguagem Visual/cor|cor]]).
+- **Opções/Propriedades Configuráveis:** Parâmetros que podem ser ajustados (ex: texto, ícone, [[Glossário/Linguagem Visual/cor|cor]]).
 - **Boas Práticas (Faça e Não Faça).**
 - **Diretrizes de Acessibilidade (ARIA, navegação por teclado, etc.).**
 - **Trechos de [[Glossário/Elementos/codigo|Código]] (Opcional):** Exemplos de implementação em HTML/CSS/JS, se aplicável.
 
-## Relação com Outras Partes do [[Glossário/Entregáveis/design_system|Design System]]
+## Relação com Outras Partes do Design System
 
-- **Elementos de UI (`ui_elements/`):** Componentes de UI são construídos utilizando os elementos de UI básicos ([[Glossário/Linguagem Visual/cor|cores]], [[Glossário/Linguagem Visual/tipografia|tipografia]], [[Glossário/Linguagem Visual/iconografia|ícones]]).
+- **Elementos de UI (`ui_elements/`):** Componentes de UI são construídos utilizando os elementos de UI básicos (cores, [[Glossário/Linguagem Visual/tipografia|tipografia]], ícones).
 - **Templates de Página (`page_templates/`):** Componentes de UI são os blocos de construção que preenchem as estruturas definidas nos templates de página.
 
 Consulte os arquivos individuais neste diretório para as especificações de cada componente.

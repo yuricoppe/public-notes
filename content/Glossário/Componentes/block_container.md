@@ -17,11 +17,11 @@ O componente "Block" ou "Container" refere-se a um agrupador visual genérico us
 
 ## Elementos Comuns
 
--   **Conteúdo Interno:** Qualquer combinação de texto, [[Glossário/Elementos/imagem|imagens]], outros componentes de UI.
+-   **Conteúdo Interno:** Qualquer combinação de texto, imagens, outros componentes de UI.
 -   **(Opcional) Padding:** [[Glossário/Linguagem Visual/espacamento|Espaçamento]] interno entre a borda do bloco e seu conteúdo.
--   **(Opcional) Margin:** [[Glossário/Linguagem Visual/espacamento|Espaçamento]] externo entre o bloco e outros elementos.
--   **(Opcional) Background:** [[Glossário/Linguagem Visual/cor|Cor]] de fundo, [[Glossário/Elementos/imagem|imagem]] de fundo ou gradiente.
--   **(Opcional) Border:** Linha ao redor do bloco (com espessura, estilo e [[Glossário/Linguagem Visual/cor|cor]] variáveis).
+-   **(Opcional) Margin:** Espaçamento externo entre o bloco e outros elementos.
+-   **(Opcional) Background:** [[Glossário/Linguagem Visual/cor|Cor]] de fundo, imagem de fundo ou gradiente.
+-   **(Opcional) Border:** Linha ao redor do bloco (com espessura, estilo e cor variáveis).
 -   **(Opcional) Box Shadow:** Sombra para dar profundidade.
 -   **(Opcional) Border Radius:** Cantos arredondados.
 

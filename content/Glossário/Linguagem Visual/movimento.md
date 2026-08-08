@@ -1,5 +1,5 @@
 ---
-title: "movimento"
+title: "Movimento (Motion)"
 
 ---
 
@@ -45,7 +45,7 @@ Define os princípios de animação e transições na interface, como timing, ea
 - **Slide (Deslizar):** Mover elementos para dentro/fora da tela ou para novas posições.
 - **Scale (Escalar):** Aumentar/diminuir o tamanho de elementos (ex: para [[Glossário/Componentes/dialog|modais]], pop-ups).
 - **Expand/Collapse (Expandir/Recolher):** Para acordeões, [[Glossário/Componentes/menu|menus]], etc.
-- **Mudança de [[Glossário/Linguagem Visual/cor|Cor]]/Estilo:** Transições suaves entre estados visuais (ex: hover em [[Glossário/Elementos/botoes|botões]]).
+- **Mudança de [[Glossário/Linguagem Visual/cor|Cor]]/Estilo:** Transições suaves entre estados visuais (ex: hover em botões).
 
 ### Performance
 
@@ -55,33 +55,33 @@ Define os princípios de animação e transições na interface, como timing, ea
 
 ## Exemplos de Aplicação
 
-- **Transição de Hover em [[Glossário/Elementos/botoes|Botões]]:**
-  - Descrição: Feedback visual sutil ao passar o mouse sobre um [[Glossário/Elementos/botoes|botão]], indicando interatividade.
+- **Transição de Hover em Botões:**
+  - Descrição: Feedback visual sutil ao passar o mouse sobre um botão, indicando interatividade.
   - Duração: [Ex: 150ms]
   - Easing: [Ex: ease-out]
   - Propriedades Animadas: [Ex: `background-color`, `box-shadow`, `transform: scale(1.05)`]
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma/Exemplo: [[[Glossário/Elementos/links|Link]] para exemplo de animação no Figma ou [[Glossário/Entregáveis/prototype|protótipo]]]
+  - Link para o Figma/Exemplo: [Link para exemplo de animação no Figma ou protótipo]
 
-- **Abertura de [[Glossário/Componentes/dialog|Modal]]:**
-  - Descrição: Animação ao exibir um [[Glossário/Componentes/dialog|modal]], geralmente combinando fade e scale para uma entrada suave.
+- **Abertura de Modal:**
+  - Descrição: Animação ao exibir um modal, geralmente combinando fade e scale para uma entrada suave.
   - Duração: [Ex: 300ms]
   - Easing: [Ex: ease-in-out]
   - Tipo: [Ex: Scale-in com Fade-in do overlay]
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma/Exemplo: [[[Glossário/Elementos/links|Link]] para exemplo de animação no Figma ou [[Glossário/Entregáveis/prototype|protótipo]]]
+  - Link para o Figma/Exemplo: [Link para exemplo de animação no Figma ou protótipo]
 
 - **Carregamento ([[Glossário/Componentes/loading_spinner|Loading Spinner]]/Indicator):**
   - Descrição: Animação contínua para indicar que o sistema está processando algo.
   - Tipo: [Ex: Rotação, Pulsar]
   - Easing: [Ex: linear para rotação contínua]
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma/Exemplo: [[[Glossário/Elementos/links|Link]] para animação de carregamento]
+  - Link para o Figma/Exemplo: [Link para animação de carregamento]
 
 ## Status Geral
 
 **Status:** A definir (Definir após os componentes básicos, pois muitas animações são aplicadas a eles)
 
-## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Movimento)
+## Link para o Figma (Visão Geral de Movimento)
 
-[[[Glossário/Elementos/links|Link]] para as diretrizes de Movimento no Figma ou documentação de animação]
+[Link para as diretrizes de Movimento no Figma ou documentação de animação]

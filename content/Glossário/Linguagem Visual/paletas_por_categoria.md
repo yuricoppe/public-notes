@@ -9,7 +9,7 @@ Nesta seção, detalhamos as paletas de [[Glossário/Linguagem Visual/cor|cores]
 
 ## Introdução
 
-A definição de paletas de [[Glossário/Linguagem Visual/cor|cores]] por categoria ajuda a:
+A definição de paletas de cores por categoria ajuda a:
 - Manter a consistência visual.
 - Facilitar a rápida identificação de elementos relacionados.
 - Guiar as decisões de design em novos componentes e telas.
@@ -18,9 +18,9 @@ A definição de paletas de [[Glossário/Linguagem Visual/cor|cores]] por catego
 
 ### Paleta Principal (Core Palette)
 
-- **Descrição:** [[Glossário/Linguagem Visual/cor|Cores]] fundamentais que representam a marca.
+- **Descrição:** Cores fundamentais que representam a marca.
 - **Uso:** Logotipo, elementos de navegação primários, chamadas para ação principais.
-- **Exemplos de [[Glossário/Linguagem Visual/cor|Cores]]:**
+- **Exemplos de Cores:**
     - `Primária-500`: #XXXXXX
     - `Secundária-500`: #XXXXXX
     - `Acento-500`: #XXXXXX
@@ -29,7 +29,7 @@ A definição de paletas de [[Glossário/Linguagem Visual/cor|cores]] por catego
 
 - **Descrição:** Tons de cinza, branco e preto usados para texto, fundos e divisores.
 - **Uso:** Textos, fundos de página, bordas, [[Glossário/Linguagem Visual/iconografia|ícones]] neutros.
-- **Exemplos de [[Glossário/Linguagem Visual/cor|Cores]]:**
+- **Exemplos de Cores:**
     - `Neutro-900 (Texto Principal)`: #XXXXXX
     - `Neutro-700 (Texto Secundário)`: #XXXXXX
     - `Neutro-100 (Fundo Principal)`: #XXXXXX
@@ -41,58 +41,58 @@ Usadas para comunicar estados do sistema como sucesso, erro, aviso e informaçã
 
 #### Sucesso (Success)
 
-- **Descrição:** [[Glossário/Linguagem Visual/cor|Cores]] que indicam uma ação bem-sucedida ou estado positivo.
+- **Descrição:** Cores que indicam uma ação bem-sucedida ou estado positivo.
 - **Uso:** [[Glossário/Componentes/messaging|Mensagens]] de confirmação, validações corretas.
-- **Exemplos de [[Glossário/Linguagem Visual/cor|Cores]]:**
+- **Exemplos de Cores:**
     - `Sucesso-500`: #XXXXXX
     - `Sucesso-100 (Fundo Suave)`: #XXXXXX
 
 #### Erro (Error/Danger)
 
-- **Descrição:** [[Glossário/Linguagem Visual/cor|Cores]] que indicam um erro, falha ou ação perigosa.
-- **Uso:** [[Glossário/Componentes/messaging|Mensagens]] de erro, alertas críticos, validações incorretas.
-- **Exemplos de [[Glossário/Linguagem Visual/cor|Cores]]:**
+- **Descrição:** Cores que indicam um erro, falha ou ação perigosa.
+- **Uso:** Mensagens de erro, alertas críticos, validações incorretas.
+- **Exemplos de Cores:**
     - `Erro-500`: #XXXXXX
     - `Erro-100 (Fundo Suave)`: #XXXXXX
 
 #### Aviso (Warning)
 
-- **Descrição:** [[Glossário/Linguagem Visual/cor|Cores]] que indicam um aviso ou uma situação que requer atenção.
+- **Descrição:** Cores que indicam um aviso ou uma situação que requer atenção.
 - **Uso:** Alertas não críticos, sugestões.
-- **Exemplos de [[Glossário/Linguagem Visual/cor|Cores]]:**
+- **Exemplos de Cores:**
     - `Aviso-500`: #XXXXXX
     - `Aviso-100 (Fundo Suave)`: #XXXXXX
 
 #### Informação (Information)
 
-- **Descrição:** [[Glossário/Linguagem Visual/cor|Cores]] usadas para fornecer informações neutras ou dicas.
+- **Descrição:** Cores usadas para fornecer informações neutras ou dicas.
 - **Uso:** Caixas de informação, tooltips informativos.
-- **Exemplos de [[Glossário/Linguagem Visual/cor|Cores]]:**
+- **Exemplos de Cores:**
     - `Info-500`: #XXXXXX
     - `Info-100 (Fundo Suave)`: #XXXXXX
 
 ### Paletas de Dados e Visualização (Data & Visualization Palettes)
 
-- **Descrição:** [[Glossário/Linguagem Visual/cor|Cores]] usadas em gráficos, dashboards e outras visualizações de dados.
+- **Descrição:** Cores usadas em gráficos, dashboards e outras visualizações de dados.
 - **Uso:** Gráficos de barra, pizza, linhas, [[Glossário/Componentes/maps|mapas]] de calor.
 - **Considerações:** Devem ser acessíveis e distinguíveis.
-- **Exemplos de Categorias de [[Glossário/Linguagem Visual/cor|Cores]]:**
+- **Exemplos de Categorias de Cores:**
     - Sequencial
     - Divergente
     - Qualitativa
 
 ## Acessibilidade
 
-Ao definir e aplicar paletas de [[Glossário/Linguagem Visual/cor|cores]]:
+Ao definir e aplicar paletas de cores:
 - **Contraste:** Garantir que todas as combinações de texto e fundo atendam aos mínimos de contraste WCAG AA, preferencialmente AAA.
 - **Daltonismo:** Testar as paletas para diferentes tipos de daltonismo.
 
 ## Ferramentas e Recursos
 
-- [[Glossário/Elementos/links|Link]] para a biblioteca de swatches no Figma.
+- Link para a biblioteca de swatches no Figma.
 - Ferramentas de verificação de contraste.
 
 ## Próximos Passos
 
 - Detalhar exemplos específicos de aplicação para cada paleta.
-- Incluir os códigos hexadecimais finais para todas as [[Glossário/Linguagem Visual/cor|cores]].
+- Incluir os códigos hexadecimais finais para todas as cores.

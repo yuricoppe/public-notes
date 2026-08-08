@@ -1,5 +1,5 @@
 ---
-title: "tipografia"
+title: "Tipografia (Typography)"
 
 ---
 
@@ -26,7 +26,7 @@ Define as famílias tipográficas, pesos, tamanhos, alturas de linha e [[Glossá
 ### Escala Tipográfica
 
 - Definir uma escala modular para tamanhos de fonte (ex: baseada em uma proporção como 1.2 ou 1.4) para criar harmonia e consistência entre os diferentes níveis de texto.
-- A escala deve incluir tamanhos para H1, H2, H3, H4, H5, H6, [[Glossário/Elementos/paragrafo|parágrafos]], texto de destaque (lead), legendas, texto pequeno (small), etc.
+- A escala deve incluir tamanhos para H1, H2, H3, H4, H5, H6, parágrafos, texto de destaque (lead), legendas, texto pequeno (small), etc.
 
 ### Pesos e Estilos (Weights & Types)
 
@@ -43,7 +43,7 @@ Define as famílias tipográficas, pesos, tamanhos, alturas de linha e [[Glossá
 
 - O número ideal de caracteres por linha para conforto de leitura (geralmente entre 45-75 caracteres).
 
-### [[Glossário/Linguagem Visual/espacamento|Espaçamento]] entre Letras (Letter [[Glossário/Linguagem Visual/espacamento|Spacing]] / Tracking)
+### Espaçamento entre Letras (Letter Spacing / Tracking)
 
 - Ajustes sutis podem ser necessários para títulos ou textos em caixa alta para melhorar a legibilidade.
 
@@ -73,7 +73,7 @@ Define as famílias tipográficas, pesos, tamanhos, alturas de linha e [[Glossá
   - Margem Inferior: [Ex: 1.5rem]
   - Outras Propriedades: [Ex: `text-transform: uppercase;` - se aplicável]
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para H1 no Figma]
+  - Link para o Figma: [Link para H1 no Figma]
 
 - **Corpo de Texto (Paragraph):**
   - Descrição: Usado para blocos de texto principais, como artigos e descrições detalhadas.
@@ -83,7 +83,7 @@ Define as famílias tipográficas, pesos, tamanhos, alturas de linha e [[Glossá
   - Altura de Linha: [Ex: 1.6]
   - Margem Inferior: [Ex: 1rem]
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Corpo de Texto no Figma]
+  - Link para o Figma: [Link para Corpo de Texto no Figma]
 
 - **[[Glossário/Componentes/legend|Legenda]] ([[Glossário/Componentes/caption|Caption]]):**
   - Descrição: Texto explicativo para [[Glossário/Elementos/imagem|imagens]], tabelas ou outros elementos.
@@ -91,14 +91,14 @@ Define as famílias tipográficas, pesos, tamanhos, alturas de linha e [[Glossá
   - Peso: [Ex: Regular ou Italic]
   - Tamanho: [Ex: 0.875rem / 14px]
   - Altura de Linha: [Ex: 1.4]
-  - [[Glossário/Linguagem Visual/cor|Cor]]: [Ex: [[Glossário/Linguagem Visual/cor|Cor]] neutra mais clara que o corpo do texto]
+  - [[Glossário/Linguagem Visual/cor|Cor]]: [Ex: Cor neutra mais clara que o corpo do texto]
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para [[Glossário/Componentes/legend|Legenda]] no Figma]
+  - Link para o Figma: [Link para Legenda no Figma]
 
 ## Status Geral
 
 **Status:** A definir (Crucial definir a escala e famílias antes de estilizar componentes)
 
-## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Tipografia)
+## Link para o Figma (Visão Geral de Tipografia)
 
-[[[Glossário/Elementos/links|Link]] para a seção de Tipografia no Figma]
+[Link para a seção de Tipografia no Figma]

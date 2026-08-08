@@ -1,5 +1,5 @@
 ---
-title: "links"
+title: "Links"
 
 ---
 
@@ -20,24 +20,24 @@ Links são usados para navegação, permitindo que os usuários acessem outras p
 
 - **Link Padrão (Inline):**
   - Descrição: Link de texto dentro de um bloco de conteúdo.
-  - [[Glossário/Linguagem Visual/cor|Cor]] (Normal): [[[Glossário/Linguagem Visual/cor|Cor]] do Link Padrão]
-  - [[Glossário/Linguagem Visual/cor|Cor]] (Hover): [[[Glossário/Linguagem Visual/cor|Cor]] do Link Hover]
+  - Cor (Normal): [Cor do Link Padrão]
+  - Cor (Hover): [Cor do Link Hover]
   - Decoração (Normal): [Ex: Sublinhado]
   - Decoração (Hover): [Ex: Sem sublinhado ou sublinhado mais forte]
   - Status: A definir
   - Link para o Figma: [Link para Link Padrão no Figma]
 
 - **Link Externo:**
-  - Descrição: Link que leva o usuário para fora do site/aplicação atual. Pode incluir um [[Glossário/Linguagem Visual/iconografia|ícone]] indicativo.
-  - [[Glossário/Linguagem Visual/iconografia|Ícone]]: [Ex: [[Glossário/Linguagem Visual/iconografia|Ícone]] de "nova aba" ou "link externo"]
+  - Descrição: Link que leva o usuário para fora do site/aplicação atual. Pode incluir um ícone indicativo.
+  - Ícone: [Ex: Ícone de "nova aba" ou "link externo"]
   - Status: A definir
   - Link para o Figma: [Link para Link Externo no Figma]
 
 - **Link como [[Glossário/Elementos/botoes|Botão]] (Standalone):**
-  - Descrição: Um link que é estilizado para parecer um [[Glossário/Elementos/botoes|botão]], mas semanticamente é uma navegação.
-  - Estilo: Similar a um [[Glossário/Elementos/botoes|botão]] terciário ou secundário.
+  - Descrição: Um link que é estilizado para parecer um botão, mas semanticamente é uma navegação.
+  - Estilo: Similar a um botão terciário ou secundário.
   - Status: A definir
-  - Link para o Figma: [Link para Link como [[Glossário/Elementos/botoes|Botão]] no Figma]
+  - Link para o Figma: [Link para Link como Botão no Figma]
 
 ## Status Geral
 

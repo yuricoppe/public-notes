@@ -17,17 +17,17 @@ Embora frequentemente associado ao design visual ([[Glossário/Linguagem Visual/
 
 **1. Identidade Visual da Marca:**
    - Logo (variações, uso correto e incorreto).
-   - Paleta de [[Glossário/Linguagem Visual/cor|Cores]] (primárias, secundárias, neutras, com códigos hex, RGB, CMYK).
-   - [[Glossário/Linguagem Visual/tipografia|Tipografia]] (famílias tipográficas, hierarquia, tamanhos, pesos, [[Glossário/Linguagem Visual/espacamento|espaçamento]]).
-   - [[Glossário/Linguagem Visual/iconografia|Iconografia]] (estilo, biblioteca de [[Glossário/Linguagem Visual/iconografia|ícones]], uso).
+   - Paleta de Cores (primárias, secundárias, neutras, com códigos hex, RGB, CMYK).
+   - Tipografia (famílias tipográficas, hierarquia, tamanhos, pesos, [[Glossário/Linguagem Visual/espacamento|espaçamento]]).
+   - Iconografia (estilo, biblioteca de ícones, uso).
    - Imaginário (estilo de [[Glossário/Linguagem Visual/fotografia|fotografia]], ilustrações, diretrizes de uso).
 
 **2. Elementos de Interface do Usuário (UI Elements):**
    - [[Glossário/Elementos/botoes|Botões]] (estados, tamanhos, tipos).
-   - [[Glossário/Padrões/form_structure|Formulários]] (campos de entrada, seletores, [[Glossário/Elementos/form_controls|caixas de seleção]], [[Glossário/Elementos/botoes|botões]] de rádio).
+   - [[Glossário/Padrões/form_structure|Formulários]] (campos de entrada, seletores, [[Glossário/Elementos/form_controls|caixas de seleção]], botões de rádio).
    - Navegação ([[Glossário/Componentes/menu|menus]], abas, [[Glossário/Componentes/breadcrumbs|breadcrumbs]]).
    - [[Glossário/Componentes/cards|Cards]], [[Glossário/Componentes/dialog|modais]], tooltips, etc.
-   - [[Glossário/Linguagem Visual/espacamento|Espaçamento]] e Grid (diretrizes de layout).
+   - Espaçamento e Grid (diretrizes de layout).
 
 **3. Tom de Voz e Linguagem (Content Style Guide):**
    - Princípios de Tom de Voz (ex: amigável, formal, técnico).
@@ -61,9 +61,9 @@ Embora frequentemente associado ao design visual ([[Glossário/Linguagem Visual/
 - Quando várias equipes ou indivíduos estão trabalhando no mesmo produto/marca.
 - Para servir de base para um [[Glossário/Entregáveis/design_system|Design System]] mais robusto.
 
-## Style Guide vs. [[Glossário/Entregáveis/design_system|Design System]]
+## Style Guide vs. Design System
 
-Um Guia de Estilo foca nas diretrizes e na aparência visual e de conteúdo. Um [[Glossário/Entregáveis/design_system|Design System]] é mais abrangente; ele inclui um Guia de Estilo, mas também uma biblioteca de componentes de UI reutilizáveis (com [[Glossário/Elementos/codigo|código]]), padrões de design, e às vezes ferramentas e processos. O Guia de Estilo é um componente fundamental de um [[Glossário/Entregáveis/design_system|Design System]].
+Um Guia de Estilo foca nas diretrizes e na aparência visual e de conteúdo. Um Design System é mais abrangente; ele inclui um Guia de Estilo, mas também uma biblioteca de componentes de UI reutilizáveis (com [[Glossário/Elementos/codigo|código]]), padrões de design, e às vezes ferramentas e processos. O Guia de Estilo é um componente fundamental de um Design System.
 
 ## Considerações
 
@@ -74,8 +74,8 @@ Um Guia de Estilo foca nas diretrizes e na aparência visual e de conteúdo. Um 
 
 ## Relacionado
 
-- [Design System](./design_system.md)
-- [Mood Board](./mood_board.md)
+- [[Glossário/Entregáveis/design_system|Design System]]
+- [[Glossário/Entregáveis/mood_board|Mood Board]]
 
 ## Referência Externa
 

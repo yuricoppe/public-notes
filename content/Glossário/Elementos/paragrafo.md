@@ -1,5 +1,5 @@
 ---
-title: "paragrafo"
+title: "Parágrafo (Paragraph)"
 
 ---
 
@@ -26,32 +26,32 @@ Utilizado para exibir blocos de texto padrão em todo o conteúdo do site ou apl
 
 - **Parágrafo Padrão:**
   - Descrição: Estilo base para todo texto corrido. Deve ser o mais comum.
-  - Fonte: [Referenciar Token/Variável da Fonte de Leitura Padrão definida em [[Glossário/Linguagem Visual/tipografia|Tipografia]]]
-  - Tamanho: [Referenciar Token/Variável do Tamanho de Corpo de Texto definido em [[Glossário/Linguagem Visual/tipografia|Tipografia]], ex: 1rem / 16px]
+  - Fonte: [Referenciar Token/Variável da Fonte de Leitura Padrão definida em Tipografia]
+  - Tamanho: [Referenciar Token/Variável do Tamanho de Corpo de Texto definido em Tipografia, ex: 1rem / 16px]
   - Altura da Linha: [Referenciar Token/Variável da Altura de Linha para Corpo de Texto, ex: 1.6]
-  - [[Glossário/Linguagem Visual/cor|Cor]]: [Referenciar Token/Variável da [[Glossário/Linguagem Visual/cor|Cor]] de Texto Padrão definida em Cor, ex: `var(--cor-neutra-800)`]
+  - [[Glossário/Linguagem Visual/cor|Cor]]: [Referenciar Token/Variável da Cor de Texto Padrão definida em Cor, ex: `var(--cor-neutra-800)`]
   - Margem Inferior: [Referenciar Token/Variável de Espaçamento, ex: `var(--espaco-stack-m)`]
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Parágrafo Padrão no Figma]
+  - Link para o Figma: [Link para Parágrafo Padrão no Figma]
 
 - **Parágrafo com Ênfase:**
   - Descrição: Utilizado para destacar palavras ou frases específicas dentro de um parágrafo usando `<strong>` (negrito) para forte importância ou `<em>` (itálico) para ênfase.
   - Estilo Negrito: Deve usar o peso correspondente da família tipográfica (ex: Semibold ou Bold).
   - Estilo Itálico: Deve usar a variação itálica da família tipográfica.
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para estilos de ênfase no Figma]
+  - Link para o Figma: [Link para estilos de ênfase no Figma]
 
 - **Parágrafo Pequeno (Small/Fine Print):**
   - Descrição: Para textos secundários, notas de [[Glossário/Componentes/footer|rodapé]], ou informações menos importantes que ainda precisam ser legíveis.
   - Tamanho: [Ligeiramente menor que o padrão, ex: 0.875rem / 14px]
   - Altura da Linha: [Ajustada para o tamanho menor, ex: 1.5]
-  - [[Glossário/Linguagem Visual/cor|Cor]]: [Pode ser um tom mais claro de cinza, mas mantendo contraste]
+  - Cor: [Pode ser um tom mais claro de cinza, mas mantendo contraste]
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Parágrafo Pequeno no Figma]
+  - Link para o Figma: [Link para Parágrafo Pequeno no Figma]
 
 ## Melhores Práticas
 
-- Evitar blocos de texto muito longos sem quebras (títulos, [[Glossário/Elementos/imagem|imagens]], [[Glossário/Elementos/listas|listas]]) para não sobrecarregar o leitor.
+- Evitar blocos de texto muito longos sem quebras (títulos, [[Glossário/Elementos/imagem|imagens]], listas) para não sobrecarregar o leitor.
 - Manter a consistência no estilo dos parágrafos em toda a aplicação.
 - Testar a legibilidade em diferentes dispositivos e tamanhos de tela.
 
@@ -59,6 +59,6 @@ Utilizado para exibir blocos de texto padrão em todo o conteúdo do site ou apl
 
 **Status:** A definir (Fundamental, pois é a base para a maior parte do conteúdo textual)
 
-## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Parágrafos)
+## Link para o Figma (Visão Geral de Parágrafos)
 
-[[[Glossário/Elementos/links|Link]] para a seção de Parágrafos e estilos de texto no Figma]
+[Link para a seção de Parágrafos e estilos de texto no Figma]

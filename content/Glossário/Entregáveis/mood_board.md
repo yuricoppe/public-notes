@@ -16,7 +16,7 @@ O principal objetivo de um mood board é estabelecer uma direção visual e/ou c
 1.  **Definir o Tema/Conceito:** Clarificar o objetivo do mood board (ex: o visual de um novo website, a sensação de uma campanha de marca, o estilo de um espaço físico).
 2.  **Coletar Inspiração:** Reunir diversos elementos visuais e textuais que evocam o tema desejado. Isso pode incluir:
     *   **[[Glossário/Elementos/imagem|Imagens]]:** Fotografias, ilustrações, texturas, padrões.
-    *   **[[Glossário/Linguagem Visual/cor|Cores]]:** [[Glossário/Linguagem Visual/paletas_por_categoria|Paletas]] de [[Glossário/Linguagem Visual/cor|cores]], amostras de [[Glossário/Linguagem Visual/cor|cores]].
+    *   **[[Glossário/Linguagem Visual/cor|Cores]]:** [[Glossário/Linguagem Visual/paletas_por_categoria|Paletas]] de cores, amostras de cores.
     *   **[[Glossário/Linguagem Visual/tipografia|Tipografia]]:** Exemplos de fontes, estilos de texto.
     *   **Palavras-Chave:** Adjetivos, frases, citações que descrevem o humor ou conceito.
     *   **Materiais (para mood boards físicos):** Amostras de tecido, papel, texturas.
@@ -52,7 +52,7 @@ O principal objetivo de um mood board é estabelecer uma direção visual e/ou c
 
 ## Referências (NN/g)
 
-*   Veja também: [Style Guide](#) (Nota: [[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/style_guide|Style Guide]] será atualizado quando o documento correspondente for criado), [Design System](#design_system.md)
+*   Veja também: [[Glossário/Entregáveis/style_guide|Style Guide]], [[Glossário/Entregáveis/design_system|Design System]]
 
 ---
 

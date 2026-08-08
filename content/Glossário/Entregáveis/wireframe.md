@@ -1,5 +1,5 @@
 ---
-title: "wireframe"
+title: "Wireframe"
 
 ---
 
@@ -16,7 +16,7 @@ O principal objetivo de um wireframe é definir a arquitetura da informação de
 ## Componentes Chave
 
 - **Estrutura e Layout:** Define as principais áreas da tela e como os elementos estão organizados (ex: [[Glossário/Elementos/cabecalhos|cabeçalho]], [[Glossário/Componentes/footer|rodapé]], barra lateral, área de conteúdo).
-- **Conteúdo (Placeholder):** Indica onde o texto, [[Glossário/Elementos/imagem|imagens]] e outros tipos de conteúdo irão, muitas vezes usando caixas cinzas (para [[Glossário/Elementos/imagem|imagens]]) e texto lorem ipsum ou rótulos genéricos.
+- **Conteúdo (Placeholder):** Indica onde o texto, imagens e outros tipos de conteúdo irão, muitas vezes usando caixas cinzas (para imagens) e texto lorem ipsum ou rótulos genéricos.
 - **Elementos de Interface:** Representação básica de [[Glossário/Elementos/botoes|botões]], campos de [[Glossário/Padrões/form_structure|formulário]], [[Glossário/Componentes/menu|menus]], [[Glossário/Elementos/links|links]] e outros controles interativos.
 - **Hierarquia da Informação:** Mostra a importância relativa dos diferentes elementos na tela.
 - **Navegação:** Indica como o usuário pode se mover para outras partes do sistema.
@@ -37,17 +37,17 @@ O principal objetivo de um wireframe é definir a arquitetura da informação de
 - **Para explorar diferentes abordagens de layout para uma tela.**
 - **Para comunicar a estrutura e funcionalidade para stakeholders, designers e desenvolvedores.
 - **Como base para testes de usabilidade de baixa fidelidade (ex: testes de wireframe em papel ou interativos).
-- **Antes de passar para [[Glossário/Entregáveis/mockup|mockups]] de alta fidelidade ou [[Glossário/Entregáveis/prototype|protótipos]].**
+- **Antes de passar para mockups de alta fidelidade ou [[Glossário/Entregáveis/prototype|protótipos]].**
 
 ## Tipos de Wireframes
 
 - **Baixa Fidelidade (Low-Fidelity):** Esboços rápidos, muitas vezes desenhados à mão ou com ferramentas digitais simples. Foco principal na ideia e estrutura geral.
 - **Média Fidelidade (Mid-Fidelity):** Mais detalhados, criados com software de design, com elementos mais definidos, mas ainda sem design visual elaborado.
-- **Alta Fidelidade (High-Fidelity Wireframes - menos comum):** Incluem mais detalhes e precisão, aproximando-se de um [[Glossário/Entregáveis/mockup|mockup]], mas ainda tecnicamente wireframes se o foco principal for estrutura e não o visual final.
+- **Alta Fidelidade (High-Fidelity Wireframes - menos comum):** Incluem mais detalhes e precisão, aproximando-se de um mockup, mas ainda tecnicamente wireframes se o foco principal for estrutura e não o visual final.
 
 ## Considerações
 
-- **Manter a Baixa Fidelidade (Visual):** Evitar adicionar [[Glossário/Linguagem Visual/cor|cores]], fontes finais ou [[Glossário/Elementos/imagem|imagens]] detalhadas para não desviar o foco.
+- **Manter a Baixa Fidelidade (Visual):** Evitar adicionar cores, fontes finais ou imagens detalhadas para não desviar o foco.
 - **Clareza sobre Interatividade:** Indicar claramente quais elementos são clicáveis ou interativos.
 - **Consistência:** Usar uma simbologia consistente para os diferentes elementos.
 - **Anotações:** Usar anotações para explicar comportamentos ou funcionalidades não óbvias.
@@ -55,9 +55,9 @@ O principal objetivo de um wireframe é definir a arquitetura da informação de
 
 ## Relacionado
 
-- [Mockup](./[[Glossário/Entregáveis/mockup|mockup]].md)
-- [Protótipo (Prototype)](./[[Glossário/Entregáveis/prototype|prototype]].md)
-- [Wireflow](./[[Glossário/Entregáveis/wireflow|wireflow]].md)
+- [[Glossário/Entregáveis/mockup|Mockup]]
+- [[Glossário/Entregáveis/prototype|Protótipo (Prototype)]]
+- [[Glossário/Entregáveis/wireflow|Wireflow]]
 
 ## Referência Externa
 

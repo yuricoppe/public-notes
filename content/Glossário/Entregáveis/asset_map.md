@@ -51,12 +51,12 @@ Um **Asset Map (Mapa de Ativos)** é um método de visualização cronológica e
 *   Ao planejar o redesign de uma jornada ou fluxo específico.
 *   Para garantir consistência em experiências multicanal.
 *   Quando diferentes equipes são responsáveis por diferentes partes da jornada do usuário.
-*   Como preparação para a criação de [Journey Maps](#) mais detalhados.
+*   Como preparação para a criação de [[Glossário/Entregáveis/journey_map|Journey Maps]] mais detalhados.
 
 ## Referências (NN/g)
 
 *   Artigo Relacionado: [Asset Mapping for Experience Consistency](https://www.nngroup.com/articles/asset-mapping-experience-consistency/)
-*   Veja também: [Journey Map](#), [Wireflow](#) (Nota: [[Glossário/Elementos/links|Links]] serão atualizados quando os documentos correspondentes forem criados)
+*   Veja também: Journey Map, [[Glossário/Entregáveis/wireflow|Wireflow]]
 
 ---
 

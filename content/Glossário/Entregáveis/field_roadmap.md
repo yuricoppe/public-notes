@@ -5,9 +5,9 @@ title: "field roadmap"
 
 ## Field Roadmap (Roadmap de Campo)
 
-Um **Field Roadmap (Roadmap de Campo)** é um tipo de roadmap de UX que se concentra nos problemas que uma equipe de UX planeja resolver para os usuários dentro de um "campo" ou área de foco específica do produto ou serviço. Diferentemente de um [Product Roadmap](./product_roadmap.md) que geralmente [[Glossário/Elementos/listas|lista]] funcionalidades e datas de lançamento, um Field Roadmap é orientado a problemas e temas.
+Um **Field Roadmap (Roadmap de Campo)** é um tipo de roadmap de UX que se concentra nos problemas que uma equipe de UX planeja resolver para os usuários dentro de um "campo" ou área de foco específica do produto ou serviço. Diferentemente de um [[Glossário/Entregáveis/product_roadmap|Product Roadmap]] que geralmente [[Glossário/Elementos/listas|lista]] funcionalidades e datas de lançamento, um Field Roadmap é orientado a problemas e temas.
 
-Ele é um dos três tipos de roadmaps em UX e design de produto identificados pelo Nielsen Norman Group, sendo os outros o [Product Roadmap](./product_roadmap.md) e o [Specialty Roadmap](./specialty_roadmap.md).
+Ele é um dos três tipos de roadmaps em UX e design de produto identificados pelo Nielsen Norman Group, sendo os outros o Product Roadmap e o [[Glossário/Entregáveis/specialty_roadmap|Specialty Roadmap]].
 
 ## Propósito Principal
 
@@ -21,7 +21,7 @@ Os principais objetivos de um Field Roadmap são:
 
 ## Características Chave
 
-*   **Orientado a Problemas do Usuário:** Em vez de listar "Funcionalidade X", [[Glossário/Elementos/listas|lista]] algo como "Resolver a dificuldade dos usuários em encontrar informações de contato" ou "Reduzir a complexidade do processo de [[Glossário/Padrões/purchase_checkout|checkout]]".
+*   **Orientado a Problemas do Usuário:** Em vez de listar "Funcionalidade X", lista algo como "Resolver a dificuldade dos usuários em encontrar informações de contato" ou "Reduzir a complexidade do processo de [[Glossário/Padrões/purchase_checkout|checkout]]".
 *   **Temático:** Os problemas podem ser agrupados em temas maiores de experiência.
 *   **Foco em Resultados para o Usuário:** Enfatiza o impacto positivo que a resolução desses problemas terá na experiência do usuário.
 *   **Horizonte de Tempo Flexível:** Geralmente usa horizontes de tempo mais amplos e flexíveis (ex: Agora, Próximo, Futuro ou Trimestres) em vez de datas de lançamento específicas para funcionalidades.
@@ -39,8 +39,8 @@ Os principais objetivos de um Field Roadmap são:
 
 ## Relação com Outros Roadmaps
 
-*   **[Product Roadmap](./product_roadmap.md):** O Field Roadmap informa o [[Glossário/Entregáveis/product_roadmap|Product Roadmap]]. Ao identificar e priorizar problemas do usuário, a equipe de UX pode influenciar quais funcionalidades são construídas. As soluções para os problemas do Field Roadmap podem se tornar itens no [[Glossário/Entregáveis/product_roadmap|Product Roadmap]].
-*   **[Specialty Roadmap](./specialty_roadmap.md):** É um subconjunto ainda mais focado do Field Roadmap, concentrando-se em problemas dentro de uma única especialidade de UX (ex: um roadmap apenas para pesquisa de usuários dentro do campo de "[[Glossário/Padrões/launch|onboarding]]").
+*   **Product Roadmap:** O Field Roadmap informa o Product Roadmap. Ao identificar e priorizar problemas do usuário, a equipe de UX pode influenciar quais funcionalidades são construídas. As soluções para os problemas do Field Roadmap podem se tornar itens no Product Roadmap.
+*   **Specialty Roadmap:** É um subconjunto ainda mais focado do Field Roadmap, concentrando-se em problemas dentro de uma única especialidade de UX (ex: um roadmap apenas para pesquisa de usuários dentro do campo de "onboarding").
 
 ## Principais Benefícios
 
@@ -60,7 +60,7 @@ Os principais objetivos de um Field Roadmap são:
 
 *   Artigo Relacionado: [3 Types of Roadmaps in UX and Product Design](https://www.nngroup.com/articles/3-types-roadmaps-ux-product-design/)
 *   Vídeo Relacionado: [3 Types of Roadmaps](https://www.nngroup.com/videos/3-types-roadmaps/)
-*   Veja também: [Product Roadmap](./product_roadmap.md), [Specialty Roadmap](./specialty_roadmap.md), [UX Roadmap](./ux_roadmap.md) (que é o termo mais geral)
+*   Veja também: Product Roadmap, Specialty Roadmap, [[Glossário/Entregáveis/ux_roadmap|UX Roadmap]] (que é o termo mais geral)
 
 ---
 

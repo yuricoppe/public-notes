@@ -17,7 +17,7 @@ O Hero Carousel (Carrossel de Destaque) é uma variação do componente Hero/Bil
 ## Elementos Comuns
 
 Cada slide dentro do carrossel geralmente contém os elementos de um Hero padrão:
--   **[[Glossário/Elementos/imagem|Imagem]] de Fundo ou Vídeo.**
+-   **Imagem de Fundo ou Vídeo.**
 -   **Título Principal (Headline).**
 -   **Subtítulo ou Descrição.**
 -   **Call to Action (CTA) Principal.**
@@ -31,7 +31,7 @@ Elementos específicos do Carrossel:
 
 ## Melhores Práticas
 
--   **Priorize Conteúdo Estático:** Um Hero estático bem projetado é geralmente mais eficaz. Use carrosséis apenas se houver uma forte justificativa de negócio e múltiplas [[Glossário/Componentes/messaging|mensagens]] de igual importância.
+-   **Priorize Conteúdo Estático:** Um Hero estático bem projetado é geralmente mais eficaz. Use carrosséis apenas se houver uma forte justificativa de negócio e múltiplas mensagens de igual importância.
 -   **Controle do Usuário é Essencial:**
     *   **Evite Rotação Automática:** Se usar, forneça controles claros de Pausa/Play. A rotação automática pode ser distrativa e os usuários podem perder conteúdo.
     *   A velocidade da rotação automática deve ser lenta o suficiente para leitura, mas não tão lenta que se torne tediosa.
@@ -40,7 +40,7 @@ Elementos específicos do Carrossel:
 -   **Primeiro Slide Mais Importante:** O primeiro slide é o mais visto. Coloque sua mensagem mais crucial nele.
 -   **Número Limitado de Slides:** Evitar muitos slides (idealmente 3-5 no máximo). Poucos usuários passam de todos eles.
 -   **Consistência Visual entre Slides:** Manter um design e layout consistentes, mudando apenas o conteúdo específico.
--   **Performance:** Otimizar [[Glossário/Elementos/imagem|imagens]]/vídeos para cada slide. Carregar apenas os assets do slide atual e talvez do próximo/anterior (lazy loading) para melhorar o tempo de carregamento inicial.
+-   **Performance:** Otimizar imagens/vídeos para cada slide. Carregar apenas os assets do slide atual e talvez do próximo/anterior (lazy loading) para melhorar o tempo de carregamento inicial.
 -   **Acessibilidade (a11y):**
     *   **Controles Acessíveis:** Todos os controles (setas, pontos, play/pause) devem ser operáveis por teclado e ter rótulos ARIA claros.
     *   **Anunciar Mudanças de Slide:** Para leitores de tela, as mudanças de slide (especialmente automáticas) devem ser anunciadas usando `aria-live` regions. O conteúdo do novo slide deve ser acessível.
@@ -55,5 +55,5 @@ Elementos específicos do Carrossel:
 -   Controles de navegação pequenos, escondidos ou difíceis de usar.
 -   Transições muito rápidas ou complexas que dificultam a leitura.
 -   Conteúdo importante escondido em slides posteriores que a maioria dos usuários não verá.
--   Ignorar as implicações de performance de carregar múltiplas [[Glossário/Elementos/imagem|imagens]]/vídeos grandes.
+-   Ignorar as implicações de performance de carregar múltiplas imagens/vídeos grandes.
 -   Usar um carrossel quando um simples grid ou uma [[Glossário/Elementos/listas|lista]] de destaques seria mais eficaz.

@@ -1,5 +1,5 @@
 ---
-title: "iconografia"
+title: "Iconografia (Iconography)"
 
 ---
 
@@ -69,11 +69,11 @@ Descreve a biblioteca de ícones do sistema, incluindo seu estilo visual, tamanh
 
 - **Ícone de Ação (Ex: Salvar `💾`):**
   - Descrição: Representa uma ação que o usuário pode realizar, como salvar dados.
-  - Tamanhos Comuns: [Ex: 24x24px para [[Glossário/Elementos/botoes|botões]], 16x16px para [[Glossário/Elementos/links|links]] de ação]
+  - Tamanhos Comuns: [Ex: 24x24px para botões, 16x16px para links de ação]
   - Estilo: [Ex: Contornado, espessura de 2px]
   - Alternativa Textual: "Salvar"
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Ícone de Salvar no Figma]
+  - Link para o Figma: [Link para Ícone de Salvar no Figma]
 
 - **Ícone Informativo (Ex: Ajuda `?`):**
   - Descrição: Fornece acesso a informações de ajuda ou contexto adicional.
@@ -81,12 +81,12 @@ Descreve a biblioteca de ícones do sistema, incluindo seu estilo visual, tamanh
   - Estilo: [Ex: Preenchido]
   - Alternativa Textual: "Ajuda"
   - Status: A definir
-  - [[Glossário/Elementos/links|Link]] para o Figma: [[[Glossário/Elementos/links|Link]] para Ícone de Ajuda no Figma]
+  - Link para o Figma: [Link para Ícone de Ajuda no Figma]
 
 ## Status Geral
 
 **Status:** A definir (É importante ter uma biblioteca base de ícones antes de construir muitos componentes)
 
-## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral da Iconografia)
+## Link para o Figma (Visão Geral da Iconografia)
 
-[[[Glossário/Elementos/links|Link]] para a biblioteca de Ícones no Figma]
+[Link para a biblioteca de Ícones no Figma]

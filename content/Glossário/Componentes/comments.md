@@ -1,5 +1,5 @@
 ---
-title: "comments"
+title: "Comments (Comentários)"
 
 ---
 
@@ -37,11 +37,11 @@ O componente de Comentários permite que os usuários publiquem e visualizem fee
 -   **Feedback de Submissão:** Informar ao usuário se o comentário foi publicado com sucesso, está aguardando moderação ou se houve um erro.
 -   **Ordenação:** Oferecer opções de ordenação (ex: mais recentes, mais antigos, mais votados) se apropriado.
 -   **Acessibilidade (a11y):**
-    *   O [[Glossário/Padrões/form_structure|formulário]] de comentário deve ser acessível, com labels para os campos e [[Glossário/Elementos/botoes|botões]] operáveis por teclado.
-    *   Comentários devem ser estruturados de forma semântica (ex: cada comentário como um `<article>` ou `<li>` dentro de uma [[Glossário/Elementos/listas|lista]]).
-    *   Ações como responder, curtir, denunciar devem ser [[Glossário/Elementos/botoes|botões]] acessíveis.
+    *   O formulário de comentário deve ser acessível, com labels para os campos e botões operáveis por teclado.
+    *   Comentários devem ser estruturados de forma semântica (ex: cada comentário como um `<article>` ou `<li>` dentro de uma lista).
+    *   Ações como responder, curtir, denunciar devem ser botões acessíveis.
 -   **Notificações (Opcional):** Notificar usuários sobre respostas aos seus comentários.
--   **[[Glossário/Elementos/links|Links]] em Comentários:** Decidir se [[Glossário/Elementos/links|links]] são permitidos e como são tratados (ex: `rel="nofollow"`, abrir em nova aba).
+-   **[[Glossário/Elementos/links|Links]] em Comentários:** Decidir se links são permitidos e como são tratados (ex: `rel="nofollow"`, abrir em nova aba).
 
 ## Funcionalidades Adicionais (Opcionais)
 
@@ -57,19 +57,19 @@ O componente de Comentários permite que os usuários publiquem e visualizem fee
 
 -   **Título da Seção** (ex: "Comentários", "Discussão").
 -   **(Opcional) Resumo/Contador de Comentários.**
--   **[[Glossário/Padrões/form_structure|Formulário]] de Novo Comentário.**
--   **[[Glossário/Elementos/listas|Lista]] de Comentários:**
+-   **Formulário de Novo Comentário.**
+-   **Lista de Comentários:**
     *   Cada comentário individual com:
         *   Avatar/Nome do Autor
         *   Timestamp
         *   Corpo do Comentário
         *   Ações (Responder, Curtir, etc.)
         *   (Opcional) Respostas aninhadas.
--   **(Opcional) Paginação ou [[Glossário/Elementos/botoes|Botão]] "Carregar Mais".**
+-   **(Opcional) Paginação ou Botão "Carregar Mais".**
 
 ## O Que Evitar
 
--   [[Glossário/Padrões/form_structure|Formulários]] de comentário complexos ou que exigem muita informação.
+-   Formulários de comentário complexos ou que exigem muita informação.
 -   Falta de moderação ou ferramentas para lidar com abuso.
 -   Interface de comentários desorganizada ou difícil de acompanhar as discussões.
--   Não permitir que usuários anônimos (se desejado) participem facilmente (ex: exigindo [[Glossário/Padrões/authentication|login]] para tudo).
+-   Não permitir que usuários anônimos (se desejado) participem facilmente (ex: exigindo login para tudo).

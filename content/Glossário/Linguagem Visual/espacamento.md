@@ -1,5 +1,5 @@
 ---
-title: "espacamento"
+title: "Espaçamento (Space)"
 
 ---
 
@@ -43,7 +43,7 @@ Estabelece as diretrizes para margens (espaço externo), preenchimentos (padding
 - **Rems/Ems:** Unidades relativas ao tamanho da fonte do elemento raiz (rem) ou do elemento pai (em). Boas para escalabilidade e acessibilidade, pois se ajustam às preferências de tamanho de fonte do usuário.
 - Recomenda-se o uso de `rem` para espaçamentos que devem escalar com o texto e `px` para detalhes finos que não devem.
 
-### [[Glossário/Linguagem Visual/metricas_e_keylines|Métricas]] e Linhas-Chave ([[Glossário/Linguagem Visual/metricas_e_keylines|Keylines]])
+### Métricas e Linhas-Chave (Keylines)
 
 - Linhas guia imaginárias que ajudam a alinhar elementos de forma consistente em toda a interface, especialmente em layouts complexos e grids.
 
@@ -51,7 +51,7 @@ Estabelece as diretrizes para margens (espaço externo), preenchimentos (padding
 
 - Como o espaçamento contribui para a estrutura de componentes individuais (ex: [[Glossário/Componentes/cards|cards]], [[Glossário/Elementos/botoes|botões]]) e para o layout geral da página (ex: espaçamento entre seções, colunas de um grid).
 
-### [[Glossário/Linguagem Visual/fotografia|Fotografia]] e Mídia
+### Fotografia e Mídia
 
 - Considerar o espaço ao redor de [[Glossário/Elementos/imagem|imagens]], vídeos e outros elementos de mídia para que "respirem" e não pareçam apertados no layout.
 
@@ -64,17 +64,17 @@ Estabelece as diretrizes para margens (espaço externo), preenchimentos (padding
 
 - **`espaco-inset-s` (Espaçamento Interno Pequeno):**
   - Valor: [Ex: 8px]
-  - Uso: Padding interno para [[Glossário/Elementos/botoes|botões]] pequenos, itens de [[Glossário/Elementos/listas|lista]], inputs.
+  - Uso: Padding interno para botões pequenos, itens de [[Glossário/Elementos/listas|lista]], inputs.
   - Status: A definir
 
 - **`espaco-stack-m` (Empilhamento Médio):**
   - Valor: [Ex: 16px]
-  - Uso: Margem vertical entre [[Glossário/Elementos/paragrafo|parágrafos]], itens de uma [[Glossário/Elementos/listas|lista]] vertical, ou entre um rótulo e seu campo.
+  - Uso: Margem vertical entre [[Glossário/Elementos/paragrafo|parágrafos]], itens de uma lista vertical, ou entre um rótulo e seu campo.
   - Status: A definir
 
 - **`espaco-inline-m` (Espaçamento em Linha Médio):**
   - Valor: [Ex: 16px]
-  - Uso: Margem horizontal entre elementos lado a lado, como [[Glossário/Elementos/botoes|botões]] em um grupo.
+  - Uso: Margem horizontal entre elementos lado a lado, como botões em um grupo.
   - Status: A definir
 
 - **`espaco-section-l` (Espaçamento de Seção Grande):**
@@ -88,6 +88,6 @@ Estabelece as diretrizes para margens (espaço externo), preenchimentos (padding
 
 **Status:** A definir (Fundamental para a consistência visual de todos os componentes e layouts)
 
-## [[Glossário/Elementos/links|Link]] para o Figma (Visão Geral de Espaçamento)
+## Link para o Figma (Visão Geral de Espaçamento)
 
-[[[Glossário/Elementos/links|Link]] para as diretrizes de Espaçamento e a escala de tokens no Figma]
+[Link para as diretrizes de Espaçamento e a escala de tokens no Figma]

@@ -1,5 +1,5 @@
 ---
-title: "dashboard"
+title: "Dashboard (Painel de Controle)"
 
 ---
 
@@ -11,7 +11,7 @@ Um **Dashboard (Painel de Controle)** em UX e análise de produtos é uma interf
 
 Os principais objetivos de um dashboard são:
 
-1.  **Monitoramento de Performance:** Acompanhar em tempo real ou quase real o desempenho de indicadores chave de performance (KPIs) e outras [[Glossário/Linguagem Visual/metricas_e_keylines|métricas]] relevantes.
+1.  **Monitoramento de Performance:** Acompanhar em tempo real ou quase real o desempenho de indicadores chave de performance (KPIs) e outras métricas relevantes.
 2.  **Visualização de Dados:** Apresentar dados complexos de forma gráfica (gráficos, tabelas, medidores) para facilitar a interpretação e a tomada de decisão.
 3.  **Identificação de Tendências e Padrões:** Permitir que os usuários identifiquem rapidamente tendências emergentes, padrões de comportamento ou desvios do esperado.
 4.  **Suporte à Tomada de Decisão:** Fornecer informações acionáveis que ajudem as equipes e stakeholders a tomar decisões informadas.
@@ -23,11 +23,11 @@ Os principais objetivos de um dashboard são:
 *   **Dashboards Estratégicos:** Focados em KPIs de alto nível para monitorar a estratégia de longo prazo da organização (usados por executivos).
 *   **Dashboards Analíticos:** Permitem uma análise mais profunda dos dados, com funcionalidades de drill-down para investigar tendências e causas (usados por analistas).
 *   **Dashboards Operacionais:** Monitoram processos e atividades em tempo real para garantir a eficiência das operações diárias (usados por equipes de operações).
-*   **Dashboards de UX/Produto:** Focados em [[Glossário/Linguagem Visual/metricas_e_keylines|métricas]] específicas sobre a experiência do usuário, engajamento com funcionalidades, taxas de conversão, saúde do produto, etc.
+*   **Dashboards de UX/Produto:** Focados em métricas específicas sobre a experiência do usuário, engajamento com funcionalidades, taxas de conversão, saúde do produto, etc.
 
 ## Elementos Comuns de um Dashboard
 
-*   **KPIs (Key Performance Indicators):** As [[Glossário/Linguagem Visual/metricas_e_keylines|métricas]] mais críticas que indicam o sucesso em relação aos objetivos.
+*   **KPIs (Key Performance Indicators):** As métricas mais críticas que indicam o sucesso em relação aos objetivos.
 *   **Visualizações de Dados:**
     *   **Gráficos de Linha:** Para mostrar tendências ao longo do tempo.
     *   **Gráficos de Barra/Coluna:** Para comparar categorias.
@@ -36,7 +36,7 @@ Os principais objetivos de um dashboard são:
     *   **Medidores (Gauges):** Para mostrar o status atual em relação a uma meta.
     *   **[[Glossário/Componentes/maps|Mapas]] de Calor:** Para visualizar densidade ou intensidade.
 *   **[[Glossário/Componentes/filters|Filtros]] e Controles:** Para permitir que os usuários segmentem os dados (ex: por período, por segmento de usuário).
-*   **Alertas e Notificações:** Para sinalizar quando certas [[Glossário/Linguagem Visual/metricas_e_keylines|métricas]] atingem limiares críticos.
+*   **Alertas e Notificações:** Para sinalizar quando certas métricas atingem limiares críticos.
 *   **Layout Organizado:** Informações agrupadas logicamente e apresentadas de forma clara e não sobrecarregada.
 *   **Legendas e Rótulos Claros:** Para garantir que todas as visualizações sejam compreensíveis.
 
@@ -44,7 +44,7 @@ Os principais objetivos de um dashboard são:
 
 *   **Conheça seu Público:** Quem usará o dashboard e quais informações são mais importantes para eles?
 *   **Defina Objetivos Claros:** Qual decisão ou ação o dashboard deve suportar?
-*   **Escolha as [[Glossário/Linguagem Visual/metricas_e_keylines|Métricas]] Certas:** Foque em [[Glossário/Linguagem Visual/metricas_e_keylines|métricas]] acionáveis e relevantes.
+*   **Escolha as Métricas Certas:** Foque em métricas acionáveis e relevantes.
 *   **Simplicidade é Chave:** Evite sobrecarregar com muitas informações ou visualizações complexas.
 *   **Consistência Visual:** Use [[Glossário/Linguagem Visual/cor|cores]], fontes e estilos de forma consistente.
 *   **Contexto é Importante:** Forneça benchmarks, metas ou comparações para que os números tenham significado.
@@ -76,7 +76,7 @@ Os principais objetivos de um dashboard são:
 
 ## Referências (NN/g)
 
-*   Veja também: [Analytics Report](./analytics_report.md), [Usability Report](./usability_report.md) (Nota: [[Glossário/Elementos/links|Links]] serão atualizados quando os documentos correspondentes forem criados).
+*   Veja também: [[Glossário/Entregáveis/analytics_report|Analytics Report]], [[Glossário/Entregáveis/usability_report|Usability Report]].
 
 ---
 

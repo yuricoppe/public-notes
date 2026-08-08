@@ -1,5 +1,5 @@
 ---
-title: "settings"
+title: "Configurações (Settings)"
 
 ---
 
@@ -22,11 +22,11 @@ O padrão de configurações refere-se à área de um portal ou aplicação onde
 
 - **Navegação por Seções:** Geralmente organizada em categorias (ex: "Perfil", "Notificações", "Segurança", "Privacidade", "Aparência").
 - **[[Glossário/Elementos/form_controls|Controles de Formulário]]:**
-    - [[Glossário/Elementos/form_controls|Campos de texto]] para informações de perfil (nome, email, etc.).
-    - [[Glossário/Elementos/interruptor|Toggles]]/[[Glossário/Elementos/interruptor|Switches]] para ligar/desligar opções (ex: notificações por email).
+    - Campos de texto para informações de perfil (nome, email, etc.).
+    - [[Glossário/Elementos/interruptor|Toggles]]/Switches para ligar/desligar opções (ex: notificações por email).
     - [[Glossário/Elementos/botoes|Botões]] de rádio ou [[Glossário/Componentes/menu|menus]] suspensos para selecionar entre múltiplas opções (ex: idioma, tema).
     - [[Glossário/Elementos/slider|Sliders]] para ajustar valores (ex: tamanho da fonte).
-- **[[Glossário/Elementos/botoes|Botões]] de Ação:** ("Salvar Alterações", "Redefinir Senha", "Excluir Conta").
+- **Botões de Ação:** ("Salvar Alterações", "Redefinir Senha", "Excluir Conta").
 - **Texto Explicativo:** Breves descrições do que cada configuração faz.
 - **Feedback de Salvamento:** [[Glossário/Componentes/messaging|Mensagens]] de sucesso (ex: "Configurações salvas") ou indicadores de progresso.
 - **Opções de Redefinição:** Possibilidade de reverter para configurações padrão, quando aplicável.
@@ -37,7 +37,7 @@ O padrão de configurações refere-se à área de um portal ou aplicação onde
 2. O usuário seleciona uma categoria de configurações (se houver navegação interna).
 3. O usuário interage com os controles para modificar as opções desejadas.
 4.  - **Salvamento Automático:** Algumas configurações podem ser salvas automaticamente ao serem alteradas (com feedback claro).
-    - **Salvamento Explícito:** Outras podem requerer que o usuário clique em um [[Glossário/Elementos/botoes|botão]] "Salvar".
+    - **Salvamento Explícito:** Outras podem requerer que o usuário clique em um botão "Salvar".
 5. O sistema fornece feedback sobre o status das alterações.
 6. Para ações destrutivas (ex: excluir conta), uma confirmação é solicitada.
 
@@ -45,7 +45,7 @@ O padrão de configurações refere-se à área de um portal ou aplicação onde
 
 ### Faça
 
-- Organize as configurações em grupos lógicos e use uma navegação clara (ex: abas verticais ou [[Glossário/Componentes/menu|menu]] lateral).
+- Organize as configurações em grupos lógicos e use uma navegação clara (ex: abas verticais ou menu lateral).
 - Use linguagem simples e direta para descrever cada configuração.
 - Forneça padrões sensatos e seguros.
 - Indique claramente quando as alterações são salvas (automaticamente ou após clicar em "Salvar").
@@ -63,10 +63,10 @@ O padrão de configurações refere-se à área de um portal ou aplicação onde
 
 ## Considerações de Acessibilidade
 
-- Todas as seções de navegação e [[Glossário/Elementos/form_controls|controles de formulário]] devem ser acessíveis via teclado e por leitores de tela.
+- Todas as seções de navegação e controles de formulário devem ser acessíveis via teclado e por leitores de tela.
 - Use rótulos claros (`<label for>`) para todos os campos e controles.
 - Agrupe configurações relacionadas usando `fieldset` e `legend` quando apropriado.
-- [[Glossário/Componentes/messaging|Mensagens]] de feedback (sucesso, erro, confirmação) devem ser acessíveis (ex: usando `aria-live`).
+- Mensagens de feedback (sucesso, erro, confirmação) devem ser acessíveis (ex: usando `aria-live`).
 - Garanta bom contraste de [[Glossário/Linguagem Visual/cor|cores]] para todos os textos e elementos interativos.
 - Forneça alternativas textuais para [[Glossário/Linguagem Visual/iconografia|ícones]] que comunicam significado.
 
@@ -83,7 +83,7 @@ O padrão de configurações refere-se à área de um portal ou aplicação onde
 
 - **Configurações Globais vs. Configurações de Item Específico:** Algumas configurações afetam todo o portal/aplicação, enquanto outras podem ser contextuais a um item ou seção específica.
 - **Perfis de Configuração:** Possibilidade de salvar e alternar entre diferentes conjuntos de configurações.
-- **Configurações em Linha (Inline Settings):** Pequenas opções de configuração diretamente no contexto da funcionalidade que afetam (ex: um [[Glossário/Linguagem Visual/iconografia|ícone]] de "configurações" em um widget).
+- **Configurações em Linha (Inline Settings):** Pequenas opções de configuração diretamente no contexto da funcionalidade que afetam (ex: um ícone de "configurações" em um widget).
 
 ## Status
 
@@ -91,5 +91,5 @@ A definir
 
 ## Recursos Adicionais / Figma
 
-- [[[Glossário/Elementos/links|Link]] para os designs das telas de Configurações no Figma]
-- [[[Glossário/Elementos/links|Link]] para os componentes de [[Glossário/Padrões/form_structure|formulário]] usados nas Configurações]
+- [Link para os designs das telas de Configurações no Figma]
+- [Link para os componentes de formulário usados nas Configurações]

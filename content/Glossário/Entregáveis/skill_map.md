@@ -54,8 +54,8 @@ O Mapa de Habilidades é uma ferramenta visual que ajuda equipes e indivíduos a
 
 ## Relacionado
 
-- [Matriz RACI (RACI Matrix)](./raci_matrix.md)
-- [Mapa de Relacionamento (Relationship Map)](./relationship_map.md)
+- [[Glossário/Entregáveis/raci_matrix|Matriz RACI (RACI Matrix)]]
+- [[Glossário/Entregáveis/relationship_map|Mapa de Relacionamento (Relationship Map)]]
 
 ## Referência Externa
 

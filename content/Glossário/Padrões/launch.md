@@ -1,5 +1,5 @@
 ---
-title: "launch"
+title: "Lançamento (Launch) / Onboarding Inicial"
 
 ---
 
@@ -86,5 +86,5 @@ A definir
 
 ## Recursos Adicionais / Figma
 
-- [[[Glossário/Elementos/links|Link]] para os designs das telas de onboarding no Figma]
-- [[[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/prototype|protótipos]] de fluxos de lançamento/onboarding]
+- [Link para os designs das telas de onboarding no Figma]
+- [Link para protótipos de fluxos de lançamento/onboarding]

@@ -15,9 +15,9 @@ Padrões de UI representam as melhores práticas e convenções estabelecidas pa
     - Navegação principal ([[Glossário/Elementos/cabecalhos|cabeçalho]], [[Glossário/Componentes/menu|menu]] lateral)
     - [[Glossário/Componentes/breadcrumbs|Breadcrumbs]]
     - Paginação
-    - [[Glossário/Componentes/menu|Menus]] de abas (Tabbed navigation)
+    - Menus de abas (Tabbed navigation)
 - **Entrada de Dados e [[Glossário/Padrões/form_structure|Formulários]]:**
-    - Validação de [[Glossário/Padrões/form_structure|formulários]] em tempo real e após submissão
+    - Validação de formulários em tempo real e após submissão
     - Autocompletar e sugestões de busca
     - Upload de arquivos
     - Seleção de data e hora

@@ -1,5 +1,5 @@
 ---
-title: "authentication"
+title: "Autenticação (Authentication)"
 
 ---
 
@@ -52,17 +52,17 @@ A autenticação é o processo de verificar a identidade de um usuário, sistema
 ### Não Faça
 
 - Não armazene senhas em texto plano. Utilize hashing seguro.
-- Não exponha informações sensíveis em [[Glossário/Componentes/messaging|mensagens]] de erro (ex: "usuário não encontrado" vs "usuário ou senha inválidos").
+- Não exponha informações sensíveis em mensagens de erro (ex: "usuário não encontrado" vs "usuário ou senha inválidos").
 - Não utilize CAPTCHAs excessivamente complexos ou inacessíveis.
 - Não dificulte o processo de logout.
 - Não implemente fluxos de autenticação que possam ser facilmente interceptados (ex: falta de HTTPS).
 
 ## Considerações de Acessibilidade
 
-- Garanta que todos os campos de [[Glossário/Padrões/form_structure|formulário]] tenham rótulos associados (`<label for>`).
+- Garanta que todos os campos de formulário tenham rótulos associados (`<label for>`).
 - As mensagens de erro devem ser associadas aos campos correspondentes e ser perceptíveis por leitores de tela (ex: usando `aria-describedby` ou `aria-live`).
 - Todos os elementos interativos devem ser navegáveis e operáveis via teclado.
-- Mantenha um bom contraste de [[Glossário/Linguagem Visual/cor|cores]] para textos, campos e [[Glossário/Elementos/botoes|botões]].
+- Mantenha um bom contraste de [[Glossário/Linguagem Visual/cor|cores]] para textos, campos e botões.
 - Considere os requisitos do WCAG 2.2 para autenticação acessível (ex: critério 3.3.8 Accessible Authentication).
 
 ## Exemplos / Cenários de Uso
@@ -79,7 +79,7 @@ A autenticação é o processo de verificar a identidade de um usuário, sistema
 - **Autenticação de Dois Fatores (2FA) / Múltiplos Fatores (MFA):** Requer uma segunda forma de verificação além da senha.
 - **Autenticação Biométrica:** Usando impressão digital, reconhecimento facial, etc. (mais comum em mobile).
 - **Autenticação baseada em Token/API Key:** Para sistemas e serviços.
-- **Login sem Senha (Passwordless):** Usando [[Glossário/Elementos/links|links]] mágicos enviados por email, códigos OTP, etc.
+- **Login sem Senha (Passwordless):** Usando links mágicos enviados por email, códigos OTP, etc.
 
 ## Status
 
@@ -87,5 +87,5 @@ A definir
 
 ## Recursos Adicionais / Figma
 
-- [[[Glossário/Elementos/links|Link]] para o design de telas de Autenticação no Figma]
-- [[[Glossário/Elementos/links|Link]] para a documentação da API de autenticação, se aplicável]
+- [Link para o design de telas de Autenticação no Figma]
+- [Link para a documentação da API de autenticação, se aplicável]

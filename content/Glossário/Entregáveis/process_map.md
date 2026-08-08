@@ -28,7 +28,7 @@ O objetivo principal de um Mapa de Processo é:
     *   **Entradas (Inputs):** O que é necessário para iniciar uma atividade ou o processo.
     *   **Saídas (Outputs):** O resultado de uma atividade ou do processo.
     *   **Responsáveis (Swimlanes/Raias):** Opcionalmente, o mapa pode ser dividido em raias para mostrar quem (indivíduo, equipe, departamento) é responsável por cada etapa.
-    *   **[[Glossário/Linguagem Visual/metricas_e_keylines|Métricas]] (Opcional):** Tempo, custo, ou outras [[Glossário/Linguagem Visual/metricas_e_keylines|métricas]] relevantes para cada etapa.
+    *   **[[Glossário/Linguagem Visual/metricas_e_keylines|Métricas]] (Opcional):** Tempo, custo, ou outras métricas relevantes para cada etapa.
 4.  **Desenhar o Mapa:** Utilizar símbolos padronizados de fluxograma para representar os diferentes componentes e o fluxo do processo. Começar com um rascunho e refinar.
 5.  **Analisar e Validar:** Revisar o mapa com as pessoas envolvidas no processo para garantir sua precisão e completude. Analisar o mapa para identificar áreas de melhoria.
 
@@ -63,7 +63,7 @@ O objetivo principal de um Mapa de Processo é:
 
 ## Referências (NN/g)
 
-*   Veja também: [User Flow](#) (Nota: [[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/user_flow|User Flow]] será atualizado quando o documento correspondente for criado), [HTA Diagram (Hierarchical Task-Analysis Diagram)](#hta_diagram.md), [Service Blueprint](#) (Nota: [[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/service_blueprint|Service Blueprint]] será atualizado quando o documento correspondente for criado)
+*   Veja também: [[Glossário/Entregáveis/user_flow|User Flow]], [[Glossário/Entregáveis/hta_diagram|HTA Diagram (Hierarchical Task-Analysis Diagram)]], [[Glossário/Entregáveis/service_blueprint|Service Blueprint]]
 
 ---
 

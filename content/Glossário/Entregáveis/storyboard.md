@@ -1,5 +1,5 @@
 ---
-title: "storyboard"
+title: "Storyboard"
 
 ---
 
@@ -9,13 +9,13 @@ Um artefato que comunica uma história através de [[Glossário/Elementos/imagem
 
 ## Visão Geral
 
-Storyboards são uma técnica de visualização que usa uma série de ilustrações ou [[Glossário/Elementos/imagem|imagens]] organizadas em sequência para contar uma história ou descrever a experiência de um usuário com um produto ou serviço. Originários do cinema e da animação, os storyboards em UX ajudam a comunicar o contexto de uso, as ações do usuário, e as respostas do sistema de uma forma dinâmica e facilmente compreensível.
+Storyboards são uma técnica de visualização que usa uma série de ilustrações ou imagens organizadas em sequência para contar uma história ou descrever a experiência de um usuário com um produto ou serviço. Originários do cinema e da animação, os storyboards em UX ajudam a comunicar o contexto de uso, as ações do usuário, e as respostas do sistema de uma forma dinâmica e facilmente compreensível.
 
 Eles são particularmente eficazes para explorar e comunicar cenários de interação, visualizar o fluxo de uma tarefa e alinhar a equipe em torno de uma visão compartilhada da experiência do usuário.
 
 ## Componentes Chave
 
-- **Painéis (Quadros):** [[Glossário/Elementos/imagem|Imagens]] ou esboços individuais que representam momentos chave na história.
+- **Painéis (Quadros):** Imagens ou esboços individuais que representam momentos chave na história.
 - **Sequência:** A ordem cronológica dos painéis que mostra a progressão da história.
 - **Cenas:** O ambiente ou contexto onde a ação ocorre em cada painel.
 - **Personagens:** Representações dos usuários (muitas vezes [[Glossário/Entregáveis/persona|personas]]) e outros atores envolvidos.
@@ -43,7 +43,7 @@ Eles são particularmente eficazes para explorar e comunicar cenários de intera
 ## Tipos de Storyboard
 
 - **Esboços (Sketch Storyboards):** Desenhos simples e rápidos, focados na ideia e no fluxo.
-- **[[Glossário/Entregáveis/wireframe|Wireframe]] Storyboards:** Usam [[Glossário/Entregáveis/wireframe|wireframes]] de baixa fidelidade nos painéis para mostrar a interface.
+- **[[Glossário/Entregáveis/wireframe|Wireframe]] Storyboards:** Usam wireframes de baixa fidelidade nos painéis para mostrar a interface.
 - **Storyboards de Alta Fidelidade:** Podem incluir [[Glossário/Entregáveis/mockup|mockups]] mais detalhados ou até fotografias.
 
 ## Considerações
@@ -55,10 +55,10 @@ Eles são particularmente eficazes para explorar e comunicar cenários de intera
 
 ## Relacionado
 
-- [História de UX (Story UX)](./story_ux.md)
-- [Fluxo do Usuário (User Flow)](./user_flow.md)
-- [Mapa de Jornada (Journey Map)](./journey_map.md)
-- [Persona](./[[Glossário/Entregáveis/persona|persona]].md)
+- [[Glossário/Entregáveis/story_ux|História de UX (Story UX)]]
+- [[Glossário/Entregáveis/user_flow|Fluxo do Usuário (User Flow)]]
+- [[Glossário/Entregáveis/journey_map|Mapa de Jornada (Journey Map)]]
+- [[Glossário/Entregáveis/persona|Persona]]
 
 ## Referência Externa
 

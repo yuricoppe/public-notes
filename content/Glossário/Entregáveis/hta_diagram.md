@@ -37,7 +37,7 @@ Um diagrama HTA geralmente tem uma estrutura de árvore ou um formato de [[Gloss
         1.2. Digitar o nome do livro
         1.3. Pressionar "Enter" ou clicar no [[Glossário/Elementos/botoes|botão]] de busca
 *   **Planos (Plans):** Descrevem a lógica ou as condições que determinam como e quando as sub-tarefas são executadas. Indicam a sequência (ex: "Faça 1, depois 2, depois 3"), condições (ex: "Se X, então faça A, senão faça B"), ou repetições.
-    *   Ex: Plano para "Realizar o [[Glossário/Padrões/purchase_checkout|checkout]]": "Primeiro, preencha informações de envio (3.1). Depois, preencha informações de pagamento (3.2). Se houver cupom, aplicar cupom (3.3). Finalmente, revisar pedido (3.4)."
+    *   Ex: Plano para "Realizar o checkout": "Primeiro, preencha informações de envio (3.1). Depois, preencha informações de pagamento (3.2). Se houver cupom, aplicar cupom (3.3). Finalmente, revisar pedido (3.4)."
 *   **Numeração Hierárquica:** Usa-se um sistema de numeração (ex: 1, 1.1, 1.1.1, 2, 2.1) para indicar o nível na hierarquia e a relação entre as tarefas.
 
 ## Como Criar um Diagrama HTA
@@ -47,7 +47,7 @@ Um diagrama HTA geralmente tem uma estrutura de árvore ou um formato de [[Gloss
 3.  **Decompor a Tarefa:** Dividir o objetivo principal em 3-8 sub-tarefas principais.
 4.  **Decompor Sub-tarefas:** Para cada sub-tarefa, repita o processo de decomposição até chegar ao nível de operações básicas (ações que não podem ser razoavelmente divididas mais).
 5.  **Definir os Planos:** Para cada nível de decomposição, especificar o plano que governa a execução das sub-tarefas (sequência, condições).
-6.  **Representar Graficamente ou Textualmente:** Desenhar o diagrama em formato de árvore ou usar uma [[Glossário/Elementos/listas|lista]] aninhada com numeração.
+6.  **Representar Graficamente ou Textualmente:** Desenhar o diagrama em formato de árvore ou usar uma lista aninhada com numeração.
 7.  **Validar e Refinar:** Revisar o diagrama com usuários ou especialistas para garantir precisão e completude.
 
 ## Principais Benefícios
@@ -67,13 +67,13 @@ Um diagrama HTA geralmente tem uma estrutura de árvore ou um formato de [[Gloss
 
 ## Relação com Outros Entregáveis
 
-*   **[User Flow](./user_flow.md):** Um [[Glossário/Entregáveis/user_flow|User Flow]] mostra o caminho que um usuário percorre através de uma interface para completar uma tarefa, incluindo telas e decisões. Um HTA foca mais na decomposição hierárquica da tarefa em si, e pode informar a criação de um [[Glossário/Entregáveis/user_flow|User Flow]].
-*   **[Process Map](./process_map.md):** Semelhante, mas Process [[Glossário/Componentes/maps|Maps]] podem ter um escopo mais amplo, incluindo múltiplos atores ou sistemas, enquanto HTA é mais focado na perspectiva da tarefa do usuário individual.
+*   **[[Glossário/Entregáveis/user_flow|User Flow]]:** Um User Flow mostra o caminho que um usuário percorre através de uma interface para completar uma tarefa, incluindo telas e decisões. Um HTA foca mais na decomposição hierárquica da tarefa em si, e pode informar a criação de um User Flow.
+*   **[[Glossário/Entregáveis/process_map|Process Map]]:** Semelhante, mas Process [[Glossário/Componentes/maps|Maps]] podem ter um escopo mais amplo, incluindo múltiplos atores ou sistemas, enquanto HTA é mais focado na perspectiva da tarefa do usuário individual.
 
 ## Referências (NN/g)
 
 *   (O HTA é uma técnica bem estabelecida em ergonomia e IHC - Interação Humano-Computador. A página do glossário do NN/g o inclui, indicando sua relevância.)
-*   Veja também: [User Flow](./user_flow.md), [Process Map](./process_map.md).
+*   Veja também: [[Glossário/Entregáveis/user_flow|User Flow]], [[Glossário/Entregáveis/process_map|Process Map]].
 
 ---
 

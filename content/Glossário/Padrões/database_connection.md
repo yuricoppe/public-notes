@@ -24,7 +24,7 @@ Este padrão é mais relevante para desenvolvedores e arquitetos, mas as implica
 - **String de Conexão/DSN (Data Source Name):** Contém informações como host, porta, nome do banco, usuário e senha.
 - **Driver do Banco de Dados:** Software que permite à aplicação comunicar-se com um tipo específico de SGBD.
 - **Pool de Conexões:** Um cache de conexões de banco de dados mantidas para que possam ser reutilizadas, evitando o custo de abrir uma nova conexão para cada requisição.
-- **Mecanismos de [[Glossário/Padrões/authentication|Autenticação]]:** Como a aplicação se autentica no SGBD (ex: usuário/senha, [[Glossário/Padrões/authentication|autenticação]] integrada, tokens).
+- **Mecanismos de [[Glossário/Padrões/authentication|Autenticação]]:** Como a aplicação se autentica no SGBD (ex: usuário/senha, autenticação integrada, tokens).
 - **Tratamento de Erros e Timeouts:** Lógica para lidar com falhas na conexão, timeouts e tentativas de reconexão.
 - **Gerenciamento de Transações:** Garantir a atomicidade, consistência, isolamento e durabilidade (ACID) das operações.
 - **Configuração de Criptografia (ex: SSL/TLS):** Para proteger os dados em trânsito entre a aplicação e o banco.
@@ -84,4 +84,4 @@ A definir
 ## Recursos Adicionais / Figma
 
 - N/A (Este é um padrão mais conceitual de backend/arquitetura, não tendo representação visual direta em Figma para UI Patterns de front-end).
-- [[[Glossário/Elementos/links|Link]] para a documentação de configuração do ORM ou biblioteca de acesso a dados do projeto]
+- [Link para a documentação de configuração do ORM ou biblioteca de acesso a dados do projeto]

@@ -76,7 +76,7 @@ Embora a estrutura possa variar, um Plano de Pesquisa de UX geralmente inclui:
 
 ## Referências (NN/g)
 
-*   Veja também: [Screener](#) (será criado), [Survey](#) (será criado), [Interview Guide](#interview_guide.md), [Usability Report](#) (será criado), [Research Repository](#) (será criado)
+*   Veja também: [[Glossário/Entregáveis/screener|Screener]], Survey, [[Glossário/Entregáveis/interview_guide|Interview Guide]], [[Glossário/Entregáveis/usability_report|Usability Report]], [[Glossário/Entregáveis/research_repository|Research Repository]]
 
 ---
 

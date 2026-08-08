@@ -33,16 +33,16 @@ A estrutura pode variar, mas geralmente inclui:
 *   **Oportunidades:** Áreas onde a experiência pode ser melhorada ou onde a organização pode agregar valor.
 *   **[[Glossário/Linguagem Visual/metricas_e_keylines|Métricas]] (Opcional):** Dados quantitativos que podem contextualizar a experiência em certos pontos.
 
-## Diferença entre Experience Map e [[Glossário/Entregáveis/journey_map|Journey Map]]
+## Diferença entre Experience Map e Journey Map
 
-| Característica    | Experience Map (Mapa de Experiência)                                  | [[Glossário/Entregáveis/journey_map|Journey Map]] ([[Glossário/Entregáveis/journey_map|Mapa de Jornada]] do Usuário)                                  |
+| Característica    | Experience Map (Mapa de Experiência)                                  | [[Glossário/Entregáveis/journey_map|Journey Map]] (Mapa de Jornada do Usuário)                                  |
 | :---------------- | :-------------------------------------------------------------------- | :---------------------------------------------------------------------- |
 | **Escopo**        | Amplo, independente de produto/serviço específico da empresa.         | Mais focado, descreve a interação com um produto/serviço específico.  |
 | **Perspectiva**   | Do cliente/usuário, olhando para o objetivo geral dele.              | Do usuário em relação a um produto/serviço da empresa.                |
 | **Foco**          | Entender a experiência humana completa para um determinado objetivo. | Melhorar a interação com um produto/serviço existente ou novo.       |
 | **Uso Principal** | Estratégico, identificar novas oportunidades, entender o contexto.    | Tático, otimizar fluxos, identificar problemas de usabilidade no produto. |
 
-Embora distintos, os termos são por vezes usados de forma intercambiável ou os [[Glossário/Componentes/maps|mapas]] podem ter características híbridas. Um Mapa de Experiência pode ajudar a identificar onde um [[Glossário/Entregáveis/journey_map|Mapa de Jornada]] do Usuário mais focado é necessário.
+Embora distintos, os termos são por vezes usados de forma intercambiável ou os mapas podem ter características híbridas. Um Mapa de Experiência pode ajudar a identificar onde um Mapa de Jornada do Usuário mais focado é necessário.
 
 ## Principais Benefícios
 
@@ -61,10 +61,10 @@ Embora distintos, os termos são por vezes usados de forma intercambiável ou os
 
 ## Referências (NN/g)
 
-*   O Mapa de Experiência é um dos três tipos de [Mapas Cronológicos](./chronological_map.md) destacados pelo NN/g.
+*   O Mapa de Experiência é um dos três tipos de [[Glossário/Entregáveis/chronological_map|Mapas Cronológicos]] destacados pelo NN/g.
 *   Artigo Relacionado: [Journey Mapping 101](https://www.nngroup.com/articles/journey-mapping/) (Embora focado em Journey Mapping, discute princípios aplicáveis e a relação com Experience Mapping).
 *   Artigo Relacionado: [Why Map in Discovery: 3 Mapping Methods](https://www.nngroup.com/articles/discovery-mapping-methods/)
-*   Veja também: [Journey Map](./journey_map.md), [Service Blueprint](./service_blueprint.md), [Chronological Map](./chronological_map.md)
+*   Veja também: Journey Map, [[Glossário/Entregáveis/service_blueprint|Service Blueprint]], Chronological Map
 
 ---
 

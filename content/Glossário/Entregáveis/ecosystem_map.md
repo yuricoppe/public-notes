@@ -41,11 +41,11 @@ Os principais objetivos de um Mapa de Ecossistema são:
 5.  **Organizar e Agrupar:** Estruturar o mapa de forma lógica, agrupando elementos relacionados ou usando camadas para diferentes níveis de detalhe.
 6.  **Analisar e Iterar:** Usar o mapa para identificar insights, discutir com a equipe e refinar o mapa conforme necessário.
 
-## Diferença de Outros [[Glossário/Componentes/maps|Mapas]]
+## Diferença de Outros Mapas
 
-*   **[Journey Map](./journey_map.md):** Foca na experiência linear de um usuário específico ao longo do tempo para atingir um objetivo.
-*   **[Service Blueprint](./service_blueprint.md):** Detalha os processos internos e externos para entregar um serviço específico.
-*   **[Site Map](./site_map.md):** Mostra a estrutura hierárquica de um website.
+*   **[[Glossário/Entregáveis/journey_map|Journey Map]]:** Foca na experiência linear de um usuário específico ao longo do tempo para atingir um objetivo.
+*   **[[Glossário/Entregáveis/service_blueprint|Service Blueprint]]:** Detalha os processos internos e externos para entregar um serviço específico.
+*   **[[Glossário/Entregáveis/site_map|Site Map]]:** Mostra a estrutura hierárquica de um website.
 *   **Ecosystem Map:** Oferece uma visão mais ampla e menos linear de todos os elementos interconectados, mostrando o "território" em vez de um caminho específico.
 
 ## Principais Benefícios

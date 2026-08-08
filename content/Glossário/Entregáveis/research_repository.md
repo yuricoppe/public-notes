@@ -38,7 +38,7 @@ Um Repositório de Pesquisa eficaz geralmente inclui:
 4.  **Relatórios de Pesquisa e Sumários:**
     *   [[Glossário/Elementos/links|Links]] para relatórios completos de estudos, apresentações e outros documentos de síntese.
 5.  **Artefatos de Pesquisa:**
-    *   [Personas](#[[Glossário/Entregáveis/persona|persona]].md), [Journey Maps](#journey_map.md), [Service Blueprints](#) (será criado), etc., derivados da pesquisa.
+    *   Personas, [[Glossário/Entregáveis/journey_map|Journey Maps]], [[Glossário/Entregáveis/service_blueprint|Service Blueprints]], etc., derivados da pesquisa.
 6.  **Funcionalidade de Busca Poderosa:** Essencial para encontrar informações relevantes rapidamente.
 7.  **Formas de Compartilhar e Exportar:** Facilitar a disseminação dos insights.
 
@@ -68,7 +68,7 @@ A criação de um repositório pode variar em complexidade:
 ## Referências (NN/g)
 
 *   Artigo Relacionado: [Research Repositories for Tracking UX Research and Growing Your ResearchOps](https://www.nngroup.com/articles/research-repositories/) (Este é um artigo do NN/g, mas não está no glossário fornecido na busca)
-*   Veja também: [Research Plan](#research_plan.md), [Usability Report](#) (será criado)
+*   Veja também: [[Glossário/Entregáveis/research_plan|Research Plan]], [[Glossário/Entregáveis/usability_report|Usability Report]]
 
 ---
 

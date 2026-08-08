@@ -1,5 +1,5 @@
 ---
-title: "prototype"
+title: "Prototype (Protótipo)"
 
 ---
 
@@ -21,7 +21,7 @@ O objetivo principal de um protótipo é:
 ## Tipos de Protótipos (por Fidelidade)
 
 *   **Baixa Fidelidade (Low-Fidelity / Lo-Fi):**
-    *   Representações básicas e esquemáticas, muitas vezes desenhadas à mão (ex: [Protótipos de Papel](#paper_prototype.md)) ou criadas com ferramentas simples.
+    *   Representações básicas e esquemáticas, muitas vezes desenhadas à mão (ex: [[Glossário/Entregáveis/paper_prototype|Protótipos de Papel]]) ou criadas com ferramentas simples.
     *   Focam na estrutura, fluxo, conceito e layout geral, sem muitos detalhes visuais ou interatividade complexa.
     *   Rápidos e baratos de criar e modificar.
 
@@ -66,8 +66,8 @@ O objetivo principal de um protótipo é:
 
 ## Referências (NN/g)
 
-*   Vídeo Relacionado: [Prototypes vs. Wireframes in UX Projects](https://www.nngroup.com/videos/prototypes-vs-[[Glossário/Entregáveis/wireframe|wireframes]]-ux-projects/)
-*   Veja também: [Paper Prototype](#paper_prototype.md), [Wireframe](#) (será criado), [Mockup](#[[Glossário/Entregáveis/mockup|mockup]].md), [Prototype Specification](#) (será criado)
+*   Vídeo Relacionado: [Prototypes vs. Wireframes in UX Projects](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
+*   Veja também: Paper Prototype, Wireframe, [[Glossário/Entregáveis/mockup|Mockup]], [[Glossário/Entregáveis/prototype_specification|Prototype Specification]]
 
 ---
 

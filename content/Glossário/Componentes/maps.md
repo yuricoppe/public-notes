@@ -1,5 +1,5 @@
 ---
-title: "maps"
+title: "Maps (Mapas)"
 
 ---
 
@@ -38,12 +38,12 @@ O componente de Mapas é usado para exibir informações geográficas de forma v
 
 -   **Performance:** Mapas interativos podem ser pesados. Otimizar o carregamento de tiles, dados e marcadores. Usar técnicas como carregamento progressivo e clustering.
 -   **Controles Intuitivos:** Zoom e pan devem funcionar como esperado (ex: pinch-to-zoom em mobile, scroll do mouse em desktop).
--   **Marcadores Claros:** Usar [[Glossário/Linguagem Visual/iconografia|ícones]] de marcadores que sejam facilmente reconhecíveis e que não obstruam demais o mapa.
+-   **Marcadores Claros:** Usar ícones de marcadores que sejam facilmente reconhecíveis e que não obstruam demais o mapa.
 -   **Informações Relevantes em InfoWindows:** Manter o conteúdo das janelas de informação conciso e útil.
 -   **Contexto:** Fornecer contexto suficiente para que o usuário entenda o que o mapa está mostrando.
 -   **Acessibilidade (a11y):**
     *   Fornecer alternativas textuais para informações importantes transmitidas apenas visualmente no mapa (ex: [[Glossário/Elementos/listas|lista]] de locais próximos se o mapa não for acessível).
-    *   Garantir que os controles do mapa (zoom, [[Glossário/Elementos/botoes|botões]]) sejam acessíveis por teclado.
+    *   Garantir que os controles do mapa (zoom, botões) sejam acessíveis por teclado.
     *   Marcadores interativos devem ser focáveis e operáveis pelo teclado.
     *   InfoWindows devem ser acessíveis; o foco deve se mover para elas quando abertas.
     *   Usar `aria-label` e descrições apropriadas para elementos do mapa.

@@ -83,7 +83,7 @@ As iniciativas com as maiores pontuações RICE são priorizadas mais alto.
 ## Referências (NN/g)
 
 *   Este é um framework de priorização popular em gerenciamento de produtos, relacionado a como as decisões sobre o que construir em UX são tomadas.
-*   Veja também: [MoSCoW Analysis](#moscow_analysis.md), [Impact–Effort Matrix](#impact_effort_matrix.md)
+*   Veja também: [[Glossário/Entregáveis/moscow_analysis|MoSCoW Analysis]], [[Glossário/Entregáveis/impact_effort_matrix|Impact–Effort Matrix]]
 
 ---
 

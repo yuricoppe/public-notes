@@ -16,11 +16,11 @@ Ele ajuda a alinhar a equipe de UX, comunicar prioridades para stakeholders e ga
 ## Componentes Chave
 
 - **Temas/Iniciativas Estratégicas de UX:** Grandes áreas de foco ou problemas a serem resolvidos (ex: "Melhorar o [[Glossário/Padrões/launch|Onboarding]] de Novos Usuários", "Redesenhar o Processo de [[Glossário/Padrões/purchase_checkout|Checkout]]", "Implementar Pesquisa Contínua").
-- **Objetivos de UX:** Metas específicas que cada iniciativa visa alcançar, frequentemente ligadas a [[Glossário/Linguagem Visual/metricas_e_keylines|métricas]] de UX ou KPIs de negócio (ex: "Aumentar a taxa de conclusão do [[Glossário/Padrões/launch|onboarding]] em 20%", "Reduzir o tempo de [[Glossário/Padrões/purchase_checkout|checkout]] em 15 segundos").
+- **Objetivos de UX:** Metas específicas que cada iniciativa visa alcançar, frequentemente ligadas a [[Glossário/Linguagem Visual/metricas_e_keylines|métricas]] de UX ou KPIs de negócio (ex: "Aumentar a taxa de conclusão do onboarding em 20%", "Reduzir o tempo de checkout em 15 segundos").
 - **Projetos/Entregáveis:** Esforços concretos ou artefatos que serão produzidos dentro de cada iniciativa.
 - **Cronograma (Horizonte de Planejamento):** Geralmente dividido em fases como "Agora" (curto prazo), "Próximo" (médio prazo) e "Futuro/Depois" (longo prazo), em vez de datas específicas rígidas.
 - **Prioridades:** Indicação da importância relativa das iniciativas.
-- **[[Glossário/Linguagem Visual/metricas_e_keylines|Métricas]] de Sucesso (Opcional, mas Recomendado):** Como o impacto das iniciativas de UX será medido.
+- **Métricas de Sucesso (Opcional, mas Recomendado):** Como o impacto das iniciativas de UX será medido.
 - **Dependências:** Conexões com outras equipes ou roadmaps (ex: [[Glossário/Entregáveis/product_roadmap|Product Roadmap]], Tech Roadmap).
 - **Status (Opcional):** Para acompanhar o progresso das iniciativas.
 
@@ -43,7 +43,7 @@ Ele ajuda a alinhar a equipe de UX, comunicar prioridades para stakeholders e ga
 ## Tipos de UX Roadmaps
 
 Conforme o glossário da NN/g, existem diferentes granularidades:
-- **[[Glossário/Entregáveis/product_roadmap|Product Roadmap]]:** Foca nas funcionalidades e no desenvolvimento do produto ao longo do tempo (UX é um componente).
+- **Product Roadmap:** Foca nas funcionalidades e no desenvolvimento do produto ao longo do tempo (UX é um componente).
 - **[[Glossário/Entregáveis/field_roadmap|Field Roadmap]]:** Mais amplo, cobre problemas de UX em várias áreas ou produtos.
 - **[[Glossário/Entregáveis/specialty_roadmap|Specialty Roadmap]]:** Focado em uma disciplina específica de UX (ex: Pesquisa, [[Glossário/Entregáveis/design_system|Design System]]).
 - **UX Roadmap (geral):** Pode ser um destes ou uma combinação, dependendo do contexto da equipe.
@@ -60,9 +60,9 @@ O termo "UX Roadmap" aqui se refere ao plano estratégico específico da equipe 
 
 ## Relacionado
 
-- [Product Roadmap](./product_roadmap.md)
-- [Field Roadmap](./field_roadmap.md)
-- [Specialty Roadmap](./specialty_roadmap.md)
+- [[Glossário/Entregáveis/product_roadmap|Product Roadmap]]
+- [[Glossário/Entregáveis/field_roadmap|Field Roadmap]]
+- [[Glossário/Entregáveis/specialty_roadmap|Specialty Roadmap]]
 
 ## Referência Externa
 

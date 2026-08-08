@@ -53,10 +53,10 @@ Um Perfil de Stakeholder pode incluir:
 
 ## Relacionado
 
-- [Stakeholder Persona](./stakeholder_persona.md)
-- [Persona](./[[Glossário/Entregáveis/persona|persona]].md)
-- [Mapa de Relacionamento (Relationship Map)](./relationship_map.md)
-- [Matriz RACI (RACI Matrix)](./raci_matrix.md)
+- [[Glossário/Entregáveis/stakeholder_persona|Stakeholder Persona]]
+- [[Glossário/Entregáveis/persona|Persona]]
+- [[Glossário/Entregáveis/relationship_map|Mapa de Relacionamento (Relationship Map)]]
+- [[Glossário/Entregáveis/raci_matrix|Matriz RACI (RACI Matrix)]]
 
 ## Referência Externa
 

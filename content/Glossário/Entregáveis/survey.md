@@ -1,5 +1,5 @@
 ---
-title: "survey"
+title: "Survey (Pesquisa/Questionário)"
 
 ---
 
@@ -62,9 +62,9 @@ Em UX, surveys são frequentemente usados para entender atitudes, opiniões, pre
 
 ## Relacionado
 
-- [Screener](./[[Glossário/Entregáveis/screener|screener]].md)
-- [Plano de Pesquisa (Research Plan)](./research_plan.md)
-- [Persona Estatística (Statistical Persona)](./statistical_persona.md)
+- [[Glossário/Entregáveis/screener|Screener]]
+- [[Glossário/Entregáveis/research_plan|Plano de Pesquisa (Research Plan)]]
+- [[Glossário/Entregáveis/statistical_persona|Persona Estatística (Statistical Persona)]]
 
 ## Referência Externa
 

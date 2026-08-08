@@ -55,7 +55,7 @@ O objetivo principal de um Landscape Map é fornecer uma visão sistêmica de um
 
 ## Referências (NN/g)
 
-*   Veja também: [Affinity Diagram](#affinity_diagram.md), [Journey Map](#journey_map.md), [Ecosystem Map](#ecosystem_map.md) (Nota: O [[Glossário/Entregáveis/ecosystem_map|Ecosystem Map]] é frequentemente usado como sinônimo ou um tipo específico de Landscape Map focado nas interconexões de um sistema de produtos/serviços).
+*   Veja também: [[Glossário/Entregáveis/affinity_diagram|Affinity Diagram]], [[Glossário/Entregáveis/journey_map|Journey Map]], [[Glossário/Entregáveis/ecosystem_map|Ecosystem Map]] (Nota: O Ecosystem Map é frequentemente usado como sinônimo ou um tipo específico de Landscape Map focado nas interconexões de um sistema de produtos/serviços).
 
 ---
 

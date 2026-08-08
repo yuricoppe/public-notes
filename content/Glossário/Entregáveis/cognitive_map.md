@@ -5,7 +5,7 @@ title: "cognitive map"
 
 ## Cognitive Map (Mapa Cognitivo)
 
-Um **Cognitive Map (Mapa Cognitivo)** é uma representação visual do modelo mental de uma pessoa ou grupo sobre um determinado processo, conceito, sistema ou ambiente. Diferentemente de outros [[Glossário/Componentes/maps|mapas]] mais estruturados, o mapeamento cognitivo é uma técnica de forma livre (free-form) e pode utilizar diversas abordagens de visualização, como [[Glossário/Elementos/listas|listas]] com marcadores, fluxogramas, [[Glossário/Componentes/maps|mapas]] conceituais, [[Glossário/Componentes/maps|mapas]] mentais ou até mesmo diagramas de afinidade, dependendo do que melhor representa a estrutura mental do indivíduo.
+Um **Cognitive Map (Mapa Cognitivo)** é uma representação visual do modelo mental de uma pessoa ou grupo sobre um determinado processo, conceito, sistema ou ambiente. Diferentemente de outros [[Glossário/Componentes/maps|mapas]] mais estruturados, o mapeamento cognitivo é uma técnica de forma livre (free-form) e pode utilizar diversas abordagens de visualização, como [[Glossário/Elementos/listas|listas]] com marcadores, fluxogramas, mapas conceituais, mapas mentais ou até mesmo diagramas de afinidade, dependendo do que melhor representa a estrutura mental do indivíduo.
 
 ## Propósito Principal
 
@@ -33,13 +33,13 @@ A criação de um mapa cognitivo geralmente envolve:
 *   **Foco na Estrutura do Pensamento:** Mais do que apenas listar itens, busca mostrar as relações, hierarquias e a organização percebida dos conceitos.
 *   **Qualitativo:** Baseia-se em dados qualitativos para entender a profundidade do modelo mental.
 
-## Métodos de Visualização Comuns (Podem Ser Usados para Representar [[Glossário/Componentes/maps|Mapas]] Cognitivos)
+## Métodos de Visualização Comuns (Podem Ser Usados para Representar Mapas Cognitivos)
 
-*   **[Concept Map (Mapa Conceitual)](./concept_map.md):** Mostra relações entre conceitos através de nós e setas direcionadas e rotuladas.
-*   **[Mind Map (Mapa Mental)](./mind_map.md):** Organiza informações hierarquicamente ao redor de um conceito central, com ramificações.
-*   **[Affinity Diagram (Diagrama de Afinidade)](./affinity_diagram.md):** Agrupa ideias e conceitos baseados em afinidade (usado mais para grupos).
+*   **[[Glossário/Entregáveis/concept_map|Concept Map (Mapa Conceitual)]]:** Mostra relações entre conceitos através de nós e setas direcionadas e rotuladas.
+*   **Mind Map (Mapa Mental):** Organiza informações hierarquicamente ao redor de um conceito central, com ramificações.
+*   **[[Glossário/Entregáveis/affinity_diagram|Affinity Diagram (Diagrama de Afinidade)]]:** Agrupa ideias e conceitos baseados em afinidade (usado mais para grupos).
 *   **Fluxogramas:** Representam processos e sequências de decisão.
-*   **[[Glossário/Elementos/listas|Listas]] e Esboços:** Formas mais simples de externalização.
+*   **Listas e Esboços:** Formas mais simples de externalização.
 
 ## Principais Benefícios
 
@@ -59,8 +59,8 @@ A criação de um mapa cognitivo geralmente envolve:
 ## Referências (NN/g)
 
 *   Artigo Relacionado: [Cognitive Mapping in User Research](https://www.nngroup.com/articles/cognitive-mapping-user-research/)
-*   Vídeo Relacionado: [3 Powerful Visual Mapping Strategies in UX Design](https://www.nngroup.com/videos/visual-mapping-strategies-ux-design/) (Cobre [[Glossário/Componentes/maps|Mapas]] Cognitivos, [[Glossário/Componentes/maps|Mapas]] Mentais e [[Glossário/Componentes/maps|Mapas]] Conceituais)
-*   Veja também: [Concept Map](./concept_map.md), [Mind Map](./mind_map.md), [Affinity Diagram](./affinity_diagram.md) (Nota: [[Glossário/Elementos/links|Links]] serão atualizados ou verificados conforme os documentos são criados).
+*   Vídeo Relacionado: [3 Powerful Visual Mapping Strategies in UX Design](https://www.nngroup.com/videos/visual-mapping-strategies-ux-design/) (Cobre Mapas Cognitivos, Mapas Mentais e Mapas Conceituais)
+*   Veja também: [[Glossário/Entregáveis/concept_map|Concept Map]], [[Glossário/Entregáveis/mind_map|Mind Map]], [[Glossário/Entregáveis/affinity_diagram|Affinity Diagram]].
 
 ---
 

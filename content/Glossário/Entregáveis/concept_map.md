@@ -25,21 +25,21 @@ Em UX, os [[Glossário/Componentes/maps|Mapas]] Conceituais são usados para:
 3.  **Criar Nós:** Represente cada conceito chave como um nó no mapa.
 4.  **Conectar Conceitos com Frases de Ligação:** Desenhe setas entre os conceitos relacionados. Rotule cada seta com uma frase curta (verbo ou preposição) que descreva a relação. A direção da seta é importante para indicar o fluxo da relação (ex: "Cachorro" --tem--> "Pelo").
 5.  **Organizar Hierarquicamente (Geralmente):** Coloque os conceitos mais gerais e inclusivos no topo e os mais específicos abaixo, embora outras estruturas (como cíclicas ou de rede) também sejam possíveis.
-6.  **Refinar e Iterar:** Revise o mapa para clareza, precisão e completude. Adicione, remova ou reorganize conceitos e [[Glossário/Elementos/links|links]] conforme necessário. Busque por relações cruzadas (cross-[[Glossário/Elementos/links|links]]) entre diferentes seções do mapa.
+6.  **Refinar e Iterar:** Revise o mapa para clareza, precisão e completude. Adicione, remova ou reorganize conceitos e [[Glossário/Elementos/links|links]] conforme necessário. Busque por relações cruzadas (cross-links) entre diferentes seções do mapa.
 
 ## Características Chave
 
-*   **Nós e [[Glossário/Elementos/links|Links]] Rotulados:** A característica definidora são as frases de ligação que explicitam a relação entre os conceitos.
+*   **Nós e Links Rotulados:** A característica definidora são as frases de ligação que explicitam a relação entre os conceitos.
 *   **Estrutura Hierárquica (Comum, mas não obrigatória):** Frequentemente organizados do geral para o específico.
 *   **Proposicional:** Cada par de conceitos conectados por uma frase de ligação forma uma proposição ou declaração de significado (ex: "Água [conceito] é essencial para [frase de ligação] a Vida [conceito]").
 *   **Foco em Relações Significativas:** O objetivo é mostrar como os conceitos se interconectam de maneira significativa.
 
-## Diferença entre Mapa Conceitual e [[Glossário/Entregáveis/mind_map|Mapa Mental]]
+## Diferença entre Mapa Conceitual e Mapa Mental
 
 | Característica        | Mapa Conceitual                                     | [[Glossário/Entregáveis/mind_map|Mapa Mental]]                                          |
 | :-------------------- | :-------------------------------------------------- | :--------------------------------------------------- |
 | **Estrutura**         | Rede de conceitos, múltiplas relações, hierárquico | Radial, com um tópico central e ramificações        |
-| **[[Glossário/Elementos/links|Links]]**             | Rotulados com frases de ligação, direcionados     | Geralmente não rotulados ou com palavras-chave simples |
+| **Links**             | Rotulados com frases de ligação, direcionados     | Geralmente não rotulados ou com palavras-chave simples |
 | **Foco**              | Relações entre conceitos                            | Geração de ideias, organização em torno de um tema   |
 | **Complexidade**      | Pode representar sistemas mais complexos            | Mais simples, focado em um conceito central          |
 | **Número de Centros** | Pode ter múltiplos centros ou nenhum específico     | Um conceito central claro                            |
@@ -62,9 +62,9 @@ Em UX, os [[Glossário/Componentes/maps|Mapas]] Conceituais são usados para:
 
 ## Referências (NN/g)
 
-*   Artigo Relacionado: [Cognitive Maps, Mind Maps, and Concept Maps: Definitions](https://www.nngroup.com/articles/cognitive-[[Glossário/Componentes/maps|maps]]-mind-[[Glossário/Componentes/maps|maps]]-concept-[[Glossário/Componentes/maps|maps]]/)
-*   Vídeo Relacionado: [3 Powerful Visual Mapping Strategies in UX Design](https://www.nngroup.com/videos/visual-mapping-strategies-ux-design/) (Cobre [[Glossário/Componentes/maps|Mapas]] Cognitivos, [[Glossário/Componentes/maps|Mapas]] Mentais e [[Glossário/Componentes/maps|Mapas]] Conceituais)
-*   Veja também: [Cognitive Map](./cognitive_map.md), [Mind Map](./mind_map.md) (Nota: [[Glossário/Elementos/links|Links]] serão atualizados ou verificados conforme os documentos são criados).
+*   Artigo Relacionado: [Cognitive Maps, Mind Maps, and Concept Maps: Definitions](https://www.nngroup.com/articles/cognitive-maps-mind-maps-concept-maps/)
+*   Vídeo Relacionado: [3 Powerful Visual Mapping Strategies in UX Design](https://www.nngroup.com/videos/visual-mapping-strategies-ux-design/) (Cobre Mapas Cognitivos, Mapas Mentais e Mapas Conceituais)
+*   Veja também: [[Glossário/Entregáveis/cognitive_map|Cognitive Map]], Mind Map.
 
 ---
 

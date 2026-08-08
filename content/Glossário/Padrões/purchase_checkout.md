@@ -59,7 +59,7 @@ O padrão de compra/checkout descreve o processo pelo qual um usuário seleciona
 - Exiba selos de segurança e confiança para tranquilizar o usuário.
 - Forneça estimativas claras de entrega e custos de frete antes da etapa final de pagamento.
 - Envie um email de confirmação detalhado imediatamente após a compra.
-- Otimize para dispositivos móveis ([[Glossário/Padrões/form_structure|formulários]] fáceis de preencher, [[Glossário/Elementos/botoes|botões]] grandes).
+- Otimize para dispositivos móveis (formulários fáceis de preencher, botões grandes).
 
 ### Não Faça
 
@@ -72,7 +72,7 @@ O padrão de compra/checkout descreve o processo pelo qual um usuário seleciona
 
 ## Considerações de Acessibilidade
 
-- Todos os campos de [[Glossário/Padrões/form_structure|formulário]] devem ter rótulos claros e associados (`<label for>`).
+- Todos os campos de formulário devem ter rótulos claros e associados (`<label for>`).
 - Mensagens de erro e sucesso devem ser acessíveis e associadas aos campos relevantes.
 - Garanta que todos os elementos interativos sejam operáveis via teclado.
 - Mantenha bom contraste de [[Glossário/Linguagem Visual/cor|cores]].
@@ -91,7 +91,7 @@ O padrão de compra/checkout descreve o processo pelo qual um usuário seleciona
 - **Checkout de Página Única (One-Page Checkout):** Todos os campos e informações em uma única página, geralmente usando seções expansíveis (accordions).
 - **Checkout Multi-Etapas (Multi-Step Checkout):** Processo dividido em várias páginas ou abas (ex: 1. Informações Pessoais, 2. Envio, 3. Pagamento, 4. Revisão).
 - **Checkout Expresso/Rápido:** Para usuários com contas e informações salvas, permitindo finalizar a compra com poucos cliques.
-- **Checkout Incorporado (Embedded Checkout):** Componentes de pagamento de terceiros (ex: Stripe Elements, PayPal [[Glossário/Elementos/botoes|buttons]]) integrados diretamente na página.
+- **Checkout Incorporado (Embedded Checkout):** Componentes de pagamento de terceiros (ex: Stripe Elements, PayPal buttons) integrados diretamente na página.
 
 ## Status
 
@@ -99,6 +99,6 @@ A definir
 
 ## Recursos Adicionais / Figma
 
-- [[[Glossário/Elementos/links|Link]] para os designs das telas de carrinho e checkout no Figma]
-- [[[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/prototype|protótipos]] do fluxo de compra]
-- [[[Glossário/Elementos/links|Link]] para a documentação da API de pagamento, se aplicável]
+- [Link para os designs das telas de carrinho e checkout no Figma]
+- [Link para protótipos do fluxo de compra]
+- [Link para a documentação da API de pagamento, se aplicável]

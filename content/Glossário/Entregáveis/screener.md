@@ -1,5 +1,5 @@
 ---
-title: "screener"
+title: "Screener"
 
 ---
 
@@ -34,15 +34,15 @@ Screeners são essenciais para garantir que os participantes da pesquisa sejam a
 
 - **Clareza e Concisão:** As perguntas devem ser fáceis de entender e responder.
 - **Evitar Perguntas Tendenciosas:** Formular perguntas de forma neutra para não influenciar as respostas.
-- **Número de Perguntas:** Manter o [[Glossário/Entregáveis/survey|questionário]] o mais curto possível para evitar o abandono.
+- **Número de Perguntas:** Manter o questionário o mais curto possível para evitar o abandono.
 - **Teste Piloto:** Testar o screener com algumas pessoas antes de lançá-lo em larga escala para identificar problemas.
 
 ## Relacionado
 
-- [Plano de Pesquisa (Research Plan)](./research_plan.md)
-- [Survey](./[[Glossário/Entregáveis/survey|survey]].md)
-- [Guia de Entrevista (Interview Guide)](./interview_guide.md)
-- [Relatório de Usabilidade (Usability Report)](./usability_report.md)
+- [[Glossário/Entregáveis/research_plan|Plano de Pesquisa (Research Plan)]]
+- [[Glossário/Entregáveis/survey|Survey]]
+- [[Glossário/Entregáveis/interview_guide|Guia de Entrevista (Interview Guide)]]
+- [[Glossário/Entregáveis/usability_report|Relatório de Usabilidade (Usability Report)]]
 
 ## Referência Externa
 

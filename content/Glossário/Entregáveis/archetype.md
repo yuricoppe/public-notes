@@ -1,5 +1,5 @@
 ---
-title: "archetype"
+title: "Archetype (Arquétipo)"
 
 ---
 
@@ -36,16 +36,16 @@ O propósito de criar arquétipos é:
 *   **Necessidades:** O que eles precisam do produto/serviço para serem bem-sucedidos.
 *   **Citações (opcional):** Frases representativas que capturam sua perspectiva (podem ser compostas ou reais, mas anonimizadas).
 
-## Diferença entre [[Glossário/Entregáveis/persona|Personas]] e Arquétipos
+## Diferença entre Personas e Arquétipos
 
-| Característica      | [[Glossário/Entregáveis/persona|Persona]]                                     | Arquétipo                                      |
+| Característica      | Persona                                     | Arquétipo                                      |
 | :------------------ | :------------------------------------------ | :--------------------------------------------- |
 | **Nível de Detalhe** | Alta (nome, foto, demografia, biografia)    | Baixa a Média (foco em padrões)                |
 | **Foco Principal**  | Empatia e representação de um usuário típico | Padrões de comportamento e motivações          |
 | **Uso de Dados**    | Geralmente mais qualitativo e narrativo     | Pode ser derivado de dados quantitativos também |
 | **Evitar Estereótipos** | Risco maior se não bem construída          | Menor risco, pois é mais abstrato              |
 
-Ambos são ferramentas valiosas e, por vezes, podem ser usados em conjunto. Arquétipos podem ajudar a definir os segmentos de usuários antes de desenvolver [[Glossário/Entregáveis/persona|personas]] mais detalhadas para cada segmento chave.
+Ambos são ferramentas valiosas e, por vezes, podem ser usados em conjunto. Arquétipos podem ajudar a definir os segmentos de usuários antes de desenvolver personas mais detalhadas para cada segmento chave.
 
 ## Principais Benefícios
 
@@ -58,14 +58,14 @@ Ambos são ferramentas valiosas e, por vezes, podem ser usados em conjunto. Arqu
 
 *   Nas fases iniciais de um projeto para entender o panorama dos usuários.
 *   Quando se tem uma base de usuários grande e diversa, para identificar os principais segmentos comportamentais.
-*   Para complementar [[Glossário/Entregáveis/persona|personas]], fornecendo uma camada mais abstrata de entendimento.
+*   Para complementar personas, fornecendo uma camada mais abstrata de entendimento.
 *   Quando o foco principal é em entender "por que" os usuários fazem o que fazem.
 *   Em projetos onde dados demográficos são menos relevantes que os padrões de comportamento.
 
 ## Referências (NN/g)
 
-*   Artigo Relacionado: [Personas vs. Archetypes](https://www.nngroup.com/articles/[[Glossário/Entregáveis/persona|personas]]-vs-archetypes/)
-*   Veja também: [Persona](#) (Nota: [[Glossário/Elementos/links|Link]] para [[Glossário/Entregáveis/persona|Persona]] será atualizado quando o documento correspondente for criado)
+*   Artigo Relacionado: [Personas vs. Archetypes](https://www.nngroup.com/articles/personas-vs-archetypes/)
+*   Veja também: [[Glossário/Entregáveis/persona|Persona]]
 
 ---
 

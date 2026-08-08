@@ -1,5 +1,5 @@
 ---
-title: "promptframe"
+title: "Promptframe"
 
 ---
 
@@ -28,7 +28,7 @@ O objetivo principal de um promptframe é:
     *   **Exemplos de Respostas do Usuário:** Variações de como o usuário pode responder (ex: "Qual é o meu saldo?", "Ver saldo", "Histórico de transações, por favor").
     *   **Respostas do Sistema/Próximos Prompts:** Como o sistema reage a cada tipo de resposta do usuário, levando ao próximo prompt ou ação.
     *   **Tratamento de Erros e Esclarecimentos:** Como o sistema lida com entradas inesperadas, ambiguidades ou quando não entende o usuário (ex: "Desculpe, não entendi. Você poderia repetir?").
-4.  **Formato Visual:** Promptframes podem ser simples caixas de texto, storyboards, ou usar formatos de [[Glossário/Entregáveis/wireframe|wireframe]] adaptados, focando no conteúdo do diálogo e na sequência.
+4.  **Formato Visual:** Promptframes podem ser simples caixas de texto, storyboards, ou usar formatos de wireframe adaptados, focando no conteúdo do diálogo e na sequência.
 5.  **Testar e Iterar:** Usar os promptframes para simular conversas (role-playing) ou para testes de usabilidade com usuários para refinar os diálogos.
 
 ## Principais Benefícios
@@ -55,7 +55,7 @@ O objetivo principal de um promptframe é:
 ## Referências (NN/g)
 
 *   Este é um termo mais recente e específico para design conversacional. O glossário da NN/g não o [[Glossário/Elementos/listas|lista]] explicitamente, mas se relaciona com os princípios de wireframing e prototipagem aplicados a CUIs.
-*   Pode ser visto como uma especialização de [Wireframe](#) (será criado) ou [Prototype](#) (será criado) para interações baseadas em linguagem.
+*   Pode ser visto como uma especialização de Wireframe ou Prototype para interações baseadas em linguagem.
 
 ---
 

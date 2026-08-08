@@ -49,8 +49,8 @@ Tradicionalmente, um Service Blueprint é dividido em seções horizontais (swim
 
 ## Relacionado
 
-- [Mapa de Jornada (Journey Map)](./journey_map.md)
-- [Mapa de Experiência (Experience Map)](./experience_map.md)
+- [[Glossário/Entregáveis/journey_map|Mapa de Jornada (Journey Map)]]
+- [[Glossário/Entregáveis/experience_map|Mapa de Experiência (Experience Map)]]
 
 ## Referência Externa
 

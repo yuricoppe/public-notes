@@ -3,13 +3,13 @@ title: "principios movimento"
 
 ---
 
-## Princípios do [[Glossário/Linguagem Visual/movimento|Movimento]]
+## Princípios do Movimento
 
 Esta seção aborda os princípios fundamentais que guiam o uso de [[Glossário/Linguagem Visual/movimento|movimento]] e animações na interface, com o objetivo de criar experiências de usuário mais intuitivas, responsivas e agradáveis.
 
 ## Introdução
 
-O [[Glossário/Linguagem Visual/movimento|movimento]], quando bem aplicado, pode:
+O movimento, quando bem aplicado, pode:
 - Melhorar a usabilidade, fornecendo feedback e orientação.
 - Aumentar o engajamento do usuário.
 - Reforçar a hierarquia visual e o fluxo de informações.
@@ -18,25 +18,25 @@ O [[Glossário/Linguagem Visual/movimento|movimento]], quando bem aplicado, pode
 ## Nossos Princípios Fundamentais
 
 1.  **Funcional e Proposital:**
-    *   O [[Glossário/Linguagem Visual/movimento|movimento]] deve ter um propósito claro, como guiar o usuário, fornecer feedback ou explicar transições. Evitar animações puramente decorativas que possam distrair ou confundir.
+    *   O movimento deve ter um propósito claro, como guiar o usuário, fornecer feedback ou explicar transições. Evitar animações puramente decorativas que possam distrair ou confundir.
 
 2.  **Responsivo e Performático:**
     *   As animações devem ser suaves e rápidas, sem causar lentidão na interface. O desempenho é crucial para uma boa experiência.
-    *   O [[Glossário/Linguagem Visual/movimento|movimento]] deve responder às interações do usuário de forma imediata e natural.
+    *   O movimento deve responder às interações do usuário de forma imediata e natural.
 
 3.  **Consistente e Previsível:**
-    *   Utilizar padrões de [[Glossário/Linguagem Visual/movimento|movimento]] consistentes em todo o sistema. Isso ajuda os usuários a aprenderem como a interface se comporta e a anteciparem resultados.
+    *   Utilizar padrões de movimento consistentes em todo o sistema. Isso ajuda os usuários a aprenderem como a interface se comporta e a anteciparem resultados.
 
 4.  **Sutil e Discreto:**
-    *   Na maioria dos casos, o [[Glossário/Linguagem Visual/movimento|movimento]] deve ser sutil para não sobrecarregar o usuário. Animações exageradas podem ser cansativas e prejudicar a usabilidade.
+    *   Na maioria dos casos, o movimento deve ser sutil para não sobrecarregar o usuário. Animações exageradas podem ser cansativas e prejudicar a usabilidade.
 
 5.  **Contextual e Hierárquico:**
-    *   O [[Glossário/Linguagem Visual/movimento|movimento]] pode ajudar a estabelecer relações espaciais e hierárquicas entre os elementos da interface.
+    *   O movimento pode ajudar a estabelecer relações espaciais e hierárquicas entre os elementos da interface.
     *   Animações de entrada e saída podem indicar a origem e o destino de novos elementos ou visualizações.
 
 6.  **Acessível:**
-    *   Considerar usuários com sensibilidade a [[Glossário/Linguagem Visual/movimento|movimento]]. Oferecer opções para reduzir ou desabilitar animações complexas, se necessário.
-    *   Garantir que o [[Glossário/Linguagem Visual/movimento|movimento]] não seja o único meio de transmitir informações importantes.
+    *   Considerar usuários com sensibilidade a movimento. Oferecer opções para reduzir ou desabilitar animações complexas, se necessário.
+    *   Garantir que o movimento não seja o único meio de transmitir informações importantes.
 
 ## Timing e Curvas de Animação (Easing)
 
@@ -53,20 +53,20 @@ O [[Glossário/Linguagem Visual/movimento|movimento]], quando bem aplicado, pode
 
 ## Exemplos de Aplicação
 
--   **Feedback de Interação:** Animação sutil em [[Glossário/Elementos/botoes|botões]] ao passar o mouse ou clicar.
+-   **Feedback de Interação:** Animação sutil em botões ao passar o mouse ou clicar.
 -   **Transições de Estado:** Mudança suave de [[Glossário/Linguagem Visual/cor|cor]] ou [[Glossário/Linguagem Visual/iconografia|ícone]] para indicar uma alteração de estado.
 -   **Transições de Página/View:** Animações que indicam a direção da navegação (ex: slide).
 -   **Revelação de Conteúdo:** Expansão de acordeões ou [[Glossário/Componentes/menu|menus]] [[Glossário/Elementos/form_controls|dropdown]].
--   **Notificações e Alertas:** [[Glossário/Linguagem Visual/movimento|Movimento]] sutil para chamar a atenção para novas [[Glossário/Componentes/messaging|mensagens]].
+-   **Notificações e Alertas:** Movimento sutil para chamar a atenção para novas [[Glossário/Componentes/messaging|mensagens]].
 
 ## Ferramentas
 
 -   Referência a bibliotecas de animação utilizadas (se houver).
--   [[Glossário/Elementos/links|Links]] para exemplos no Figma ou [[Glossário/Entregáveis/prototype|protótipos]].
+-   Links para exemplos no Figma ou [[Glossário/Entregáveis/prototype|protótipos]].
 
 ## O Que Evitar
 
 -   Animações longas e desnecessárias.
--   [[Glossário/Linguagem Visual/movimento|Movimento]] que obstrui o conteúdo ou a tarefa do usuário.
+-   Movimento que obstrui o conteúdo ou a tarefa do usuário.
 -   Excesso de animações diferentes na mesma tela.
 -   Animações que causam problemas de performance.
