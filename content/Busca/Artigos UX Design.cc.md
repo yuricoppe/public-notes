@@ -40,31 +40,3 @@ tags:
 8. **[Algoritmos](https://brasil.uxdesign.cc/tagged/algoritmos)**
 
     Discute algoritmos, filtros e como eles personalizam resultados de busca em plataformas como o Google.
-
-9. **[A experiência de busca em produtos digitais](https://brasil.uxdesign.cc/a-experiencia-de-busca-em-produtos-digitais-abc123)**
-
-    Explora como melhorar a experiência do usuário durante o processo de busca em produtos digitais.
-
-10. **[Criando uma interface de busca mais intuitiva](https://brasil.uxdesign.cc/criando-uma-interface-de-busca-mais-intuitiva-xyz456)**
-
-    Enfatiza a importância da simplicidade e eficácia na interface de busca.
-
-11. **[A psicologia por trás da busca online](https://brasil.uxdesign.cc/a-psicologia-por-tras-da-busca-online-xyz789)**
-
-    Discute como a psicologia do usuário afeta os resultados de busca e a utilização de filtros.
-
-12. **[Resultados de busca e comportamento do usuário](https://brasil.uxdesign.cc/resultados-de-busca-e-comportamento-do-usuario-abc321)**
-
-    Examina como diferentes apresentações de resultados de busca influenciam a interação do usuário.
-
-13. **[Tendências em pesquisa de UX para 2025](https://brasil.uxdesign.cc/tendencias-em-pesquisa-de-ux-para-2025-xyz654)**
-
-    Analisa as tendências futuras na pesquisa e implementação de buscas eficientes.
-
-14. **[Melhores práticas para filtros em lojas online](https://brasil.uxdesign.cc/melhores-praticas-para-filtros-em-lojas-online-abc987)**
-
-    Oferece dicas sobre como implementar filtros eficazes em e-commerces.
-
-15. **[Aro de design: criando filtros de busca efetivos](https://brasil.uxdesign.cc/aro-de-design-criando-filtros-de-busca-efetivos-xyz123)**
-
-    Foca nas práticas de design necessárias para criar filtros que realmente ajudem os usuários.

@@ -48,23 +48,3 @@ tags:
 10. **[Search and You May Find](https://www.nngroup.com/articles/search-and-you-may-find/)**
 
     Aborda a importância da busca como a principal interface para a web para muitos usuários, defendendo que deve ser acessível a partir de todas as páginas.
-
-11. **[The Importance of Filtering in Search](https://www.nngroup.com/articles/filtering-in-search/)**
-
-    Discute a necessidade de filtros em funções de busca para ajudar os usuários a refinar suas consultas e encontrar resultados mais relevantes.
-
-12. **[Search: Why It Matters for UX](https://www.nngroup.com/articles/search-user-experience/)**
-
-    Explora a importância da experiência de busca no design de produtos, enfatizando que uma boa busca pode aumentar a satisfação do usuário.
-
-13. **[Designing Effective Faceted Search](https://www.nngroup.com/articles/faceted-search-design/)**
-
-    Oferece diretrizes para o design de buscas facetadas, melhorando a filtragem e a relevância dos resultados de busca.
-
-14. **[The Challenges of Search on Mobile](https://www.nngroup.com/articles/mobile-search-challenges/)**
-
-    Discute os desafios específicos que a busca enfrenta em dispositivos móveis e como superá-los.
-
-15. **[Lab Study: Search with Autocomplete](https://www.nngroup.com/articles/search-autocomplete-lab-study/)**
-
-    Apresenta resultados de um estudo em laboratório sobre a eficácia do recurso de autocompletar em buscas.
