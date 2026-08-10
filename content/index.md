@@ -70,7 +70,7 @@ tags:
 - **[A List Apart](https://alistapart.com/articles/)** · alistapart.com
   "For people who make websites."
 - **[Interaction Design Foundation — Blog](https://www.interaction-design.org/blog)** · IxDF
-- ⚠️ [UX Booth](https://uxbooth.com/articles/) — site fora do ar, em loop de redirecionamento (verificado em 10 ago 2026)
+- **UX Booth** — ⚠️ o site saiu do ar (loop de redirecionamento, verificado em 10 ago 2026); o acervo continua legível no [snapshot de jun 2025 no Internet Archive](https://web.archive.org/web/20250616094943/https://uxbooth.com/articles/)
 
 ---
 

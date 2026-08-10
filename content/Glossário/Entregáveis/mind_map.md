@@ -49,8 +49,8 @@ O objetivo principal de um Mind Map é facilitar o brainstorming, a organizaçã
 
 ## Referências (NN/g)
 
-*   Artigo Relacionado: [Cognitive Maps, Mind Maps, and Concept Maps: Definitions](https://www.nngroup.com/articles/cognitive-maps-mind-maps-concept-maps/) ⚠️ link fora do ar (verificado em 10 ago 2026)
-*   Vídeo Relacionado: [3 Powerful Visual Mapping Strategies in UX Design](https://www.nngroup.com/videos/3-visual-mapping-strategies-ux-design/) ⚠️ link fora do ar (verificado em 10 ago 2026)
+*   Artigo Relacionado: [Cognitive Maps, Mind Maps, and Concept Maps: Definitions](https://www.nngroup.com/articles/cognitive-mind-concept/)
+*   Vídeo Relacionado: [3 Powerful Visual Mapping Strategies in UX Design](https://www.nngroup.com/videos/visual-mapping-strategies/)
 *   Veja também: [[Glossário/Entregáveis/cognitive_map|Cognitive Map]], [[Glossário/Entregáveis/concept_map|Concept Map]]
 
 ---

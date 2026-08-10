@@ -43,7 +43,7 @@ Aqui está uma lista atualizada de ferramentas utilizadas nos processos de UX De
 - **Validately:** Plataforma para realizar testes de usabilidade remotos, com recursos para recrutar usuários, gravar as sessões e analisar os resultados. [Link para Validately](https://www.validately.com/) - Preços: Startup (US\$89/mês), Growth (US\$199/mês), Enterprise (Personalizado).
 - **Lookback:** Ferramenta para realizar testes de usabilidade presenciais e remotos, com recursos para gravar as sessões, coletar feedback e colaborar com a equipe. [Link para Lookback](https://lookback.io/) - Preços: Starter (US\$25/mês), Team (US\$79/mês), Company (US\$349/mês).
 - **Maze:** Plataforma para testar protótipos e designs com usuários reais, coletando dados quantitativos e qualitativos sobre a usabilidade das interfaces. [Link para Maze](https://maze.co/) - Preços: Gratuito, Starter (US\$99/mês), Team (US\$499/mês).
-- **TryMyUI:** Plataforma para testes de usabilidade remotos com foco em vídeo feedback. [Link para TryMyUI](https://www.trymyui.com/) - Preços: Plano Personalizado. ⚠️ link fora do ar (verificado em 10 ago 2026)
+- **TryMyUI:** Plataforma para testes de usabilidade remotos com foco em vídeo feedback. TryMyUI - Preços: Plano Personalizado. ⚠️ o site saiu do ar (verificado em 10 ago 2026); último [snapshot no Internet Archive](https://web.archive.org/web/20230531011441/https://www.trymyui.com/) é de mai 2023.
 - **UserZoom:** Plataforma para testes de UX e coleta de feedback dos usuários em larga escala. [Link para UserZoom](https://www.userzoom.com/) - Preços: Plano Personalizado.
 
 ### 5. Colaboração e Comunicação:

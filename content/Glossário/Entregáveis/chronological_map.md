@@ -57,7 +57,7 @@ Embora a estrutura varie, muitos mapas cronológicos incluem:
 
 ## Referências (NN/g)
 
-*   Artigo Relacionado: [Why Map in Discovery: 3 Mapping Methods](https://www.nngroup.com/articles/discovery-mapping-methods/) ⚠️ link fora do ar (verificado em 10 ago 2026)
+*   Artigo Relacionado: [Why Map in Discovery: 3 Mapping Methods](https://www.nngroup.com/articles/mapping-in-discovery/)
 *   Vídeo Relacionado: [Discovery Mapping Methods](https://www.nngroup.com/videos/discovery-mapping-methods/)
 *   Veja também: [[Glossário/Entregáveis/experience_map|Experience Map]], [[Glossário/Entregáveis/service_blueprint|Service Blueprint]], [[Glossário/Entregáveis/journey_map|User Journey Map]].
 

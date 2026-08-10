@@ -64,5 +64,5 @@ O principal objetivo de um wireframe é definir a arquitetura da informação de
 
 ## Referência Externa
 
-- [How to Draw a Wireframe (Even if You Can't Draw) (Nielsen Norman Group)](https://www.nngroup.com/articles/how-to-draw-wireframe/) ⚠️ link fora do ar (verificado em 10 ago 2026)
+- [How to Draw a Wireframe (Even if You Can't Draw) (Nielsen Norman Group)](https://www.nngroup.com/articles/draw-wireframe-even-if-you-cant-draw/)
 - [Prototypes vs. Wireframes in UX Projects (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)

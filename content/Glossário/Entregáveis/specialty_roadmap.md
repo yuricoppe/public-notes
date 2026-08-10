@@ -55,5 +55,5 @@ Um Roadmap de Especialidade é um plano estratégico focado em uma disciplina pa
 
 ## Referência Externa
 
-- [3 Types of Roadmaps in UX and Product Design (Nielsen Norman Group)](https://www.nngroup.com/articles/types-of-roadmaps/) ⚠️ link fora do ar (verificado em 10 ago 2026)
-- [3 Types of Roadmaps (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/types-roadmaps/) ⚠️ link fora do ar (verificado em 10 ago 2026)
+- [3 Types of Roadmaps in UX and Product Design (Nielsen Norman Group)](https://www.nngroup.com/articles/types-of-roadmaps/) ⚠️ nenhum artigo com esse título existe no NN/g (sitemap de 2755 URLs, verificado em 10 ago 2026); os itens reais mais próximos são [UX Roadmaps: Definition and Components](https://www.nngroup.com/articles/ux-roadmaps/) e o vídeo [3 Types of UX Roadmaps](https://www.nngroup.com/videos/3-types-roadmaps/)
+- [3 Types of UX Roadmaps (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/3-types-roadmaps/)

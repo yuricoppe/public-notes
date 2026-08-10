@@ -66,7 +66,7 @@ Embora distintos, os termos são por vezes usados de forma intercambiável ou os
 
 *   O Mapa de Experiência é um dos três tipos de [[Glossário/Entregáveis/chronological_map|Mapas Cronológicos]] destacados pelo NN/g.
 *   Artigo Relacionado: [Journey Mapping 101](https://www.nngroup.com/articles/journey-mapping-101/) (Embora focado em Journey Mapping, discute princípios aplicáveis e a relação com Experience Mapping).
-*   Artigo Relacionado: [Why Map in Discovery: 3 Mapping Methods](https://www.nngroup.com/articles/discovery-mapping-methods/) ⚠️ link fora do ar (verificado em 10 ago 2026)
+*   Artigo Relacionado: [Why Map in Discovery: 3 Mapping Methods](https://www.nngroup.com/articles/mapping-in-discovery/)
 *   Veja também: Journey Map, [[Glossário/Entregáveis/service_blueprint|Service Blueprint]], Chronological Map
 
 ---

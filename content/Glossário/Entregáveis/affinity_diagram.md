@@ -45,7 +45,7 @@ O objetivo principal de um Affinity Diagram é sintetizar dados qualitativos, co
 ## Referências (NN/g)
 
 *   Artigo Relacionado: [Affinity Diagramming for Collaboratively Sorting UX Findings and Design Ideas](https://www.nngroup.com/articles/affinity-diagram/)
-*   Vídeo Relacionado: [Affinity Diagramming: Collaborate, Sort and Prioritize UX Ideas](https://www.nngroup.com/videos/affinity-diagramming-prioritize-ux-ideas/) ⚠️ link fora do ar (verificado em 10 ago 2026)
+*   Vídeo Relacionado: [Affinity Diagramming: Collaborate, Sort and Prioritize UX Ideas](https://www.nngroup.com/videos/affinity-diagramming/)
 *   Veja também: [[Glossário/Entregáveis/landscape_map|Landscape Map]]
 
 ---

@@ -24,7 +24,8 @@ tags:
 
 - **[Generative Interfaces: The Future of Digital Products with AI](https://www.youtube.com/watch?v=A5rniBTm2uo)** · Peter Smart
 - **[AI Interfaces Of The Future | Design Review](https://www.youtube.com/watch?v=DBhSfROq3wU&t=161s)** · Y Combinator
-- ⚠️ [youtube.com/watch?v=MbWgRuM-7X8](https://www.youtube.com/watch?v=MbWgRuM-7X8) — vídeo saiu do ar (verificado em 10 ago 2026), título não recuperável
+- **Stanford Seminar — Generative, Malleable, and Personal User Interfaces** · Stanford HCI Seminar (CS547)
+  ⚠️ o vídeo saiu do ar no YouTube (verificado em 10 ago 2026); título e página recuperados do [snapshot de mai 2026 no Internet Archive](https://web.archive.org/web/20260510001537/https://www.youtube.com/watch?v=MbWgRuM-7X8).
 
 ## Cases
 
