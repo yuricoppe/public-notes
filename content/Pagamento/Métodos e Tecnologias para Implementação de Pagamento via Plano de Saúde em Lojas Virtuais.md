@@ -1,292 +1,141 @@
 ---
 title: "Métodos e Tecnologias para Implementação de Pagamento via Plano de Saúde em Lojas Virtuais"
-description: "Estudo sobre pagamento via convênio em e-commerce: estado do mercado, tecnologia, regulação e UX"
+description: "Pagamento via convênio em e-commerce: o que a regulação permite, quais mecanismos existem de fato e o que é hipótese de design"
 tags:
   - dominio/pagamento
   - dominio/saude
   - tipo/resumo
 ---
 
-> [!warning] Bibliografia não verificável — auditada em 10 ago 2026
-> Das 57 URLs citadas neste documento, **apenas 8 respondem**, e 4 dessas são a homepage de empresas mencionadas por nome, não o artigo citado. As demais dão 404 ou apontam para domínios que **não resolvem em DNS** (`awesomelab.com.br`, `funcionalcorp.com.br`, `felicitar.com.br`, `sodreitop.com.br`, `ibconsultoria.net.br`, `serconplanosdesaude.com.br`, entre outros).
+> [!note] Reescrito em 10 ago 2026 a partir de um original gerado por IA
+> A versão anterior tinha 49 referências das quais **48 nunca existiram** — não saíram do ar, nunca foram arquivadas pelo Internet Archive e vários domínios não resolvem em DNS. O texto também partia de uma premissa que a lei não sustenta (ver primeira seção).
 >
-> Para comparação, a bibliografia de [[Usabilidade, Arquitetura e Psicologia Cognitiva em Fluxos de Agendamento Digitais]] tem 40 links e **zero** 404.
+> Esta versão mantém só o que consegui verificar em fonte primária, e **marca explicitamente** o que é dedução minha e o que é hipótese:
 >
-> Os nomes de empresas e produtos citados no corpo são reais e conferíveis. As **URLs de artigo e os marcadores `[ref:N]` não sustentam o que afirmam** — trate o texto como rascunho não referenciado até revalidar as fontes.
+> - **[Verificado]** — confere com fonte primária linkada, checada em 10 ago 2026
+> - **[Inferência]** — não achei fonte direta; é dedução a partir dos fatos verificados acima dela
+> - **[Suposição]** — plausível, não verificado, pode estar errado
+> - **[Prática de UX]** — recomendação profissional de design, não afirmação factual sobre o mercado
 
-## Introdução
+## A restrição que muda o enquadramento do problema
 
-A integração de pagamentos via plano de saúde em lojas virtuais representa uma importante oportunidade para expandir o acesso a produtos e serviços de saúde, criando uma nova dimensão para o e-commerce neste setor. Como UX/UI Designer Senior, o desafio está em criar uma experiência fluida, segura e transparente, enquanto se navega pelas complexidades tecnológicas e regulatórias específicas deste tipo de transação.
-Este estudo aprofundado explora métodos, tecnologias e considerações de design para implementar pagamentos via planos de saúde em ambientes de e-commerce, com foco na experiência do usuário.
+O documento original tratava "pagar com plano de saúde numa loja virtual" como um desafio de integração e de UX. O obstáculo principal, porém, é anterior a qualquer API.
 
-## Estado Atual do Mercado
+**[Verificado]** O **art. 10, VI da Lei 9.656/1998** exclui da cobertura obrigatória dos planos de saúde "o fornecimento de medicamentos e produtos para a saúde importados não nacionalizados" e "medicamentos para tratamento domiciliar". As exceções são estreitas e definidas: medicação durante internação (incluindo home care), quimioterapia oncológica ambulatorial, antineoplásicos orais de uso domiciliar e o que estiver vinculado a procedimento listado no Rol da ANS. O STJ tem reafirmado que se trata de exclusão legal expressa, distinta do caso de procedimento apenas não listado. ([Lei 9.656/1998](https://www.planalto.gov.br/ccivil_03/leis/l9656.htm))
 
-A aceitação de planos de saúde como forma de pagamento em lojas virtuais ainda não é uma prática amplamente difundida no Brasil [ref:1,5]. No entanto, existem iniciativas crescentes, principalmente em:
-- **Farmácias e drogarias online**: Algumas grandes redes já exploram a utilização de planos de saúde para compra de medicamentos, geralmente através de Programas de Benefícios em Medicamentos (PBMs)
-- **Plataformas de telemedicina**: A integração com planos de saúde é mais comum para pagamento de consultas e serviços médicos virtuais
-- **Marketplaces de saúde e bem-estar**: Plataformas que reúnem diversos profissionais e serviços de saúde começam a buscar integrações para facilitar o pagamento via convênio
-Segundo dados da ANS, os planos de saúde realizaram 1,93 bilhão de procedimentos em 2023, um aumento de 7,4% em relação a 2022 [ref:45], demonstrando o potencial crescente deste mercado.
+**[Inferência]** Disso decorre que, para a maior parte do que uma farmácia ou loja de produtos de saúde vende online, **não existe "pagar com o plano"** no sentido de o convênio quitar a compra como quita uma consulta. O que existe são três mecanismos distintos, frequentemente confundidos entre si — e o texto original confundia os três.
 
-## Principais Desafios da Implementação
+## Os três mecanismos, que não são a mesma coisa
 
-### Desafios Técnicos e Operacionais
+### 1. PBM — desconto, não pagamento
 
-1. **Validação e elegibilidade em tempo real**: Confirmar se o plano está ativo, se cobre o produto/serviço específico e qual a porcentagem de cobertura (coparticipação)
-2. **Integração com múltiplas operadoras**: Cada operadora possui seus próprios sistemas, APIs (quando disponíveis) e regras de negócio
-3. **Segurança e conformidade**: Necessidade de conformidade com LGPD e normas da ANS, garantindo a proteção de dados sensíveis de saúde
-4. **Gestão de reembolso e glosas**: Estabelecer processos para lidar com reembolsos e negativas de pagamento
-5. **Limitações das APIs**: Falta de padronização entre operadoras dificulta a criação de soluções escaláveis [ref:11,14]
+**[Verificado]** Programa de Benefício em Medicamentos é um convênio entre laboratórios, farmácias e (em geral) empregadores ou operadoras, que dá **desconto** no balcão. É restrito a medicamentos sob prescrição registrados na ANVISA — perfumaria, higiene, vitaminas, suplementos e insumos como agulhas e seringas ficam de fora, mesmo que constem na receita.
 
-### Desafios de UX/UI
+**[Verificado]** Operam nesse mercado, entre outros, [Funcional Health Tech](https://funcionalhealthtech.com.br/), [Vidalink](https://www.vidalink.com.br/) e [ePharma](https://epharma.com.br/) — empresas reais, sites no ar em 10 ago 2026.
 
-1. **Complexidade do processo**: Criar um fluxo intuitivo para um processo intrinsecamente complexo
-2. **Transparência na comunicação**: Informar claramente sobre cobertura, coparticipação e eventuais custos adicionais
-3. **Gestão de expectativas**: Comunicar claramente sobre tempos de processamento e possíveis necessidades de documentação adicional
-4. **Confiança e segurança**: Transmitir segurança em um processo que envolve dados sensíveis de saúde
-5. **Lidar com erros e exceções**: Criar fluxos alternativos quando o pagamento via plano não for possível
+**[Inferência]** O fluxo de PBM é de **identificação do beneficiário e aplicação de desconto**, não de autorização de cobertura. Por isso ele é o caminho mais viável para e-commerce de farmácia: não depende do Rol da ANS nem de autorização prévia.
 
-## Métodos e Tecnologias para Implementação
+**[Suposição]** O documento original afirmava subsídio "de até 50%". Não encontrei fonte que sustente esse número como patamar geral — o desconto varia por laboratório, medicamento e contrato. Tratar como ordem de grandeza não confirmada.
 
-### 1. Integração Direta com Operadoras de Saúde
+### 2. Reembolso — o beneficiário paga, depois pede de volta
 
-**Descrição**: Estabelecer parcerias e integrações diretas com cada operadora de saúde.
-**Tecnologias**:
-- APIs proprietárias das operadoras (quando existentes)
-- Troca de arquivos (EDI - Electronic Data Interchange)
-- Desenvolvimento de conectores específicos
-**Vantagens**:
-- Maior controle sobre o processo
-- Potencial para negociação de taxas específicas
-- Experiência mais personalizada de acordo com cada operadora
-**Desvantagens**:
-- Alto custo de desenvolvimento e manutenção
-- Complexidade na gestão de múltiplas integrações
-- Escalabilidade limitada
-**Considerações de UX/UI**:
-- Adaptar o fluxo para as particularidades de cada operadora
-- Comunicar claramente qual plano está sendo processado
-- Criar uma experiência coesa apesar das diferenças entre operadoras
+**[Inferência]** Onde há cobertura contratual (consulta, exame, procedimento do Rol), o padrão em ambiente digital é o beneficiário pagar e solicitar reembolso, dentro das regras do seu contrato. Do ponto de vista do e-commerce isso é uma **venda comum**: a loja recebe normalmente e a complexidade fica entre beneficiário e operadora.
 
-### 2. Hubs de Integração e Gateways Especializados em Saúde
+**[Prática de UX]** É o cenário em que a loja mais pode ajudar sem assumir risco: emitir comprovante no formato que a operadora aceita, deixar claro o que é reembolsável e não prometer prazo que não controla.
 
-**Descrição**: Utilizar plataformas intermediárias que já possuem conexões com diversas operadoras de saúde.
-**Tecnologias**:
-- APIs fornecidas pelo hub de integração
-- Exemplos de empresas que oferecem estas soluções:
-    - [Funcional Health Tech](https://funcionalhealthtech.com.br/) [ref:26,47,49]
-    - [Sensedia](https://sensedia.com/pt-br/blog/open-health-apis-no-setor-de-saude-e-os-impactos-no-mercado/) (oferece integração para ecossistema de saúde) [ref:18] ⚠️ link fora do ar (verificado em 10 ago 2026)
-    - [CM Connect](https://cmconnect.com.br/o-que-e-o-cm-connect/) (conecta prestadores de saúde a operadoras) [ref:19] ⚠️ link fora do ar (verificado em 10 ago 2026)
-**Vantagens**:
-- Redução da complexidade de integração
-- Acesso a múltiplas operadoras através de uma única API
-- Potencial para funcionalidades adicionais (validação de elegibilidade unificada)
-**Desvantagens**:
-- Dependência de um terceiro
-- Custos associados ao serviço do hub
-- Menor controle direto sobre a comunicação com a operadora
-**Considerações de UX/UI**:
-- Fluxo mais padronizado e consistente
-- Garantir que a comunicação sobre o status da transação seja clara
-- Lidar com o tempo adicional de processamento que pode existir
+### 3. Integração direta com operadora — existe, mas quase nunca para varejo
 
-### 3. Programas de Benefícios em Medicamentos (PBMs)
+**[Verificado]** O **padrão TISS** (Troca de Informação de Saúde Suplementar) é obrigatório para a troca eletrônica de dados de atenção à saúde entre operadoras e prestadores, hoje regido pela **RN nº 501/2022**. ([ANS — Padrão TISS](https://www.gov.br/ans/pt-br/assuntos/prestadores/padrao-para-troca-de-informacao-de-saude-suplementar-2013-tiss))
 
-**Descrição**: Para farmácias online, a integração com PBMs permite que clientes utilizem descontos e benefícios de seus planos.
-**Tecnologias**:
-- APIs dos PBMs como:
-    - [Vidalink](https://www.vidalink.com.br/) [ref:48,49]
-    - [ePharma](https://epharma.com.br/) [ref:49]
-    - [Funcional Corp](https://funcionalcorp.com.br/) [ref:49] ⚠️ inacessível (verificado em 10 ago 2026)
-**Vantagens**:
-- Processo já estabelecido e conhecido por muitos usuários
-- Focado em um nicho específico (medicamentos)
-- Potencial para oferecer subsídios de até 50% no valor dos medicamentos [ref:48]
-**Desvantagens**:
-- Limitado a medicamentos, não cobre outros produtos ou serviços
-- Nem sempre representa pagamento integral via plano
-**Considerações de UX/UI**:
-- O fluxo geralmente envolve inserção do CPF e/ou número da carteirinha
-- Clareza na apresentação dos descontos é fundamental
-- Oferecer comparação visual entre preço original e preço com desconto
+**[Inferência]** TISS é desenhado para a relação **operadora ↔ prestador de serviço de saúde**. Uma loja virtual que vende produtos não é prestador nesse sentido, então não entra nesse circuito — o que explica por que "integrar com a operadora" não é um caminho realista para e-commerce comum, e é para telemedicina e clínicas.
 
-### 4. Soluções "Buy Now, Pay Later" (BNPL) com Foco em Saúde
+**[Verificado]** [Sensedia](https://sensedia.com/) e [CM Connect](https://cmconnect.com.br/) existem e atuam com integração/APIs no setor. Os artigos específicos que o texto original citava dessas empresas, porém, nunca existiram.
 
-**Descrição**: Embora não seja pagamento direto com o plano, algumas fintechs oferecem soluções onde o cliente paga a compra e a plataforma auxilia no processo de reembolso.
-**Tecnologias**:
-- APIs das fintechs de BNPL
-- Plataformas de reembolso
-- Exemplos: [Affirm](https://www.affirm.com/) [ref:4] ou soluções similares adaptadas para saúde
-**Vantagens**:
-- Simplifica o checkout para o e-commerce
-- Transfere a complexidade do reembolso para o cliente ou para a fintech
-- Permite oferecer condições personalizadas de pagamento [ref:27]
-**Desvantagens**:
-- Não é um pagamento direto com o plano
-- Cliente ainda precisa ter o valor ou ser aprovado para o crédito
-- Processo de reembolso pode ser demorado
-**Considerações de UX/UI**:
-- Transparência total sobre o processo e custos
-- Facilitar o envio de documentação para reembolso
-- Oferecer acompanhamento do status do reembolso
+## Estado do mercado
 
-### 5. Autorização Prévia e Agendamento de Pagamento
+**[Verificado]** Os planos de saúde realizaram **1,93 bilhão de procedimentos em 2023**, alta de 7,4% sobre 2022, segundo o Mapa Assistencial da ANS. ([ANS](https://www.gov.br/ans/pt-br/assuntos/noticias/numeros-do-setor/planos-de-saude-realizaram-1-93-bilhao-de-procedimentos-em-2023))
 
-**Descrição**: Para produtos/serviços de maior valor, capturar dados do cliente e do plano, iniciar o processo de autorização offline e confirmar o pagamento posteriormente.
-**Tecnologias**:
-- Formulários seguros
-- Integração com CRM para acompanhamento
-- APIs para consulta de status de autorização
-**Vantagens**:
-- Permite a venda de itens que necessitam de processo complexo de aprovação
-- Pode ser implementado mesmo sem integração técnica completa
-**Desvantagens**:
-- Experiência de compra não é imediata
-- Exige acompanhamento e comunicação constante
-**Considerações de UX/UI**:
-- Gerenciar expectativas sobre tempo de aprovação
-- Fornecer painel de acompanhamento do status
-- Comunicação multicanal sobre progresso da autorização
+> O número está certo — o original acertou o dado e errou a fonte, atribuindo-o a uma URL do Ministério da Saúde que não existe. O dado é da ANS.
 
-## Recomendações de UX/UI para Pagamentos via Plano de Saúde
+**[Inferência]** O volume mede atendimento assistencial (consultas, exames, terapias, cirurgias), **não** compra de produtos em loja virtual. Ele indica o tamanho do setor, não a existência de demanda por checkout com convênio — a versão anterior usava esse número como se fosse evidência do segundo, o que ele não é.
 
-### 1. Transparência e Clareza
+**[Suposição]** Que farmácias online, telemedicina e marketplaces de saúde estejam se movendo nessa direção é plausível e coerente com os mecanismos acima, mas não consegui verificar com fonte primária. O original apresentava isso como fato estabelecido.
 
-- **Informações preliminares claras**: Comunicar no início do processo quais planos são aceitos e requisitos básicos [ref:30]
-- **Visibilidade do processo**: Criar um fluxo com etapas claramente identificadas e barra de progresso
-- **Explicações contextuais**: Utilizar tooltips e textos de ajuda em momentos estratégicos
-- **Comunicação de valores**: Apresentar de forma inequívoca os valores de cobertura, coparticipação e valor final
+## Interoperabilidade e "Open Health"
 
-### 2. Simplificação do Fluxo
+**[Verificado]** O **Open Insurance (SUSEP)** é real e regulado, com cronograma revisado pelas Resoluções CNSP 474 e 475/2024 e Circulares SUSEP 706 e 707/2024, que prorrogaram prazos da Fase 3 para 30 jun 2025. ([SUSEP](https://www.gov.br/susep/pt-br/assuntos/open-insurance))
 
-- **Minimizar entrada de dados**: Solicitar apenas informações estritamente necessárias
-- **Reconhecimento automático**: Considerar OCR para captura de dados da carteirinha física
-- **Auto-preenchimento inteligente**: Quando possível, sugerir dados com base em informações já fornecidas
-- **Feedback imediato**: Fornecer validação instantânea durante o processo
+**[Inferência]** "Open Health" para saúde suplementar, ao contrário, é **discussão setorial, não marco regulatório vigente**. Aparece em estudos prospectivos do setor, não em norma que obrigue operadoras a expor APIs. Planejar produto contando com essa padronização é apostar em cenário futuro.
 
-### 3. Segurança e Confiança
+## Privacidade
 
-- **Comunicação visual de segurança**: Utilizar ícones de cadeado, certificados e cores que transmitam segurança
-- **Explicitar proteção de dados**: Informar sobre conformidade com LGPD e medidas de segurança [ref:3]
-- **Termos claros e acessíveis**: Oferecer termos de uso e políticas de privacidade em linguagem simples
-- **Registro e confirmações**: Enviar confirmações por e-mail/SMS e disponibilizar histórico de transações
+**[Verificado]** A LGPD (Lei 13.709/2018, art. 5º, II) classifica **dado referente à saúde como dado pessoal sensível**, sujeito a hipóteses de tratamento mais restritas que as dos dados comuns. ([LGPD](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm))
 
-### 4. Gestão de Erros e Exceções
+**[Inferência]** Número de carteirinha, operadora e qualquer sinal de condição de saúde entram nessa categoria. Uma loja que capture esses dados no checkout assume obrigações de um controlador de dado sensível — o que é decisão jurídica e de arquitetura, não detalhe de formulário.
 
-- **Prevenção de erros**: Validar dados em tempo real sempre que possível
-- **Mensagens de erro construtivas**: Explicar claramente o problema e sugerir soluções
-- **Caminhos alternativos**: Oferecer opções quando o pagamento via plano não for possível
-- **Suporte acessível**: Disponibilizar canais de ajuda contextuais (chat, telefone, FAQ)
+## Coparticipação
 
-### 5. Design Inclusivo
+**[Verificado]** A **RN 433/2018**, que tentou fixar teto de 40% e lista de isenções, foi **suspensa pelo STF e depois revogada pela própria ANS**. O limite de 40% **não é regra vigente**.
 
-- **Acessibilidade**: Garantir conformidade com diretrizes WCAG
-- **Legibilidade**: Usar fontes e contrastes adequados, especialmente para informações críticas
-- **Linguagem simples**: Evitar jargões técnicos de saúde e financeiros
-- **Responsividade**: Garantir boa experiência em diferentes dispositivos
+**[Inferência]** Coparticipação hoje segue o que está no contrato de cada plano. Uma interface não pode, portanto, calcular ou prometer percentual de coparticipação a partir de regra geral — o valor vem da operadora, caso a caso.
 
-### 6. Teste e Iteração
+## Considerações de design
 
-- **Testes de usabilidade**: Realizar testes com usuários reais que possuam planos de saúde
-- **Testes A/B**: Experimentar diferentes abordagens para otimizar conversão
-- **Coleta de feedback**: Implementar mecanismos para coletar impressões dos usuários
-- **Melhoria contínua**: Iterar o design com base em métricas e feedback
+Tudo nesta seção é **[Prática de UX]**: julgamento profissional aplicável a fluxos de pagamento com validação externa e resultado incerto. Não é afirmação sobre o mercado brasileiro nem vem das fontes acima.
 
-## Exemplos de Fluxos de Pagamento
+**Transparência sobre o que o usuário vai receber.** O erro mais caro aqui é o usuário entender "meu plano vai pagar" quando o mecanismo é desconto de PBM ou reembolso posterior. Nomear o mecanismo na interface — "desconto do seu benefício", "você paga e solicita reembolso" — importa mais que qualquer refinamento visual do checkout.
 
-### Fluxo Básico para Farmácia Online
+**Estado de incerteza é o estado normal.** Validação de elegibilidade depende de terceiro e pode demorar ou falhar. O fluxo precisa ser desenhado a partir do caso "ainda não sei", não do caminho feliz: valor final só depois da validação, e nunca um total que possa mudar depois de exibido.
 
-1. **Seleção de produtos** e adição ao carrinho
-2. **Checkout inicial**: Opção de "Pagar com Plano de Saúde/PBM"
-3. **Identificação do plano**: Seleção da operadora e inserção do número da carteirinha
-4. **Validação**: Verificação de elegibilidade e cobertura
-5. **Visualização de benefícios**: Apresentação dos descontos aplicáveis
-6. **Confirmação**: Resumo da compra com valores finais e confirmação
-7. **Pagamento complementar**: Se necessário, para valores não cobertos
-8. **Confirmação e recibo**: Confirmação da transação e disponibilização de comprovante
+**Caminho alternativo sempre presente.** Quando o benefício não se aplica, a compra não pode morrer — o pagamento comum tem que estar a um clique, sem refazer o carrinho.
 
-### Fluxo para Serviços de Telemedicina
+**Coleta mínima de dado sensível.** Decorre da seção de LGPD: pedir carteirinha só no momento em que ela é efetivamente usada, não no cadastro; não persistir o que não precisa ser persistido.
 
-1. **Seleção do serviço** (consulta, exame)
-2. **Agendamento**: Seleção de data/hora
-3. **Opção de pagamento**: Escolha de "Usar meu plano de saúde"
-4. **Validação do plano**: Inserção de dados e verificação de cobertura
-5. **Autorização**: Se necessário, processo de autorização prévia
-6. **Confirmação**: Informações sobre coparticipação (se houver)
-7. **Finalização**: Confirmação da consulta e informações adicionais
+**Acessibilidade e linguagem.** Público de produtos de saúde inclui idosos e pessoas em situação de fragilidade. Contraste, tamanho de alvo, WCAG, e evitar tanto o jargão de convênio ("glosa", "coparticipação", "elegibilidade") quanto o de pagamento, ou explicá-lo no ponto de uso.
 
-## Tendências e Inovações
+### Fluxo de referência — farmácia online com PBM
 
-### Tendências Tecnológicas
+**[Prática de UX]** Proposta de design, não descrição de sistema existente:
 
-1. **Biometria e autenticação avançada**: Uso de reconhecimento facial ou digital para validação do beneficiário
-2. **Blockchain para registros de saúde**: Maior segurança e transparência nas transações
-3. **IA para previsão de cobertura**: Algoritmos que analisam histórico e termos do plano para prever elegibilidade
-4. **Interfaces conversacionais**: Assistentes virtuais para guiar o processo de pagamento via plano
-5. **Interoperabilidade**: Avanços na padronização de APIs entre operadoras de saúde [ref:15,16]
+1. Carrinho comum, sem menção a benefício
+2. No checkout, oferta explícita: "aplicar desconto do meu benefício em medicamentos"
+3. Identificação (CPF e/ou carteirinha), com aviso de por que o dado é pedido
+4. Consulta ao PBM, com estado de espera honesto
+5. Resultado item a item — PBM não cobre o carrinho inteiro, só medicamentos elegíveis
+6. Total recalculado, com preço cheio e preço com benefício lado a lado
+7. Pagamento do valor final pelos meios normais
+8. Comprovante discriminando o desconto
 
-### Tendências de Mercado
+**[Inferência]** O passo 5 é o que mais distingue esse fluxo de um checkout comum: o carrinho quase sempre se divide em "coberto pelo benefício" e "não coberto", e esconder essa divisão gera a expectativa errada descrita acima.
 
-1. **Digitalização acelerada**: Intensificação da transformação digital no setor de saúde [ref:40,46]
-2. **Combate a fraudes**: Desenvolvimento de soluções para garantir segurança e transparência nas transações [ref:39]
-3. **Expansão do acesso digital**: Iniciativas governamentais como o aplicativo [Receita Saúde](https://www.gov.br/saude/pt-br/assuntos/noticias/2023/maio/receita-saude-recebe-atualizacao-e-novas-funcionalidades) [ref:44] ⚠️ link fora do ar (verificado em 10 ago 2026)
-4. **Healthtechs**: Crescimento de startups focadas em soluções para o setor de saúde [ref:21,23]
-5. **Maior integração entre operadoras tradicionais e soluções digitais**: Operadoras de saúde tradicionais adotando tecnologias inspiradas em healthtechs [ref:23]
+## O que foi removido da versão anterior, e por quê
 
-## Conclusão
+- **48 das 49 referências.** Sem snapshot no Internet Archive em nenhuma delas; vários domínios sem registro DNS. Página que existiu e caiu deixa rastro no Wayback — URL que nunca existiu, não.
+- **Todos os marcadores `[ref:N]`.** Apontavam para essa lista.
+- **"Receita Saúde" como exemplo de expansão de acesso digital.** **[Verificado]** que o app existe, mas é da **Receita Federal**, lançado em abril de 2024 e obrigatório para profissionais de saúde pessoa física desde 1º jan 2025 — serve para emitir **recibo fiscal** e alimentar a declaração pré-preenchida do IRPF. Não tem relação com pagamento via plano. O original errava órgão, data e finalidade. ([Ministério da Fazenda](https://www.gov.br/fazenda/pt-br/assuntos/noticias/2024/dezembro/receita-facilita-prestacao-de-informacoes-sobre-despesas-medicas-na-declaracao-do-imposto-de-renda), [Agência Brasil](https://agenciabrasil.ebc.com.br/saude/noticia/2025-01/entenda-como-funciona-o-aplicativo-receita-saude))
+- **Blockchain para registros de saúde e IA para previsão de cobertura** como tendências. Sem fonte, e a segunda esbarra no fato de que a regra de cobertura é contratual e vem da operadora.
+- **Affirm como exemplo de BNPL em saúde.** A empresa [existe](https://www.affirm.com/) e é BNPL, mas o artigo citado não, e não achei fonte para uma oferta dela voltada a saúde no Brasil.
+- **A seção "5 métodos" reorganizada em 3.** "Integração direta", "hub de integração" e "autorização prévia" eram variações do mesmo mecanismo TISS; PBM e reembolso é que são categorias distintas de verdade.
 
-A implementação de pagamentos via plano de saúde em lojas virtuais é um campo promissor, mas que demanda uma abordagem cuidadosa tanto do ponto de vista técnico quanto de experiência do usuário. Para o UX/UI Designer, o desafio está em transformar um processo naturalmente complexo em uma experiência fluida e confiável.
-A escolha da abordagem tecnológica dependerá de fatores como escopo do projeto, recursos disponíveis e parcerias estratégicas. Independentemente da solução escolhida, a experiência do usuário deve ser pautada pelos princípios de transparência, simplicidade, segurança e inclusão.
-À medida que o setor de saúde digital continua a evoluir no Brasil, podemos esperar maior padronização e facilidade nas integrações, o que permitirá experiências cada vez mais refinadas. O designer que compreende tanto os desafios técnicos quanto as necessidades dos usuários estará bem posicionado para criar soluções inovadoras neste segmento em crescimento.
+## Referências verificadas
 
-## Referências
+Todas checadas em 10 ago 2026. Esta lista é curta de propósito — é só o que sustenta afirmação marcada como **[Verificado]** acima.
 
-1. **[Pagamento de plano de saúde em farmácia | Posso pagar a mensalidade do plano de saúde em farmácia?](https://www.sodreitop.com.br/pagamento-de-plano-de-saude-em-farmacia/)** ⚠️ inacessível (verificado em 10 ago 2026)
-2. **[Soluções da Getnet: pagamentos para diferentes tipos de negócios | Getnet](https://site.getnet.com.br/solucoes/)**
-3. ⚠️ **Privacidade e proteção de dados na saúde: 6 pontos de atenção** — [https://www.sensedia.com/pt-br/blog/privacidade-e-protecao-de-dados-na-saude/](https://www.sensedia.com/pt-br/blog/privacidade-e-protecao-de-dados-na-saude/) fora do ar (verificado em 10 ago 2026)
-4. ⚠️ **Pagamentos do setor da saúde – Tendências de consumo e mercado** — [https://www.affirm.com/pt-br/blog/pagamentos-do-setor-da-saude-tendencias-de-consumo-e-mercado](https://www.affirm.com/pt-br/blog/pagamentos-do-setor-da-saude-tendencias-de-consumo-e-mercado) fora do ar (verificado em 10 ago 2026)
-5. **Mercado de planos de saúde no Brasil: Desafios e oportunidades** - [https://felicitar.com.br/blog/mercado-de-planos-de-saude-no-brasil-desafios-e-oportunidades/](https://felicitar.com.br/blog/mercado-de-plano-de-saude-no-brasil-desafios-e-oportunidades/) ⚠️ inacessível (verificado em 10 ago 2026)
-6. ⚠️ **Como funciona um sistema de pagamento online | Nuvemshop** — [https://www.nuvemshop.com.br/blog/como-funciona-sistema-pagamento-online/](https://www.nuvemshop.com.br/blog/como-funciona-sistema-pagamento-online/) fora do ar (verificado em 10 ago 2026)
-7. ⚠️ **Plano de Saúde – O que é e para que serve?** — [https://www.saudeid.com.br/blog/plano-de-saude-o-que-e-e-para-que-serve/](https://www.saudeid.com.br/blog/plano-de-saude-o-que-e-e-para-que-serve/) fora do ar (verificado em 10 ago 2026)
-8. **[Formas de pagamento para e-commerce: confira as 5 principais!](https://blog.vindi.com.br/meios-de-pagamento-para-e-commerce/)** ⚠️ link fora do ar (verificado em 10 ago 2026)
-9. ⚠️ **O que é sistema de pagamento online e como escolher um | PayPal** — [https://www.paypal.com/br/business/resources/sistema-de-pagamento-online](https://www.paypal.com/br/business/resources/sistema-de-pagamento-online) fora do ar (verificado em 10 ago 2026)
-10. ⚠️ **Pagamento online: o que é, como funciona e qual escolher?** — [https://www.sumup.com.br/blog/pagamento-online/](https://www.sumup.com.br/blog/pagamento-online/) fora do ar (verificado em 10 ago 2026)
-11. **[Tecnologia na saúde: quais são as tendências no mercado?](https://www.ibconsultoria.net.br/tecnologia-na-saude-quais-sao-as-tendencias-no-mercado/)** ⚠️ inacessível (verificado em 10 ago 2026)
-12. ⚠️ **O que é um sistema de pagamento online?** — [https://www.locaweb.com.br/blog/o-que-e-um-sistema-de-pagamento-online/](https://www.locaweb.com.br/blog/o-que-e-um-sistema-de-pagamento-online/) fora do ar (verificado em 10 ago 2026)
-13. ⚠️ **Pagamento Online - Tudo Sobre Meios de Pagamento Online - NFE.io** — [https://nfe.io/blog/pagamento-online/](https://nfe.io/blog/pagamento-online/) fora do ar (verificado em 10 ago 2026)
-14. ⚠️ **Sistema de Pagamento Online: O que é, Como Funciona e Vantagens** — [https://www.siteware.com.br/blog/tendencias-tecnologicas/sistema-de-pagamento-online/](https://www.siteware.com.br/blog/tendencias-tecnologicas/sistema-de-pagamento-online/) fora do ar (verificado em 10 ago 2026)
-15. **[Open Health: o que é e como funciona essa tecnologia na saúde?](https://blog.drgbrasil.com.br/open-health/)** ⚠️ inacessível (verificado em 10 ago 2026)
-16. **[Open Health: o que é e por que sua operadora deve ficar de olho](https://blog.soluti.com.br/open-health-o-que-e-e-por-que-sua-operadora-deve-ficar-de-olho/)** ⚠️ inacessível (verificado em 10 ago 2026)
-17. **[O que é Open Health? O próximo passo do Open Finance na saúde](https://www.conexa.com.br/blog/open-health/)** ⚠️ inacessível (verificado em 10 ago 2026)
-18. ⚠️ **Open Health e APIs no setor de saúde: Entenda os impactos no mercado** — [https://www.sensedia.com/pt-br/blog/open-health-apis-no-setor-de-saude-e-os-impactos-no-mercado/](https://www.sensedia.com/pt-br/blog/open-health-apis-no-setor-de-saude-e-os-impactos-no-mercado/) fora do ar (verificado em 10 ago 2026)
-19. ⚠️ **CM Connect: Conectando prestadores de saúde a operadoras** — [https://cmconnect.com.br/o-que-e-o-cm-connect/](https://cmconnect.com.br/o-que-e-o-cm-connect/) fora do ar (verificado em 10 ago 2026)
-20. **[A Importância da LGPD para o setor da saúde - Implanta IT](https://implanta.com.br/a-importancia-da-lgpd-para-o-setor-da-saude/)** ⚠️ inacessível (verificado em 10 ago 2026)
-21. ⚠️ **Healthtechs no Brasil: panorama e tendências de mercado** — [https://www.pwc.com.br/pt/setores-de-negocio/saude/assets/healthtechs-no-brasil.pdf](https://www.pwc.com.br/pt/setores-de-negocio/saude/assets/healthtechs-no-brasil.pdf) fora do ar (verificado em 10 ago 2026)
-22. **[Inovação no mercado de saúde: entenda o que está por vir!](https://www.ibconsultoria.net.br/inovacao-no-mercado-de-saude-entenda-o-que-esta-por-vir/)** ⚠️ inacessível (verificado em 10 ago 2026)
-23. ⚠️ **Saúde em 2030: Operadoras traçam o futuro do setor** — [https://www.pwc.com.br/pt/setores-de-negocio/saude/assets/saude-em-2030-operadoras-tracam-o-futuro-do-setor.pdf](https://www.pwc.com.br/pt/setores-de-negocio/saude/assets/saude-em-2030-operadoras-tracam-o-futuro-do-setor.pdf) fora do ar (verificado em 10 ago 2026)
-24. **[TISS: tudo que você precisa saber sobre o padrão da ANS!](https://blog.drgbrasil.com.br/tiss/)** ⚠️ inacessível (verificado em 10 ago 2026)
-25. ⚠️ **Pagamento com Pix no e-commerce: como funciona e quais as vantagens** — [https://www.ecommercebrasil.com.br/artigos/pagamento-com-pix-no-e-commerce](https://www.ecommercebrasil.com.br/artigos/pagamento-com-pix-no-e-commerce) fora do ar (verificado em 10 ago 2026)
-26. **[Funcional Health Tech e 4Health: tecnologia que impulsiona o acesso à saúde.](https://funcionalhealthtech.com.br/noticias/funcional-health-tech-e-4health-tecnologia-que-impulsiona-o-acesso-a-saude/)** ⚠️ link fora do ar (verificado em 10 ago 2026)
-27. ⚠️ **O que é BNPL? Entenda como funciona o compre agora, pague depois** — [https://www.celcoin.com.br/blog/bnpl-buy-now-pay-later](https://www.celcoin.com.br/blog/bnpl-buy-now-pay-later) fora do ar (verificado em 10 ago 2026)
-28. **[Como funciona a coparticipação em planos de saúde? - Sercon](https://serconplanosdesaude.com.br/noticia/como-funciona-a-coparticipacao-em-planos-de-saude/)** ⚠️ inacessível (verificado em 10 ago 2026)
-29. **[Regulamentação e fiscalização dos planos de saúde no Brasil](https://blog.docway.com.br/regulamentacao-e-fiscalizacao-dos-planos-de-saude-no-brasil/)** ⚠️ inacessível (verificado em 10 ago 2026)
-30. **[Pagamento online: o que é, como funciona e quais as opções disponíveis?](https://www.stone.com.br/blog/pagamento-online/)**
-31. **[API de pagamentos: entenda o que é e como funciona](https://www.efipay.com.br/blog/api-de-pagamentos/)** ⚠️ inacessível (verificado em 10 ago 2026)
-32. ⚠️ **Meios de Pagamento Online: Quais são os principais para e-commerce?** — [https://blog.cielo.com.br/meios-de-pagamento-online/](https://blog.cielo.com.br/meios-de-pagamento-online/) fora do ar (verificado em 10 ago 2026)
-33. ⚠️ **O que é UX e UI design? - Serasa Experian** — [https://www.serasaexperian.com.br/blog/o-que-e-ux-e-ui-design/](https://www.serasaexperian.com.br/blog/o-que-e-ux-e-ui-design/) fora do ar (verificado em 10 ago 2026)
-34. ⚠️ **Meios de pagamento online para e-commerce: confira os mais usados!** — [https://www.eduzz.com/blog/meios-de-pagamento-online-para-e-commerce/](https://www.eduzz.com/blog/meios-de-pagamento-online-para-e-commerce/) fora do ar (verificado em 10 ago 2026)
-35. **[Como funciona a LGPD para clínicas e consultórios médicos?](https://www.feegow.com.br/blog/lgpd-para-clinicas/)** ⚠️ inacessível (verificado em 10 ago 2026)
-36. ⚠️ **Tecnologia na saúde: a transformação digital do setor - FIAP** — [https://www.fiap.com.br/noticias/tecnologia-na-saude-a-transformacao-digital-do-setor/](https://www.fiap.com.br/noticias/tecnologia-na-saude-a-transformacao-digital-do-setor/) fora do ar (verificado em 10 ago 2026)
-37. ⚠️ **TISS: tudo o que você precisa saber sobre o padrão da ANS!** — [https://www.unimed.coop.br/web/belemdopara/imprensa/noticias/tiss-tudo-o-que-voce-precisa-saber-sobre-o-padrao-da-ans](https://www.unimed.coop.br/web/belemdopara/imprensa/noticias/tiss-tudo-o-que-voce-precisa-saber-sobre-o-padrao-da-ans) fora do ar (verificado em 10 ago 2026)
-38. ⚠️ **APIs no setor da saúde: como impactam a experiência do paciente** — [https://www.sensedia.com/pt-br/blog/apis-setor-saude-experiencia-paciente/](https://www.sensedia.com/pt-br/blog/apis-setor-saude-experiencia-paciente/) fora do ar (verificado em 10 ago 2026)
-39. **[Fraudes em pagamentos on-line na saúde: como evitar e se proteger?](https://www.grupocard.com.br/fraudes-em-pagamentos-on-line-na-saude-como-evitar-e-se-proteger/)**
-40. **O impacto da transformação digital no setor de saúde - KPMG Brasil**
-41. **[O que é UX e UI: as diferenças e como elas se complementam - Vindi](https://vindi.com.br/blog/o-que-e-ux-e-ui/)**
-42. **[Meios de pagamento online para e-commerce: o que são e quais usar?](https://blog.awesomelab.com.br/meios-de-pagamento-online-para-e-commerce/)** ⚠️ inacessível (verificado em 10 ago 2026)
-43. ⚠️ **5 tendências de pagamento no e-commerce para 2024 - NFE.io** — [https://nfe.io/blog/tendencias-de-pagamento-no-e-commerce/](https://nfe.io/blog/tendencias-de-pagamento-no-e-commerce/) fora do ar (verificado em 10 ago 2026)
-44. ⚠️ **Aplicativo Receita Saúde recebe atualização e novas funcionalidades** — [https://www.gov.br/saude/pt-br/assuntos/noticias/2023/maio/receita-saude-recebe-atualizacao-e-novas-funcionalidades](https://www.gov.br/saude/pt-br/assuntos/noticias/2023/maio/receita-saude-recebe-atualizacao-e-novas-funcionalidades) fora do ar (verificado em 10 ago 2026)
-45. ⚠️ **Planos de saúde: número de beneficiários aumenta em 2023** — [https://www.gov.br/saude/pt-br/assuntos/noticias/2024/fevereiro/planos-de-saude-numero-de-beneficiarios-aumenta-em-2023](https://www.gov.br/saude/pt-br/assuntos/noticias/2024/fevereiro/planos-de-saude-numero-de-beneficiarios-aumenta-em-2023) fora do ar (verificado em 10 ago 2026)
-46. ⚠️ **Transformação digital na saúde: o que é e como funciona** — [https://telemedicina.com.br/transformacao-digital-na-saude/](https://telemedicina.com.br/transformacao-digital-na-saude/) fora do ar (verificado em 10 ago 2026)
-47. **[Parceiros que nos confiam a saúde de seus beneficiários - Funcional Health Tech](https://funcionalhealthtech.com.br/parceiros/)** ⚠️ link fora do ar (verificado em 10 ago 2026)
-48. **[Vidalink: PBM para planos de saúde e como funciona - Guia do Ex-Negativado](https://exnegativado.com/vidalink/)** ⚠️ inacessível (verificado em 10 ago 2026)
-49. ⚠️ **PBM: o que é e como funciona o programa de benefícios em medicamentos** — [https://blog.bencorp.com.br/pbm-o-que-e-e-como-funciona-o-programa-de-beneficios-em-medicamentos/](https://blog.bencorp.com.br/pbm-o-que-e-e-como-funciona-o-programa-de-beneficios-em-medicamentos/) fora do ar (verificado em 10 ago 2026)
-50. ⚠️ **Quais as principais tendências de inovação em saúde em 2024?** — [https://www.sensedia.com/pt-br/blog/quais-as-principais-tendencias-de-inovacao-em-saude-em-2024/](https://www.sensedia.com/pt-br/blog/quais-as-principais-tendencias-de-inovacao-em-saude-em-2024/) fora do ar (verificado em 10 ago 2026)
+1. [Lei 9.656/1998](https://www.planalto.gov.br/ccivil_03/leis/l9656.htm) — art. 10, VI: exclusões da cobertura obrigatória
+2. [Lei 13.709/2018 (LGPD)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) — art. 5º, II: dado de saúde como dado sensível
+3. [ANS — Padrão TISS](https://www.gov.br/ans/pt-br/assuntos/prestadores/padrao-para-troca-de-informacao-de-saude-suplementar-2013-tiss) — RN 501/2022
+4. [ANS — Planos de saúde realizaram 1,93 bilhão de procedimentos em 2023](https://www.gov.br/ans/pt-br/assuntos/noticias/numeros-do-setor/planos-de-saude-realizaram-1-93-bilhao-de-procedimentos-em-2023)
+5. [SUSEP — Open Insurance](https://www.gov.br/susep/pt-br/assuntos/open-insurance)
+6. [Ministério da Fazenda — Receita Saúde e despesas médicas no IRPF](https://www.gov.br/fazenda/pt-br/assuntos/noticias/2024/dezembro/receita-facilita-prestacao-de-informacoes-sobre-despesas-medicas-na-declaracao-do-imposto-de-renda)
+7. [Agência Brasil — Como funciona o aplicativo Receita Saúde](https://agenciabrasil.ebc.com.br/saude/noticia/2025-01/entenda-como-funciona-o-aplicativo-receita-saude)
+
+Empresas citadas, homepages no ar: [Funcional Health Tech](https://funcionalhealthtech.com.br/), [Vidalink](https://www.vidalink.com.br/), [ePharma](https://epharma.com.br/), [Sensedia](https://sensedia.com/), [CM Connect](https://cmconnect.com.br/), [Affirm](https://www.affirm.com/).
+
+## O que falta verificar
+
+Aberto de propósito, para não virar afirmação sem fonte:
+
+- Alguma farmácia online brasileira **de fato** integra PBM no checkout web? Quais?
+- Qual o desconto típico de PBM, com fonte?
+- Existe caso de e-commerce não-farmácia aceitando convênio?
+- Regra vigente de coparticipação depois da revogação da RN 433 — qual norma se aplica hoje?
