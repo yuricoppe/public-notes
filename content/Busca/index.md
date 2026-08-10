@@ -9,7 +9,7 @@ aliases:
   - "Busca/📌 Resumo dos Artigos Analisados"
 ---
 
-[[Anotações dos artigos]]
+[[A busca não é um campo de texto]]
 [[Ferramentas de busca]]
 
 ---
@@ -17,7 +17,7 @@ aliases:
 ## Links
 
 - **[Search UX Best Practices](https://www.pencilandpaper.io/articles/search-ux)** · Pencil & Paper
-  O mais completo da lista: barra, dropdown, carregamento, resultados e filtros. As anotações estão em [[Anotações dos artigos]].
+  O mais completo da lista: barra, dropdown, carregamento, resultados e filtros. As anotações estão em [[A busca não é um campo de texto]].
 - **[Search UX best practices: a complete guide](https://nulab.com/learn/design-and-ux/search-ux-best-practices/)** · Nulab
   Quem usa a busca tem 1,8% mais chance de converter — o guia parte daí.
 - **[Best practices for search results](https://uxplanet.org/best-practices-for-search-results-1bbed9d7a311)** · UX Planet

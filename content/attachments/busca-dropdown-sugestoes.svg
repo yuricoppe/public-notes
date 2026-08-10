@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" width="720" height="430" role="img" aria-label="Anatomia do dropdown de sugestões: categorias de cabeçalho, primeiro resultado com foco automático, trecho correspondente destacado, atalhos de teclado, feedback de carregamento e rolagem">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .panel { fill: #ffffff; stroke: #d1d5db; stroke-width: 1.5; }
+    .field { fill: #ffffff; stroke: #2563eb; stroke-width: 2; }
+    .sel   { fill: #dbeafe; }
+    .mark  { fill: #fde68a; }
+    .kbd   { fill: #f3f4f6; stroke: #9ca3af; stroke-width: 1; }
+    .sep   { stroke: #e5e7eb; stroke-width: 1; }
+    .bar   { fill: #d1d5db; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .an  { font-size: 12.5px; }
+    .anb { font-size: 12.5px; font-weight: 700; }
+    .cat { font-size: 11px; font-weight: 700; letter-spacing: .06em; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .panel { fill: #111827; stroke: #4b5563; }
+      .field { fill: #111827; stroke: #60a5fa; }
+      .sel { fill: #1e3a8a; }
+      .mark { fill: #92400e; }
+      .kbd { fill: #1f2937; stroke: #6b7280; }
+      .sep { stroke: #374151; }
+      .bar { fill: #4b5563; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Anatomia do dropdown de sugestões</text>
+  <text x="0" y="44" class="muted cap">Dispara depois de ~3 caracteres. Cada elemento aqui resolve uma dúvida específica</text>
+
+  <rect x="0" y="70" width="420" height="38" rx="8" class="field"/>
+  <text x="16" y="94" class="ink an">tecla</text>
+
+  <rect x="0" y="112" width="420" height="256" rx="8" class="panel"/>
+
+  <text x="16" y="136" class="muted cat">PRODUTOS</text>
+  <rect x="6" y="146" width="408" height="32" rx="5" class="sel"/>
+  <rect x="52" y="156" width="40" height="15" class="mark"/>
+  <text x="16" y="167" class="ink an">Teclado mecânico sem fio</text>
+  <rect x="330" y="153" width="34" height="20" rx="4" class="kbd"/>
+  <text x="339" y="167" class="muted an">↵</text>
+
+  <rect x="52" y="188" width="40" height="15" class="mark"/>
+  <text x="16" y="199" class="ink an">Teclado numérico USB</text>
+
+  <line x1="6" y1="214" x2="414" y2="214" class="sep"/>
+  <text x="16" y="236" class="muted cat">AJUDA</text>
+  <rect x="52" y="246" width="40" height="15" class="mark"/>
+  <text x="16" y="257" class="ink an">Como trocar o teclado do notebook</text>
+
+  <line x1="6" y1="272" x2="414" y2="272" class="sep"/>
+  <text x="16" y="294" class="muted cat">BUSCAS RECENTES</text>
+  <text x="16" y="316" class="muted an">mouse sem fio</text>
+  <text x="16" y="338" class="muted an">suporte para monitor</text>
+
+  <rect x="408" y="150" width="4" height="90" rx="2" class="bar"/>
+
+  <!-- annotations -->
+  <line x1="120" y1="132" x2="450" y2="132" class="lead"/>
+  <text x="460" y="128" class="accent anb">Categorias de cabeçalho</text>
+  <text x="460" y="146" class="muted an">tornam a lista varrível.</text>
+
+  <line x1="200" y1="162" x2="450" y2="176" class="lead"/>
+  <text x="460" y="180" class="accent anb">Primeiro item com foco</text>
+  <text x="460" y="198" class="muted an">Enter resolve sem tirar a mão</text>
+  <text x="460" y="214" class="muted an">do teclado.</text>
+
+  <line x1="92" y1="196" x2="450" y2="240" class="lead"/>
+  <text x="460" y="244" class="accent anb">Trecho correspondente</text>
+  <text x="460" y="262" class="muted an">destacado: mostra por que</text>
+  <text x="460" y="278" class="muted an">aquele item apareceu.</text>
+
+  <line x1="410" y1="195" x2="450" y2="308" class="lead"/>
+  <text x="460" y="312" class="accent anb">Rolagem permitida</text>
+  <text x="460" y="330" class="muted an">com pista visual de que</text>
+  <text x="460" y="346" class="muted an">há mais abaixo.</text>
+
+  <text x="0" y="400" class="muted cap">Falta um elemento invisível neste desenho: o estado de carregamento, entre a última tecla e a lista.</text>
+  <text x="0" y="422" class="muted cap">Sem ele, a pessoa acha que o sistema travou.</text>
+</svg>

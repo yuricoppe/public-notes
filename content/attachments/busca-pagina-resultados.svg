@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" width="720" height="470" role="img" aria-label="Anatomia da página de resultados: consulta preservada no campo, total de correspondências, abas por tipo de resultado, filtros ativos visíveis, ordenação separada dos filtros e trecho correspondente destacado em cada item">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .panel { fill: #ffffff; stroke: #d1d5db; stroke-width: 1.5; }
+    .field { fill: #ffffff; stroke: #9ca3af; stroke-width: 1.5; }
+    .tabA  { fill: #2563eb; }
+    .tabI  { fill: #e5e7eb; }
+    .chip  { fill: #dbeafe; }
+    .chipT { fill: #1e40af; }
+    .mark  { fill: #fde68a; }
+    .thumb { fill: #e5e7eb; }
+    .sep   { stroke: #e5e7eb; stroke-width: 1; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .an  { font-size: 12.5px; }
+    .anb { font-size: 12.5px; font-weight: 700; }
+    .cap { font-size: 13px; }
+    .sm  { font-size: 11.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .panel { fill: #111827; stroke: #4b5563; }
+      .field { fill: #111827; stroke: #6b7280; }
+      .tabI { fill: #374151; }
+      .chip { fill: #1e3a8a; }
+      .chipT { fill: #bfdbfe; }
+      .mark { fill: #92400e; }
+      .thumb { fill: #374151; }
+      .sep { stroke: #374151; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Anatomia da página de resultados</text>
+  <text x="0" y="44" class="muted cap">Seis decisões que definem se a segunda tentativa é possível</text>
+
+  <rect x="0" y="66" width="450" height="380" rx="8" class="panel"/>
+
+  <rect x="16" y="82" width="418" height="34" rx="6" class="field"/>
+  <text x="30" y="104" class="ink an">tênis de corrida</text>
+
+  <text x="16" y="140" class="ink an">142 resultados para “tênis de corrida”</text>
+
+  <rect x="16" y="154" width="86" height="26" rx="13" class="tabA"/>
+  <text x="31" y="171" class="sm" fill="#ffffff">Produtos 128</text>
+  <rect x="110" y="154" width="76" height="26" rx="13" class="tabI"/>
+  <text x="124" y="171" class="ink sm">Artigos 11</text>
+  <rect x="194" y="154" width="66" height="26" rx="13" class="tabI"/>
+  <text x="208" y="171" class="ink sm">Ajuda 3</text>
+
+  <rect x="16" y="194" width="92" height="24" rx="12" class="chip"/>
+  <text x="28" y="210" class="chipT sm">Masculino ✕</text>
+  <rect x="116" y="194" width="76" height="24" rx="12" class="chip"/>
+  <text x="128" y="210" class="chipT sm">Até R$500 ✕</text>
+  <text x="330" y="211" class="muted sm">Ordenar: Relevância ▾</text>
+
+  <line x1="16" y1="232" x2="434" y2="232" class="sep"/>
+
+  <rect x="16" y="246" width="60" height="60" rx="5" class="thumb"/>
+  <rect x="88" y="256" width="94" height="14" class="mark"/>
+  <text x="88" y="268" class="ink an">Tênis de corrida leve — 42</text>
+  <text x="88" y="290" class="muted sm">R$ 389,00</text>
+
+  <rect x="16" y="322" width="60" height="60" rx="5" class="thumb"/>
+  <rect x="88" y="332" width="94" height="14" class="mark"/>
+  <text x="88" y="344" class="ink an">Tênis de corrida trail — 41</text>
+  <text x="88" y="366" class="muted sm">R$ 452,00</text>
+
+  <text x="16" y="416" class="muted sm">‹ 1 2 3 … 9 ›</text>
+
+  <!-- annotations -->
+  <line x1="230" y1="99" x2="480" y2="99" class="lead"/>
+  <text x="490" y="95" class="accent anb">Consulta preservada</text>
+  <text x="490" y="113" class="muted an">Reformular é a única saída</text>
+  <text x="490" y="129" class="muted an">de quem falhou. Não apague.</text>
+
+  <line x1="200" y1="137" x2="480" y2="152" class="lead"/>
+  <text x="490" y="156" class="accent anb">Total de correspondências</text>
+  <text x="490" y="174" class="muted an">Diz se vale refinar ou</text>
+  <text x="490" y="190" class="muted an">rolar a lista.</text>
+
+  <line x1="262" y1="167" x2="480" y2="212" class="lead"/>
+  <text x="490" y="216" class="accent anb">Abas por tipo</text>
+  <text x="490" y="234" class="muted an">Produto, artigo e ajuda não</text>
+  <text x="490" y="250" class="muted an">competem na mesma lista.</text>
+
+  <line x1="196" y1="206" x2="480" y2="272" class="lead"/>
+  <text x="490" y="276" class="accent anb">Filtro ativo é visível</text>
+  <text x="490" y="294" class="muted an">e removível de onde está.</text>
+  <text x="490" y="314" class="accent anb">Ordenar ≠ filtrar</text>
+  <text x="490" y="332" class="muted an">São tarefas diferentes; não</text>
+  <text x="490" y="348" class="muted an">esconda uma dentro da outra.</text>
+
+  <line x1="182" y1="263" x2="480" y2="376" class="lead"/>
+  <text x="490" y="380" class="accent anb">Correspondência destacada</text>
+  <text x="490" y="398" class="muted an">Mostra em que campo bateu —</text>
+  <text x="490" y="414" class="muted an">nome, código, descrição.</text>
+
+  <text x="0" y="464" class="muted cap">Nada aqui é sofisticado. A maior parte das páginas de resultado erra em três destes seis.</text>
+</svg>

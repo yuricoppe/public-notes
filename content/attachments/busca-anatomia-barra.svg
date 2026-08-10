@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img" aria-label="Anatomia de uma barra de busca anotada: ícone com estado de foco, placeholder que declara o escopo da busca, largura suficiente para a consulta típica e atalho de teclado visível">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .field { fill: #ffffff; stroke: #2563eb; stroke-width: 2.5; }
+    .field2{ fill: #ffffff; stroke: #9ca3af; stroke-width: 1.5; }
+    .ring  { fill: none; stroke: #93c5fd; stroke-width: 5; opacity: .55; }
+    .icon  { stroke: #6b7280; stroke-width: 2; fill: none; }
+    .kbd   { fill: #f3f4f6; stroke: #9ca3af; stroke-width: 1; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .an  { font-size: 12.5px; }
+    .anb { font-size: 12.5px; font-weight: 700; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .field { fill: #111827; stroke: #60a5fa; }
+      .field2 { fill: #111827; stroke: #6b7280; }
+      .ring { stroke: #1d4ed8; opacity: .6; }
+      .icon { stroke: #9ca3af; }
+      .kbd { fill: #1f2937; stroke: #6b7280; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Anatomia da barra de busca</text>
+  <text x="0" y="44" class="muted cap">O pouco que a caixa precisa fazer — e que ainda assim costuma faltar</text>
+
+  <!-- focused field -->
+  <rect x="150" y="96" width="440" height="46" rx="8" class="ring"/>
+  <rect x="150" y="96" width="440" height="46" rx="8" class="field"/>
+  <circle cx="177" cy="119" r="8" class="icon"/>
+  <line x1="183" y1="125" x2="190" y2="132" class="icon"/>
+  <text x="204" y="124" class="muted an">Buscar em Pedidos — nº, cliente ou produto</text>
+  <rect x="530" y="108" width="46" height="22" rx="4" class="kbd"/>
+  <text x="543" y="124" class="muted an">⌘K</text>
+
+  <!-- annotations -->
+  <line x1="177" y1="150" x2="130" y2="196" class="lead"/>
+  <text x="0" y="212" class="accent anb">Ícone com estado de foco</text>
+  <text x="0" y="230" class="muted an">visível ao passar o mouse e ao</text>
+  <text x="0" y="246" class="muted an">receber o cursor.</text>
+
+  <line x1="330" y1="150" x2="330" y2="196" class="lead"/>
+  <text x="250" y="212" class="accent anb">Placeholder declara o escopo</text>
+  <text x="250" y="230" class="muted an">“Buscar em Pedidos” diz o que será</text>
+  <text x="250" y="246" class="muted an">vasculhado. “Buscar…” não diz nada.</text>
+
+  <line x1="553" y1="150" x2="600" y2="196" class="lead"/>
+  <text x="520" y="212" class="accent anb">Atalho visível</text>
+  <text x="520" y="230" class="muted an">quando buscar é</text>
+  <text x="520" y="246" class="muted an">ação frequente.</text>
+
+  <line x1="150" y1="80" x2="590" y2="80" class="lead"/>
+  <text x="150" y="72" class="muted an">largura que comporte a consulta típica sem rolar</text>
+
+  <text x="0" y="286" class="muted cap">Na página inicial, campo de digitação — nunca um link para uma página de busca.</text>
+</svg>

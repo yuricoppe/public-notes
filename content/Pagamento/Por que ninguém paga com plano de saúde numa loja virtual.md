@@ -5,6 +5,8 @@ tags:
   - dominio/pagamento
   - dominio/saude
   - tipo/artigo
+aliases:
+  - "Pagamento/Métodos e Tecnologias para Implementação de Pagamento via Plano de Saúde em Lojas Virtuais"
 ---
 
 A pergunta chega quase sempre na mesma forma: *como a gente aceita plano de saúde no checkout?* Vem embrulhada em vocabulário de integração — API da operadora, validação de elegibilidade em tempo real, hub de conectividade — e por isso costuma ser encaminhada para o time de engenharia, que volta semanas depois com um diagnóstico de complexidade.

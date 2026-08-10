@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320" role="img" aria-label="Linha do tempo dos três limites de resposta: até 0,1 segundo parece instantâneo e não precisa de feedback; até 1 segundo o pensamento não se interrompe mas convém sinalizar; acima de 10 segundos é preciso indicador de progresso e opção de cancelar">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .line  { stroke: #9ca3af; stroke-width: 2; }
+    .g1 { fill: #10b981; }
+    .g2 { fill: #f59e0b; }
+    .g3 { fill: #dc2626; }
+    .box { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .num { font-size: 20px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .an  { font-size: 12.5px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .line { stroke: #6b7280; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .g1 { fill: #34d399; }
+      .g2 { fill: #fbbf24; }
+      .g3 { fill: #f87171; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Quanto tempo a busca pode demorar antes de precisar dizer algo</text>
+  <text x="0" y="44" class="muted cap">Os três limites de resposta de Jakob Nielsen, de 1993 — perceptuais, não tecnológicos</text>
+
+  <line x1="20" y1="86" x2="700" y2="86" class="line"/>
+  <circle cx="90"  cy="86" r="8" class="g1"/>
+  <circle cx="330" cy="86" r="8" class="g2"/>
+  <circle cx="580" cy="86" r="8" class="g3"/>
+
+  <text x="60"  y="72" class="ink num">0,1s</text>
+  <text x="300" y="72" class="ink num">1s</text>
+  <text x="550" y="72" class="ink num">10s</text>
+
+  <rect x="20" y="112" width="200" height="140" rx="8" class="box"/>
+  <text x="36" y="138" class="ink h">Parece instantâneo</text>
+  <text x="36" y="162" class="muted an">A pessoa sente que está</text>
+  <text x="36" y="180" class="muted an">manipulando a coisa direto.</text>
+  <text x="36" y="212" class="ink h">Não precisa de feedback</text>
+  <text x="36" y="232" class="muted an">Basta mostrar o resultado.</text>
+
+  <rect x="252" y="112" width="200" height="140" rx="8" class="box"/>
+  <text x="268" y="138" class="ink h">O pensamento continua</text>
+  <text x="268" y="162" class="muted an">A demora é notada, mas a</text>
+  <text x="268" y="180" class="muted an">pessoa não perde o fio.</text>
+  <text x="268" y="212" class="ink h">Sinalize que está indo</text>
+  <text x="268" y="232" class="muted an">Um indicador simples basta.</text>
+
+  <rect x="484" y="112" width="216" height="140" rx="8" class="box"/>
+  <text x="500" y="138" class="ink h">A atenção vai embora</text>
+  <text x="500" y="162" class="muted an">A pessoa quer fazer outra</text>
+  <text x="500" y="180" class="muted an">coisa enquanto espera.</text>
+  <text x="500" y="212" class="ink h">Progresso + cancelar</text>
+  <text x="500" y="232" class="muted an">Diga quanto falta e deixe sair.</text>
+
+  <text x="0" y="292" class="muted cap">Autossugestão vive na primeira faixa: acima de 0,1s a lista já parece atrasada em relação à digitação.</text>
+  <text x="0" y="314" class="muted cap">É por isso que sugestão enriquecida e pesada quase sempre sai mais cara do que rende.</text>
+</svg>
