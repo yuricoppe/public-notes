@@ -1,6 +1,6 @@
 ---
 title: "UX Busca"
-description: "Boas práticas, padrões e referências sobre experiência de busca (Search UX)"
+description: "Índice das anotações sobre experiência de busca: o artigo principal, as ferramentas e as fontes que sustentam tudo"
 tags:
   - tema/ux
   - dominio/busca
@@ -9,128 +9,66 @@ aliases:
   - "Busca/📌 Resumo dos Artigos Analisados"
 ---
 
-[[A busca não é um campo de texto]]
-[[Ferramentas de busca]]
+Esta pasta reúne o que estudei sobre experiência de busca — barra, sugestões, página de resultados, filtros e o que fazer quando não há resultado nenhum.
 
----
+## Comece por aqui
 
-## Links
+**[[A busca não é um campo de texto]]** — o artigo que consolida tudo. O argumento é que o esforço de UX em busca costuma ir para o lugar errado: a caixa está resolvida desde 2001, e o que quebra é o que acontece depois do Enter. Cobre os tipos de consulta que os sites não respondem, os limites de tempo de resposta, zero resultados e por que busca não conserta navegação.
 
-- **[Search UX Best Practices](https://www.pencilandpaper.io/articles/search-ux)** · Pencil & Paper
-  O mais completo da lista: barra, dropdown, carregamento, resultados e filtros. As anotações estão em [[A busca não é um campo de texto]].
+**[[Ferramentas de busca]]** — plataformas e serviços de busca para produto.
+
+## Fontes
+
+Todas verificadas em 10 ago 2026. As anotações de leitura estão dentro do artigo acima; aqui fica só o que cada fonte é e para que serve.
+
+- **[Search UX Best Practices](https://www.pencilandpaper.io/articles/search-ux)** · Fanny Vassilatos e Ceara Crawshaw, Pencil & Paper, 2023
+  A mais completa e a mais prática. Divide a experiência em barra, dropdown, carregamento e resultados, define quatro intenções de busca e lista os erros comuns. É a única que trata carregamento como assunto de primeira classe.
+
+- **[Ecommerce Search UX Best Practices](https://baymard.com/blog/ecommerce-search-query-types)** · Baymard, atualizado abr 2026
+  Levantamento em mais de 170 sites sobre **que tipo de consulta** falha. É o dado mais acionável de toda a lista: mostra que os casos que os times testam não são os que quebram.
+
+- **[5 Proven UX Strategies for "No Results" Pages](https://baymard.com/blog/no-results-page)** · Baymard
+  Cinco estratégias para zero resultados, com o achado de que dicas de busca sozinhas não funcionam.
+
+- **[Search: Visible and Simple](https://www.nngroup.com/articles/search-visible-and-simple/)** · Jakob Nielsen, NN/g, 2001
+  A origem das taxas de sucesso por tentativa (51%, 32%, 18%) e da recomendação de não oferecer busca avançada na página inicial. Antigo, mas o argumento estrutural não envelheceu.
+
+- **[Response Times: The 3 Important Limits](https://www.nngroup.com/articles/response-times-3-important-limits/)** · Jakob Nielsen, NN/g, 1993
+  Não é sobre busca, mas define os limites (0,1s / 1s / 10s) que determinam quando a autossugestão parece rápida ou quebrada.
+
+- **[Enriched Site-Search Suggestions: Rarely Used](https://www.nngroup.com/articles/enriched-site-search-suggestions/)** · Kate Kaplan, NN/g, 2022
+  O caso contra sugestões enriquecidas: usadas 7 vezes em 60 oportunidades, sem melhora com o hábito.
+
+- **[Best Practices for Search Results](https://uxplanet.org/best-practices-for-search-results-1bbed9d7a311)** · Nick Babich, UX Planet
+  Dez itens sobre a página de resultados — não apagar a consulta, corrigir erros de digitação, mostrar o total, guardar buscas recentes, mostrar progresso e nunca devolver "nenhum resultado" sem saída.
+
+- **[Search Results Page Design: UI/UX Best Practices](https://medium.com/@halolab/search-results-page-design-ui-ux-best-practices-f2157eea8226)** · Halo Lab
+  Layouts de página de resultados, resultados mesclados, zero resultados e busca semântica. É de onde vem o exemplo do cardigã cottagecore que não existe mais no estoque.
+
 - **[Search UX best practices: a complete guide](https://nulab.com/learn/design-and-ux/search-ux-best-practices/)** · Nulab
-  Quem usa a busca tem 1,8% mais chance de converter — o guia parte daí.
-- **[Best practices for search results](https://uxplanet.org/best-practices-for-search-results-1bbed9d7a311)** · UX Planet
-- **[Search results page design: UI/UX best practices](https://medium.com/@halolab/search-results-page-design-ui-ux-best-practices-f2157eea8226)** · Halo Lab
-- **[Search box UX examples](https://www.coveo.com/blog/search-box-ux-examples/)** · Coveo
-- **[Search: Visible and Simple](https://www.nngroup.com/articles/search-visible-and-simple/)** · Nielsen Norman Group
-  A busca é a tábua de salvação em site complexo. Resumido em [[Artigos Nielsen Norman Group]].
+  Panorama introdutório: caixa, facetas, autocomplete, buscas em alta, abas por tipo de resultado. Abre com a estatística de conversão de quem usa busca — ver a ressalva na nota abaixo.
 
-### Pontos principais de cada um
+- **[Search Box UX Examples](https://www.coveo.com/blog/search-box-ux-examples/)** · Coveo
+  Seis práticas ilustradas com casos reais (Dell, United, Best Buy, Fleetpride): índice unificado, posicionamento, autocomplete preditivo, busca generativa, facetas e analytics de busca.
 
-Os títulos abaixo seguem a mesma ordem da lista acima.
+## Relacionados
 
-**1. Search UX** · Pencil & Paper
-- Funcionalidade crítica para usuários que já sabem o que querem.
-- **Autocomplete** e sugestões em tempo real reduzem erros.
-- Filtros avançados e ordenação são essenciais.
-- Design deve priorizar **simplicidade** e **velocidade**.
-
-**2. Search UX Best Practices** · Nulab
-- **Visibilidade:** campo de busca no topo da página.
-- **Feedback visual:** mostrar resultados parciais durante a digitação.
-- **Tratamento de erros:** sugestões para termos mal digitados.
-- **Mobile-first:** adaptação para dispositivos móveis.
-
-**3. Best Practices for Search Results** · UX Planet
-- **Hierarquia visual:** destaque resultados relevantes (ex.: promoções).
-- **Paginação clara:** evite scroll infinito para comparação.
-- **Filtros contextuais:** por categoria, preço, localização.
-- **Performance:** carregamento rápido é essencial.
-
-**4. Search Results Page Design** · Halo Lab
-- **Layout consistente:** cards ou listas organizadas.
-- **Informações essenciais:** preço, disponibilidade, avaliações.
-- **Empty states:** sugestões para buscas sem resultados.
-- **CTA claro:** botões como "Agendar agora" visíveis.
-
-**5. Search Box UX Examples** · Coveo
-- **Placeholder útil:** ex.: "Buscar exames ou vacinas".
-- **Ícone de busca:** lupa universalmente reconhecida.
-- **Busca avançada:** opções por tipo de exame ou faixa etária.
-- **Histórico de busca:** facilita buscas repetidas.
-
-**6. Search: Visible and Simple** · Nielsen Norman Group
-- **Acessibilidade:** fácil para todos os usuários.
-- **Minimalismo:** evite elementos desnecessários.
-- **Testes de usabilidade:** valide com usuários reais.
-- **Padrões reconhecíveis:** ex.: campo no header.
+[[Artigos Nielsen Norman Group]] · [[Artigos UX Design.cc]]
 
 ---
 
-[[Artigos Nielsen Norman Group]]
-[[Artigos UX Design.cc]]
+## Nota de método
 
----
+Esta página continha um bloco de "pontos principais" resumindo cada fonte, e um "Resumo" longo sobre UX de busca em geral. Ambos foram removidos. A auditoria de 10 ago 2026 encontrou o seguinte:
 
-## Resumo
+**Quatro dos seis resumos não correspondiam ao artigo que diziam resumir.** O de Coveo atribuía ao texto exemplos de saúde — "Buscar exames ou vacinas", busca avançada "por tipo de exame ou faixa etária" — que não existem lá; o artigo real trata de índice unificado, busca generativa e analytics, com exemplos de Dell e United Airlines. O de UX Planet listava hierarquia visual para promoções, scroll infinito, filtros por localização e performance: nenhum desses termos aparece no artigo, que é a lista de dez itens de Nick Babich. O de Nulab prometia "mobile-first", assunto que o guia não aborda. O de NN/g trazia quatro genéricos — acessibilidade, minimalismo, testes de usabilidade — que não são o que aquele artigo diz. O de Halo Lab acertava três pontos e inventava um botão "Agendar agora".
 
-A experiência do usuário (UX) em sistemas de busca é vital para a interatividade e a satisfação do usuário em ambientes digitais. Este resumo explora os fundamentos da busca, o comportamento dos usuários, os elementos essenciais de uma boa experiência de busca, soluções práticas recomendadas, tendências inovadoras e considerações específicas para o e-commerce.
+O padrão é reconhecível: especificidades com sabor de saúde inseridas em artigos que não falam de saúde, e recheio genérico no lugar do argumento real de cada texto.
 
-## Fundamentos da Busca em UX
+**A estatística de conversão estava errada, e o erro era meu.** Eu havia anotado "quem usa a busca tem 1,8% mais chance de converter". A frase é fiel à Nulab, que escreve "1.8% more likely" — mas a Nulab distorceu a fonte que ela mesma cita. O dado original da Econsultancy é **1,8×**: conversão de 2,77% no geral contra 4,63% entre quem usa a busca. Copiei o erro de uma fonte secundária sem conferir a primária.
 
-A busca não é apenas um recurso, mas sim um componente essencial da experiência do usuário, frequentemente funcionando como a principal interface para muitos visitantes de sites. Um sistema de busca eficiente deve ser **intuitivo** e **acessível** em todas as páginas, garantindo que os usuários possam encontrar rapidamente as informações ou produtos desejados sem frustrações.
+**O "Resumo" final** eram cerca de 60 linhas sobre fundamentos, comportamento, tendências e e-commerce, sem nenhuma fonte, e hoje redundante com [[A busca não é um campo de texto]].
 
-## Comportamento do Usuário
+**De quebra, um mistério resolvido.** A antiga página de anotações pulava do item 1 para o 3 na lista do UX Planet. O artigo original tem dez itens; o que sumiu foi o número 2, "Provide accurate and relevant results", perdido no recorta e cola.
 
-Compreender o comportamento dos usuários é crucial para projetar interfaces de busca eficazes:
-- **Forragem de palavras-chave:** Os usuários frequentemente realizam busca preliminares utilizando termos, explorando sugestões antes de definir suas buscas. Garantir que o sistema reconheça e sugira automaticamente termos relevantes pode aumentar a eficiência da busca.
-- **Padrões de visualização:** O design e a apresentação dos resultados de busca impactam diretamente na forma como os usuários escaneiam e processam as informações. Resultados bem organizados e facilmente legíveis não apenas atraem a atenção, mas também facilitam a navegação.
-- **Sinergia navegação-busca:** Muitos usuários veem a busca como um recurso de último recurso. Portanto, as interfaces devem incentivar a navegação tradicional sempre que possível, sem perder oportunidades de pesquisa.
-
-## Elementos Essenciais de uma Boa Busca
-
-Os principais componentes que garantem uma experiência de busca eficaz incluem:
-- **Autocompletar:** A implementação de sugestões instantâneas durante a digitação ajuda os usuários a encontrar o que procuravam rapidamente. Um sistema inteligente de autocompletar pode prever e ajustar resultados com base em entradas anteriores ou tendências populares.
-- **Filtros facetados:** Permitem que os usuários refinem os resultados de busca de forma progressiva por múltiplas dimensões, como preço, categoria e relevância. Esse recurso é fundamental para resultados mais personalizados e precisos.
-- **Relevância dos resultados:** Algoritmos eficazes priorizam conteúdo que realmente atende às necessidades do usuário, garantindo que as informações mais relevantes sejam apresentadas no topo da lista de resultados.
-- **Design responsivo:** Uma interface de busca que se adapta à variedade de dispositivos e tamanhos de tela, especialmente em dispositivos móveis, é crucial. O design responsivo garante uma experiência consistente e agradável, independentemente da plataforma.
-
-## Soluções Práticas Propostas
-
-Para aprimorar a experiência de busca, diversas soluções práticas podem ser implementadas:
-- **Design de Filtros:**
-    - **Hierarquia organizacional:** Estruturar filtros de forma intuitiva para facilitar a seleção.
-    - **Feedback visual imediato:** Fornecer respostas visuais instantâneas sempre que os filtros são aplicados.
-    - **Seleção múltipla:** Permitir que os usuários selecionem várias opções de filtro simultaneamente.
-    - **Destaque de filtros populares:** Sugerir filtros com alta utilização pelos usuários para facilitar a navegação.
-- **Página de Resultados:**
-    - **Clareza e organização:** Os resultados devem ser apresentados de forma clara e lógica, ajudando o usuário a encontrar informações rapidamente.
-    - **Paginação intuitiva:** Oferecer navegação simples entre páginas de resultados.
-    - **Opções de ordenação relevantes:** Permitir que os usuários ordenem os resultados por critérios que sejam significativos para eles, como preço ou data.
-    - **Prévia do conteúdo:** Incluir uma breve descrição ou imagem dos resultados para contextualizar melhor o conteúdo.
-- **Otimizações Móveis:**
-    - **Interface simplificada:** Adaptar a interface para ser fácil de usar em telas pequenas, garantindo uma navegação fluida.
-    - **Botões e campos adequados ao toque:** Garantir que todos os elementos interativos sejam facilmente acessíveis e utilizáveis por toques.
-    - **Teclado otimizado:** Para buscas que exigem entrada de texto, um teclado que se adapta ao tipo de busca pode acelerar o processo.
-    - **Gestos intuitivos para filtros:** Implementar gestos que facilitem a interação, como deslizamentos para aplicar ou remover filtros.
-
-## Tendências e Inovações
-
-O futuro da UX de busca é promissor e orientado para a inovação:
-- **Personalização baseada em contexto:** Sistemas que aprendem e adaptam as sugestões de busca com base no histórico e comportamento do usuário promovem uma experiência mais envolvente.
-- **Integração com inteligência artificial (IA):** O uso de IA pode melhorar a precisão dos resultados de busca, permitindo que os sistemas entendam melhor as intenções dos usuários.
-- **Busca por voz e processamento de linguagem natural (PLN):** A crescente popularização da busca por voz está impulsionando o desenvolvimento de tecnologias que compreendem e respondem a comandos de voz, tornando a busca mais acessível.
-- **Visualização dinâmica de resultados:** Tecnologias que permitem a visualização interativa dos resultados, como gráficos ou filtros visuais, oferecem uma nova dimensão às experiências de busca.
-
-## Considerações para E-commerce
-
-Para lojas online, a experiência de busca deve ser especialmente adaptada:
-- **Filtros específicos por categoria de produto:** Facilitar a busca com opções que correspondam às categorias oferecidas.
-- **Busca com previews de produtos:** Mostrar resumos visuais dos produtos diretamente nos resultados de busca para impulsionar as decisões de compra.
-- **Sugestões de produtos relacionados:** Oferecer recomendações baseadas nas buscas anteriores para aumentar a possibilidade de conversões.
-- **Histórico de buscas e visualizações:** Permitir que os usuários visualizem seu histórico para facilitar retornos a produtos de interesse.
-
-## Conclusão
-
-Em suma, uma experiência de busca eficaz deve equilibrar **simplicidade** na interface com **poder** e **flexibilidade** nas funcionalidades. O foco deve sempre estar nas necessidades e comportamentos reais dos usuários, garantindo que a busca não apenas atenda às suas expectativas, mas também supere suas experiências anteriores. À medida que a tecnologia avança, a busca se tornará cada vez mais intuitiva e integrada, criando um ambiente digital mais amigável e acessível.
+Links: das dez URLs, oito respondem 200. As duas de 403 são bloqueio do Medium a robôs — confirmei ambas por snapshot do Internet Archive, e é de lá que vêm os títulos e a autoria acima.
