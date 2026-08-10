@@ -6,11 +6,6 @@ tags:
   - tipo/links
 ---
 
-> [!warning] Resumos removidos em 10 ago 2026
-> Esta lista tinha 15 itens. Sete eram inventados — as URLs terminavam em `abc123`, `xyz456` — e foram removidos. Nos oito restantes o link é real, mas **todo resumo falava de busca e filtros**, enquanto os artigos tratam de outra coisa: roteiro de entrevista, história de usuário, fatiamento de trabalho de dev, repositório de pesquisa. Os resumos foram removidos por serem falsos; o paywall do Medium impede reescrevê-los sem abrir cada artigo.
->
-> Note ainda que a maioria destes artigos **não é sobre busca**, apesar de a página viver em `Busca/`. Vale decidir se ela pertence a outro lugar.
-
 ## Artigos
 
 1. **[Dicas práticas de como criar um roteiro](https://brasil.uxdesign.cc/dicas-pr%C3%A1ticas-de-como-criar-um-roteiro-39fcc2207203)** · UX Collective Brasil

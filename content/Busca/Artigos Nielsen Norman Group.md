@@ -42,7 +42,6 @@ tags:
     Apresenta áreas de design e processos para aprimorar a experiência de busca em intranets.
 
 9. **[How Search Engines Shape Gaze Patterns During Information Seeking: Google vs. Baidu](https://www.nngroup.com/articles/google-baidu-serp-comparison/)**
-
     Investiga como o design de motores de busca altera os padrões de olhar dos usuários nas páginas de resultados de busca.
 
 10. **[Search and You May Find](https://www.nngroup.com/articles/search-and-you-may-find/)**
