@@ -1,6 +1,6 @@
 ---
-title: "Lista de artigos"
-description: "Artigos do NN/g e outros sobre login walls, formulários de cadastro e recuperação de senha"
+title: "UX Login e Cadastro"
+description: "Login e cadastro em produtos de saúde: artigos do NN/g e outros sobre login walls, formulários e recuperação de senha"
 tags:
   - tema/ux
   - dominio/saude

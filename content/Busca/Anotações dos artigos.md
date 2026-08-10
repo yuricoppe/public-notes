@@ -79,7 +79,7 @@ O que pode ser indexado? Os dados estão em boas condições para uma pesquisa e
 - Incluir o estado de foco quando a entrada foi “clicada”
 - Incluir algumas sugestões predefinidas no texto do espaço reservado (nos casos em que não está claro o que você pode pesquisar em um aplicativo)
 - Inclua o que está sendo pesquisado no texto do espaço reservado. Ex.: pesquisar no site inteiro vs. pesquisar itens na tabela abaixo.
-![png](../../attachments/Pasted%20image%2020251105231928.png)
+![png](../attachments/Pasted%20image%2020251105231928.png)
 
 ---
 
