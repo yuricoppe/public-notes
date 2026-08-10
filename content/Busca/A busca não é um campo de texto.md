@@ -130,22 +130,6 @@ A busca é válvula de escape para quem se perdeu. É um ótimo motivo para ela 
 
 ---
 
-## Nota de método
-
-Este texto substitui uma página que era recorte e cola de oito artigos, sem argumento próprio, com trechos traduzidos fora de contexto. A auditoria feita antes de reescrever encontrou o seguinte:
-
-**Um erro de tradução que invertia o sentido.** Havia uma seção intitulada "A Obsolescência da Busca na Internet", afirmando que "a busca está se tornando obsoleta". O original de Nielsen diz *"search is becoming old hat"* — busca virou lugar-comum, banal. O argumento dele é o oposto do que a tradução sugeria: justamente porque a busca é onipresente, seria de esperar que as pessoas desenvolvessem habilidades avançadas, e elas não desenvolvem.
-
-**Dados de 2001 apresentados como atuais.** As taxas de 51%, 32% e 18% são reais, mas de um artigo de 12 de maio de 2001. A anotação original não trazia data nem autor.
-
-**Percentuais desatualizados.** Os oito números da Baymard citados na versão anterior divergem todos da fonte atual, revisada em abril de 2026 — busca exata aparecia como 33% quando hoje é 12%; busca não-produto como 50% quando hoje é 66%. Os números aqui são os atuais.
-
-**Sete imagens hotlinkadas** de CDNs do Medium, da Baymard e do Webflow. Respondiam quando verifiquei, mas são conteúdo de terceiros servido de servidor alheio, que some sem aviso. Substituí por diagramas autorais em SVG.
-
-**Numeração quebrada** — a lista do UX Planet pulava do item 1 para o 3 — e nenhum trecho identificava autor ou data.
-
-Nesta versão o texto foi ampliado a partir das fontes originais, e não do recorte que existia: entram os limites de resposta de Nielsen, as cinco estratégias completas da Baymard para zero resultados, a orientação da Pencil & Paper sobre escopo no placeholder, descoberta e alvos que se mexem, e as quatro operações da busca avançada.
-
 Todas as fontes abaixo foram verificadas em 10 ago 2026.
 
 **Fontes:** [Search: Visible and Simple](https://www.nngroup.com/articles/search-visible-and-simple/) (Jakob Nielsen, NN/g, 2001) · [Response Times: The 3 Important Limits](https://www.nngroup.com/articles/response-times-3-important-limits/) (Jakob Nielsen, NN/g, 1993) · [Search UX Best Practices](https://www.pencilandpaper.io/articles/search-ux) (Fanny Vassilatos e Ceara Crawshaw, Pencil & Paper, 2023) · [Ecommerce Search UX Best Practices](https://baymard.com/blog/ecommerce-search-query-types) (Baymard, atualizado abr 2026) · [5 Proven UX Strategies for "No Results" Pages](https://baymard.com/blog/no-results-page) (Baymard) · [Enriched Site-Search Suggestions: Rarely Used](https://www.nngroup.com/articles/enriched-site-search-suggestions/) (Kate Kaplan, NN/g, 2022) · [Search UX best practices: a complete guide](https://nulab.com/learn/design-and-ux/search-ux-best-practices/) (Nulab)
