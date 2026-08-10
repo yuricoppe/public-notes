@@ -1,6 +1,9 @@
 ---
 title: "back to top"
-
+description: "O botão \"Voltar ao Topo\" é um controle de navegação que permite ao usuário retornar rapidamente ao início de uma página longa após rolar para baixo."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Botão "Voltar ao Topo" (Back to Top)

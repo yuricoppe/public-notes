@@ -1,6 +1,9 @@
 ---
 title: "experience map"
-
+description: "Um Experience Map (Mapa de Experiência) é uma visualização estratégica que ilustra a experiência completa de uma pessoa ao tentar alcançar um objetivo ou satisfazer uma…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Experience Map (Mapa de Experiência)

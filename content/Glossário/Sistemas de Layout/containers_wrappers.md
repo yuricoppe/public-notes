@@ -1,6 +1,9 @@
 ---
 title: "containers wrappers"
-
+description: "Containeres e wrappers são elementos de layout fundamentais usados para controlar a largura, o alinhamento e, às vezes, o espaçamento do conteúdo principal dentro de uma página…"
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Containeres e Wrappers

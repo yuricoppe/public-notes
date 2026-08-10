@@ -1,6 +1,9 @@
 ---
 title: "Survey (Pesquisa/Questionário)"
-
+description: "Um questionário que coleta percepções e atitudes autorreportadas dos participantes através de um conjunto de perguntas de múltipla escolha ou abertas."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Survey (Pesquisa/Questionário)

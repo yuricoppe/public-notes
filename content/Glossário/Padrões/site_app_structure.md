@@ -1,6 +1,9 @@
 ---
 title: "site app structure"
-
+description: "O padrão de estrutura do site/aplicativo refere-se à organização geral e arquitetura da informação de um portal ou aplicação."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Estrutura do Site / Aplicativo (Site / App Structure)

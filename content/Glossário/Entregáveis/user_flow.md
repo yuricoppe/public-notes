@@ -1,6 +1,9 @@
 ---
 title: "user flow"
-
+description: "O conjunto típico ou ideal de etapas necessárias para realizar uma tarefa comum com um produto."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## User Flow (Fluxo do Usuário)

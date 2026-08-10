@@ -1,6 +1,9 @@
 ---
 title: "drawer accordion"
-
+description: "\"Drawer\" (Gaveta) e \"Accordion\" (Acordeão) são componentes de interface utilizados para mostrar e ocultar seções de conteúdo, ajudando a organizar informações e reduzir a…"
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Drawer / Accordion (Gaveta / Acordeão)

@@ -1,6 +1,9 @@
 ---
 title: "code block"
-
+description: "O componente Code Block é usado para exibir trechos de código de programação de forma legível e estruturada, geralmente com destaque de sintaxe (syntax highlighting) e…"
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Code Block (Bloco de Código)

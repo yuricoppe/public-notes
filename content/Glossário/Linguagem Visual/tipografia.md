@@ -1,6 +1,10 @@
 ---
 title: "Tipografia (Typography)"
-
+description: "A tipografia é crucial para a comunicação eficaz, legibilidade e a estética geral de uma interface."
+tags:
+  - tema/ui
+  - tema/design-system
+  - tipo/glossario
 ---
 
 ## Tipografia (Typography)

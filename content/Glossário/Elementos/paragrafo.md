@@ -1,6 +1,9 @@
 ---
 title: "Parágrafo (Paragraph)"
-
+description: "O parágrafo é o principal elemento para apresentar blocos de texto corrido."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Parágrafo (Paragraph)

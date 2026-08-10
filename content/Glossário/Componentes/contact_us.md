@@ -1,6 +1,9 @@
 ---
 title: "contact us"
-
+description: "O componente ou seção \"Contact Us\" (Fale Conosco) fornece aos usuários os meios para entrar em contato com a organização ou equipe de suporte."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Contact Us (Fale Conosco)

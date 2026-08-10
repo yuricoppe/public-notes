@@ -1,6 +1,9 @@
 ---
 title: "Cabeçalhos (Headers H1 - H6)"
-
+description: "Os cabeçalhos são usados para estruturar o conteúdo de uma página, indicando diferentes níveis de importância e seções."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Cabeçalhos (Headers H1 - H6)

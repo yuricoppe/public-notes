@@ -1,7 +1,8 @@
 ---
 title: "Glossário de UX/UI"
 description: "Glossário completo de termos, componentes, elementos, entregáveis e padrões de UX/UI Design"
-
+tags:
+  - tipo/indice
 ---
 
 ## Sobre o Glossário

@@ -1,6 +1,9 @@
 ---
 title: "Archetype (Arquétipo)"
-
+description: "Um Archetype (Arquétipo) em UX é uma representação abstrata de um tipo de usuário, focada em seus comportamentos, atitudes, motivações, dores (pain points) e objetivos."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Archetype (Arquétipo)

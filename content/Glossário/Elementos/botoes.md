@@ -1,6 +1,9 @@
 ---
 title: "Botões (Buttons)"
-
+description: "Botões são elementos interativos que permitem aos usuários realizar ações, como enviar formulários, confirmar escolhas, navegar para funcionalidades específicas, ou iniciar…"
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Botões (Buttons)

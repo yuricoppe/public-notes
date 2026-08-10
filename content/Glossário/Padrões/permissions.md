@@ -1,6 +1,9 @@
 ---
 title: "Permissões (Permissions)"
-
+description: "O padrão de permissões descreve como um sistema gerencia e comunica ao usuário os direitos de acesso a diferentes funcionalidades, dados ou seções de um portal."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Permissões (Permissions)

@@ -1,6 +1,9 @@
 ---
 title: "qualitative persona"
-
+description: "Uma Qualitative Persona (Persona Qualitativa) é um tipo de persona de usuário construída primariamente a partir de dados de pesquisa qualitativa, como entrevistas em…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Qualitative Persona (Persona Qualitativa)

@@ -1,6 +1,9 @@
 ---
 title: "skill map"
-
+description: "Uma atividade colaborativa usada para visualizar os pontos fortes e fracos dos profissionais de UX e das equipes de UX, a fim de fazer um inventário da composição da equipe…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Skill Map (Mapa de Habilidades)

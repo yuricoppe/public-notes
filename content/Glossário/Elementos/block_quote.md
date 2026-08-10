@@ -1,6 +1,9 @@
 ---
 title: "block quote"
-
+description: "Utilizado para destacar citações diretas ou trechos de texto que são retirados de outra fonte."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Citação em Bloco (Block Quote)

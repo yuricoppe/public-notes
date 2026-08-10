@@ -1,6 +1,9 @@
 ---
 title: "Wireflow"
-
+description: "Um formato de especificação de design que combina layouts de página no estilo wireframe com uma forma simplificada, semelhante a um fluxograma, de representar interações."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Wireflow

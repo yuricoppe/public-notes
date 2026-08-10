@@ -1,6 +1,9 @@
 ---
 title: "analytics report"
-
+description: "Um Analytics Report é um documento que descreve e interpreta o que os usuários fazem com um produto digital já lançado (site, aplicativo, etc.)."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Analytics Report (Relatório de Análise de Dados)

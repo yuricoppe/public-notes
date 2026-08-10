@@ -1,6 +1,9 @@
 ---
 title: "Footer (Rodapé)"
-
+description: "O Footer (Rodapé) é uma seção de conteúdo localizada na parte inferior de uma página web ou tela de aplicativo."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Footer (Rodapé)

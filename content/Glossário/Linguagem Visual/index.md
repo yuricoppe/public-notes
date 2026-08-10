@@ -1,6 +1,10 @@
 ---
 title: "Linguagem Visual (Visual Language)"
-
+description: "Este diretório descreve a Linguagem Visual do portal, que engloba os princípios de design de alto nível, a identidade da marca e as diretrizes estilísticas que informam todos…"
+tags:
+  - tema/ui
+  - tema/design-system
+  - tipo/indice
 ---
 
 ## Linguagem Visual (Visual Language)

@@ -1,6 +1,10 @@
 ---
 title: "Espaçamento (Space)"
-
+description: "O espaçamento (ou espaço em branco) é um elemento de design fundamental que define as relações entre os elementos na interface."
+tags:
+  - tema/ui
+  - tema/design-system
+  - tipo/glossario
 ---
 
 ## Espaçamento (Space)

@@ -1,6 +1,9 @@
 ---
 title: "mind map"
-
+description: "Um Mind Map (Mapa Mental) é um diagrama usado para representar visualmente informações e ideias."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Mind Map (Mapa Mental)

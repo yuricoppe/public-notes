@@ -1,6 +1,9 @@
 ---
 title: "content audit"
-
+description: "Uma Content Audit (Auditoria de Conteúdo) é um processo sistemático de avaliação da qualidade, relevância, eficácia e precisão de todo o conteúdo digital existente em uma…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Content Audit (Auditoria de Conteúdo)

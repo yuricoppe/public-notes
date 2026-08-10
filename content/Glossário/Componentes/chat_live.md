@@ -1,6 +1,9 @@
 ---
 title: "chat live"
-
+description: "O componente de Chat em Tempo Real permite a comunicação síncrona entre usuários ou entre um usuário e um agente de suporte."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Chat (Live) (Chat em Tempo Real)

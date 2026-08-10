@@ -1,6 +1,9 @@
 ---
 title: "create account"
-
+description: "O padrão de criação de conta (também conhecido como registro ou sign-up) permite que novos usuários estabeleçam uma identidade e acesso a um sistema ou portal."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Criação de Conta (Create Account)

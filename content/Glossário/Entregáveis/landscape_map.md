@@ -1,6 +1,9 @@
 ---
 title: "landscape map"
-
+description: "Um Landscape Map (Mapa de Paisagem ou Mapa do Ecossistema) é uma visualização de alto nível que captura os vários componentes, relacionamentos e interações dentro de um sistema…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Landscape Map (Mapa de Paisagem)

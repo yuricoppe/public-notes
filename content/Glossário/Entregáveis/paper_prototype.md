@@ -1,6 +1,9 @@
 ---
 title: "paper prototype"
-
+description: "Um Paper Prototype é uma técnica de prototipagem de baixa fidelidade que envolve a criação de representações desenhadas à mão de interfaces de usuário em papel."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Paper Prototype (Protótipo de Papel)

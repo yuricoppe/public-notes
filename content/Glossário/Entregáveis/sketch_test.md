@@ -1,6 +1,9 @@
 ---
 title: "sketch test"
-
+description: "Um método de pesquisa que consiste em fornecer um entregável a um colega, pedir que ele crie um breve esboço ou resumo dele e, em seguida, observar o resultado para identificar…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Sketch Test (Teste de Esboço)

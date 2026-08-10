@@ -1,6 +1,9 @@
 ---
 title: "content inventory"
-
+description: "Um Content Inventory (Inventário de Conteúdo) é uma lista abrangente e quantitativa de todo o conteúdo digital existente em uma plataforma, como um website, aplicativo ou intranet."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Content Inventory (Inventário de Conteúdo)

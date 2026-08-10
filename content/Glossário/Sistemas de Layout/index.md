@@ -1,6 +1,9 @@
 ---
 title: "Sistemas de Layout"
-
+description: "Este diretório define os princípios e as especificações para os sistemas de layout utilizados no portal."
+tags:
+  - tema/ui
+  - tipo/indice
 ---
 
 ## Sistemas de Layout

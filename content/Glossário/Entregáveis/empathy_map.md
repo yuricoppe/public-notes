@@ -1,6 +1,9 @@
 ---
 title: "empathy map"
-
+description: "Um Empathy Map (Mapa de Empatia) é uma ferramenta de visualização colaborativa usada para articular o que se sabe sobre um tipo particular de usuário ou persona."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Empathy Map (Mapa de Empatia)

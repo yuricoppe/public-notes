@@ -1,6 +1,9 @@
 ---
 title: "Dashboard (Painel de Controle)"
-
+description: "Um Dashboard (Painel de Controle) em UX e análise de produtos é uma interface visual que organiza e apresenta informações importantes e métricas chave de forma concisa e fácil…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Dashboard (Painel de Controle)

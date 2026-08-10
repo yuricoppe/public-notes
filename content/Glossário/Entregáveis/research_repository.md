@@ -1,6 +1,9 @@
 ---
 title: "research repository"
-
+description: "Um Research Repository (Repositório de Pesquisa), também conhecido como \"research library\" ou \"insights platform\", é um sistema centralizado para armazenar, organizar,…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Research Repository (Repositório de Pesquisa)

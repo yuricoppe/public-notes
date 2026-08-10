@@ -1,6 +1,9 @@
 ---
 title: "Header (Cabeçalho de Página/Seção)"
-
+description: "O componente Header (Cabeçalho), neste contexto, refere-se a uma área no topo de uma página, seção ou componente (como um Card ou Modal) que introduz o conteúdo subsequente."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Header (Cabeçalho de Página/Seção)

@@ -1,6 +1,9 @@
 ---
 title: "scenario map"
-
+description: "Um Scenario Map (Mapa de Cenário) é uma ferramenta de visualização usada em UX para explorar e entender como diferentes tipos de usuários (personas) podem interagir com um…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Scenario Map (Mapa de Cenário)

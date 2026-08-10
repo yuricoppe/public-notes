@@ -1,6 +1,9 @@
 ---
 title: "Cards (Cartões)"
-
+description: "Cards são contêineres de interface que agrupam informações e ações relacionadas sobre um único tópico ou item."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Cards (Cartões)

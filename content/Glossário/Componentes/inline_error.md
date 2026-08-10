@@ -1,6 +1,9 @@
 ---
 title: "inline error"
-
+description: "O componente Inline Error (Erro Inline) é uma mensagem de erro exibida diretamente próxima ao elemento de interface que causou o erro, como um campo de formulário inválido."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Inline Error (Erro Inline)

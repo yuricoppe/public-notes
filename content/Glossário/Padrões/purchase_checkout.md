@@ -1,6 +1,9 @@
 ---
 title: "purchase checkout"
-
+description: "O padrão de compra/checkout descreve o processo pelo qual um usuário seleciona produtos ou serviços, fornece informações de pagamento e envio (se aplicável), revisa seu pedido…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Compra / Checkout (Purchase/Checkout)

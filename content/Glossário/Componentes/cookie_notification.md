@@ -1,6 +1,9 @@
 ---
 title: "cookie notification"
-
+description: "O componente de Notificação de Cookies (também conhecido como banner de cookies ou consentimento de cookies) informa os usuários sobre o uso de cookies no site/aplicativo e,…"
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Cookie Notification (Notificação de Cookies)

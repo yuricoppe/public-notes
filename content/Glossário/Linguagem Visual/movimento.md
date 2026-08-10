@@ -1,6 +1,10 @@
 ---
 title: "Movimento (Motion)"
-
+description: "O movimento, quando bem aplicado, torna a interface mais intuitiva, responsiva e agradável."
+tags:
+  - tema/ui
+  - tema/design-system
+  - tipo/glossario
 ---
 
 ## Movimento (Motion)

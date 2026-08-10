@@ -1,6 +1,9 @@
 ---
 title: "form controls"
-
+description: "Controles de formulário são elementos interativos que permitem aos usuários inserir e submeter dados."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Controles de Formulário (Form Controls)

@@ -1,6 +1,9 @@
 ---
 title: "chronological map"
-
+description: "Um Chronological Map (Mapa Cronológico) é uma categoria de entregáveis de UX que visualiza a experiência do usuário ao longo do tempo."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Chronological Map (Mapa Cronológico)

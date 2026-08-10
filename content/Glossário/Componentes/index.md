@@ -1,6 +1,9 @@
 ---
 title: "Componentes de UI (UI Components)"
-
+description: "Este diretório é dedicado à documentação dos Componentes de UI (Interface do Usuário) reutilizáveis do portal."
+tags:
+  - tema/ui
+  - tipo/indice
 ---
 
 ## Componentes de UI (UI Components)

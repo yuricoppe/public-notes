@@ -1,6 +1,10 @@
 ---
 title: "Iconografia (Iconography)"
-
+description: "Ícones são representações gráficas compactas usadas para:"
+tags:
+  - tema/ui
+  - tema/design-system
+  - tipo/glossario
 ---
 
 ## Iconografia (Iconography)

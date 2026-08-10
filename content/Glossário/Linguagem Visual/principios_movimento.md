@@ -1,6 +1,10 @@
 ---
 title: "principios movimento"
-
+description: "Esta seção aborda os princípios fundamentais que guiam o uso de movimento e animações na interface, com o objetivo de criar experiências de usuário mais intuitivas, responsivas…"
+tags:
+  - tema/ui
+  - tema/design-system
+  - tipo/glossario
 ---
 
 ## Princípios do Movimento

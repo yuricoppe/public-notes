@@ -1,6 +1,9 @@
 ---
 title: "database connection"
-
+description: "O padrão de conexão com banco de dados descreve as abordagens e considerações para estabelecer, gerenciar e encerrar conexões entre uma aplicação e um sistema de gerenciamento…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Conexão com Banco de Dados (Database Connection)

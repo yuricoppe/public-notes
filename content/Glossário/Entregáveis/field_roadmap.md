@@ -1,6 +1,9 @@
 ---
 title: "field roadmap"
-
+description: "Um Field Roadmap (Roadmap de Campo) é um tipo de roadmap de UX que se concentra nos problemas que uma equipe de UX planeja resolver para os usuários dentro de um \"campo\" ou…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Field Roadmap (Roadmap de Campo)

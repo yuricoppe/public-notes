@@ -1,6 +1,9 @@
 ---
 title: "user story map"
-
+description: "Um método de mapa lean-UX usado por equipes Ágeis para visualizar as interações que a equipe espera que os usuários realizem para completar seus objetivos em um produto digital."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## User-Story Map (Mapa de Histórias de Usuário / Story Map)

@@ -1,6 +1,9 @@
 ---
 title: "usability report"
-
+description: "Uma síntese de descobertas, insights e recomendações de um teste de usabilidade."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Usability Report (Relatório de Usabilidade)

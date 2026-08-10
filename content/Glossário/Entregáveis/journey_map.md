@@ -1,6 +1,9 @@
 ---
 title: "journey map"
-
+description: "Um Journey Map (Mapa de Jornada do Usuário) é uma visualização do processo que uma pessoa (usuário, cliente) atravessa para atingir um objetivo específico com uma empresa ou…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Journey Map (Mapa de Jornada do Usuário)

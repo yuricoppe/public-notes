@@ -1,6 +1,9 @@
 ---
 title: "proto persona"
-
+description: "Uma Proto Persona (também conhecida como Ad Hoc Persona ou Persona Provisória) é uma representação de um tipo de usuário criada com base no conhecimento e suposições existentes…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Proto Persona (Ad Hoc Persona)

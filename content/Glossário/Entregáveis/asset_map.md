@@ -1,6 +1,9 @@
 ---
 title: "asset map"
-
+description: "Um Asset Map (Mapa de Ativos) é um método de visualização cronológica e de alto nível que exibe e organiza todas as telas, elementos de interface, conteúdos e pontos de contato…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Asset Map (Mapa de Ativos)

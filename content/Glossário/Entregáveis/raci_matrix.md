@@ -1,6 +1,9 @@
 ---
 title: "raci matrix"
-
+description: "Uma RACI Matrix (Matriz RACI), também conhecida como RACI Chart, é uma ferramenta de gerenciamento de projetos e atribuição de responsabilidades."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## RACI Matrix (Matriz RACI)

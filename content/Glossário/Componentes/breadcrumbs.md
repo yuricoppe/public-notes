@@ -1,6 +1,9 @@
 ---
 title: "Breadcrumbs (Migalhas de Pão)"
-
+description: "Breadcrumbs são um sistema de navegação secundário que mostra a localização do usuário em um site ou aplicativo."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Breadcrumbs (Migalhas de Pão)

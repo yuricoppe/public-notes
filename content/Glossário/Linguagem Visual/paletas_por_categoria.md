@@ -1,6 +1,10 @@
 ---
 title: "paletas por categoria"
-
+description: "Nesta seção, detalhamos as paletas de cores organizadas por categoria, facilitando a aplicação consistente da identidade visual em diferentes contextos do sistema."
+tags:
+  - tema/ui
+  - tema/design-system
+  - tipo/glossario
 ---
 
 ## Paletas por Categoria

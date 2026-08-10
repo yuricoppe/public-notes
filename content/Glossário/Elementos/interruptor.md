@@ -1,6 +1,9 @@
 ---
 title: "Interruptor (Switch)"
-
+description: "Interruptores (ou toggles) são usados para alternar entre dois estados de uma configuração ou opção, como ligar/desligar notificações, ativar/desativar um modo escuro, etc."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Interruptor (Switch)

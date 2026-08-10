@@ -1,6 +1,9 @@
 ---
 title: "Imagem (Image)"
-
+description: "Imagens são elementos visuais cruciais para transmitir informações, ilustrar conceitos, adicionar apelo estético e melhorar o engajamento do usuário."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Imagem (Image)

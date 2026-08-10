@@ -1,6 +1,9 @@
 ---
 title: "Filters (Filtros)"
-
+description: "Filtros são componentes de interface que permitem aos usuários refinar e reduzir um conjunto de dados (como uma lista de produtos, resultados de busca, itens em uma tabela) com…"
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Filters (Filtros)

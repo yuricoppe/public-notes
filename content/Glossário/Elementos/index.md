@@ -1,6 +1,9 @@
 ---
 title: "Elementos de UI (UI Elements)"
-
+description: "Este diretório define os elementos fundamentais e atômicos que formam a base visual e estilística de toda a interface do usuário (UI) do portal."
+tags:
+  - tema/ui
+  - tipo/indice
 ---
 
 ## Elementos de UI (UI Elements)

@@ -1,6 +1,9 @@
 ---
 title: "csd matrix"
-
+description: "Uma CSD Matrix (Matriz de Certezas, Suposições e Dúvidas) é uma ferramenta colaborativa utilizada no início de um projeto ou de uma fase de descoberta para ajudar a equipe a…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## CSD Matrix (Matriz de Certezas, Suposições e Dúvidas)

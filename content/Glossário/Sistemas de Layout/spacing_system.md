@@ -1,6 +1,9 @@
 ---
 title: "spacing system"
-
+description: "O sistema de espaçamento define uma escala consistente e previsível para aplicar margens (margin), preenchimentos (padding) e o espaço vazio (white space) entre os elementos da…"
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Sistema de Espaçamento (Spacing System)

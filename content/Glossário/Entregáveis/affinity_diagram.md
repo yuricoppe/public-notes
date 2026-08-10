@@ -1,6 +1,9 @@
 ---
 title: "affinity diagram"
-
+description: "Um Affinity Diagram, também conhecido como Mapa de Afinidade, é uma técnica utilizada para organizar uma grande quantidade de informações em grupos baseados em suas relações…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Affinity Diagram (ou Mapa de Afinidade)

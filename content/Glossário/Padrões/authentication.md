@@ -1,6 +1,9 @@
 ---
 title: "Autenticação (Authentication)"
-
+description: "A autenticação é o processo de verificar a identidade de um usuário, sistema ou entidade que tenta acessar recursos protegidos."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Autenticação (Authentication)

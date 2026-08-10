@@ -1,6 +1,9 @@
 ---
 title: "kano model"
-
+description: "O Kano Model é uma teoria para desenvolvimento de produtos e satisfação do cliente desenvolvida nos anos 80 pelo Professor Noriaki Kano."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Kano Model (Modelo de Kano)

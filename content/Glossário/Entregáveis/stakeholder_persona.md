@@ -1,6 +1,9 @@
 ---
 title: "stakeholder persona"
-
+description: "Um personagem fictício que representa um personagem típico do seu grupo de stakeholders."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Stakeholder Persona

@@ -1,6 +1,9 @@
 ---
 title: "block container"
-
+description: "O componente \"Block\" ou \"Container\" refere-se a um agrupador visual genérico usado para envolver e organizar seções de conteúdo ou outros componentes de UI."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Block / Container (Bloco / Contêiner de Conteúdo)

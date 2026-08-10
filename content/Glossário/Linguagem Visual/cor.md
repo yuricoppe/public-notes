@@ -1,6 +1,10 @@
 ---
 title: "Cor (Color)"
-
+description: "A cor é um dos pilares da identidade visual e da experiência do usuário."
+tags:
+  - tema/ui
+  - tema/design-system
+  - tipo/glossario
 ---
 
 ## Cor (Color)

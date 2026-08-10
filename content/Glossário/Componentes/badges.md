@@ -1,6 +1,9 @@
 ---
 title: "Emblemas / Selos (Badges)"
-
+description: "Badges (ou selos/etiquetas) são pequenos elementos de UI usados para destacar informações concisas e importantes, como:"
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Emblemas / Selos (Badges)

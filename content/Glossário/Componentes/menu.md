@@ -1,6 +1,9 @@
 ---
 title: "Menu (Genérico)"
-
+description: "O componente Menu é uma lista de opções ou ações apresentadas ao usuário."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Menu (Genérico)

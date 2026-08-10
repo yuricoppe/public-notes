@@ -1,6 +1,9 @@
 ---
 title: "calendar picker"
-
+description: "O Calendar Picker é um componente de interface que permite aos usuários selecionar uma data ou um intervalo de datas de forma visual e intuitiva a partir de um calendário."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Calendar Picker (Seletor de Data)

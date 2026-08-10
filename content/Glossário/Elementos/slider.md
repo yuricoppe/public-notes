@@ -1,6 +1,9 @@
 ---
 title: "Controle Deslizante (Slider)"
-
+description: "Controles deslizantes (sliders) são usados para permitir que o usuário selecione um valor ou um intervalo de valores dentro de um range definido, arrastando uma alça ao longo…"
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Controle Deslizante (Slider)

@@ -1,6 +1,9 @@
 ---
 title: "stakeholder profile"
-
+description: "Um artefato para organizar e entender os insights dos stakeholders para que possam ser usados estrategicamente para o sucesso de um projeto."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Stakeholder Profile (Perfil do Stakeholder)

@@ -1,6 +1,9 @@
 ---
 title: "local navigation"
-
+description: "Local Navigation (Navegação Local) refere-se a sistemas de navegação que permitem ao usuário mover-se entre seções ou visualizações relacionadas dentro de uma área específica…"
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Local Navigation (Navegação Local)

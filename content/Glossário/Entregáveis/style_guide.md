@@ -1,6 +1,9 @@
 ---
 title: "style guide"
-
+description: "Uma peça de documentação que contém diretrizes específicas, referências visuais e princípios de design."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Style Guide (Guia de Estilo)

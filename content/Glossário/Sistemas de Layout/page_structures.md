@@ -1,6 +1,9 @@
 ---
 title: "page structures"
-
+description: "Este documento descreve padrões de layout para as seções estruturais mais comuns encontradas nas páginas do nosso portal, como cabeçalhos, rodapés, áreas de conteúdo principal…"
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Estruturas de Página Comuns

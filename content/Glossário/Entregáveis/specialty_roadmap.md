@@ -1,6 +1,9 @@
 ---
 title: "specialty roadmap"
-
+description: "Um subconjunto de roadmaps de campo que se concentram apenas em problemas dentro de uma área específica de UX (por exemplo, em pesquisa de usuário)."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Specialty Roadmap (Roadmap de Especialidade)

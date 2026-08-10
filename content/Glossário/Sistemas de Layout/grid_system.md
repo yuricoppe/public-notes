@@ -1,6 +1,9 @@
 ---
 title: "grid system"
-
+description: "O sistema de grid é a espinha dorsal da organização espacial do nosso portal."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Sistema de Grid

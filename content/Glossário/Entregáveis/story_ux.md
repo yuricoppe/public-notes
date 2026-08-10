@@ -1,6 +1,9 @@
 ---
 title: "story ux"
-
+description: "Um relato de eventos da perspectiva do usuário; os eventos na história mostram a evolução de uma experiência."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Story (UX Story / História de UX)

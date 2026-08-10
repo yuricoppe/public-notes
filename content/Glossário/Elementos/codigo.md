@@ -1,6 +1,9 @@
 ---
 title: "Código (Code)"
-
+description: "Utilizado para exibir trechos de código inline (dentro de um parágrafo) ou em blocos de código maiores (para exemplos mais extensos), comum em documentações técnicas e tutoriais."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Código (Code)

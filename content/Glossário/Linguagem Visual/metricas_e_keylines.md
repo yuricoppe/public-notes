@@ -1,6 +1,10 @@
 ---
 title: "metricas e keylines"
-
+description: "Esta documentação estabelece as métricas, grids e keylines utilizados para garantir consistência visual, alinhamento preciso e espaçamento harmonioso em todas as interfaces do…"
+tags:
+  - tema/ui
+  - tema/design-system
+  - tipo/glossario
 ---
 
 ## Métricas e Keylines

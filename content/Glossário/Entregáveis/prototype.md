@@ -1,6 +1,9 @@
 ---
 title: "Prototype (Protótipo)"
-
+description: "Um Prototype (Protótipo) em UX é uma simulação ou modelo de um produto ou interface que permite testar e avaliar ideias de design e a experiência do usuário antes do…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Prototype (Protótipo)

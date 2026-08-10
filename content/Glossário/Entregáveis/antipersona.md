@@ -1,6 +1,9 @@
 ---
 title: "Antipersona"
-
+description: "Uma Antipersona é uma representação de um grupo de usuários que uma organização não quer atrair ou para quem o produto/serviço não se destina."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Antipersona

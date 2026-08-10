@@ -1,6 +1,9 @@
 ---
 title: "cognitive map"
-
+description: "Um Cognitive Map (Mapa Cognitivo) é uma representação visual do modelo mental de uma pessoa ou grupo sobre um determinado processo, conceito, sistema ou ambiente."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Cognitive Map (Mapa Cognitivo)

@@ -1,6 +1,9 @@
 ---
 title: "ux roadmap"
-
+description: "Um artefato estratégico e vivo que alinha, prioriza e comunica o trabalho futuro e os problemas a serem resolvidos por uma equipe de UX."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## UX Roadmap (Roadmap de UX)

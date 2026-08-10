@@ -1,6 +1,9 @@
 ---
 title: "interview guide"
-
+description: "Um Interview Guide é um documento estruturado que delineia as perguntas e tópicos a serem cobertos durante uma entrevista com usuários ou stakeholders."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Interview Guide (Guia de Entrevista)

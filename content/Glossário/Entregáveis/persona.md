@@ -1,6 +1,9 @@
 ---
 title: "Persona"
-
+description: "Uma Persona em UX é um personagem fictício e arquétipo criado para representar um grupo de usuários com comportamentos, objetivos, necessidades e dores semelhantes."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Persona

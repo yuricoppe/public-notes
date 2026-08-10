@@ -1,6 +1,9 @@
 ---
 title: "lead paragraph"
-
+description: "O parágrafo de destaque (ou \"lead\") é um elemento textual curto, posicionado no início de um artigo, seção ou página."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Parágrafo de Destaque (Lead Paragraph)

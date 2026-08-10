@@ -1,6 +1,9 @@
 ---
 title: "moscow analysis"
-
+description: "A Análise MoSCoW é uma técnica de priorização usada na gestão de projetos, desenvolvimento de software e análise de negócios para alcançar um entendimento comum com os…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## MoSCoW Analysis (Análise MoSCoW)

@@ -1,6 +1,9 @@
 ---
 title: "Comments (Comentários)"
-
+description: "O componente de Comentários permite que os usuários publiquem e visualizem feedback, discussões ou anotações relacionadas a um conteúdo específico, como um artigo, produto,…"
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Comments (Comentários)

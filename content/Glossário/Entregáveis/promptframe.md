@@ -1,6 +1,9 @@
 ---
 title: "Promptframe"
-
+description: "Um Promptframe é um tipo de wireframe ou protótipo de baixa fidelidade especificamente projetado para interfaces de usuário conversacionais (CUIs) ou interações baseadas em…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Promptframe

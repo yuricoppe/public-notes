@@ -1,6 +1,9 @@
 ---
 title: "mood board"
-
+description: "A Mood Board is a type of collage consisting of images, text, and samples of objects in a composition."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Mood Board

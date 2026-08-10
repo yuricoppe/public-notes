@@ -1,6 +1,9 @@
 ---
 title: "form structure"
-
+description: "O padrão de estrutura de formulário define as melhores práticas para organizar e apresentar campos de entrada de dados, rótulos, mensagens de ajuda e ações (como botões de…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Estrutura de Formulário (Form Structure)

@@ -1,6 +1,9 @@
 ---
 title: "concept map"
-
+description: "Um Concept Map (Mapa Conceitual) é um diagrama que representa visualmente as relações entre diferentes conceitos."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Concept Map (Mapa Conceitual)

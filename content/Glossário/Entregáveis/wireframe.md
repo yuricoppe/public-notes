@@ -1,6 +1,9 @@
 ---
 title: "Wireframe"
-
+description: "Um esboço esquelético de um layout de design usado para representar a estrutura e a funcionalidade de uma interface antes que o design visual seja considerado."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Wireframe

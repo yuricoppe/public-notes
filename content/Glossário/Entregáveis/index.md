@@ -1,7 +1,9 @@
 ---
 title: "Entregáveis de UX"
 description: "Artefatos e documentos produzidos durante o processo de UX Design, desde pesquisa até implementação"
-
+tags:
+  - tema/ux
+  - tipo/indice
 ---
 
 ## Sobre os Entregáveis de UX

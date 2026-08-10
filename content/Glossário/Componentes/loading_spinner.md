@@ -1,6 +1,9 @@
 ---
 title: "loading spinner"
-
+description: "O componente Loading / Spinner (Indicador de Carregamento) é um elemento visual animado que informa ao usuário que uma ação está em progresso e que o sistema está trabalhando…"
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Loading / Spinner (Indicador de Carregamento)

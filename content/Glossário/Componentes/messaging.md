@@ -1,6 +1,9 @@
 ---
 title: "Messaging (Sistemas de Mensagens)"
-
+description: "O componente de Messaging (Sistemas de Mensagens) refere-se a diversos elementos de UI usados para comunicar informações importantes, feedback, alertas ou status ao usuário."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Messaging (Sistemas de Mensagens)

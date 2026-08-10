@@ -1,6 +1,9 @@
 ---
 title: "Mockup"
-
+description: "Um Mockup é uma representação estática, de média a alta fidelidade, do design de um produto ou interface."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Mockup

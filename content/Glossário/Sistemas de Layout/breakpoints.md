@@ -1,6 +1,9 @@
 ---
 title: "Breakpoints Responsivos"
-
+description: "Os breakpoints responsivos são os pontos específicos nos quais o layout do nosso portal se adapta para fornecer a melhor experiência de visualização em diferentes tamanhos de…"
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Breakpoints Responsivos

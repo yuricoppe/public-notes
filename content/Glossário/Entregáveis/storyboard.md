@@ -1,6 +1,9 @@
 ---
 title: "Storyboard"
-
+description: "Um artefato que comunica uma história através de imagens exibidas em uma sequência de painéis que mapeiam cronologicamente os principais eventos da história."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Storyboard

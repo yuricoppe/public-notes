@@ -1,6 +1,9 @@
 ---
 title: "statistical persona"
-
+description: "Um tipo de persona que emerge da análise estatística de uma pesquisa de grande amostra, informada por pesquisa qualitativa inicial."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Statistical Persona (Persona Estatística)

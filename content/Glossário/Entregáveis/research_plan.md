@@ -1,6 +1,9 @@
 ---
 title: "research plan"
-
+description: "Um Research Plan (Plano de Pesquisa) é um documento que descreve os objetivos, métodos, participantes, cronograma e entregáveis de um estudo de pesquisa de UX."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Research Plan (Plano de Pesquisa)

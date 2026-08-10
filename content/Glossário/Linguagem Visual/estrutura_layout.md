@@ -1,6 +1,10 @@
 ---
 title: "estrutura layout"
-
+description: "Esta seção define as diretrizes para a organização estrutural das páginas e a disposição dos elementos de interface (layout), visando criar uma experiência de usuário…"
+tags:
+  - tema/ui
+  - tema/design-system
+  - tipo/glossario
 ---
 
 ## Estrutura e Layout

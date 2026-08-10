@@ -1,6 +1,9 @@
 ---
 title: "data tables"
-
+description: "Data Tables são componentes usados para exibir conjuntos de dados estruturados em linhas e colunas, permitindo fácil visualização, comparação, e frequentemente, interação com…"
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Data Tables (Tabelas de Dados)

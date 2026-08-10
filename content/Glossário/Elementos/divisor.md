@@ -1,6 +1,9 @@
 ---
 title: "Divisor / Régua (Divider / Rule)"
-
+description: "Divisores ou réguas horizontais (e às vezes verticais) são usados para separar visualmente seções de conteúdo ou grupos de elementos, ajudando a organizar a informação e…"
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Divisor / Régua (Divider / Rule)

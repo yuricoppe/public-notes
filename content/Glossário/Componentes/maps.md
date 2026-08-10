@@ -1,6 +1,9 @@
 ---
 title: "Maps (Mapas)"
-
+description: "O componente de Mapas é usado para exibir informações geográficas de forma visual e interativa."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Maps (Mapas)

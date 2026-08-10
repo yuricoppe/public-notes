@@ -1,6 +1,9 @@
 ---
 title: "hero carousel"
-
+description: "O Hero Carousel (Carrossel de Destaque) é uma variação do componente Hero/Billboard que exibe múltiplos slides de destaque em rotação."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Hero Carousel (Carrossel de Destaque)

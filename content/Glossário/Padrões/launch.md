@@ -1,6 +1,9 @@
 ---
 title: "Lançamento (Launch) / Onboarding Inicial"
-
+description: "O padrão de \"Lançamento\" refere-se à primeira experiência que um usuário tem ao interagir com um portal ou uma nova funcionalidade significativa pela primeira vez."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Lançamento (Launch) / Onboarding Inicial

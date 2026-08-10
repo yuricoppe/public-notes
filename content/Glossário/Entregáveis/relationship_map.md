@@ -1,6 +1,9 @@
 ---
 title: "relationship map"
-
+description: "Um Relationship Map (Mapa de Relacionamento) é uma ferramenta visual usada para ilustrar as conexões, interdependências e a natureza das relações entre várias entidades dentro…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Relationship Map (Mapa de Relacionamento)

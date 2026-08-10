@@ -1,6 +1,9 @@
 ---
 title: "Toast / Snackbar"
-
+description: "Toasts (também conhecidos como Snackbars, especialmente no Material Design) são mensagens curtas e não intrusivas que fornecem feedback breve sobre uma operação."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Toast / Snackbar

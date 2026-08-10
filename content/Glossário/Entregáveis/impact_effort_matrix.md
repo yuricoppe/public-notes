@@ -1,6 +1,9 @@
 ---
 title: "impact effort matrix"
-
+description: "Uma Impact–Effort Matrix (Matriz Impacto x Esforço), também conhecida como Matriz de Priorização ou Grade Impacto/Valor vs."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Impact–Effort Matrix (Matriz Impacto x Esforço)

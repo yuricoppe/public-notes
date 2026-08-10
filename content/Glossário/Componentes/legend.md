@@ -1,6 +1,9 @@
 ---
 title: "Legend (Legenda de Gráficos/Mapas)"
-
+description: "O componente Legend (Legenda) é usado para explicar o significado de símbolos, cores, padrões ou outros indicadores visuais utilizados em gráficos, mapas, diagramas ou outras…"
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Legend (Legenda de Gráficos/Mapas)

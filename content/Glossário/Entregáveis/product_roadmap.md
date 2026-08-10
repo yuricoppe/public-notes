@@ -1,6 +1,9 @@
 ---
 title: "product roadmap"
-
+description: "Um Product Roadmap é um artefato estratégico de alto nível que descreve a visão, direção, prioridades e progresso de um produto ao longo do tempo."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Product Roadmap (Roadmap de Produto)

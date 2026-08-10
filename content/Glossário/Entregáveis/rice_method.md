@@ -1,6 +1,9 @@
 ---
 title: "rice method"
-
+description: "O Método RICE é um framework de pontuação usado para priorizar ideias de projetos, funcionalidades de produtos ou iniciativas."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## RICE Method (Método RICE)

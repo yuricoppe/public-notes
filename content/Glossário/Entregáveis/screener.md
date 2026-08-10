@@ -1,6 +1,9 @@
 ---
 title: "Screener"
-
+description: "Um questionário que coleta informações sobre as experiências dos participantes candidatos para identificar e priorizar rapidamente candidatos ideais que sejam representativos…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Screener

@@ -1,6 +1,9 @@
 ---
 title: "prototype specification"
-
+description: "Uma Prototype Specification é um documento que detalha o design, comportamento, interações e, às vezes, os aspectos técnicos de um protótipo."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Prototype Specification (Especificação de Protótipo)

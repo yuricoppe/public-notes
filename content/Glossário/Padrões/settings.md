@@ -1,6 +1,9 @@
 ---
 title: "Configurações (Settings)"
-
+description: "O padrão de configurações refere-se à área de um portal ou aplicação onde os usuários podem personalizar sua experiência, gerenciar preferências de conta, configurar…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Configurações (Settings)

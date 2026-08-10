@@ -1,6 +1,9 @@
 ---
 title: "Footnotes (Notas de Rodapé)"
-
+description: "Footnotes (Notas de Rodapé) são referências ou informações adicionais colocadas na parte inferior de uma página (ou seção) para fornecer esclarecimentos, citações de fontes, ou…"
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Footnotes (Notas de Rodapé)

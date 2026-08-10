@@ -1,6 +1,9 @@
 ---
 title: "swipe to refresh"
-
+description: "\"Deslizar para Atualizar\" (Swipe to Refresh) é um padrão de interação comum em aplicativos móveis e algumas aplicações web progressivas (PWAs), onde o usuário pode puxar uma…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Deslizar para Atualizar (Swipe to Refresh)

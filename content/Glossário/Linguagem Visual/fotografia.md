@@ -1,6 +1,10 @@
 ---
 title: "Fotografia"
-
+description: "Esta seção orienta sobre o uso de fotografia em nosso produto, definindo o estilo, o propósito e as melhores práticas para garantir que as imagens contribuam positivamente para…"
+tags:
+  - tema/ui
+  - tema/design-system
+  - tipo/glossario
 ---
 
 ## Fotografia

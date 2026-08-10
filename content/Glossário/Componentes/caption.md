@@ -1,6 +1,9 @@
 ---
 title: "Caption (Legenda)"
-
+description: "Captions, ou legendas, são textos descritivos curtos associados a outros elementos da interface, como imagens, tabelas, gráficos, ou grupos de campos de formulário."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Caption (Legenda)

@@ -1,6 +1,9 @@
 ---
 title: "action bar sheet"
-
+description: "Uma barra persistente, geralmente no topo (header) ou no rodapé (footer) de uma tela ou seção, que contém ações contextuais primárias ou navegação."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Barra de Ação / Planilha de Ação (Action Bar / Action Sheet)

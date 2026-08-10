@@ -1,6 +1,9 @@
 ---
 title: "service blueprint"
-
+description: "Um diagrama que visualiza as relações entre diferentes componentes de serviço — pessoas, adereços (evidências físicas ou digitais) e processos — que estão diretamente ligados a…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Service Blueprint

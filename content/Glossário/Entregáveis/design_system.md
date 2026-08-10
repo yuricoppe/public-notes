@@ -1,6 +1,9 @@
 ---
 title: "design system"
-
+description: "Um Design System (Sistema de Design) é uma coleção abrangente e viva de componentes de interface reutilizáveis, diretrizes claras, princípios de design e código, tudo…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Design System (Sistema de Design)

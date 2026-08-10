@@ -1,6 +1,9 @@
 ---
 title: "job to be done"
-
+description: "O framework Job-to-Be-Done (JTBD) foca em entender a \"tarefa\" ou \"trabalho\" fundamental que um cliente está tentando realizar em uma determinada circunstância, e como um…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Job-to-Be-Done (JTBD)

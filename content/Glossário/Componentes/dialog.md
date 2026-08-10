@@ -1,6 +1,9 @@
 ---
 title: "Dialog (Caixa de Diálogo ou Modal)"
-
+description: "Dialogs (também conhecidos como Modals ou Pop-ups) são janelas ou overlays que aparecem sobre o conteúdo principal da página, exigindo a interação do usuário antes que ele…"
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Dialog (Caixa de Diálogo ou Modal)

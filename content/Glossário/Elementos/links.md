@@ -1,6 +1,9 @@
 ---
 title: "Links"
-
+description: "Links são usados para navegação, permitindo que os usuários acessem outras páginas, seções da mesma página ou recursos externos."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Links

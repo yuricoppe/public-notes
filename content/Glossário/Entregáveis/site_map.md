@@ -1,6 +1,9 @@
 ---
 title: "site map"
-
+description: "Uma representação visual da organização do conteúdo do seu site."
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Site Map (Mapa do Site)

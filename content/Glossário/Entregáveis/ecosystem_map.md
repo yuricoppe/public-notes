@@ -1,6 +1,9 @@
 ---
 title: "ecosystem map"
-
+description: "Um Ecosystem Map (Mapa de Ecossistema) é uma visualização holística que ilustra todos os diferentes produtos, serviços, plataformas, canais, pontos de contato e, às vezes, até…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Ecosystem Map (Mapa de Ecossistema)

@@ -1,6 +1,9 @@
 ---
 title: "Listas (Lists)"
-
+description: "Listas são usadas para agrupar itens relacionados de forma ordenada (numerada) ou não ordenada (com marcadores)."
+tags:
+  - tema/ui
+  - tipo/glossario
 ---
 
 ## Listas (Lists)

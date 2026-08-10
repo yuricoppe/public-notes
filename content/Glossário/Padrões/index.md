@@ -1,6 +1,9 @@
 ---
 title: "Padrões de UI (UI Patterns)"
-
+description: "Este diretório documenta os Padrões de UI, que são soluções reutilizáveis e comprovadas para problemas comuns de design de interação e experiência do usuário (UX) dentro do portal."
+tags:
+  - tema/ux
+  - tipo/indice
 ---
 
 ## Padrões de UI (UI Patterns)

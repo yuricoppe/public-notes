@@ -1,6 +1,9 @@
 ---
 title: "feasibility desirability viability scorecard"
-
+description: "Um Feasibility, Desirability, and Viability Scorecard (Placar de Praticabilidade, Desejabilidade e Viabilidade) é uma ferramenta de avaliação usada para analisar ideias,…"
+tags:
+  - tema/ux
+  - tipo/glossario
 ---
 
 ## Feasibility, Desirability, and Viability Scorecard (Scorecard de Viabilidade, Desejabilidade e Praticabilidade)
