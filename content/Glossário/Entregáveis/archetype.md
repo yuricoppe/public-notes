@@ -67,7 +67,7 @@ Ambos são ferramentas valiosas e, por vezes, podem ser usados em conjunto. Arqu
 
 ## Referências (NN/g)
 
-*   Artigo Relacionado: [Personas vs. Archetypes](https://www.nngroup.com/articles/personas-vs-archetypes/)
+*   Artigo Relacionado: [Personas vs. Archetypes](https://www.nngroup.com/articles/personas-archetypes/)
 *   Veja também: [[Glossário/Entregáveis/persona|Persona]]
 
 ---

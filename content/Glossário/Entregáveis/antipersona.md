@@ -62,8 +62,8 @@ Similar a uma [[Glossário/Entregáveis/persona|persona]], uma antipersona pode 
 
 ## Referências (NN/g)
 
-*   Artigo Relacionado: [Antipersonas: What, How, Who, and Why?](https://www.nngroup.com/articles/antipersonas/)
-*   Vídeo Relacionado: [Antipersonas in UX](https://www.nngroup.com/videos/antipersonas-ux/)
+*   Artigo Relacionado: [Antipersonas: What, How, Who, and Why?](https://www.nngroup.com/articles/antipersonas-what-how/)
+*   Vídeo Relacionado: [Antipersonas in UX](https://www.nngroup.com/videos/antipersonas/)
 *   Veja também: [[Glossário/Entregáveis/persona|Persona]]
 
 ---

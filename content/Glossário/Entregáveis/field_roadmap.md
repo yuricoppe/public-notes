@@ -61,7 +61,7 @@ Os principais objetivos de um Field Roadmap são:
 
 ## Referências (NN/g)
 
-*   Artigo Relacionado: [3 Types of Roadmaps in UX and Product Design](https://www.nngroup.com/articles/3-types-roadmaps-ux-product-design/)
+*   Artigo Relacionado: [3 Types of Roadmaps in UX and Product Design](https://www.nngroup.com/articles/3-types-roadmaps-ux-product-design/) ⚠️ link fora do ar (verificado em 10 ago 2026)
 *   Vídeo Relacionado: [3 Types of Roadmaps](https://www.nngroup.com/videos/3-types-roadmaps/)
 *   Veja também: Product Roadmap, Specialty Roadmap, [[Glossário/Entregáveis/ux_roadmap|UX Roadmap]] (que é o termo mais geral)
 

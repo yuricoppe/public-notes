@@ -60,5 +60,5 @@ Uma Stakeholder Persona geralmente inclui:
 
 ## Referência Externa
 
-- [UX Stakeholder Engagement 101 (Nielsen Norman Group)](https://www.nngroup.com/articles/ux-stakeholder-engagement/)
-- [UX Stakeholder Engagement 101 (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/stakeholder-engagement/)
+- [UX Stakeholder Engagement 101 (Nielsen Norman Group)](https://www.nngroup.com/articles/stakeholder-engagement/)
+- [UX Stakeholder Engagement 101 (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/ux-stakeholder-engagement-101/)

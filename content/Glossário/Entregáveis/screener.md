@@ -49,5 +49,5 @@ Screeners são essenciais para garantir que os participantes da pesquisa sejam a
 
 ## Referência Externa
 
-- [Recruiting and Screening Candidates for User Research Projects (Nielsen Norman Group)](https://www.nngroup.com/articles/recruiting-and-screening-candidates/)
-- [Screen Your Research Participants to Avoid Bias in User Research (Nielsen Norman Group)](https://www.nngroup.com/videos/screener-research-participants/)
+- [Recruiting and Screening Candidates for User Research Projects (Nielsen Norman Group)](https://www.nngroup.com/articles/recruiting-and-screening-candidates/) ⚠️ link fora do ar (verificado em 10 ago 2026)
+- [Screen Your Research Participants to Avoid Bias in User Research (Nielsen Norman Group)](https://www.nngroup.com/videos/screener-research-participants/) ⚠️ link fora do ar (verificado em 10 ago 2026)

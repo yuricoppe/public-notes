@@ -58,7 +58,7 @@ Um **Asset Map (Mapa de Ativos)** é um método de visualização cronológica e
 
 ## Referências (NN/g)
 
-*   Artigo Relacionado: [Asset Mapping for Experience Consistency](https://www.nngroup.com/articles/asset-mapping-experience-consistency/)
+*   Artigo Relacionado: [Asset Mapping for Experience Consistency](https://www.nngroup.com/articles/asset-mapping/)
 *   Veja também: Journey Map, [[Glossário/Entregáveis/wireflow|Wireflow]]
 
 ---

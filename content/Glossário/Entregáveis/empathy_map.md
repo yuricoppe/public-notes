@@ -90,8 +90,8 @@ Algumas versões do Mapa de Empatia também incluem explicitamente:
 ## Referências (NN/g)
 
 *   Artigo Relacionado: [Empathy Mapping: The First Step in Design Thinking](https://www.nngroup.com/articles/empathy-mapping/)
-*   Artigo Relacionado (sobre tipos de [[Glossário/Componentes/maps|mapas]] de empatia): [When to Use Empathy Maps: 3 Options](https://www.nngroup.com/articles/when-use-empathy-maps/)
-*   Vídeo Relacionado: [Empathy Mapping](https://www.nngroup.com/videos/empathy-mapping/)
+*   Artigo Relacionado (sobre tipos de [[Glossário/Componentes/maps|mapas]] de empatia): [When to Use Empathy Maps: 3 Options](https://www.nngroup.com/articles/using-empathy-maps/)
+*   Vídeo Relacionado: [Empathy Mapping](https://www.nngroup.com/videos/empathy-mapping/) ⚠️ link fora do ar (verificado em 10 ago 2026)
 
 ---
 

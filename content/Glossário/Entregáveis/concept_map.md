@@ -65,8 +65,8 @@ Em UX, os [[Glossário/Componentes/maps|Mapas]] Conceituais são usados para:
 
 ## Referências (NN/g)
 
-*   Artigo Relacionado: [Cognitive Maps, Mind Maps, and Concept Maps: Definitions](https://www.nngroup.com/articles/cognitive-maps-mind-maps-concept-maps/)
-*   Vídeo Relacionado: [3 Powerful Visual Mapping Strategies in UX Design](https://www.nngroup.com/videos/visual-mapping-strategies-ux-design/) (Cobre Mapas Cognitivos, Mapas Mentais e Mapas Conceituais)
+*   Artigo Relacionado: [Cognitive Maps, Mind Maps, and Concept Maps: Definitions](https://www.nngroup.com/articles/cognitive-maps-mind-maps-concept-maps/) ⚠️ link fora do ar (verificado em 10 ago 2026)
+*   Vídeo Relacionado: [3 Powerful Visual Mapping Strategies in UX Design](https://www.nngroup.com/videos/visual-mapping-strategies-ux-design/) (Cobre Mapas Cognitivos, Mapas Mentais e Mapas Conceituais) ⚠️ link fora do ar (verificado em 10 ago 2026)
 *   Veja também: [[Glossário/Entregáveis/cognitive_map|Cognitive Map]], Mind Map.
 
 ---

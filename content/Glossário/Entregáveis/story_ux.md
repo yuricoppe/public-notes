@@ -66,4 +66,4 @@ Uma boa História de UX geralmente inclui:
 ## Referência Externa
 
 - [UX Stories Communicate Designs (Nielsen Norman Group)](https://www.nngroup.com/articles/ux-stories/)
-- [Framing UX Data with Storytelling (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/framing-ux-data-storytelling/)
+- [Framing UX Data with Storytelling (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/framing-ux-data-with-storytelling/)

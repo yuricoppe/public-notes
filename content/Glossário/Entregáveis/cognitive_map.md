@@ -62,7 +62,7 @@ A criação de um mapa cognitivo geralmente envolve:
 ## Referências (NN/g)
 
 *   Artigo Relacionado: [Cognitive Mapping in User Research](https://www.nngroup.com/articles/cognitive-mapping-user-research/)
-*   Vídeo Relacionado: [3 Powerful Visual Mapping Strategies in UX Design](https://www.nngroup.com/videos/visual-mapping-strategies-ux-design/) (Cobre Mapas Cognitivos, Mapas Mentais e Mapas Conceituais)
+*   Vídeo Relacionado: [3 Powerful Visual Mapping Strategies in UX Design](https://www.nngroup.com/videos/visual-mapping-strategies-ux-design/) (Cobre Mapas Cognitivos, Mapas Mentais e Mapas Conceituais) ⚠️ link fora do ar (verificado em 10 ago 2026)
 *   Veja também: [[Glossário/Entregáveis/concept_map|Concept Map]], [[Glossário/Entregáveis/mind_map|Mind Map]], [[Glossário/Entregáveis/affinity_diagram|Affinity Diagram]].
 
 ---

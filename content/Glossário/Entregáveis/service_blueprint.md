@@ -58,6 +58,6 @@ Tradicionalmente, um Service Blueprint é dividido em seções horizontais (swim
 ## Referência Externa
 
 - [Service Blueprints: Definition (Nielsen Norman Group)](https://www.nngroup.com/articles/service-blueprints-definition/)
-- [4 Key Components of Service Blueprints (Nielsen Norman Group)](https://www.nngroup.com/videos/service-blueprint-components/)
+- [4 Key Components of Service Blueprints (Nielsen Norman Group)](https://www.nngroup.com/videos/4-key-components-service-blueprints/)
 - [Template: NN/g_Service Blueprint_Excel Template(XLSX)](https://media.nngroup.com/media/editor/2019/10/11/NNg_Service-Blueprint_Excel-Template.xlsx)
 - [Template: NN/g_Service Blueprint_Apple Numbers Template(NUMBERS)](https://media.nngroup.com/media/editor/2019/10/11/NNg_Service-Blueprint_Apple-Numbers-Template.numbers)

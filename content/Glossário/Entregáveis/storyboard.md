@@ -65,6 +65,6 @@ Eles são particularmente eficazes para explorar e comunicar cenários de intera
 
 ## Referência Externa
 
-- [Storyboards Help Visualize UX Ideas (Nielsen Norman Group)](https://www.nngroup.com/articles/storyboards-visualize-ux-ideas/)
+- [Storyboards Help Visualize UX Ideas (Nielsen Norman Group)](https://www.nngroup.com/articles/storyboards-visualize-ideas/)
 - [How to Create a UX Storyboard (Nielsen Norman Group - Vídeo)](https://www.nngroup.com/videos/ux-storyboard/)
 - [Template: NN/g_Storyboard Template(PDF)](https://media.nngroup.com/media/editor/2019/09/16/NNg_Storyboard-Template.pdf)

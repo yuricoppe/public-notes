@@ -72,7 +72,7 @@ Os principais objetivos de uma auditoria de conteúdo são:
 
 ## Referências (NN/g)
 
-*   Artigo Relacionado: [Content Inventory and Auditing 101](https://www.nngroup.com/articles/content-inventory-auditing/)
+*   Artigo Relacionado: [Content Inventory and Auditing 101](https://www.nngroup.com/articles/content-audits/)
 *   Vídeo Relacionado: [How To: Content Inventory and Audit](https://www.nngroup.com/videos/content-inventory-audit/)
 *   Template: [NN/g Content Inventory and Auditing Excel Template (XLSX)](https://media.nngroup.com/media/editor/2020/03/19/NNg_Content%20Inventory%20and%20Auditing_Excel%20Template.xlsx)
 *   Veja também: [[Glossário/Entregáveis/content_inventory|Content Inventory]]

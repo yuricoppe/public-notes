@@ -62,6 +62,6 @@ O Mapa de Habilidades é uma ferramenta visual que ajuda equipes e indivíduos a
 
 ## Referência Externa
 
-- [Skill Mapping: A Digital Template for Remote Teams (Nielsen Norman Group)](https://www.nngroup.com/articles/skill-mapping-template/)
-- [3 Uses for Skill Mapping in UX Teams (Nielsen Norman Group)](https://www.nngroup.com/videos/skill-mapping-uses/)
+- [Skill Mapping: A Digital Template for Remote Teams (Nielsen Norman Group)](https://www.nngroup.com/articles/skill-mapping-template/) ⚠️ link fora do ar (verificado em 10 ago 2026)
+- [3 Uses for Skill Mapping in UX Teams (Nielsen Norman Group)](https://www.nngroup.com/videos/3-uses-skill-mapping-ux-teams/)
 - [Template: NN/g_Skill Map_Excel Template(XLSX)](https://media.nngroup.com/media/editor/2020/03/30/NNg_Skill-Map_Excel-Template.xlsx)

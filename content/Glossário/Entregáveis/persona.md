@@ -69,7 +69,7 @@ O objetivo principal de criar personas é:
 
 ## Referências (NN/g)
 
-*   Artigo Relacionado: [Personas vs. Archetypes](https://www.nngroup.com/articles/personas-vs-archetypes/)
+*   Artigo Relacionado: [Personas vs. Archetypes](https://www.nngroup.com/articles/personas-archetypes/)
 *   Artigo Relacionado: [3 Persona Types: Lightweight, Qualitative, and Statistical](https://www.nngroup.com/articles/persona-types/)
 *   Vídeo Relacionado: [Statistically-Generated Personas](https://www.nngroup.com/videos/statistically-generated-personas/)
 *   Veja também: Antipersona, Archetype, Proto Persona, Qualitative Persona, Statistical Persona, Stakeholder Persona, [[Glossário/Entregáveis/empathy_map|Empathy Map]]

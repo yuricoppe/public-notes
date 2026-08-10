@@ -56,8 +56,8 @@ Um Analytics Report pode incluir, mas não se limita a:
 
 ## Referências (NN/g)
 
-*   Artigo Relacionado: [Translating UX Goals into Analytics Measurement Plans](https://www.nngroup.com/articles/analytics-ux-goals-measurement-plans/)
-*   Vídeo Relacionado: [Analytics vs. Quantitative Usability Testing](https://www.nngroup.com/videos/analytics-vs-quant-usability/)
+*   Artigo Relacionado: [Translating UX Goals into Analytics Measurement Plans](https://www.nngroup.com/articles/analytics-ux-goals-measurement-plans/) ⚠️ link fora do ar (verificado em 10 ago 2026)
+*   Vídeo Relacionado: [Analytics vs. Quantitative Usability Testing](https://www.nngroup.com/videos/analytics-vs-quant-usability/) ⚠️ link fora do ar (verificado em 10 ago 2026)
 *   Veja também: [[Glossário/Entregáveis/dashboard|Dashboard]], [[Glossário/Entregáveis/usability_report|Usability Report]]
 
 ---
