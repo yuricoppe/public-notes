@@ -7,6 +7,13 @@ tags:
   - tipo/resumo
 ---
 
+> [!warning] Bibliografia não verificável — auditada em 10 ago 2026
+> Das 57 URLs citadas neste documento, **apenas 8 respondem**, e 4 dessas são a homepage de empresas mencionadas por nome, não o artigo citado. As demais dão 404 ou apontam para domínios que **não resolvem em DNS** (`awesomelab.com.br`, `funcionalcorp.com.br`, `felicitar.com.br`, `sodreitop.com.br`, `ibconsultoria.net.br`, `serconplanosdesaude.com.br`, entre outros).
+>
+> Para comparação, a bibliografia de [[Usabilidade, Arquitetura e Psicologia Cognitiva em Fluxos de Agendamento Digitais]] tem 40 links e **zero** 404.
+>
+> Os nomes de empresas e produtos citados no corpo são reais e conferíveis. As **URLs de artigo e os marcadores `[ref:N]` não sustentam o que afirmam** — trate o texto como rascunho não referenciado até revalidar as fontes.
+
 ## Introdução
 
 A integração de pagamentos via plano de saúde em lojas virtuais representa uma importante oportunidade para expandir o acesso a produtos e serviços de saúde, criando uma nova dimensão para o e-commerce neste setor. Como UX/UI Designer Senior, o desafio está em criar uma experiência fluida, segura e transparente, enquanto se navega pelas complexidades tecnológicas e regulatórias específicas deste tipo de transação.
@@ -89,7 +96,7 @@ Segundo dados da ANS, os planos de saúde realizaram 1,93 bilhão de procediment
 - APIs dos PBMs como:
     - [Vidalink](https://www.vidalink.com.br/) [ref:48,49]
     - [ePharma](https://epharma.com.br/) [ref:49]
-    - [Funcional Corp](https://funcionalcorp.com.br/) [ref:49]
+    - [Funcional Corp](https://funcionalcorp.com.br/) [ref:49] ⚠️ inacessível (verificado em 10 ago 2026)
 **Vantagens**:
 - Processo já estabelecido e conhecido por muitos usuários
 - Focado em um nicho específico (medicamentos)
@@ -233,53 +240,53 @@ A escolha da abordagem tecnológica dependerá de fatores como escopo do projeto
 
 ## Referências
 
-1. **[Pagamento de plano de saúde em farmácia | Posso pagar a mensalidade do plano de saúde em farmácia?](https://www.sodreitop.com.br/pagamento-de-plano-de-saude-em-farmacia/)**
+1. **[Pagamento de plano de saúde em farmácia | Posso pagar a mensalidade do plano de saúde em farmácia?](https://www.sodreitop.com.br/pagamento-de-plano-de-saude-em-farmacia/)** ⚠️ inacessível (verificado em 10 ago 2026)
 2. **[Soluções da Getnet: pagamentos para diferentes tipos de negócios | Getnet](https://site.getnet.com.br/solucoes/)**
 3. ⚠️ **Privacidade e proteção de dados na saúde: 6 pontos de atenção** — [https://www.sensedia.com/pt-br/blog/privacidade-e-protecao-de-dados-na-saude/](https://www.sensedia.com/pt-br/blog/privacidade-e-protecao-de-dados-na-saude/) fora do ar (verificado em 10 ago 2026)
 4. ⚠️ **Pagamentos do setor da saúde – Tendências de consumo e mercado** — [https://www.affirm.com/pt-br/blog/pagamentos-do-setor-da-saude-tendencias-de-consumo-e-mercado](https://www.affirm.com/pt-br/blog/pagamentos-do-setor-da-saude-tendencias-de-consumo-e-mercado) fora do ar (verificado em 10 ago 2026)
-5. **Mercado de planos de saúde no Brasil: Desafios e oportunidades** - [https://felicitar.com.br/blog/mercado-de-planos-de-saude-no-brasil-desafios-e-oportunidades/](https://felicitar.com.br/blog/mercado-de-plano-de-saude-no-brasil-desafios-e-oportunidades/)
+5. **Mercado de planos de saúde no Brasil: Desafios e oportunidades** - [https://felicitar.com.br/blog/mercado-de-planos-de-saude-no-brasil-desafios-e-oportunidades/](https://felicitar.com.br/blog/mercado-de-plano-de-saude-no-brasil-desafios-e-oportunidades/) ⚠️ inacessível (verificado em 10 ago 2026)
 6. ⚠️ **Como funciona um sistema de pagamento online | Nuvemshop** — [https://www.nuvemshop.com.br/blog/como-funciona-sistema-pagamento-online/](https://www.nuvemshop.com.br/blog/como-funciona-sistema-pagamento-online/) fora do ar (verificado em 10 ago 2026)
 7. ⚠️ **Plano de Saúde – O que é e para que serve?** — [https://www.saudeid.com.br/blog/plano-de-saude-o-que-e-e-para-que-serve/](https://www.saudeid.com.br/blog/plano-de-saude-o-que-e-e-para-que-serve/) fora do ar (verificado em 10 ago 2026)
 8. **[Formas de pagamento para e-commerce: confira as 5 principais!](https://blog.vindi.com.br/meios-de-pagamento-para-e-commerce/)** ⚠️ link fora do ar (verificado em 10 ago 2026)
 9. ⚠️ **O que é sistema de pagamento online e como escolher um | PayPal** — [https://www.paypal.com/br/business/resources/sistema-de-pagamento-online](https://www.paypal.com/br/business/resources/sistema-de-pagamento-online) fora do ar (verificado em 10 ago 2026)
 10. ⚠️ **Pagamento online: o que é, como funciona e qual escolher?** — [https://www.sumup.com.br/blog/pagamento-online/](https://www.sumup.com.br/blog/pagamento-online/) fora do ar (verificado em 10 ago 2026)
-11. **[Tecnologia na saúde: quais são as tendências no mercado?](https://www.ibconsultoria.net.br/tecnologia-na-saude-quais-sao-as-tendencias-no-mercado/)**
+11. **[Tecnologia na saúde: quais são as tendências no mercado?](https://www.ibconsultoria.net.br/tecnologia-na-saude-quais-sao-as-tendencias-no-mercado/)** ⚠️ inacessível (verificado em 10 ago 2026)
 12. ⚠️ **O que é um sistema de pagamento online?** — [https://www.locaweb.com.br/blog/o-que-e-um-sistema-de-pagamento-online/](https://www.locaweb.com.br/blog/o-que-e-um-sistema-de-pagamento-online/) fora do ar (verificado em 10 ago 2026)
 13. ⚠️ **Pagamento Online - Tudo Sobre Meios de Pagamento Online - NFE.io** — [https://nfe.io/blog/pagamento-online/](https://nfe.io/blog/pagamento-online/) fora do ar (verificado em 10 ago 2026)
 14. ⚠️ **Sistema de Pagamento Online: O que é, Como Funciona e Vantagens** — [https://www.siteware.com.br/blog/tendencias-tecnologicas/sistema-de-pagamento-online/](https://www.siteware.com.br/blog/tendencias-tecnologicas/sistema-de-pagamento-online/) fora do ar (verificado em 10 ago 2026)
-15. **[Open Health: o que é e como funciona essa tecnologia na saúde?](https://blog.drgbrasil.com.br/open-health/)**
-16. **[Open Health: o que é e por que sua operadora deve ficar de olho](https://blog.soluti.com.br/open-health-o-que-e-e-por-que-sua-operadora-deve-ficar-de-olho/)**
-17. **[O que é Open Health? O próximo passo do Open Finance na saúde](https://www.conexa.com.br/blog/open-health/)**
+15. **[Open Health: o que é e como funciona essa tecnologia na saúde?](https://blog.drgbrasil.com.br/open-health/)** ⚠️ inacessível (verificado em 10 ago 2026)
+16. **[Open Health: o que é e por que sua operadora deve ficar de olho](https://blog.soluti.com.br/open-health-o-que-e-e-por-que-sua-operadora-deve-ficar-de-olho/)** ⚠️ inacessível (verificado em 10 ago 2026)
+17. **[O que é Open Health? O próximo passo do Open Finance na saúde](https://www.conexa.com.br/blog/open-health/)** ⚠️ inacessível (verificado em 10 ago 2026)
 18. ⚠️ **Open Health e APIs no setor de saúde: Entenda os impactos no mercado** — [https://www.sensedia.com/pt-br/blog/open-health-apis-no-setor-de-saude-e-os-impactos-no-mercado/](https://www.sensedia.com/pt-br/blog/open-health-apis-no-setor-de-saude-e-os-impactos-no-mercado/) fora do ar (verificado em 10 ago 2026)
 19. ⚠️ **CM Connect: Conectando prestadores de saúde a operadoras** — [https://cmconnect.com.br/o-que-e-o-cm-connect/](https://cmconnect.com.br/o-que-e-o-cm-connect/) fora do ar (verificado em 10 ago 2026)
-20. **[A Importância da LGPD para o setor da saúde - Implanta IT](https://implanta.com.br/a-importancia-da-lgpd-para-o-setor-da-saude/)**
+20. **[A Importância da LGPD para o setor da saúde - Implanta IT](https://implanta.com.br/a-importancia-da-lgpd-para-o-setor-da-saude/)** ⚠️ inacessível (verificado em 10 ago 2026)
 21. ⚠️ **Healthtechs no Brasil: panorama e tendências de mercado** — [https://www.pwc.com.br/pt/setores-de-negocio/saude/assets/healthtechs-no-brasil.pdf](https://www.pwc.com.br/pt/setores-de-negocio/saude/assets/healthtechs-no-brasil.pdf) fora do ar (verificado em 10 ago 2026)
-22. **[Inovação no mercado de saúde: entenda o que está por vir!](https://www.ibconsultoria.net.br/inovacao-no-mercado-de-saude-entenda-o-que-esta-por-vir/)**
+22. **[Inovação no mercado de saúde: entenda o que está por vir!](https://www.ibconsultoria.net.br/inovacao-no-mercado-de-saude-entenda-o-que-esta-por-vir/)** ⚠️ inacessível (verificado em 10 ago 2026)
 23. ⚠️ **Saúde em 2030: Operadoras traçam o futuro do setor** — [https://www.pwc.com.br/pt/setores-de-negocio/saude/assets/saude-em-2030-operadoras-tracam-o-futuro-do-setor.pdf](https://www.pwc.com.br/pt/setores-de-negocio/saude/assets/saude-em-2030-operadoras-tracam-o-futuro-do-setor.pdf) fora do ar (verificado em 10 ago 2026)
-24. **[TISS: tudo que você precisa saber sobre o padrão da ANS!](https://blog.drgbrasil.com.br/tiss/)**
+24. **[TISS: tudo que você precisa saber sobre o padrão da ANS!](https://blog.drgbrasil.com.br/tiss/)** ⚠️ inacessível (verificado em 10 ago 2026)
 25. ⚠️ **Pagamento com Pix no e-commerce: como funciona e quais as vantagens** — [https://www.ecommercebrasil.com.br/artigos/pagamento-com-pix-no-e-commerce](https://www.ecommercebrasil.com.br/artigos/pagamento-com-pix-no-e-commerce) fora do ar (verificado em 10 ago 2026)
 26. **[Funcional Health Tech e 4Health: tecnologia que impulsiona o acesso à saúde.](https://funcionalhealthtech.com.br/noticias/funcional-health-tech-e-4health-tecnologia-que-impulsiona-o-acesso-a-saude/)** ⚠️ link fora do ar (verificado em 10 ago 2026)
 27. ⚠️ **O que é BNPL? Entenda como funciona o compre agora, pague depois** — [https://www.celcoin.com.br/blog/bnpl-buy-now-pay-later](https://www.celcoin.com.br/blog/bnpl-buy-now-pay-later) fora do ar (verificado em 10 ago 2026)
-28. **[Como funciona a coparticipação em planos de saúde? - Sercon](https://serconplanosdesaude.com.br/noticia/como-funciona-a-coparticipacao-em-planos-de-saude/)**
-29. **[Regulamentação e fiscalização dos planos de saúde no Brasil](https://blog.docway.com.br/regulamentacao-e-fiscalizacao-dos-planos-de-saude-no-brasil/)**
+28. **[Como funciona a coparticipação em planos de saúde? - Sercon](https://serconplanosdesaude.com.br/noticia/como-funciona-a-coparticipacao-em-planos-de-saude/)** ⚠️ inacessível (verificado em 10 ago 2026)
+29. **[Regulamentação e fiscalização dos planos de saúde no Brasil](https://blog.docway.com.br/regulamentacao-e-fiscalizacao-dos-planos-de-saude-no-brasil/)** ⚠️ inacessível (verificado em 10 ago 2026)
 30. **[Pagamento online: o que é, como funciona e quais as opções disponíveis?](https://www.stone.com.br/blog/pagamento-online/)**
-31. **[API de pagamentos: entenda o que é e como funciona](https://www.efipay.com.br/blog/api-de-pagamentos/)**
+31. **[API de pagamentos: entenda o que é e como funciona](https://www.efipay.com.br/blog/api-de-pagamentos/)** ⚠️ inacessível (verificado em 10 ago 2026)
 32. ⚠️ **Meios de Pagamento Online: Quais são os principais para e-commerce?** — [https://blog.cielo.com.br/meios-de-pagamento-online/](https://blog.cielo.com.br/meios-de-pagamento-online/) fora do ar (verificado em 10 ago 2026)
 33. ⚠️ **O que é UX e UI design? - Serasa Experian** — [https://www.serasaexperian.com.br/blog/o-que-e-ux-e-ui-design/](https://www.serasaexperian.com.br/blog/o-que-e-ux-e-ui-design/) fora do ar (verificado em 10 ago 2026)
 34. ⚠️ **Meios de pagamento online para e-commerce: confira os mais usados!** — [https://www.eduzz.com/blog/meios-de-pagamento-online-para-e-commerce/](https://www.eduzz.com/blog/meios-de-pagamento-online-para-e-commerce/) fora do ar (verificado em 10 ago 2026)
-35. **[Como funciona a LGPD para clínicas e consultórios médicos?](https://www.feegow.com.br/blog/lgpd-para-clinicas/)**
+35. **[Como funciona a LGPD para clínicas e consultórios médicos?](https://www.feegow.com.br/blog/lgpd-para-clinicas/)** ⚠️ inacessível (verificado em 10 ago 2026)
 36. ⚠️ **Tecnologia na saúde: a transformação digital do setor - FIAP** — [https://www.fiap.com.br/noticias/tecnologia-na-saude-a-transformacao-digital-do-setor/](https://www.fiap.com.br/noticias/tecnologia-na-saude-a-transformacao-digital-do-setor/) fora do ar (verificado em 10 ago 2026)
 37. ⚠️ **TISS: tudo o que você precisa saber sobre o padrão da ANS!** — [https://www.unimed.coop.br/web/belemdopara/imprensa/noticias/tiss-tudo-o-que-voce-precisa-saber-sobre-o-padrao-da-ans](https://www.unimed.coop.br/web/belemdopara/imprensa/noticias/tiss-tudo-o-que-voce-precisa-saber-sobre-o-padrao-da-ans) fora do ar (verificado em 10 ago 2026)
 38. ⚠️ **APIs no setor da saúde: como impactam a experiência do paciente** — [https://www.sensedia.com/pt-br/blog/apis-setor-saude-experiencia-paciente/](https://www.sensedia.com/pt-br/blog/apis-setor-saude-experiencia-paciente/) fora do ar (verificado em 10 ago 2026)
 39. **[Fraudes em pagamentos on-line na saúde: como evitar e se proteger?](https://www.grupocard.com.br/fraudes-em-pagamentos-on-line-na-saude-como-evitar-e-se-proteger/)**
 40. **O impacto da transformação digital no setor de saúde - KPMG Brasil**
 41. **[O que é UX e UI: as diferenças e como elas se complementam - Vindi](https://vindi.com.br/blog/o-que-e-ux-e-ui/)**
-42. **[Meios de pagamento online para e-commerce: o que são e quais usar?](https://blog.awesomelab.com.br/meios-de-pagamento-online-para-e-commerce/)**
+42. **[Meios de pagamento online para e-commerce: o que são e quais usar?](https://blog.awesomelab.com.br/meios-de-pagamento-online-para-e-commerce/)** ⚠️ inacessível (verificado em 10 ago 2026)
 43. ⚠️ **5 tendências de pagamento no e-commerce para 2024 - NFE.io** — [https://nfe.io/blog/tendencias-de-pagamento-no-e-commerce/](https://nfe.io/blog/tendencias-de-pagamento-no-e-commerce/) fora do ar (verificado em 10 ago 2026)
 44. ⚠️ **Aplicativo Receita Saúde recebe atualização e novas funcionalidades** — [https://www.gov.br/saude/pt-br/assuntos/noticias/2023/maio/receita-saude-recebe-atualizacao-e-novas-funcionalidades](https://www.gov.br/saude/pt-br/assuntos/noticias/2023/maio/receita-saude-recebe-atualizacao-e-novas-funcionalidades) fora do ar (verificado em 10 ago 2026)
 45. ⚠️ **Planos de saúde: número de beneficiários aumenta em 2023** — [https://www.gov.br/saude/pt-br/assuntos/noticias/2024/fevereiro/planos-de-saude-numero-de-beneficiarios-aumenta-em-2023](https://www.gov.br/saude/pt-br/assuntos/noticias/2024/fevereiro/planos-de-saude-numero-de-beneficiarios-aumenta-em-2023) fora do ar (verificado em 10 ago 2026)
 46. ⚠️ **Transformação digital na saúde: o que é e como funciona** — [https://telemedicina.com.br/transformacao-digital-na-saude/](https://telemedicina.com.br/transformacao-digital-na-saude/) fora do ar (verificado em 10 ago 2026)
 47. **[Parceiros que nos confiam a saúde de seus beneficiários - Funcional Health Tech](https://funcionalhealthtech.com.br/parceiros/)** ⚠️ link fora do ar (verificado em 10 ago 2026)
-48. **[Vidalink: PBM para planos de saúde e como funciona - Guia do Ex-Negativado](https://exnegativado.com/vidalink/)**
+48. **[Vidalink: PBM para planos de saúde e como funciona - Guia do Ex-Negativado](https://exnegativado.com/vidalink/)** ⚠️ inacessível (verificado em 10 ago 2026)
 49. ⚠️ **PBM: o que é e como funciona o programa de benefícios em medicamentos** — [https://blog.bencorp.com.br/pbm-o-que-e-e-como-funciona-o-programa-de-beneficios-em-medicamentos/](https://blog.bencorp.com.br/pbm-o-que-e-e-como-funciona-o-programa-de-beneficios-em-medicamentos/) fora do ar (verificado em 10 ago 2026)
 50. ⚠️ **Quais as principais tendências de inovação em saúde em 2024?** — [https://www.sensedia.com/pt-br/blog/quais-as-principais-tendencias-de-inovacao-em-saude-em-2024/](https://www.sensedia.com/pt-br/blog/quais-as-principais-tendencias-de-inovacao-em-saude-em-2024/) fora do ar (verificado em 10 ago 2026)

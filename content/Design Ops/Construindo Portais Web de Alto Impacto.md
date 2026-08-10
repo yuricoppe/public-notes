@@ -6,6 +6,9 @@ tags:
   - tipo/resumo
 ---
 
+> [!note] Sem fontes verificáveis — auditado em 10 ago 2026
+> Este documento tem 3.770 palavras e **nenhum link externo**, mas atribui afirmações a fontes nomeadas: o relatório "State of UX in 2024" do UX Collective, "JMarketing e Miquido", o Nielsen Norman Group. Sem URL não dá para conferir nenhuma delas, nem os números citados. Trate como rascunho até anexar as fontes.
+
 ### **1. Introdução: A Complexidade dos Portais Modernos**
 
 - **O Cenário UX em 2024/2025:** O UX Collective, em seu relatório "State of UX in 2024", aponta para uma fase de "late-stage UX" caracterizada por:
