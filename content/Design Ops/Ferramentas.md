@@ -43,7 +43,7 @@ Aqui está uma lista atualizada de ferramentas utilizadas nos processos de UX De
 - **Validately:** Plataforma para realizar testes de usabilidade remotos, com recursos para recrutar usuários, gravar as sessões e analisar os resultados. [Link para Validately](https://www.validately.com/) - Preços: Startup (US\$89/mês), Growth (US\$199/mês), Enterprise (Personalizado).
 - **Lookback:** Ferramenta para realizar testes de usabilidade presenciais e remotos, com recursos para gravar as sessões, coletar feedback e colaborar com a equipe. [Link para Lookback](https://lookback.io/) - Preços: Starter (US\$25/mês), Team (US\$79/mês), Company (US\$349/mês).
 - **Maze:** Plataforma para testar protótipos e designs com usuários reais, coletando dados quantitativos e qualitativos sobre a usabilidade das interfaces. [Link para Maze](https://maze.co/) - Preços: Gratuito, Starter (US\$99/mês), Team (US\$499/mês).
-- **TryMyUI:** Plataforma para testes de usabilidade remotos com foco em vídeo feedback. [Link para TryMyUI](https://www.trymyui.com/) - Preços: Plano Personalizado.
+- **TryMyUI:** Plataforma para testes de usabilidade remotos com foco em vídeo feedback. [Link para TryMyUI](https://www.trymyui.com/) - Preços: Plano Personalizado. ⚠️ link fora do ar (verificado em 10 ago 2026)
 - **UserZoom:** Plataforma para testes de UX e coleta de feedback dos usuários em larga escala. [Link para UserZoom](https://www.userzoom.com/) - Preços: Plano Personalizado.
 
 ### 5. Colaboração e Comunicação:
@@ -100,10 +100,10 @@ Aqui está uma lista atualizada de ferramentas utilizadas nos processos de UX De
 
 - **Specify:** Plataforma para centralizar e distribuir design tokens, garantindo a consistência visual em diferentes plataformas e ferramentas. [Link para Specify](https://specifyapp.com/) - Preços: Plano Personalizado.
 - **Superposition:** Ferramenta para visualizar e gerenciar design tokens. [Link para Superposition](https://superposition.design/) - Preço: Gratuito.
-- **Style Dictionary:** Framework da Amazon para criar e gerenciar design tokens. [Link para Style Dictionary](https://amzn.github.io/style-dictionary/#/) - Preço: Gratuito.
+- **Style Dictionary:** Framework da Amazon para criar e gerenciar design tokens. [Link para Style Dictionary](https://styledictionary.com/) - Preço: Gratuito.
 - **Theo:** Ferramenta da Salesforce para transformar e formatar design tokens. [Link para Theo](https://github.com/salesforce-ux/theo) - Preço: Gratuito.
 - **Tokens Studio:** Plugin para Figma que permite criar e gerenciar design tokens. [Link para Tokens Studio](https://www.tokens.studio/) - Preços: Plano Personalizado.
-- **Clarity:** Ferramenta para gerenciamento de design tokens com integração com Figma. [Link para Clarity](https://www.braveux.com/clarity) - Preços: Gratuito.
+- **Clarity:** Ferramenta para gerenciamento de design tokens com integração com Figma. [Link para Clarity](https://www.braveux.com/clarity) - Preços: Gratuito. ⚠️ link fora do ar (verificado em 10 ago 2026)
 
 ### 11. Automação:
 

@@ -67,8 +67,8 @@ Segundo dados da ANS, os planos de saúde realizaram 1,93 bilhão de procediment
 - APIs fornecidas pelo hub de integração
 - Exemplos de empresas que oferecem estas soluções:
     - [Funcional Health Tech](https://funcionalhealthtech.com.br/) [ref:26,47,49]
-    - [Sensedia](https://sensedia.com/pt-br/blog/open-health-apis-no-setor-de-saude-e-os-impactos-no-mercado/) (oferece integração para ecossistema de saúde) [ref:18]
-    - [CM Connect](https://cmconnect.com.br/o-que-e-o-cm-connect/) (conecta prestadores de saúde a operadoras) [ref:19]
+    - [Sensedia](https://sensedia.com/pt-br/blog/open-health-apis-no-setor-de-saude-e-os-impactos-no-mercado/) (oferece integração para ecossistema de saúde) [ref:18] ⚠️ link fora do ar (verificado em 10 ago 2026)
+    - [CM Connect](https://cmconnect.com.br/o-que-e-o-cm-connect/) (conecta prestadores de saúde a operadoras) [ref:19] ⚠️ link fora do ar (verificado em 10 ago 2026)
 **Vantagens**:
 - Redução da complexidade de integração
 - Acesso a múltiplas operadoras através de uma única API
@@ -221,7 +221,7 @@ Segundo dados da ANS, os planos de saúde realizaram 1,93 bilhão de procediment
 
 1. **Digitalização acelerada**: Intensificação da transformação digital no setor de saúde [ref:40,46]
 2. **Combate a fraudes**: Desenvolvimento de soluções para garantir segurança e transparência nas transações [ref:39]
-3. **Expansão do acesso digital**: Iniciativas governamentais como o aplicativo [Receita Saúde](https://www.gov.br/saude/pt-br/assuntos/noticias/2023/maio/receita-saude-recebe-atualizacao-e-novas-funcionalidades) [ref:44]
+3. **Expansão do acesso digital**: Iniciativas governamentais como o aplicativo [Receita Saúde](https://www.gov.br/saude/pt-br/assuntos/noticias/2023/maio/receita-saude-recebe-atualizacao-e-novas-funcionalidades) [ref:44] ⚠️ link fora do ar (verificado em 10 ago 2026)
 4. **Healthtechs**: Crescimento de startups focadas em soluções para o setor de saúde [ref:21,23]
 5. **Maior integração entre operadoras tradicionais e soluções digitais**: Operadoras de saúde tradicionais adotando tecnologias inspiradas em healthtechs [ref:23]
 
@@ -240,7 +240,7 @@ A escolha da abordagem tecnológica dependerá de fatores como escopo do projeto
 5. **Mercado de planos de saúde no Brasil: Desafios e oportunidades** - [https://felicitar.com.br/blog/mercado-de-planos-de-saude-no-brasil-desafios-e-oportunidades/](https://felicitar.com.br/blog/mercado-de-plano-de-saude-no-brasil-desafios-e-oportunidades/)
 6. ⚠️ **Como funciona um sistema de pagamento online | Nuvemshop** — [https://www.nuvemshop.com.br/blog/como-funciona-sistema-pagamento-online/](https://www.nuvemshop.com.br/blog/como-funciona-sistema-pagamento-online/) fora do ar (verificado em 10 ago 2026)
 7. ⚠️ **Plano de Saúde – O que é e para que serve?** — [https://www.saudeid.com.br/blog/plano-de-saude-o-que-e-e-para-que-serve/](https://www.saudeid.com.br/blog/plano-de-saude-o-que-e-e-para-que-serve/) fora do ar (verificado em 10 ago 2026)
-8. **[Formas de pagamento para e-commerce: confira as 5 principais!](https://blog.vindi.com.br/meios-de-pagamento-para-e-commerce/)**
+8. **[Formas de pagamento para e-commerce: confira as 5 principais!](https://blog.vindi.com.br/meios-de-pagamento-para-e-commerce/)** ⚠️ link fora do ar (verificado em 10 ago 2026)
 9. ⚠️ **O que é sistema de pagamento online e como escolher um | PayPal** — [https://www.paypal.com/br/business/resources/sistema-de-pagamento-online](https://www.paypal.com/br/business/resources/sistema-de-pagamento-online) fora do ar (verificado em 10 ago 2026)
 10. ⚠️ **Pagamento online: o que é, como funciona e qual escolher?** — [https://www.sumup.com.br/blog/pagamento-online/](https://www.sumup.com.br/blog/pagamento-online/) fora do ar (verificado em 10 ago 2026)
 11. **[Tecnologia na saúde: quais são as tendências no mercado?](https://www.ibconsultoria.net.br/tecnologia-na-saude-quais-sao-as-tendencias-no-mercado/)**
@@ -258,7 +258,7 @@ A escolha da abordagem tecnológica dependerá de fatores como escopo do projeto
 23. ⚠️ **Saúde em 2030: Operadoras traçam o futuro do setor** — [https://www.pwc.com.br/pt/setores-de-negocio/saude/assets/saude-em-2030-operadoras-tracam-o-futuro-do-setor.pdf](https://www.pwc.com.br/pt/setores-de-negocio/saude/assets/saude-em-2030-operadoras-tracam-o-futuro-do-setor.pdf) fora do ar (verificado em 10 ago 2026)
 24. **[TISS: tudo que você precisa saber sobre o padrão da ANS!](https://blog.drgbrasil.com.br/tiss/)**
 25. ⚠️ **Pagamento com Pix no e-commerce: como funciona e quais as vantagens** — [https://www.ecommercebrasil.com.br/artigos/pagamento-com-pix-no-e-commerce](https://www.ecommercebrasil.com.br/artigos/pagamento-com-pix-no-e-commerce) fora do ar (verificado em 10 ago 2026)
-26. **[Funcional Health Tech e 4Health: tecnologia que impulsiona o acesso à saúde.](https://funcionalhealthtech.com.br/noticias/funcional-health-tech-e-4health-tecnologia-que-impulsiona-o-acesso-a-saude/)**
+26. **[Funcional Health Tech e 4Health: tecnologia que impulsiona o acesso à saúde.](https://funcionalhealthtech.com.br/noticias/funcional-health-tech-e-4health-tecnologia-que-impulsiona-o-acesso-a-saude/)** ⚠️ link fora do ar (verificado em 10 ago 2026)
 27. ⚠️ **O que é BNPL? Entenda como funciona o compre agora, pague depois** — [https://www.celcoin.com.br/blog/bnpl-buy-now-pay-later](https://www.celcoin.com.br/blog/bnpl-buy-now-pay-later) fora do ar (verificado em 10 ago 2026)
 28. **[Como funciona a coparticipação em planos de saúde? - Sercon](https://serconplanosdesaude.com.br/noticia/como-funciona-a-coparticipacao-em-planos-de-saude/)**
 29. **[Regulamentação e fiscalização dos planos de saúde no Brasil](https://blog.docway.com.br/regulamentacao-e-fiscalizacao-dos-planos-de-saude-no-brasil/)**
@@ -279,7 +279,7 @@ A escolha da abordagem tecnológica dependerá de fatores como escopo do projeto
 44. ⚠️ **Aplicativo Receita Saúde recebe atualização e novas funcionalidades** — [https://www.gov.br/saude/pt-br/assuntos/noticias/2023/maio/receita-saude-recebe-atualizacao-e-novas-funcionalidades](https://www.gov.br/saude/pt-br/assuntos/noticias/2023/maio/receita-saude-recebe-atualizacao-e-novas-funcionalidades) fora do ar (verificado em 10 ago 2026)
 45. ⚠️ **Planos de saúde: número de beneficiários aumenta em 2023** — [https://www.gov.br/saude/pt-br/assuntos/noticias/2024/fevereiro/planos-de-saude-numero-de-beneficiarios-aumenta-em-2023](https://www.gov.br/saude/pt-br/assuntos/noticias/2024/fevereiro/planos-de-saude-numero-de-beneficiarios-aumenta-em-2023) fora do ar (verificado em 10 ago 2026)
 46. ⚠️ **Transformação digital na saúde: o que é e como funciona** — [https://telemedicina.com.br/transformacao-digital-na-saude/](https://telemedicina.com.br/transformacao-digital-na-saude/) fora do ar (verificado em 10 ago 2026)
-47. **[Parceiros que nos confiam a saúde de seus beneficiários - Funcional Health Tech](https://funcionalhealthtech.com.br/parceiros/)**
+47. **[Parceiros que nos confiam a saúde de seus beneficiários - Funcional Health Tech](https://funcionalhealthtech.com.br/parceiros/)** ⚠️ link fora do ar (verificado em 10 ago 2026)
 48. **[Vidalink: PBM para planos de saúde e como funciona - Guia do Ex-Negativado](https://exnegativado.com/vidalink/)**
 49. ⚠️ **PBM: o que é e como funciona o programa de benefícios em medicamentos** — [https://blog.bencorp.com.br/pbm-o-que-e-e-como-funciona-o-programa-de-beneficios-em-medicamentos/](https://blog.bencorp.com.br/pbm-o-que-e-e-como-funciona-o-programa-de-beneficios-em-medicamentos/) fora do ar (verificado em 10 ago 2026)
 50. ⚠️ **Quais as principais tendências de inovação em saúde em 2024?** — [https://www.sensedia.com/pt-br/blog/quais-as-principais-tendencias-de-inovacao-em-saude-em-2024/](https://www.sensedia.com/pt-br/blog/quais-as-principais-tendencias-de-inovacao-em-saude-em-2024/) fora do ar (verificado em 10 ago 2026)

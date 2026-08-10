@@ -167,7 +167,6 @@ Não usar a busca como uma solução para problemas de navegação ruim é cruci
 
 Imagine fazer login e ver imediatamente o que está em alta no momento. As buscas por tendências não só ajudam os usuários a descobrir conteúdo popular, como também criam um senso de comunidade, mostrando o que os outros estão interagindo. Quando os usuários veem uma lista de tópicos em alta, isso desperta sua curiosidade, convidando-os a aderir à onda ou explorar novas áreas de interesse.
 
-[![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXclF1-96aczSUnaPNLUsBoG5t298MKOv1Uck9U-5XcU7B9i-eAgDQkLI1cM3C9bnNuXjEaRYBBC9-VpRCIw2IbpWamEbvrJZx9bdu5JScfMBhpl6jzaGi8lQCQgJF2ov1qqjnq-ScyKzbmEDDk_pg3pJdw?key=FvmSL26F8YEgCNIpipQpBg)](https://lh7-rt.googleusercontent.com/docsz/AD_4nXclF1-96aczSUnaPNLUsBoG5t298MKOv1Uck9U-5XcU7B9i-eAgDQkLI1cM3C9bnNuXjEaRYBBC9-VpRCIw2IbpWamEbvrJZx9bdu5JScfMBhpl6jzaGi8lQCQgJF2ov1qqjnq-ScyKzbmEDDk_pg3pJdw?key=FvmSL26F8YEgCNIpipQpBg)
 
 ---
 
@@ -175,7 +174,6 @@ Imagine fazer login e ver imediatamente o que está em alta no momento. As busca
 
 Quando os usuários digitam algo e não obtêm “nenhum resultado”, oferecer sugestões alternativas pode melhorar muito a experiência deles. Uma abordagem é ter um banco de palavras e frases com erros ortográficos comuns e sugerir de forma inteligente o que eles podem estar tentando encontrar. Você também pode usar um sistema de recomendação de conteúdo personalizado que analisa as interações, preferências e comportamentos anteriores do usuário.
 
-[![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXclwwNs0kcOPZ4QqI1n37nMxCshu7KkfUi4-NbY765YereZXc4IHNv1GwEE5nCRT1j_agdqtSNwzlzEwZkR9hTzjTcOgEFQYOdMolkCBS6g2OG5NDk5spwOR3uI0f9jMQHk6pX_J_zjShNHn-O8vskMz8da?key=FvmSL26F8YEgCNIpipQpBg)](https://lh7-rt.googleusercontent.com/docsz/AD_4nXclwwNs0kcOPZ4QqI1n37nMxCshu7KkfUi4-NbY765YereZXc4IHNv1GwEE5nCRT1j_agdqtSNwzlzEwZkR9hTzjTcOgEFQYOdMolkCBS6g2OG5NDk5spwOR3uI0f9jMQHk6pX_J_zjShNHn-O8vskMz8da?key=FvmSL26F8YEgCNIpipQpBg)
 
 Ao entender com o que os usuários se envolveram anteriormente, você pode recomendar conteúdo relacionado que reflita os interesses deles, aumentando a probabilidade de exploração contínua.
 Também é uma boa ideia categorizar o conteúdo em grupos temáticos. Se a busca por "sobremesa vegana" não retornar resultados, considere sugerir uma categoria geral, como "receitas veganas" ou "sobremesas do mundo todo". Esse método amplia o escopo de conteúdo potencial, mas também incentiva os usuários a explorar categorias que talvez não tivessem considerado inicialmente.
