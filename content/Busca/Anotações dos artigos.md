@@ -5,6 +5,8 @@ tags:
   - tema/ux
   - dominio/busca
   - tipo/nota
+aliases:
+  - "Busca/Anotações dos artigos/Anotações dos artigos"
 ---
 
 **Fonte: [Search: Visible and Simple](https://www.nngroup.com/articles/search-visible-and-simple/)** · Nielsen Norman Group

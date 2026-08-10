@@ -5,6 +5,9 @@ tags:
   - tema/ux
   - dominio/saude
   - tipo/links
+aliases:
+  - "UX Healthcare/UX Login e Cadastro/Lista de artigos"
+  - "UX Healthcare/UX Login e Cadastro/UX Login e Cadastro"
 ---
 
 ## [nngroup.com](http://nngroup.com/)

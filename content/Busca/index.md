@@ -5,6 +5,8 @@ tags:
   - tema/ux
   - dominio/busca
   - tipo/indice
+aliases:
+  - "Busca/📌 Resumo dos Artigos Analisados"
 ---
 
 [[Anotações dos artigos]]

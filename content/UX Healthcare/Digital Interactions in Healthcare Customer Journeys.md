@@ -5,6 +5,8 @@ tags:
   - tema/ux
   - dominio/saude
   - tipo/nota
+aliases:
+  - "UX Healthcare/🔗 link — Digital Interactions in Healthcare Customer Journeys"
 ---
 
 [![](https://media.nngroup.com/media/articles/opengraph_images/DigitalHealthcare_69.jpg)](https://media.nngroup.com/media/articles/opengraph_images/DigitalHealthcare_69.jpg)
