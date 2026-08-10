@@ -17,7 +17,7 @@ tags:
 
     Analisa a baixa interação dos usuários com sugestões de busca enriquecidas e propõe diretrizes para sua implementação eficaz.
 
-3. **[Search Articles, Videos, Reports, and Training Courses](https://www.nngroup.com/topic/search/)**
+3. **[Search — índice do tópico](https://www.nngroup.com/topic/search/)**
 
     Organiza informações sobre atividades online de busca, explorando as dimensões de propósito, método, conteúdo e social.
 
@@ -41,7 +41,7 @@ tags:
 
     Apresenta áreas de design e processos para aprimorar a experiência de busca em intranets.
 
-9. **[How Search Engines Shape Gaze Patterns During ...](https://www.nngroup.com/articles/google-baidu-serp-comparison/)**
+9. **[How Search Engines Shape Gaze Patterns During Information Seeking: Google vs. Baidu](https://www.nngroup.com/articles/google-baidu-serp-comparison/)**
 
     Investiga como o design de motores de busca altera os padrões de olhar dos usuários nas páginas de resultados de busca.
 
