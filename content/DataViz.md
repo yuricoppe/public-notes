@@ -1,6 +1,9 @@
 ---
 title: "DataViz"
-
+description: "Artigos e referências de visualização de dados, incluindo tabelas em mobile"
+tags:
+  - tema/dataviz
+  - tipo/links
 ---
 
 ## Artigos

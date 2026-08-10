@@ -1,3 +1,13 @@
+---
+title: "Checkout"
+description: "Links sobre design de checkout, redução de fricção e abandono de carrinho"
+tags:
+  - tema/ux
+  - dominio/pagamento
+  - dominio/ecommerce
+  - tipo/links
+---
+
 ## Artigos
 https://www.smashingmagazine.com/2009/05/12-tips-for-designing-an-excellent-checkout-process/
 https://www.smashingmagazine.com/2013/12/e-commerce-websites-showcase/

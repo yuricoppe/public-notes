@@ -1,3 +1,11 @@
+---
+title: "IA e Automação"
+description: "Resumo sobre automação no checkout: carteiras digitais, geolocalização e OCR de documentos"
+tags:
+  - tema/ia
+  - dominio/pagamento
+  - tipo/resumo
+---
 
 ### 1. A Morte da Entrada Manual de Dados
 

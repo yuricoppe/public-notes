@@ -1,6 +1,10 @@
 ---
 title: "Gen UI"
-
+description: "Interfaces generativas: artigos, cases e anotações sobre UI construída por IA"
+tags:
+  - tema/ia
+  - tema/ui
+  - tipo/links
 ---
 
 ## Links

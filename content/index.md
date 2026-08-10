@@ -1,7 +1,8 @@
 ---
 title: "Página Inicial"
 description: "Base de conhecimento sobre UX Design, UI Design, Design Systems, Acessibilidade e tópicos relacionados"
-
+tags:
+  - tipo/indice
 ---
 
 ## Páginas
@@ -42,6 +43,12 @@ description: "Base de conhecimento sobre UX Design, UI Design, Design Systems, A
 
 [https://refero.design/](https://refero.design/)
 [https://component.gallery/components/](https://component.gallery/components/)
+
+---
+
+## Ferramentas
+
+[https://designtools.fyi/](https://designtools.fyi/)
 
 ---
 

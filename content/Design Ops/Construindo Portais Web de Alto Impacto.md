@@ -1,6 +1,9 @@
 ---
 title: "Construindo Portais Web de Alto Impacto"
-
+description: "Estudo sobre portais web complexos: tendências de UX, arquitetura de informação e valor de negócio"
+tags:
+  - tema/ux
+  - tipo/resumo
 ---
 
 ### **1. Introdução: A Complexidade dos Portais Modernos**

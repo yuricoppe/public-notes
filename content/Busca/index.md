@@ -1,7 +1,10 @@
 ---
 title: "UX Busca"
 description: "Boas práticas, padrões e referências sobre experiência de busca (Search UX)"
-
+tags:
+  - tema/ux
+  - dominio/busca
+  - tipo/indice
 ---
 
 [[Anotações dos artigos]]

@@ -1,6 +1,9 @@
 ---
 title: "Conteúdo"
-
+description: "Links sobre UX writing, medição de conteúdo e documentação de design"
+tags:
+  - tema/conteudo
+  - tipo/links
 ---
 
 ## Artigos

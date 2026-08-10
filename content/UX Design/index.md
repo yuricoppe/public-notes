@@ -1,8 +1,11 @@
 ---
 title: "UX Design"
 description: "Recursos, ferramentas e referências sobre User Experience Design"
-
+tags:
+  - tema/ux
+  - tipo/indice
 ---
+
 [[Heurísticas de Nielsen]]
 ## Artigos
 

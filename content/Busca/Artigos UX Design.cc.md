@@ -1,6 +1,10 @@
 ---
 title: "Artigos UX Design.cc"
-
+description: "Artigos em português do UX Design.cc sobre pesquisa, filtros e busca"
+tags:
+  - tema/ux
+  - dominio/busca
+  - tipo/links
 ---
 
 ## Artigos e Recursos

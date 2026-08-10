@@ -1,7 +1,10 @@
 ---
 title: "UX Healthcare"
 description: "Artigos, recursos e boas práticas de User Experience aplicadas ao setor de saúde"
-
+tags:
+  - tema/ux
+  - dominio/saude
+  - tipo/indice
 ---
 
 ## Artigos sobre UX para Empresas de Saúde

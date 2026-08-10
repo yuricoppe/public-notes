@@ -1,6 +1,9 @@
 ---
 title: "Artigos DesignOps"
-
+description: "Artigos sobre DesignOps em português e inglês, com resumo de uma linha cada"
+tags:
+  - tema/designops
+  - tipo/links
 ---
 
 [https://www.nngroup.com/articles/design-operations-101/](https://www.nngroup.com/articles/design-operations-101/)

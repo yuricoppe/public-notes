@@ -1,3 +1,11 @@
+---
+title: "Heurísticas de Nielsen"
+description: "As dez heurísticas com perguntas de sinal de alerta e exemplos, para usar em avaliação heurística"
+tags:
+  - tema/ux
+  - tipo/referencia
+---
+
 ## 1. Visibilidade do status do sistema
 
 O sistema deve manter a pessoa informada sobre o que está acontecendo, com feedback adequado e em tempo razoável.

@@ -1,3 +1,10 @@
+---
+title: "Usabilidade, Arquitetura e Psicologia Cognitiva em Fluxos de Agendamento Digitais"
+description: "Relatório sobre componentes de data e hora, modelos mentais de tempo, fusos horários e prevenção de erro em agendamento"
+tags:
+  - tema/ux
+  - tipo/resumo
+---
 
 ## 1. Introdução ao Agendamento Digital
 

@@ -1,6 +1,9 @@
 ---
 title: "Análise de Dados"
-
+description: "Métricas, analytics e análise de comportamento aplicados a produto — GA4, Hotjar e análise quantitativa"
+tags:
+  - tema/pesquisa
+  - tipo/links
 ---
 
 > [!info] Dimensões + métricas para acompanhar no Google Analytics

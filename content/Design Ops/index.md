@@ -1,7 +1,9 @@
 ---
 title: "Design Ops"
 description: "Artigos, processos, ferramentas e práticas de Design Operations"
-
+tags:
+  - tema/designops
+  - tipo/indice
 ---
 
 ## Páginas

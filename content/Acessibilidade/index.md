@@ -1,7 +1,9 @@
 ---
 title: "Acessibilidade"
 description: "Princípios, recursos e boas práticas de acessibilidade web"
-
+tags:
+  - tema/acessibilidade
+  - tipo/indice
 ---
 
 ## Links
@@ -17,7 +19,6 @@ description: "Princípios, recursos e boas práticas de acessibilidade web"
 [https://neurodiversity.design/ux-law-definitions/#von-restorff-effect](https://neurodiversity.design/ux-law-definitions/#von-restorff-effect)
 [https://tetralogical.com/blog/2025/03/19/understanding-the-eaa/](https://tetralogical.com/blog/2025/03/19/understanding-the-eaa/)
 [https://makeitfable.com/article/how-to-get-started-with-accessibility-research/](https://makeitfable.com/article/how-to-get-started-with-accessibility-research/)
-[https://tetralogical.com/blog/2025/03/19/understanding-the-eaa/](https://tetralogical.com/blog/2025/03/19/understanding-the-eaa/)
 [https://martijnhols.nl/blog/accessibility-essentials-every-front-end-developer-should-know](https://martijnhols.nl/blog/accessibility-essentials-every-front-end-developer-should-know)
 [https://www.smashingmagazine.com/2025/04/fostering-accessibility-culture/?ref=sidebar](https://www.smashingmagazine.com/2025/04/fostering-accessibility-culture/?ref=sidebar)
 [https://coforma.io/perspectives/making-scannable-web-pages-for-assistive-technology](https://coforma.io/perspectives/making-scannable-web-pages-for-assistive-technology)

@@ -1,6 +1,9 @@
 ---
 title: "Tokens"
-
+description: "Especificação, ferramentas e pipeline de design tokens"
+tags:
+  - tema/design-system
+  - tipo/links
 ---
 
 ## Links

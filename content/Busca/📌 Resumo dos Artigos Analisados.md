@@ -1,6 +1,10 @@
 ---
 title: "📌 Resumo dos Artigos Analisados"
-
+description: "Síntese dos principais pontos de seis artigos sobre UX de busca"
+tags:
+  - tema/ux
+  - dominio/busca
+  - tipo/resumo
 ---
 
 ### 1. **[Search UX (Pencil & Paper)](https://www.pencilandpaper.io/articles/search-ux)**

@@ -1,6 +1,10 @@
 ---
 title: "Pesquisa de Satisfação do Cliente (CSAT)"
-
+description: "Estrutura, componentes de UI e resultados de uma pesquisa CSAT para e-commerce de exames e vacinas"
+tags:
+  - tema/pesquisa
+  - dominio/saude
+  - tipo/nota
 ---
 
 ## Esta página contém os resultados da pesquisa de satisfação do cliente (CSAT) para o e-commerce de exames médicos e vacinas. Os dados são coletados para melhorar continuamente a experiência do usuário.

@@ -1,6 +1,10 @@
 ---
 title: "Ferramentas de busca"
-
+description: "Comparativo de motores de busca — Elasticsearch, Algolia, Solr e outros — com vantagens e desvantagens"
+tags:
+  - tema/ux
+  - dominio/busca
+  - tipo/referencia
 ---
 
 ### 1. [Elasticsearch](https://www.elastic.co/elasticsearch/)

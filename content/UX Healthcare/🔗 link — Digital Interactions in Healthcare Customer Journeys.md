@@ -1,6 +1,10 @@
 ---
 title: "🔗 link — Digital Interactions in Healthcare Customer Journeys"
-
+description: "Artigo do NN/g sobre jornadas digitais fragmentadas em saúde, com os trechos destacados na leitura"
+tags:
+  - tema/ux
+  - dominio/saude
+  - tipo/nota
 ---
 
 [![](https://media.nngroup.com/media/articles/opengraph_images/DigitalHealthcare_69.jpg)](https://media.nngroup.com/media/articles/opengraph_images/DigitalHealthcare_69.jpg)

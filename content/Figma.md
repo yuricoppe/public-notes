@@ -1,6 +1,9 @@
 ---
 title: "Figma"
-
+description: "Plugins, tutoriais e técnicas avançadas de Figma"
+tags:
+  - tema/ui
+  - tipo/links
 ---
 
 > [!info] Figma for Edu: Advanced Protototyping Techniques

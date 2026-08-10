@@ -1,6 +1,10 @@
 ---
 title: "Artigos Nielsen Norman Group"
-
+description: "Quinze artigos do NN/g sobre busca, cada um com resumo de uma linha"
+tags:
+  - tema/ux
+  - dominio/busca
+  - tipo/links
 ---
 
 ## Artigos e Recursos

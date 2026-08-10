@@ -1,6 +1,9 @@
 ---
 title: "Principles Of Web Accessibility"
-
+description: "Doze princípios norteadores para tratar acessibilidade na prática, de \"perfeição é inimiga\" a \"ensinar a pescar\""
+tags:
+  - tema/acessibilidade
+  - tipo/referencia
 ---
 
 A set of high-level guiding principles for approaching web accessibility._

@@ -1,3 +1,10 @@
+---
+title: "Resumos"
+description: "Relatórios em PDF gerados a partir de palestras e vídeos, com o link da fonte"
+tags:
+  - tipo/resumo
+---
+
 [Happy path e estados de sistema](Resumos/Relatorio_Happy_Path_Design.pdf)
 https://www.youtube.com/watch?v=VzjvBYaGHgA
 

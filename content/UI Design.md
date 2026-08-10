@@ -1,6 +1,9 @@
 ---
-title: UI Design
-description: Conceitos, princípios e recursos sobre User Interface Design
+title: "UI Design"
+description: "Conceitos, princípios e recursos sobre User Interface Design"
+tags:
+  - tema/ui
+  - tipo/links
 ---
 
 ## Conceitos

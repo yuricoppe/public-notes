@@ -1,6 +1,9 @@
 ---
 title: "Processos de DesignOps"
-
+description: "Estudo sobre implementação de DesignOps: componentes, estratégias, métricas e estudos de caso"
+tags:
+  - tema/designops
+  - tipo/resumo
 ---
 
 ## Índice

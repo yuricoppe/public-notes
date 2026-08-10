@@ -1,3 +1,11 @@
+---
+title: "Cadastro"
+description: "Links e trechos sobre simplificar formulários de cadastro e login, incluindo alternativas ao CAPTCHA"
+tags:
+  - tema/ux
+  - tipo/links
+---
+
 ## Artigos
 
 https://www.smashingmagazine.com/2008/07/web-form-design-patterns-sign-up-forms/

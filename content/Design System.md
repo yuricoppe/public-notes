@@ -1,7 +1,9 @@
 ---
 title: "Design System"
 description: "Links, ferramentas, templates e processos para Design Systems"
-
+tags:
+  - tema/design-system
+  - tipo/links
 ---
 
 ## Links

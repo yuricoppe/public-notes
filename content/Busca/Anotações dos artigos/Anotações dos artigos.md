@@ -1,6 +1,10 @@
 ---
 title: "Anotações dos artigos"
-
+description: "Trechos e anotações de leitura sobre barra de busca, dropdown, carregamento, resultados e filtros"
+tags:
+  - tema/ux
+  - dominio/busca
+  - tipo/nota
 ---
 
 [https://www.nngroup.com/articles/search-visible-and-simple/](https://www.nngroup.com/articles/search-visible-and-simple/)
@@ -87,7 +91,6 @@ O que pode ser indexado? Os dados estão em boas condições para uma pesquisa e
 - Permitir rolagem no menu suspenso de pesquisa
 - Incluir feedback de carregamento mostra que o computador está pensando em algumas coisas – confira nosso artigo detalhado sobre **padrões de carregamento de UX**.
 - Mostre como os resultados correspondem usando uma técnica de destaque
-![image 1 2.png|image 1 2](../../attachments/image%201%202.png%7Cimage%201%202.png)
 
 ---
 
@@ -109,7 +112,6 @@ Para conjuntos de dados enormes, pode não ser viável indexar todos os locais p
 - Use paginação conforme necessário
 - Inclua controles de filtragem e classificação para que as pessoas possam refinar ainda mais os resultados que procuram (consulte nosso [artigo sobre filtragem](https://pencilandpaper.io/articles/ux-pattern-analysis-enterprise-filtering/)) para se aprofundar nas nuances em torno dos filtros
 - Incluir o feedback do estado vazio quando os resultados da pesquisa forem iguais a 0 – revise nosso artigo de padrões sobre [estados vazios](https://pencilandpaper.io/articles/ux-pattern-analysis-enterprise-filtering/) para mais práticas recomendadas.
-![image 2 3.png|image 2 3](../../attachments/image%202%203.png%7Cimage%202%203.png)
 
 ---
 
@@ -126,7 +128,6 @@ Esse tipo de pesquisa tem características únicas em comparação a outras expe
     (“ou”) – especificando duas ou mais coisas que podem não coexistir, por exemplo, contém “vermelho” ou “azul”.
 4. **Critérios aditivos**
     (“e”) – especificando que vários critérios podem ser incluídos, por exemplo, tipo = Artigos, E fonte = acadêmico
-![image 3 2.png|image 3 2](../../attachments/image%203%202.png%7Cimage%203%202.png)
 
 ---
 
@@ -226,7 +227,6 @@ O número de resultados correspondentes ajuda o usuário a fazer reformulações
 ## **6. Mantenha as consultas de pesquisa recentes dos usuários**
 
 A formulação de consultas exige algum esforço. Mesmo quando os usuários sabem o que pesquisaram na última vez que visitaram seu site, eles ainda precisam se lembrar de informações. Ao projetar uma experiência de pesquisa, você deve ter em mente uma regra básica de usabilidade:
-![image 4 2.png|image 4 2](../../attachments/image%204%202.png%7Cimage%204%202.png)
 **Dica:** Apresente menos de 10 consultas para que as informações não fiquem muito confusas. Para dispositivos móveis, é melhor mostrar de 3 a 5 consultas.
 
 ---
@@ -250,7 +250,6 @@ O objetivo do site, nesse sentido, é ser um representante de vendas informal. T
 ---
 
 Como um mecanismo de busca que utiliza busca semântica, o DuckDuckGo exibe todos os significados das palavras-chave entre os primeiros resultados. Mais importante ainda, ele também possui um painel extra que permite visualizar alternativas, atendendo assim às necessidades dos clientes e criando seu próprio campo de informações.
-![image 5 2.png|image 5 2](../../attachments/image%205%202.png%7Cimage%205%202.png)
 
 ---
 

@@ -1,6 +1,10 @@
 ---
 title: "Métodos e Tecnologias para Implementação de Pagamento via Plano de Saúde em Lojas Virtuais"
-
+description: "Estudo sobre pagamento via convênio em e-commerce: estado do mercado, tecnologia, regulação e UX"
+tags:
+  - dominio/pagamento
+  - dominio/saude
+  - tipo/resumo
 ---
 
 ## Introdução
@@ -268,7 +272,7 @@ A escolha da abordagem tecnológica dependerá de fatores como escopo do projeto
 37. **TISS: tudo o que você precisa saber sobre o padrão da ANS!** - [https://www.unimed.coop.br/web/belemdopara/imprensa/noticias/tiss-tudo-o-que-voce-precisa-saber-sobre-o-padrao-da-ans](https://www.unimed.coop.br/web/belemdopara/imprensa/noticias/tiss-tudo-o-que-voce-precisa-saber-sobre-o-padrao-da-ans)
 38. **APIs no setor da saúde: como impactam a experiência do paciente** - [https://www.sensedia.com/pt-br/blog/apis-setor-saude-experiencia-paciente/](https://www.sensedia.com/pt-br/blog/apis-setor-saude-experiencia-paciente/)
 39. **Fraudes em pagamentos on-line na saúde: como evitar e se proteger?** - [https://www.grupocard.com.br/fraudes-em-pagamentos-on-line-na-saude-como-evitar-e-se-proteger/](https://www.grupocard.com.br/fraudes-em-pagamentos-on-line-na-saude-como-evitar-e-se-proteger/)
-40. **O impacto da transformação digital no setor de saúde - KPMG Brasil** - [[oimpactodatr]]
+40. **O impacto da transformação digital no setor de saúde - KPMG Brasil**
 41. **O que é UX e UI: as diferenças e como elas se complementam - Vindi** - [https://vindi.com.br/blog/o-que-e-ux-e-ui/](https://vindi.com.br/blog/o-que-e-ux-e-ui/)
 42. **Meios de pagamento online para e-commerce: o que são e quais usar?** - [https://blog.awesomelab.com.br/meios-de-pagamento-online-para-e-commerce/](https://blog.awesomelab.com.br/meios-de-pagamento-online-para-e-commerce/)
 43. **5 tendências de pagamento no e-commerce para 2024 - NFE.io** - [https://nfe.io/blog/tendencias-de-pagamento-no-e-commerce/](https://nfe.io/blog/tendencias-de-pagamento-no-e-commerce/)
