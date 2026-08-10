@@ -14,12 +14,15 @@ tags:
 
 ## Links
 
-[https://www.pencilandpaper.io/articles/search-ux](https://www.pencilandpaper.io/articles/search-ux)
-[https://nulab.com/learn/design-and-ux/search-ux-best-practices/](https://nulab.com/learn/design-and-ux/search-ux-best-practices/)
-[https://uxplanet.org/best-practices-for-search-results-1bbed9d7a311](https://uxplanet.org/best-practices-for-search-results-1bbed9d7a311)
-[https://medium.com/@halolab/search-results-page-design-ui-ux-best-practices-f2157eea8226](https://medium.com/@halolab/search-results-page-design-ui-ux-best-practices-f2157eea8226)
-[https://www.coveo.com/blog/search-box-ux-examples/](https://www.coveo.com/blog/search-box-ux-examples/)
-[https://www.nngroup.com/articles/search-visible-and-simple/](https://www.nngroup.com/articles/search-visible-and-simple/)
+- **[Search UX Best Practices](https://www.pencilandpaper.io/articles/search-ux)** · Pencil & Paper
+  O mais completo da lista: barra, dropdown, carregamento, resultados e filtros. As anotações estão em [[Anotações dos artigos]].
+- **[Search UX best practices: a complete guide](https://nulab.com/learn/design-and-ux/search-ux-best-practices/)** · Nulab
+  Quem usa a busca tem 1,8% mais chance de converter — o guia parte daí.
+- **[Best practices for search results](https://uxplanet.org/best-practices-for-search-results-1bbed9d7a311)** · UX Planet
+- **[Search results page design: UI/UX best practices](https://medium.com/@halolab/search-results-page-design-ui-ux-best-practices-f2157eea8226)** · Halo Lab
+- **[Search box UX examples](https://www.coveo.com/blog/search-box-ux-examples/)** · Coveo
+- **[Search: Visible and Simple](https://www.nngroup.com/articles/search-visible-and-simple/)** · Nielsen Norman Group
+  A busca é a tábua de salvação em site complexo. Resumido em [[Artigos Nielsen Norman Group]].
 
 [[📌 Resumo dos Artigos Analisados]]
 

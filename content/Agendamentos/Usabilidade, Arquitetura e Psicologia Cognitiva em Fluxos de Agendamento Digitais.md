@@ -305,86 +305,44 @@ Ao aderir a estas diretrizes, designers e arquitetos de informação podem trans
 
 #### Works cited
 
-1. Scheduling UI - Dribbble, accessed January 24, 2026, [https://dribbble.com/tags/scheduling-ui](https://dribbble.com/tags/scheduling-ui)
-    
-2. Date Picker UI Design: Best practices, Design variants & Examples, accessed January 24, 2026, [https://mobbin.com/glossary/date-picker](https://mobbin.com/glossary/date-picker)
-    
-3. Usability of RemindMe- an interactive web-based mobile reminder ..., accessed January 24, 2026, [https://www.researchgate.net/profile/Helena-Hemmingsson/publication/281167746_Usability_of_RemindMe_-_An_Interactive_Web-Based_Mobile_Reminder_Calendar_A_Professional's_Perspective/links/580dd7b708ae1551f0b19f6d/Usability-of-RemindMe-An-Interactive-Web-Based-Mobile-Reminder-Calendar-A-Professionals-Perspective.pdf](https://www.researchgate.net/profile/Helena-Hemmingsson/publication/281167746_Usability_of_RemindMe_-_An_Interactive_Web-Based_Mobile_Reminder_Calendar_A_Professional's_Perspective/links/580dd7b708ae1551f0b19f6d/Usability-of-RemindMe-An-Interactive-Web-Based-Mobile-Reminder-Calendar-A-Professionals-Perspective.pdf)
-    
-4. Proper design for date pickers - by Rimma Kovalevich - Medium, accessed January 24, 2026, [https://medium.com/fively/proper-design-for-date-pickers-4cdeb65b5ef2](https://medium.com/fively/proper-design-for-date-pickers-4cdeb65b5ef2)
-    
-5. Time Picker UX: Best Practices, Patterns & Trends for 2025 - Eleken, accessed January 24, 2026, [https://www.eleken.co/blog-posts/time-picker-ux](https://www.eleken.co/blog-posts/time-picker-ux)
-    
-6. Date Picker Design Best Practices | by Nick Babich - UX Planet, accessed January 24, 2026, [https://uxplanet.org/date-picker-design-best-practices-41bd522f10a5](https://uxplanet.org/date-picker-design-best-practices-41bd522f10a5)
-    
-7. Date picker | U.S. Web Design System (USWDS), accessed January 24, 2026, [https://designsystem.digital.gov/components/date-picker/](https://designsystem.digital.gov/components/date-picker/)
-    
-8. Booking UX Best Practices to Boost Conversions in 2025 - Ralabs, accessed January 24, 2026, [https://ralabs.org/blog/booking-ux-best-practices/](https://ralabs.org/blog/booking-ux-best-practices/)
-    
-9. Date pickers – Material Design 3, accessed January 24, 2026, [https://m3.material.io/components/date-pickers/guidelines](https://m3.material.io/components/date-pickers/guidelines)
-    
-10. Booking Pages course lesson | Uxcel, accessed January 24, 2026, [https://app.uxcel.com/courses/common-patterns/booking-best-practices-107](https://app.uxcel.com/courses/common-patterns/booking-best-practices-107)
-    
-11. iOS Booking an appointment UX Flows – Design Patterns, accessed January 24, 2026, [https://pageflows.com/ios/flows/booking-an-appointment/](https://pageflows.com/ios/flows/booking-an-appointment/)
-    
-12. Calendar Design: UX/UI Tips for Functionality | Page Flows, accessed January 24, 2026, [https://pageflows.com/resources/exploring-calendar-design/](https://pageflows.com/resources/exploring-calendar-design/)
-    
-13. 5 Tips for Scheduling When Working Across Time Zones | Doodle, accessed January 24, 2026, [https://doodle.com/en/5-tips-for-scheduling-when-working-across-time-zones/](https://doodle.com/en/5-tips-for-scheduling-when-working-across-time-zones/)
-    
-14. Essential Time Zone Handling For Digital Scheduling Success - Shyft, accessed January 24, 2026, [https://www.myshyft.com/blog/calendar-time-zone-formatting/](https://www.myshyft.com/blog/calendar-time-zone-formatting/)
-    
-15. Designing A Time Zone Selection UX, accessed January 24, 2026, [https://smart-interface-design-patterns.com/articles/time-zone-selection-ux/](https://smart-interface-design-patterns.com/articles/time-zone-selection-ux/)
-    
-16. How Should We Manage Time Zones ? | Insider One Engineering, accessed January 24, 2026, [https://medium.com/insiderengineering/how-should-we-manage-time-zones-f62d4c49c3ad](https://medium.com/insiderengineering/how-should-we-manage-time-zones-f62d4c49c3ad)
-    
-17. Overcoming Time Zone Mess — UX Case Study - Medium, accessed January 24, 2026, [https://medium.com/@vishweshnavtake/overcoming-time-zone-mess-ux-case-study-d3af3b0a0a5c](https://medium.com/@vishweshnavtake/overcoming-time-zone-mess-ux-case-study-d3af3b0a0a5c)
-    
-18. Working with Design Patterns - Oracle Help Center, accessed January 24, 2026, [https://docs.oracle.com/en/industries/communications/design-studio/7.4.2/developers-guide/working-design-patterns1.html](https://docs.oracle.com/en/industries/communications/design-studio/7.4.2/developers-guide/working-design-patterns1.html)
-    
-19. Wizard UI Pattern: When to Use It and How to Get It Right - Eleken, accessed January 24, 2026, [https://www.eleken.co/blog-posts/wizard-ui-pattern-explained](https://www.eleken.co/blog-posts/wizard-ui-pattern-explained)
-    
-20. Wizard - PatternFly, accessed January 24, 2026, [https://www.patternfly.org/components/wizard/design-guidelines](https://www.patternfly.org/components/wizard/design-guidelines)
-    
-21. Your Ultimate Guide To Form Design [With Tips & Examples], accessed January 24, 2026, [https://www.uxdesigninstitute.com/blog/guide-to-form-design-with-tips/](https://www.uxdesigninstitute.com/blog/guide-to-form-design-with-tips/)
-    
-22. Form Design Principles: 13 Empirically Backed Best Practices - CXL, accessed January 24, 2026, [https://cxl.com/blog/form-design-best-practices/](https://cxl.com/blog/form-design-best-practices/)
-    
-23. 8 Form Design Best Practices for 2025: Boost Conversions - Buildform, accessed January 24, 2026, [https://buildform.ai/blog/form-design-best-practices/](https://buildform.ai/blog/form-design-best-practices/)
-    
-24. 46 Form Design Best Practices - Jotform, accessed January 24, 2026, [https://www.jotform.com/form-design/](https://www.jotform.com/form-design/)
-    
-25. Real-time Booking Updates: End Double Bookings on Your Platform, accessed January 24, 2026, [https://asd.team/blog/real-time-booking-updates/](https://asd.team/blog/real-time-booking-updates/)
-    
-26. Implementing Real-Time Inventory Updates in Your Booking System, accessed January 24, 2026, [https://www.site123.com/learn/implementing-real-time-inventory-updates-in-your-booking-system](https://www.site123.com/learn/implementing-real-time-inventory-updates-in-your-booking-system)
-    
-27. Date Picker Dialog Example | APG | WAI - W3C, accessed January 24, 2026, [https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/examples/datepicker-dialog/](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/examples/datepicker-dialog/)
-    
-28. ASP.NET Core Scheduling Calendar Accessibility Overview, accessed January 24, 2026, [https://www.telerik.com/aspnet-core-ui/documentation/html-helpers/scheduling/calendar/accessibility/overview](https://www.telerik.com/aspnet-core-ui/documentation/html-helpers/scheduling/calendar/accessibility/overview)
-    
-29. Accessibility in the Bryntum Grid, accessed January 24, 2026, [https://bryntum.com/blog/accessibility-in-the-bryntum-grid/](https://bryntum.com/blog/accessibility-in-the-bryntum-grid/)
-    
-30. Accessibility in Data Grids - RevoGrid, accessed January 24, 2026, [https://rv-grid.com/guide/wcag](https://rv-grid.com/guide/wcag)
-    
-31. Making Calendars With Accessibility and Internationalization in Mind, accessed January 24, 2026, [https://css-tricks.com/making-calendars-with-accessibility-and-internationalization-in-mind/](https://css-tricks.com/making-calendars-with-accessibility-and-internationalization-in-mind/)
-    
-32. Design guidelines for mobile date-pickers | by David Hamill, accessed January 24, 2026, [https://uxdesign.cc/design-guidelines-for-mobile-date-pickers-8e8d87026215](https://uxdesign.cc/design-guidelines-for-mobile-date-pickers-8e8d87026215)
-    
-33. What to Add to the Order Confirmation Page Besides “Thank You for ..., accessed January 24, 2026, [https://friflex.medium.com/what-to-add-to-the-order-confirmation-page-besides-thank-you-for-your-purchase-570669dc1925](https://friflex.medium.com/what-to-add-to-the-order-confirmation-page-besides-thank-you-for-your-purchase-570669dc1925)
-    
-34. Service UX: US Bank's Well-Designed Appointment Scheduler, accessed January 24, 2026, [https://fintechlabs.com/us-banks-well-designed-appointment-scheduler/](https://fintechlabs.com/us-banks-well-designed-appointment-scheduler/)
-    
-35. Free Add to Calendar Button - AddEvent, accessed January 24, 2026, [https://www.addevent.com/add-to-calendar-button](https://www.addevent.com/add-to-calendar-button)
-    
-36. Free Automated Appointment Email Reminders - Setmore, accessed January 24, 2026, [https://www.setmore.com/features/email-reminders](https://www.setmore.com/features/email-reminders)
-    
-37. Add a 'add to calendar link' on emails to customers - Airtable - Reddit, accessed January 24, 2026, [https://www.reddit.com/r/Airtable/comments/1n776lo/add_a_add_to_calendar_link_on_emails_to_customers/](https://www.reddit.com/r/Airtable/comments/1n776lo/add_a_add_to_calendar_link_on_emails_to_customers/)
-    
-38. How to Create a Cancellation Policy - Examples & Free Template, accessed January 24, 2026, [https://acuityscheduling.com/learn/how-to-create-a-cancellation-policy](https://acuityscheduling.com/learn/how-to-create-a-cancellation-policy)
-    
-39. Cancellation policies - Booking.com | APIs, accessed January 24, 2026, [https://developers.booking.com/demand/docs/orders-api/cancellation-policies](https://developers.booking.com/demand/docs/orders-api/cancellation-policies)
-    
-40. Appointment Scheduling And Rescheduling: 5 Powerful Benefits, accessed January 24, 2026, [https://iconbilling.com/appointment-scheduling-and-rescheduling/](https://iconbilling.com/appointment-scheduling-and-rescheduling/)
-    
-41. UX writing: an effective 'Cancel' dialog confirmation on Web | Medium, accessed January 24, 2026, [https://medium.com/@joaopegb/ux-writing-an-effective-cancel-dialog-confirmation-on-web-539b73a39929](https://medium.com/@joaopegb/ux-writing-an-effective-cancel-dialog-confirmation-on-web-539b73a39929)
-    
-
+1. **[Scheduling UI - Dribbble](https://dribbble.com/tags/scheduling-ui)** · acessado em 24 jan 2026
+2. **[Date Picker UI Design: Best practices, Design variants & Examples](https://mobbin.com/glossary/date-picker)** · acessado em 24 jan 2026
+3. **[Usability of RemindMe- an interactive web-based mobile reminder ...](https://www.researchgate.net/profile/Helena-Hemmingsson/publication/281167746_Usability_of_RemindMe_-_An_Interactive_Web-Based_Mobile_Reminder_Calendar_A_Professional's_Perspective/links/580dd7b708ae1551f0b19f6d/Usability-of-RemindMe-An-Interactive-Web-Based-Mobile-Reminder-Calendar-A-Professionals-Perspective.pdf)** · acessado em 24 jan 2026
+4. **[Proper design for date pickers - by Rimma Kovalevich - Medium](https://medium.com/fively/proper-design-for-date-pickers-4cdeb65b5ef2)** · acessado em 24 jan 2026
+5. **[Time Picker UX: Best Practices, Patterns & Trends for 2025 - Eleken](https://www.eleken.co/blog-posts/time-picker-ux)** · acessado em 24 jan 2026
+6. **[Date Picker Design Best Practices | by Nick Babich - UX Planet](https://uxplanet.org/date-picker-design-best-practices-41bd522f10a5)** · acessado em 24 jan 2026
+7. **[Date picker | U.S. Web Design System (USWDS)](https://designsystem.digital.gov/components/date-picker/)** · acessado em 24 jan 2026
+8. **[Booking UX Best Practices to Boost Conversions in 2025 - Ralabs](https://ralabs.org/blog/booking-ux-best-practices/)** · acessado em 24 jan 2026
+9. **[Date pickers – Material Design 3](https://m3.material.io/components/date-pickers/guidelines)** · acessado em 24 jan 2026
+10. **[Booking Pages course lesson | Uxcel](https://app.uxcel.com/courses/common-patterns/booking-best-practices-107)** · acessado em 24 jan 2026
+11. **[iOS Booking an appointment UX Flows – Design Patterns](https://pageflows.com/ios/flows/booking-an-appointment/)** · acessado em 24 jan 2026
+12. **[Calendar Design: UX/UI Tips for Functionality | Page Flows](https://pageflows.com/resources/exploring-calendar-design/)** · acessado em 24 jan 2026
+13. **[5 Tips for Scheduling When Working Across Time Zones | Doodle](https://doodle.com/en/5-tips-for-scheduling-when-working-across-time-zones/)** · acessado em 24 jan 2026
+14. **[Essential Time Zone Handling For Digital Scheduling Success - Shyft](https://www.myshyft.com/blog/calendar-time-zone-formatting/)** · acessado em 24 jan 2026
+15. **[Designing A Time Zone Selection UX](https://smart-interface-design-patterns.com/articles/time-zone-selection-ux/)** · acessado em 24 jan 2026
+16. **[How Should We Manage Time Zones ? | Insider One Engineering](https://medium.com/insiderengineering/how-should-we-manage-time-zones-f62d4c49c3ad)** · acessado em 24 jan 2026
+17. **[Overcoming Time Zone Mess — UX Case Study - Medium](https://medium.com/@vishweshnavtake/overcoming-time-zone-mess-ux-case-study-d3af3b0a0a5c)** · acessado em 24 jan 2026
+18. **[Working with Design Patterns - Oracle Help Center](https://docs.oracle.com/en/industries/communications/design-studio/7.4.2/developers-guide/working-design-patterns1.html)** · acessado em 24 jan 2026
+19. **[Wizard UI Pattern: When to Use It and How to Get It Right - Eleken](https://www.eleken.co/blog-posts/wizard-ui-pattern-explained)** · acessado em 24 jan 2026
+20. **[Wizard - PatternFly](https://www.patternfly.org/components/wizard/design-guidelines)** · acessado em 24 jan 2026
+21. **[Your Ultimate Guide To Form Design [With Tips & Examples]](https://www.uxdesigninstitute.com/blog/guide-to-form-design-with-tips/)** · acessado em 24 jan 2026
+22. **[Form Design Principles: 13 Empirically Backed Best Practices - CXL](https://cxl.com/blog/form-design-best-practices/)** · acessado em 24 jan 2026
+23. **[8 Form Design Best Practices for 2025: Boost Conversions - Buildform](https://buildform.ai/blog/form-design-best-practices/)** · acessado em 24 jan 2026
+24. **[46 Form Design Best Practices - Jotform](https://www.jotform.com/form-design/)** · acessado em 24 jan 2026
+25. **[Real-time Booking Updates: End Double Bookings on Your Platform](https://asd.team/blog/real-time-booking-updates/)** · acessado em 24 jan 2026
+26. **[Implementing Real-Time Inventory Updates in Your Booking System](https://www.site123.com/learn/implementing-real-time-inventory-updates-in-your-booking-system)** · acessado em 24 jan 2026
+27. **[Date Picker Dialog Example | APG | WAI - W3C](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/examples/datepicker-dialog/)** · acessado em 24 jan 2026
+28. **[ASP.NET Core Scheduling Calendar Accessibility Overview](https://www.telerik.com/aspnet-core-ui/documentation/html-helpers/scheduling/calendar/accessibility/overview)** · acessado em 24 jan 2026
+29. **[Accessibility in the Bryntum Grid](https://bryntum.com/blog/accessibility-in-the-bryntum-grid/)** · acessado em 24 jan 2026
+30. **[Accessibility in Data Grids - RevoGrid](https://rv-grid.com/guide/wcag)** · acessado em 24 jan 2026
+31. **[Making Calendars With Accessibility and Internationalization in Mind](https://css-tricks.com/making-calendars-with-accessibility-and-internationalization-in-mind/)** · acessado em 24 jan 2026
+32. **[Design guidelines for mobile date-pickers | by David Hamill](https://uxdesign.cc/design-guidelines-for-mobile-date-pickers-8e8d87026215)** · acessado em 24 jan 2026
+33. **[What to Add to the Order Confirmation Page Besides “Thank You for ...](https://friflex.medium.com/what-to-add-to-the-order-confirmation-page-besides-thank-you-for-your-purchase-570669dc1925)** · acessado em 24 jan 2026
+34. **[Service UX: US Bank's Well-Designed Appointment Scheduler](https://fintechlabs.com/us-banks-well-designed-appointment-scheduler/)** · acessado em 24 jan 2026
+35. **[Free Add to Calendar Button - AddEvent](https://www.addevent.com/add-to-calendar-button)** · acessado em 24 jan 2026
+36. **[Free Automated Appointment Email Reminders - Setmore](https://www.setmore.com/features/email-reminders)** · acessado em 24 jan 2026
+37. **[Add a 'add to calendar link' on emails to customers - Airtable - Reddit](https://www.reddit.com/r/Airtable/comments/1n776lo/add_a_add_to_calendar_link_on_emails_to_customers/)** · acessado em 24 jan 2026
+38. **[How to Create a Cancellation Policy - Examples & Free Template](https://acuityscheduling.com/learn/how-to-create-a-cancellation-policy)** · acessado em 24 jan 2026
+39. **[Cancellation policies - Booking.com | APIs](https://developers.booking.com/demand/docs/orders-api/cancellation-policies)** · acessado em 24 jan 2026
+40. **[Appointment Scheduling And Rescheduling: 5 Powerful Benefits](https://iconbilling.com/appointment-scheduling-and-rescheduling/)** · acessado em 24 jan 2026
+41. **[UX writing: an effective 'Cancel' dialog confirmation on Web | Medium](https://medium.com/@joaopegb/ux-writing-an-effective-cancel-dialog-confirmation-on-web-539b73a39929)** · acessado em 24 jan 2026

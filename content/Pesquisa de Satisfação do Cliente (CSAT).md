@@ -65,43 +65,43 @@ A seguir, detalhamos cada pergunta e o componente de UI sugerido para sua implem
 
 ### 4. Boas Práticas de UI/UX (Fontes)
 
-- **Conforto para o Usuário:** \[Shopify Brasil - 7 princípios de UI design]\[[https://www.shopify.com/br/blog/principios-de-design-de-ui](https://www.shopify.com/br/blog/principios-de-design-de-ui)]
+- **Conforto para o Usuário:** *(Shopify Brasil — 7 princípios de UI design)*
     - Menos é mais: minimalismo, hierarquia visual clara, simplicidade e consistência.
-- **Deixar o Usuário Conduzir a Experiência:** \[Shopify Brasil - 7 princípios de UI design]\[[https://www.shopify.com/br/blog/principios-de-design-de-ui](https://www.shopify.com/br/blog/principios-de-design-de-ui)]
+- **Deixar o Usuário Conduzir a Experiência:** *(Shopify Brasil — 7 princípios de UI design)*
     - Priorizar o público e permitir desfazer ações sem consequências negativas.
-- **Tornar Intuitivo:** \[Shopify Brasil - 7 princípios de UI design]\[[https://www.shopify.com/br/blog/principios-de-design-de-ui](https://www.shopify.com/br/blog/principios-de-design-de-ui)]
+- **Tornar Intuitivo:** *(Shopify Brasil — 7 princípios de UI design)*
     - Utilizar interfaces intuitivas e padrões familiares.
-- **Ser Acessível:** \[Shopify Brasil - 7 princípios de UI design]\[[https://www.shopify.com/br/blog/principios-de-design-de-ui](https://www.shopify.com/br/blog/principios-de-design-de-ui)]
+- **Ser Acessível:** *(Shopify Brasil — 7 princípios de UI design)*
     - Projetar para todos, considerando daltonismo, deficiências visuais e intelectuais.
-- **Informar os Usuários:** \[Shopify Brasil - 7 princípios de UI design]\[[https://www.shopify.com/br/blog/principios-de-design-de-ui](https://www.shopify.com/br/blog/principios-de-design-de-ui)]
+- **Informar os Usuários:** *(Shopify Brasil — 7 princípios de UI design)*
     - Fornecer informações necessárias quando necessário.
-- **Hover States:** \[Artigo de Filipe Nzongo]
+- **Hover States:** *(Filipe Nzongo)*
     - Sinalizar elementos interativos com feedback visual ou auditivo.
 
 ### 5. Dicas Adicionais de UX no E-commerce
 
-- **Design Intuitivo:** \[Attri]
-- **Checkout Simplificado:** \[Attri]
-- **Otimização para Dispositivos Móveis:** \[Attri]
-- **Testes de Usabilidade:** \[Attri]
-- **Suporte e Manutenção Adequados:** \[Attri]
+- **Design Intuitivo:** *(Attri)*
+- **Checkout Simplificado:** *(Attri)*
+- **Otimização para Dispositivos Móveis:** *(Attri)*
+- **Testes de Usabilidade:** *(Attri)*
+- **Suporte e Manutenção Adequados:** *(Attri)*
 
 ### 6. Práticas Recomendadas de Design de Formulário
 
-- **Usar uma Etiqueta:** \[Ember]
-- **Evitar Espaços Reservados como Rótulo:** \[Ember]
-- **Focar Automaticamente a Primeira Entrada:** \[Ember]
-- **Manter os Rótulos Curtos:** \[Ember]
-- **Corresponder o Comprimento e a Estrutura do Campo à Entrada Pretendida:** \[Ember]
-- **Diferenciar Campos de Formulário de Outros Elementos:** \[Ember]
-- **Usar o Tipo de Entrada e Tag Apropriados:** \[Ember]
+- **Usar uma Etiqueta:** *(Ember)*
+- **Evitar Espaços Reservados como Rótulo:** *(Ember)*
+- **Focar Automaticamente a Primeira Entrada:** *(Ember)*
+- **Manter os Rótulos Curtos:** *(Ember)*
+- **Corresponder o Comprimento e a Estrutura do Campo à Entrada Pretendida:** *(Ember)*
+- **Diferenciar Campos de Formulário de Outros Elementos:** *(Ember)*
+- **Usar o Tipo de Entrada e Tag Apropriados:** *(Ember)*
 
 ### 7. Links das Fontes
 
-- \[Shopify Brasil - 7 princípios de UI design]\[[https://www.shopify.com/br/blog/principios-de-design-de-ui](https://www.shopify.com/br/blog/principios-de-design-de-ui)]
-- \[Artigo de Filipe Nzongo]
-- \[Attri]
-- \[Ember]
+- ⚠️ **Shopify Brasil — 7 princípios de UI design** · [link original](https://www.shopify.com/br/blog/principios-de-design-de-ui) fora do ar (verificado em 10 ago 2026)
+- *Artigo de Filipe Nzongo* (sem URL registrada)
+- *Attri* (sem URL registrada)
+- *Ember* (sem URL registrada)
 
 ### 8. Conclusão
 

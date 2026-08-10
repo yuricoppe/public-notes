@@ -53,4 +53,5 @@ tags:
 
 ## Referências
 
-[https://khagwal.com/interactions/](https://khagwal.com/interactions/)
+- **[Interactions](https://khagwal.com/interactions/)** · Nitish Khagwal
+  Microinterações feitas à mão, com foco em utilidade além da estética.

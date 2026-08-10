@@ -7,5 +7,8 @@ tags:
 ---
 
 ## Artigos
-https://baymard.com/premium/page-designs/account-dashboard?permalink=account-dashboard
-https://baymard.com/premium/guideline-collections/sqsics
+
+- **[Account Dashboard — page designs](https://baymard.com/premium/page-designs/account-dashboard?permalink=account-dashboard)** · Baymard Institute
+  Galeria de exemplos de painel de conta. Requer assinatura.
+- **[Account & Self-Service — guideline collection](https://baymard.com/premium/guideline-collections/sqsics)** · Baymard Institute
+  Requer assinatura.

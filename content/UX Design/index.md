@@ -9,12 +9,15 @@ tags:
 [[Heurísticas de Nielsen]]
 ## Artigos
 
-https://www.smashingmagazine.com/2026/04/legacy-systems/
+- **[How To Improve UX In Legacy Systems](https://www.smashingmagazine.com/2026/04/legacy-systems/)** · Smashing Magazine · 2026
+  Como gerar impacto de UX em organização com sistema legado e processo quebrado.
 
 ## Utilidades
 
-[https://www.nngroup.com/articles/ux-deliverables-glossary/](https://www.nngroup.com/articles/ux-deliverables-glossary/)
-https://principles.design/
+- **[UX Deliverables: Glossary](https://www.nngroup.com/articles/ux-deliverables-glossary/)** · Nielsen Norman Group
+  Glossário para alinhar rápido o nome de cada entregável.
+- **[Design Principles](https://principles.design/)** · principles.design
+  Coleção curada de princípios de design usados como framework de decisão.
 
 ---
 
@@ -31,7 +34,9 @@ https://principles.design/
 > [https://www.deceptive.design/](https://www.deceptive.design/)
 
 ## Tools
-https://nanonets.com/blog/form-data-extraction/
+
+- **[Form Data Extraction: From OCR to Deep Learning](https://nanonets.com/blog/form-data-extraction/)** · Nanonets
+  Técnicas e boas práticas para extrair dados de formulário.
 
 ## Surveys
 

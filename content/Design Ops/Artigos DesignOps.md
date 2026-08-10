@@ -6,7 +6,8 @@ tags:
   - tipo/links
 ---
 
-[https://www.nngroup.com/articles/design-operations-101/](https://www.nngroup.com/articles/design-operations-101/)
+- **[DesignOps 101](https://www.nngroup.com/articles/design-operations-101/)** · Nielsen Norman Group
+  A definição de referência: DesignOps é o conjunto de processos e medidas que sustenta o trabalho do designer.
 
 ---
 

@@ -8,12 +8,12 @@ tags:
 
 ## Artigos
 
-https://www.smashingmagazine.com/2008/07/web-form-design-patterns-sign-up-forms/
-https://www.smashingmagazine.com/2008/07/web-form-design-patterns-sign-up-forms-part-2/
+- **[Web Form Design Patterns: Sign-Up Forms](https://www.smashingmagazine.com/2008/07/web-form-design-patterns-sign-up-forms/)** · Smashing Magazine · 2008
+- **[Web Form Design Patterns: Sign-Up Forms, Part 2](https://www.smashingmagazine.com/2008/07/web-form-design-patterns-sign-up-forms-part-2/)** · Smashing Magazine · 2008
 
 ---
 
-https://www.smashingmagazine.com/2011/05/innovative-techniques-to-simplify-signups-and-logins/
+**[Innovative Techniques To Simplify Sign-Ups And Log-Ins](https://www.smashingmagazine.com/2011/05/innovative-techniques-to-simplify-signups-and-logins/)** · Smashing Magazine · 2011
 ### Combat Spam by Hiding a Text Field With JavaScript, Instead of Using CAPTCHA
 
 If you get a lot of spam, then putting a CAPTCHA on your form may be necessary. What’s _not_ necessary is making the CAPTCHA an obstacle that turns users away. Traditional CAPTCHAs that ask users to retype distorted letters have been proven to hurt conversion rates. With the extra hassle they force on users, it’s no wonder.
@@ -26,12 +26,13 @@ A simpler approach that won’t lower your conversion rate is to use a hidden an
 
 ---
 
-https://www.smashingmagazine.com/2011/08/new-approaches-to-designing-login-forms/
-https://www.smashingmagazine.com/2012/10/password-masking-hurt-signup-form/
-https://www.smashingmagazine.com/2018/03/ux-contact-forms-essentials-conversions/
+- **[New Approaches To Designing Log-In Forms](https://www.smashingmagazine.com/2011/08/new-approaches-to-designing-login-forms/)** · Smashing Magazine · 2011
+- **[Better Password Masking For Sign-Up Forms](https://www.smashingmagazine.com/2012/10/password-masking-hurt-signup-form/)** · Smashing Magazine · 2012
+- **[UX In Contact Forms: Essentials To Turn Leads Into Conversions](https://www.smashingmagazine.com/2018/03/ux-contact-forms-essentials-conversions/)** · Smashing Magazine · 2018
 
 ---
-https://www.smashingmagazine.com/2022/08/authentication-ux-design-guidelines/
+**[Rethinking Authentication UX](https://www.smashingmagazine.com/2022/08/authentication-ux-design-guidelines/)** · Smashing Magazine · 2022
+As oito rotas de recuperação de acesso, cada uma com o caso em que falha:
 
 ![A screenshot with a 'Send magic link' button](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bb887d40-c454-4b48-be73-44e903492deb/magic-links-authentication.jpg)
 
@@ -62,17 +63,17 @@ Ideally, users could restore access by speaking to an agent via live chat, Whats
 
 ---
 
-https://www.authy.com/what-is-2fa/
-https://uxmag.com/articles/app-login-design-choosing-the-right-user-login-option-for-your-app
-https://www.uxmatters.com/mt/archives/2022/02/passwordless-authentication-methods-for-saas-web-applications.php
+- **[What Is Two-Factor Authentication (2FA)?](https://www.authy.com/what-is-2fa/)** · Authy
+- **[App login design: choosing the right user login option for your app](https://uxmag.com/articles/app-login-design-choosing-the-right-user-login-option-for-your-app)** · UX Magazine
+- **[Passwordless Authentication Methods for SaaS Web Applications](https://www.uxmatters.com/mt/archives/2022/02/passwordless-authentication-methods-for-saas-web-applications.php)** · UXmatters · 2022
 
-https://www.nngroup.com/articles/password-creation/
-https://www.nngroup.com/articles/affordable_care_act_usability_issues/
+- **[Password Creation: 3 Ways To Make It Easier](https://www.nngroup.com/articles/password-creation/)** · Nielsen Norman Group
+- **[HealthCare.gov's Account Setup: 10 Broken Usability Guidelines](https://www.nngroup.com/articles/affordable_care_act_usability_issues/)** · Nielsen Norman Group
 
 ---
 
-https://www.nngroup.com/articles/passwordless-accounts/
-https://www.youtube.com/watch?v=ulAbaGKqZis
+**[Passwordless Accounts: One-Time Passwords (OTPs) and Passkeys](https://www.nngroup.com/articles/passwordless-accounts/)** · Nielsen Norman Group
+**[Passwordless Accounts (vídeo)](https://www.youtube.com/watch?v=ulAbaGKqZis)** · Nielsen Norman Group
 
 - **Offer the options of (1) creating and using a password** **and (2) biometric authentication** after users have created a passwordless account. Some users may prefer these to using an OTP or passkey, so it’s a good idea to provide the choice.
 - **For OTPs, let users choose between email and text messages.** Remember that some users may have text messages delivered to their current device, while others will not.
@@ -86,9 +87,11 @@ https://www.youtube.com/watch?v=ulAbaGKqZis
 ---
 
 [Login Walls - NN Group](https://www.youtube.com/watch?v=QDHbc125x0s)
-https://www.nngroup.com/articles/checklist-registration-login/
-https://www.asktog.com/columns/081Registration.html
+- **[A Checklist for Registration and Login Forms on Mobile](https://www.nngroup.com/articles/checklist-registration-login/)** · Nielsen Norman Group
+- **[How to Achieve Painless Registration](https://www.asktog.com/columns/081Registration.html)** · Bruce Tognazzini
 
 
-https://baymard.com/premium/blog/account-sign-in-flows
-https://baymard.com/premium/guideline-collections/vq05pt
+- **[Where to Send Users after They 'Sign In' or 'Reset Password'](https://baymard.com/premium/blog/account-sign-in-flows)** · Baymard
+  34% dos sites erram esse destino. Requer assinatura.
+- **[Account & Sign-In — guideline collection](https://baymard.com/premium/guideline-collections/vq05pt)** · Baymard
+  Requer assinatura.

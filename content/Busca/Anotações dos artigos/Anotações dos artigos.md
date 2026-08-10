@@ -7,7 +7,7 @@ tags:
   - tipo/nota
 ---
 
-[https://www.nngroup.com/articles/search-visible-and-simple/](https://www.nngroup.com/articles/search-visible-and-simple/)
+**Fonte: [Search: Visible and Simple](https://www.nngroup.com/articles/search-visible-and-simple/)** · Nielsen Norman Group
 
 ---
 
@@ -46,7 +46,7 @@ Se a lista de resultados parecer inadequada, é provável que abandonem o site c
 
 ---
 
-[https://www.pencilandpaper.io/articles/search-ux](https://www.pencilandpaper.io/articles/search-ux)
+**Fonte: [Search UX Best Practices](https://www.pencilandpaper.io/articles/search-ux)** · Pencil & Paper
 
 ---
 
@@ -159,7 +159,7 @@ Não usar a busca como uma solução para problemas de navegação ruim é cruci
 
 ---
 
-[https://nulab.com/learn/design-and-ux/search-ux-best-practices/](https://nulab.com/learn/design-and-ux/search-ux-best-practices/)
+**Fonte: [Search UX best practices: a complete guide](https://nulab.com/learn/design-and-ux/search-ux-best-practices/)** · Nulab
 
 ---
 
@@ -190,7 +190,7 @@ Cada aba deve ser claramente identificada (por exemplo, "Produtos", "Artigos", "
 
 ---
 
-[https://uxplanet.org/best-practices-for-search-results-1bbed9d7a311](https://uxplanet.org/best-practices-for-search-results-1bbed9d7a311)
+**Fonte: [Best practices for search results](https://uxplanet.org/best-practices-for-search-results-1bbed9d7a311)** · UX Planet
 
 ---
 
@@ -238,7 +238,7 @@ A formulação de consultas exige algum esforço. Mesmo quando os usuários sabe
 
 ---
 
-[https://medium.com/@halolab/search-results-page-design-ui-ux-best-practices-f2157eea8226](https://medium.com/@halolab/search-results-page-design-ui-ux-best-practices-f2157eea8226)
+**Fonte: [Search results page design: UI/UX best practices](https://medium.com/@halolab/search-results-page-design-ui-ux-best-practices-f2157eea8226)** · Halo Lab
 
 ---
 
@@ -253,7 +253,7 @@ Como um mecanismo de busca que utiliza busca semântica, o DuckDuckGo exibe todo
 
 ---
 
-[https://baymard.com/blog/no-results-page](https://baymard.com/blog/no-results-page)
+**Fonte: [5 Proven UX Strategies For “No Results” Pages](https://baymard.com/blog/no-results-page)** · Baymard
 
 ---
 
@@ -282,7 +282,7 @@ Se apenas uma consulta alternativa for encontrada, ela deverá ser **aplicada a
 
 ---
 
-[https://baymard.com/blog/ecommerce-search-query-types](https://baymard.com/blog/ecommerce-search-query-types)
+**Fonte: [Ecommerce Search UX Best Practices](https://baymard.com/blog/ecommerce-search-query-types)** · Baymard
 
 ---
 
@@ -299,7 +299,7 @@ Se apenas uma consulta alternativa for encontrada, ela deverá ser **aplicada a
 
 ---
 
-[https://www.nngroup.com/articles/enriched-site-search-suggestions/](https://www.nngroup.com/articles/enriched-site-search-suggestions/)
+**Fonte: [Enriched Site-Search Suggestions: Rarely Used](https://www.nngroup.com/articles/enriched-site-search-suggestions/)** · Nielsen Norman Group
 
 ---
 

@@ -41,40 +41,48 @@ tags:
 
 ## Referências
 
-[https://refero.design/](https://refero.design/)
-[https://component.gallery/components/](https://component.gallery/components/)
+- **[Refero](https://refero.design/)** · refero.design
+  A maior coleção de referências de UI/UX para web e iOS. Bom para buscar como outros resolveram uma tela específica.
+- **[The Component Gallery](https://component.gallery/components/)** · component.gallery
+  Repositório de componentes de interface com exemplos reais de design systems públicos.
 
 ---
 
 ## Ferramentas
 
-[https://designtools.fyi/](https://designtools.fyi/)
+- **[designtools.fyi](https://designtools.fyi/)** · designtools.fyi
+  Compara ferramentas de design por capacidade.
 
 ---
 
 ## Artigos
 
-[https://www.nngroup.com/articles/](https://www.nngroup.com/articles/)
-[https://uxdesign.cc/](https://uxdesign.cc/)
-[https://brasil.uxdesign.cc/](https://brasil.uxdesign.cc/)
-[https://baymard.com/blog/archive](https://baymard.com/blog/archive)
-[https://www.smashingmagazine.com/category/uxdesign/](https://www.smashingmagazine.com/category/uxdesign/)
-[https://alistapart.com/articles/](https://alistapart.com/articles/)
-[https://www.interaction-design.org/blog](https://www.interaction-design.org/blog)
-[https://uxbooth.com/articles/](https://uxbooth.com/articles/)
+- **[Nielsen Norman Group — Articles](https://www.nngroup.com/articles/)** · NN/g
+  Artigos baseados em pesquisa sobre UX, design de interação e usabilidade.
+- **[UX Collective](https://uxdesign.cc/)** · uxdesign.cc
+- **[UX Collective Brasil](https://brasil.uxdesign.cc/)** · uxdesign.cc
+  Em português.
+- **[Baymard Institute — arquivo de artigos](https://baymard.com/blog/archive)** · Baymard
+  Pesquisa de usabilidade em e-commerce, com base empírica grande.
+- **[Smashing Magazine — UX Design](https://www.smashingmagazine.com/category/uxdesign/)** · Smashing Magazine
+- **[A List Apart](https://alistapart.com/articles/)** · alistapart.com
+  "For people who make websites."
+- **[Interaction Design Foundation — Blog](https://www.interaction-design.org/blog)** · IxDF
+- ⚠️ [UX Booth](https://uxbooth.com/articles/) — site fora do ar, em loop de redirecionamento (verificado em 10 ago 2026)
 
 ---
 
 ## Canais
 
-[https://www.youtube.com/@NNgroup](https://www.youtube.com/@NNgroup)
-[https://www.youtube.com/@sneakpeekdesign](https://www.youtube.com/@sneakpeekdesign)
-[https://www.youtube.com/@SmashingMagazineVideos/videos](https://www.youtube.com/@SmashingMagazineVideos/videos)
-[https://www.youtube.com/@designsystemguide/videos](https://www.youtube.com/@designsystemguide/videos)
-[https://www.youtube.com/@AwwwardsTV/videos](https://www.youtube.com/@AwwwardsTV/videos)
-[https://www.youtube.com/@UXDX./videos](https://www.youtube.com/@UXDX./videos)
-[https://www.youtube.com/@Figma](https://www.youtube.com/@Figma)
-[https://www.youtube.com/@whosajid](https://www.youtube.com/@whosajid)
-https://www.youtube.com/playlist?list=PLoROMvodv4rMyupDF2O00r19JsmolyXdD (Stanford Human-Computer Interaction Seminar)
+- **[NN/g — Nielsen Norman Group](https://www.youtube.com/@NNgroup)** · YouTube
+- **[Sneak Peek Design](https://www.youtube.com/@sneakpeekdesign)** · YouTube
+- **[Smashing Magazine](https://www.youtube.com/@SmashingMagazineVideos/videos)** · YouTube
+- **[The Design System Guide](https://www.youtube.com/@designsystemguide/videos)** · YouTube
+- **[Awwwards TV](https://www.youtube.com/@AwwwardsTV/videos)** · YouTube
+- **[UXDX](https://www.youtube.com/@UXDX./videos)** · YouTube
+- **[Figma](https://www.youtube.com/@Figma)** · YouTube
+- **[Sajid](https://www.youtube.com/@whosajid)** · YouTube
+- **[Stanford HCI Seminar](https://www.youtube.com/playlist?list=PLoROMvodv4rMyupDF2O00r19JsmolyXdD)** · YouTube
+  Playlist do seminário de Human-Computer Interaction de Stanford.
 
 ---
