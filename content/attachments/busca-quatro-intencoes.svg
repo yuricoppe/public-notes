@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Quatro intenções de busca: encontrar um resultado certo, encontrar variedade, confirmar ausência e chegar a um lugar">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.5; }
+    .accent{ fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 15.5px; font-weight: 700; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">As quatro intenções por trás de uma busca</text>
+  <text x="0" y="44" class="muted cap">Cada uma pede um desenho de resultado diferente — e a terceira quase nunca é considerada</text>
+
+  <rect x="0"   y="66"  width="348" height="140" rx="8" class="box"/>
+  <circle cx="26" cy="96" r="7" class="accent"/>
+  <text x="46" y="101" class="ink h">Encontrar um resultado certo</text>
+  <text x="46" y="126" class="muted cap">Sabe que existe e quer chegar nele.</text>
+  <text x="46" y="152" class="accent mono">"pedido 12342-22"</text>
+  <text x="46" y="180" class="muted cap">Sucesso = o item no topo, sem ruído.</text>
+
+  <rect x="372" y="66"  width="348" height="140" rx="8" class="box"/>
+  <circle cx="398" cy="96" r="7" class="accent"/>
+  <text x="418" y="101" class="ink h">Encontrar uma variedade</text>
+  <text x="418" y="126" class="muted cap">Quer comparar antes de decidir.</text>
+  <text x="418" y="152" class="accent mono">"tênis de corrida masculino"</text>
+  <text x="418" y="180" class="muted cap">Sucesso = filtro, ordenação e contagem.</text>
+
+  <rect x="0"   y="228" width="348" height="140" rx="8" class="box"/>
+  <circle cx="26" cy="258" r="7" class="accent"/>
+  <text x="46" y="263" class="ink h">Confirmar que não existe</text>
+  <text x="46" y="288" class="muted cap">Busca para verificar uma ausência.</text>
+  <text x="46" y="314" class="accent mono">"duplicata 3201-000"</text>
+  <text x="46" y="342" class="muted cap">Sucesso = zero resultados, dito com clareza.</text>
+
+  <rect x="372" y="228" width="348" height="140" rx="8" class="box"/>
+  <circle cx="398" cy="258" r="7" class="accent"/>
+  <text x="418" y="263" class="ink h">Chegar a um lugar</text>
+  <text x="418" y="288" class="muted cap">Usa a busca como atalho de navegação.</text>
+  <text x="418" y="314" class="accent mono">"configurações de conta"</text>
+  <text x="418" y="342" class="muted cap">Sucesso = ir direto, sem página intermediária.</text>
+
+  <text x="0" y="394" class="muted cap">Tratar as quatro como uma só é a origem da maioria das páginas de resultado ruins.</text>
+</svg>

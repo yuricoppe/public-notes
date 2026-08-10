@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" width="720" height="430" role="img" aria-label="Gráfico: percentual de sites com problemas por tipo de consulta, segundo a Baymard. Busca não-produto 66%, abreviação e símbolo 54%, compatibilidade 44%, caso de uso 43%, característica 39%, sintoma 37%, tipo de produto 20%, busca exata 12%">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .track { fill: #e5e7eb; }
+    .hi  { fill: #dc2626; }
+    .mid { fill: #f59e0b; }
+    .lo  { fill: #10b981; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .lbl { font-size: 14px; }
+    .val { font-size: 14px; font-weight: 700; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .track { fill: #374151; }
+      .hi { fill: #f87171; }
+      .mid { fill: #fbbf24; }
+      .lo { fill: #34d399; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Sites com problemas, por tipo de consulta</text>
+  <text x="0" y="44" class="muted cap">Baymard, atualizado em abr 2026 — 170+ sites avaliados</text>
+
+  <g>
+    <text x="0" y="82" class="ink lbl">Busca não-produto</text>
+    <rect x="250" y="70" width="400" height="16" rx="8" class="track"/>
+    <rect x="250" y="70" width="264" height="16" rx="8" class="hi"/>
+    <text x="664" y="83" class="ink val">66%</text>
+  </g>
+  <g>
+    <text x="0" y="118" class="ink lbl">Abreviação e símbolo</text>
+    <rect x="250" y="106" width="400" height="16" rx="8" class="track"/>
+    <rect x="250" y="106" width="216" height="16" rx="8" class="hi"/>
+    <text x="664" y="119" class="ink val">54%</text>
+  </g>
+  <g>
+    <text x="0" y="154" class="ink lbl">Compatibilidade</text>
+    <rect x="250" y="142" width="400" height="16" rx="8" class="track"/>
+    <rect x="250" y="142" width="176" height="16" rx="8" class="mid"/>
+    <text x="664" y="155" class="ink val">44%</text>
+  </g>
+  <g>
+    <text x="0" y="190" class="ink lbl">Caso de uso</text>
+    <rect x="250" y="178" width="400" height="16" rx="8" class="track"/>
+    <rect x="250" y="178" width="172" height="16" rx="8" class="mid"/>
+    <text x="664" y="191" class="ink val">43%</text>
+  </g>
+  <g>
+    <text x="0" y="226" class="ink lbl">Característica</text>
+    <rect x="250" y="214" width="400" height="16" rx="8" class="track"/>
+    <rect x="250" y="214" width="156" height="16" rx="8" class="mid"/>
+    <text x="664" y="227" class="ink val">39%</text>
+  </g>
+  <g>
+    <text x="0" y="262" class="ink lbl">Sintoma</text>
+    <rect x="250" y="250" width="400" height="16" rx="8" class="track"/>
+    <rect x="250" y="250" width="148" height="16" rx="8" class="mid"/>
+    <text x="664" y="263" class="ink val">37%</text>
+  </g>
+  <g>
+    <text x="0" y="298" class="ink lbl">Tipo de produto</text>
+    <rect x="250" y="286" width="400" height="16" rx="8" class="track"/>
+    <rect x="250" y="286" width="80" height="16" rx="8" class="lo"/>
+    <text x="664" y="299" class="ink val">20%</text>
+  </g>
+  <g>
+    <text x="0" y="334" class="ink lbl">Busca exata</text>
+    <rect x="250" y="322" width="400" height="16" rx="8" class="track"/>
+    <rect x="250" y="322" width="48" height="16" rx="8" class="lo"/>
+    <text x="664" y="335" class="ink val">12%</text>
+  </g>
+
+  <text x="0" y="384" class="muted cap">O que os times testam (busca exata) é o que menos falha.</text>
+  <text x="0" y="406" class="muted cap">O que quase ninguém testa — abreviação, compatibilidade, pergunta que não é produto — é o que mais falha.</text>
+</svg>

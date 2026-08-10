@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" width="720" height="430" role="img" aria-label="Comparação entre uma página de zero resultados ruim, que só dá conselhos, e uma boa, que mantém a consulta, corrige o termo, sugere categoria e mostra prévia de produtos">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .panel { fill: #ffffff; stroke: #d1d5db; stroke-width: 1.5; }
+    .field { fill: #f9fafb; stroke: #9ca3af; stroke-width: 1.2; }
+    .chip  { fill: #dbeafe; }
+    .chipT { fill: #1e40af; }
+    .thumb { fill: #e5e7eb; }
+    .bad   { fill: #dc2626; }
+    .good  { fill: #059669; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 14px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    .sm  { font-size: 11.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .panel { fill: #111827; stroke: #4b5563; }
+      .field { fill: #1f2937; stroke: #6b7280; }
+      .chip { fill: #1e3a8a; }
+      .chipT { fill: #bfdbfe; }
+      .thumb { fill: #374151; }
+      .bad { fill: #f87171; }
+      .good { fill: #34d399; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Zero resultados: o beco sem saída e a saída</text>
+
+  <!-- BAD -->
+  <text x="0" y="62" class="bad h">✕ Beco sem saída</text>
+  <rect x="0" y="74" width="340" height="300" rx="8" class="panel"/>
+  <rect x="20" y="96" width="300" height="30" rx="6" class="field"/>
+  <text x="32" y="116" class="muted cap">Buscar…</text>
+  <text x="20" y="164" class="ink h">Nenhum resultado encontrado</text>
+  <text x="20" y="192" class="muted cap">Não desista! Tente outras palavras.</text>
+  <text x="20" y="214" class="muted cap">• Verifique a ortografia</text>
+  <text x="20" y="234" class="muted cap">• Use termos mais genéricos</text>
+  <text x="20" y="254" class="muted cap">• Tente menos palavras</text>
+  <text x="20" y="298" class="bad sm">A consulta sumiu do campo.</text>
+  <text x="20" y="318" class="bad sm">O conselho exige saber o que se errou.</text>
+  <text x="20" y="338" class="bad sm">Nenhum caminho para seguir clicando.</text>
+
+  <!-- GOOD -->
+  <text x="380" y="62" class="good h">✓ Caminho para continuar</text>
+  <rect x="380" y="74" width="340" height="300" rx="8" class="panel"/>
+  <rect x="400" y="96" width="300" height="30" rx="6" class="field"/>
+  <text x="412" y="116" class="ink cap">jaquetta vermelha inverno</text>
+  <text x="400" y="152" class="ink cap">Sem resultados para “jaquetta”.</text>
+  <text x="400" y="172" class="ink cap">Mostrando resultados para <tspan class="good" font-weight="700">jaqueta</tspan>.</text>
+
+  <text x="400" y="204" class="muted sm">EXPLORE A CATEGORIA</text>
+  <rect x="400" y="214" width="104" height="24" rx="12" class="chip"/>
+  <text x="414" y="230" class="chipT sm">Jaquetas</text>
+  <rect x="514" y="214" width="118" height="24" rx="12" class="chip"/>
+  <text x="528" y="230" class="chipT sm">Inverno</text>
+
+  <text x="400" y="268" class="muted sm">PRÉVIA DOS RESULTADOS</text>
+  <rect x="400" y="278" width="88" height="66" rx="5" class="thumb"/>
+  <rect x="500" y="278" width="88" height="66" rx="5" class="thumb"/>
+  <rect x="600" y="278" width="88" height="66" rx="5" class="thumb"/>
+  <text x="400" y="362" class="good sm">A consulta fica. O erro é corrigido sem culpar ninguém.</text>
+
+  <text x="0" y="406" class="muted cap">A diferença não é o tom da mensagem — é haver ou não algo clicável que leve adiante.</text>
+</svg>

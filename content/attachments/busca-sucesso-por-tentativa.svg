@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img" aria-label="Gráfico de barras: taxa de sucesso da busca cai de 51% na primeira tentativa para 32% na segunda e 18% na terceira">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .axis  { stroke: #9ca3af; stroke-width: 1; }
+    .grid  { stroke: #d1d5db; stroke-width: 1; stroke-dasharray: 3 4; }
+    .b1 { fill: #2563eb; }
+    .b2 { fill: #60a5fa; }
+    .b3 { fill: #bfdbfe; }
+    .pct { font-size: 26px; font-weight: 700; }
+    .lbl { font-size: 15px; }
+    .cap { font-size: 13px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .axis { stroke: #6b7280; }
+      .grid { stroke: #4b5563; }
+      .b3 { fill: #1e3a5f; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Taxa de sucesso da busca, por tentativa</text>
+  <text x="0" y="44" class="muted cap">Nielsen Norman Group, 2001 — dado histórico</text>
+
+  <line x1="60" y1="80"  x2="700" y2="80"  class="grid"/>
+  <line x1="60" y1="150" x2="700" y2="150" class="grid"/>
+  <line x1="60" y1="220" x2="700" y2="220" class="grid"/>
+  <text x="30" y="85"  class="muted cap">60%</text>
+  <text x="30" y="155" class="muted cap">40%</text>
+  <text x="30" y="225" class="muted cap">20%</text>
+
+  <line x1="60" y1="290" x2="700" y2="290" class="axis"/>
+
+  <rect x="120" y="112" width="130" height="178" rx="4" class="b1"/>
+  <text x="185" y="100" class="ink pct" text-anchor="middle">51%</text>
+  <text x="185" y="314" class="ink lbl" text-anchor="middle">1ª consulta</text>
+
+  <rect x="315" y="178" width="130" height="112" rx="4" class="b2"/>
+  <text x="380" y="166" class="ink pct" text-anchor="middle">32%</text>
+  <text x="380" y="314" class="ink lbl" text-anchor="middle">2ª consulta</text>
+
+  <rect x="510" y="227" width="130" height="63" rx="4" class="b3"/>
+  <text x="575" y="215" class="ink pct" text-anchor="middle">18%</text>
+  <text x="575" y="314" class="ink lbl" text-anchor="middle">3ª consulta</text>
+
+  <text x="0" y="336" class="muted cap">Quase metade de quem falha na primeira tentativa desiste ali mesmo.</text>
+</svg>
