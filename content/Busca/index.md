@@ -24,7 +24,45 @@ tags:
 - **[Search: Visible and Simple](https://www.nngroup.com/articles/search-visible-and-simple/)** · Nielsen Norman Group
   A busca é a tábua de salvação em site complexo. Resumido em [[Artigos Nielsen Norman Group]].
 
-[[📌 Resumo dos Artigos Analisados]]
+### Pontos principais de cada um
+
+Os títulos abaixo seguem a mesma ordem da lista acima.
+
+**1. Search UX** · Pencil & Paper
+- Funcionalidade crítica para usuários que já sabem o que querem.
+- **Autocomplete** e sugestões em tempo real reduzem erros.
+- Filtros avançados e ordenação são essenciais.
+- Design deve priorizar **simplicidade** e **velocidade**.
+
+**2. Search UX Best Practices** · Nulab
+- **Visibilidade:** campo de busca no topo da página.
+- **Feedback visual:** mostrar resultados parciais durante a digitação.
+- **Tratamento de erros:** sugestões para termos mal digitados.
+- **Mobile-first:** adaptação para dispositivos móveis.
+
+**3. Best Practices for Search Results** · UX Planet
+- **Hierarquia visual:** destaque resultados relevantes (ex.: promoções).
+- **Paginação clara:** evite scroll infinito para comparação.
+- **Filtros contextuais:** por categoria, preço, localização.
+- **Performance:** carregamento rápido é essencial.
+
+**4. Search Results Page Design** · Halo Lab
+- **Layout consistente:** cards ou listas organizadas.
+- **Informações essenciais:** preço, disponibilidade, avaliações.
+- **Empty states:** sugestões para buscas sem resultados.
+- **CTA claro:** botões como "Agendar agora" visíveis.
+
+**5. Search Box UX Examples** · Coveo
+- **Placeholder útil:** ex.: "Buscar exames ou vacinas".
+- **Ícone de busca:** lupa universalmente reconhecida.
+- **Busca avançada:** opções por tipo de exame ou faixa etária.
+- **Histórico de busca:** facilita buscas repetidas.
+
+**6. Search: Visible and Simple** · Nielsen Norman Group
+- **Acessibilidade:** fácil para todos os usuários.
+- **Minimalismo:** evite elementos desnecessários.
+- **Testes de usabilidade:** valide com usuários reais.
+- **Padrões reconhecíveis:** ex.: campo no header.
 
 ---
 

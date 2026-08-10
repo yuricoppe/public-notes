@@ -9,7 +9,7 @@ tags:
 
 ## Artigos sobre UX para Empresas de Saúde
 
-[[🔗 link — Digital Interactions in Healthcare Customer Journeys]]
+[[Digital Interactions in Healthcare Customer Journeys]]
 
 ## Nielsen Norman Group
 

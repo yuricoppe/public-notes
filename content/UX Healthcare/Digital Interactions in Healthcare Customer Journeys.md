@@ -1,5 +1,5 @@
 ---
-title: "🔗 link — Digital Interactions in Healthcare Customer Journeys"
+title: "Digital Interactions in Healthcare Customer Journeys"
 description: "Artigo do NN/g sobre jornadas digitais fragmentadas em saúde, com os trechos destacados na leitura"
 tags:
   - tema/ux

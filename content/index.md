@@ -34,6 +34,8 @@ tags:
 [[DataViz]]
 [[Pagamento/index]]
 [[Gen UI]]
+[[Dashboard]]
+[[Gerenciamento de conta]]
 
 ---
 
