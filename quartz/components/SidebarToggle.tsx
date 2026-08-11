@@ -5,26 +5,35 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import styles from "./styles/sidebartoggle.scss"
 
 /**
- * Botão que recolhe a coluna esquerda. Mora dentro da própria coluna, no topo.
+ * Abre a gaveta de navegação.
+ *
+ * Só existe abaixo de 1200px, onde a coluna esquerda é sobreposta. No desktop a
+ * coluna está sempre visível e quem quer o texto sozinho usa o modo leitura —
+ * um botão de recolher seria um segundo caminho para o mesmo lugar.
  */
 const SidebarToggle: QuartzComponent = ({ displayClass }: QuartzComponentProps) => (
-  <div class={classNames(displayClass, "sidebar-toggle-row")}>
-    <button class="sidebar-toggle" type="button" aria-expanded="true" title="Esconder a navegação">
-      <span class="sr-only">Esconder a navegação</span>
-      <svg
-        width="16"
-        height="16"
-        viewBox="0 0 16 16"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="1.4"
-        aria-hidden="true"
-      >
-        <rect x="1.5" y="2.5" width="13" height="11" rx="1.5" />
-        <line x1="6" y1="2.5" x2="6" y2="13.5" />
-      </svg>
-    </button>
-  </div>
+  <button
+    class={classNames(displayClass, "sidebar-toggle")}
+    type="button"
+    aria-expanded="false"
+    title="Abrir a navegação"
+  >
+    <span class="sr-only">Abrir a navegação</span>
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      aria-hidden="true"
+    >
+      <line x1="4" x2="20" y1="6" y2="6" />
+      <line x1="4" x2="20" y1="12" y2="12" />
+      <line x1="4" x2="20" y1="18" y2="18" />
+    </svg>
+  </button>
 )
 
 SidebarToggle.css = styles

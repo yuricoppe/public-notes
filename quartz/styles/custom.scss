@@ -23,7 +23,7 @@
   --nav-width: 19rem;
   --aside-width: 17rem;
   --reading-width: 75ch;
-  --home-width: 76rem;
+  --home-width: 1200px;
 }
 
 /* ---------------------------------------------------------------- *
@@ -86,28 +86,12 @@
   }
 
   // Teto de leitura: o centro estica, o texto não.
-  & .center > .page-header,
-  & .center > article,
-  & .center > .page-footer,
-  & .center > hr {
+  //
+  // O alvo é `> *`, não `> article`: nas páginas de pasta o emissor embrulha o
+  // artigo num `div.popover-hint`, então um seletor que nomeie `article`
+  // funciona nos artigos e falha justamente nos índices.
+  & .center > * {
     max-width: var(--reading-width);
-  }
-}
-
-/* ---------------------------------------------------------------- *
- * Coluna esquerda recolhível
- * ---------------------------------------------------------------- */
-
-@media all and ($desktop) {
-  html[data-sidebar="collapsed"] .page > #quartz-body {
-    grid-template-columns: 0 minmax(0, 1fr) var(--aside-width);
-  }
-
-  html[data-sidebar="collapsed"] .page > #quartz-body > .sidebar.left {
-    visibility: hidden;
-    border-right: 0;
-    padding-left: 0;
-    padding-right: 0;
   }
 }
 
@@ -181,34 +165,110 @@
 }
 
 /* ---------------------------------------------------------------- *
+ * Coluna esquerda: navegação no estilo do GitHub Docs
+ * ---------------------------------------------------------------- */
+
+.sidebar.left .explorer {
+  overflow: visible;
+  flex: 1 1 auto;
+
+  // O primeiro nível era o próprio rótulo "Explorador", que recolhia a árvore
+  // inteira. Numa coluna que só tem a navegação, o rótulo não informa nada e o
+  // recolher total não serve para nada — a lista começa nas pastas.
+  & > button.desktop-explorer {
+    display: none;
+  }
+
+  & .explorer-content {
+    margin-top: 0;
+    overflow: visible;
+  }
+
+  // Cada pasta é uma linha inteira, separada por um filete, com a seta na
+  // ponta direita.
+  & .explorer-content > .explorer-ul > li {
+    border-bottom: 1px solid var(--lightgray);
+  }
+
+  & .explorer-content > .explorer-ul > li > .folder-container {
+    padding: 0.55rem 0.1rem;
+
+    & > .folder-icon {
+      order: 2;
+      margin-left: auto;
+      margin-right: 0;
+    }
+
+    & > div {
+      min-width: 0;
+    }
+  }
+
+  // Os filhos ficam por indentação, sem o filete vertical do padrão.
+  & .folder-outer > ul {
+    margin-left: 0;
+    padding-left: 0.35rem;
+    border-left: 0;
+    padding-bottom: 0.4rem;
+  }
+
+  // Arquivo: linha inteira clicável, com a marca à esquerda quando é a atual.
+  & .explorer-content li > a {
+    display: block;
+    padding: 0.25rem 0.5rem;
+    border-left: 3px solid transparent;
+    border-radius: 0 4px 4px 0;
+    font-size: 0.88rem;
+    line-height: 1.35;
+    opacity: 1;
+    color: var(--darkgray);
+
+    &:hover {
+      background: var(--lightgray);
+      color: var(--dark);
+    }
+
+    &.active {
+      background: var(--lightgray);
+      border-left-color: var(--secondary);
+      color: var(--dark);
+      font-weight: $semiBoldWeight;
+    }
+  }
+}
+
+/* ---------------------------------------------------------------- *
  * Página inicial em grade
  * ---------------------------------------------------------------- */
 
 body[data-slug="index"] {
-  // Única página sem colunas laterais: o acervo inteiro em grade, como na
-  // home do GitHub Docs.
+  // Única página sem colunas laterais. A grade sai de cena por completo: só
+  // sobrescrever as colunas não bastava, porque o `base.scss` também define
+  // `grid-template-areas` com três faixas nomeadas, e o centro continuava
+  // ancorado na faixa do meio.
   & .page > #quartz-body {
-    grid-template-columns: minmax(0, 1fr);
+    display: block;
+    padding: 0;
   }
 
   & .sidebar {
     display: none;
   }
 
-  & .center {
+  // O `#quartz-body` precisa entrar nos seletores: as regras gerais do centro
+  // carregam esse id, e sem ele o teto de leitura de 75ch ganharia daqui.
+  & .page > #quartz-body .center {
     padding: 0 2rem;
   }
 
-  & .center > .page-header,
-  & .center > article,
-  & .center > .page-footer,
-  & .center > hr {
+  & .page > #quartz-body .center > *,
+  & .page > #quartz-body > footer {
     max-width: var(--home-width);
     margin-left: auto;
     margin-right: auto;
   }
 
-  & .center > article > h2 {
+  & .center h2 {
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.04em;
@@ -218,7 +278,7 @@ body[data-slug="index"] {
     margin-top: 2.5rem;
   }
 
-  & .center > article > ul {
+  & .center article > ul {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     gap: 0.25rem 2rem;
@@ -241,5 +301,20 @@ body[data-slug="index"] {
       }
     }
   }
+}
 
+/* ---------------------------------------------------------------- *
+ * Migalhas: sai o "Home", fica a seta
+ * ---------------------------------------------------------------- */
+
+// A marca à esquerda já volta para a home, então repetir "Home" na primeira
+// migalha é redundante. A seta fica: ela mostra que existe um nível acima.
+.topbar-trail .breadcrumb-element:first-child > a {
+  display: none;
+}
+
+// Na home a única migalha era o próprio "Home": sem ela a faixa fica um filete
+// solto do lado da marca.
+body[data-slug="index"] .topbar-trail {
+  display: none;
 }

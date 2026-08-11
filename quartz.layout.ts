@@ -4,7 +4,8 @@ import * as Component from "./quartz/components"
 // Barra do topo: marca · migalhas · busca, tema e leitura à direita.
 // Vive no slot `chrome`, irmão da grade — ver openspec/changes/adopt-docs-style-layout.
 const topBar = Component.TopBar({
-  trail: [Component.Breadcrumbs(), Component.SidebarToggle()],
+  nav: [Component.SidebarToggle()],
+  trail: [Component.Breadcrumbs()],
   actions: [
     Component.Search(),
     Component.Darkmode(),
@@ -29,7 +30,7 @@ const onlyOutsideHome = (component: Parameters<typeof Component.ConditionalRende
 // páginas de conteúdo (uma nota)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.ContentMeta(), Component.TagList()],
-  left: [onlyOutsideHome(Component.SidebarToggle()), onlyOutsideHome(Component.Explorer())],
+  left: [onlyOutsideHome(Component.Explorer())],
   right: [
     onlyOutsideHome(Component.DesktopOnly(Component.TableOfContents())),
     onlyOutsideHome(Component.Graph()),
@@ -40,6 +41,6 @@ export const defaultContentPageLayout: PageLayout = {
 // páginas de listagem (pastas e tags)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.ContentMeta()],
-  left: [Component.SidebarToggle(), Component.Explorer()],
+  left: [Component.Explorer()],
   right: [],
 }
