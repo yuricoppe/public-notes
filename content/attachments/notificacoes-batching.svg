@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 422" width="720" height="422" role="img" aria-label="Resultado do experimento de Fitz e colegas de 2019 com quatro grupos: entrega normal, lotes de hora em hora, lotes três vezes ao dia e nenhuma notificação. Só os lotes três vezes ao dia melhoraram atenção, humor e estresse; a entrega horária não se distinguiu do controle e o desligamento total aumentou a ansiedade">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .dot   { fill: #9ca3af; }
+    .ok    { fill: #10b981; }
+    .neu   { fill: #9ca3af; }
+    .bad   { fill: #dc2626; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 14px; font-weight: 700; }
+    .k   { font-size: 11.5px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .dot { fill: #6b7280; }
+      .ok { fill: #34d399; } .neu { fill: #6b7280; } .bad { fill: #f87171; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Agrupar funciona — mas só com intervalo largo</text>
+  <text x="0" y="44" class="muted cap">Experimento de campo randomizado, n = 237, duas semanas (Fitz e colegas, 2019). Cada ponto é uma entrega.</text>
+
+  <rect x="0" y="66" width="720" height="66" rx="8" class="box"/>
+  <text x="16" y="90" class="ink h">Entrega normal</text>
+  <text x="16" y="110" class="muted cap">controle — fluxo variável e imprevisível</text>
+  <g class="dot">
+    <circle cx="300" cy="98" r="4"/><circle cx="318" cy="98" r="4"/><circle cx="341" cy="98" r="4"/><circle cx="352" cy="98" r="4"/>
+    <circle cx="384" cy="98" r="4"/><circle cx="399" cy="98" r="4"/><circle cx="406" cy="98" r="4"/><circle cx="437" cy="98" r="4"/>
+    <circle cx="452" cy="98" r="4"/><circle cx="471" cy="98" r="4"/><circle cx="479" cy="98" r="4"/><circle cx="510" cy="98" r="4"/>
+    <circle cx="523" cy="98" r="4"/><circle cx="548" cy="98" r="4"/><circle cx="559" cy="98" r="4"/><circle cx="588" cy="98" r="4"/>
+    <circle cx="601" cy="98" r="4"/><circle cx="627" cy="98" r="4"/><circle cx="646" cy="98" r="4"/><circle cx="681" cy="98" r="4"/>
+  </g>
+  <circle cx="270" cy="98" r="6" class="neu"/>
+
+  <rect x="0" y="144" width="720" height="66" rx="8" class="box"/>
+  <text x="16" y="168" class="ink h">Lotes de hora em hora</text>
+  <text x="16" y="188" class="muted cap">não se distinguiu do controle</text>
+  <g class="dot">
+    <circle cx="300" cy="176" r="4"/><circle cx="334" cy="176" r="4"/><circle cx="368" cy="176" r="4"/><circle cx="402" cy="176" r="4"/>
+    <circle cx="436" cy="176" r="4"/><circle cx="470" cy="176" r="4"/><circle cx="504" cy="176" r="4"/><circle cx="538" cy="176" r="4"/>
+    <circle cx="572" cy="176" r="4"/><circle cx="606" cy="176" r="4"/><circle cx="640" cy="176" r="4"/><circle cx="674" cy="176" r="4"/>
+  </g>
+  <circle cx="270" cy="176" r="6" class="neu"/>
+
+  <rect x="0" y="222" width="720" height="66" rx="8" class="box"/>
+  <text x="16" y="246" class="ink h">Lotes três vezes ao dia</text>
+  <text x="16" y="266" class="muted cap">9h, 15h e 21h — mais atenção, melhor humor, menos estresse</text>
+  <g class="ok">
+    <circle cx="330" cy="254" r="7"/><circle cx="490" cy="254" r="7"/><circle cx="650" cy="254" r="7"/>
+  </g>
+  <circle cx="270" cy="254" r="6" class="ok"/>
+
+  <rect x="0" y="300" width="720" height="66" rx="8" class="box"/>
+  <text x="16" y="324" class="ink h">Nenhuma notificação</text>
+  <text x="16" y="344" class="muted cap">poucos dos ganhos, e mais ansiedade e medo de estar perdendo algo</text>
+  <circle cx="270" cy="332" r="6" class="bad"/>
+  <text x="300" y="337" class="muted cap">— nada o dia inteiro —</text>
+
+  <text x="0" y="392" class="muted cap">O intervalo previsível é o ingrediente ativo: de hora em hora ainda é frequente demais para deixar de</text>
+  <text x="0" y="412" class="muted cap">fragmentar a atenção, e o silêncio total apenas troca interrupção por incerteza.</text>
+</svg>

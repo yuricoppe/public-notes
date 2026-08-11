@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 482" width="720" height="482" role="img" aria-label="Árvore de decisão para anunciar mensagens a leitores de tela: se a pessoa precisa parar o que está fazendo, use role alert; se é resultado de uma ação ou progresso, use role status com aria-live polite; se é uma lista que cresce, use role log; e se a mensagem bloqueia a tarefa, o componente certo é alertdialog, não uma live region">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.3; }
+    .accent{ fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12.5px; }
+    .line  { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 14px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .accent { fill: #60a5fa; }
+      .line { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Qual região viva usar</text>
+  <text x="0" y="44" class="muted cap">A pergunta não é “quão importante é a mensagem”, e sim “vale interromper a frase que está sendo falada agora”</text>
+
+  <rect x="0" y="70" width="720" height="46" rx="8" class="box"/>
+  <text x="16" y="99" class="ink h">A mensagem impede a pessoa de continuar a tarefa?</text>
+
+  <path d="M120 116 V140" class="line"/>
+  <path d="M560 116 V140" class="line"/>
+  <text x="130" y="134" class="muted cap">sim</text>
+  <text x="570" y="134" class="muted cap">não</text>
+
+  <rect x="0" y="142" width="330" height="112" rx="8" class="box"/>
+  <text x="16" y="168" class="accent mono">role="alertdialog"</text>
+  <text x="16" y="194" class="muted cap">Recebe foco, tem título e botões.</text>
+  <text x="16" y="214" class="muted cap">Não é região viva — é diálogo.</text>
+  <text x="16" y="240" class="muted cap">Se está bloqueando, tem que ser navegável.</text>
+
+  <rect x="390" y="142" width="330" height="46" rx="8" class="box"/>
+  <text x="406" y="171" class="ink h">É urgente a ponto de cortar a fala?</text>
+
+  <path d="M470 188 V212" class="line"/>
+  <path d="M650 188 V212" class="line"/>
+  <text x="480" y="206" class="muted cap">sim</text>
+  <text x="660" y="206" class="muted cap">não</text>
+
+  <rect x="390" y="214" width="150" height="96" rx="8" class="box"/>
+  <text x="404" y="240" class="accent mono">role="alert"</text>
+  <text x="404" y="264" class="muted cap">Erro que impede</text>
+  <text x="404" y="282" class="muted cap">seguir. Interrompe</text>
+  <text x="404" y="300" class="muted cap">o que estiver sendo lido.</text>
+
+  <rect x="552" y="214" width="168" height="96" rx="8" class="box"/>
+  <text x="566" y="240" class="accent mono">role="status"</text>
+  <text x="566" y="264" class="muted cap">Sucesso, progresso,</text>
+  <text x="566" y="282" class="muted cap">contagem de resultados.</text>
+  <text x="566" y="300" class="muted cap">Espera a pessoa parar.</text>
+
+  <rect x="0" y="330" width="720" height="96" rx="8" class="box"/>
+  <text x="16" y="354" class="ink h">Três coisas que quebram tudo, independentemente do papel escolhido</text>
+  <text x="16" y="378" class="muted cap">1. A região precisa existir vazia no HTML antes de a mensagem chegar.</text>
+  <text x="16" y="398" class="muted cap">2. Trocar o texto por texto igual não dispara anúncio nenhum.</text>
+  <text x="16" y="418" class="muted cap">3. Sumir por tempo apaga o anúncio no meio da frase.</text>
+
+  <text x="0" y="452" class="muted cap">Uma lista que só cresce — log de chat, console — usa <tspan class="accent mono">role="log"</tspan>. E <tspan class="accent mono">aria-live="polite"</tspan> redundante</text>
+  <text x="0" y="472" class="muted cap">junto ao papel ainda melhora a compatibilidade entre leitores de tela.</text>
+</svg>

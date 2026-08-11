@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 362" width="720" height="362" role="img" aria-label="Comparação entre os 275 alarmes que dois operadores receberam nos 11 minutos antes da explosão de Milford Haven em 1994 e o limite recomendado pela EEMUA, de no máximo 10 alarmes nos primeiros 10 minutos depois de uma perturbação">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .bad   { fill: #dc2626; }
+    .good  { fill: #10b981; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .num { font-size: 26px; font-weight: 700; }
+    .h   { font-size: 14px; font-weight: 700; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .bad { fill: #f87171; }
+      .good { fill: #34d399; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">O que dois operadores tiveram que processar em 11 minutos</text>
+  <text x="0" y="44" class="muted cap">Refinaria da Texaco, Milford Haven, 24 de julho de 1994 — cada traço é um alarme</text>
+
+  <rect x="0" y="66" width="720" height="118" rx="8" class="box"/>
+  <text x="20" y="92" class="bad num">275</text>
+  <text x="86" y="92" class="ink h">alarmes exigindo reconhecimento e ação</text>
+  <text x="86" y="112" class="muted cap">nos 11 minutos anteriores à explosão — cerca de 25 por minuto</text>
+
+  <g class="bad">
+    <rect x="20" y="128" width="2" height="34"/><rect x="25" y="128" width="2" height="34"/><rect x="30" y="128" width="2" height="34"/><rect x="35" y="128" width="2" height="34"/><rect x="40" y="128" width="2" height="34"/>
+    <rect x="45" y="128" width="2" height="34"/><rect x="50" y="128" width="2" height="34"/><rect x="55" y="128" width="2" height="34"/><rect x="60" y="128" width="2" height="34"/><rect x="65" y="128" width="2" height="34"/>
+    <rect x="70" y="128" width="2" height="34"/><rect x="75" y="128" width="2" height="34"/><rect x="80" y="128" width="2" height="34"/><rect x="85" y="128" width="2" height="34"/><rect x="90" y="128" width="2" height="34"/>
+    <rect x="95" y="128" width="2" height="34"/><rect x="100" y="128" width="2" height="34"/><rect x="105" y="128" width="2" height="34"/><rect x="110" y="128" width="2" height="34"/><rect x="115" y="128" width="2" height="34"/>
+    <rect x="120" y="128" width="2" height="34"/><rect x="125" y="128" width="2" height="34"/><rect x="130" y="128" width="2" height="34"/><rect x="135" y="128" width="2" height="34"/><rect x="140" y="128" width="2" height="34"/>
+    <rect x="145" y="128" width="2" height="34"/><rect x="150" y="128" width="2" height="34"/><rect x="155" y="128" width="2" height="34"/><rect x="160" y="128" width="2" height="34"/><rect x="165" y="128" width="2" height="34"/>
+    <rect x="170" y="128" width="2" height="34"/><rect x="175" y="128" width="2" height="34"/><rect x="180" y="128" width="2" height="34"/><rect x="185" y="128" width="2" height="34"/><rect x="190" y="128" width="2" height="34"/>
+    <rect x="195" y="128" width="2" height="34"/><rect x="200" y="128" width="2" height="34"/><rect x="205" y="128" width="2" height="34"/><rect x="210" y="128" width="2" height="34"/><rect x="215" y="128" width="2" height="34"/>
+    <rect x="220" y="128" width="2" height="34"/><rect x="225" y="128" width="2" height="34"/><rect x="230" y="128" width="2" height="34"/><rect x="235" y="128" width="2" height="34"/><rect x="240" y="128" width="2" height="34"/>
+    <rect x="245" y="128" width="2" height="34"/><rect x="250" y="128" width="2" height="34"/><rect x="255" y="128" width="2" height="34"/><rect x="260" y="128" width="2" height="34"/><rect x="265" y="128" width="2" height="34"/>
+    <rect x="270" y="128" width="2" height="34"/><rect x="275" y="128" width="2" height="34"/><rect x="280" y="128" width="2" height="34"/><rect x="285" y="128" width="2" height="34"/><rect x="290" y="128" width="2" height="34"/>
+    <rect x="295" y="128" width="2" height="34"/><rect x="300" y="128" width="2" height="34"/><rect x="305" y="128" width="2" height="34"/><rect x="310" y="128" width="2" height="34"/><rect x="315" y="128" width="2" height="34"/>
+    <rect x="320" y="128" width="2" height="34"/><rect x="325" y="128" width="2" height="34"/><rect x="330" y="128" width="2" height="34"/><rect x="335" y="128" width="2" height="34"/><rect x="340" y="128" width="2" height="34"/>
+    <rect x="345" y="128" width="2" height="34"/><rect x="350" y="128" width="2" height="34"/><rect x="355" y="128" width="2" height="34"/><rect x="360" y="128" width="2" height="34"/><rect x="365" y="128" width="2" height="34"/>
+    <rect x="370" y="128" width="2" height="34"/><rect x="375" y="128" width="2" height="34"/><rect x="380" y="128" width="2" height="34"/><rect x="385" y="128" width="2" height="34"/><rect x="390" y="128" width="2" height="34"/>
+    <rect x="395" y="128" width="2" height="34"/><rect x="400" y="128" width="2" height="34"/><rect x="405" y="128" width="2" height="34"/><rect x="410" y="128" width="2" height="34"/><rect x="415" y="128" width="2" height="34"/>
+    <rect x="420" y="128" width="2" height="34"/><rect x="425" y="128" width="2" height="34"/><rect x="430" y="128" width="2" height="34"/><rect x="435" y="128" width="2" height="34"/><rect x="440" y="128" width="2" height="34"/>
+    <rect x="445" y="128" width="2" height="34"/><rect x="450" y="128" width="2" height="34"/><rect x="455" y="128" width="2" height="34"/><rect x="460" y="128" width="2" height="34"/><rect x="465" y="128" width="2" height="34"/>
+    <rect x="470" y="128" width="2" height="34"/><rect x="475" y="128" width="2" height="34"/><rect x="480" y="128" width="2" height="34"/><rect x="485" y="128" width="2" height="34"/><rect x="490" y="128" width="2" height="34"/>
+    <rect x="495" y="128" width="2" height="34"/><rect x="500" y="128" width="2" height="34"/><rect x="505" y="128" width="2" height="34"/><rect x="510" y="128" width="2" height="34"/><rect x="515" y="128" width="2" height="34"/>
+    <rect x="520" y="128" width="2" height="34"/><rect x="525" y="128" width="2" height="34"/><rect x="530" y="128" width="2" height="34"/><rect x="535" y="128" width="2" height="34"/><rect x="540" y="128" width="2" height="34"/>
+    <rect x="545" y="128" width="2" height="34"/><rect x="550" y="128" width="2" height="34"/><rect x="555" y="128" width="2" height="34"/><rect x="560" y="128" width="2" height="34"/><rect x="565" y="128" width="2" height="34"/>
+    <rect x="570" y="128" width="2" height="34"/><rect x="575" y="128" width="2" height="34"/><rect x="580" y="128" width="2" height="34"/><rect x="585" y="128" width="2" height="34"/><rect x="590" y="128" width="2" height="34"/>
+    <rect x="595" y="128" width="2" height="34"/><rect x="600" y="128" width="2" height="34"/><rect x="605" y="128" width="2" height="34"/><rect x="610" y="128" width="2" height="34"/><rect x="615" y="128" width="2" height="34"/>
+    <rect x="620" y="128" width="2" height="34"/><rect x="625" y="128" width="2" height="34"/><rect x="630" y="128" width="2" height="34"/><rect x="635" y="128" width="2" height="34"/><rect x="640" y="128" width="2" height="34"/>
+    <rect x="645" y="128" width="2" height="34"/><rect x="650" y="128" width="2" height="34"/><rect x="655" y="128" width="2" height="34"/><rect x="660" y="128" width="2" height="34"/><rect x="665" y="128" width="2" height="34"/>
+    <rect x="670" y="128" width="2" height="34"/><rect x="675" y="128" width="2" height="34"/><rect x="680" y="128" width="2" height="34"/><rect x="685" y="128" width="2" height="34"/><rect x="690" y="128" width="2" height="34"/>
+    <rect x="695" y="128" width="2" height="34"/><rect x="700" y="128" width="2" height="34"/>
+  </g>
+
+  <rect x="0" y="200" width="720" height="90" rx="8" class="box"/>
+  <text x="20" y="228" class="good num">10</text>
+  <text x="70" y="228" class="ink h">alarmes é o teto recomendado para os 10 minutos seguintes a uma perturbação grave</text>
+  <text x="70" y="248" class="muted cap">Em operação normal, a meta é 1 alarme a cada 10 minutos por operador (EEMUA 191, via HSE)</text>
+  <g class="good">
+    <rect x="20" y="262" width="2" height="16"/><rect x="25" y="262" width="2" height="16"/><rect x="30" y="262" width="2" height="16"/><rect x="35" y="262" width="2" height="16"/><rect x="40" y="262" width="2" height="16"/>
+    <rect x="45" y="262" width="2" height="16"/><rect x="50" y="262" width="2" height="16"/><rect x="55" y="262" width="2" height="16"/><rect x="60" y="262" width="2" height="16"/><rect x="65" y="262" width="2" height="16"/>
+  </g>
+
+  <text x="0" y="312" class="muted cap">Vinte e seis pessoas feridas e cerca de £48 milhões em danos. O sistema não escondeu a informação:</text>
+  <text x="0" y="330" class="muted cap">entregou toda ela, ao mesmo tempo.</text>
+  <text x="0" y="352" class="muted cap">É a diferença entre notificar e conseguir ser ouvido.</text>
+</svg>

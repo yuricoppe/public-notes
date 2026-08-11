@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 496" width="720" height="496" role="img" aria-label="Escada de interrupção: sete degraus ordenados do menos ao mais intrusivo — indicador, notificação inline, callout, toast, banner global, push e modal — com o custo de atenção de cada um e quando cabe usá-lo">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .g1 { fill: #10b981; }
+    .g2 { fill: #84cc16; }
+    .g3 { fill: #eab308; }
+    .g4 { fill: #f59e0b; }
+    .g5 { fill: #ea580c; }
+    .g6 { fill: #dc2626; }
+    .line { stroke: #9ca3af; stroke-width: 1.5; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 14px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .line { stroke: #6b7280; }
+      .g1 { fill: #34d399; } .g2 { fill: #a3e635; } .g3 { fill: #facc15; }
+      .g4 { fill: #fbbf24; } .g5 { fill: #fb923c; } .g6 { fill: #f87171; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">A escada de interrupção</text>
+  <text x="0" y="44" class="muted cap">Escolher o componente é escolher quanta atenção gastar. Desça o máximo que a mensagem permitir.</text>
+
+  <line x1="12" y1="70" x2="12" y2="418" class="line"/>
+  <text x="24" y="82" class="muted cap">quieto</text>
+  <text x="24" y="414" class="muted cap">bloqueante</text>
+
+  <rect x="72" y="66" width="648" height="44" rx="6" class="box"/>
+  <rect x="72" y="66" width="6" height="44" class="g1"/>
+  <text x="92" y="86" class="ink h">Indicador</text>
+  <text x="230" y="86" class="muted cap">Ponto, contador, negrito. Não anuncia nada: espera ser notado.</text>
+  <text x="230" y="103" class="muted cap">Para: “tem coisa nova aqui”. Custo de atenção próximo de zero.</text>
+
+  <rect x="72" y="118" width="648" height="44" rx="6" class="box"/>
+  <rect x="72" y="118" width="6" height="44" class="g1"/>
+  <text x="92" y="138" class="ink h">Notificação inline</text>
+  <text x="230" y="138" class="muted cap">Fica na região da tela a que se refere e persiste até resolver.</text>
+  <text x="230" y="155" class="muted cap">Para: erro de campo, resultado de uma ação, estado de uma seção.</text>
+
+  <rect x="72" y="170" width="648" height="44" rx="6" class="box"/>
+  <rect x="72" y="170" width="6" height="44" class="g2"/>
+  <text x="92" y="190" class="ink h">Callout</text>
+  <text x="230" y="190" class="muted cap">Carrega junto com a página, não é disparado por ninguém.</text>
+  <text x="230" y="207" class="muted cap">Para: orientar antes da tarefa. Não serve de feedback.</text>
+
+  <rect x="72" y="222" width="648" height="44" rx="6" class="box"/>
+  <rect x="72" y="222" width="6" height="44" class="g3"/>
+  <text x="92" y="242" class="ink h">Toast</text>
+  <text x="230" y="242" class="muted cap">Entra, fica alguns segundos, sai. Some sem garantia de leitura.</text>
+  <text x="230" y="259" class="muted cap">Para: confirmação passageira. Nunca para erro que precise de ação.</text>
+
+  <rect x="72" y="274" width="648" height="44" rx="6" class="box"/>
+  <rect x="72" y="274" width="6" height="44" class="g4"/>
+  <text x="92" y="294" class="ink h">Banner global</text>
+  <text x="230" y="294" class="muted cap">Atravessa páginas e persiste até ser dispensado.</text>
+  <text x="230" y="311" class="muted cap">Para: estado do sistema inteiro — manutenção, degradação, cobrança.</text>
+
+  <rect x="72" y="326" width="648" height="44" rx="6" class="box"/>
+  <rect x="72" y="326" width="6" height="44" class="g5"/>
+  <text x="92" y="346" class="ink h">Push</text>
+  <text x="230" y="346" class="muted cap">Alcança a pessoa fora do produto, em contexto que você não vê.</text>
+  <text x="230" y="363" class="muted cap">Para: o que justifica interromper a vida de alguém. Quase nada justifica.</text>
+
+  <rect x="72" y="378" width="648" height="44" rx="6" class="box"/>
+  <rect x="72" y="378" width="6" height="44" class="g6"/>
+  <text x="92" y="398" class="ink h">Modal</text>
+  <text x="230" y="398" class="muted cap">Rouba o foco e impede continuar.</text>
+  <text x="230" y="415" class="muted cap">Para: perda irreversível de dado ou decisão que não dá para adiar.</text>
+
+  <text x="0" y="446" class="muted cap">O erro mais comum não é escolher o componente errado — é escolher um degrau acima do necessário,</text>
+  <text x="0" y="464" class="muted cap">porque o time quer garantir que a mensagem seja vista.</text>
+  <text x="0" y="486" class="muted cap">Garantir a visualização de tudo é o mesmo que não garantir a de nada.</text>
+</svg>

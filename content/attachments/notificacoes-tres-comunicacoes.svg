@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 354" width="720" height="354" role="img" aria-label="Três formas de comunicar estado segundo o Nielsen Norman Group: indicador, validação e notificação, comparadas por quem dispara, se exige ação e onde aparece">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.5; }
+    .accent{ fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 15px; font-weight: 700; }
+    .k   { font-size: 12px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Nem tudo que comunica estado é notificação</text>
+  <text x="0" y="44" class="muted cap">A separação de Kim Flaherty (NN/g) — trocar uma pela outra é a causa mais comum de ruído</text>
+
+  <rect x="0" y="66" width="230" height="228" rx="8" class="box"/>
+  <circle cx="26" cy="96" r="7" class="accent"/>
+  <text x="44" y="101" class="ink h">Indicador</text>
+  <text x="20" y="130" class="muted k">DISPARA</text>
+  <text x="20" y="150" class="muted cap">Uma condição existir.</text>
+  <text x="20" y="180" class="muted k">EXIGE AÇÃO</text>
+  <text x="20" y="200" class="muted cap">Não. É passivo.</text>
+  <text x="20" y="230" class="muted k">ONDE</text>
+  <text x="20" y="250" class="muted cap">Colado no elemento</text>
+  <text x="20" y="268" class="muted cap">a que se refere.</text>
+  <text x="20" y="288" class="accent mono">• 3 não lidas</text>
+
+  <rect x="245" y="66" width="230" height="228" rx="8" class="box"/>
+  <circle cx="271" cy="96" r="7" class="accent"/>
+  <text x="289" y="101" class="ink h">Validação</text>
+  <text x="265" y="130" class="muted k">DISPARA</text>
+  <text x="265" y="150" class="muted cap">O que a pessoa digitou.</text>
+  <text x="265" y="180" class="muted k">EXIGE AÇÃO</text>
+  <text x="265" y="200" class="muted cap">Sim, e só dela.</text>
+  <text x="265" y="230" class="muted k">ONDE</text>
+  <text x="265" y="250" class="muted cap">No campo, associada</text>
+  <text x="265" y="268" class="muted cap">por aria-describedby.</text>
+  <text x="265" y="288" class="accent mono">CEP com 7 dígitos</text>
+
+  <rect x="490" y="66" width="230" height="228" rx="8" class="box"/>
+  <circle cx="516" cy="96" r="7" class="accent"/>
+  <text x="534" y="101" class="ink h">Notificação</text>
+  <text x="510" y="130" class="muted k">DISPARA</text>
+  <text x="510" y="150" class="muted cap">Um evento do sistema.</text>
+  <text x="510" y="180" class="muted k">EXIGE AÇÃO</text>
+  <text x="510" y="200" class="muted cap">Às vezes. Varia.</text>
+  <text x="510" y="230" class="muted k">ONDE</text>
+  <text x="510" y="250" class="muted cap">Pode não ter relação</text>
+  <text x="510" y="268" class="muted cap">com a tarefa atual.</text>
+  <text x="510" y="288" class="accent mono">Backup concluído</text>
+
+  <text x="0" y="324" class="muted cap">Quando a resposta a “o que disparou isso?” é “a própria pessoa, agora”, quase nunca é notificação —</text>
+  <text x="0" y="342" class="muted cap">é validação ou indicador, e não deveria interromper.</text>
+</svg>

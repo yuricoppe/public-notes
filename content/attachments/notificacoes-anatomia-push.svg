@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 444" width="720" height="444" role="img" aria-label="Anatomia de uma notificação push anotada, com os limites práticos de caracteres de título e corpo e o número de botões de ação em iOS, Android e web push">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .card  { fill: #ffffff; stroke: #9ca3af; stroke-width: 1.4; }
+    .chip  { fill: #e5e7eb; }
+    .accent{ fill: #2563eb; }
+    .line  { stroke: #9ca3af; stroke-width: 1.2; stroke-dasharray: 3 3; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 14px; font-weight: 700; }
+    .k   { font-size: 11.5px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .card { fill: #111827; stroke: #6b7280; }
+      .chip { fill: #374151; }
+      .accent { fill: #60a5fa; }
+      .line { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Anatomia de um push — e o pouco espaço que existe</text>
+  <text x="0" y="44" class="muted cap">O corte varia por sistema, versão e tela. Trate os números como teto de segurança, não como promessa.</text>
+
+  <rect x="0" y="70" width="360" height="128" rx="12" class="card"/>
+  <rect x="16" y="86" width="34" height="34" rx="8" class="chip"/>
+  <text x="60" y="102" class="ink h">Pedido a caminho</text>
+  <text x="60" y="122" class="muted cap">Sai para entrega hoje, entre 14h e 17h.</text>
+  <text x="60" y="140" class="muted cap">Toque para acompanhar.</text>
+  <rect x="60" y="154" width="96" height="28" rx="6" class="chip"/>
+  <text x="76" y="173" class="accent cap">Acompanhar</text>
+  <rect x="166" y="154" width="70" height="28" rx="6" class="chip"/>
+  <text x="182" y="173" class="accent cap">Adiar</text>
+  <text x="300" y="88" class="muted cap">agora</text>
+
+  <line x1="176" y1="96" x2="392" y2="96" class="line"/>
+  <text x="400" y="100" class="muted cap"><tspan class="ink k">TÍTULO</tspan> — a parte garantida na tela bloqueada</text>
+
+  <line x1="240" y1="126" x2="392" y2="126" class="line"/>
+  <text x="400" y="130" class="muted cap"><tspan class="ink k">CORPO</tspan> — trunca sem aviso; essencial na frente</text>
+
+  <line x1="240" y1="168" x2="392" y2="168" class="line"/>
+  <text x="400" y="172" class="muted cap"><tspan class="ink k">AÇÕES</tspan> — resolver sem abrir o app é o maior ganho</text>
+
+  <rect x="0" y="222" width="234" height="118" rx="8" class="box"/>
+  <text x="16" y="248" class="ink h">iOS</text>
+  <text x="16" y="274" class="muted cap">Título: ~25 a 50 caracteres</text>
+  <text x="16" y="296" class="muted cap">Corpo: ~150</text>
+  <text x="16" y="318" class="muted cap">Até 4 botões de ação</text>
+
+  <rect x="243" y="222" width="234" height="118" rx="8" class="box"/>
+  <text x="259" y="248" class="ink h">Android</text>
+  <text x="259" y="274" class="muted cap">Título: ~50 caracteres</text>
+  <text x="259" y="296" class="muted cap">Corpo: ~150</text>
+  <text x="259" y="318" class="muted cap">Até 3 botões de ação</text>
+
+  <rect x="486" y="222" width="234" height="118" rx="8" class="box"/>
+  <text x="502" y="248" class="ink h">Web push</text>
+  <text x="502" y="274" class="muted cap">Título: ~60 a 80 caracteres</text>
+  <text x="502" y="296" class="muted cap">Corpo: ~120 a 150</text>
+  <text x="502" y="318" class="muted cap">Até 2 botões de ação</text>
+
+  <text x="0" y="368" class="muted cap">Números compilados por Lee Munroe (OneSignal) na Smashing Magazine, 2022. Confira no aparelho</text>
+  <text x="0" y="388" class="muted cap">real: a régua mudou antes e vai mudar de novo.</text>
+  <text x="0" y="414" class="muted cap">Regra que não muda: escreva para o título sozinho. É o que a maior parte das pessoas vai ler —</text>
+  <text x="0" y="434" class="muted cap">e a única coisa que aparece na tela bloqueada.</text>
+</svg>

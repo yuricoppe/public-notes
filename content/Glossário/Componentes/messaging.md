@@ -12,6 +12,8 @@ O componente de Messaging (Sistemas de Mensagens) refere-se a diversos elementos
 
 Este é um conceito guarda-chuva. Componentes específicos como `Toast/Snackbar`, `Alerts Inline`, e `Global Banners` são tipos de Messaging.
 
+> Esta página é a definição de glossário. O tratamento longo do assunto — como decidir o que merece interromper alguém, permissão, frequência, escrita e acessibilidade — está em **[[Notificações/index|Notificações]]**.
+
 ## Casos de Uso Comuns
 
 -   **Feedback de Ação:** Informar se uma operação foi bem-sucedida (ex: "Item salvo com sucesso!") ou falhou (ex: "Erro ao enviar [[Glossário/Padrões/form_structure|formulário]].").
