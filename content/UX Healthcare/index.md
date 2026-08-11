@@ -11,6 +11,8 @@ tags:
 
 [[Digital Interactions in Healthcare Customer Journeys]]
 
+[[UX Healthcare/Visualização de dados em saúde|Visualização de dados em saúde]]
+
 ## Nielsen Norman Group
 
 1. **[Digital Interactions in Healthcare Customer Journeys](https://www.nngroup.com/articles/healthcare-customer-journeys/)**

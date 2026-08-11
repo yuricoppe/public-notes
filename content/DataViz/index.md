@@ -130,6 +130,6 @@ Todas verificadas em 11 ago 2026.
 
 ## Relacionados
 
-[[Dashboard]] · [[Análise de Dados]] · [[Acessibilidade/index|Acessibilidade]] · [[Design System/index|Design System]]
+[[UX Healthcare/Visualização de dados em saúde|Visualização de dados em saúde]] · [[Dashboard]] · [[Análise de Dados]] · [[Acessibilidade/index|Acessibilidade]] · [[Design System/index|Design System]]
 
 ---

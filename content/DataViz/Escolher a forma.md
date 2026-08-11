@@ -39,6 +39,14 @@ Se a hierarquia diz o custo de cada codificação, o **Visual Vocabulary** do Fi
 
 O ganho de trabalhar assim é que a escolha vira uma pergunta com resposta. "Preciso de um gráfico de vendas" não decide nada; "preciso mostrar como cada região se desvia da meta" já elimina oito das nove categorias e deixa três ou quatro gráficos candidatos.
 
+### Um recorte mais rápido
+
+Existe uma versão mais enxuta da mesma ideia, que Taras Bakusevych organiza em quatro perguntas em vez de nove, separando cada uma entre retrato estático e evolução no tempo:
+
+![Árvore de decisão para escolher o gráfico a partir de quatro perguntas — relação, comparação, composição e distribuição — cada uma dividida entre retrato estático e ao longo do tempo](attachments/dataviz-escolher-o-grafico.svg)
+
+As duas convivem bem. Esta é mais rápida de usar numa reunião; a do FT cobre casos que esta não tem — desvio, ranking, espacial e fluxo, que são justamente onde mais se erra. Se for guardar só uma, guarde a do FT; se for ensinar alguém em cinco minutos, use esta.
+
 Duas armadilhas que a categorização ajuda a evitar:
 
 **Espacial é a mais escolhida pelo motivo errado.** Mapa é bonito e todo mundo entende que é um mapa. Mas mapa codifica dado em **área geográfica**, que não tem relação nenhuma com a grandeza mostrada — um estado enorme e vazio domina visualmente um estado pequeno e populoso. Só use mapa quando a pergunta for genuinamente sobre lugar. Se a pergunta é "onde é maior?", um ranking em barras responde melhor.

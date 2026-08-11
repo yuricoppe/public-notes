@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 494" width="720" height="494" role="img" aria-label="Árvore de decisão para escolher o gráfico a partir do que se quer ver: relação, comparação, composição ou distribuição. Relação estática usa dispersão, bolhas ou diagrama de rede. Comparação estática usa colunas, barras ou área circular, e ao longo do tempo usa linha, colunas ou colunas sobrepostas. Composição estática usa pizza ou rosca, treemap, mapa de calor ou sunburst, e ao longo do tempo usa colunas empilhadas, área empilhada ou cascata. Distribuição usa dispersão, histograma ou curva normal.">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1; }
+    .c1 { fill: #2563eb; } .c2 { fill: #0d9488; } .c3 { fill: #7c3aed; } .c4 { fill: #dc2626; }
+    .s1 { stroke: #2563eb; } .s2 { stroke: #0d9488; } .s3 { stroke: #7c3aed; } .s4 { stroke: #dc2626; }
+    .conn { fill: none; stroke-width: 1.6; }
+    .inv { fill: #ffffff; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .hd  { font-size: 15px; font-weight: 700; }
+    .k   { font-size: 10.5px; font-weight: 700; }
+    .it  { font-size: 12.5px; }
+    .cap { font-size: 12.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .c1 { fill: #3b82f6; } .c2 { fill: #14b8a6; } .c3 { fill: #8b5cf6; } .c4 { fill: #ef4444; }
+      .s1 { stroke: #3b82f6; } .s2 { stroke: #14b8a6; } .s3 { stroke: #8b5cf6; } .s4 { stroke: #ef4444; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Quero ver…</text>
+  <text x="0" y="44" class="muted cap">Quatro perguntas que decidem o gráfico. Comece por qual delas descreve o que você precisa mostrar.</text>
+
+  <path d="M360 66 V 74 H 87 V 92" class="conn s1"/>
+  <path d="M360 66 V 74 H 269 V 92" class="conn s2"/>
+  <path d="M360 66 V 74 H 451 V 92" class="conn s3"/>
+  <path d="M360 66 V 74 H 633 V 92" class="conn s4"/>
+
+  <rect x="0"   y="96" width="174" height="34" rx="6" class="c1"/>
+  <text x="16"  y="119" class="inv hd">Relação</text>
+  <rect x="182" y="96" width="174" height="34" rx="6" class="c2"/>
+  <text x="198" y="119" class="inv hd">Comparação</text>
+  <rect x="364" y="96" width="174" height="34" rx="6" class="c3"/>
+  <text x="380" y="119" class="inv hd">Composição</text>
+  <rect x="546" y="96" width="174" height="34" rx="6" class="c4"/>
+  <text x="562" y="119" class="inv hd">Distribuição</text>
+
+  <text x="0"   y="150" class="muted it">como duas medidas se ligam</text>
+  <text x="182" y="150" class="muted it">quem é maior</text>
+  <text x="364" y="150" class="muted it">de que o todo é feito</text>
+  <text x="546" y="150" class="muted it">o formato dos dados</text>
+
+  <rect x="0"   y="164" width="174" height="20" rx="4" class="c1" opacity="0.85"/>
+  <text x="12"  y="178" class="inv k">RETRATO ESTÁTICO</text>
+  <rect x="182" y="164" width="174" height="20" rx="4" class="c2" opacity="0.85"/>
+  <text x="194" y="178" class="inv k">RETRATO ESTÁTICO</text>
+  <rect x="364" y="164" width="174" height="20" rx="4" class="c3" opacity="0.85"/>
+  <text x="376" y="178" class="inv k">RETRATO ESTÁTICO</text>
+  <rect x="546" y="164" width="174" height="20" rx="4" class="c4" opacity="0.85"/>
+  <text x="558" y="178" class="inv k">RETRATO ESTÁTICO</text>
+
+  <rect x="0" y="190" width="174" height="26" rx="4" class="box"/>
+  <rect x="0" y="190" width="4" height="26" class="c1"/>
+  <text x="16" y="207" class="ink it">Dispersão</text>
+  <rect x="0" y="220" width="174" height="26" rx="4" class="box"/>
+  <rect x="0" y="220" width="4" height="26" class="c1"/>
+  <text x="16" y="237" class="ink it">Bolhas</text>
+  <rect x="0" y="250" width="174" height="26" rx="4" class="box"/>
+  <rect x="0" y="250" width="4" height="26" class="c1"/>
+  <text x="16" y="267" class="ink it">Diagrama de rede</text>
+
+  <rect x="182" y="190" width="174" height="26" rx="4" class="box"/>
+  <rect x="182" y="190" width="4" height="26" class="c2"/>
+  <text x="198" y="207" class="ink it">Colunas</text>
+  <rect x="182" y="220" width="174" height="26" rx="4" class="box"/>
+  <rect x="182" y="220" width="4" height="26" class="c2"/>
+  <text x="198" y="237" class="ink it">Barras</text>
+  <rect x="182" y="250" width="174" height="26" rx="4" class="box"/>
+  <rect x="182" y="250" width="4" height="26" class="c2"/>
+  <text x="198" y="267" class="ink it">Área circular (radar)</text>
+
+  <rect x="364" y="190" width="174" height="26" rx="4" class="box"/>
+  <rect x="364" y="190" width="4" height="26" class="c3"/>
+  <text x="380" y="207" class="ink it">Pizza ou rosca</text>
+  <rect x="364" y="220" width="174" height="26" rx="4" class="box"/>
+  <rect x="364" y="220" width="4" height="26" class="c3"/>
+  <text x="380" y="237" class="ink it">Treemap</text>
+  <rect x="364" y="250" width="174" height="26" rx="4" class="box"/>
+  <rect x="364" y="250" width="4" height="26" class="c3"/>
+  <text x="380" y="267" class="ink it">Mapa de calor</text>
+  <rect x="364" y="280" width="174" height="26" rx="4" class="box"/>
+  <rect x="364" y="280" width="4" height="26" class="c3"/>
+  <text x="380" y="297" class="ink it">Sunburst</text>
+
+  <rect x="546" y="190" width="174" height="26" rx="4" class="box"/>
+  <rect x="546" y="190" width="4" height="26" class="c4"/>
+  <text x="562" y="207" class="ink it">Dispersão</text>
+  <rect x="546" y="220" width="174" height="26" rx="4" class="box"/>
+  <rect x="546" y="220" width="4" height="26" class="c4"/>
+  <text x="562" y="237" class="ink it">Histograma</text>
+  <rect x="546" y="250" width="174" height="26" rx="4" class="box"/>
+  <rect x="546" y="250" width="4" height="26" class="c4"/>
+  <text x="562" y="267" class="ink it">Curva normal</text>
+
+  <rect x="182" y="292" width="174" height="20" rx="4" class="c2" opacity="0.85"/>
+  <text x="194" y="306" class="inv k">AO LONGO DO TEMPO</text>
+  <rect x="182" y="318" width="174" height="26" rx="4" class="box"/>
+  <rect x="182" y="318" width="4" height="26" class="c2"/>
+  <text x="198" y="335" class="ink it">Linha</text>
+  <rect x="182" y="348" width="174" height="26" rx="4" class="box"/>
+  <rect x="182" y="348" width="4" height="26" class="c2"/>
+  <text x="198" y="365" class="ink it">Colunas</text>
+  <rect x="182" y="378" width="174" height="26" rx="4" class="box"/>
+  <rect x="182" y="378" width="4" height="26" class="c2"/>
+  <text x="198" y="395" class="ink it">Colunas sobrepostas</text>
+
+  <rect x="364" y="322" width="174" height="20" rx="4" class="c3" opacity="0.85"/>
+  <text x="376" y="336" class="inv k">AO LONGO DO TEMPO</text>
+  <rect x="364" y="348" width="174" height="26" rx="4" class="box"/>
+  <rect x="364" y="348" width="4" height="26" class="c3"/>
+  <text x="380" y="365" class="ink it">Colunas empilhadas</text>
+  <rect x="364" y="378" width="174" height="26" rx="4" class="box"/>
+  <rect x="364" y="378" width="4" height="26" class="c3"/>
+  <text x="380" y="395" class="ink it">Área empilhada</text>
+  <rect x="364" y="408" width="174" height="26" rx="4" class="box"/>
+  <rect x="364" y="408" width="4" height="26" class="c3"/>
+  <text x="380" y="425" class="ink it">Cascata</text>
+
+  <text x="0" y="462" class="muted cap">Adaptado de Taras Bakusevych, “20 ideas for better data visualization” (UX Collective, 2021). Compare com as</text>
+  <text x="0" y="480" class="muted cap">nove relações do Visual Vocabulary do FT: este recorte é mais rápido de usar; o do FT é mais completo.</text>
+</svg>

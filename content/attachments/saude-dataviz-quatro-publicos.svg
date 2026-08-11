@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Os quatro públicos da visualização de dados em saúde — paciente, clínico, gestor e cidadão — com o que cada um precisa decidir, o tempo que tem e o erro típico de projeto para cada um">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.3; }
+    .accent{ fill: #2563eb; }
+    .bad   { fill: #dc2626; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 14.5px; font-weight: 700; }
+    .k   { font-size: 11px; font-weight: 700; }
+    .cap { font-size: 12px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .accent { fill: #60a5fa; }
+      .bad { fill: #f87171; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Quatro públicos, quatro problemas diferentes</text>
+  <text x="0" y="44" class="muted cap">“Dataviz em saúde” não é uma disciplina só. O que serve a um destes públicos costuma atrapalhar outro.</text>
+
+  <rect x="0" y="66" width="174" height="266" rx="8" class="box"/>
+  <text x="16" y="92" class="accent k">PACIENTE</text>
+  <text x="16" y="118" class="ink h">Preciso me</text>
+  <text x="16" y="136" class="ink h">preocupar?</text>
+  <text x="16" y="164" class="muted cap">Vê poucos números,</text>
+  <text x="16" y="180" class="muted cap">raramente, e sem</text>
+  <text x="16" y="196" class="muted cap">saber o que é normal.</text>
+  <text x="16" y="224" class="muted k">TEMPO</text>
+  <text x="16" y="242" class="muted cap">O que for preciso —</text>
+  <text x="16" y="258" class="muted cap">e com ansiedade.</text>
+  <text x="16" y="286" class="bad k">ERRO TÍPICO</text>
+  <text x="16" y="304" class="muted cap">Entregar o número e</text>
+  <text x="16" y="320" class="muted cap">a faixa, e nada mais.</text>
+
+  <rect x="182" y="66" width="174" height="266" rx="8" class="box"/>
+  <text x="198" y="92" class="accent k">CLÍNICO</text>
+  <text x="198" y="118" class="ink h">O que mudou</text>
+  <text x="198" y="136" class="ink h">desde ontem?</text>
+  <text x="198" y="164" class="muted cap">Vê muitos números,</text>
+  <text x="198" y="180" class="muted cap">o dia inteiro, e sabe</text>
+  <text x="198" y="196" class="muted cap">exatamente o que quer.</text>
+  <text x="198" y="224" class="muted k">TEMPO</text>
+  <text x="198" y="242" class="muted cap">Segundos, entre um</text>
+  <text x="198" y="258" class="muted cap">paciente e o próximo.</text>
+  <text x="198" y="286" class="bad k">ERRO TÍPICO</text>
+  <text x="198" y="304" class="muted cap">Mostrar tudo que o</text>
+  <text x="198" y="320" class="muted cap">prontuário tem.</text>
+
+  <rect x="364" y="66" width="174" height="266" rx="8" class="box"/>
+  <text x="380" y="92" class="accent k">GESTOR</text>
+  <text x="380" y="118" class="ink h">Onde alocar</text>
+  <text x="380" y="136" class="ink h">o recurso?</text>
+  <text x="380" y="164" class="muted cap">Vê agregados, precisa</text>
+  <text x="380" y="180" class="muted cap">descer ao caso e voltar</text>
+  <text x="380" y="196" class="muted cap">sem se perder.</text>
+  <text x="380" y="224" class="muted k">TEMPO</text>
+  <text x="380" y="242" class="muted cap">Sessões longas, uso</text>
+  <text x="380" y="258" class="muted cap">recorrente.</text>
+  <text x="380" y="286" class="bad k">ERRO TÍPICO</text>
+  <text x="380" y="304" class="muted cap">Painel bonito que não</text>
+  <text x="380" y="320" class="muted cap">cabe na rotina dele.</text>
+
+  <rect x="546" y="66" width="174" height="266" rx="8" class="box"/>
+  <text x="562" y="92" class="accent k">CIDADÃO</text>
+  <text x="562" y="118" class="ink h">Isso é grave?</text>
+  <text x="562" y="146" class="muted cap">Chega pela imprensa</text>
+  <text x="562" y="162" class="muted cap">ou por link, sem</text>
+  <text x="562" y="178" class="muted cap">contexto nenhum.</text>
+  <text x="562" y="224" class="muted k">TEMPO</text>
+  <text x="562" y="242" class="muted cap">Segundos, e</text>
+  <text x="562" y="258" class="muted cap">provavelmente no celular.</text>
+  <text x="562" y="286" class="bad k">ERRO TÍPICO</text>
+  <text x="562" y="304" class="muted cap">Publicar o número sem</text>
+  <text x="562" y="320" class="muted cap">a incerteza dele.</text>
+
+  <text x="0" y="368" class="muted cap">O que atravessa os quatro: em saúde, o custo de ler errado não é uma métrica pior no trimestre. É alguém que</text>
+  <text x="0" y="386" class="muted cap">não procurou atendimento, ou que procurou sem precisar, ou uma ambulância que ficou onde não devia.</text>
+</svg>

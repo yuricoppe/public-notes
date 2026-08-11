@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 458" width="720" height="458" role="img" aria-label="Os quatro níveis de organização da informação do painel do SAMU — território, cobertura da central de regulação, agrupamento por base descentralizada e detalhe da unidade móvel — e as três decisões de design que sustentam a navegação entre eles">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .lvl   { fill: #eef2ff; stroke: #2563eb; stroke-width: 1.3; }
+    .accent{ fill: #2563eb; }
+    .ok    { fill: #10b981; }
+    .warn  { fill: #f59e0b; }
+    .bad   { fill: #dc2626; }
+    .line  { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .k   { font-size: 11px; font-weight: 700; }
+    .cap { font-size: 12px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .lvl { fill: #1e293b; stroke: #60a5fa; }
+      .accent { fill: #60a5fa; }
+      .ok { fill: #34d399; } .warn { fill: #fbbf24; } .bad { fill: #f87171; }
+      .line { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">O painel do SAMU: quatro níveis, um caminho</text>
+  <text x="0" y="44" class="muted cap">Projeto Infovis para a Saúde Pública, 2020 — Ministério da Saúde, FUSP e OPAS</text>
+
+  <rect x="0" y="66" width="168" height="82" rx="8" class="lvl"/>
+  <text x="16" y="90" class="accent k">1 · TERRITÓRIO</text>
+  <text x="16" y="112" class="muted cap">Estado, município,</text>
+  <text x="16" y="128" class="muted cap">região de saúde.</text>
+  <text x="16" y="144" class="muted cap">Coberto ou não.</text>
+
+  <path d="M168 107 H 192" class="line" marker-end="url(#s)"/>
+
+  <rect x="192" y="66" width="168" height="82" rx="8" class="lvl"/>
+  <text x="208" y="90" class="accent k">2 · CENTRAL (CRU)</text>
+  <text x="208" y="112" class="muted cap">Área de abrangência</text>
+  <text x="208" y="128" class="muted cap">e as bases ligadas</text>
+  <text x="208" y="144" class="muted cap">a ela.</text>
+
+  <path d="M360 107 H 384" class="line" marker-end="url(#s)"/>
+
+  <rect x="384" y="66" width="168" height="82" rx="8" class="lvl"/>
+  <text x="400" y="90" class="accent k">3 · BASE</text>
+  <text x="400" y="112" class="muted cap">As unidades móveis</text>
+  <text x="400" y="128" class="muted cap">agrupadas por base</text>
+  <text x="400" y="144" class="muted cap">descentralizada.</text>
+
+  <path d="M552 107 H 576" class="line" marker-end="url(#s)"/>
+
+  <rect x="576" y="66" width="144" height="82" rx="8" class="lvl"/>
+  <text x="592" y="90" class="accent k">4 · UNIDADE</text>
+  <text x="592" y="112" class="muted cap">Uma ambulância,</text>
+  <text x="592" y="128" class="muted cap">moto, lancha ou</text>
+  <text x="592" y="144" class="muted cap">aeronave.</text>
+
+  <rect x="0" y="172" width="234" height="132" rx="8" class="box"/>
+  <text x="16" y="196" class="ink h">Mapa de três camadas</text>
+  <text x="16" y="220" class="muted cap">Coroplético do que é coberto,</text>
+  <text x="16" y="236" class="muted cap">símbolos das centrais e bases,</text>
+  <text x="16" y="252" class="muted cap">e linhas ligando base à central.</text>
+  <text x="16" y="278" class="muted cap">Sobre a malha viária — porque</text>
+  <text x="16" y="294" class="muted cap">não há dado de deslocamento.</text>
+
+  <rect x="243" y="172" width="234" height="132" rx="8" class="box"/>
+  <text x="259" y="196" class="ink h">Pictograma como dado</text>
+  <text x="259" y="220" class="muted cap">O tipo de unidade é categórico,</text>
+  <text x="259" y="236" class="muted cap">então vira símbolo — e o mesmo</text>
+  <text x="259" y="252" class="muted cap">símbolo aparece no mapa, no</text>
+  <text x="259" y="268" class="muted cap">tooltip, na tabela, no card e no</text>
+  <text x="259" y="284" class="muted cap">modal, sem variar de sentido.</text>
+
+  <rect x="486" y="172" width="234" height="132" rx="8" class="box"/>
+  <text x="502" y="196" class="ink h">Cor como estado</text>
+  <text x="502" y="220" class="muted cap">O fundo do card indica risco de</text>
+  <text x="502" y="236" class="muted cap">desabilitação da unidade.</text>
+  <rect x="502" y="250" width="60" height="20" rx="4" fill="#10b981" opacity="0.25" stroke="#10b981"/>
+  <text x="512" y="264" class="ok cap">ativa</text>
+  <rect x="570" y="250" width="66" height="20" rx="4" fill="#f59e0b" opacity="0.25" stroke="#f59e0b"/>
+  <text x="578" y="264" class="warn cap">2 meses</text>
+  <rect x="644" y="250" width="66" height="20" rx="4" fill="#dc2626" opacity="0.25" stroke="#dc2626"/>
+  <text x="652" y="264" class="bad cap">4 meses</text>
+  <text x="502" y="292" class="muted cap">Sem atendimento no período.</text>
+
+  <rect x="0" y="322" width="720" height="74" rx="8" class="box"/>
+  <text x="18" y="346" class="ink h">A regra de degradação que vale copiar</text>
+  <text x="18" y="368" class="muted cap">Até quatro unidades, a base mostra <tspan class="accent">cards</tspan>. Acima disso, vira <tspan class="accent">tabela</tspan> — porque aí a tarefa deixa</text>
+  <text x="18" y="386" class="muted cap">de ser olhar uma e passa a ser comparar várias.</text>
+
+  <text x="0" y="428" class="muted cap">Os autores classificam o painel como <tspan class="ink h">operacional</tspan> e de público <tspan class="ink h">organizacional</tspan> — o que define o que ele</text>
+  <text x="0" y="446" class="muted cap">precisa fazer e, principalmente, o que não precisa: não é painel de imprensa nem de cidadão.</text>
+
+  <defs>
+    <marker id="s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#9ca3af"/>
+    </marker>
+  </defs>
+</svg>

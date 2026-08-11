@@ -66,4 +66,4 @@ O que ajuda:
 
 **Antes:** [[Escolher a forma]] · [[Acessibilidade em dataviz]]
 
-**Ver também:** [[Dashboard]] · [[Análise de Dados]]
+**Ver também:** [[UX Healthcare/Visualização de dados em saúde|Visualização de dados em saúde]] · [[Dashboard]] · [[Análise de Dados]]
