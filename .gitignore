@@ -12,3 +12,5 @@ replit.nix
 
 openspec/
 AGENTS.md
+__pycache__/
+
