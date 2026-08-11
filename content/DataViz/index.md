@@ -24,6 +24,8 @@ O fio que atravessa os cinco artigos é que quase toda regra de dataviz tem pesq
 
 **[[Tabelas e painéis]]** — quando tabela é melhor que gráfico, como ela sobrevive à tela pequena, e por que a maioria dos painéis é uma lista de gráficos sem pergunta.
 
+**[[20 ideias para gráficos melhores]]** — leitura anotada da lista mais compartilhada da área: os vinte itens, a pesquisa por trás de cada um, as duas correções que ele merece e as quatro coisas que a lista não cobre.
+
 ## Fontes
 
 Todas verificadas em 11 ago 2026.
@@ -100,7 +102,8 @@ Todas verificadas em 11 ago 2026.
 - **[Datawrapper Blog](https://www.datawrapper.de/blog)** · Datawrapper
   Recursos novos e a série Weekly Charts. A [seção de cor](https://www.datawrapper.de/blog/category/color-in-data-vis) sozinha vale a assinatura do feed.
 
-- **[20 ideas for better data visualization](https://uxdesign.cc/20-ideas-for-better-data-visualization-73f7e3c2782d)** · UX Collective
+- **[20 ideas for better data visualization](https://uxdesign.cc/20-ideas-for-better-data-visualization-73f7e3c2782d)** · Taras Bakusevych, UX Collective, 2021
+  A lista de verificação mais compartilhada da área. Destrinchada item por item em [[20 ideias para gráficos melhores]].
 
 - **[Designing user-friendly data tables for mobile devices](https://medium.com/design-bootcamp/designing-user-friendly-data-tables-for-mobile-devices-c470c82403ad)** · Bootcamp
 

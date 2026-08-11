@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="Mapa do que as 20 ideias de Taras Bakusevych cobrem, agrupadas em oito temas — forma, eixos e escalas, linhas, pizza e rosca, rótulo e ordem, estilo, cor, ferramenta e interação — e o que a lista não cobre: incerteza, tabela como alternativa, leitor de tela e teclado, e teste com gente">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .gap   { fill: #fffbeb; stroke: #f59e0b; stroke-width: 1.4; }
+    .warn  { fill: #b45309; }
+    .accent{ fill: #2563eb; }
+    .num   { fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .k   { font-size: 11px; font-weight: 700; }
+    .n   { font-size: 11.5px; font-weight: 700; }
+    .cap { font-size: 12px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .gap { fill: #2a2312; stroke: #fbbf24; }
+      .warn { fill: #fbbf24; }
+      .accent { fill: #60a5fa; } .num { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">O que a lista cobre — e o que ela não cobre</text>
+  <text x="0" y="44" class="muted cap">As 20 ideias agrupadas por tema. Os números entre parênteses são a numeração original do artigo.</text>
+
+  <rect x="0" y="66" width="174" height="76" rx="7" class="box"/>
+  <text x="14" y="90" class="ink h">Forma</text>
+  <text x="14" y="110" class="num n">(1)</text>
+  <text x="14" y="130" class="muted cap">escolher o gráfico certo</text>
+
+  <rect x="182" y="66" width="174" height="76" rx="7" class="box"/>
+  <text x="196" y="90" class="ink h">Eixos e escalas</text>
+  <text x="196" y="110" class="num n">(2) (3) (4) (7)</text>
+  <text x="196" y="130" class="muted cap">o tema mais forte da lista</text>
+
+  <rect x="364" y="66" width="174" height="76" rx="7" class="box"/>
+  <text x="378" y="90" class="ink h">Linhas</text>
+  <text x="378" y="110" class="num n">(5) (6)</text>
+  <text x="378" y="130" class="muted cap">suavização e série temporal</text>
+
+  <rect x="546" y="66" width="174" height="76" rx="7" class="box"/>
+  <text x="560" y="90" class="ink h">Pizza e rosca</text>
+  <text x="560" y="110" class="num n">(8) (10) (11) (13)</text>
+  <text x="560" y="130" class="muted cap">quatro itens para um</text>
+  <text x="560" y="146" class="muted cap">gráfico que ele desaconselha</text>
+
+  <rect x="0" y="160" width="174" height="76" rx="7" class="box"/>
+  <text x="14" y="184" class="ink h">Rótulo e ordem</text>
+  <text x="14" y="204" class="num n">(9) (12) (18)</text>
+  <text x="14" y="224" class="muted cap">o melhor retorno por esforço</text>
+
+  <rect x="182" y="160" width="174" height="76" rx="7" class="box"/>
+  <text x="196" y="184" class="ink h">Estilo</text>
+  <text x="196" y="204" class="num n">(14) (17)</text>
+  <text x="196" y="224" class="muted cap">chartjunk e tipografia</text>
+
+  <rect x="364" y="160" width="174" height="76" rx="7" class="box"/>
+  <text x="378" y="184" class="ink h">Cor</text>
+  <text x="378" y="204" class="num n">(15) (16)</text>
+  <text x="378" y="224" class="muted cap">três paletas e daltonismo</text>
+
+  <rect x="546" y="160" width="174" height="76" rx="7" class="box"/>
+  <text x="560" y="184" class="ink h">Ferramenta</text>
+  <text x="560" y="204" class="num n">(19) (20)</text>
+  <text x="560" y="224" class="muted cap">biblioteca e interação</text>
+
+  <rect x="0" y="258" width="720" height="118" rx="8" class="gap"/>
+  <text x="18" y="282" class="warn k">O QUE FICA DE FORA</text>
+  <text x="18" y="306" class="ink h">Incerteza</text>
+  <text x="140" y="306" class="muted cap">nenhuma menção a intervalo, margem de erro ou dado provisório</text>
+  <text x="18" y="328" class="ink h">Tabela</text>
+  <text x="140" y="328" class="muted cap">consultar um valor exato não aparece como tarefa possível</text>
+  <text x="18" y="350" class="ink h">Teclado e leitor de tela</text>
+  <text x="230" y="350" class="muted cap">acessibilidade aparece só como cor</text>
+  <text x="18" y="370" class="ink h">Teste</text>
+  <text x="140" y="370" class="muted cap">nenhum método para descobrir se o gráfico funcionou</text>
+
+  <text x="0" y="406" class="muted cap">Nada disso invalida a lista — ela é boa no que se propõe. Serve para saber o que procurar em outro lugar.</text>
+</svg>

@@ -22,7 +22,7 @@ O que faz uma tabela funcionar é pouca coisa e quase sempre falta:
 
 **Ordenação em toda coluna que faça sentido ordenar** — e um indicador visível de por qual coluna está ordenado agora. Tabela ordenável sem indicador de estado engana.
 
-**Unidade no cabeçalho, não em cada célula.** "Receita (R$ mil)" uma vez, em vez de "R$" repetido duzentas vezes.
+**Unidade no cabeçalho, não em cada célula.** "Receita (R\$ mil)" uma vez, em vez de "R\$" repetido duzentas vezes.
 
 E um recurso subestimado: **barras dentro da célula**. Uma barra fininha atrás do número dá a leitura de magnitude sem tirar a precisão — a tabela passa a responder às duas perguntas ao mesmo tempo. É o caso raro em que não é preciso escolher entre gráfico e tabela.
 
@@ -60,7 +60,7 @@ O que ajuda:
 
 **Comparação sem referência.** "1.284 pedidos" não informa nada sozinho. Comparado com o período anterior, com a meta ou com a média, vira informação. Todo número em painel merece a pergunta "comparado com o quê?".
 
-**Precisão falsa.** "R$ 1.284.937,42" num cartão de panorama. Ninguém decide nada com os centavos, e eles custam a legibilidade dos dígitos que importam. "R$ 1,28 mi" comunica o mesmo e é lido mais rápido — a precisão inteira mora na tabela, para quem precisar dela.
+**Precisão falsa.** "R\$ 1.284.937,42" num cartão de panorama. Ninguém decide nada com os centavos, e eles custam a legibilidade dos dígitos que importam. "R\$ 1,28 mi" comunica o mesmo e é lido mais rápido — a precisão inteira mora na tabela, para quem precisar dela.
 
 ---
 
