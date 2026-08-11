@@ -7,6 +7,10 @@
  * Tudo aqui é sobrescrita do `base.scss` do upstream. O arquivo existe
  * justamente para isso, então uma atualização do Quartz não conflita.
  *
+ * As barras do topo vivem no slot `chrome`, irmão de `#quartz-body` — fora da
+ * grade e fora da coluna lateral. Isso é o que permite usar `transform`,
+ * `overflow` e `visibility` na coluna sem quebrá-las.
+ *
  * A estrutura de três colunas já vem do Quartz; o que se acrescenta é:
  *  - a compensação das duas barras fixas do topo
  *  - largura fixa nas laterais e teto de leitura no centro
@@ -97,27 +101,16 @@
  * Coluna esquerda recolhível
  * ---------------------------------------------------------------- */
 
-/**
- * As duas barras fixas são filhas de `.sidebar.left` — é a única posição da
- * árvore antes da grade. Por isso o recolhimento **não pode** esconder a coluna
- * inteira: `visibility: hidden` no pai apaga os filhos, e junto vai o botão de
- * reabrir. Some-se o conteúdo da coluna, nunca a coluna.
- */
 @media all and ($desktop) {
   html[data-sidebar="collapsed"] .page > #quartz-body {
     grid-template-columns: 0 minmax(0, 1fr) var(--aside-width);
   }
 
   html[data-sidebar="collapsed"] .page > #quartz-body > .sidebar.left {
+    visibility: hidden;
+    border-right: 0;
     padding-left: 0;
     padding-right: 0;
-    border-right: 0;
-    overflow: visible;
-
-    // Tudo menos as barras fixas, que não ocupam espaço no fluxo.
-    & > *:not(.topbar):not(.contextbar) {
-      display: none;
-    }
   }
 }
 
@@ -138,17 +131,15 @@
     flex-direction: column;
     align-items: stretch;
     padding: 1.5rem 1.25rem;
-    // Desliza por `left`, não por `transform`: um ancestral com transform vira
-    // bloco de contenção de `position: fixed`, e as barras — que são filhas
-    // desta coluna — iriam junto para fora da tela.
-    left: calc(-1 * min(var(--nav-width), 85vw));
-    transition: left 0.18s ease;
+    left: 0;
+    transform: translateX(-100%);
+    transition: transform 0.18s ease;
   }
 
   // A gaveta é efêmera: abre pelo botão e fecha ao navegar. Não usa o estado
   // persistido do recolhimento, que é só do desktop.
   html[data-drawer="open"] .page > #quartz-body > .sidebar.left {
-    left: 0;
+    transform: translateX(0);
   }
 
   @media (prefers-reduced-motion: reduce) {

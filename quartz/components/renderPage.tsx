@@ -13,6 +13,7 @@ import { styleText } from "util"
 
 interface RenderComponents {
   head: QuartzComponent
+  chrome: QuartzComponent[]
   header: QuartzComponent[]
   beforeBody: QuartzComponent[]
   pageBody: QuartzComponent
@@ -237,6 +238,7 @@ export function renderPage(
     left,
     right,
     footer: Footer,
+    chrome,
   } = components
   const Header = HeaderConstructor()
   const Body = BodyConstructor()
@@ -264,6 +266,12 @@ export function renderPage(
       <Head {...componentData} />
       <body data-slug={slug}>
         <div id="quartz-root" class="page">
+          {/* fork: barras fixas, irmãs da grade — ficam fora de #quartz-body
+              para não herdar overflow, stacking context nem containing block
+              da coluna lateral. */}
+          {chrome.map((ChromeComponent) => (
+            <ChromeComponent {...componentData} />
+          ))}
           <Body {...componentData}>
             {LeftComponent}
             <div class="center">

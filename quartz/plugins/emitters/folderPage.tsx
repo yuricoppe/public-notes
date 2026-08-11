@@ -108,7 +108,17 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (user
     ...userOpts,
   }
 
-  const { head: Head, header, beforeBody, pageBody, afterBody, left, right, footer: Footer } = opts
+  const {
+    head: Head,
+    chrome,
+    header,
+    beforeBody,
+    pageBody,
+    afterBody,
+    left,
+    right,
+    footer: Footer,
+  } = opts
   const Header = HeaderConstructor()
   const Body = BodyConstructor()
 
@@ -119,6 +129,8 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (user
         Head,
         Header,
         Body,
+        // fork: o slot `chrome` também precisa entrar na coleta de CSS/JS
+        ...chrome,
         ...header,
         ...beforeBody,
         pageBody,

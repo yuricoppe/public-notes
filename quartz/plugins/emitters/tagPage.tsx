@@ -101,7 +101,17 @@ export const TagPage: QuartzEmitterPlugin<Partial<TagPageOptions>> = (userOpts) 
     ...userOpts,
   }
 
-  const { head: Head, header, beforeBody, pageBody, afterBody, left, right, footer: Footer } = opts
+  const {
+    head: Head,
+    chrome,
+    header,
+    beforeBody,
+    pageBody,
+    afterBody,
+    left,
+    right,
+    footer: Footer,
+  } = opts
   const Header = HeaderConstructor()
   const Body = BodyConstructor()
 
@@ -112,6 +122,8 @@ export const TagPage: QuartzEmitterPlugin<Partial<TagPageOptions>> = (userOpts) 
         Head,
         Header,
         Body,
+        // fork: o slot `chrome` também precisa entrar na coleta de CSS/JS
+        ...chrome,
         ...header,
         ...beforeBody,
         pageBody,

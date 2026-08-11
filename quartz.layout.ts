@@ -1,33 +1,31 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// Barra superior fixa + faixa de contexto.
-// Ficam no início de `left[]` porque é a primeira posição da árvore; as duas
-// saem do fluxo com `position: fixed` e cobrem a largura toda.
-// Ver openspec/changes/adopt-docs-style-layout.
-const chrome = (withCrumbs: boolean) => [
-  Component.TopBar({
-    actions: [
-      Component.Search(),
-      Component.Darkmode(),
-      Component.DesktopOnly(Component.ReaderMode()),
-    ],
-  }),
-  Component.ContextBar({ trail: withCrumbs ? [Component.Breadcrumbs()] : [] }),
-]
-
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
+  // Barras fixas do topo. Vivem no slot `chrome`, irmão da grade — ver
+  // openspec/changes/adopt-docs-style-layout.
+  chrome: [
+    Component.TopBar({
+      actions: [
+        Component.Search(),
+        Component.Darkmode(),
+        Component.DesktopOnly(Component.ReaderMode()),
+      ],
+    }),
+    Component.ContextBar({ trail: [Component.Breadcrumbs()] }),
+    Component.DrawerScrim(),
+  ],
   header: [],
-  afterBody: [Component.DrawerScrim()],
+  afterBody: [],
   footer: Component.Footer(),
 }
 
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.ContentMeta(), Component.TagList()],
-  left: [...chrome(true), Component.Explorer()],
+  left: [Component.Explorer()],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Graph(),
@@ -38,6 +36,6 @@ export const defaultContentPageLayout: PageLayout = {
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.ContentMeta()],
-  left: [...chrome(true), Component.Explorer()],
+  left: [Component.Explorer()],
   right: [],
 }
