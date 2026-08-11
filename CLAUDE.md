@@ -58,6 +58,28 @@ Keep the aliases — they preserve published URLs — but write links as `[[Fold
 
 Related: Quartz has no `README.md` convention, so a folder's landing page must be `index.md`. `FolderPage`/`TagPage` emitters generate folder and tag listings automatically, so a folder `index.md` is optional.
 
+## Fork do layout: o que foi tocado em `quartz/`
+
+O layout de três colunas no estilo GitHub Docs vive quase todo em pontos de
+extensão que não conflitam com o upstream:
+
+- `quartz/styles/custom.scss` — existe para isso e concentra a grade, as barras
+  fixas, o recolher da esquerda e a gaveta responsiva
+- `quartz.layout.ts` — configuração, não é código do upstream
+- `quartz/components/TopBar.tsx`, `ContextBar.tsx`, `styles/topbar.scss`,
+  `styles/contextbar.scss`, `scripts/sidebar.inline.ts` — arquivos novos
+
+**A única edição em arquivo do upstream é `quartz/components/index.ts`**: dois
+imports e duas entradas no `export`. Num merge com o upstream, é o único ponto de
+conflito esperado, e a resolução é reaplicar as quatro linhas.
+
+Componentes que recebem outros componentes precisam recebê-los **por opção**, e
+não por `children` — só o `header[]` recebe filhos do `renderPage`. Ver o padrão
+em `Flex.tsx`, que `TopBar` e `ContextBar` seguem.
+
+A proposta, as decisões e a auditoria do `index.md` estão em
+`openspec/changes/adopt-docs-style-layout/`.
+
 ## Content conventions
 
 Defined in `docs/content-authoring-guide.md` (a local addition; the rest of `docs/` is upstream Quartz documentation):

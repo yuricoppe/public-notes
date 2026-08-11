@@ -1,0 +1,95 @@
+@use "../../styles/variables.scss" as *;
+
+.topbar {
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 100;
+  height: var(--topbar-height);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+  background: var(--light);
+  border-bottom: 1px solid var(--lightgray);
+
+  & .skip-link {
+    position: absolute;
+    left: 0.5rem;
+    top: -4rem;
+    z-index: 1;
+    padding: 0.5rem 0.9rem;
+    border-radius: 5px;
+    background: var(--secondary);
+    color: var(--light);
+    font-size: 0.9rem;
+    transition: top 0.15s ease;
+
+    &:focus-visible {
+      top: 0.5rem;
+    }
+  }
+
+  & .topbar-brand {
+    font-family: var(--headerFont);
+    font-weight: $semiBoldWeight;
+    font-size: 1.05rem;
+    color: var(--dark);
+    white-space: nowrap;
+    flex-shrink: 0;
+    background-color: transparent;
+
+    &:hover {
+      color: var(--secondary);
+    }
+
+    @media all and ($mobile) {
+      font-size: 0.95rem;
+      max-width: 40vw;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  & .topbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 1;
+    min-width: 0;
+    justify-content: flex-end;
+
+    // A busca ocupa o espaço central que sobra, como na referência.
+    & > .search {
+      flex: 1;
+      min-width: 0;
+      max-width: 34rem;
+      margin-right: auto;
+    }
+
+    & > .darkmode,
+    & > .readermode {
+      flex-shrink: 0;
+      margin: 0;
+    }
+  }
+}
+
+// A busca dentro da barra vira campo, não só ícone.
+.topbar .search > .search-button {
+  width: 100%;
+  justify-content: flex-start;
+  background: var(--lightgray);
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 0.35rem 0.7rem;
+
+  & > p {
+    display: inline-block;
+    color: var(--gray);
+  }
+
+  &:hover {
+    border-color: var(--gray);
+  }
+}

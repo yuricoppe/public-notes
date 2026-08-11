@@ -23,6 +23,9 @@ import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
+// --- fork: componentes do layout de documentação (ver openspec/changes/adopt-docs-style-layout)
+import TopBar from "./TopBar"
+import ContextBar from "./ContextBar"
 
 export {
   ArticleTitle,
@@ -50,4 +53,6 @@ export {
   Comments,
   Flex,
   ConditionalRender,
+  TopBar,
+  ContextBar,
 }

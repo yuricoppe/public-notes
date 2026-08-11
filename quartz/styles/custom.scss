@@ -1,3 +1,234 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
-// put your custom CSS here!
+/**
+ * Layout de documentação, no estilo do GitHub Docs.
+ *
+ * Tudo aqui é sobrescrita do `base.scss` do upstream. O arquivo existe
+ * justamente para isso, então uma atualização do Quartz não conflita.
+ *
+ * A estrutura de três colunas já vem do Quartz; o que se acrescenta é:
+ *  - a compensação das duas barras fixas do topo
+ *  - largura fixa nas laterais e teto de leitura no centro
+ *  - a coluna esquerda recolhível
+ *  - a gaveta no tablet e no celular
+ */
+
+:root {
+  --topbar-height: 3.5rem;
+  --contextbar-height: 2.75rem;
+  --chrome-height: calc(var(--topbar-height) + var(--contextbar-height));
+  --nav-width: 19rem;
+  --aside-width: 17rem;
+  --reading-width: 75ch;
+}
+
+/* ---------------------------------------------------------------- *
+ * Compensação das barras fixas
+ * ---------------------------------------------------------------- */
+
+#quartz-root.page {
+  padding-top: var(--chrome-height);
+
+  // O upstream limita a página a 1500px e centraliza. Num layout de
+  // documentação as colunas laterais devem encostar nas bordas, como na
+  // referência — quem limita a leitura é o teto de linha do centro.
+  max-width: none;
+}
+
+/* ---------------------------------------------------------------- *
+ * Grade
+ * ---------------------------------------------------------------- */
+
+.page > #quartz-body {
+  column-gap: 0;
+
+  @media all and ($desktop) {
+    grid-template-columns: var(--nav-width) minmax(0, 1fr) var(--aside-width);
+  }
+
+  @media all and ($tablet) {
+    // A coluna esquerda deixa de ocupar espaço e vira gaveta sobreposta.
+    grid-template-columns: 0 minmax(0, 1fr);
+  }
+
+  // As laterais grudam abaixo das barras, não no topo da janela.
+  & .sidebar {
+    top: var(--chrome-height);
+    height: calc(100vh - var(--chrome-height));
+    padding-top: 1.5rem;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  & .sidebar.left {
+    border-right: 1px solid var(--lightgray);
+    padding-left: 1.25rem;
+    padding-right: 1rem;
+    gap: 0.75rem;
+  }
+
+  & .sidebar.right {
+    border-left: 1px solid var(--lightgray);
+    padding-left: 1.25rem;
+    padding-right: 1rem;
+    gap: 1.5rem;
+  }
+
+  & .center {
+    min-width: 0;
+    padding: 0 2.5rem;
+
+    @media all and ($mobile) {
+      padding: 0;
+    }
+  }
+
+  // Teto de leitura: o centro estica, o texto não.
+  & .center > .page-header,
+  & .center > article,
+  & .center > .page-footer,
+  & .center > hr {
+    max-width: var(--reading-width);
+  }
+}
+
+/* ---------------------------------------------------------------- *
+ * Coluna esquerda recolhível
+ * ---------------------------------------------------------------- */
+
+@media all and ($desktop) {
+  html[data-sidebar="collapsed"] .page > #quartz-body {
+    grid-template-columns: 0 minmax(0, 1fr) var(--aside-width);
+  }
+
+  html[data-sidebar="collapsed"] .page > #quartz-body > .sidebar.left {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+.page > #quartz-body > .sidebar.left {
+  transition:
+    opacity 0.15s ease,
+    visibility 0.15s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page > #quartz-body > .sidebar.left {
+    transition: none;
+  }
+}
+
+/* ---------------------------------------------------------------- *
+ * Gaveta: tablet e celular
+ * ---------------------------------------------------------------- */
+
+@media all and not ($desktop) {
+  .page > #quartz-body > .sidebar.left {
+    position: fixed;
+    top: var(--chrome-height);
+    left: 0;
+    bottom: 0;
+    z-index: 98;
+    width: min(var(--nav-width), 85vw);
+    height: auto;
+    background: var(--light);
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1.5rem 1.25rem;
+    transform: translateX(-100%);
+    transition: transform 0.18s ease;
+  }
+
+  html[data-sidebar="expanded"] .page > #quartz-body > .sidebar.left {
+    transform: translateX(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .page > #quartz-body > .sidebar.left {
+      transition: none;
+    }
+  }
+}
+
+/* No celular, o padrão é a gaveta fechada. */
+@media all and ($mobile) {
+  .page > #quartz-body {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .page > #quartz-body > .sidebar.right {
+    border-left: 0;
+    padding: 0;
+  }
+}
+
+/* ---------------------------------------------------------------- *
+ * Coluna direita: sumário primeiro, grafo e backlinks abaixo
+ * ---------------------------------------------------------------- */
+
+.page > #quartz-body > .sidebar.right {
+  & > .toc {
+    order: 1;
+  }
+  & > .graph {
+    order: 2;
+  }
+  & > .backlinks {
+    order: 3;
+  }
+
+  @media all and not ($desktop) {
+    & > .toc {
+      display: block;
+    }
+  }
+}
+
+/* ---------------------------------------------------------------- *
+ * Página inicial em grade
+ * ---------------------------------------------------------------- */
+
+body[data-slug="index"] {
+  & .center > article > h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--gray);
+    border-bottom: 1px solid var(--lightgray);
+    padding-bottom: 0.4rem;
+    margin-top: 2.5rem;
+  }
+
+  & .center > article > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 0.25rem 2rem;
+    padding-left: 0;
+    list-style: none;
+
+    & > li {
+      padding: 0.5rem 0;
+      margin: 0;
+
+      & > a {
+        font-weight: $semiBoldWeight;
+      }
+
+      & > .home-desc {
+        display: block;
+        font-size: 0.85rem;
+        color: var(--gray);
+        line-height: 1.4;
+      }
+    }
+  }
+
+  // A home não precisa de teto de leitura: a grade usa a largura toda.
+  & .center > article {
+    max-width: none;
+  }
+}

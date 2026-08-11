@@ -5,87 +5,65 @@ tags:
   - tipo/indice
 ---
 
-## Páginas
+Anotações de UX e design de produto, em português. Cada pasta reúne o que estudei sobre um assunto, com as fontes verificadas e comentadas no índice dela.
 
-## Geral
+## Acervos
 
-[[UX Design/index]]
-[[UI Design]]
-[[Design Ops/index]]
-[[Conteúdo/index]]
+- [[Notificações/index|Notificações]]
+  <span class="home-desc">Sistemas de mensagem: o que merece interromper alguém, permissão, frequência, escrita e acessibilidade.</span>
+- [[Design System/index|Design System]]
+  <span class="home-desc">O que entra no sistema, quem decide, como se versiona e por que adoção nunca termina.</span>
+- [[Conteúdo/index|Conteúdo]]
+  <span class="home-desc">Como as pessoas leem, linguagem simples, voz e microcópia, estrutura e teste.</span>
+- [[DataViz/index|DataViz]]
+  <span class="home-desc">Escolher a forma, cor, como um gráfico engana, acessibilidade, tabelas e painéis.</span>
+- [[Busca/index|Busca]]
+  <span class="home-desc">Por que o esforço de UX em busca costuma ir para o lugar errado.</span>
+- [[Glossário/index|Glossário]]
+  <span class="home-desc">Verbetes de componentes, elementos, padrões e entregáveis.</span>
 
----
+## Fundamentos
 
-## Base
+- [[UX Design/index|UX Design]]
+  <span class="home-desc">Heurísticas, processo e os fundamentos da disciplina.</span>
+- [[UI Design]]
+  <span class="home-desc">Interface: forma, comportamento e composição.</span>
+- [[Acessibilidade/index|Acessibilidade]]
+  <span class="home-desc">Princípios, normas e prática de acessibilidade web.</span>
+- [[Análise de Dados]]
+  <span class="home-desc">Medir produto sem se enganar com a métrica fácil.</span>
 
-[[Figma]]
-[[Design System/index]]
-[[Tokens]]
-[[Acessibilidade/index]]
-[[Análise de Dados]]
+## Sistemas e ferramentas
 
----
+- [[Tokens]]
+  <span class="home-desc">Especificação, ferramentas e pipeline de design tokens.</span>
+- [[Figma]]
+  <span class="home-desc">Organização de arquivo, bibliotecas e variáveis.</span>
+- [[Design Ops/index|Design Ops]]
+  <span class="home-desc">O trabalho que faz o trabalho de design acontecer.</span>
+- [[Gen UI]]
+  <span class="home-desc">Interface gerada e o que muda quando o layout não é fixo.</span>
 
-## Específico
+## Domínios
 
-[[UX Healthcare/index]]
-[[Busca/index]]
-[[Notificações/index]]
-[[Pesquisa de Satisfação do Cliente (CSAT)]]
-[[DataViz/index]]
-[[Pagamento/index]]
-[[Gen UI]]
-[[Dashboard]]
-[[Gerenciamento de conta]]
+- [[UX Healthcare/index|UX Healthcare]]
+  <span class="home-desc">Saúde: prontuário, resultado de exame, painel de gestão e o custo de errar.</span>
+- [[Pagamento/index|Pagamento]]
+  <span class="home-desc">Checkout, meios de pagamento e por que ninguém paga com plano de saúde numa loja virtual.</span>
+- [[Cadastro-Onboarding/index|Cadastro e onboarding]]
+  <span class="home-desc">A primeira sessão: o que pedir, quando pedir e o que adiar.</span>
+- [[Agendamentos/index|Agendamentos]]
+  <span class="home-desc">Marcar, remarcar e cancelar sem perder a pessoa no caminho.</span>
+- [[Gerenciamento de conta]]
+  <span class="home-desc">Perfil, preferências, segurança e saída.</span>
+- [[Dashboard]]
+  <span class="home-desc">Painéis: a pergunta antes dos gráficos.</span>
+- [[Pesquisa de Satisfação do Cliente (CSAT)]]
+  <span class="home-desc">CSAT, NPS e o que cada um mede de verdade.</span>
 
----
+## Também aqui
 
-## Links
-
-## Referências
-
-- **[Refero](https://refero.design/)** · refero.design
-  A maior coleção de referências de UI/UX para web e iOS. Bom para buscar como outros resolveram uma tela específica.
-- **[The Component Gallery](https://component.gallery/components/)** · component.gallery
-  Repositório de componentes de interface com exemplos reais de design systems públicos.
-
----
-
-## Ferramentas
-
-- **[designtools.fyi](https://designtools.fyi/)** · designtools.fyi
-  Compara ferramentas de design por capacidade.
-
----
-
-## Artigos
-
-- **[Nielsen Norman Group — Articles](https://www.nngroup.com/articles/)** · NN/g
-  Artigos baseados em pesquisa sobre UX, design de interação e usabilidade.
-- **[UX Collective](https://uxdesign.cc/)** · uxdesign.cc
-- **[UX Collective Brasil](https://brasil.uxdesign.cc/)** · uxdesign.cc
-  Em português.
-- **[Baymard Institute — arquivo de artigos](https://baymard.com/blog/archive)** · Baymard
-  Pesquisa de usabilidade em e-commerce, com base empírica grande.
-- **[Smashing Magazine — UX Design](https://www.smashingmagazine.com/category/uxdesign/)** · Smashing Magazine
-- **[A List Apart](https://alistapart.com/articles/)** · alistapart.com
-  "For people who make websites."
-- **[Interaction Design Foundation — Blog](https://www.interaction-design.org/blog)** · IxDF
-- **UX Booth** — ⚠️ o site saiu do ar (loop de redirecionamento, verificado em 10 ago 2026); o acervo continua legível no [snapshot de jun 2025 no Internet Archive](https://web.archive.org/web/20250616094943/https://uxbooth.com/articles/)
-
----
-
-## Canais
-
-- **[NN/g — Nielsen Norman Group](https://www.youtube.com/@NNgroup)** · YouTube
-- **[Sneak Peek Design](https://www.youtube.com/@sneakpeekdesign)** · YouTube
-- **[Smashing Magazine](https://www.youtube.com/@SmashingMagazineVideos/videos)** · YouTube
-- **[The Design System Guide](https://www.youtube.com/@designsystemguide/videos)** · YouTube
-- **[Awwwards TV](https://www.youtube.com/@AwwwardsTV/videos)** · YouTube
-- **[UXDX](https://www.youtube.com/@UXDX./videos)** · YouTube
-- **[Figma](https://www.youtube.com/@Figma)** · YouTube
-- **[Sajid](https://www.youtube.com/@whosajid)** · YouTube
-- **[Stanford HCI Seminar](https://www.youtube.com/playlist?list=PLoROMvodv4rMyupDF2O00r19JsmolyXdD)** · YouTube
-  Playlist do seminário de Human-Computer Interaction de Stanford.
-
----
+- [[Referências]]
+  <span class="home-desc">Acervos de artigo, galerias, ferramentas e canais que acompanho.</span>
+- [[Resumos/index|Resumos]]
+  <span class="home-desc">Sínteses de leitura.</span>
