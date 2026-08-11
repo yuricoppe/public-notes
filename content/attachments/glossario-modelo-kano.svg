@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="Gráfico do modelo de Kano: satisfação no eixo vertical e grau de implementação no horizontal, com as curvas de atributo obrigatório, unidimensional, atrativo, indiferente e reverso">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .axis  { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .cAtr  { fill: none; stroke: #2563eb; stroke-width: 2.5; }
+    .cUni  { fill: none; stroke: #16a34a; stroke-width: 2.5; }
+    .cObr  { fill: none; stroke: #dc2626; stroke-width: 2.5; }
+    .cInd  { fill: none; stroke: #9ca3af; stroke-width: 1.5; stroke-dasharray: 5 4; }
+    .cRev  { fill: none; stroke: #d97706; stroke-width: 1.5; stroke-dasharray: 5 4; }
+    .tAtr { fill: #2563eb; }
+    .tUni { fill: #16a34a; }
+    .tObr { fill: #dc2626; }
+    .tRev { fill: #d97706; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .cv  { font-size: 12px; font-weight: 700; }
+    .h   { font-size: 11.5px; font-weight: 700; }
+    .an  { font-size: 10.5px; }
+    .ax  { font-size: 11px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .axis { stroke: #6b7280; }
+      .cAtr { stroke: #60a5fa; } .tAtr { fill: #60a5fa; }
+      .cUni { stroke: #34d399; } .tUni { fill: #34d399; }
+      .cObr { stroke: #f87171; } .tObr { fill: #f87171; }
+      .cInd { stroke: #6b7280; }
+      .cRev { stroke: #fbbf24; } .tRev { fill: #fbbf24; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Modelo de Kano</text>
+  <text x="0" y="44" class="muted cap">Nem toda funcionalidade paga do mesmo jeito. Três curvas explicam por que fazer mais nem sempre satisfaz mais</text>
+
+  <!-- axes -->
+  <path d="M 90 302 L 90 74" class="axis"/>
+  <path d="M 85 80 L 90 72 L 95 80" class="axis"/>
+  <path d="M 90 188 L 694 188" class="axis"/>
+  <path d="M 688 183 L 696 188 L 688 193" class="axis"/>
+
+  <text x="84" y="88" class="muted ax" text-anchor="end">muito</text>
+  <text x="84" y="102" class="muted ax" text-anchor="end">satisfeito</text>
+  <text x="84" y="286" class="muted ax" text-anchor="end">muito</text>
+  <text x="84" y="300" class="muted ax" text-anchor="end">insatisfeito</text>
+  <text x="96" y="206" class="muted ax">funcionalidade ausente</text>
+  <text x="686" y="206" class="muted ax" text-anchor="end">completa e bem feita</text>
+
+  <!-- curves -->
+  <path d="M 90 120 L 690 250" class="cRev"/>
+  <path d="M 90 196 L 690 194" class="cInd"/>
+  <path d="M 90 292 C 240 218 380 192 690 180" class="cObr"/>
+  <path d="M 90 296 L 690 104" class="cUni"/>
+  <path d="M 90 188 C 380 182 560 144 690 80" class="cAtr"/>
+
+  <text x="686" y="70" class="tAtr cv" text-anchor="end">Atrativo</text>
+  <text x="686" y="124" class="tUni cv" text-anchor="end">Unidimensional</text>
+  <text x="686" y="170" class="tObr cv" text-anchor="end">Obrigatório</text>
+  <text x="600" y="266" class="tRev cv" text-anchor="end">Reverso</text>
+  <text x="240" y="212" class="muted cv">Indiferente</text>
+
+  <!-- legend / descriptions -->
+  <rect x="0" y="332" width="24" height="3" rx="1.5" fill="#dc2626"/>
+  <text x="0" y="356" class="ink h">Obrigatório</text>
+  <text x="0" y="374" class="muted an">Ausente, dói muito.</text>
+  <text x="0" y="388" class="muted an">Presente, ninguém nota.</text>
+
+  <rect x="146" y="332" width="24" height="3" rx="1.5" fill="#16a34a"/>
+  <text x="146" y="356" class="ink h">Unidimensional</text>
+  <text x="146" y="374" class="muted an">Quanto melhor, mais</text>
+  <text x="146" y="388" class="muted an">satisfação. É linear.</text>
+
+  <rect x="292" y="332" width="24" height="3" rx="1.5" fill="#2563eb"/>
+  <text x="292" y="356" class="ink h">Atrativo</text>
+  <text x="292" y="374" class="muted an">Ausente, tudo bem.</text>
+  <text x="292" y="388" class="muted an">Presente, encanta.</text>
+
+  <rect x="438" y="332" width="24" height="3" rx="1.5" fill="#9ca3af"/>
+  <text x="438" y="356" class="ink h">Indiferente</text>
+  <text x="438" y="374" class="muted an">Tanto faz. Custa caro</text>
+  <text x="438" y="388" class="muted an">e não move nada.</text>
+
+  <rect x="584" y="332" width="24" height="3" rx="1.5" fill="#d97706"/>
+  <text x="584" y="356" class="ink h">Reverso</text>
+  <text x="584" y="374" class="muted an">Presente, atrapalha.</text>
+  <text x="584" y="388" class="muted an">Aqui, menos é mais.</text>
+
+  <text x="0" y="414" class="muted cap">As curvas escorregam com o tempo: câmera em celular encantava em 2003 e hoje só é notada quando falta.</text>
+</svg>

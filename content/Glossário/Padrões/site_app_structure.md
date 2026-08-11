@@ -81,6 +81,8 @@ Este é um padrão de alto nível que influencia muitos outros padrões de UI (c
 
 ## Variações Comuns (Modelos Organizacionais)
 
+![Os cinco modelos de organização de conteúdo desenhados: hierárquica em árvore, sequencial em cadeia, matricial por facetas, orgânica em rede e organizada por tarefa](attachments/glossario-modelos-organizacionais.svg)
+
 - **Hierárquica (Árvore):** Estrutura de cima para baixo, com categorias e subcategorias.
 - **Sequencial:** Informação apresentada em uma ordem específica, passo a passo (ex: tutoriais, processos de checkout).
 - **Matricial:** Permite que os usuários naveguem por múltiplos atributos ou facetas (comum em [[Glossário/Componentes/filters|filtros]] de busca).

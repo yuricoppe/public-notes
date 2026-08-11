@@ -12,6 +12,8 @@ tags:
 
 Containeres e wrappers são elementos de layout fundamentais usados para controlar a largura, o alinhamento e, às vezes, o [[Glossário/Linguagem Visual/espacamento|espaçamento]] do conteúdo principal dentro de uma página ou seção. Eles ajudam a manter a consistência visual e a legibilidade, especialmente em telas largas.
 
+![Comparação entre wrapper de seção e container: o wrapper ocupa 100% da largura e leva o fundo até a borda da tela, o container limita a largura máxima e se centraliza; em tela estreita sobra apenas o padding lateral](attachments/glossario-container-wrapper.svg)
+
 ## Princípios Chave
 
 - **Controle de Largura:** Evitar que o conteúdo se estenda excessivamente em telas grandes, o que pode prejudicar a legibilidade (linhas de texto muito longas).

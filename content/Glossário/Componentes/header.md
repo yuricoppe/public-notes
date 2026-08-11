@@ -20,6 +20,8 @@ O componente Header ([[Glossário/Elementos/cabecalhos|Cabeçalho]]), neste cont
 
 ## Elementos Comuns
 
+![Cabeçalho de página anotado com breadcrumb, título h1, subtítulo e ações; ao lado, a escada de níveis h1, h2 e h3 e o erro de pular de h2 para h4](attachments/glossario-cabecalho-de-pagina.svg)
+
 -   **Título:** O elemento principal, usando a tag de cabeçalho HTML apropriada (`<h1>` a `<h6>`).
 -   **Subtítulo/Descrição (Opcional):** Texto adicional abaixo do título para fornecer mais contexto.
 -   **Ícone ou Avatar (Opcional):** Associado ao título.

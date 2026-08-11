@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="Os quatro tipos de mensagem ordenados por quanto interrompem: alerta inline, toast, banner global e modal, cada um com uma amostra desenhada e a regra de quando usar">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .axis  { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .an  { font-size: 11px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .axis { stroke: #6b7280; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Quatro maneiras de dizer a mesma coisa — e o preço de cada uma</text>
+  <text x="0" y="44" class="muted cap">A escolha não é de componente, é de quanto você tem o direito de atrapalhar a pessoa</text>
+
+  <path d="M 0 76 L 706 76" class="axis"/>
+  <path d="M 700 71 L 707 76 L 700 81" class="axis"/>
+  <text x="0" y="68" class="muted an">não interrompe</text>
+  <text x="640" y="68" class="muted an">bloqueia tudo</text>
+
+  <!-- inline alert -->
+  <rect x="0" y="94" width="174" height="252" rx="6" class="card"/>
+  <text x="10" y="120" class="ink h">Alerta inline</text>
+  <rect x="10" y="132" width="154" height="86" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="22" y="152" font-size="10" fill="#6b7280">CPF</text>
+  <rect x="22" y="158" width="130" height="24" rx="4" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="30" y="174" font-size="10" fill="#1f2937">123.456.789-00</text>
+  <text x="22" y="200" font-size="10" fill="#dc2626">✕ CPF inválido</text>
+  <text x="10" y="242" class="muted an">Fica encostado no que</text>
+  <text x="10" y="260" class="muted an">causou o problema.</text>
+  <text x="10" y="278" class="muted an">Não some sozinho.</text>
+  <text x="10" y="304" class="accent an">Erro de validação e</text>
+  <text x="10" y="322" class="accent an">aviso de contexto.</text>
+
+  <!-- toast -->
+  <rect x="182" y="94" width="174" height="252" rx="6" class="card"/>
+  <text x="192" y="120" class="ink h">Toast</text>
+  <rect x="192" y="132" width="154" height="86" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="202" y="164" width="134" height="38" rx="6" fill="#1f2937"/>
+  <circle cx="217" cy="183" r="6" fill="#34d399"/>
+  <path d="M 214.5 183 L 216.5 185 L 219.5 180.5" fill="none" stroke="#1f2937" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="230" y="187" font-size="10" fill="#ffffff">Pedido salvo</text>
+  <text x="294" y="187" font-size="10" fill="#93c5fd">Desfazer</text>
+  <text x="182" y="242" class="muted an">Aparece, informa e some</text>
+  <text x="182" y="260" class="muted an">em 4 a 6 segundos.</text>
+  <text x="182" y="278" class="muted an">Nunca exige leitura.</text>
+  <text x="182" y="304" class="accent an">Confirmação do que a</text>
+  <text x="182" y="322" class="accent an">pessoa acabou de fazer.</text>
+
+  <!-- global banner -->
+  <rect x="364" y="94" width="174" height="252" rx="6" class="card"/>
+  <text x="374" y="120" class="ink h">Banner global</text>
+  <rect x="374" y="132" width="154" height="86" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <path d="M 384 146 h 134 v 20 h -134 z" fill="#fef3c7"/>
+  <text x="390" y="160" font-size="9" fill="#92400e">Manutenção hoje, 22h</text>
+  <text x="506" y="160" font-size="9" fill="#92400e">✕</text>
+  <rect x="384" y="174" width="120" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="384" y="186" width="134" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="384" y="198" width="88" height="5" rx="2.5" fill="#e5e7eb"/>
+  <text x="364" y="242" class="muted an">Vale para o sistema todo</text>
+  <text x="364" y="260" class="muted an">e persiste entre páginas.</text>
+  <text x="364" y="278" class="muted an">Dispensável pela pessoa.</text>
+  <text x="364" y="304" class="accent an">Manutenção, aviso legal,</text>
+  <text x="364" y="322" class="accent an">serviço degradado.</text>
+
+  <!-- modal -->
+  <rect x="546" y="94" width="174" height="252" rx="6" class="card"/>
+  <text x="556" y="120" class="ink h">Modal</text>
+  <rect x="556" y="132" width="154" height="86" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="564" y="140" width="138" height="70" rx="4" fill="#9ca3af"/>
+  <rect x="578" y="152" width="110" height="46" rx="5" fill="#ffffff"/>
+  <text x="588" y="170" font-size="9" font-weight="700" fill="#1f2937">Excluir 24 pedidos?</text>
+  <rect x="588" y="178" width="40" height="14" rx="3" fill="#ffffff" stroke="#9ca3af" stroke-width="1"/>
+  <text x="595" y="188" font-size="8" fill="#1f2937">Cancelar</text>
+  <rect x="634" y="178" width="44" height="14" rx="3" fill="#dc2626"/>
+  <text x="643" y="188" font-size="8" fill="#ffffff">Excluir</text>
+  <text x="546" y="242" class="muted an">Trava a tela até você</text>
+  <text x="546" y="260" class="muted an">responder. Prende o foco</text>
+  <text x="546" y="278" class="muted an">do teclado dentro dele.</text>
+  <text x="546" y="304" class="warn an">Só para o irreversível.</text>
+  <text x="546" y="322" class="warn an">Na dúvida, não é modal.</text>
+
+  <text x="0" y="382" class="muted cap">Mensagem que aparece sozinha precisa ser anunciada: aria-live="polite" para o que pode esperar,</text>
+  <text x="0" y="402" class="muted cap">aria-live="assertive" só para o que interrompe. Um toast que o leitor de tela não lê não existe.</text>
+</svg>

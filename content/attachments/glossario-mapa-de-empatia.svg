@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" width="720" height="430" role="img" aria-label="Mapa de empatia com a pessoa no centro e quatro quadrantes — diz, pensa, faz e sente — mais as faixas de dores e ganhos">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .frame { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .cross { stroke: #d1d5db; stroke-width: 1.2; }
+    .hub   { fill: #ffffff; stroke: #2563eb; stroke-width: 2; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .q   { font-size: 15px; font-weight: 700; letter-spacing: 0.5px; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .frame { fill: #111827; stroke: #4b5563; }
+      .cross { stroke: #4b5563; }
+      .hub { fill: #1f2937; stroke: #60a5fa; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Mapa de empatia</text>
+  <text x="0" y="44" class="muted cap">Quatro perguntas sobre a mesma pessoa. O que interessa é onde as respostas se contradizem</text>
+
+  <rect x="0" y="76" width="720" height="244" rx="6" class="frame"/>
+  <line x1="360" y1="76" x2="360" y2="320" class="cross"/>
+  <line x1="0" y1="198" x2="720" y2="198" class="cross"/>
+
+  <text x="20" y="106" class="ink q">DIZ</text>
+  <text x="20" y="126" class="muted an">O que fala em voz alta, na entrevista ou no teste.</text>
+  <text x="20" y="152" class="accent an">"Não achei o botão de busca."</text>
+  <text x="20" y="170" class="accent an">"Isso aqui é confuso."</text>
+
+  <text x="380" y="106" class="ink q">PENSA</text>
+  <text x="380" y="126" class="muted an">O que passa pela cabeça e não é dito.</text>
+  <text x="380" y="152" class="accent an">"Será que estou fazendo certo?"</text>
+  <text x="380" y="170" class="accent an">"Isso parece arriscado."</text>
+
+  <text x="20" y="232" class="ink q">FAZ</text>
+  <text x="20" y="252" class="muted an">O comportamento observável, não o relatado.</text>
+  <text x="20" y="278" class="accent an">Clica no mesmo botão três vezes.</text>
+  <text x="20" y="296" class="accent an">Pede ajuda ao colega ao lado.</text>
+
+  <text x="380" y="232" class="ink q">SENTE</text>
+  <text x="380" y="252" class="muted an">O estado emocional durante a tarefa.</text>
+  <text x="380" y="278" class="accent an">Ansiosa antes de confirmar.</text>
+  <text x="380" y="296" class="accent an">Aliviada quando termina.</text>
+
+  <circle cx="360" cy="198" r="46" class="hub"/>
+  <text x="360" y="194" class="ink h" text-anchor="middle">A pessoa</text>
+  <text x="360" y="212" class="muted an" text-anchor="middle">no centro</text>
+
+  <rect x="0" y="338" width="352" height="56" rx="6" class="card"/>
+  <text x="16" y="360" class="ink h">DORES</text>
+  <text x="16" y="380" class="muted an">Frustrações, medos e obstáculos no caminho.</text>
+
+  <rect x="368" y="338" width="352" height="56" rx="6" class="card"/>
+  <text x="384" y="360" class="ink h">GANHOS</text>
+  <text x="384" y="380" class="muted an">O que ela quer alcançar — e como mede sucesso.</text>
+
+  <text x="0" y="422" class="muted cap">O mapa não vale pelo preenchimento: vale quando "diz" e "faz" discordam, e alguém precisa explicar por quê.</text>
+</svg>

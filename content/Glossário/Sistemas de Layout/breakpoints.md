@@ -22,6 +22,8 @@ Os breakpoints responsivos são os pontos específicos nos quais o layout do nos
 
 Definimos os seguintes breakpoints principais, comumente usados e que cobrem uma vasta gama de dispositivos:
 
+![Escala dos seis breakpoints lado a lado, com os dispositivos típicos de cada faixa e os limites em 576, 768, 992, 1200 e 1400 pixels](attachments/glossario-breakpoints.svg)
+
 | Nome      | Range de Largura da Tela (Viewport Width) | Dispositivos Típicos                                  |
 |-----------|-------------------------------------------|-------------------------------------------------------|
 | **XS**    | < 576px                                   | Smartphones (portrait e alguns landscape)             |

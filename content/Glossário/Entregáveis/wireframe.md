@@ -44,6 +44,8 @@ O principal objetivo de um wireframe é definir a arquitetura da informação de
 
 ## Tipos de Wireframes
 
+![A mesma tela em três fidelidades — esboço, wireframe e mockup — com o que cada uma decide e quanto custa](attachments/glossario-fidelidade-wireframe.svg)
+
 - **Baixa Fidelidade (Low-Fidelity):** Esboços rápidos, muitas vezes desenhados à mão ou com ferramentas digitais simples. Foco principal na ideia e estrutura geral.
 - **Média Fidelidade (Mid-Fidelity):** Mais detalhados, criados com software de design, com elementos mais definidos, mas ainda sem design visual elaborado.
 - **Alta Fidelidade (High-Fidelity Wireframes - menos comum):** Incluem mais detalhes e precisão, aproximando-se de um mockup, mas ainda tecnicamente wireframes se o foco principal for estrutura e não o visual final.

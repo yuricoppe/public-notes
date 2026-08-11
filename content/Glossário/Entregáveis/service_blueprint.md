@@ -18,6 +18,8 @@ O Service Blueprint é uma ferramenta poderosa para analisar e melhorar experiê
 
 Tradicionalmente, um Service Blueprint é dividido em seções horizontais (swimlanes) que representam diferentes aspectos do serviço:
 
+![Service blueprint com cinco raias — evidências físicas, ações do cliente, frontstage, backstage e processos de suporte — separadas pelas linhas de interação, de visibilidade e de interação interna](attachments/glossario-service-blueprint.svg)
+
 - **Evidências Físicas (Physical Evidence):** Itens tangíveis que o cliente encontra (ex: website, aplicativo, loja física, e-mails).
 - **Ações do Cliente (Customer Actions):** As etapas, escolhas, atividades e interações que o cliente realiza ao longo da jornada.
 - **Interações de Frontstage (Frontstage Interactions/Onstage):** Ações dos funcionários ou sistemas que são visíveis para o cliente (interação direta).

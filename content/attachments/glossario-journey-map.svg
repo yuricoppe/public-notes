@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Estrutura de um journey map em cinco fases — descobrir, comparar, contratar, usar e renovar — com as linhas de ações, pensamentos, curva emocional, dores e oportunidades">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .band  { fill: #f9fafb; }
+    .head  { fill: #e5e7eb; }
+    .grid  { stroke: #e5e7eb; stroke-width: 1; }
+    .emo   { fill: none; stroke: #2563eb; stroke-width: 2; }
+    .zero  { stroke: #d1d5db; stroke-width: 1; stroke-dasharray: 3 3; }
+    .dot   { fill: #2563eb; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .row { font-size: 10.5px; font-weight: 700; fill: #6b7280; letter-spacing: 0.4px; }
+    .ph  { font-size: 12px; font-weight: 700; }
+    .c   { font-size: 9.5px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .band { fill: #1f2937; }
+      .head { fill: #374151; }
+      .grid { stroke: #4b5563; }
+      .emo { stroke: #60a5fa; }
+      .zero { stroke: #4b5563; }
+      .dot { fill: #60a5fa; }
+      .row { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">O que um journey map tem dentro</text>
+  <text x="0" y="44" class="muted cap">Cinco fases no eixo do tempo e cinco camadas por cima. A curva emocional é o que ninguém consegue ignorar</text>
+
+  <!-- phase header -->
+  <rect x="100" y="70" width="620" height="28" class="head"/>
+  <text x="108" y="89" class="ink ph">Descobrir</text>
+  <text x="232" y="89" class="ink ph">Comparar</text>
+  <text x="356" y="89" class="ink ph">Contratar</text>
+  <text x="480" y="89" class="ink ph">Usar</text>
+  <text x="604" y="89" class="ink ph">Renovar</text>
+
+  <!-- bands -->
+  <rect x="100" y="102" width="620" height="46" class="band"/>
+  <rect x="100" y="200" width="620" height="66" class="band"/>
+  <rect x="100" y="318" width="620" height="46" class="band"/>
+
+  <!-- column separators -->
+  <line x1="224" y1="70" x2="224" y2="364" class="grid"/>
+  <line x1="348" y1="70" x2="348" y2="364" class="grid"/>
+  <line x1="472" y1="70" x2="472" y2="364" class="grid"/>
+  <line x1="596" y1="70" x2="596" y2="364" class="grid"/>
+  <line x1="100" y1="70" x2="100" y2="364" class="grid"/>
+
+  <!-- row labels -->
+  <text x="0" y="122" class="row">AÇÕES</text>
+  <text x="0" y="172" class="row">PENSAMENTOS</text>
+  <text x="0" y="236" class="row">EMOÇÃO</text>
+  <text x="0" y="288" class="row">DORES</text>
+  <text x="0" y="338" class="row">OPORTUNIDADES</text>
+
+  <!-- ações -->
+  <text x="108" y="122" class="ink c">Busca no Google</text>
+  <text x="232" y="122" class="ink c">Lê avaliações e</text>
+  <text x="232" y="136" class="ink c">compara preços</text>
+  <text x="356" y="122" class="ink c">Preenche o</text>
+  <text x="356" y="136" class="ink c">cadastro</text>
+  <text x="480" y="122" class="ink c">Configura a conta</text>
+  <text x="604" y="122" class="ink c">Recebe a cobrança</text>
+
+  <!-- pensamentos -->
+  <text x="108" y="172" class="muted c">"Isso resolve o</text>
+  <text x="108" y="186" class="muted c">meu problema?"</text>
+  <text x="232" y="172" class="muted c">"Vale esse preço?"</text>
+  <text x="356" y="172" class="muted c">"Por que tantos</text>
+  <text x="356" y="186" class="muted c">campos?"</text>
+  <text x="480" y="172" class="muted c">"Como eu faço a</text>
+  <text x="480" y="186" class="muted c">coisa X aqui?"</text>
+  <text x="604" y="172" class="muted c">"Eu ainda uso</text>
+  <text x="604" y="186" class="muted c">isso mesmo?"</text>
+
+  <!-- emoção -->
+  <line x1="100" y1="233" x2="720" y2="233" class="zero"/>
+  <polyline points="162,221 286,216 410,253 534,241 658,230" class="emo"/>
+  <circle cx="162" cy="221" r="4" class="dot"/>
+  <circle cx="286" cy="216" r="4" class="dot"/>
+  <circle cx="410" cy="253" r="4" class="dot"/>
+  <circle cx="534" cy="241" r="4" class="dot"/>
+  <circle cx="658" cy="230" r="4" class="dot"/>
+  <text x="108" y="262" class="muted c">curiosa</text>
+  <text x="232" y="262" class="muted c">interessada</text>
+  <text x="356" y="262" class="warn c">frustrada</text>
+  <text x="480" y="262" class="muted c">perdida</text>
+  <text x="604" y="262" class="muted c">indiferente</text>
+
+  <!-- dores -->
+  <text x="108" y="288" class="muted c">—</text>
+  <text x="232" y="288" class="warn c">Preço só aparece</text>
+  <text x="232" y="302" class="warn c">no fim</text>
+  <text x="356" y="288" class="warn c">9 campos</text>
+  <text x="356" y="302" class="warn c">obrigatórios</text>
+  <text x="480" y="288" class="warn c">Nenhum</text>
+  <text x="480" y="302" class="warn c">onboarding</text>
+  <text x="604" y="288" class="warn c">Cobrança sem</text>
+  <text x="604" y="302" class="warn c">aviso prévio</text>
+
+  <!-- oportunidades -->
+  <text x="108" y="338" class="muted c">—</text>
+  <text x="232" y="338" class="accent c">Tabela de preços</text>
+  <text x="232" y="352" class="accent c">na primeira tela</text>
+  <text x="356" y="338" class="accent c">Cadastro em</text>
+  <text x="356" y="352" class="accent c">dois passos</text>
+  <text x="480" y="338" class="accent c">Tour de três</text>
+  <text x="480" y="352" class="accent c">telas</text>
+  <text x="604" y="338" class="accent c">Aviso 7 dias</text>
+  <text x="604" y="352" class="accent c">antes</text>
+
+  <text x="0" y="390" class="muted cap">Sem pesquisa por trás, isso é um mapa das suposições da equipe — bonito, alinhado e possivelmente falso.</text>
+</svg>

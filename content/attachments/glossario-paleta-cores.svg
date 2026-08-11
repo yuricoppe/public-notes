@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="Estrutura de uma paleta: escala de tons da cor primária e das neutras, de 100 a 900, e as quatro cores semânticas — sucesso em verde, erro em vermelho, aviso em amarelo e informação em azul">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .onL   { fill: #1f2937; }
+    .onD   { fill: #ffffff; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .accent{ fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .an  { font-size: 12px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">A paleta não é um conjunto de cores bonitas — é uma escala de tons com função</text>
+  <text x="0" y="44" class="muted cap">O número é a luminosidade: 100 é o mais claro, 900 o mais escuro. É isso que torna a paleta usável</text>
+
+  <text x="0" y="80" class="ink h">Primária</text>
+  <text x="0" y="98" class="muted an">destaque e ação</text>
+  <rect x="150" y="66" width="107" height="46" rx="4" fill="#dbeafe"/>
+  <rect x="265" y="66" width="107" height="46" rx="4" fill="#93c5fd"/>
+  <rect x="380" y="66" width="107" height="46" rx="4" fill="#3b82f6"/>
+  <rect x="495" y="66" width="107" height="46" rx="4" fill="#1d4ed8"/>
+  <rect x="610" y="66" width="107" height="46" rx="4" fill="#1e3a8a"/>
+  <text x="162" y="86" class="onL mono">100</text>
+  <text x="277" y="86" class="onL mono">300</text>
+  <text x="392" y="86" class="onD mono">500</text>
+  <text x="507" y="86" class="onD mono">700</text>
+  <text x="622" y="86" class="onD mono">900</text>
+  <text x="162" y="103" class="onL mono">fundo suave</text>
+  <text x="277" y="103" class="onL mono">borda, hover</text>
+  <text x="392" y="103" class="onD mono">o tom da marca</text>
+  <text x="507" y="103" class="onD mono">pressionado</text>
+  <text x="622" y="103" class="onD mono">texto sobre claro</text>
+
+  <text x="0" y="146" class="ink h">Neutras</text>
+  <text x="0" y="164" class="muted an">estrutura e texto</text>
+  <rect x="150" y="132" width="107" height="46" rx="4" fill="#f3f4f6"/>
+  <rect x="265" y="132" width="107" height="46" rx="4" fill="#d1d5db"/>
+  <rect x="380" y="132" width="107" height="46" rx="4" fill="#6b7280"/>
+  <rect x="495" y="132" width="107" height="46" rx="4" fill="#374151"/>
+  <rect x="610" y="132" width="107" height="46" rx="4" fill="#111827"/>
+  <text x="162" y="152" class="onL mono">100</text>
+  <text x="277" y="152" class="onL mono">300</text>
+  <text x="392" y="152" class="onD mono">500</text>
+  <text x="507" y="152" class="onD mono">700</text>
+  <text x="622" y="152" class="onD mono">900</text>
+  <text x="162" y="169" class="onL mono">fundo de página</text>
+  <text x="277" y="169" class="onL mono">divisor, borda</text>
+  <text x="392" y="169" class="onD mono">texto secundário</text>
+  <text x="507" y="169" class="onD mono">texto de apoio</text>
+  <text x="622" y="169" class="onD mono">corpo de texto</text>
+
+  <text x="0" y="212" class="ink h">Semânticas — cores que já significam alguma coisa antes de você usá-las</text>
+
+  <rect x="0" y="226" width="174" height="96" rx="6" class="card"/>
+  <rect x="0" y="226" width="174" height="7" rx="3" fill="#16a34a"/>
+  <text x="14" y="256" class="ink h">Sucesso</text>
+  <text x="14" y="278" class="muted an">Confirmação, validação</text>
+  <text x="14" y="296" class="muted an">positiva, estado saudável.</text>
+  <text x="14" y="314" class="muted mono">--cor-sucesso-500</text>
+
+  <rect x="182" y="226" width="174" height="96" rx="6" class="card"/>
+  <rect x="182" y="226" width="174" height="7" rx="3" fill="#dc2626"/>
+  <text x="196" y="256" class="ink h">Erro</text>
+  <text x="196" y="278" class="muted an">Falha, bloqueio, dado</text>
+  <text x="196" y="296" class="muted an">inválido. Sempre com texto.</text>
+  <text x="196" y="314" class="muted mono">--cor-erro-500</text>
+
+  <rect x="364" y="226" width="174" height="96" rx="6" class="card"/>
+  <rect x="364" y="226" width="174" height="7" rx="3" fill="#f59e0b"/>
+  <text x="378" y="256" class="ink h">Aviso</text>
+  <text x="378" y="278" class="muted an">Algo pede atenção, mas</text>
+  <text x="378" y="296" class="muted an">não impede continuar.</text>
+  <text x="378" y="314" class="muted mono">--cor-aviso-500</text>
+
+  <rect x="546" y="226" width="174" height="96" rx="6" class="card"/>
+  <rect x="546" y="226" width="174" height="7" rx="3" fill="#2563eb"/>
+  <text x="560" y="256" class="ink h">Informação</text>
+  <text x="560" y="278" class="muted an">Contexto, dica, novidade.</text>
+  <text x="560" y="296" class="muted an">Nenhuma ação exigida.</text>
+  <text x="560" y="314" class="muted mono">--cor-info-500</text>
+
+  <text x="0" y="360" class="muted cap">Cuidado: a cor semântica é convenção cultural, não lei da natureza — e cerca de 1 em cada 12 homens</text>
+  <text x="0" y="380" class="muted cap">não distingue verde de vermelho. Toda cor que carrega significado precisa vir acompanhada de texto ou ícone.</text>
+  <text x="0" y="408" class="accent cap">Regra prática: se apagar todas as cores da tela, a informação ainda precisa estar lá.</text>
+</svg>

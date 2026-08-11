@@ -16,6 +16,8 @@ Um mapa do site (site map) é um diagrama hierárquico que ilustra a estrutura d
 
 ## Componentes Chave
 
+![Sitemap hierárquico com quatro níveis a partir da home, e a comparação entre uma estrutura rasa e larga e outra funda e estreita](attachments/glossario-site-map.svg)
+
 - **Estrutura Hierárquica:** Mostra as páginas principais, subpáginas e a relação entre elas (pai-filho).
 - **Níveis de Navegação:** Indica a profundidade da informação e como o usuário navega de uma seção para outra.
 - **Rótulos de Conteúdo:** Nomes claros e concisos para cada página ou seção.

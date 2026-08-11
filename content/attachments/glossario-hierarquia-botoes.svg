@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 410" width="720" height="410" role="img" aria-label="Hierarquia de botões: primário preenchido, secundário com contorno e terciário só texto; abaixo, os cinco estados do botão primário — padrão, hover, foco com anel, pressionado e desabilitado">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .sheet { fill: #ffffff; stroke: #e5e7eb; stroke-width: 1.2; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .an  { font-size: 12px; }
+    .sm  { font-size: 11.5px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">A hierarquia do botão é o que responde "e agora, o que eu faço?"</text>
+  <text x="0" y="44" class="muted cap">Se dois botões têm o mesmo peso, a tela deixa de ter uma ação principal — e a pessoa hesita</text>
+
+  <text x="0" y="72" class="ink h">Três níveis de ênfase</text>
+
+  <rect x="0" y="84" width="720" height="66" rx="6" class="sheet"/>
+  <rect x="20" y="96" width="170" height="42" rx="6" fill="#2563eb"/>
+  <text x="49" y="123" font-size="14" font-weight="600" fill="#ffffff">Salvar alterações</text>
+  <rect x="260" y="96" width="150" height="42" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="303" y="123" font-size="14" font-weight="600" fill="#2563eb">Descartar</text>
+  <text x="500" y="123" font-size="14" font-weight="600" fill="#2563eb">Saiba mais</text>
+  <line x1="500" y1="128" x2="574" y2="128" stroke="#2563eb" stroke-width="1"/>
+
+  <text x="20"  y="176" class="ink h">Primário</text>
+  <text x="20"  y="196" class="muted an">Preenchido. Um por tela — o</text>
+  <text x="20"  y="214" class="muted an">que a pessoa veio fazer ali.</text>
+  <text x="20"  y="232" class="muted an">Dois primários é nenhum.</text>
+
+  <text x="260" y="176" class="ink h">Secundário</text>
+  <text x="260" y="196" class="muted an">Contorno. Alternativa legítima</text>
+  <text x="260" y="214" class="muted an">à ação principal, que não</text>
+  <text x="260" y="232" class="muted an">precisa competir com ela.</text>
+
+  <text x="500" y="176" class="ink h">Terciário / texto</text>
+  <text x="500" y="196" class="muted an">Sem caixa. Para o que é</text>
+  <text x="500" y="214" class="muted an">opcional, reversível ou</text>
+  <text x="500" y="232" class="muted an">periférico à tarefa.</text>
+
+  <text x="0" y="270" class="ink h">Os cinco estados que todo botão precisa ter</text>
+
+  <rect x="0" y="282" width="690" height="60" rx="6" class="sheet"/>
+  <rect x="16"  y="292" width="118" height="40" rx="6" fill="#2563eb"/>
+  <text x="52"  y="317" font-size="13" font-weight="600" fill="#ffffff">Padrão</text>
+  <rect x="150" y="292" width="118" height="40" rx="6" fill="#1d4ed8"/>
+  <text x="190" y="317" font-size="13" font-weight="600" fill="#ffffff">Hover</text>
+  <rect x="280" y="288" width="126" height="48" rx="9" fill="none" stroke="#93c5fd" stroke-width="3"/>
+  <rect x="284" y="292" width="118" height="40" rx="6" fill="#2563eb"/>
+  <text x="328" y="317" font-size="13" font-weight="600" fill="#ffffff">Foco</text>
+  <rect x="418" y="292" width="118" height="40" rx="6" fill="#1e3a8a"/>
+  <text x="439" y="317" font-size="13" font-weight="600" fill="#ffffff">Pressionado</text>
+  <rect x="552" y="292" width="118" height="40" rx="6" fill="#e5e7eb"/>
+  <text x="570" y="317" font-size="13" font-weight="600" fill="#9ca3af">Desabilitado</text>
+
+  <text x="16"  y="360" class="muted sm">sem interação</text>
+  <text x="150" y="360" class="muted sm">cursor em cima</text>
+  <text x="280" y="360" class="muted sm">anel visível, teclado</text>
+  <text x="418" y="360" class="muted sm">durante o clique</text>
+  <text x="552" y="360" class="muted sm">diga por quê, ao lado</text>
+
+  <text x="0" y="392" class="muted cap">O estado de foco não é enfeite: é a única pista de onde a pessoa está quando navega só pelo teclado.</text>
+</svg>

@@ -27,6 +27,8 @@ O objetivo principal de uma Matriz RACI é:
 
 ## Como Funciona
 
+![Matriz RACI preenchida, com seis tarefas nas linhas e cinco papéis nas colunas, e a legenda de responsible, accountable, consulted e informed](attachments/glossario-matriz-raci.svg)
+
 1.  **Identificar Tarefas/Entregáveis:** Listar todas as principais tarefas, atividades, decisões ou entregáveis do projeto ao longo de um eixo da matriz (geralmente o eixo vertical).
 2.  **Identificar Papéis/Pessoas:** Listar todos os stakeholders, membros da equipe ou papéis funcionais envolvidos no projeto ao longo do outro eixo (geralmente o eixo horizontal).
 3.  **Preencher a Matriz:** Para cada interseção de tarefa e papel, designar uma ou mais das letras RACI (R, A, C, I) para indicar o nível de envolvimento daquela pessoa/papel naquela tarefa específica.

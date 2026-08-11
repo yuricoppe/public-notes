@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" width="720" height="350" role="img" aria-label="Comparação entre switch e checkbox: o switch vale no instante em que muda e não tem botão de confirmar, o checkbox só entra em vigor quando o formulário é salvo">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 14px; font-weight: 700; }
+    .an  { font-size: 12px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .arrow { stroke: #6b7280; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Switch ou checkbox? A pergunta é quando a escolha passa a valer</text>
+  <text x="0" y="44" class="muted cap">Os dois são binários e parecem intercambiáveis. Não são — eles prometem coisas diferentes</text>
+
+  <!-- switch -->
+  <rect x="0" y="70" width="346" height="206" rx="6" class="card"/>
+  <text x="16" y="96" class="ink h">Switch — vale na hora</text>
+  <text x="16" y="118" class="muted an">Para configuração que o sistema obedece no instante da troca.</text>
+
+  <rect x="16" y="132" width="314" height="60" rx="5" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="32" y="148" width="44" height="24" rx="12" fill="#2563eb"/>
+  <circle cx="64" cy="160" r="9" fill="#ffffff"/>
+  <text x="90" y="157" font-size="13" fill="#1f2937">Notificações por e-mail</text>
+  <text x="90" y="175" font-size="11" fill="#6b7280">Ligado</text>
+
+  <path d="M 173 200 L 173 218" class="arrow"/>
+  <path d="M 168 213 L 173 219 L 178 213" class="arrow"/>
+
+  <text x="16" y="242" class="ink an">O estado muda e o sistema já obedece.</text>
+  <text x="16" y="262" class="muted an">Não existe botão de confirmar — e nem pode existir.</text>
+
+  <!-- checkbox -->
+  <rect x="374" y="70" width="346" height="206" rx="6" class="card"/>
+  <text x="390" y="96" class="ink h">Checkbox — vale quando você confirma</text>
+  <text x="390" y="118" class="muted an">Para escolha que entra em vigor junto com o resto do formulário.</text>
+
+  <rect x="390" y="132" width="314" height="60" rx="5" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="406" y="154" width="16" height="16" rx="3" fill="#2563eb"/>
+  <path d="M 410 162 L 413 165 L 419 158.5" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="434" y="167" font-size="13" fill="#1f2937">Notificações por e-mail</text>
+  <rect x="620" y="149" width="68" height="26" rx="5" fill="#2563eb"/>
+  <text x="637" y="167" font-size="12" font-weight="600" fill="#ffffff">Salvar</text>
+
+  <path d="M 547 200 L 547 218" class="arrow"/>
+  <path d="M 542 213 L 547 219 L 552 213" class="arrow"/>
+
+  <text x="390" y="242" class="ink an">Nada acontece até o Salvar.</text>
+  <text x="390" y="262" class="muted an">Dá para mudar de ideia e sair sem consequência.</text>
+
+  <text x="0" y="306" class="warn cap">O erro clássico é o switch dentro de um formulário com botão "Salvar":</text>
+  <text x="0" y="326" class="muted cap">a pessoa mexe no switch, sai da tela sem salvar e não faz ideia se a configuração pegou ou não.</text>
+</svg>

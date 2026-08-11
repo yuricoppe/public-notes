@@ -19,6 +19,8 @@ Data Tables são componentes usados para exibir conjuntos de dados estruturados 
 
 ## Funcionalidades Essenciais
 
+![Tabela de dados anotada em seis pontos: seleção em lote, ordenação com aria-sort, números alinhados à direita, coluna de ações, zebra ou divisória e paginação com total](attachments/glossario-anatomia-tabela.svg)
+
 -   **[[Glossário/Elementos/cabecalhos|Cabeçalhos]] de Coluna (Headers):** Rótulos claros para cada coluna, indicando o tipo de dado que ela contém.
 -   **Linhas de Dados (Rows):** Cada linha representa um item ou [[Glossário/Padrões/create_account|registro]].
 -   **Células (Cells):** Interseção de uma linha e uma coluna, contendo um valor de dado específico.

@@ -25,6 +25,8 @@ Os principais objetivos de um Mapa de Empatia são:
 
 ## Estrutura Comum de um Mapa de Empatia
 
+![Mapa de empatia com a pessoa no centro e os quatro quadrantes — diz, pensa, faz e sente — mais as faixas de dores e ganhos](attachments/glossario-mapa-de-empatia.svg)
+
 Um formato popular (proposto por Dave Gray e a XPLANE, e adaptado pelo NN/g) inclui:
 
 *   **Usuário/Persona no Centro:** Quem é a pessoa que estamos tentando entender?

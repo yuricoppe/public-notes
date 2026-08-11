@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="Anatomia de um menu suspenso: gatilho com aria-expanded, itens com ícone, atalho e seta de submenu, separadores e item desabilitado, mais o mapa de navegação por teclado">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .kbd   { fill: #f3f4f6; stroke: #9ca3af; stroke-width: 1; }
+    .accent{ fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .lead { stroke: #6b7280; }
+      .kbd { fill: #1f2937; stroke: #6b7280; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Anatomia de um menu suspenso</text>
+  <text x="0" y="44" class="muted cap">O menu é fácil de desenhar e difícil de fazer funcionar: quase tudo que falta nele é comportamento de teclado</text>
+
+  <!-- trigger -->
+  <rect x="40" y="76" width="120" height="34" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="56" y="98" font-size="12" font-weight="600" fill="#2563eb">Ações</text>
+  <path d="M 132 92 L 138 98 L 144 92" fill="none" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- menu container -->
+  <rect x="40" y="118" width="220" height="196" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1.2"/>
+
+  <rect x="44" y="124" width="212" height="30" rx="4" fill="#dbeafe"/>
+  <circle cx="62" cy="139" r="6" fill="none" stroke="#1e40af" stroke-width="1.4"/>
+  <text x="80" y="143" font-size="12" fill="#1f2937">Editar</text>
+  <text x="240" y="143" font-size="10" fill="#6b7280" text-anchor="end">⌘E</text>
+
+  <circle cx="62" cy="171" r="6" fill="none" stroke="#6b7280" stroke-width="1.4"/>
+  <text x="80" y="175" font-size="12" fill="#1f2937">Duplicar</text>
+  <text x="240" y="175" font-size="10" fill="#6b7280" text-anchor="end">⌘D</text>
+
+  <circle cx="62" cy="203" r="6" fill="none" stroke="#6b7280" stroke-width="1.4"/>
+  <text x="80" y="207" font-size="12" fill="#1f2937">Exportar como</text>
+  <path d="M 234 201 L 240 207 L 234 213" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round"/>
+
+  <line x1="44" y1="224" x2="256" y2="224" stroke="#e5e7eb" stroke-width="1"/>
+
+  <circle cx="62" cy="245" r="6" fill="none" stroke="#d1d5db" stroke-width="1.4"/>
+  <text x="80" y="249" font-size="12" fill="#9ca3af">Arquivar</text>
+
+  <circle cx="62" cy="277" r="6" fill="none" stroke="#dc2626" stroke-width="1.4"/>
+  <text x="80" y="281" font-size="12" fill="#dc2626">Excluir</text>
+
+  <!-- leaders + labels -->
+  <line x1="164" y1="93" x2="300" y2="93" class="lead"/>
+  <text x="308" y="90" class="ink h">Gatilho</text>
+  <text x="308" y="108" class="muted an">Carrega aria-haspopup e aria-expanded — é assim que</text>
+  <text x="308" y="124" class="muted an">o leitor de tela sabe que ali abre algo, e se está aberto.</text>
+
+  <line x1="260" y1="139" x2="300" y2="150" class="lead"/>
+  <text x="308" y="154" class="ink h">Item em foco</text>
+  <text x="308" y="172" class="muted an">Ao abrir, o foco já vai para o primeiro item. Hover e</text>
+  <text x="308" y="188" class="muted an">foco de teclado usam o mesmo destaque.</text>
+
+  <line x1="260" y1="207" x2="300" y2="218" class="lead"/>
+  <text x="308" y="222" class="ink h">Submenu e atalho</text>
+  <text x="308" y="240" class="muted an">Seta à direita anuncia mais um nível — e um nível já</text>
+  <text x="308" y="256" class="muted an">é o limite prático. Atalhos alinhados à direita.</text>
+
+  <line x1="260" y1="255" x2="300" y2="286" class="lead"/>
+  <text x="308" y="290" class="ink h">Separador e estados</text>
+  <text x="308" y="308" class="muted an">A linha agrupa o que é parente e afasta o destrutivo</text>
+  <text x="308" y="324" class="muted an">do resto. Desabilitado continua visível, e explicado.</text>
+
+  <!-- keyboard map -->
+  <rect x="0" y="342" width="720" height="72" rx="6" class="card"/>
+  <text x="16" y="366" class="ink h">O teclado que todo menu precisa responder</text>
+
+  <rect x="16" y="378" width="34" height="20" rx="4" class="kbd"/>
+  <text x="33" y="392" class="ink mono" text-anchor="middle">↑ ↓</text>
+  <text x="58" y="392" class="muted an">move entre itens</text>
+
+  <rect x="176" y="378" width="34" height="20" rx="4" class="kbd"/>
+  <text x="193" y="392" class="ink mono" text-anchor="middle">→</text>
+  <text x="218" y="392" class="muted an">abre submenu</text>
+
+  <rect x="330" y="378" width="52" height="20" rx="4" class="kbd"/>
+  <text x="356" y="392" class="ink mono" text-anchor="middle">Enter</text>
+  <text x="390" y="392" class="muted an">aciona o item</text>
+
+  <rect x="512" y="378" width="40" height="20" rx="4" class="kbd"/>
+  <text x="532" y="392" class="ink mono" text-anchor="middle">Esc</text>
+  <text x="560" y="392" class="muted an">fecha e devolve o foco ao gatilho</text>
+</svg>

@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" width="720" height="430" role="img" aria-label="Matriz RACI preenchida, com cinco tarefas nas linhas e cinco papéis nas colunas, e a legenda de responsible, accountable, consulted e informed">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .head  { fill: #f3f4f6; }
+    .zebra { fill: #f9fafb; }
+    .grid  { stroke: #e5e7eb; stroke-width: 1; }
+    .frame { fill: none; stroke: #d1d5db; stroke-width: 1.2; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .col { font-size: 11px; font-weight: 700; fill: #6b7280; }
+    .task{ font-size: 12px; }
+    .an  { font-size: 11.5px; }
+    .cl  { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .head { fill: #374151; }
+      .zebra { fill: #1f2937; }
+      .grid { stroke: #4b5563; }
+      .frame { stroke: #4b5563; }
+      .col { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Matriz RACI</text>
+  <text x="0" y="44" class="muted cap">Quem faz, quem responde, quem opina e quem só fica sabendo — escrito antes de virar discussão</text>
+
+  <!-- header -->
+  <rect x="0" y="76" width="720" height="30" class="head"/>
+  <text x="0" y="96" class="col">TAREFA</text>
+  <text x="279" y="96" class="col" text-anchor="middle">Designer</text>
+  <text x="377" y="96" class="col" text-anchor="middle">PO</text>
+  <text x="475" y="96" class="col" text-anchor="middle">Dev</text>
+  <text x="573" y="96" class="col" text-anchor="middle">Jurídico</text>
+  <text x="671" y="96" class="col" text-anchor="middle">Suporte</text>
+
+  <!-- zebra rows -->
+  <rect x="0" y="140" width="720" height="34" class="zebra"/>
+  <rect x="0" y="208" width="720" height="34" class="zebra"/>
+  <rect x="0" y="276" width="720" height="34" class="zebra"/>
+
+  <line x1="0" y1="106" x2="720" y2="106" class="grid"/>
+  <line x1="0" y1="140" x2="720" y2="140" class="grid"/>
+  <line x1="0" y1="174" x2="720" y2="174" class="grid"/>
+  <line x1="0" y1="208" x2="720" y2="208" class="grid"/>
+  <line x1="0" y1="242" x2="720" y2="242" class="grid"/>
+  <line x1="0" y1="276" x2="720" y2="276" class="grid"/>
+  <line x1="0" y1="310" x2="720" y2="310" class="grid"/>
+  <line x1="230" y1="76" x2="230" y2="310" class="grid"/>
+
+  <!-- row 1 -->
+  <text x="0" y="132" class="ink task">Definir o escopo do fluxo</text>
+  <rect x="268" y="112" width="22" height="18" rx="4" fill="#2563eb"/><text x="279" y="125" class="cl" text-anchor="middle">R</text>
+  <rect x="366" y="112" width="22" height="18" rx="4" fill="#dc2626"/><text x="377" y="125" class="cl" text-anchor="middle">A</text>
+  <rect x="464" y="112" width="22" height="18" rx="4" fill="#d97706"/><text x="475" y="125" class="cl" text-anchor="middle">C</text>
+  <rect x="562" y="112" width="22" height="18" rx="4" fill="#9ca3af"/><text x="573" y="125" class="cl" text-anchor="middle">I</text>
+  <rect x="660" y="112" width="22" height="18" rx="4" fill="#9ca3af"/><text x="671" y="125" class="cl" text-anchor="middle">I</text>
+
+  <!-- row 2 -->
+  <text x="0" y="166" class="ink task">Desenhar as telas</text>
+  <rect x="268" y="146" width="22" height="18" rx="4" fill="#2563eb"/><text x="279" y="159" class="cl" text-anchor="middle">R</text>
+  <rect x="366" y="146" width="22" height="18" rx="4" fill="#dc2626"/><text x="377" y="159" class="cl" text-anchor="middle">A</text>
+  <rect x="464" y="146" width="22" height="18" rx="4" fill="#d97706"/><text x="475" y="159" class="cl" text-anchor="middle">C</text>
+  <text x="573" y="160" class="muted task" text-anchor="middle">—</text>
+  <rect x="660" y="146" width="22" height="18" rx="4" fill="#9ca3af"/><text x="671" y="159" class="cl" text-anchor="middle">I</text>
+
+  <!-- row 3 -->
+  <text x="0" y="200" class="ink task">Revisar o texto legal</text>
+  <rect x="268" y="180" width="22" height="18" rx="4" fill="#d97706"/><text x="279" y="193" class="cl" text-anchor="middle">C</text>
+  <rect x="366" y="180" width="22" height="18" rx="4" fill="#dc2626"/><text x="377" y="193" class="cl" text-anchor="middle">A</text>
+  <text x="475" y="194" class="muted task" text-anchor="middle">—</text>
+  <rect x="562" y="180" width="22" height="18" rx="4" fill="#2563eb"/><text x="573" y="193" class="cl" text-anchor="middle">R</text>
+  <rect x="660" y="180" width="22" height="18" rx="4" fill="#9ca3af"/><text x="671" y="193" class="cl" text-anchor="middle">I</text>
+
+  <!-- row 4 -->
+  <text x="0" y="234" class="ink task">Implementar</text>
+  <rect x="268" y="214" width="22" height="18" rx="4" fill="#d97706"/><text x="279" y="227" class="cl" text-anchor="middle">C</text>
+  <rect x="366" y="214" width="22" height="18" rx="4" fill="#dc2626"/><text x="377" y="227" class="cl" text-anchor="middle">A</text>
+  <rect x="464" y="214" width="22" height="18" rx="4" fill="#2563eb"/><text x="475" y="227" class="cl" text-anchor="middle">R</text>
+  <text x="573" y="228" class="muted task" text-anchor="middle">—</text>
+  <rect x="660" y="214" width="22" height="18" rx="4" fill="#9ca3af"/><text x="671" y="227" class="cl" text-anchor="middle">I</text>
+
+  <!-- row 5 -->
+  <text x="0" y="268" class="ink task">Comunicar o lançamento</text>
+  <rect x="268" y="248" width="22" height="18" rx="4" fill="#9ca3af"/><text x="279" y="261" class="cl" text-anchor="middle">I</text>
+  <rect x="366" y="248" width="22" height="18" rx="4" fill="#dc2626"/><text x="377" y="261" class="cl" text-anchor="middle">A</text>
+  <rect x="464" y="248" width="22" height="18" rx="4" fill="#9ca3af"/><text x="475" y="261" class="cl" text-anchor="middle">I</text>
+  <text x="573" y="262" class="muted task" text-anchor="middle">—</text>
+  <rect x="660" y="248" width="22" height="18" rx="4" fill="#2563eb"/><text x="671" y="261" class="cl" text-anchor="middle">R</text>
+
+  <!-- row 6 -->
+  <text x="0" y="302" class="ink task">Medir o resultado</text>
+  <rect x="268" y="282" width="22" height="18" rx="4" fill="#d97706"/><text x="279" y="295" class="cl" text-anchor="middle">C</text>
+  <rect x="366" y="282" width="22" height="18" rx="4" fill="#dc2626"/><text x="377" y="295" class="cl" text-anchor="middle">A</text>
+  <rect x="464" y="282" width="22" height="18" rx="4" fill="#2563eb"/><text x="475" y="295" class="cl" text-anchor="middle">R</text>
+  <text x="573" y="296" class="muted task" text-anchor="middle">—</text>
+  <rect x="660" y="282" width="22" height="18" rx="4" fill="#9ca3af"/><text x="671" y="295" class="cl" text-anchor="middle">I</text>
+
+  <rect x="0" y="76" width="720" height="234" class="frame"/>
+
+  <!-- legend -->
+  <rect x="0" y="330" width="22" height="18" rx="4" fill="#2563eb"/><text x="11" y="343" class="cl" text-anchor="middle">R</text>
+  <text x="32" y="337" class="ink h">Responsible — faz o trabalho</text>
+  <text x="32" y="355" class="muted an">Pelo menos um por linha. Sem R, ninguém executa.</text>
+
+  <rect x="368" y="330" width="22" height="18" rx="4" fill="#dc2626"/><text x="379" y="343" class="cl" text-anchor="middle">A</text>
+  <text x="400" y="337" class="ink h">Accountable — responde pelo resultado</text>
+  <text x="400" y="355" class="muted an">Exatamente um por linha. Nunca dois, nunca zero.</text>
+
+  <rect x="0" y="376" width="22" height="18" rx="4" fill="#d97706"/><text x="11" y="389" class="cl" text-anchor="middle">C</text>
+  <text x="32" y="383" class="ink h">Consulted — opina antes de fechar</text>
+  <text x="32" y="401" class="muted an">Conversa de mão dupla, e cabe no prazo.</text>
+
+  <rect x="368" y="376" width="22" height="18" rx="4" fill="#9ca3af"/><text x="379" y="389" class="cl" text-anchor="middle">I</text>
+  <text x="400" y="383" class="ink h">Informed — fica sabendo depois</text>
+  <text x="400" y="401" class="muted an">Mão única, sem direito a veto retroativo.</text>
+
+  <text x="0" y="426" class="muted cap">Linha sem A é tarefa órfã; linha com dois A é tarefa travada. Expor isso é o serviço que a matriz presta.</text>
+</svg>

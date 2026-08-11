@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 410" width="720" height="410" role="img" aria-label="Escala de espaçamento baseada em múltiplos de 4 pixels: xxs 4, xs 8, sm 12, md 16, lg 24, xl 32, xxl 48 e xxxl 64 pixels, com barras proporcionais e o uso comum de cada degrau">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .bar   { fill: #93c5fd; }
+    .bar2  { fill: #2563eb; }
+    .rule  { stroke: #e5e7eb; stroke-width: 1; }
+    .accent{ fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .an  { font-size: 12.5px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .bar { fill: #1d4ed8; }
+      .bar2 { fill: #60a5fa; }
+      .rule { stroke: #374151; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">A escala de espaçamento, em tamanho real</text>
+  <text x="0" y="44" class="muted cap">Tudo é múltiplo de 4px. Escolher da escala é o que impede o layout de virar uma coleção de valores avulsos</text>
+
+  <line x1="0" y1="60" x2="720" y2="60" class="rule"/>
+
+  <text x="0" y="88" class="ink mono">space-xxs</text>
+  <text x="112" y="88" class="muted an">4px</text>
+  <rect x="160" y="76" width="16" height="18" class="bar"/>
+  <text x="440" y="88" class="muted an">Ícone colado ao texto ao lado</text>
+
+  <text x="0" y="124" class="ink mono">space-xs</text>
+  <text x="112" y="124" class="muted an">8px</text>
+  <rect x="160" y="112" width="32" height="18" class="bar"/>
+  <text x="440" y="124" class="muted an">Itens de uma lista compacta</text>
+
+  <text x="0" y="160" class="ink mono">space-sm</text>
+  <text x="112" y="160" class="muted an">12px</text>
+  <rect x="160" y="148" width="48" height="18" class="bar"/>
+  <text x="440" y="160" class="muted an">Padding interno pequeno</text>
+
+  <text x="0" y="196" class="ink mono">space-md</text>
+  <text x="112" y="196" class="accent an">16px</text>
+  <rect x="160" y="184" width="64" height="18" class="bar2"/>
+  <text x="440" y="196" class="accent an">Base: parágrafo, padding de card</text>
+
+  <text x="0" y="232" class="ink mono">space-lg</text>
+  <text x="112" y="232" class="muted an">24px</text>
+  <rect x="160" y="220" width="96" height="18" class="bar"/>
+  <text x="440" y="232" class="muted an">Entre seções de conteúdo</text>
+
+  <text x="0" y="268" class="ink mono">space-xl</text>
+  <text x="112" y="268" class="muted an">32px</text>
+  <rect x="160" y="256" width="128" height="18" class="bar"/>
+  <text x="440" y="268" class="muted an">Separação de blocos de layout</text>
+
+  <text x="0" y="304" class="ink mono">space-xxl</text>
+  <text x="112" y="304" class="muted an">48px</text>
+  <rect x="160" y="292" width="192" height="18" class="bar"/>
+  <text x="440" y="304" class="muted an">Ênfase, corte forte entre assuntos</text>
+
+  <text x="0" y="340" class="ink mono">space-xxxl</text>
+  <text x="112" y="340" class="muted an">64px</text>
+  <rect x="160" y="328" width="256" height="18" class="bar"/>
+  <text x="440" y="340" class="muted an">Grandes áreas de respiro</text>
+
+  <line x1="0" y1="362" x2="720" y2="362" class="rule"/>
+  <text x="0" y="386" class="muted cap">A escala não é só estética: o espaço é o que agrupa o que é parente e separa o que não é.</text>
+  <text x="0" y="404" class="muted cap">Se dois elementos estão próximos, a pessoa vai lê-los como uma coisa só — mesmo que não sejam.</text>
+</svg>

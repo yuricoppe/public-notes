@@ -22,6 +22,8 @@ O objetivo principal de um Journey Map é entender e comunicar a experiência do
     *   **Nível de Detalhe:** Quão granular será o mapa (alto nível vs. detalhado)?
 2.  **Coletar Dados:** Utilizar dados de pesquisa com usuários (entrevistas, surveys, testes de usabilidade, analytics) para informar o mapa. A pesquisa é fundamental para criar um mapa preciso e baseado em evidências, em vez de suposições.
 3.  **Estruturar o Mapa:** Um Journey Map geralmente inclui os seguintes elementos-chave, organizados cronologicamente:
+
+![Estrutura de um journey map em cinco fases — descobrir, comparar, contratar, usar e renovar — com as camadas de ações, pensamentos, curva emocional, dores e oportunidades](attachments/glossario-journey-map.svg)
     *   **Fases (Stages):** As principais etapas da jornada do usuário (ex: Descoberta, Consideração, Decisão, Uso, Pós-uso).
     *   **Ações (Actions/Doing):** O que o usuário está fazendo em cada fase.
     *   **Pensamentos (Thinking):** O que o usuário está pensando em cada fase (citações, preocupações, expectativas).

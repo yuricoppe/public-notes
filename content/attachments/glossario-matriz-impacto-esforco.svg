@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="Matriz impacto x esforço com quatro quadrantes: vitórias rápidas para fazer primeiro, grandes projetos para planejar, preenchimento se sobrar tempo e desperdício a evitar, com itens plotados em cada um">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .q1 { fill: #dcfce7; }
+    .q2 { fill: #dbeafe; }
+    .q3 { fill: #f3f4f6; }
+    .q4 { fill: #fee2e2; }
+    .frame { fill: none; stroke: #d1d5db; stroke-width: 1.2; }
+    .cross { stroke: #9ca3af; stroke-width: 1.2; }
+    .axis  { stroke: #6b7280; stroke-width: 1.5; fill: none; }
+    .dot   { fill: #1f2937; }
+    .lbl   { font-size: 11px; fill: #1f2937; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .qt  { font-size: 14px; font-weight: 700; fill: #1f2937; }
+    .qs  { font-size: 11.5px; fill: #4b5563; }
+    .an  { font-size: 11.5px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .q1 { fill: #14532d; }
+      .q2 { fill: #1e3a5f; }
+      .q3 { fill: #1f2937; }
+      .q4 { fill: #7f1d1d; }
+      .frame { stroke: #4b5563; }
+      .cross { stroke: #6b7280; }
+      .axis { stroke: #9ca3af; }
+      .dot { fill: #f9fafb; }
+      .lbl { fill: #f3f4f6; }
+      .qt { fill: #f9fafb; }
+      .qs { fill: #d1d5db; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Matriz impacto × esforço</text>
+  <text x="0" y="44" class="muted cap">Duas estimativas grosseiras, quatro decisões. O valor está na conversa que a grade força</text>
+
+  <rect x="90" y="80" width="300" height="130" class="q1"/>
+  <rect x="390" y="80" width="300" height="130" class="q2"/>
+  <rect x="90" y="210" width="300" height="130" class="q3"/>
+  <rect x="390" y="210" width="300" height="130" class="q4"/>
+  <rect x="90" y="80" width="600" height="260" class="frame"/>
+  <line x1="390" y1="80" x2="390" y2="340" class="cross"/>
+  <line x1="90" y1="210" x2="690" y2="210" class="cross"/>
+
+  <text x="106" y="106" class="qt">Vitórias rápidas</text>
+  <text x="106" y="126" class="qs">Fazer primeiro</text>
+  <text x="406" y="106" class="qt">Grandes projetos</text>
+  <text x="406" y="126" class="qs">Planejar e fatiar em entregas</text>
+  <text x="106" y="236" class="qt">Preenchimento</text>
+  <text x="106" y="256" class="qs">Se sobrar tempo — e raramente sobra</text>
+  <text x="406" y="236" class="qt">Desperdício</text>
+  <text x="406" y="256" class="qs">Evitar, ou repensar o escopo</text>
+
+  <circle cx="170" cy="168" r="6" class="dot"/>
+  <text x="184" y="172" class="lbl">Rótulo do campo</text>
+  <circle cx="250" cy="194" r="6" class="dot"/>
+  <text x="264" y="198" class="lbl">Ordem dos filtros</text>
+
+  <circle cx="450" cy="168" r="6" class="dot"/>
+  <text x="464" y="172" class="lbl">Busca reformulada</text>
+  <circle cx="586" cy="194" r="6" class="dot"/>
+  <text x="600" y="198" class="lbl">Migrar tabelas</text>
+
+  <circle cx="160" cy="300" r="6" class="dot"/>
+  <text x="174" y="304" class="lbl">Cor do rodapé</text>
+
+  <circle cx="450" cy="300" r="6" class="dot"/>
+  <text x="464" y="304" class="lbl">Animação de entrada</text>
+  <circle cx="600" cy="322" r="6" class="dot"/>
+  <text x="614" y="326" class="lbl">Tema sazonal</text>
+
+  <!-- axes -->
+  <path d="M 74 340 L 74 84" class="axis"/>
+  <path d="M 69 90 L 74 82 L 79 90" class="axis"/>
+  <path d="M 90 356 L 686 356" class="axis"/>
+  <path d="M 680 351 L 688 356 L 680 361" class="axis"/>
+
+  <text x="66" y="212" class="muted an" transform="rotate(-90 66 212)" text-anchor="middle">IMPACTO</text>
+  <text x="90" y="374" class="muted an">ESFORÇO baixo</text>
+  <text x="612" y="374" class="muted an">ESFORÇO alto</text>
+
+  <text x="0" y="404" class="muted cap">O esforço quem estima é quem vai construir; o impacto, quem conhece o problema. Uma pessoa só</text>
+  <text x="0" y="420" class="muted cap">preenchendo os dois eixos transforma a matriz em opinião desenhada sobre uma grade.</text>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Cabeçalho de página anotado com breadcrumb, título h1, subtítulo e ações; ao lado, a escada de níveis de cabeçalho h1, h2 e h3 e o erro de pular de h2 para h4">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .rung  { fill: #dbeafe; stroke: #2563eb; stroke-width: 1.2; }
+    .bad   { fill: #fee2e2; stroke: #dc2626; stroke-width: 1.2; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .lead { stroke: #6b7280; }
+      .rung { fill: #1e3a5f; stroke: #60a5fa; }
+      .bad { fill: #7f1d1d; stroke: #f87171; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Cabeçalho de página e a escada de níveis</text>
+  <text x="0" y="44" class="muted cap">O cabeçalho não é só o título maior da tela — é o que dá a quem usa leitor de tela um sumário navegável</text>
+
+  <!-- rendered page header -->
+  <rect x="0" y="70" width="430" height="130" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.2"/>
+  <text x="20" y="96" font-size="10" fill="#2563eb">Início</text>
+  <text x="52" y="96" font-size="10" fill="#9ca3af">›</text>
+  <text x="62" y="96" font-size="10" fill="#2563eb">Pedidos</text>
+  <text x="106" y="96" font-size="10" fill="#9ca3af">›</text>
+  <text x="116" y="96" font-size="10" font-weight="700" fill="#1f2937">Em aberto</text>
+
+  <text x="20" y="130" font-size="22" font-weight="700" fill="#1f2937">Pedidos em aberto</text>
+  <text x="20" y="154" font-size="12" fill="#6b7280">128 pedidos aguardando confirmação de pagamento.</text>
+
+  <rect x="256" y="112" width="76" height="30" rx="6" fill="#ffffff" stroke="#9ca3af" stroke-width="1.2"/>
+  <text x="272" y="132" font-size="11" font-weight="600" fill="#1f2937">Exportar</text>
+  <rect x="340" y="112" width="72" height="30" rx="6" fill="#2563eb"/>
+  <text x="354" y="132" font-size="11" font-weight="600" fill="#ffffff">Novo</text>
+
+  <line x1="0" y1="176" x2="430" y2="176" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="20" y="184" width="180" height="6" rx="3" fill="#e5e7eb"/>
+
+  <!-- annotations for header -->
+  <line x1="150" y1="90" x2="230" y2="90" class="lead"/>
+  <text x="240" y="94" class="muted an">Onde estou (opcional)</text>
+  <line x1="200" y1="126" x2="230" y2="126"  class="lead"/>
+  <text x="240" y="130" class="muted an">Um h1 por página</text>
+  <line x1="290" y1="158" x2="330" y2="158" class="lead"/>
+  <text x="340" y="162" class="muted an">Contexto em uma linha</text>
+  <line x1="376" y1="150" x2="376" y2="168" class="lead"/>
+  <text x="340" y="182" class="muted an">Ações da página inteira</text>
+
+  <!-- heading ladder -->
+  <text x="460" y="90" class="ink h">A escada de cabeçalhos</text>
+
+  <rect x="460" y="102" width="180" height="24" rx="4" class="rung"/>
+  <text x="472" y="118" class="ink mono">h1 · título da página</text>
+  <rect x="480" y="134" width="160" height="22" rx="4" class="rung"/>
+  <text x="492" y="149" class="ink mono">h2 · seção</text>
+  <rect x="500" y="164" width="140" height="22" rx="4" class="rung"/>
+  <text x="512" y="179" class="ink mono">h3 · subseção</text>
+  <rect x="480" y="194" width="160" height="22" rx="4" class="rung"/>
+  <text x="492" y="209" class="ink mono">h2 · outra seção</text>
+
+  <text x="460" y="244" class="warn h">O erro que quebra o sumário</text>
+  <rect x="480" y="256" width="160" height="22" rx="4" class="rung"/>
+  <text x="492" y="271" class="ink mono">h2 · seção</text>
+  <rect x="520" y="286" width="140" height="22" rx="4" class="bad"/>
+  <text x="532" y="301" class="ink mono">h4 · pulou o h3</text>
+  <text x="460" y="326" class="muted an">Quem enxerga vê só um texto menor.</text>
+  <text x="460" y="342" class="muted an">Quem navega por cabeçalhos perde o galho.</text>
+
+  <!-- closing -->
+  <rect x="0" y="216" width="430" height="128" rx="6" class="card"/>
+  <text x="16" y="240" class="ink h">O nível vem da estrutura, não do tamanho</text>
+  <text x="16" y="260" class="muted an">Escolha a tag pelo lugar que o trecho ocupa na hierarquia</text>
+  <text x="16" y="276" class="muted an">e resolva o tamanho no CSS. Um h2 que precisa parecer</text>
+  <text x="16" y="292" class="muted an">pequeno continua sendo um h2.</text>
+  <text x="16" y="318" class="accent an">Atalho para conferir: leia só os cabeçalhos da página.</text>
+  <text x="16" y="334" class="accent an">Se isso não formar um sumário, a hierarquia está errada.</text>
+
+  <text x="0" y="378" class="muted cap">Leitores de tela oferecem "pular para o próximo cabeçalho" como principal forma de varrer uma página longa.</text>
+  <text x="0" y="394" class="muted cap">Marcar título com negrito em vez de tag simplesmente apaga a página desse mapa.</text>
+</svg>

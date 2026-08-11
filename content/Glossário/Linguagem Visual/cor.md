@@ -24,6 +24,8 @@ Define a paleta de cores primárias, secundárias, de feedback (sucesso, erro, a
 
 ### Paletas de Cores
 
+![Estrutura de uma paleta: escalas de tom da cor primária e das neutras, de 100 a 900, e as quatro cores semânticas — sucesso, erro, aviso e informação — com o uso de cada uma](attachments/glossario-paleta-cores.svg)
+
 - **Primária:** A cor principal da marca, usada em elementos de destaque e ações chave.
   - *Exemplo de Nomeação:* `cor-primaria-500` (tom principal), `cor-primaria-100` (tom mais claro), `cor-primaria-700` (tom mais escuro).
 - **Secundária:** Cores de apoio que complementam a primária, usadas para variações, estados ou elementos menos proeminentes.
@@ -36,6 +38,8 @@ Define a paleta de cores primárias, secundárias, de feedback (sucesso, erro, a
     - **Informação:** Azul (Ex: `cor-info-500`) - para dicas, informações contextuais.
 
 ### Contraste e Acessibilidade
+
+![Os três limites de contraste da WCAG — 3:1, 4,5:1 e 7:1 — e quatro amostras de texto sobre branco com a razão de cada uma e o resultado nos níveis AA e AAA](attachments/glossario-contraste-wcag.svg)
 
 - Todas as combinações de cor de texto sobre fundo devem atender aos critérios de contraste WCAG AA (mínimo 4.5:1 para texto normal, 3:1 para texto grande) e, idealmente, AAA.
 - Ferramentas de verificação de contraste devem ser usadas durante o design e desenvolvimento.

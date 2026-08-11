@@ -19,6 +19,8 @@ Botões são elementos interativos que permitem aos usuários realizar ações, 
 
 ## Variações
 
+![Hierarquia de botões: primário preenchido, secundário com contorno e terciário só texto; abaixo, os cinco estados do botão primário — padrão, hover, foco com anel, pressionado e desabilitado](attachments/glossario-hierarquia-botoes.svg)
+
 - **Botão Primário:**
   - Descrição: Para a ação principal e mais importante em uma tela ou contexto.
   - Estilo: [Ex: Fundo sólido com cor primária, texto contrastante]

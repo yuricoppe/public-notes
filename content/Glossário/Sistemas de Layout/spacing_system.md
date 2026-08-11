@@ -23,6 +23,8 @@ O sistema de [[Glossário/Linguagem Visual/espacamento|espaçamento]] define uma
 
 Nossa escala é baseada em um **valor fundamental de 4px**. Múltiplos deste valor são usados para definir os diferentes níveis de espaçamento. Isso proporciona flexibilidade suficiente enquanto mantém a consistência.
 
+![Escala de espaçamento desenhada em tamanho real: barras proporcionais de 4, 8, 12, 16, 24, 32, 48 e 64 pixels, cada uma com seu token e seu uso comum](attachments/glossario-escala-espacamento.svg)
+
 | Token/Variável (Exemplo) | Valor (px) | Uso Comum                                                               |
 |--------------------------|------------|-------------------------------------------------------------------------|
 | `space-xxs`              | 4px        | Espaçamento mínimo, entre [[Glossário/Linguagem Visual/iconografia|ícones]] e texto adjacente, pequenos ajustes.   |

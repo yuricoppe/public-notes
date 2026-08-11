@@ -27,6 +27,8 @@ São geralmente posicionados próximos ao elemento ao qual se referem.
 
 ## Variações
 
+![Os quatro tipos de badge desenhados em contexto — contagem, status, destaque e ponto — e a diferença entre badge, que só informa, e chip, que responde ao clique](attachments/glossario-tipos-de-badge.svg)
+
 - **Badge de Contagem (Notification Badge):**
   - Descrição: Exibe um número, geralmente para indicar notificações, [[Glossário/Componentes/messaging|mensagens]] não lidas, ou quantidade de itens.
   - Estilo: [Pequeno, circular ou com cantos arredondados, cor de destaque (ex: vermelho para notificações)]

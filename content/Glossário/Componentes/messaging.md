@@ -22,6 +22,8 @@ Este é um conceito guarda-chuva. Componentes específicos como `Toast/Snackbar`
 
 ## Tipos Comuns de Componentes de Mensagens
 
+![Os quatro tipos de mensagem ordenados por quanto interrompem — alerta inline, toast, banner global e modal — cada um com uma amostra desenhada e a regra de quando usar](attachments/glossario-tipos-de-mensagem.svg)
+
 1.  **Alerts/Notificações Inline (Inline Alerts/Notifications):**
     *   Mensagens que aparecem dentro do fluxo da página, geralmente associadas a uma seção ou formulário específico.
     *   Podem ser persistentes até que o usuário as dispense (se houver um [[Glossário/Elementos/botoes|botão]] de fechar) ou a condição mude.

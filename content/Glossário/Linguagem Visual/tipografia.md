@@ -29,6 +29,8 @@ Define as famílias tipográficas, pesos, tamanhos, alturas de linha e [[Glossá
 
 ### Escala Tipográfica
 
+![Escala tipográfica de razão 1,25 desenhada em tamanho real, do H1 de 40px ao texto pequeno de 12px, e comparação entre altura de linha 1,2 e 1,6](attachments/glossario-escala-tipografica.svg)
+
 - Definir uma escala modular para tamanhos de fonte (ex: baseada em uma proporção como 1.2 ou 1.4) para criar harmonia e consistência entre os diferentes níveis de texto.
 - A escala deve incluir tamanhos para H1, H2, H3, H4, H5, H6, parágrafos, texto de destaque (lead), legendas, texto pequeno (small), etc.
 

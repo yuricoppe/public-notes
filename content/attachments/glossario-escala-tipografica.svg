@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 490" width="720" height="490" role="img" aria-label="Escala tipográfica modular de razão 1,25 mostrada em tamanho real, de H1 com 40 pixels até texto pequeno com 12 pixels, e comparação entre altura de linha 1,2 apertada e 1,6 confortável">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .rule  { stroke: #e5e7eb; stroke-width: 1; }
+    .txtline { fill: #d1d5db; }
+    .accent{ fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .an  { font-size: 12px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .rule { stroke: #374151; }
+      .txtline { fill: #4b5563; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">A escala tipográfica em tamanho real</text>
+  <text x="0" y="44" class="muted cap">Cada degrau é o anterior multiplicado por 1,25 — a razão é o que faz os tamanhos parecerem parentes</text>
+
+  <line x1="0" y1="60" x2="720" y2="60" class="rule"/>
+
+  <text x="0" y="104" class="ink" font-size="40" font-weight="700">Título de página</text>
+  <text x="430" y="98" class="ink mono">H1 · 40px</text>
+  <text x="430" y="114" class="muted mono">altura de linha 1,2 · bold</text>
+
+  <text x="0" y="150" class="ink" font-size="32" font-weight="700">Título de seção</text>
+  <text x="430" y="146" class="ink mono">H2 · 32px</text>
+  <text x="430" y="161" class="muted mono">altura de linha 1,25 · bold</text>
+
+  <text x="0" y="190" class="ink" font-size="24" font-weight="700">Subtítulo</text>
+  <text x="430" y="186" class="ink mono">H3 · 24px</text>
+  <text x="430" y="201" class="muted mono">altura de linha 1,3 · semibold</text>
+
+  <text x="0" y="222" class="ink" font-size="20">Parágrafo de destaque</text>
+  <text x="430" y="219" class="ink mono">Lead · 20px</text>
+  <text x="430" y="234" class="muted mono">altura de linha 1,5 · regular</text>
+
+  <text x="0" y="252" class="ink" font-size="16">Corpo de texto — a base de tudo</text>
+  <text x="430" y="249" class="accent mono">Corpo · 16px</text>
+  <text x="430" y="264" class="muted mono">altura de linha 1,6 · o piso legível</text>
+
+  <text x="0" y="278" class="muted" font-size="14">Legenda de imagem ou tabela</text>
+  <text x="430" y="277" class="ink mono">Legenda · 14px</text>
+
+  <text x="0" y="300" class="muted" font-size="12">Texto auxiliar, aviso legal, metadado</text>
+  <text x="430" y="299" class="ink mono">Small · 12px</text>
+
+  <line x1="0" y1="318" x2="720" y2="318" class="rule"/>
+
+  <text x="0" y="342" class="ink h">A altura de linha decide se o bloco é lido ou pulado</text>
+
+  <text x="0" y="362" class="muted an">1,2 — apertado demais para texto corrido</text>
+  <rect x="0" y="374" width="330" height="6" rx="3" class="txtline"/>
+  <rect x="0" y="387" width="320" height="6" rx="3" class="txtline"/>
+  <rect x="0" y="400" width="330" height="6" rx="3" class="txtline"/>
+  <rect x="0" y="413" width="308" height="6" rx="3" class="txtline"/>
+  <rect x="0" y="426" width="198" height="6" rx="3" class="txtline"/>
+
+  <text x="390" y="362" class="accent an">1,6 — o olho acha a próxima linha sozinho</text>
+  <rect x="390" y="374" width="330" height="6" rx="3" class="txtline"/>
+  <rect x="390" y="392" width="320" height="6" rx="3" class="txtline"/>
+  <rect x="390" y="410" width="330" height="6" rx="3" class="txtline"/>
+  <rect x="390" y="428" width="308" height="6" rx="3" class="txtline"/>
+  <rect x="390" y="446" width="198" height="6" rx="3" class="txtline"/>
+
+  <text x="0" y="482" class="muted cap">Junto com a altura de linha vem o comprimento: entre 45 e 75 caracteres. Acima disso, o retorno erra de linha.</text>
+</svg>

@@ -14,6 +14,8 @@ Controles de [[Glossário/Padrões/form_structure|formulário]] são elementos i
 
 ## Lista de Subcomponentes/Variações Principais
 
+![Guia de escolha do controle: radio para uma opção entre poucas, checkbox para várias do mesmo conjunto, select para uma entre muitas, switch para liga e desliga imediato, campo de texto para resposta curta e área de texto para resposta longa](attachments/glossario-escolha-controle.svg)
+
 - **Campo de Texto (Text Input):**
   - Descrição: Permite a inserção de uma única linha de texto.
   - Tipos comuns: `text`, `password`, `email`, `number`, `search`, `tel`, `url`.

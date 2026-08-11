@@ -37,6 +37,8 @@ Define os princípios de animação e transições na interface, como timing, ea
 
 ### Easing (Curvas de Aceleração)
 
+![As quatro curvas de aceleração plotadas lado a lado — linear, ease-in, ease-out e ease-in-out — com o uso de cada uma e a escala de durações rápida, média e lenta](attachments/glossario-curvas-easing.svg)
+
 - Controla como a velocidade de uma animação muda ao longo do tempo.
 - `ease-in`: Começa devagar, acelera no final (bom para elementos entrando na tela).
 - `ease-out`: Começa rápido, desacelera no final (bom para elementos saindo da tela ou feedback rápido).

@@ -28,6 +28,8 @@ Descreve a biblioteca de ícones do sistema, incluindo seu estilo visual, tamanh
 
 ### Tamanhos Padrão
 
+![Grade de ícone de 24×24 ampliada, com a área viva de 20×20 e as formas-guia quadrado, círculo e retângulo sobrepostas; abaixo, os tamanhos 16, 20, 24 e 32](attachments/glossario-grade-icone.svg)
+
 - Definir uma grade de tamanhos para os ícones (ex: 16x16, 24x24, 32x32 pixels) para garantir nitidez e alinhamento.
 - Especificar como os ícones devem escalar e se comportar em diferentes densidades de tela.
 

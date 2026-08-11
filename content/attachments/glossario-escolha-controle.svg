@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" width="720" height="430" role="img" aria-label="Guia de escolha de controle de formulário: radio para uma opção entre poucas, checkbox para várias, select para uma entre muitas, switch para liga e desliga imediato, campo de texto para resposta curta e área de texto para resposta longa">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .an  { font-size: 12px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Qual controle para qual tipo de escolha</text>
+  <text x="0" y="44" class="muted cap">A pergunta não é estética: o controle certo já comunica quantas respostas cabem e se a escolha vale na hora</text>
+
+  <!-- radio -->
+  <rect x="0" y="76" width="232" height="150" rx="6" class="card"/>
+  <rect x="12" y="88" width="208" height="62" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="30" cy="106" r="7.5" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+  <circle cx="30" cy="106" r="3.5" fill="#2563eb"/>
+  <text x="46" y="110" font-size="12" fill="#1f2937">Pessoa física</text>
+  <circle cx="30" cy="132" r="7.5" fill="#ffffff" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="46" y="136" font-size="12" fill="#1f2937">Pessoa jurídica</text>
+  <text x="0" y="182" class="ink h">Radio</text>
+  <text x="0" y="202" class="muted an">Uma opção entre poucas — de 2 a 5,</text>
+  <text x="0" y="220" class="muted an">mutuamente exclusivas e sempre visíveis.</text>
+
+  <!-- checkbox -->
+  <rect x="244" y="76" width="232" height="150" rx="6" class="card"/>
+  <rect x="256" y="88" width="208" height="62" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="272" y="99" width="15" height="15" rx="3" fill="#2563eb"/>
+  <path d="M 275.5 106.5 L 278.5 109.5 L 284 103.5" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="296" y="111" font-size="12" fill="#1f2937">Receber e-mails</text>
+  <rect x="272" y="125" width="15" height="15" rx="3" fill="#ffffff" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="296" y="137" font-size="12" fill="#1f2937">Receber SMS</text>
+  <text x="244" y="182" class="ink h">Checkbox</text>
+  <text x="244" y="202" class="muted an">Nenhuma, uma ou várias do mesmo</text>
+  <text x="244" y="220" class="muted an">conjunto. Também serve para o "aceito".</text>
+
+  <!-- select -->
+  <rect x="488" y="76" width="232" height="150" rx="6" class="card"/>
+  <rect x="500" y="88" width="208" height="62" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="516" y="104" width="176" height="30" rx="5" fill="#ffffff" stroke="#9ca3af" stroke-width="1.2"/>
+  <text x="528" y="124" font-size="12" fill="#1f2937">São Paulo</text>
+  <path d="M 668 116 L 674 122 L 680 116" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="488" y="182" class="ink h">Select</text>
+  <text x="488" y="202" class="muted an">Uma entre muitas — de 6 para cima, com</text>
+  <text x="488" y="220" class="muted an">busca quando passa de umas 15.</text>
+
+  <!-- switch -->
+  <rect x="0" y="238" width="232" height="150" rx="6" class="card"/>
+  <rect x="12" y="250" width="208" height="62" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="28" y="262" width="40" height="22" rx="11" fill="#2563eb"/>
+  <circle cx="57" cy="273" r="8" fill="#ffffff"/>
+  <text x="78" y="277" font-size="12" fill="#1f2937">Notificações</text>
+  <rect x="28" y="290" width="40" height="22" rx="11" fill="#d1d5db"/>
+  <circle cx="39" cy="301" r="8" fill="#ffffff"/>
+  <text x="78" y="305" font-size="12" fill="#1f2937">Modo escuro</text>
+  <text x="0" y="344" class="ink h">Switch</text>
+  <text x="0" y="364" class="accent an">Liga e desliga com efeito imediato.</text>
+  <text x="0" y="382" class="muted an">Se precisa de "Salvar", era checkbox.</text>
+
+  <!-- text input -->
+  <rect x="244" y="238" width="232" height="150" rx="6" class="card"/>
+  <rect x="256" y="250" width="208" height="62" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="272" y="268" font-size="11" fill="#6b7280">Nome</text>
+  <rect x="272" y="274" width="176" height="30" rx="5" fill="#ffffff" stroke="#9ca3af" stroke-width="1.2"/>
+  <text x="282" y="294" font-size="12" fill="#9ca3af">Seu nome</text>
+  <text x="244" y="344" class="ink h">Campo de texto</text>
+  <text x="244" y="364" class="muted an">Resposta curta e livre. Rótulo acima,</text>
+  <text x="244" y="382" class="muted an">nunca só o placeholder.</text>
+
+  <!-- textarea -->
+  <rect x="488" y="238" width="232" height="150" rx="6" class="card"/>
+  <rect x="500" y="250" width="208" height="62" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="516" y="258" width="176" height="46" rx="5" fill="#ffffff" stroke="#9ca3af" stroke-width="1.2"/>
+  <rect x="526" y="268" width="150" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="526" y="280" width="156" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="526" y="292" width="92" height="5" rx="2.5" fill="#e5e7eb"/>
+  <text x="488" y="344" class="ink h">Área de texto</text>
+  <text x="488" y="364" class="muted an">Resposta longa. O tamanho da caixa é</text>
+  <text x="488" y="382" class="muted an">a dica de quanto se espera.</text>
+
+  <text x="0" y="418" class="muted cap">O placeholder desaparece quando a pessoa digita — por isso ele nunca substitui o rótulo.</text>
+</svg>

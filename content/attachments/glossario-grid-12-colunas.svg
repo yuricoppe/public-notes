@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Diagrama do grid de 12 colunas: margem lateral de 32 pixels, gutter de 24 pixels entre colunas, largura máxima de conteúdo de 1200 pixels, e exemplos de subdivisão em 8 mais 4, 6 mais 6 e quatro colunas de 3">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .col   { fill: #dbeafe; stroke: #93c5fd; stroke-width: 1; }
+    .span  { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.5; }
+    .guide { stroke: #f87171; stroke-width: 1; stroke-dasharray: 4 3; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 12px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .col { fill: #1e3a5f; stroke: #3b82f6; }
+      .span { fill: #1f2937; stroke: #4b5563; }
+      .guide { stroke: #fca5a5; }
+      .lead { stroke: #6b7280; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">O grid de 12 colunas</text>
+  <text x="0" y="44" class="muted cap">Doze divide por 2, 3, 4 e 6 — por isso é o número que aguenta quase todo layout sem sobrar resto</text>
+
+  <!-- margin guides -->
+  <line x1="40" y1="64" x2="40" y2="352" class="guide"/>
+  <line x1="680" y1="64" x2="680" y2="352" class="guide"/>
+
+  <!-- 12 columns -->
+  <rect x="40"     y="80" width="42.3" height="80" rx="2" class="col"/>
+  <rect x="94.3"   y="80" width="42.3" height="80" rx="2" class="col"/>
+  <rect x="148.7"  y="80" width="42.3" height="80" rx="2" class="col"/>
+  <rect x="203"    y="80" width="42.3" height="80" rx="2" class="col"/>
+  <rect x="257.3"  y="80" width="42.3" height="80" rx="2" class="col"/>
+  <rect x="311.7"  y="80" width="42.3" height="80" rx="2" class="col"/>
+  <rect x="366"    y="80" width="42.3" height="80" rx="2" class="col"/>
+  <rect x="420.3"  y="80" width="42.3" height="80" rx="2" class="col"/>
+  <rect x="474.7"  y="80" width="42.3" height="80" rx="2" class="col"/>
+  <rect x="529"    y="80" width="42.3" height="80" rx="2" class="col"/>
+  <rect x="583.3"  y="80" width="42.3" height="80" rx="2" class="col"/>
+  <rect x="637.7"  y="80" width="42.3" height="80" rx="2" class="col"/>
+
+  <!-- margin + gutter labels -->
+  <text x="0" y="76" class="muted an">margem 32px</text>
+  <text x="601" y="76" class="muted an">margem 32px</text>
+  <line x1="82.3" y1="172" x2="94.3" y2="172" class="lead"/>
+  <line x1="82.3" y1="168" x2="82.3" y2="176" class="lead"/>
+  <line x1="94.3" y1="168" x2="94.3" y2="176" class="lead"/>
+  <text x="104" y="177" class="muted an">gutter 24px — o vão entre colunas, não parte delas</text>
+
+  <line x1="40" y1="66" x2="680" y2="66" class="lead"/>
+  <text x="253" y="60" class="accent an">largura máxima de conteúdo: 1200px</text>
+
+  <!-- subdivision examples -->
+  <text x="0" y="212" class="ink h">8 + 4 — conteúdo e barra lateral</text>
+  <rect x="40"    y="222" width="422.7" height="30" rx="4" class="span"/>
+  <rect x="474.7" y="222" width="205.3" height="30" rx="4" class="span"/>
+  <text x="52"  y="242" class="muted an">conteúdo principal</text>
+  <text x="487" y="242" class="muted an">barra lateral</text>
+
+  <text x="0" y="282" class="ink h">6 + 6 — comparação lado a lado</text>
+  <rect x="40"  y="292" width="314" height="30" rx="4" class="span"/>
+  <rect x="366" y="292" width="314" height="30" rx="4" class="span"/>
+
+  <text x="0" y="352" class="ink h">3 + 3 + 3 + 3 — grade de cards</text>
+  <rect x="40"  y="362" width="151" height="26" rx="4" class="span"/>
+  <rect x="203" y="362" width="151" height="26" rx="4" class="span"/>
+  <rect x="366" y="362" width="151" height="26" rx="4" class="span"/>
+  <rect x="529" y="362" width="151" height="26" rx="4" class="span"/>
+</svg>

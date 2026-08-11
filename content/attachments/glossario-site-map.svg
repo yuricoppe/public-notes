@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="Sitemap hierárquico com quatro níveis a partir da home, e a comparação entre uma estrutura rasa e larga e outra funda e estreita">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .root  { fill: #2563eb; stroke: none; }
+    .n1    { fill: #dbeafe; stroke: #2563eb; stroke-width: 1.2; }
+    .n2    { fill: #f3f4f6; stroke: #9ca3af; stroke-width: 1.2; }
+    .edge  { stroke: #9ca3af; stroke-width: 1.2; fill: none; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .lv  { font-size: 10.5px; font-weight: 700; fill: #6b7280; }
+    .n   { font-size: 11px; fill: #1f2937; }
+    .nw  { font-size: 11px; fill: #ffffff; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .n1 { fill: #1e3a5f; stroke: #60a5fa; }
+      .n2 { fill: #374151; stroke: #6b7280; }
+      .edge { stroke: #6b7280; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .lv { fill: #9ca3af; }
+      .n { fill: #e5e7eb; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Sitemap: a estrutura antes das telas</text>
+  <text x="0" y="44" class="muted cap">Um diagrama de caixas que decide, antes de qualquer pixel, o que é fácil de achar e o que vai depender da busca</text>
+
+  <!-- level labels -->
+  <text x="88" y="96" class="lv" text-anchor="end">nível 0</text>
+  <text x="88" y="152" class="lv" text-anchor="end">nível 1</text>
+  <text x="88" y="207" class="lv" text-anchor="end">nível 2</text>
+  <text x="88" y="259" class="lv" text-anchor="end">nível 3</text>
+
+  <!-- edges -->
+  <path d="M 410 106 L 410 118 L 170 118 L 170 132" class="edge"/>
+  <path d="M 410 106 L 410 118 L 330 118 L 330 132" class="edge"/>
+  <path d="M 410 106 L 410 118 L 490 118 L 490 132" class="edge"/>
+  <path d="M 410 106 L 410 118 L 650 118 L 650 132" class="edge"/>
+
+  <path d="M 170 160 L 170 174 L 150 174 L 150 188" class="edge"/>
+  <path d="M 170 160 L 170 174 L 250 174 L 250 188" class="edge"/>
+  <path d="M 490 160 L 490 174 L 450 174 L 450 188" class="edge"/>
+  <path d="M 490 160 L 490 174 L 555 174 L 555 188" class="edge"/>
+
+  <path d="M 150 214 L 150 226 L 130 226 L 130 240" class="edge"/>
+  <path d="M 150 214 L 150 226 L 235 226 L 235 240" class="edge"/>
+
+  <!-- nodes -->
+  <rect x="370" y="78" width="80" height="28" rx="5" class="root"/>
+  <text x="410" y="96" class="nw" text-anchor="middle">Home</text>
+
+  <rect x="108" y="132" width="124" height="28" rx="5" class="n1"/>
+  <text x="170" y="150" class="n" text-anchor="middle">Produtos</text>
+  <rect x="268" y="132" width="124" height="28" rx="5" class="n1"/>
+  <text x="330" y="150" class="n" text-anchor="middle">Soluções</text>
+  <rect x="428" y="132" width="124" height="28" rx="5" class="n1"/>
+  <text x="490" y="150" class="n" text-anchor="middle">Suporte</text>
+  <rect x="588" y="132" width="124" height="28" rx="5" class="n1"/>
+  <text x="650" y="150" class="n" text-anchor="middle">Sobre</text>
+
+  <rect x="100" y="188" width="100" height="26" rx="4" class="n2"/>
+  <text x="150" y="205" class="n" text-anchor="middle">Fones</text>
+  <rect x="200" y="188" width="100" height="26" rx="4" class="n2"/>
+  <text x="250" y="205" class="n" text-anchor="middle">Teclados</text>
+  <rect x="400" y="188" width="100" height="26" rx="4" class="n2"/>
+  <text x="450" y="205" class="n" text-anchor="middle">Ajuda</text>
+  <rect x="505" y="188" width="100" height="26" rx="4" class="n2"/>
+  <text x="555" y="205" class="n" text-anchor="middle">Contato</text>
+
+  <rect x="80" y="240" width="100" height="26" rx="4" class="n2"/>
+  <text x="130" y="257" class="n" text-anchor="middle">Sem fio</text>
+  <rect x="185" y="240" width="100" height="26" rx="4" class="n2"/>
+  <text x="235" y="257" class="n" text-anchor="middle">Com fio</text>
+
+  <!-- trade-off -->
+  <text x="0" y="304" class="ink h">A decisão que o sitemap realmente toma: largura ou profundidade</text>
+
+  <rect x="0" y="316" width="352" height="72" rx="6" class="card"/>
+  <text x="16" y="340" class="ink h">Raso e largo</text>
+  <text x="16" y="360" class="muted an">Tudo a dois cliques — e um menu com 40 itens</text>
+  <text x="16" y="376" class="muted an">que ninguém varre até o fim.</text>
+
+  <rect x="368" y="316" width="352" height="72" rx="6" class="card"/>
+  <text x="384" y="340" class="ink h">Fundo e estreito</text>
+  <text x="384" y="360" class="muted an">Menu curto e limpo — e conteúdo enterrado no</text>
+  <text x="384" y="376" class="muted an">quinto nível, onde só a busca chega.</text>
+
+  <text x="0" y="412" class="muted cap">Não existe número mágico de cliques. O que trava a pessoa não é a quantidade — é não saber se está no galho certo.</text>
+</svg>

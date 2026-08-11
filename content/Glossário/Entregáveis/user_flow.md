@@ -20,6 +20,8 @@ User Flows são cruciais para entender e otimizar a experiência do usuário, ga
 
 Um User Flow geralmente utiliza formas padronizadas para representar diferentes elementos:
 
+![As formas padronizadas de um user flow — entrada e saída, tela ou passo, decisão e conector — e um exemplo de fluxo com ramificação](attachments/glossario-user-flow.svg)
+
 - **Ponto de Entrada:** Onde o usuário inicia o fluxo (ex: página inicial, e-mail, anúncio).
 - **Ações/Passos:** As interações específicas que o usuário realiza (ex: clicar em um [[Glossário/Elementos/botoes|botão]], preencher um [[Glossário/Padrões/form_structure|formulário]]).
 - **Telas/Páginas:** As interfaces que o usuário vê em cada etapa.

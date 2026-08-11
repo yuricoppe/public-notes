@@ -40,6 +40,8 @@ Filtros podem ser compostos por diversos elementos de UI:
 
 ## Melhores Práticas
 
+![Painel de filtros anotado: chips de filtros ativos com limpar tudo, contagem de resultados, contagem por opção e aviso de atualização para leitores de tela](attachments/glossario-anatomia-filtros.svg)
+
 -   **Visibilidade e Acesso Fácil:** Os filtros devem ser fáceis de encontrar e usar.
 -   **Feedback Imediato:** O conjunto de dados deve ser atualizado (ou mostrar um indicador de carregamento) assim que um filtro é aplicado ou alterado.
     *   Alguns sistemas usam um botão "Aplicar Filtros" para permitir múltiplas seleções antes de atualizar, especialmente se a atualização for custosa.

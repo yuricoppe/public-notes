@@ -21,6 +21,8 @@ O objetivo principal da análise MoSCoW é ajudar as equipes a priorizar requisi
 
 ## As Categorias MoSCoW
 
+![As quatro categorias MoSCoW com a definição de cada uma, um exemplo de e-commerce e a fatia típica de esforço que costumam ocupar](attachments/glossario-moscow.svg)
+
 1.  **M - Must have (Deve ter):**
     *   Requisitos críticos para o sucesso do projeto ou produto. Sem eles, a entrega seria considerada um fracasso, ilegal, insegura ou inútil.
     *   Não são negociáveis e devem ser incluídos.

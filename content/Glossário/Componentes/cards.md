@@ -21,6 +21,8 @@ Cards são contêineres de interface que agrupam informações e ações relacio
 
 ## Elementos Comuns de um Card
 
+![Card anotado em cinco partes: mídia, badge de status, título, metadados e ação, com a regra de consistência entre cards do mesmo grupo](attachments/glossario-anatomia-card.svg)
+
 Um card pode conter uma combinação dos seguintes elementos:
 
 -   **Mídia (Opcional):** [[Glossário/Elementos/imagem|Imagem]], vídeo, ilustração no topo ou lateral do card.

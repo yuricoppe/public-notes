@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Estrutura de um checkout: indicador de progresso em quatro etapas, formulário à esquerda e resumo do pedido fixo à direita, com o custo total sempre visível e a saída em caso de falha de pagamento">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .sheet { fill: #ffffff; stroke: #e5e7eb; stroke-width: 1.2; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .step  { stroke: #d1d5db; stroke-width: 2; }
+    .stepd { stroke: #2563eb; stroke-width: 2; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .step { stroke: #4b5563; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">A estrutura de um checkout</text>
+  <text x="0" y="44" class="muted cap">Cada campo a mais é uma chance de desistir. Cada custo revelado tarde é a razão nº 1 de abandono</text>
+
+  <!-- progress -->
+  <line x1="60" y1="86" x2="620" y2="86" class="step"/>
+  <line x1="60" y1="86" x2="340" y2="86" class="stepd"/>
+  <circle cx="60" cy="86" r="10" fill="#2563eb"/>
+  <path d="M 55.5 86 L 58.5 89 L 64.5 82.5" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="200" cy="86" r="10" fill="#2563eb"/>
+  <path d="M 195.5 86 L 198.5 89 L 204.5 82.5" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="340" cy="86" r="10" fill="#2563eb"/>
+  <circle cx="480" cy="86" r="10" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <circle cx="620" cy="86" r="10" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+
+  <text x="40" y="114" class="muted an">Carrinho</text>
+  <text x="176" y="114" class="muted an">Entrega</text>
+  <text x="314" y="114" class="accent an">Pagamento</text>
+  <text x="456" y="114" class="muted an">Revisão</text>
+  <text x="596" y="114" class="muted an">Pronto</text>
+
+  <!-- form column -->
+  <rect x="0" y="136" width="430" height="204" rx="6" class="sheet"/>
+  <text x="18" y="164" font-size="13" font-weight="700" fill="#1f2937">Forma de pagamento</text>
+
+  <rect x="18" y="176" width="190" height="34" rx="5" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+  <circle cx="34" cy="193" r="6" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+  <circle cx="34" cy="193" r="2.8" fill="#2563eb"/>
+  <text x="48" y="197" font-size="11" fill="#1f2937">Cartão de crédito</text>
+  <rect x="218" y="176" width="190" height="34" rx="5" fill="#ffffff" stroke="#d1d5db" stroke-width="1.2"/>
+  <circle cx="234" cy="193" r="6" fill="#ffffff" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="248" y="197" font-size="11" fill="#1f2937">Pix</text>
+
+  <text x="18" y="234" font-size="10.5" fill="#6b7280">Número do cartão</text>
+  <rect x="18" y="240" width="260" height="30" rx="5" fill="#ffffff" stroke="#9ca3af" stroke-width="1.2"/>
+  <text x="28" y="260" font-size="11" fill="#9ca3af">0000 0000 0000 0000</text>
+  <text x="292" y="234" font-size="10.5" fill="#6b7280">Validade</text>
+  <rect x="292" y="240" width="56" height="30" rx="5" fill="#ffffff" stroke="#9ca3af" stroke-width="1.2"/>
+  <text x="360" y="234" font-size="10.5" fill="#6b7280">CVV</text>
+  <rect x="360" y="240" width="48" height="30" rx="5" fill="#ffffff" stroke="#9ca3af" stroke-width="1.2"/>
+
+  <rect x="18" y="290" width="150" height="34" rx="6" fill="#2563eb"/>
+  <text x="46" y="312" font-size="12" font-weight="600" fill="#ffffff">Revisar pedido</text>
+  <text x="188" y="312" font-size="11" fill="#2563eb">Voltar para entrega</text>
+
+  <!-- summary column -->
+  <rect x="446" y="136" width="274" height="204" rx="6" class="sheet"/>
+  <text x="464" y="164" font-size="13" font-weight="700" fill="#1f2937">Resumo do pedido</text>
+  <text x="464" y="190" font-size="11" fill="#1f2937">2 itens</text>
+  <text x="702" y="190" font-size="11" fill="#1f2937" text-anchor="end">R$ 289,00</text>
+  <text x="464" y="212" font-size="11" fill="#1f2937">Frete</text>
+  <text x="702" y="212" font-size="11" fill="#1f2937" text-anchor="end">R$ 24,90</text>
+  <text x="464" y="234" font-size="11" fill="#16a34a">Cupom BEMVINDO</text>
+  <text x="702" y="234" font-size="11" fill="#16a34a" text-anchor="end">− R$ 30,00</text>
+  <line x1="464" y1="248" x2="702" y2="248" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="464" y="272" font-size="13" font-weight="700" fill="#1f2937">Total</text>
+  <text x="702" y="272" font-size="15" font-weight="700" fill="#1f2937" text-anchor="end">R$ 283,90</text>
+  <text x="464" y="298" font-size="10.5" fill="#6b7280">Entrega até 14 de agosto</text>
+  <text x="464" y="318" font-size="10.5" fill="#6b7280">Devolução grátis em 30 dias</text>
+
+  <!-- notes -->
+  <text x="0" y="366" class="accent h">O resumo acompanha a rolagem</text>
+  <text x="0" y="386" class="muted an">Frete, imposto e desconto visíveis desde o primeiro passo.</text>
+
+  <text x="446" y="366" class="warn h">Se o pagamento falhar</text>
+  <text x="446" y="386" class="muted an">Volte ao passo, com os dados preservados — menos o CVV.</text>
+</svg>

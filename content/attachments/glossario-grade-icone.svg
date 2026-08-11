@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Grade de ícone de 24 por 24 pixels ampliada, com área viva de 20 por 20 e as formas-guia quadrado, círculo e retângulo sobrepostas; abaixo, os tamanhos padrão 16, 20, 24 e 32 e o alinhamento do ícone com o texto">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.5; }
+    .live  { fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-dasharray: 5 3; }
+    .key   { fill: none; stroke: #f87171; stroke-width: 1.2; }
+    .grid  { stroke: #e5e7eb; stroke-width: 1; }
+    .glyph { fill: none; stroke: #1f2937; stroke-width: 2; stroke-linecap: round; }
+    .rule  { stroke: #e5e7eb; stroke-width: 1; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .an  { font-size: 12px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .frame { stroke: #6b7280; }
+      .live { stroke: #60a5fa; }
+      .key { stroke: #fca5a5; }
+      .grid { stroke: #374151; }
+      .glyph { stroke: #e5e7eb; }
+      .rule { stroke: #374151; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">A grade que faz ícones diferentes parecerem do mesmo tamanho</text>
+  <text x="0" y="44" class="muted cap">Sem ela, um ícone quadrado sempre pesa mais na tela do que um circular do mesmo lado</text>
+
+  <text x="0" y="72" class="ink h">Grade de 24 × 24, ampliada 8×</text>
+
+  <!-- grid lines every 4 units -->
+  <line x1="32"  y1="84" x2="32"  y2="276" class="grid"/>
+  <line x1="64"  y1="84" x2="64"  y2="276" class="grid"/>
+  <line x1="96"  y1="84" x2="96"  y2="276" class="grid"/>
+  <line x1="128" y1="84" x2="128" y2="276" class="grid"/>
+  <line x1="160" y1="84" x2="160" y2="276" class="grid"/>
+  <line x1="0" y1="116" x2="192" y2="116" class="grid"/>
+  <line x1="0" y1="148" x2="192" y2="148" class="grid"/>
+  <line x1="0" y1="180" x2="192" y2="180" class="grid"/>
+  <line x1="0" y1="212" x2="192" y2="212" class="grid"/>
+  <line x1="0" y1="244" x2="192" y2="244" class="grid"/>
+
+  <rect x="0" y="84" width="192" height="192" class="frame"/>
+  <rect x="16" y="100" width="160" height="160" class="live"/>
+
+  <!-- keylines -->
+  <rect x="24" y="108" width="144" height="144" rx="6" class="key"/>
+  <circle cx="96" cy="180" r="80" class="key"/>
+  <rect x="32" y="100" width="128" height="160" rx="6" class="key"/>
+  <rect x="16" y="116" width="160" height="128" rx="6" class="key"/>
+
+  <!-- right panel -->
+  <text x="230" y="92" class="ink h">Quadro e área viva</text>
+  <text x="230" y="112" class="muted an">O quadro tem 24 × 24. O desenho vive nos 20 × 20 do centro.</text>
+  <text x="230" y="130" class="muted an">Os 2px de folga em volta são o que permite encostar ícones</text>
+  <text x="230" y="148" class="muted an">uns nos outros sem que colidam.</text>
+
+  <text x="230" y="184" class="ink h">Formas-guia</text>
+  <text x="230" y="204" class="muted an">Quadrado 18 × 18 · círculo ø20 · retângulos 16 × 20 e 20 × 16.</text>
+  <text x="230" y="222" class="muted an">Medidas diferentes, mesma área óptica — é a correção que o olho</text>
+  <text x="230" y="240" class="muted an">exige e a matemática não dá.</text>
+
+  <text x="230" y="272" class="ink h">Traço</text>
+  <text x="230" y="292" class="muted an">Espessura constante (2px em 24) e raio de canto constante. Trocar</text>
+  <text x="230" y="310" class="muted an">a espessura entre ícones é o que mais denuncia biblioteca remendada.</text>
+
+  <line x1="0" y1="300" x2="192" y2="300" class="rule"/>
+
+  <!-- sizes -->
+  <text x="0" y="322" class="ink h">Tamanhos padrão</text>
+  <rect x="0"  y="340" width="16" height="16" rx="3" class="frame"/>
+  <line x1="4"  y1="348" x2="12" y2="348" class="glyph"/>
+  <line x1="8"  y1="344" x2="8"  y2="352" class="glyph"/>
+  <rect x="40" y="336" width="20" height="20" rx="3" class="frame"/>
+  <line x1="45" y1="346" x2="55" y2="346" class="glyph"/>
+  <line x1="50" y1="341" x2="50" y2="351" class="glyph"/>
+  <rect x="88" y="332" width="24" height="24" rx="3" class="frame"/>
+  <line x1="94" y1="344" x2="106" y2="344" class="glyph"/>
+  <line x1="100" y1="338" x2="100" y2="350" class="glyph"/>
+  <rect x="144" y="324" width="32" height="32" rx="4" class="frame"/>
+  <line x1="152" y1="340" x2="168" y2="340" class="glyph"/>
+  <line x1="160" y1="332" x2="160" y2="348" class="glyph"/>
+
+  <text x="0"   y="374" class="muted an">16</text>
+  <text x="44"  y="374" class="muted an">20</text>
+  <text x="94"  y="374" class="muted an">24</text>
+  <text x="154" y="374" class="muted an">32</text>
+
+  <text x="230" y="348" class="accent cap">Todo ícone que carrega significado precisa de alternativa textual —</text>
+  <text x="230" y="368" class="accent cap">um aria-label. O ícone sozinho quase nunca é autoexplicativo.</text>
+</svg>

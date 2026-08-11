@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="Service blueprint com cinco raias — evidências físicas, ações do cliente, frontstage, backstage e processos de suporte — separadas pelas linhas de interação, de visibilidade e de interação interna">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .lane  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1; }
+    .box   { fill: #ffffff; stroke: #d1d5db; stroke-width: 1.2; }
+    .li    { stroke: #9ca3af; stroke-width: 1.5; stroke-dasharray: 5 4; }
+    .lv    { stroke: #dc2626; stroke-width: 2; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .lane-t { font-size: 12px; font-weight: 700; }
+    .lane-s { font-size: 10px; }
+    .b   { font-size: 10.5px; fill: #1f2937; }
+    .ln  { font-size: 10px; font-weight: 700; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .lane { fill: #1f2937; stroke: #4b5563; }
+      .box { fill: #111827; stroke: #4b5563; }
+      .li { stroke: #6b7280; }
+      .lv { stroke: #f87171; }
+      .b { fill: #e5e7eb; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Service blueprint: cinco raias e três linhas</text>
+  <text x="0" y="44" class="muted cap">É a jornada vista de lado — com tudo o que acontece atrás do balcão para que a frente funcione</text>
+
+  <!-- lane 1 -->
+  <rect x="155" y="70" width="565" height="48" rx="4" class="lane"/>
+  <text x="0" y="90" class="ink lane-t">Evidências físicas</text>
+  <text x="0" y="106" class="muted lane-s">o que o cliente vê e toca</text>
+  <rect x="167" y="79" width="170" height="30" rx="4" class="box"/>
+  <text x="179" y="98" class="b">Site de contratação</text>
+  <rect x="355" y="79" width="170" height="30" rx="4" class="box"/>
+  <text x="367" y="98" class="b">E-mail de confirmação</text>
+  <rect x="543" y="79" width="165" height="30" rx="4" class="box"/>
+  <text x="555" y="98" class="b">Cartão físico</text>
+
+  <!-- lane 2 -->
+  <rect x="155" y="124" width="565" height="48" rx="4" class="lane"/>
+  <text x="0" y="144" class="ink lane-t">Ações do cliente</text>
+  <text x="0" y="160" class="muted lane-s">o que ele faz</text>
+  <rect x="167" y="133" width="170" height="30" rx="4" class="box"/>
+  <text x="179" y="152" class="b">Preenche o pedido</text>
+  <rect x="355" y="133" width="170" height="30" rx="4" class="box"/>
+  <text x="367" y="152" class="b">Confere e aguarda</text>
+  <rect x="543" y="133" width="165" height="30" rx="4" class="box"/>
+  <text x="555" y="152" class="b">Recebe e ativa</text>
+
+  <line x1="0" y1="181" x2="720" y2="181" class="li"/>
+  <text x="0" y="177" class="muted ln">LINHA DE INTERAÇÃO</text>
+
+  <!-- lane 3 -->
+  <rect x="155" y="190" width="565" height="48" rx="4" class="lane"/>
+  <text x="0" y="210" class="ink lane-t">Frontstage</text>
+  <text x="0" y="226" class="muted lane-s">visível ao cliente</text>
+  <rect x="167" y="199" width="170" height="30" rx="4" class="box"/>
+  <text x="179" y="218" class="b">Formulário valida CPF</text>
+  <rect x="355" y="199" width="170" height="30" rx="4" class="box"/>
+  <text x="367" y="218" class="b">Disparo automático</text>
+  <rect x="543" y="199" width="165" height="30" rx="4" class="box"/>
+  <text x="555" y="218" class="b">Entregador</text>
+
+  <line x1="0" y1="247" x2="720" y2="247" class="lv"/>
+  <text x="0" y="243" class="warn ln">LINHA DE VISIBILIDADE</text>
+
+  <!-- lane 4 -->
+  <rect x="155" y="256" width="565" height="48" rx="4" class="lane"/>
+  <text x="0" y="276" class="ink lane-t">Backstage</text>
+  <text x="0" y="292" class="muted lane-s">invisível ao cliente</text>
+  <rect x="167" y="265" width="170" height="30" rx="4" class="box"/>
+  <text x="179" y="284" class="b">Análise de crédito</text>
+  <rect x="355" y="265" width="170" height="30" rx="4" class="box"/>
+  <text x="367" y="284" class="b">Fila de emissão</text>
+  <rect x="543" y="265" width="165" height="30" rx="4" class="box"/>
+  <text x="555" y="284" class="b">Roteirização</text>
+
+  <line x1="0" y1="313" x2="720" y2="313" class="li"/>
+  <text x="0" y="309" class="muted ln">LINHA DE INTERAÇÃO INTERNA</text>
+
+  <!-- lane 5 -->
+  <rect x="155" y="322" width="565" height="48" rx="4" class="lane"/>
+  <text x="0" y="342" class="ink lane-t">Processos de suporte</text>
+  <text x="0" y="358" class="muted lane-s">sistemas e contratos</text>
+  <rect x="167" y="331" width="170" height="30" rx="4" class="box"/>
+  <text x="179" y="350" class="b">Bureau de crédito</text>
+  <rect x="355" y="331" width="170" height="30" rx="4" class="box"/>
+  <text x="367" y="350" class="b">Sistema de emissão</text>
+  <rect x="543" y="331" width="165" height="30" rx="4" class="box"/>
+  <text x="555" y="350" class="b">Transportadora</text>
+
+  <text x="0" y="396" class="muted cap">A linha de visibilidade é a que muda a conversa: quase toda dor que o cliente sente nasce abaixo dela,</text>
+  <text x="0" y="414" class="muted cap">num sistema, numa fila ou num contrato que ele nunca vai ver.</text>
+</svg>

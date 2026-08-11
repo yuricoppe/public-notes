@@ -18,6 +18,8 @@ Breadcrumbs são um sistema de navegação secundário que mostra a localizaçã
 
 ## Tipos de Breadcrumbs
 
+![Breadcrumb anotado: primeiro item como link para a raiz, separador consistente e item atual em texto sem link; abaixo, os três tipos — por localização, por caminho e por atributo](attachments/glossario-anatomia-breadcrumb.svg)
+
 1.  **Baseados em Localização (Location-based):**
     *   Mostram onde o usuário está na hierarquia do site. São os mais comuns.
     *   Exemplo: `Home > Produtos > Eletrônicos > Smartphones`

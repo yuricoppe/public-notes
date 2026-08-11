@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" width="720" height="430" role="img" aria-label="Os cinco modelos de organização de conteúdo desenhados: hierárquica em árvore, sequencial em cadeia, matricial por facetas, orgânica em rede e organizada por tarefa">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .node  { fill: #dbeafe; stroke: #2563eb; stroke-width: 1.2; }
+    .node2 { fill: #f3f4f6; stroke: #9ca3af; stroke-width: 1.2; }
+    .edge  { stroke: #9ca3af; stroke-width: 1.2; fill: none; }
+    .dot   { fill: #93c5fd; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .node { fill: #1e3a5f; stroke: #60a5fa; }
+      .node2 { fill: #374151; stroke: #6b7280; }
+      .edge { stroke: #6b7280; }
+      .dot { fill: #3b82f6; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Cinco maneiras de organizar o conteúdo de um produto</text>
+  <text x="0" y="44" class="muted cap">A estrutura escolhida decide o que é fácil de achar — e o que só se acha pela busca</text>
+
+  <!-- 1 hierárquica -->
+  <rect x="0" y="76" width="232" height="152" rx="6" class="card"/>
+  <text x="14" y="100" class="ink h">Hierárquica (árvore)</text>
+  <line x1="116" y1="128" x2="60" y2="140" class="edge"/>
+  <line x1="116" y1="128" x2="116" y2="140" class="edge"/>
+  <line x1="116" y1="128" x2="172" y2="140" class="edge"/>
+  <line x1="60" y1="152" x2="42" y2="162" class="edge"/>
+  <line x1="60" y1="152" x2="78" y2="162" class="edge"/>
+  <rect x="100" y="114" width="32" height="14" rx="3" class="node"/>
+  <rect x="44" y="140" width="32" height="12" rx="3" class="node2"/>
+  <rect x="100" y="140" width="32" height="12" rx="3" class="node2"/>
+  <rect x="156" y="140" width="32" height="12" rx="3" class="node2"/>
+  <rect x="28" y="162" width="28" height="10" rx="3" class="node2"/>
+  <rect x="64" y="162" width="28" height="10" rx="3" class="node2"/>
+  <text x="14" y="196" class="muted an">Categorias e subcategorias. É o modelo</text>
+  <text x="14" y="212" class="muted an">padrão — e o que o breadcrumb pressupõe.</text>
+
+  <!-- 2 sequencial -->
+  <rect x="244" y="76" width="232" height="152" rx="6" class="card"/>
+  <text x="258" y="100" class="ink h">Sequencial</text>
+  <rect x="260" y="134" width="42" height="18" rx="3" class="node"/>
+  <rect x="312" y="134" width="42" height="18" rx="3" class="node2"/>
+  <rect x="364" y="134" width="42" height="18" rx="3" class="node2"/>
+  <rect x="416" y="134" width="42" height="18" rx="3" class="node2"/>
+  <path d="M 302 143 L 310 143" class="edge"/>
+  <path d="M 354 143 L 362 143" class="edge"/>
+  <path d="M 406 143 L 414 143" class="edge"/>
+  <text x="258" y="196" class="muted an">Um passo depois do outro, sem atalho.</text>
+  <text x="258" y="212" class="muted an">Checkout, cadastro longo, tutorial.</text>
+
+  <!-- 3 matricial -->
+  <rect x="488" y="76" width="232" height="152" rx="6" class="card"/>
+  <text x="502" y="100" class="ink h">Matricial (facetada)</text>
+  <rect x="502" y="114" width="44" height="14" rx="7" class="node"/>
+  <rect x="552" y="114" width="52" height="14" rx="7" class="node"/>
+  <rect x="610" y="114" width="44" height="14" rx="7" class="node"/>
+  <circle cx="520" cy="146" r="5" class="dot"/>
+  <circle cx="556" cy="146" r="5" class="dot"/>
+  <circle cx="592" cy="146" r="5" class="dot"/>
+  <circle cx="628" cy="146" r="5" class="dot"/>
+  <circle cx="520" cy="164" r="5" class="dot"/>
+  <circle cx="556" cy="164" r="5" class="dot"/>
+  <circle cx="592" cy="164" r="5" class="dot"/>
+  <circle cx="628" cy="164" r="5" class="dot"/>
+  <text x="502" y="196" class="muted an">A pessoa combina atributos na ordem que</text>
+  <text x="502" y="212" class="muted an">quiser. É o que um filtro de busca faz.</text>
+
+  <!-- 4 orgânica -->
+  <rect x="122" y="240" width="232" height="152" rx="6" class="card"/>
+  <text x="136" y="264" class="ink h">Orgânica (rede)</text>
+  <line x1="170" y1="298" x2="222" y2="286" class="edge"/>
+  <line x1="222" y1="286" x2="262" y2="308" class="edge"/>
+  <line x1="170" y1="298" x2="196" y2="330" class="edge"/>
+  <line x1="196" y1="330" x2="248" y2="340" class="edge"/>
+  <line x1="222" y1="286" x2="196" y2="330" class="edge"/>
+  <line x1="262" y1="308" x2="248" y2="340" class="edge"/>
+  <line x1="262" y1="308" x2="308" y2="292" class="edge"/>
+  <circle cx="170" cy="298" r="7" class="dot"/>
+  <circle cx="222" cy="286" r="7" class="dot"/>
+  <circle cx="262" cy="308" r="7" class="dot"/>
+  <circle cx="196" cy="330" r="7" class="dot"/>
+  <circle cx="248" cy="340" r="7" class="dot"/>
+  <circle cx="308" cy="292" r="7" class="dot"/>
+  <text x="136" y="362" class="muted an">Tudo liga com tudo, sem nível claro.</text>
+  <text x="136" y="378" class="muted an">Wiki, jardim digital, base de conhecimento.</text>
+
+  <!-- 5 por tarefa -->
+  <rect x="366" y="240" width="232" height="152" rx="6" class="card"/>
+  <text x="380" y="264" class="ink h">Por tarefa</text>
+  <line x1="482" y1="312" x2="424" y2="288" class="edge"/>
+  <line x1="482" y1="312" x2="424" y2="336" class="edge"/>
+  <line x1="482" y1="312" x2="546" y2="288" class="edge"/>
+  <line x1="482" y1="312" x2="546" y2="336" class="edge"/>
+  <rect x="392" y="280" width="46" height="16" rx="3" class="node2"/>
+  <rect x="392" y="328" width="46" height="16" rx="3" class="node2"/>
+  <rect x="532" y="280" width="46" height="16" rx="3" class="node2"/>
+  <rect x="532" y="328" width="46" height="16" rx="3" class="node2"/>
+  <rect x="458" y="302" width="48" height="20" rx="4" class="node"/>
+  <text x="380" y="362" class="muted an">Organizado pelo que a pessoa quer fazer,</text>
+  <text x="380" y="378" class="muted an">não pelo organograma de quem construiu.</text>
+
+  <text x="0" y="418" class="muted cap">O erro mais comum é o último: espelhar a estrutura interna da empresa e chamar isso de arquitetura.</text>
+</svg>

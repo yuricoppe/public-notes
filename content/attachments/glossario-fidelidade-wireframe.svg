@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="A mesma tela em três fidelidades: esboço de baixa fidelidade, wireframe de média fidelidade e mockup de alta fidelidade, com o que cada uma decide e quanto custa">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .sk    { fill: none; stroke: #9ca3af; stroke-width: 1.5; stroke-dasharray: 4 3; stroke-linecap: round; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .sk { stroke: #6b7280; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">A mesma tela em três fidelidades</text>
+  <text x="0" y="44" class="muted cap">Subir de fidelidade cedo demais é o jeito mais caro de descobrir que a estrutura estava errada</text>
+
+  <!-- 1 low fidelity -->
+  <rect x="0" y="70" width="232" height="196" rx="6" class="card"/>
+  <rect x="16" y="86" width="200" height="164" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="30" y="100" width="70" height="14" rx="2" class="sk"/>
+  <rect x="30" y="126" width="86" height="56" rx="2" class="sk"/>
+  <path d="M 30 126 L 116 182 M 116 126 L 30 182" class="sk"/>
+  <path d="M 128 132 L 200 132 M 128 146 L 186 146 M 128 160 L 168 160" class="sk"/>
+  <path d="M 30 196 L 200 196 M 30 208 L 176 208" class="sk"/>
+  <rect x="30" y="220" width="62" height="18" rx="3" class="sk"/>
+
+  <text x="0" y="290" class="ink h">Baixa fidelidade</text>
+  <text x="0" y="310" class="muted an">Rabisco em papel ou quadro. Serve para</text>
+  <text x="0" y="326" class="muted an">jogar fora rápido — e é isso que o torna útil.</text>
+  <text x="0" y="352" class="accent an">Custo: minutos. Ninguém se apega.</text>
+
+  <!-- 2 mid fidelity -->
+  <rect x="244" y="70" width="232" height="196" rx="6" class="card"/>
+  <rect x="260" y="86" width="200" height="164" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="272" y="98" width="176" height="18" rx="2" fill="#e5e7eb"/>
+  <text x="280" y="111" font-size="8" fill="#6b7280">Logo</text>
+  <text x="404" y="111" font-size="8" fill="#6b7280">Menu</text>
+  <rect x="272" y="126" width="86" height="56" rx="2" fill="#e5e7eb"/>
+  <path d="M 272 126 L 358 182 M 358 126 L 272 182" stroke="#d1d5db" stroke-width="1" fill="none"/>
+  <text x="370" y="138" font-size="9" font-weight="700" fill="#1f2937">Fone X200</text>
+  <rect x="370" y="146" width="66" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="370" y="157" width="52" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="370" y="170" width="40" height="7" rx="2" fill="#d1d5db"/>
+  <rect x="272" y="194" width="176" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="272" y="205" width="148" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="272" y="216" width="108" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="272" y="228" width="70" height="18" rx="3" fill="#d1d5db" stroke="#9ca3af" stroke-width="1"/>
+  <text x="284" y="241" font-size="8" fill="#1f2937">Comprar</text>
+
+  <text x="244" y="290" class="ink h">Média fidelidade</text>
+  <text x="244" y="310" class="muted an">O wireframe de verdade: estrutura, hierarquia</text>
+  <text x="244" y="326" class="muted an">e comportamento, sem cor nem marca.</text>
+  <text x="244" y="352" class="accent an">Custo: horas. Onde a discussão rende mais.</text>
+
+  <!-- 3 high fidelity -->
+  <rect x="488" y="70" width="232" height="196" rx="6" class="card"/>
+  <rect x="504" y="86" width="200" height="164" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="504" y="86" width="200" height="20" rx="4" fill="#1f2937"/>
+  <rect x="504" y="98" width="200" height="8" fill="#1f2937"/>
+  <text x="516" y="101" font-size="8" font-weight="700" fill="#ffffff">LOJA</text>
+  <text x="648" y="101" font-size="8" fill="#d1d5db">Menu</text>
+  <rect x="516" y="120" width="86" height="56" rx="3" fill="#dbeafe"/>
+  <path d="M 528 166 L 548 140 L 562 158 L 572 148 L 590 166 Z" fill="#60a5fa"/>
+  <circle cx="572" cy="132" r="6" fill="#93c5fd"/>
+  <text x="614" y="134" font-size="9" font-weight="700" fill="#1f2937">Fone X200</text>
+  <text x="614" y="148" font-size="7.5" fill="#6b7280">Sem fio · 30h</text>
+  <text x="614" y="166" font-size="11" font-weight="700" fill="#1f2937">R$ 349</text>
+  <rect x="516" y="190" width="176" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="516" y="201" width="148" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="516" y="212" width="108" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="516" y="226" width="70" height="20" rx="5" fill="#2563eb"/>
+  <text x="528" y="240" font-size="8" font-weight="600" fill="#ffffff">Comprar</text>
+
+  <text x="488" y="290" class="ink h">Alta fidelidade</text>
+  <text x="488" y="310" class="muted an">Já é mockup. Decide cor, tipografia e marca —</text>
+  <text x="488" y="326" class="muted an">não estrutura, que já devia estar resolvida.</text>
+  <text x="488" y="352" class="accent an">Custo: dias. E parece pronto para quem vê.</text>
+
+  <text x="0" y="386" class="muted cap">O risco de pular direto para a terceira: o feedback vira "não gostei do azul" quando a pergunta era sobre o layout.</text>
+</svg>

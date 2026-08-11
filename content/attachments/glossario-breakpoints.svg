@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img" aria-label="Escala dos seis breakpoints: XS abaixo de 576 pixels, SM de 576 a 768, MD de 768 a 992, LG de 992 a 1200, XL de 1200 a 1400 e XXL acima de 1400 pixels, com os dispositivos típicos de cada faixa">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .seg   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.5; }
+    .seg2  { fill: #dbeafe; stroke: #93c5fd; stroke-width: 1.5; }
+    .dev   { fill: none; stroke: #6b7280; stroke-width: 1.5; }
+    .tick  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .bp  { font-size: 15px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .seg { fill: #1f2937; stroke: #4b5563; }
+      .seg2 { fill: #1e3a5f; stroke: #3b82f6; }
+      .dev { stroke: #9ca3af; }
+      .tick { stroke: #6b7280; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Os seis breakpoints, e o que muda em cada faixa</text>
+  <text x="0" y="44" class="muted cap">O breakpoint não é o tamanho do aparelho — é a largura em que o conteúdo começa a quebrar</text>
+
+  <!-- device glyphs, bottoms aligned at y=176 -->
+  <rect x="49"  y="136" width="22" height="40" rx="3" class="dev"/>
+  <rect x="165" y="132" width="30" height="44" rx="3" class="dev"/>
+  <rect x="278" y="126" width="44" height="50" rx="3" class="dev"/>
+  <rect x="390" y="136" width="60" height="34" rx="3" class="dev"/>
+  <line x1="382" y1="176" x2="458" y2="176" class="dev"/>
+  <rect x="505" y="132" width="70" height="40" rx="3" class="dev"/>
+  <line x1="540" y1="172" x2="540" y2="176" class="dev"/>
+  <line x1="522" y1="176" x2="558" y2="176" class="dev"/>
+  <rect x="618" y="126" width="84" height="46" rx="3" class="dev"/>
+  <line x1="660" y1="172" x2="660" y2="176" class="dev"/>
+  <line x1="640" y1="176" x2="680" y2="176" class="dev"/>
+
+  <!-- scale -->
+  <rect x="0"   y="192" width="118" height="38" rx="4" class="seg"/>
+  <rect x="121" y="192" width="118" height="38" rx="4" class="seg"/>
+  <rect x="242" y="192" width="118" height="38" rx="4" class="seg2"/>
+  <rect x="363" y="192" width="118" height="38" rx="4" class="seg2"/>
+  <rect x="484" y="192" width="118" height="38" rx="4" class="seg"/>
+  <rect x="605" y="192" width="115" height="38" rx="4" class="seg"/>
+
+  <text x="45"  y="217" class="ink bp">XS</text>
+  <text x="165" y="217" class="ink bp">SM</text>
+  <text x="285" y="217" class="ink bp">MD</text>
+  <text x="408" y="217" class="ink bp">LG</text>
+  <text x="529" y="217" class="ink bp">XL</text>
+  <text x="646" y="217" class="ink bp">XXL</text>
+
+  <!-- boundaries -->
+  <line x1="119.5" y1="186" x2="119.5" y2="248" class="tick"/>
+  <line x1="240.5" y1="186" x2="240.5" y2="248" class="tick"/>
+  <line x1="361.5" y1="186" x2="361.5" y2="248" class="tick"/>
+  <line x1="482.5" y1="186" x2="482.5" y2="248" class="tick"/>
+  <line x1="603.5" y1="186" x2="603.5" y2="248" class="tick"/>
+
+  <text x="98"  y="264" class="accent an">576px</text>
+  <text x="219" y="264" class="accent an">768px</text>
+  <text x="340" y="264" class="accent an">992px</text>
+  <text x="457" y="264" class="accent an">1200px</text>
+  <text x="578" y="264" class="accent an">1400px</text>
+
+  <!-- device captions -->
+  <text x="0"   y="288" class="muted an">Celular em pé</text>
+  <text x="121" y="288" class="muted an">Celular deitado,</text>
+  <text x="121" y="304" class="muted an">tablet pequeno</text>
+  <text x="242" y="288" class="muted an">Tablet deitado,</text>
+  <text x="242" y="304" class="muted an">laptop pequeno</text>
+  <text x="363" y="288" class="muted an">Laptop e desktop</text>
+  <text x="363" y="304" class="muted an">de resolução padrão</text>
+  <text x="484" y="288" class="muted an">Desktop maior</text>
+  <text x="605" y="288" class="muted an">Monitor grande</text>
+
+  <text x="0" y="332" class="muted cap">Mobile-first: o estilo base vale para XS, e cada media query só acrescenta a partir de uma largura mínima.</text>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="Fórmula RICE — alcance vezes impacto vezes confiança dividido pelo esforço — com a definição de cada fator e um exemplo comparando duas iniciativas">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .bar   { stroke: #1f2937; stroke-width: 2; }
+    .accent{ fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .f   { font-size: 18px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .bar { stroke: #e5e7eb; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">RICE: quatro estimativas viram um número comparável</text>
+  <text x="0" y="44" class="muted cap">A nota não decide nada sozinha. O que ela faz é obrigar cada palpite a sair da cabeça e virar valor escrito</text>
+
+  <!-- formula -->
+  <text x="140" y="154" class="ink h" text-anchor="end">Pontuação RICE  =</text>
+  <text x="378" y="138" class="ink f" text-anchor="middle">Alcance × Impacto × Confiança</text>
+  <line x1="156" y1="152" x2="600" y2="152" class="bar"/>
+  <text x="378" y="182" class="ink f" text-anchor="middle">Esforço</text>
+
+  <!-- factors -->
+  <rect x="0" y="206" width="174" height="106" rx="6" class="card"/>
+  <text x="14" y="230" class="ink h">Alcance (R)</text>
+  <text x="14" y="250" class="muted an">Quantas pessoas, num</text>
+  <text x="14" y="266" class="muted an">período dado. É número,</text>
+  <text x="14" y="282" class="muted an">não sensação.</text>
+  <text x="14" y="302" class="accent an">ex.: 500 clientes/mês</text>
+
+  <rect x="182" y="206" width="174" height="106" rx="6" class="card"/>
+  <text x="196" y="230" class="ink h">Impacto (I)</text>
+  <text x="196" y="250" class="muted an">Quanto muda para cada</text>
+  <text x="196" y="266" class="muted an">uma. Escala fixa:</text>
+  <text x="196" y="282" class="muted an">3 · 2 · 1 · 0,5 · 0,25</text>
+  <text x="196" y="302" class="accent an">ex.: 2 (alto)</text>
+
+  <rect x="364" y="206" width="174" height="106" rx="6" class="card"/>
+  <text x="378" y="230" class="ink h">Confiança (C)</text>
+  <text x="378" y="250" class="muted an">O quanto você confia nos</text>
+  <text x="378" y="266" class="muted an">outros três. 100%, 80%</text>
+  <text x="378" y="282" class="muted an">ou 50% — sem meio-termo.</text>
+  <text x="378" y="302" class="accent an">ex.: 80%</text>
+
+  <rect x="546" y="206" width="174" height="106" rx="6" class="card"/>
+  <text x="560" y="230" class="ink h">Esforço (E)</text>
+  <text x="560" y="250" class="muted an">Pessoas-mês, contando</text>
+  <text x="560" y="266" class="muted an">design, teste e o que</text>
+  <text x="560" y="282" class="muted an">mais entrar.</text>
+  <text x="560" y="302" class="accent an">ex.: 3 pessoas-mês</text>
+
+  <!-- worked example -->
+  <rect x="0" y="326" width="720" height="62" rx="6" class="card"/>
+  <text x="16" y="350" class="ink an">Busca reformulada</text>
+  <text x="230" y="350" class="muted mono">5.000 × 2 × 0,80 ÷ 8</text>
+  <text x="470" y="350" class="ink h">= 1.000</text>
+  <text x="600" y="350" class="accent h">1º</text>
+
+  <text x="16" y="376" class="ink an">Onboarding em três telas</text>
+  <text x="230" y="376" class="muted mono">1.200 × 3 × 0,50 ÷ 2</text>
+  <text x="470" y="376" class="ink h">= 900</text>
+  <text x="600" y="376" class="muted h">2º</text>
+
+  <text x="0" y="412" class="muted cap">O esforço está no divisor: fatiar a iniciativa pela metade dobra a nota sem mudar mais nada. É aí que o RICE mais rende.</text>
+</svg>

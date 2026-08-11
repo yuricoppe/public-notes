@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" role="img" aria-label="Anatomia de um breadcrumb: primeiro item como link para a raiz, separador consistente e item atual em texto sem link; abaixo, os três tipos — por localização, por caminho e por atributo">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .sheet { fill: #ffffff; stroke: #e5e7eb; stroke-width: 1.2; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .accent{ fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 12px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .lead { stroke: #6b7280; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Breadcrumb: três decisões e uma linha de texto</text>
+  <text x="0" y="44" class="muted cap">Ele responde "onde eu estou?" — e, principalmente, "como eu subo um nível sem voltar ao início?"</text>
+
+  <rect x="0" y="70" width="720" height="54" rx="6" class="sheet"/>
+  <text x="20"  y="103" font-size="14" fill="#2563eb">Início</text>
+  <text x="72"  y="103" font-size="14" fill="#9ca3af">›</text>
+  <text x="88"  y="103" font-size="14" fill="#2563eb">Produtos</text>
+  <text x="158" y="103" font-size="14" fill="#9ca3af">›</text>
+  <text x="174" y="103" font-size="14" fill="#2563eb">Eletrônicos</text>
+  <text x="256" y="103" font-size="14" fill="#9ca3af">›</text>
+  <text x="272" y="103" font-size="14" font-weight="700" fill="#1f2937">Smartphones</text>
+
+  <line x1="42"  y1="112" x2="42"  y2="140" class="lead"/>
+  <line x1="160" y1="112" x2="280" y2="140" class="lead"/>
+  <line x1="330" y1="112" x2="530" y2="140" class="lead"/>
+
+  <text x="0" y="158" class="ink h">Primeiro item</text>
+  <text x="0" y="178" class="muted an">Link para a raiz, quase sempre</text>
+  <text x="0" y="194" class="muted an">"Início". É a saída de emergência.</text>
+
+  <text x="244" y="158" class="ink h">Separador</text>
+  <text x="244" y="178" class="muted an">Um só, em todo o site. O › é o mais</text>
+  <text x="244" y="194" class="muted an">reconhecido; a / confunde com URL.</text>
+
+  <text x="488" y="158" class="ink h">Item atual</text>
+  <text x="488" y="178" class="muted an">Texto, não link — ninguém clica para</text>
+  <text x="488" y="194" class="muted an">ir onde já está. aria-current="page".</text>
+
+  <text x="0" y="234" class="ink h">Os três tipos, e quando cada um faz sentido</text>
+
+  <rect x="0" y="246" width="232" height="86" rx="6" class="card"/>
+  <text x="14" y="268" class="ink h">Por localização</text>
+  <text x="14" y="288" class="accent mono">Início › Produtos › Fones</text>
+  <text x="14" y="308" class="muted an">Onde você está na hierarquia.</text>
+  <text x="14" y="324" class="muted an">O padrão, e o que se espera.</text>
+
+  <rect x="244" y="246" width="232" height="86" rx="6" class="card"/>
+  <text x="258" y="268" class="ink h">Por caminho</text>
+  <text x="258" y="288" class="accent mono">Busca › Fones › Modelo X</text>
+  <text x="258" y="308" class="muted an">Onde você passou. Só funciona</text>
+  <text x="258" y="324" class="muted an">em processo linear e curto.</text>
+
+  <rect x="488" y="246" width="232" height="86" rx="6" class="card"/>
+  <text x="502" y="268" class="ink h">Por atributo</text>
+  <text x="502" y="288" class="accent mono">Camisetas › Azul › M</text>
+  <text x="502" y="308" class="muted an">Os filtros que levaram até ali.</text>
+  <text x="502" y="324" class="muted an">Comum em e-commerce.</text>
+
+  <text x="0" y="354" class="muted cap">Breadcrumb é auxílio, não navegação principal — e num site de dois níveis ele não tem o que mostrar.</text>
+</svg>

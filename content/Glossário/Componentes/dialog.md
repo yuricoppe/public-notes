@@ -28,6 +28,8 @@ Dialogs (também conhecidos como Modals ou Pop-ups) são janelas ou overlays que
 
 ## Elementos Essenciais
 
+![Modal anotado em cinco pontos: overlay que torna o fundo inerte, título que diz a consequência, botão de fechar mais tecla Esc, verbo real no botão de ação e armadilha de foco do teclado](attachments/glossario-anatomia-modal.svg)
+
 -   **Overlay de Fundo:** Escurece ou desfoca o conteúdo da página principal para dar foco ao dialog.
 -   **Contêiner do Dialog:** A janela em si.
 -   **Título (Recomendado):** Um texto claro que descreve o propósito do dialog.

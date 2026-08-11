@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" width="720" height="430" role="img" aria-label="As quatro categorias MoSCoW — must have, should have, could have e won't have — com a definição de cada uma, um exemplo de e-commerce e a fatia típica de esforço">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .track { fill: #e5e7eb; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .l   { font-size: 26px; font-weight: 700; fill: #ffffff; }
+    .h   { font-size: 14px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .track { fill: #374151; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">MoSCoW: quatro caixas e um acordo</text>
+  <text x="0" y="44" class="muted cap">O método não prioriza sozinho — ele força a conversa em que alguém precisa dizer o que fica de fora</text>
+
+  <text x="520" y="68" class="muted sm">Fatia típica do esforço</text>
+
+  <!-- MUST -->
+  <rect x="0" y="76" width="720" height="72" rx="6" class="card"/>
+  <rect x="8" y="84" width="56" height="56" rx="8" fill="#dc2626"/>
+  <text x="36" y="121" class="l" text-anchor="middle">M</text>
+  <text x="80" y="104" class="ink h">Must have · Deve ter</text>
+  <text x="80" y="124" class="muted an">Sem isso a entrega é um fracasso — ilegal, insegura ou inútil. Não é negociável.</text>
+  <text x="80" y="140" class="accent an">E-commerce: adicionar ao carrinho e finalizar a compra.</text>
+  <rect x="520" y="86" width="190" height="10" rx="5" class="track"/>
+  <rect x="520" y="86" width="114" height="10" rx="5" fill="#dc2626"/>
+  <text x="520" y="112" class="muted sm">até 60% — mais que isso e nada é prioridade</text>
+
+  <!-- SHOULD -->
+  <rect x="0" y="156" width="720" height="72" rx="6" class="card"/>
+  <rect x="8" y="164" width="56" height="56" rx="8" fill="#d97706"/>
+  <text x="36" y="201" class="l" text-anchor="middle">S</text>
+  <text x="80" y="184" class="ink h">Should have · Deveria ter</text>
+  <text x="80" y="204" class="muted an">Importante, mas não vital. Dói ficar sem, e ainda assim existe um jeito de contornar.</text>
+  <text x="80" y="220" class="accent an">E-commerce: lista de desejos.</text>
+  <rect x="520" y="166" width="190" height="10" rx="5" class="track"/>
+  <rect x="520" y="166" width="38" height="10" rx="5" fill="#d97706"/>
+  <text x="520" y="192" class="muted sm">~20%</text>
+
+  <!-- COULD -->
+  <rect x="0" y="236" width="720" height="72" rx="6" class="card"/>
+  <rect x="8" y="244" width="56" height="56" rx="8" fill="#2563eb"/>
+  <text x="36" y="281" class="l" text-anchor="middle">C</text>
+  <text x="80" y="264" class="ink h">Could have · Poderia ter</text>
+  <text x="80" y="284" class="muted an">Desejável. Só entra se sobrar tempo depois dos dois de cima — e raramente sobra.</text>
+  <text x="80" y="300" class="accent an">E-commerce: escolher o tema de cores da interface.</text>
+  <rect x="520" y="246" width="190" height="10" rx="5" class="track"/>
+  <rect x="520" y="246" width="38" height="10" rx="5" fill="#2563eb"/>
+  <text x="520" y="272" class="muted sm">~20% — a folga que absorve o imprevisto</text>
+
+  <!-- WON'T -->
+  <rect x="0" y="316" width="720" height="72" rx="6" class="card"/>
+  <rect x="8" y="324" width="56" height="56" rx="8" fill="#6b7280"/>
+  <text x="36" y="361" class="l" text-anchor="middle">W</text>
+  <text x="80" y="344" class="ink h">Won't have · Não terá desta vez</text>
+  <text x="80" y="364" class="muted an">Acordado explicitamente como fora do escopo. Pode voltar na próxima — não nesta.</text>
+  <text x="80" y="380" class="accent an">E-commerce: programa de fidelidade no lançamento.</text>
+  <rect x="520" y="326" width="190" height="10" rx="5" class="track"/>
+  <text x="520" y="352" class="muted sm">0% — e dito em voz alta, na frente de todos</text>
+
+  <text x="0" y="414" class="muted cap">É o "W" que faz o método funcionar. Sem uma lista explícita do que não será feito, tudo vira "Must".</text>
+</svg>

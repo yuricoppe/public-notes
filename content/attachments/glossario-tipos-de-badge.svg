@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 410" width="720" height="410" role="img" aria-label="Os quatro tipos de badge desenhados em contexto — contagem, status, destaque e ponto — e a diferença entre badge, que só informa, e chip, que responde ao clique">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Os quatro badges, e o que cada um pode prometer</text>
+  <text x="0" y="44" class="muted cap">Badge é um recado curto grudado em outra coisa. Quando começa a virar frase, virou outro componente</text>
+
+  <!-- contagem -->
+  <rect x="0" y="70" width="174" height="206" rx="6" class="card"/>
+  <rect x="10" y="82" width="154" height="84" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <path d="M 68 138 C 68 118 76 110 87 110 C 98 110 106 118 106 138 L 110 146 L 64 146 Z" fill="none" stroke="#6b7280" stroke-width="2"/>
+  <path d="M 81 150 C 81 155 93 155 93 150" fill="none" stroke="#6b7280" stroke-width="2"/>
+  <circle cx="108" cy="112" r="12" fill="#dc2626"/>
+  <text x="108" y="116" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">12</text>
+  <text x="0" y="192" class="ink h">Contagem</text>
+  <text x="0" y="212" class="muted an">Quantos itens ainda não</text>
+  <text x="0" y="228" class="muted an">foram vistos. Sobreposto</text>
+  <text x="0" y="244" class="muted an">ao ícone.</text>
+  <text x="0" y="266" class="accent an">Ponha um teto: 99+.</text>
+
+  <!-- status -->
+  <rect x="182" y="70" width="174" height="206" rx="6" class="card"/>
+  <rect x="192" y="82" width="154" height="84" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="206" y="107" font-size="10" fill="#1f2937">Pedido 12342</text>
+  <rect x="290" y="94" width="44" height="18" rx="9" fill="#dcfce7"/>
+  <text x="312" y="107" font-size="9" fill="#166534" text-anchor="middle">Pago</text>
+  <text x="206" y="135" font-size="10" fill="#1f2937">Pedido 12343</text>
+  <rect x="278" y="122" width="56" height="18" rx="9" fill="#fef3c7"/>
+  <text x="306" y="135" font-size="9" fill="#92400e" text-anchor="middle">Pendente</text>
+  <text x="206" y="157" font-size="10" fill="#1f2937">Pedido 12345</text>
+  <rect x="276" y="144" width="58" height="18" rx="9" fill="#fee2e2"/>
+  <text x="305" y="157" font-size="9" fill="#991b1b" text-anchor="middle">Cancelado</text>
+  <text x="182" y="192" class="ink h">Status</text>
+  <text x="182" y="212" class="muted an">O estado de um registro,</text>
+  <text x="182" y="228" class="muted an">com cor semântica e uma</text>
+  <text x="182" y="244" class="muted an">palavra só.</text>
+  <text x="182" y="266" class="accent an">Mesmo estado, mesma palavra.</text>
+
+  <!-- destaque -->
+  <rect x="364" y="70" width="174" height="206" rx="6" class="card"/>
+  <rect x="374" y="82" width="154" height="84" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="388" y="94" width="126" height="60" rx="4" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="396" y="102" width="40" height="18" rx="9" fill="#2563eb"/>
+  <text x="416" y="115" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">Novo</text>
+  <rect x="396" y="128" width="80" height="6" rx="3" fill="#e5e7eb"/>
+  <rect x="396" y="140" width="60" height="6" rx="3" fill="#e5e7eb"/>
+  <text x="364" y="192" class="ink h">Destaque</text>
+  <text x="364" y="212" class="muted an">Marca uma característica:</text>
+  <text x="364" y="228" class="muted an">"Novo", "Popular",</text>
+  <text x="364" y="244" class="muted an">"Recomendado".</text>
+  <text x="364" y="266" class="accent an">Se tudo destaca, nada destaca.</text>
+
+  <!-- ponto -->
+  <rect x="546" y="70" width="174" height="206" rx="6" class="card"/>
+  <rect x="556" y="82" width="154" height="84" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="596" cy="112" r="17" fill="#e5e7eb"/>
+  <circle cx="608" cy="124" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="2"/>
+  <text x="624" y="110" font-size="10" fill="#1f2937">Marina</text>
+  <text x="624" y="124" font-size="9" fill="#6b7280">online</text>
+  <text x="570" y="152" font-size="10" fill="#1f2937">Notificações</text>
+  <circle cx="646" cy="148" r="4.5" fill="#2563eb"/>
+  <text x="546" y="192" class="ink h">Ponto</text>
+  <text x="546" y="212" class="muted an">Sinaliza que existe algo,</text>
+  <text x="546" y="228" class="muted an">sem dizer quanto. Presença,</text>
+  <text x="546" y="244" class="muted an">novidade, atividade.</text>
+  <text x="546" y="266" class="accent an">Precisa de rótulo por trás.</text>
+
+  <!-- badge vs chip -->
+  <rect x="0" y="296" width="352" height="72" rx="6" class="card"/>
+  <text x="16" y="320" class="ink h">Badge — só informa</text>
+  <text x="16" y="340" class="muted an">Não recebe clique nem foco. Reporta um estado que</text>
+  <text x="16" y="356" class="muted an">o sistema decidiu, e nada mais.</text>
+
+  <rect x="368" y="296" width="352" height="72" rx="6" class="card"/>
+  <text x="384" y="320" class="ink h">Chip ou tag — age</text>
+  <text x="384" y="340" class="muted an">Clica, remove, filtra. Se dá para interagir com</text>
+  <text x="384" y="356" class="muted an">aquilo, então não era um badge.</text>
+
+  <text x="0" y="394" class="muted cap">A cor sozinha nunca carrega o significado: "Pago" precisa estar escrito, não apenas ser verde.</text>
+</svg>

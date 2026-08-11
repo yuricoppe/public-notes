@@ -34,6 +34,8 @@ Elementos específicos do Carrossel:
 
 ## Melhores Práticas
 
+![Carrossel anotado com setas, indicadores de slide e botão de pausar, e um gráfico mostrando que a grande maioria dos cliques fica no primeiro slide](attachments/glossario-carrossel.svg)
+
 -   **Priorize Conteúdo Estático:** Um Hero estático bem projetado é geralmente mais eficaz. Use carrosséis apenas se houver uma forte justificativa de negócio e múltiplas mensagens de igual importância.
 -   **Controle do Usuário é Essencial:**
     *   **Evite Rotação Automática:** Se usar, forneça controles claros de Pausa/Play. A rotação automática pode ser distrativa e os usuários podem perder conteúdo.

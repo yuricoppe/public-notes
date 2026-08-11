@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Formas padronizadas de um user flow — entrada e saída, tela ou passo, ponto de decisão e conector — seguidas de um exemplo de fluxo com uma ramificação em Tem conta?">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .term  { fill: #dbeafe; stroke: #2563eb; stroke-width: 1.5; }
+    .step  { fill: #f9fafb; stroke: #9ca3af; stroke-width: 1.5; }
+    .dec   { fill: #fef3c7; stroke: #d97706; stroke-width: 1.5; }
+    .arrow { stroke: #6b7280; stroke-width: 1.5; fill: none; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .n   { font-size: 11px; fill: #1f2937; }
+    .an  { font-size: 12px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .term { fill: #1e3a5f; stroke: #60a5fa; }
+      .step { fill: #1f2937; stroke: #6b7280; }
+      .dec { fill: #451a03; stroke: #f59e0b; }
+      .arrow { stroke: #9ca3af; }
+      .n { fill: #e5e7eb; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">User flow: quatro formas e uma regra</text>
+  <text x="0" y="44" class="muted cap">Cada losango é uma pergunta que a pessoa precisa responder. Contar losangos é medir o atrito do fluxo</text>
+
+  <!-- legend -->
+  <rect x="0" y="76" width="64" height="30" rx="15" class="term"/>
+  <text x="74" y="96" class="ink an">Entrada ou saída</text>
+
+  <rect x="200" y="76" width="64" height="30" rx="4" class="step"/>
+  <text x="274" y="96" class="ink an">Tela ou passo</text>
+
+  <polygon points="422,76 456,91 422,106 388,91" class="dec"/>
+  <text x="466" y="96" class="ink an">Decisão</text>
+
+  <path d="M 570 91 L 622 91" class="arrow"/>
+  <path d="M 616 86 L 623 91 L 616 96" class="arrow"/>
+  <text x="634" y="96" class="ink an">Conector</text>
+
+  <text x="0" y="150" class="ink h">Um fluxo curto, com uma ramificação</text>
+
+  <!-- flow -->
+  <rect x="0" y="248" width="112" height="46" rx="23" class="term"/>
+  <text x="18" y="268" class="n">E-mail de</text>
+  <text x="18" y="283" class="n">convite</text>
+
+  <path d="M 112 271 L 150 271" class="arrow"/>
+  <path d="M 144 266 L 151 271 L 144 276" class="arrow"/>
+
+  <rect x="152" y="248" width="112" height="46" rx="5" class="step"/>
+  <text x="170" y="268" class="n">Tela de</text>
+  <text x="170" y="283" class="n">entrada</text>
+
+  <path d="M 264 271 L 288 271" class="arrow"/>
+  <path d="M 282 266 L 289 271 L 282 276" class="arrow"/>
+
+  <polygon points="352,231 420,271 352,311 284,271" class="dec"/>
+  <text x="322" y="268" class="n">Já tem</text>
+  <text x="322" y="283" class="n">conta?</text>
+
+  <path d="M 420 271 L 440 271 L 440 208 L 480 208" class="arrow"/>
+  <path d="M 474 203 L 481 208 L 474 213" class="arrow"/>
+  <text x="446" y="230" class="accent sm">sim</text>
+
+  <path d="M 420 271 L 440 271 L 440 334 L 480 334" class="arrow"/>
+  <path d="M 474 329 L 481 334 L 474 339" class="arrow"/>
+  <text x="446" y="326" class="accent sm">não</text>
+
+  <rect x="482" y="185" width="112" height="46" rx="5" class="step"/>
+  <text x="500" y="205" class="n">Confirmar</text>
+  <text x="500" y="220" class="n">a senha</text>
+
+  <rect x="482" y="311" width="112" height="46" rx="5" class="step"/>
+  <text x="500" y="331" class="n">Criar conta</text>
+  <text x="500" y="346" class="n">(2 campos)</text>
+
+  <path d="M 594 208 L 630 208 L 630 258" class="arrow"/>
+  <path d="M 625 252 L 630 259 L 635 252" class="arrow"/>
+  <path d="M 594 334 L 630 334 L 630 288" class="arrow"/>
+  <path d="M 625 294 L 630 287 L 635 294" class="arrow"/>
+
+  <rect x="574" y="258" width="112" height="30" rx="15" class="term"/>
+  <text x="596" y="278" class="n">No painel</text>
+
+  <text x="0" y="386" class="muted cap">O fluxo desenha o caminho, não as telas — quando cada caixa vira um wireframe, o entregável é um wireflow.</text>
+</svg>

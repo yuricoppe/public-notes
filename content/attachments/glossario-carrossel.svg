@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 410" width="720" height="410" role="img" aria-label="Carrossel de destaque anotado com setas, indicadores de slide e botão de pausar, e um gráfico mostrando que a grande maioria dos cliques fica no primeiro slide">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .badge { fill: #2563eb; }
+    .accent{ fill: #2563eb; }
+    .barc  { fill: #2563eb; }
+    .barm  { fill: #d1d5db; }
+    .axis  { stroke: #d1d5db; stroke-width: 1; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .barc { fill: #60a5fa; }
+      .barm { fill: #4b5563; }
+      .axis { stroke: #4b5563; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Carrossel de destaque: o que ele exige para ser aceitável</text>
+  <text x="0" y="44" class="muted cap">É um componente que a pesquisa trata mal há anos. Se for usar, os controles não são opcionais</text>
+
+  <!-- carousel mock -->
+  <rect x="0" y="70" width="460" height="160" rx="6" fill="#cbd5e1"/>
+  <path d="M 300 230 L 360 160 L 400 200 L 424 176 L 460 212 L 460 230 Z" fill="#94a3b8"/>
+  <circle cx="392" cy="112" r="16" fill="#e2e8f0"/>
+
+  <text x="52" y="128" font-size="16" font-weight="700" fill="#0f172a">Frete grátis acima de R$ 199</text>
+  <text x="52" y="152" font-size="12" fill="#334155">Em todo o site, até domingo.</text>
+  <rect x="52" y="166" width="104" height="32" rx="5" fill="#2563eb"/>
+  <text x="70" y="187" font-size="12" font-weight="600" fill="#ffffff">Ver ofertas</text>
+
+  <circle cx="22" cy="150" r="14" fill="#ffffff" opacity="0.92"/>
+  <path d="M 25 144 L 19 150 L 25 156" fill="none" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="438" cy="150" r="14" fill="#ffffff" opacity="0.92"/>
+  <path d="M 435 144 L 441 150 L 435 156" fill="none" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/>
+
+  <circle cx="198" cy="214" r="5" fill="#ffffff"/>
+  <circle cx="214" cy="214" r="5" fill="#ffffff" opacity="0.45"/>
+  <circle cx="230" cy="214" r="5" fill="#ffffff" opacity="0.45"/>
+  <circle cx="246" cy="214" r="5" fill="#ffffff" opacity="0.45"/>
+  <circle cx="262" cy="214" r="5" fill="#ffffff" opacity="0.45"/>
+
+  <rect x="384" y="204" width="60" height="20" rx="4" fill="#ffffff" opacity="0.92"/>
+  <text x="414" y="218" font-size="10" font-weight="600" fill="#1f2937" text-anchor="middle">Pausar</text>
+
+  <!-- badges on mock -->
+  <circle cx="22" cy="86" r="10" class="badge"/><text x="18.5" y="90" class="num">1</text>
+  <circle cx="168" cy="214" r="10" class="badge"/><text x="164.5" y="218" class="num">2</text>
+  <circle cx="356" cy="214" r="10" class="badge"/><text x="352.5" y="218" class="num">3</text>
+
+  <!-- annotations -->
+  <circle cx="490" cy="86" r="10" class="badge"/><text x="486.5" y="90" class="num">1</text>
+  <text x="510" y="90" class="ink h">Setas de verdade</text>
+  <text x="490" y="110" class="muted an">Visíveis sem hover, grandes o bastante para o</text>
+  <text x="490" y="126" class="muted an">dedo, e alcançáveis pelo teclado.</text>
+
+  <circle cx="490" cy="152" r="10" class="badge"/><text x="486.5" y="156" class="num">2</text>
+  <text x="510" y="156" class="ink h">Indicadores</text>
+  <text x="490" y="176" class="muted an">Dizem quantos slides existem e onde você está.</text>
+  <text x="490" y="192" class="muted an">Clicáveis, para pular direto.</text>
+
+  <circle cx="490" cy="218" r="10" class="badge"/><text x="486.5" y="222" class="num">3</text>
+  <text x="510" y="222" class="ink h">Pausar não é enfeite</text>
+  <text x="490" y="242" class="muted an">A WCAG exige poder parar qualquer movimento</text>
+  <text x="490" y="258" class="muted an">automático que dure mais de 5 segundos.</text>
+
+  <!-- attention chart -->
+  <text x="0" y="290" class="ink h">Para onde vão os cliques</text>
+  <line x1="0" y1="366" x2="330" y2="366" class="axis"/>
+  <rect x="8"   y="300" width="46" height="66" rx="2" class="barc"/>
+  <rect x="72"  y="358" width="46" height="8"  rx="2" class="barm"/>
+  <rect x="136" y="360" width="46" height="6"  rx="2" class="barm"/>
+  <rect x="200" y="361" width="46" height="5"  rx="2" class="barm"/>
+  <rect x="264" y="362" width="46" height="4"  rx="2" class="barm"/>
+  <text x="31"  y="382" class="muted an" text-anchor="middle">1º</text>
+  <text x="95"  y="382" class="muted an" text-anchor="middle">2º</text>
+  <text x="159" y="382" class="muted an" text-anchor="middle">3º</text>
+  <text x="223" y="382" class="muted an" text-anchor="middle">4º</text>
+  <text x="287" y="382" class="muted an" text-anchor="middle">5º</text>
+
+  <text x="368" y="312" class="muted an">Nas medições públicas mais citadas de carrosséis reais, o</text>
+  <text x="368" y="330" class="muted an">primeiro slide concentra a esmagadora maioria dos cliques —</text>
+  <text x="368" y="348" class="muted an">algo perto de nove em cada dez. As proporções variam de site</text>
+  <text x="368" y="366" class="muted an">para site, mas a forma da curva não.</text>
+  <text x="368" y="392" class="accent an">Na prática: o que não está no primeiro slide, quase ninguém vê.</text>
+</svg>

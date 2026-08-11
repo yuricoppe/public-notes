@@ -72,6 +72,8 @@ Estas estruturas são construídas utilizando nosso Sistema de Grid (`grid_syste
 
 ## Combinações Comuns
 
+![Wireframes das três estruturas de página — largura total, barra lateral à direita e barra lateral à esquerda — e a convergência das três para uma coluna única no mobile](attachments/glossario-estruturas-pagina.svg)
+
 - **Página de Largura Total:** Cabeçalho, Área de Conteúdo Principal, Rodapé.
 - **Página com Barra Lateral à Direita:** Cabeçalho, Área de Conteúdo Principal (esquerda), Barra Lateral (direita), Rodapé.
 - **Página com Barra Lateral à Esquerda:** Cabeçalho, Barra Lateral (esquerda), Área de Conteúdo Principal (direita), Rodapé.

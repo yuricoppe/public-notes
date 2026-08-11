@@ -21,6 +21,8 @@ O objetivo principal do método RICE é fornecer uma forma sistemática e consis
 
 ## Os Quatro Fatores do RICE
 
+![Fórmula RICE — alcance vezes impacto vezes confiança dividido pelo esforço — com a definição de cada fator e um exemplo comparando duas iniciativas](attachments/glossario-rice.svg)
+
 1.  **Reach (Alcance):**
     *   Quantas pessoas esta iniciativa impactará em um determinado período de tempo? (ex: número de clientes por trimestre, transações por mês).
     *   É uma estimativa quantitativa. Exige dados ou estimativas fundamentadas.

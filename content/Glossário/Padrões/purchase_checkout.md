@@ -23,6 +23,8 @@ O padrão de compra/checkout descreve o processo pelo qual um usuário seleciona
 
 ## Elementos Comuns / Estrutura Típica
 
+![Estrutura de um checkout: indicador de progresso em cinco etapas, formulário de pagamento à esquerda e resumo do pedido com o total sempre visível à direita](attachments/glossario-checkout-etapas.svg)
+
 - **Revisão do Carrinho/Pedido:** [[Glossário/Elementos/listas|Lista]] detalhada dos itens, quantidades, preços unitários e subtotais.
 - **Informações de Envio (se aplicável):**
     - Campos para endereço de entrega.

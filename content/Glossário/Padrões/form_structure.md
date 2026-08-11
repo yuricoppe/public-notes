@@ -22,6 +22,8 @@ O padrão de estrutura de formulário define as melhores práticas para organiza
 
 ## Elementos Comuns / Estrutura Típica
 
+![Formulário anotado em cinco pontos: rótulo acima do campo, texto de ajuda antes do erro, largura do campo sugerindo o tamanho da resposta, mensagem de erro colada ao campo e hierarquia clara nos botões](attachments/glossario-anatomia-formulario.svg)
+
 - **Rótulos (Labels):** Descrição concisa do propósito de cada campo de entrada. Devem estar sempre visíveis e claramente associados ao seu respectivo controle.
 - **Campos de Entrada (Input Fields):** Elementos onde o usuário insere dados (ex: caixas de texto, áreas de texto, [[Glossário/Componentes/menu|menus]] suspensos, seletores de data, [[Glossário/Elementos/form_controls|caixas de seleção]], botões de rádio).
 - **Texto de Ajuda/Dicas (Helper Text/Hints):** Informações adicionais ou instruções para um campo específico, posicionadas perto do campo.

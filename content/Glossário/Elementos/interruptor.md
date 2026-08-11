@@ -14,6 +14,8 @@ Interruptores (ou toggles) são usados para alternar entre dois estados de uma c
 
 ## Detalhes Adicionais / Tópicos
 
+![Comparação entre switch e checkbox: o switch vale no instante em que muda e não admite botão de confirmar, o checkbox só entra em vigor quando o formulário é salvo](attachments/glossario-switch-vs-checkbox.svg)
+
 - Visualmente indica o estado ativo (ligado) e inativo (desligado).
 - Deve ter uma área de toque/clique clara.
 - A mudança de estado deve ser imediata, sem necessidade de um [[Glossário/Elementos/botoes|botão]] "Salvar" separado para a ação do switch.

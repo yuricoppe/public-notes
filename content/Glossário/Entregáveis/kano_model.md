@@ -16,6 +16,8 @@ O objetivo principal do Modelo de Kano é ajudar as equipes de produto a entende
 
 ## As Cinco Categorias de Atributos do Cliente
 
+![Gráfico do modelo de Kano: satisfação no eixo vertical e grau de implementação no horizontal, com as curvas de atributo obrigatório, unidimensional, atrativo, indiferente e reverso](attachments/glossario-modelo-kano.svg)
+
 O modelo classifica as funcionalidades (ou atributos do produto) em cinco categorias, com base em como sua presença ou ausência afeta a satisfação do cliente:
 
 1.  **Must-be Quality / Basic Expectations (Qualidade Obrigatória / Expectativas Básicas):**

@@ -17,6 +17,8 @@ O Footer (Rodapé) é uma seção de conteúdo localizada na parte inferior de u
 
 ## Elementos Comuns de um Footer
 
+![Rodapé organizado em colunas temáticas com barra legal embaixo, e a versão empilhada em acordeões no mobile](attachments/glossario-anatomia-rodape.svg)
+
 -   **Informações de Copyright:** (ex: "© 2023 Nome da Empresa. Todos os direitos reservados.").
 -   **Links de Navegação Secundária ou Utilitária:**
     *   Termos de Serviço

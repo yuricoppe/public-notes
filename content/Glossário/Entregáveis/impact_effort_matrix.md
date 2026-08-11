@@ -27,6 +27,8 @@ Os principais objetivos de uma Matriz Impacto x Esforço são:
 
 ## Estrutura da Matriz (Quadrantes)
 
+![Matriz impacto × esforço com os quatro quadrantes — vitórias rápidas, grandes projetos, preenchimento e desperdício — e itens plotados em cada um](attachments/glossario-matriz-impacto-esforco.svg)
+
 A matriz é tipicamente dividida em quatro quadrantes:
 
 1.  **Alto Impacto, Baixo Esforço (Quick Wins / Vitórias Rápidas):**

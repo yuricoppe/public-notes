@@ -14,6 +14,8 @@ O sistema de grid é a espinha dorsal da organização espacial do nosso portal.
 
 Nosso portal utiliza um **sistema de grid de 12 colunas flexíveis**.
 
+![Grid de 12 colunas anotado: margem lateral de 32px, gutter de 24px entre colunas, largura máxima de conteúdo de 1200px, e três subdivisões — 8+4, 6+6 e quatro colunas de 3](attachments/glossario-grid-12-colunas.svg)
+
 ## Princípios Chave
 
 - **Consistência:** Todos os layouts de página e componentes devem se alinhar a este grid.

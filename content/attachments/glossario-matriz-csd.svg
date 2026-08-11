@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="Matriz CSD em três colunas — certezas, suposições e dúvidas — com exemplos em cada uma e o destino de cada coluna: registro, hipótese a testar e pergunta de pesquisa">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .col   { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .note1 { fill: #dcfce7; }
+    .note2 { fill: #fef3c7; }
+    .note3 { fill: #dbeafe; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .q   { font-size: 15px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .note{ font-size: 10.5px; fill: #1f2937; }
+    .cap { font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .col { fill: #111827; stroke: #4b5563; }
+      .arrow { stroke: #6b7280; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Matriz CSD — o que a equipe sabe, o que acha que sabe e o que não sabe</text>
+  <text x="0" y="44" class="muted cap">A coluna do meio é a perigosa: é onde mora tudo que o time trata como fato sem nunca ter verificado</text>
+
+  <!-- certezas -->
+  <rect x="0" y="70" width="232" height="238" rx="6" class="col"/>
+  <text x="14" y="98" class="ink q">Certezas</text>
+  <text x="14" y="118" class="muted an">Dado, fato verificado, consenso.</text>
+  <rect x="14" y="130" width="204" height="46" rx="4" class="note1"/>
+  <text x="26" y="150" class="note">72% dos acessos vêm de celular</text>
+  <text x="26" y="166" class="note">(analytics, últimos 6 meses).</text>
+  <rect x="14" y="184" width="204" height="46" rx="4" class="note1"/>
+  <text x="26" y="204" class="note">O fluxo de cadastro tem 9 campos</text>
+  <text x="26" y="220" class="note">obrigatórios hoje.</text>
+  <rect x="14" y="238" width="204" height="46" rx="4" class="note1"/>
+  <text x="26" y="258" class="note">A taxa de abandono no passo 3</text>
+  <text x="26" y="274" class="note">é de 41%.</text>
+
+  <!-- suposições -->
+  <rect x="244" y="70" width="232" height="238" rx="6" class="col"/>
+  <text x="258" y="98" class="ink q">Suposições</text>
+  <text x="258" y="118" class="muted an">O que acreditamos, sem prova.</text>
+  <rect x="258" y="130" width="204" height="46" rx="4" class="note2"/>
+  <text x="270" y="150" class="note">Achamos que as pessoas abandonam</text>
+  <text x="270" y="166" class="note">por causa do número de campos.</text>
+  <rect x="258" y="184" width="204" height="46" rx="4" class="note2"/>
+  <text x="270" y="204" class="note">Supomos que a maioria já tem o</text>
+  <text x="270" y="220" class="note">documento em mãos na hora.</text>
+  <rect x="258" y="238" width="204" height="46" rx="4" class="note2"/>
+  <text x="270" y="258" class="note">Acreditamos que preferem um</text>
+  <text x="270" y="274" class="note">formulário em uma página só.</text>
+
+  <!-- dúvidas -->
+  <rect x="488" y="70" width="232" height="238" rx="6" class="col"/>
+  <text x="502" y="98" class="ink q">Dúvidas</text>
+  <text x="502" y="118" class="muted an">O que sabemos que não sabemos.</text>
+  <rect x="502" y="130" width="204" height="46" rx="4" class="note3"/>
+  <text x="514" y="150" class="note">Onde exatamente a pessoa está</text>
+  <text x="514" y="166" class="note">quando começa o cadastro?</text>
+  <rect x="502" y="184" width="204" height="46" rx="4" class="note3"/>
+  <text x="514" y="204" class="note">O que ela faz depois de abandonar?</text>
+  <text x="514" y="220" class="note">Volta, liga, desiste?</text>
+  <rect x="502" y="238" width="204" height="46" rx="4" class="note3"/>
+  <text x="514" y="258" class="note">Como ela descobriu que precisava</text>
+  <text x="514" y="274" class="note">se cadastrar?</text>
+
+  <!-- arrows -->
+  <path d="M 116 316 L 116 336" class="arrow"/>
+  <path d="M 111 331 L 116 337 L 121 331" class="arrow"/>
+  <path d="M 360 316 L 360 336" class="arrow"/>
+  <path d="M 355 331 L 360 337 L 365 331" class="arrow"/>
+  <path d="M 604 316 L 604 336" class="arrow"/>
+  <path d="M 599 331 L 604 337 L 609 331" class="arrow"/>
+
+  <text x="0" y="358" class="ink h">Fica registrado</text>
+  <text x="0" y="378" class="muted an">Não consome pesquisa. Só volta à mesa</text>
+  <text x="0" y="394" class="muted an">se alguém apresentar contradição.</text>
+
+  <text x="244" y="358" class="accent h">Vira hipótese a testar</text>
+  <text x="244" y="378" class="muted an">Precisa de um teste ou de um dado que</text>
+  <text x="244" y="394" class="muted an">confirme ou derrube. É aqui que o risco mora.</text>
+
+  <text x="488" y="358" class="accent h">Vira pergunta de pesquisa</text>
+  <text x="488" y="378" class="muted an">Entra direto no roteiro da próxima</text>
+  <text x="488" y="394" class="muted an">entrevista ou observação.</text>
+</svg>

@@ -21,6 +21,8 @@ O componente Menu é uma [[Glossário/Elementos/listas|lista]] de opções ou a�
 
 ## Elementos Comuns
 
+![Menu suspenso anotado: gatilho com aria-expanded, itens com ícone, atalho e seta de submenu, separadores e item desabilitado, mais o mapa de navegação por teclado](attachments/glossario-anatomia-menu.svg)
+
 -   **Gatilho (Trigger):** O elemento que abre o menu (pode ser um botão, [[Glossário/Elementos/links|link]], ícone, ou o próprio item de menu pai em um menu multinível).
 -   **Contêiner do Menu:** O painel que contém a lista de itens de menu.
 -   **Itens de Menu (Menu Items):**

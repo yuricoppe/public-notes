@@ -24,6 +24,8 @@ O objetivo principal da Matriz CSD é:
 
 ## Como Funciona (Estrutura da Matriz)
 
+![Matriz CSD em três colunas — certezas, suposições e dúvidas — com exemplos em cada uma e o destino de cada coluna: registro, hipótese a testar e pergunta de pesquisa](attachments/glossario-matriz-csd.svg)
+
 A matriz é tipicamente dividida em três colunas (ou quadrantes):
 
 1.  **Certezas (Certainties):**
