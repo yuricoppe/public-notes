@@ -69,13 +69,23 @@ extensão que não conflitam com o upstream:
 - `quartz/components/TopBar.tsx`, `ContextBar.tsx`, `styles/topbar.scss`,
   `styles/contextbar.scss`, `scripts/sidebar.inline.ts` — arquivos novos
 
-**A única edição em arquivo do upstream é `quartz/components/index.ts`**: dois
-imports e duas entradas no `export`. Num merge com o upstream, é o único ponto de
-conflito esperado, e a resolução é reaplicar as quatro linhas.
+Seis arquivos do upstream foram tocados, todos com alteração pequena marcada
+com `// fork:`:
 
-Componentes que recebem outros componentes precisam recebê-los **por opção**, e
-não por `children` — só o `header[]` recebe filhos do `renderPage`. Ver o padrão
-em `Flex.tsx`, que `TopBar` e `ContextBar` seguem.
+| Arquivo | O quê |
+|---|---|
+| `components/index.ts` | exporta `TopBar`, `ContextBar`, `DrawerScrim` |
+| `cfg.ts` | campo `chrome` em `FullPageLayout` e `SharedLayout` |
+| `components/renderPage.tsx` | renderiza `chrome[]` antes de `#quartz-body` |
+| `plugins/emitters/{content,folder,tag}Page.tsx` | `chrome` na coleta de recursos |
+
+Duas armadilhas que custaram retrabalho:
+
+- **Componentes que recebem outros componentes precisam recebê-los por opção**,
+  não por `children` — só o `header[]` recebe filhos do `renderPage`. Ver o
+  padrão em `Flex.tsx`.
+- **Um slot novo precisa entrar em `getQuartzComponents()` nos emissores**, senão
+  o HTML sai e o CSS não. O sintoma é o componente aparecer sem estilo nenhum.
 
 A proposta, as decisões e a auditoria do `index.md` estão em
 `openspec/changes/adopt-docs-style-layout/`.
