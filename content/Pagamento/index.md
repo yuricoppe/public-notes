@@ -7,5 +7,5 @@ tags:
   - tipo/indice
 ---
 
-[[Métodos e Tecnologias para Implementação de Pagamento via Plano de Saúde em Lojas Virtuais]]
+[[Pagamento/Por que ninguém paga com plano de saúde numa loja virtual|Por que ninguém paga com plano de saúde numa loja virtual]]
 [[Checkout]]

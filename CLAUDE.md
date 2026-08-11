@@ -49,7 +49,12 @@ So folder-relative wikilinks silently break. From `content/Glossário/Componente
 
 There is **no build error** for a broken wikilink — the build succeeds and the link is dead on the site. When touching links, verify by resolving every target against the file list rather than trusting the build.
 
-**Aliases participate in that uniqueness check.** `transformLink` in `quartz/util/path.ts` only takes the bare-filename shortcut when exactly _one_ slug ends with that name, and `allSlugs` includes every entry in every `aliases:` list. So an alias ending in the same segment as a page's own filename makes that page unreachable by its bare name — the link silently falls back to an absolute path from the vault root, which does not exist. This bit `content/UX Healthcare/UX Login e Cadastro.md`, whose Notion-derived alias `UX Healthcare/UX Login e Cadastro/UX Login e Cadastro` shadowed the file itself. The fix is to link with the full path from `content/`; the alias stays so the old URL keeps redirecting.
+**Never rely on `aliases:` for wikilink resolution — link with the full path from `content/`.** Aliases reliably produce redirect pages at build time, but their participation in link resolution is unreliable, and it fails in both directions:
+
+- `transformLink` (`quartz/util/path.ts`) only takes the bare-filename shortcut when exactly _one_ slug ends with that name. `FrontMatter` pushes alias slugs into `ctx.allSlugs` during parsing, so an alias ending in the same segment as a page's own filename can shadow it — two matches, shortcut skipped, link falls back to an absolute path from the vault root that does not exist. This bit `content/UX Healthcare/UX Login e Cadastro.md` and its Notion-derived alias `UX Healthcare/UX Login e Cadastro/UX Login e Cadastro` (confirmed by removing the alias and rebuilding).
+- The reverse also fails: an alias covering a page's _old_ name does not necessarily make `[[Old Name]]` resolve, because `ctx.allSlugs` is mutated during parsing and reset in `build.ts` afterwards, so what a given file sees depends on processing order. This bit `content/Pagamento/index.md`, still linking a page by the title it had before being renamed.
+
+Keep the aliases — they preserve published URLs — but write links as `[[Folder/File|Label]]`.
 
 Related: Quartz has no `README.md` convention, so a folder's landing page must be `index.md`. `FolderPage`/`TagPage` emitters generate folder and tag listings automatically, so a folder `index.md` is optional.
 
