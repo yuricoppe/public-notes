@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Três padrões para tabela grande em tela pequena: rolagem horizontal com a primeira coluna e o cabeçalho fixos, escolha de quais colunas exibir, e transformação de cada linha em cartão, com a observação de que o cartão perde a comparação entre linhas">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .cell  { fill: #ffffff; stroke: #d1d5db; stroke-width: 1; }
+    .fix   { fill: #eef2ff; stroke: #2563eb; stroke-width: 1.2; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .k   { font-size: 11px; font-weight: 700; }
+    .cap { font-size: 12px; }
+    .tiny{ font-size: 9.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .cell { fill: #111827; stroke: #4b5563; }
+      .fix { fill: #1e293b; stroke: #60a5fa; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Tabela grande em tela pequena</text>
+  <text x="0" y="44" class="muted cap">Três saídas. As duas primeiras preservam comparação; a terceira desiste dela em troca de leitura.</text>
+
+  <rect x="0" y="66" width="234" height="230" rx="8" class="box"/>
+  <text x="16" y="90" class="accent k">1 · FIXAR E ROLAR</text>
+  <rect x="16" y="102" width="66" height="22" rx="3" class="fix"/>
+  <text x="24" y="117" class="accent tiny">Produto</text>
+  <rect x="86" y="102" width="52" height="22" rx="3" class="fix"/>
+  <text x="94" y="117" class="accent tiny">Preço</text>
+  <rect x="142" y="102" width="52" height="22" rx="3" class="fix"/>
+  <text x="150" y="117" class="accent tiny">Estoque</text>
+  <rect x="198" y="102" width="40" height="22" rx="3" class="fix" opacity="0.5"/>
+  <rect x="16" y="128" width="66" height="22" rx="3" class="fix"/>
+  <rect x="86" y="128" width="52" height="22" rx="3" class="cell"/>
+  <rect x="142" y="128" width="52" height="22" rx="3" class="cell"/>
+  <rect x="198" y="128" width="40" height="22" rx="3" class="cell" opacity="0.5"/>
+  <rect x="16" y="154" width="66" height="22" rx="3" class="fix"/>
+  <rect x="86" y="154" width="52" height="22" rx="3" class="cell"/>
+  <rect x="142" y="154" width="52" height="22" rx="3" class="cell"/>
+  <rect x="198" y="154" width="40" height="22" rx="3" class="cell" opacity="0.5"/>
+  <rect x="16" y="180" width="66" height="22" rx="3" class="fix"/>
+  <rect x="86" y="180" width="52" height="22" rx="3" class="cell"/>
+  <rect x="142" y="180" width="52" height="22" rx="3" class="cell"/>
+  <rect x="198" y="180" width="40" height="22" rx="3" class="cell" opacity="0.5"/>
+  <text x="16" y="228" class="muted cap">Cabeçalho e primeira coluna</text>
+  <text x="16" y="244" class="muted cap">travados; o resto rola.</text>
+  <text x="16" y="270" class="muted cap">Sem o travamento, a pessoa</text>
+  <text x="16" y="286" class="muted cap">perde de que linha é o número.</text>
+
+  <rect x="243" y="66" width="234" height="230" rx="8" class="box"/>
+  <text x="259" y="90" class="accent k">2 · ESCOLHER AS COLUNAS</text>
+  <rect x="259" y="102" width="202" height="28" rx="5" class="cell"/>
+  <text x="270" y="120" class="accent cap">＋ Colunas (3 de 11)</text>
+  <rect x="259" y="140" width="64" height="22" rx="3" class="fix"/>
+  <text x="267" y="155" class="accent tiny">Produto</text>
+  <rect x="327" y="140" width="64" height="22" rx="3" class="fix"/>
+  <text x="335" y="155" class="accent tiny">Preço</text>
+  <rect x="395" y="140" width="66" height="22" rx="3" class="fix"/>
+  <text x="403" y="155" class="accent tiny">Estoque</text>
+  <rect x="259" y="166" width="64" height="22" rx="3" class="cell"/>
+  <rect x="327" y="166" width="64" height="22" rx="3" class="cell"/>
+  <rect x="395" y="166" width="66" height="22" rx="3" class="cell"/>
+  <rect x="259" y="192" width="64" height="22" rx="3" class="cell"/>
+  <rect x="327" y="192" width="64" height="22" rx="3" class="cell"/>
+  <rect x="395" y="192" width="66" height="22" rx="3" class="cell"/>
+  <text x="259" y="244" class="muted cap">A pessoa escolhe o subconjunto</text>
+  <text x="259" y="260" class="muted cap">que interessa à pergunta dela.</text>
+  <text x="259" y="286" class="muted cap">É o que mais funciona no celular.</text>
+
+  <rect x="486" y="66" width="234" height="230" rx="8" class="box"/>
+  <text x="502" y="90" class="accent k">3 · UMA LINHA VIRA UM CARTÃO</text>
+  <rect x="502" y="102" width="202" height="56" rx="5" class="cell"/>
+  <text x="514" y="122" class="ink cap">Teclado sem fio</text>
+  <text x="514" y="140" class="muted tiny">Preço R$ 289 · Estoque 12 · SKU 4471</text>
+  <rect x="502" y="166" width="202" height="56" rx="5" class="cell"/>
+  <text x="514" y="186" class="ink cap">Mouse ergonômico</text>
+  <text x="514" y="204" class="muted tiny">Preço R$ 179 · Estoque 3 · SKU 4472</text>
+  <text x="502" y="244" class="muted cap">Legível, e some a comparação:</text>
+  <text x="502" y="260" class="muted cap">os preços não estão mais alinhados</text>
+  <text x="502" y="276" class="muted cap">numa coluna para varrer.</text>
+
+  <text x="0" y="332" class="muted cap">O cartão é a saída mais comum e a menos examinada. Tabela existe para comparar valores na vertical — ao</text>
+  <text x="0" y="350" class="muted cap">virar cartão, ela deixa de ser tabela e vira lista. Às vezes é o certo; às vezes destrói a tarefa.</text>
+
+  <text x="0" y="382" class="muted cap">E em qualquer um dos três: continua sendo <tspan class="ink h">tabela de verdade</tspan> na marcação, com cabeçalho associado às células.</text>
+</svg>

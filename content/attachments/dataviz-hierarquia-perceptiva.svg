@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 432" width="720" height="432" role="img" aria-label="A hierarquia de precisão perceptual de Cleveland e McGill, de 1984: posição numa escala comum é a mais precisa, seguida de posição em escalas não alinhadas, comprimento, ângulo e inclinação, área, volume e curvatura, e por último tonalidade e saturação de cor, com o gráfico típico de cada nível">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .mark  { fill: #2563eb; }
+    .grid  { stroke: #d1d5db; stroke-width: 1; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .k   { font-size: 11px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .mark { fill: #60a5fa; }
+      .grid { stroke: #4b5563; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">O que o olho mede bem, e o que ele chuta</text>
+  <text x="0" y="44" class="muted cap">A ordem de precisão medida por Cleveland e McGill em 1984 — a base empírica de quase toda escolha de gráfico</text>
+
+  <text x="0" y="76" class="accent k">MAIS PRECISO</text>
+  <text x="632" y="76" class="muted k">O GRÁFICO TÍPICO</text>
+
+  <rect x="0" y="86" width="720" height="42" rx="6" class="box"/>
+  <text x="16" y="105" class="accent k">1</text>
+  <text x="40" y="112" class="ink h">Posição numa escala comum</text>
+  <line x1="330" y1="122" x2="470" y2="122" class="grid"/>
+  <circle cx="356" cy="104" r="4" class="mark"/><circle cx="392" cy="112" r="4" class="mark"/>
+  <circle cx="428" cy="98" r="4" class="mark"/><circle cx="460" cy="108" r="4" class="mark"/>
+  <text x="500" y="112" class="muted cap">barras, linhas, dispersão</text>
+
+  <rect x="0" y="136" width="720" height="42" rx="6" class="box"/>
+  <text x="16" y="155" class="accent k">2</text>
+  <text x="40" y="162" class="ink h">Posição em escalas não alinhadas</text>
+  <line x1="330" y1="172" x2="392" y2="172" class="grid"/>
+  <line x1="408" y1="172" x2="470" y2="172" class="grid"/>
+  <circle cx="356" cy="156" r="4" class="mark"/><circle cx="440" cy="150" r="4" class="mark"/>
+  <text x="500" y="162" class="muted cap">pequenos múltiplos</text>
+
+  <rect x="0" y="186" width="720" height="42" rx="6" class="box"/>
+  <text x="16" y="205" class="accent k">3</text>
+  <text x="40" y="212" class="ink h">Comprimento</text>
+  <rect x="330" y="198" width="60" height="10" rx="2" class="mark"/>
+  <rect x="330" y="212" width="128" height="10" rx="2" class="mark"/>
+  <text x="500" y="212" class="muted cap">barras empilhadas</text>
+
+  <rect x="0" y="236" width="720" height="42" rx="6" class="box"/>
+  <text x="16" y="255" class="accent k">4</text>
+  <text x="40" y="262" class="ink h">Ângulo e inclinação</text>
+  <path d="M340 272 L340 244 M340 272 L372 262" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+  <text x="500" y="262" class="muted cap">gráfico de pizza</text>
+
+  <rect x="0" y="286" width="720" height="42" rx="6" class="box"/>
+  <text x="16" y="305" class="accent k">5</text>
+  <text x="40" y="312" class="ink h">Área</text>
+  <circle cx="344" cy="307" r="9" class="mark"/>
+  <circle cx="378" cy="307" r="15" class="mark"/>
+  <text x="500" y="312" class="muted cap">bolhas, treemap</text>
+
+  <rect x="0" y="336" width="720" height="42" rx="6" class="box"/>
+  <text x="16" y="355" class="accent k">6</text>
+  <text x="40" y="362" class="ink h">Volume, curvatura, cor</text>
+  <rect x="330" y="348" width="26" height="20" rx="3" fill="#dbeafe"/>
+  <rect x="362" y="348" width="26" height="20" rx="3" fill="#93c5fd"/>
+  <rect x="394" y="348" width="26" height="20" rx="3" fill="#2563eb"/>
+  <text x="500" y="362" class="muted cap">mapa de calor, coroplético</text>
+
+  <text x="0" y="404" class="muted cap">A lista não proíbe nada: diz o custo. Quanto mais baixo o nível, mais o gráfico depende de rótulo —</text>
+  <text x="0" y="422" class="muted cap">e é por isso que mapa de calor sem número e pizza sem porcentagem quase nunca funcionam.</text>
+</svg>

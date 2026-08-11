@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 416" width="720" height="416" role="img" aria-label="Catálogo de seis erros frequentes em gráficos: dois eixos verticais na mesma área, arco-íris para magnitude, cor por posição no ranking, três dimensões, rótulo em todo ponto, e valor acessível só pelo hover">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .bad   { fill: #dc2626; }
+    .ok    { fill: #10b981; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .k   { font-size: 11px; font-weight: 700; }
+    .cap { font-size: 12px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .bad { fill: #f87171; } .ok { fill: #34d399; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Seis erros que aparecem em quase todo painel</text>
+  <text x="0" y="44" class="muted cap">Cada linha: o que se faz, por que quebra, e o que fazer no lugar</text>
+
+  <rect x="0" y="66" width="720" height="50" rx="6" class="box"/>
+  <text x="16" y="86" class="bad k">✕</text>
+  <text x="36" y="86" class="ink h">Dois eixos verticais no mesmo gráfico</text>
+  <text x="36" y="104" class="muted cap">O alinhamento entre as duas escalas é arbitrário — o gráfico inventa uma correlação que não existe.</text>
+  <text x="530" y="86" class="ok k">✓ dois gráficos, ou indexe a uma base comum</text>
+
+  <rect x="0" y="124" width="720" height="50" rx="6" class="box"/>
+  <text x="16" y="144" class="bad k">✕</text>
+  <text x="36" y="144" class="ink h">Arco-íris para representar magnitude</text>
+  <text x="36" y="162" class="muted cap">Matiz não tem ordem natural: ninguém sabe se verde é mais ou menos que laranja.</text>
+  <text x="530" y="144" class="ok k">✓ uma cor só, do claro ao escuro</text>
+
+  <rect x="0" y="182" width="720" height="50" rx="6" class="box"/>
+  <text x="16" y="202" class="bad k">✕</text>
+  <text x="36" y="202" class="ink h">Cor atribuída pela posição no ranking</text>
+  <text x="36" y="220" class="muted cap">Ao filtrar uma série, as que sobram trocam de cor — e quem aprendeu “a Acme é azul” é enganado.</text>
+  <text x="530" y="202" class="ok k">✓ a cor pertence à entidade</text>
+
+  <rect x="0" y="240" width="720" height="50" rx="6" class="box"/>
+  <text x="16" y="260" class="bad k">✕</text>
+  <text x="36" y="260" class="ink h">Três dimensões, sombra, perspectiva</text>
+  <text x="36" y="278" class="muted cap">A perspectiva distorce comprimento e área — as duas coisas que o gráfico existe para comparar.</text>
+  <text x="530" y="260" class="ok k">✓ nada disso, nunca</text>
+
+  <rect x="0" y="298" width="720" height="50" rx="6" class="box"/>
+  <text x="16" y="318" class="bad k">✕</text>
+  <text x="36" y="318" class="ink h">Um número em cima de cada ponto</text>
+  <text x="36" y="336" class="muted cap">Vira ruído e ninguém lê. Rotular tudo é o mesmo que não rotular nada.</text>
+  <text x="530" y="318" class="ok k">✓ rotule o extremo e o que importa</text>
+
+  <rect x="0" y="356" width="720" height="50" rx="6" class="box"/>
+  <text x="16" y="376" class="bad k">✕</text>
+  <text x="36" y="376" class="ink h">O valor só existe no hover</text>
+  <text x="36" y="394" class="muted cap">Exclui teclado, toque e leitor de tela de uma vez só. Tooltip acrescenta; não pode ser o único caminho.</text>
+  <text x="530" y="376" class="ok k">✓ rótulo direto ou tabela</text>
+</svg>

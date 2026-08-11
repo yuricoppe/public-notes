@@ -32,7 +32,7 @@ tags:
 [[Busca/index]]
 [[Notificações/index]]
 [[Pesquisa de Satisfação do Cliente (CSAT)]]
-[[DataViz]]
+[[DataViz/index]]
 [[Pagamento/index]]
 [[Gen UI]]
 [[Dashboard]]

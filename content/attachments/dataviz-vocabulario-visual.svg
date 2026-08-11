@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="As nove relações de dados do Visual Vocabulary do Financial Times — desvio, correlação, ranking, distribuição, mudança ao longo do tempo, magnitude, parte e todo, espacial e fluxo — cada uma com a pergunta que responde e os gráficos típicos">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .cap { font-size: 12px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Nove relações, não noventa gráficos</text>
+  <text x="0" y="44" class="muted cap">A pergunta certa não é “que gráfico eu uso?” e sim “que relação entre números eu preciso mostrar?”</text>
+
+  <rect x="0" y="66" width="234" height="96" rx="8" class="box"/>
+  <text x="16" y="90" class="accent h">Desvio</text>
+  <text x="16" y="112" class="muted cap">Quanto se afasta de uma</text>
+  <text x="16" y="128" class="muted cap">referência — meta, zero, média.</text>
+  <text x="16" y="150" class="muted cap">barra divergente, cascata</text>
+
+  <rect x="243" y="66" width="234" height="96" rx="8" class="box"/>
+  <text x="259" y="90" class="accent h">Correlação</text>
+  <text x="259" y="112" class="muted cap">Se duas medidas andam</text>
+  <text x="259" y="128" class="muted cap">juntas — e quão fortemente.</text>
+  <text x="259" y="150" class="muted cap">dispersão, bolhas, mapa de calor</text>
+
+  <rect x="486" y="66" width="234" height="96" rx="8" class="box"/>
+  <text x="502" y="90" class="accent h">Ranking</text>
+  <text x="502" y="112" class="muted cap">Onde cada item fica em</text>
+  <text x="502" y="128" class="muted cap">relação aos outros.</text>
+  <text x="502" y="150" class="muted cap">barra ordenada, gráfico de declive</text>
+
+  <rect x="0" y="172" width="234" height="96" rx="8" class="box"/>
+  <text x="16" y="196" class="accent h">Distribuição</text>
+  <text x="16" y="218" class="muted cap">O formato dos dados: onde</text>
+  <text x="16" y="234" class="muted cap">se concentram, onde falham.</text>
+  <text x="16" y="256" class="muted cap">histograma, boxplot, violino</text>
+
+  <rect x="243" y="172" width="234" height="96" rx="8" class="box"/>
+  <text x="259" y="196" class="accent h">Mudança no tempo</text>
+  <text x="259" y="218" class="muted cap">Tendência — de um dia a</text>
+  <text x="259" y="234" class="muted cap">um século.</text>
+  <text x="259" y="256" class="muted cap">linha, área, vela, calendário</text>
+
+  <rect x="486" y="172" width="234" height="96" rx="8" class="box"/>
+  <text x="502" y="196" class="accent h">Magnitude</text>
+  <text x="502" y="218" class="muted cap">Comparação de tamanho —</text>
+  <text x="502" y="234" class="muted cap">contagem, não taxa.</text>
+  <text x="502" y="256" class="muted cap">barra, coluna, pictograma</text>
+
+  <rect x="0" y="278" width="234" height="96" rx="8" class="box"/>
+  <text x="16" y="302" class="accent h">Parte e todo</text>
+  <text x="16" y="324" class="muted cap">Como um inteiro se divide</text>
+  <text x="16" y="340" class="muted cap">em componentes.</text>
+  <text x="16" y="362" class="muted cap">barra empilhada, treemap, pizza</text>
+
+  <rect x="243" y="278" width="234" height="96" rx="8" class="box"/>
+  <text x="259" y="302" class="accent h">Espacial</text>
+  <text x="259" y="324" class="muted cap">Só quando o lugar importa</text>
+  <text x="259" y="340" class="muted cap">mais que qualquer outra coisa.</text>
+  <text x="259" y="362" class="muted cap">coroplético, cartograma, pontos</text>
+
+  <rect x="486" y="278" width="234" height="96" rx="8" class="box"/>
+  <text x="502" y="302" class="accent h">Fluxo</text>
+  <text x="502" y="324" class="muted cap">Volume e intensidade do</text>
+  <text x="502" y="340" class="muted cap">movimento entre estados.</text>
+  <text x="502" y="362" class="muted cap">Sankey, cordas, rede</text>
+</svg>

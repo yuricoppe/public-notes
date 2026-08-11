@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" width="720" height="430" role="img" aria-label="As seis camadas de um gráfico acessível: dado que não depende só de cor, texto que resume o achado, alternativa em tabela, navegação por teclado, descrição para leitor de tela e sobrevivência ao zoom de 400 por cento">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .accent{ fill: #2563eb; }
+    .num   { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 14px; font-weight: 700; }
+    .k   { font-size: 11px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .accent { fill: #60a5fa; } .num { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">As seis camadas de um gráfico acessível</text>
+  <text x="0" y="44" class="muted cap">Nenhuma substitui a outra. Um gráfico que só tem a primeira já exclui bastante gente.</text>
+
+  <rect x="0" y="66" width="720" height="52" rx="8" class="box"/>
+  <text x="18" y="98" class="num k">1</text>
+  <text x="44" y="92" class="ink h">O dado não depende só de cor</text>
+  <text x="44" y="110" class="muted cap">Rótulo direto, forma, padrão, espessura, posição. Cor é reforço, nunca o único canal.</text>
+
+  <rect x="0" y="126" width="720" height="52" rx="8" class="box"/>
+  <text x="18" y="158" class="num k">2</text>
+  <text x="44" y="152" class="ink h">Uma frase diz o que o gráfico mostra</text>
+  <text x="44" y="170" class="muted cap">O achado escrito acima do gráfico — não o título do eixo. Serve a todo mundo, não só a leitor de tela.</text>
+
+  <rect x="0" y="186" width="720" height="52" rx="8" class="box"/>
+  <text x="18" y="218" class="num k">3</text>
+  <text x="44" y="212" class="ink h">Existe a tabela equivalente</text>
+  <text x="44" y="230" class="muted cap">Com <tspan class="accent mono">caption</tspan> e <tspan class="accent mono">th scope</tspan>. É o gêmeo do gráfico, não um anexo — e resolve quem quer o número exato.</text>
+
+  <rect x="0" y="246" width="720" height="52" rx="8" class="box"/>
+  <text x="18" y="278" class="num k">4</text>
+  <text x="44" y="272" class="ink h">Dá para chegar e ler pelo teclado</text>
+  <text x="44" y="290" class="muted cap">O que aparece no hover aparece no foco. Ordem de tabulação previsível e sem centenas de paradas.</text>
+
+  <rect x="0" y="306" width="720" height="52" rx="8" class="box"/>
+  <text x="18" y="338" class="num k">5</text>
+  <text x="44" y="332" class="ink h">O leitor de tela recebe os valores</text>
+  <text x="44" y="350" class="muted cap"><tspan class="accent mono">role="img"</tspan> com descrição que inclua os números. “Gráfico de linhas” não é descrição.</text>
+
+  <rect x="0" y="366" width="720" height="52" rx="8" class="box"/>
+  <text x="18" y="398" class="num k">6</text>
+  <text x="44" y="392" class="ink h">Sobrevive a 400% de zoom</text>
+  <text x="44" y="410" class="muted cap">O maior inimigo aqui é cabeçalho fixo: com zoom alto ele come a tela e esconde o conteúdo.</text>
+</svg>
