@@ -25,7 +25,7 @@
   <text x="0" y="44" class="muted cap">A ordem de precisão medida por Cleveland e McGill em 1984 — a base empírica de quase toda escolha de gráfico</text>
 
   <text x="0" y="76" class="accent k">MAIS PRECISO</text>
-  <text x="632" y="76" class="muted k">O GRÁFICO TÍPICO</text>
+  <text x="500" y="76" class="muted k">ONDE APARECE</text>
 
   <rect x="0" y="86" width="720" height="42" rx="6" class="box"/>
   <text x="16" y="105" class="accent k">1</text>

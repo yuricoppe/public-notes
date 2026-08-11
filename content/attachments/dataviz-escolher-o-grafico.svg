@@ -4,7 +4,8 @@
     .ink   { fill: #1f2937; }
     .muted { fill: #6b7280; }
     .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1; }
-    .c1 { fill: #2563eb; } .c2 { fill: #0d9488; } .c3 { fill: #7c3aed; } .c4 { fill: #dc2626; }
+    .c1 { fill: #2563eb; color: #2563eb; } .c2 { fill: #0d9488; color: #0d9488; }
+    .c3 { fill: #7c3aed; color: #7c3aed; } .c4 { fill: #dc2626; color: #dc2626; }
     .s1 { stroke: #2563eb; } .s2 { stroke: #0d9488; } .s3 { stroke: #7c3aed; } .s4 { stroke: #dc2626; }
     .conn { fill: none; stroke-width: 1.6; }
     .inv { fill: #ffffff; }
@@ -17,7 +18,8 @@
       .ink { fill: #e5e7eb; }
       .muted { fill: #9ca3af; }
       .box { fill: #1f2937; stroke: #4b5563; }
-      .c1 { fill: #3b82f6; } .c2 { fill: #14b8a6; } .c3 { fill: #8b5cf6; } .c4 { fill: #ef4444; }
+      .c1 { fill: #3b82f6; color: #3b82f6; } .c2 { fill: #14b8a6; color: #14b8a6; }
+      .c3 { fill: #8b5cf6; color: #8b5cf6; } .c4 { fill: #ef4444; color: #ef4444; }
       .s1 { stroke: #3b82f6; } .s2 { stroke: #14b8a6; } .s3 { stroke: #8b5cf6; } .s4 { stroke: #ef4444; }
     }
   </style>
@@ -55,71 +57,109 @@
 
   <rect x="0" y="190" width="174" height="26" rx="4" class="box"/>
   <rect x="0" y="190" width="4" height="26" class="c1"/>
-  <text x="16" y="207" class="ink it">Dispersão</text>
+  <g class="c1" transform="translate(14,195)"><use href="#g-scatter"/></g>
+  <text x="42" y="207" class="ink it">Dispersão</text>
   <rect x="0" y="220" width="174" height="26" rx="4" class="box"/>
   <rect x="0" y="220" width="4" height="26" class="c1"/>
-  <text x="16" y="237" class="ink it">Bolhas</text>
+  <g class="c1" transform="translate(14,225)"><use href="#g-bubble"/></g>
+  <text x="42" y="237" class="ink it">Bolhas</text>
   <rect x="0" y="250" width="174" height="26" rx="4" class="box"/>
   <rect x="0" y="250" width="4" height="26" class="c1"/>
-  <text x="16" y="267" class="ink it">Diagrama de rede</text>
+  <g class="c1" transform="translate(14,255)"><use href="#g-net"/></g>
+  <text x="42" y="267" class="ink it">Diagrama de rede</text>
 
   <rect x="182" y="190" width="174" height="26" rx="4" class="box"/>
   <rect x="182" y="190" width="4" height="26" class="c2"/>
-  <text x="198" y="207" class="ink it">Colunas</text>
+  <g class="c2" transform="translate(196,195)"><use href="#g-col"/></g>
+  <text x="224" y="207" class="ink it">Colunas</text>
   <rect x="182" y="220" width="174" height="26" rx="4" class="box"/>
   <rect x="182" y="220" width="4" height="26" class="c2"/>
-  <text x="198" y="237" class="ink it">Barras</text>
+  <g class="c2" transform="translate(196,225)"><use href="#g-bar"/></g>
+  <text x="224" y="237" class="ink it">Barras</text>
   <rect x="182" y="250" width="174" height="26" rx="4" class="box"/>
   <rect x="182" y="250" width="4" height="26" class="c2"/>
-  <text x="198" y="267" class="ink it">Área circular (radar)</text>
+  <g class="c2" transform="translate(196,255)"><use href="#g-radar"/></g>
+  <text x="224" y="267" class="ink it">Área circular (radar)</text>
 
   <rect x="364" y="190" width="174" height="26" rx="4" class="box"/>
   <rect x="364" y="190" width="4" height="26" class="c3"/>
-  <text x="380" y="207" class="ink it">Pizza ou rosca</text>
+  <g class="c3" transform="translate(378,195)"><use href="#g-pie"/></g>
+  <text x="406" y="207" class="ink it">Pizza ou rosca</text>
   <rect x="364" y="220" width="174" height="26" rx="4" class="box"/>
   <rect x="364" y="220" width="4" height="26" class="c3"/>
-  <text x="380" y="237" class="ink it">Treemap</text>
+  <g class="c3" transform="translate(378,225)"><use href="#g-tree"/></g>
+  <text x="406" y="237" class="ink it">Treemap</text>
   <rect x="364" y="250" width="174" height="26" rx="4" class="box"/>
   <rect x="364" y="250" width="4" height="26" class="c3"/>
-  <text x="380" y="267" class="ink it">Mapa de calor</text>
+  <g class="c3" transform="translate(378,255)"><use href="#g-heat"/></g>
+  <text x="406" y="267" class="ink it">Mapa de calor</text>
   <rect x="364" y="280" width="174" height="26" rx="4" class="box"/>
   <rect x="364" y="280" width="4" height="26" class="c3"/>
-  <text x="380" y="297" class="ink it">Sunburst</text>
+  <g class="c3" transform="translate(378,285)"><use href="#g-sun"/></g>
+  <text x="406" y="297" class="ink it">Sunburst</text>
 
   <rect x="546" y="190" width="174" height="26" rx="4" class="box"/>
   <rect x="546" y="190" width="4" height="26" class="c4"/>
-  <text x="562" y="207" class="ink it">Dispersão</text>
+  <g class="c4" transform="translate(560,195)"><use href="#g-scatter"/></g>
+  <text x="588" y="207" class="ink it">Dispersão</text>
   <rect x="546" y="220" width="174" height="26" rx="4" class="box"/>
   <rect x="546" y="220" width="4" height="26" class="c4"/>
-  <text x="562" y="237" class="ink it">Histograma</text>
+  <g class="c4" transform="translate(560,225)"><use href="#g-hist"/></g>
+  <text x="588" y="237" class="ink it">Histograma</text>
   <rect x="546" y="250" width="174" height="26" rx="4" class="box"/>
   <rect x="546" y="250" width="4" height="26" class="c4"/>
-  <text x="562" y="267" class="ink it">Curva normal</text>
+  <g class="c4" transform="translate(560,255)"><use href="#g-bell"/></g>
+  <text x="588" y="267" class="ink it">Curva normal</text>
 
   <rect x="182" y="292" width="174" height="20" rx="4" class="c2" opacity="0.85"/>
   <text x="194" y="306" class="inv k">AO LONGO DO TEMPO</text>
   <rect x="182" y="318" width="174" height="26" rx="4" class="box"/>
   <rect x="182" y="318" width="4" height="26" class="c2"/>
-  <text x="198" y="335" class="ink it">Linha</text>
+  <g class="c2" transform="translate(196,323)"><use href="#g-line"/></g>
+  <text x="224" y="335" class="ink it">Linha</text>
   <rect x="182" y="348" width="174" height="26" rx="4" class="box"/>
   <rect x="182" y="348" width="4" height="26" class="c2"/>
-  <text x="198" y="365" class="ink it">Colunas</text>
+  <g class="c2" transform="translate(196,353)"><use href="#g-col"/></g>
+  <text x="224" y="365" class="ink it">Colunas</text>
   <rect x="182" y="378" width="174" height="26" rx="4" class="box"/>
   <rect x="182" y="378" width="4" height="26" class="c2"/>
-  <text x="198" y="395" class="ink it">Colunas sobrepostas</text>
+  <g class="c2" transform="translate(196,383)"><use href="#g-overlap"/></g>
+  <text x="224" y="395" class="ink it">Colunas sobrepostas</text>
 
   <rect x="364" y="322" width="174" height="20" rx="4" class="c3" opacity="0.85"/>
   <text x="376" y="336" class="inv k">AO LONGO DO TEMPO</text>
   <rect x="364" y="348" width="174" height="26" rx="4" class="box"/>
   <rect x="364" y="348" width="4" height="26" class="c3"/>
-  <text x="380" y="365" class="ink it">Colunas empilhadas</text>
+  <g class="c3" transform="translate(378,353)"><use href="#g-stackcol"/></g>
+  <text x="406" y="365" class="ink it">Colunas empilhadas</text>
   <rect x="364" y="378" width="174" height="26" rx="4" class="box"/>
   <rect x="364" y="378" width="4" height="26" class="c3"/>
-  <text x="380" y="395" class="ink it">Área empilhada</text>
+  <g class="c3" transform="translate(378,383)"><use href="#g-stackarea"/></g>
+  <text x="406" y="395" class="ink it">Área empilhada</text>
   <rect x="364" y="408" width="174" height="26" rx="4" class="box"/>
   <rect x="364" y="408" width="4" height="26" class="c3"/>
-  <text x="380" y="425" class="ink it">Cascata</text>
+  <g class="c3" transform="translate(378,413)"><use href="#g-water"/></g>
+  <text x="406" y="425" class="ink it">Cascata</text>
 
   <text x="0" y="462" class="muted cap">Adaptado de Taras Bakusevych, “20 ideas for better data visualization” (UX Collective, 2021). Compare com as</text>
   <text x="0" y="480" class="muted cap">nove relações do Visual Vocabulary do FT: este recorte é mais rápido de usar; o do FT é mais completo.</text>
+  <defs>
+    <g id="g-scatter"><circle cx="3" cy="10" r="1.5"/><circle cx="7" cy="6" r="1.5"/><circle cx="10" cy="9" r="1.5"/><circle cx="14" cy="4" r="1.5"/><circle cx="17" cy="7" r="1.5"/></g>
+    <g id="g-bubble"><circle cx="4" cy="9" r="2"/><circle cx="11" cy="6" r="3.4"/><circle cx="17" cy="10" r="1.6"/></g>
+    <g id="g-net"><path d="M4 4 L11 8 L17 4 M11 8 L9 12" stroke="currentColor" stroke-width="1" fill="none"/><circle cx="4" cy="4" r="1.6"/><circle cx="11" cy="8" r="1.6"/><circle cx="17" cy="4" r="1.6"/><circle cx="9" cy="12" r="1.6"/></g>
+    <g id="g-col"><rect x="2" y="7" width="3" height="6"/><rect x="7" y="3" width="3" height="10"/><rect x="12" y="9" width="3" height="4"/><rect x="17" y="5" width="3" height="8"/></g>
+    <g id="g-bar"><rect x="2" y="2" width="15" height="2.6"/><rect x="2" y="7" width="10" height="2.6"/><rect x="2" y="12" width="17" height="2.6"/></g>
+    <g id="g-radar"><path d="M10 2 L17 6 L17 12 L10 15 L3 12 L3 6 Z" stroke="currentColor" stroke-width="1" fill="none"/><path d="M10 5 L14 8 L12 12 L7 11 L6 7 Z" fill="currentColor" opacity="0.45"/></g>
+    <g id="g-line"><path d="M2 12 L6 8 L10 10 L14 4 L19 6" stroke="currentColor" stroke-width="1.4" fill="none"/></g>
+    <g id="g-overlap"><rect x="2" y="6" width="3" height="7"/><rect x="4.5" y="3" width="3" height="10" opacity="0.5"/><rect x="10" y="8" width="3" height="5"/><rect x="12.5" y="5" width="3" height="8" opacity="0.5"/></g>
+    <g id="g-pie"><circle cx="10" cy="8" r="6"/><path d="M10 8 L10 2 A6 6 0 0 1 15.2 11 Z" fill="#ffffff" opacity="0.75"/></g>
+    <g id="g-tree"><rect x="2" y="2" width="9" height="12"/><rect x="12" y="2" width="7" height="5" opacity="0.55"/><rect x="12" y="8" width="7" height="6" opacity="0.35"/></g>
+    <g id="g-heat"><rect x="2" y="3" width="5" height="5" opacity="0.3"/><rect x="8" y="3" width="5" height="5" opacity="0.7"/><rect x="14" y="3" width="5" height="5"/><rect x="2" y="9" width="5" height="5"/><rect x="8" y="9" width="5" height="5" opacity="0.45"/><rect x="14" y="9" width="5" height="5" opacity="0.25"/></g>
+    <g id="g-sun"><circle cx="10" cy="8" r="2.4"/><path d="M10 8 m-5.5 0 a5.5 5.5 0 0 1 8 -4.8" stroke="currentColor" stroke-width="2.2" fill="none" opacity="0.6"/><path d="M10 8 m5.5 0 a5.5 5.5 0 0 1 -7 5.2" stroke="currentColor" stroke-width="2.2" fill="none" opacity="0.35"/></g>
+    <g id="g-hist"><rect x="2" y="9" width="3.4" height="5"/><rect x="5.6" y="5" width="3.4" height="9"/><rect x="9.2" y="2" width="3.4" height="12"/><rect x="12.8" y="6" width="3.4" height="8"/><rect x="16.4" y="10" width="3.4" height="4"/></g>
+    <g id="g-bell"><path d="M2 14 Q6 14 8 8 Q10 2 12 8 Q14 14 18 14 Z" opacity="0.75"/></g>
+    <g id="g-stackcol"><rect x="3" y="8" width="4" height="6"/><rect x="3" y="4" width="4" height="3.4" opacity="0.5"/><rect x="9" y="6" width="4" height="8"/><rect x="9" y="2" width="4" height="3.4" opacity="0.5"/><rect x="15" y="9" width="4" height="5"/><rect x="15" y="5" width="4" height="3.4" opacity="0.5"/></g>
+    <g id="g-stackarea"><path d="M2 14 L2 10 L7 7 L12 9 L18 5 L18 14 Z" opacity="0.75"/><path d="M2 14 L2 12.5 L7 11 L12 12 L18 10 L18 14 Z"/></g>
+    <g id="g-water"><rect x="2" y="9" width="3.2" height="5"/><rect x="6.6" y="6" width="3.2" height="4"/><rect x="11.2" y="8" width="3.2" height="4"/><rect x="15.8" y="3" width="3.2" height="11"/></g>
+  </defs>
 </svg>
