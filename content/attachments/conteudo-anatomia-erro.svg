@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 424" width="720" height="424" role="img" aria-label="Anatomia de uma mensagem de erro anotada: fica ao lado do campo que falhou, nomeia o problema em vez de dizer erro genérico, diz o que fazer, preserva o que a pessoa já digitou e evita palavras que culpam, como inválido ou incorreto">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .card  { fill: #ffffff; stroke: #9ca3af; stroke-width: 1.3; }
+    .field { fill: #ffffff; stroke: #dc2626; stroke-width: 1.6; }
+    .err   { fill: #dc2626; }
+    .ok    { fill: #10b981; }
+    .accent{ fill: #2563eb; }
+    .line  { stroke: #9ca3af; stroke-width: 1.1; stroke-dasharray: 3 3; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .k   { font-size: 11px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .card { fill: #111827; stroke: #6b7280; }
+      .field { fill: #111827; stroke: #f87171; }
+      .err { fill: #f87171; } .ok { fill: #34d399; }
+      .accent { fill: #60a5fa; }
+      .line { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Anatomia de uma mensagem de erro</text>
+  <text x="0" y="44" class="muted cap">Cinco decisões, e as cinco costumam ser tomadas por omissão</text>
+
+  <rect x="0" y="66" width="340" height="150" rx="8" class="card"/>
+  <text x="20" y="94" class="muted cap">CPF</text>
+  <rect x="20" y="104" width="300" height="34" rx="5" class="field"/>
+  <text x="32" y="126" class="ink cap">123.456.789-0</text>
+  <circle cx="27" cy="158" r="5" class="err"/>
+  <text x="40" y="162" class="err cap">Faltou um dígito no CPF — são 11 no total.</text>
+  <text x="40" y="182" class="muted cap">Confira e complete o número.</text>
+
+  <line x1="322" y1="121" x2="372" y2="121" class="line"/>
+  <text x="380" y="106" class="ink k">1 · PERTO</text>
+  <text x="380" y="126" class="muted cap">Ao lado do que falhou, não no topo da página.</text>
+
+  <line x1="322" y1="158" x2="372" y2="158" class="line"/>
+  <text x="380" y="152" class="ink k">2 · NOMEIA O PROBLEMA</text>
+  <text x="380" y="172" class="muted cap">“Ocorreu um erro” não é diagnóstico.</text>
+
+  <line x1="322" y1="182" x2="372" y2="182" class="line"/>
+  <text x="380" y="200" class="ink k">3 · DIZ O QUE FAZER</text>
+  <text x="380" y="220" class="muted cap">A saída, não só o obstáculo.</text>
+
+  <text x="0" y="252" class="ink k">4 · PRESERVA O QUE FOI DIGITADO</text>
+  <text x="0" y="272" class="muted cap">Limpar o campo obriga a pessoa a refazer o que ela já tinha feito quase certo. É o pior momento possível</text>
+  <text x="0" y="290" class="muted cap">para cobrar trabalho extra.</text>
+
+  <text x="0" y="322" class="ink k">5 · NÃO CULPA</text>
+  <text x="0" y="342" class="muted cap">Evite <tspan class="err">inválido</tspan>, <tspan class="err">incorreto</tspan>, <tspan class="err">proibido</tspan>. Descrevem a pessoa, não o problema — e não ajudam a resolver.</text>
+
+  <rect x="0" y="360" width="720" height="56" rx="6" class="box"/>
+  <text x="16" y="382" class="muted cap">E antes de tudo isso: o erro que não acontece vale mais que o erro bem escrito. Aceitar o dado em vários</text>
+  <text x="16" y="402" class="muted cap">formatos e mostrar a regra antes da digitação resolve mais casos do que qualquer frase depois da falha.</text>
+</svg>

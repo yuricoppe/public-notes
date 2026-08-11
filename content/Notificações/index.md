@@ -126,6 +126,6 @@ Todas verificadas em 11 ago 2026.
 
 ## Relacionados
 
-[[Glossário/Componentes/messaging|Messaging (Glossário)]] · [[Glossário/Componentes/toast|Toast]] · [[Acessibilidade/index|Acessibilidade]] · [[Conteúdo]]
+[[Glossário/Componentes/messaging|Messaging (Glossário)]] · [[Glossário/Componentes/toast|Toast]] · [[Acessibilidade/index|Acessibilidade]] · [[Conteúdo/index|Conteúdo]]
 
 ---

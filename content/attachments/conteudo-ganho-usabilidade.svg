@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img" aria-label="Gráfico de barras do experimento de Morkes e Nielsen de 1997: texto conciso melhorou a usabilidade em 58 por cento, diagramação varrível em 47, linguagem objetiva em 27, e as três combinadas em 124 por cento, sempre com o mesmo conteúdo de base">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .b  { fill: #9ca3af; }
+    .bw { fill: #2563eb; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 14px; font-weight: 700; }
+    .n   { font-size: 15px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .b { fill: #6b7280; }
+      .bw { fill: #60a5fa; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">O mesmo conteúdo, cinco versões, até 124% de ganho</text>
+  <text x="0" y="44" class="muted cap">Experimento de Morkes e Nielsen, 1997. A informação era idêntica; só a forma mudava.</text>
+
+  <text x="0" y="88" class="ink h">Conciso</text>
+  <text x="0" y="106" class="muted cap">metade das palavras</text>
+  <rect x="200" y="76" width="232" height="24" rx="4" class="b"/>
+  <text x="442" y="94" class="muted n">+58%</text>
+
+  <text x="0" y="148" class="ink h">Varrível</text>
+  <text x="0" y="166" class="muted cap">listas, subtítulos, palavras-chave em destaque</text>
+  <rect x="200" y="136" width="188" height="24" rx="4" class="b"/>
+  <text x="398" y="154" class="muted n">+47%</text>
+
+  <text x="0" y="208" class="ink h">Objetivo</text>
+  <text x="0" y="226" class="muted cap">sem linguagem promocional</text>
+  <rect x="200" y="196" width="108" height="24" rx="4" class="b"/>
+  <text x="318" y="214" class="muted n">+27%</text>
+
+  <text x="0" y="268" class="ink h">Os três juntos</text>
+  <rect x="200" y="256" width="496" height="24" rx="4" class="bw"/>
+  <text x="640" y="273" class="n" fill="#ffffff">+124%</text>
+
+  <text x="0" y="316" class="muted cap">O terceiro item é o menos óbvio: as pessoas detestaram a linguagem promocional. Adjetivo de vendedor</text>
+  <text x="0" y="334" class="muted cap">obriga quem lê a filtrar exagero para achar o fato — trabalho cognitivo pago por quem não pediu.</text>
+</svg>

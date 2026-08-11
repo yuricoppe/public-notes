@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-label="O modelo core: caminhos de entrada levam a uma página núcleo, que cruza a tarefa do usuário com o objetivo do negócio e leva a caminhos de saída, com a observação de que a página núcleo é o objeto de trabalho e não a página inicial">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.3; }
+    .core  { fill: #eef2ff; stroke: #2563eb; stroke-width: 1.8; }
+    .accent{ fill: #2563eb; }
+    .line  { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 14px; font-weight: 700; }
+    .k   { font-size: 11px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .core { fill: #1e293b; stroke: #60a5fa; }
+      .accent { fill: #60a5fa; }
+      .line { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">O modelo core</text>
+  <text x="0" y="44" class="muted cap">Começa pela resposta, não pela estrutura do site. Uma página por vez, em dupla de disciplinas diferentes.</text>
+
+  <rect x="0" y="80" width="176" height="150" rx="8" class="box"/>
+  <text x="16" y="104" class="accent k">CAMINHOS DE ENTRADA</text>
+  <text x="16" y="130" class="muted cap">Como a pessoa chega:</text>
+  <text x="16" y="152" class="muted cap">busca, link externo,</text>
+  <text x="16" y="174" class="muted cap">campanha, menu.</text>
+  <text x="16" y="200" class="muted cap">Com que palavras ela</text>
+  <text x="16" y="218" class="muted cap">descreve o problema.</text>
+
+  <path d="M176 155 H 226" class="line" marker-end="url(#e)"/>
+
+  <rect x="226" y="80" width="268" height="150" rx="8" class="core"/>
+  <text x="246" y="104" class="accent k">PÁGINA NÚCLEO</text>
+  <text x="246" y="132" class="ink h">O cruzamento de:</text>
+  <text x="246" y="158" class="muted cap">a tarefa que a pessoa veio fazer</text>
+  <text x="246" y="180" class="muted cap">o objetivo do negócio</text>
+  <text x="246" y="208" class="muted cap">É isto que se projeta — o conteúdo,</text>
+  <text x="246" y="226" class="muted cap">a função, o tom e o formato.</text>
+
+  <path d="M494 155 H 544" class="line" marker-end="url(#e)"/>
+
+  <rect x="544" y="80" width="176" height="150" rx="8" class="box"/>
+  <text x="560" y="104" class="accent k">CAMINHOS DE SAÍDA</text>
+  <text x="560" y="130" class="muted cap">Para onde ela deve ir</text>
+  <text x="560" y="152" class="muted cap">depois: agir, aprofundar,</text>
+  <text x="560" y="174" class="muted cap">falar com alguém.</text>
+  <text x="560" y="200" class="muted cap">É aqui que o objetivo do</text>
+  <text x="560" y="218" class="muted cap">negócio se realiza.</text>
+
+  <rect x="0" y="256" width="720" height="46" rx="6" class="box"/>
+  <text x="16" y="278" class="ink h">O que isso desloca</text>
+  <text x="16" y="296" class="muted cap">Quase ninguém entra pela home. Projetar a partir dela é projetar para a minoria dos acessos.</text>
+
+  <text x="0" y="342" class="muted cap">O formato de oficina que Are Halland descreve usa duplas de competências diferentes — uma pessoa de</text>
+  <text x="0" y="360" class="muted cap">conteúdo com uma de negócio, por exemplo — o que já embute revisão cruzada no próprio exercício.</text>
+
+  <defs>
+    <marker id="e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#9ca3af"/>
+    </marker>
+  </defs>
+</svg>

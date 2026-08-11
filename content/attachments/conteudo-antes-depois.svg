@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="Exemplo de reescrita em linguagem simples: um aviso burocrático de 41 palavras em voz passiva vira duas frases diretas de 22 palavras, com as cinco transformações aplicadas listadas ao lado">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .card  { fill: #ffffff; stroke: #9ca3af; stroke-width: 1.3; }
+    .bad   { fill: #dc2626; }
+    .ok    { fill: #10b981; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 14px; font-weight: 700; }
+    .k   { font-size: 11px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    .body{ font-size: 13px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .card { fill: #111827; stroke: #6b7280; }
+      .bad { fill: #f87171; } .ok { fill: #34d399; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">A mesma informação, 46% menos palavras</text>
+  <text x="0" y="44" class="muted cap">Nada foi omitido. O que saiu era estrutura burocrática, não conteúdo.</text>
+
+  <rect x="0" y="66" width="720" height="112" rx="8" class="card"/>
+  <rect x="0" y="66" width="5" height="112" class="bad"/>
+  <text x="20" y="92" class="bad k">ANTES · 41 PALAVRAS</text>
+  <text x="20" y="118" class="muted body">“Informamos que, em decorrência da não efetivação do pagamento na data de</text>
+  <text x="20" y="140" class="muted body">vencimento, poderá ser procedida a suspensão do acesso à plataforma, sendo</text>
+  <text x="20" y="162" class="muted body">necessária a regularização no prazo de até 5 (cinco) dias úteis.”</text>
+
+  <rect x="0" y="192" width="720" height="90" rx="8" class="card"/>
+  <rect x="0" y="192" width="5" height="90" class="ok"/>
+  <text x="20" y="218" class="ok k">DEPOIS · 22 PALAVRAS</text>
+  <text x="20" y="244" class="ink body">“Sua fatura venceu. Pague até 5 dias úteis para não perder o acesso.”</text>
+  <text x="20" y="268" class="muted cap">— e, ao lado, um botão que diz “Pagar fatura”.</text>
+
+  <text x="0" y="316" class="ink h">O que mudou</text>
+
+  <text x="0" y="342" class="accent k">1</text>
+  <text x="20" y="342" class="muted cap">A conclusão foi para a frente. Antes ela estava na terceira linha.</text>
+
+  <text x="0" y="364" class="accent k">2</text>
+  <text x="20" y="364" class="muted cap">Voz ativa com sujeito: quem paga é você, e quem perde o acesso também.</text>
+
+  <text x="0" y="386" class="accent k">3</text>
+  <text x="20" y="386" class="muted cap">“Informamos que”, “em decorrência de”, “sendo necessária” — moldura sem informação.</text>
+
+  <text x="0" y="408" class="accent k">4</text>
+  <text x="20" y="408" class="muted cap">“5 (cinco)” é convenção de contrato em papel, criada contra fraude. Na tela não protege nada.</text>
+</svg>

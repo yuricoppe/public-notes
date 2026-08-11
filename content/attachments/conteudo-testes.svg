@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Tabela que liga a pergunta a ser respondida ao método de teste de conteúdo adequado: compreensão pelo teste cloze, clareza pelo teste do marca-texto, reconhecimento de ação pelo teste da banana, vocabulário por card sorting e teste de árvore, e primeira impressão pelo teste de cinco segundos">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .hdr   { fill: #eef2ff; stroke: #2563eb; stroke-width: 1.3; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .k   { font-size: 11px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .hdr { fill: #1e293b; stroke: #60a5fa; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Que teste responde a qual pergunta</text>
+  <text x="0" y="44" class="muted cap">Todos são baratos e nenhum precisa de ferramenta. Papel e marca-texto bastam para a metade deles.</text>
+
+  <rect x="0" y="66" width="720" height="32" rx="6" class="hdr"/>
+  <text x="16" y="87" class="accent k">A PERGUNTA</text>
+  <text x="300" y="87" class="accent k">O MÉTODO</text>
+  <text x="500" y="87" class="accent k">COMO FUNCIONA</text>
+
+  <rect x="0" y="106" width="720" height="52" rx="6" class="box"/>
+  <text x="16" y="128" class="ink h">Elas entendem?</text>
+  <text x="16" y="147" class="muted cap">compreensão frase a frase</text>
+  <text x="300" y="128" class="ink h">Teste cloze</text>
+  <text x="300" y="147" class="muted cap">meta: 60% de acerto</text>
+  <text x="500" y="128" class="muted cap">Apague uma palavra a cada cinco</text>
+  <text x="500" y="147" class="muted cap">e peça para preencherem.</text>
+
+  <rect x="0" y="166" width="720" height="52" rx="6" class="box"/>
+  <text x="16" y="188" class="ink h">O que confunde?</text>
+  <text x="16" y="207" class="muted cap">onde exatamente trava</text>
+  <text x="300" y="188" class="ink h">Marca-texto</text>
+  <text x="300" y="207" class="muted cap">duas cores</text>
+  <text x="500" y="188" class="muted cap">Verde no que ajuda, rosa no que</text>
+  <text x="500" y="207" class="muted cap">confunde. Some tudo num mapa.</text>
+
+  <rect x="0" y="226" width="720" height="52" rx="6" class="box"/>
+  <text x="16" y="248" class="ink h">O rótulo se explica?</text>
+  <text x="16" y="267" class="muted cap">ação e ícone</text>
+  <text x="300" y="248" class="ink h">Teste da banana</text>
+  <text x="500" y="248" class="muted cap">Troque os rótulos por “banana” e</text>
+  <text x="500" y="267" class="muted cap">pergunte o que cada botão faria.</text>
+
+  <rect x="0" y="286" width="720" height="52" rx="6" class="box"/>
+  <text x="16" y="308" class="ink h">Qual palavra usar?</text>
+  <text x="16" y="327" class="muted cap">vocabulário e agrupamento</text>
+  <text x="300" y="308" class="ink h">Card sorting</text>
+  <text x="300" y="327" class="muted cap">e teste de árvore</text>
+  <text x="500" y="308" class="muted cap">Elas agrupam e nomeiam; depois</text>
+  <text x="500" y="327" class="muted cap">tentam achar algo na estrutura.</text>
+
+  <text x="0" y="374" class="muted cap">Um alerta que vale para todos: não pergunte de qual versão a pessoa gosta mais. Preferência declarada não</text>
+  <text x="0" y="392" class="muted cap">prevê compreensão — peça para ela explicar com as próprias palavras o que acabou de ler.</text>
+</svg>

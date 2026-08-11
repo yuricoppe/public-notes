@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="O quadrante de estratégia de conteúdo da Brain Traffic: metade de cima é content design, com estratégia editorial e design de experiência; metade de baixo é design de sistemas, com estrutura de conteúdo e desenho de processo; no centro fica a estratégia que orienta criação, entrega e governança">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .core  { fill: #eef2ff; stroke: #2563eb; stroke-width: 1.8; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 14px; font-weight: 700; }
+    .k   { font-size: 11px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .core { fill: #1e293b; stroke: #60a5fa; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Os quatro lados do trabalho de conteúdo</text>
+  <text x="0" y="44" class="muted cap">O quadrante da Brain Traffic. A metade de baixo sustenta a de cima — e é a que costuma faltar.</text>
+
+  <text x="0" y="78" class="accent k">CONTENT DESIGN</text>
+
+  <rect x="0" y="88" width="348" height="112" rx="8" class="box"/>
+  <text x="18" y="114" class="ink h">Estratégia editorial</text>
+  <text x="18" y="140" class="muted cap">Missão editorial e públicos.</text>
+  <text x="18" y="160" class="muted cap">Ponto de vista, voz e tom.</text>
+  <text x="18" y="180" class="muted cap">Padrões de marca e de linguagem.</text>
+
+  <rect x="372" y="88" width="348" height="112" rx="8" class="box"/>
+  <text x="390" y="114" class="ink h">Design de experiência</text>
+  <text x="390" y="140" class="muted cap">Necessidades e preferências.</text>
+  <text x="390" y="160" class="muted cap">Ecossistema e jornada.</text>
+  <text x="390" y="180" class="muted cap">Formatos e padrões de interface.</text>
+
+  <text x="0" y="228" class="accent k">DESIGN DE SISTEMAS</text>
+
+  <rect x="0" y="238" width="348" height="112" rx="8" class="box"/>
+  <text x="18" y="264" class="ink h">Estrutura de conteúdo</text>
+  <text x="18" y="290" class="muted cap">Organização e etiquetagem.</text>
+  <text x="18" y="310" class="muted cap">Modelo de conteúdo e metadados.</text>
+  <text x="18" y="330" class="muted cap">Reúso e personalização.</text>
+
+  <rect x="372" y="238" width="348" height="112" rx="8" class="box"/>
+  <text x="390" y="264" class="ink h">Desenho de processo</text>
+  <text x="390" y="290" class="muted cap">Ciclo de vida e ferramentas.</text>
+  <text x="390" y="310" class="muted cap">Papéis e quem pode dizer não.</text>
+  <text x="390" y="330" class="muted cap">Padrões de qualidade e manutenção.</text>
+
+  <rect x="240" y="196" width="240" height="46" rx="23" class="core"/>
+  <text x="266" y="224" class="accent h">orientar criação, entrega e governança</text>
+
+  <text x="0" y="386" class="muted cap">Times que só ocupam a metade de cima produzem conteúdo bom que envelhece sozinho e não se reaproveita.</text>
+</svg>

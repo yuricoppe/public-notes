@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" role="img" aria-label="Cinco padrões de varredura de página: F, bolo de camadas, manchado, desvio e leitura exaustiva, cada um representado por um esquema de página com as áreas lidas destacadas">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .pg    { fill: #ffffff; stroke: #9ca3af; stroke-width: 1.1; }
+    .txt   { fill: #d1d5db; }
+    .hot   { fill: #2563eb; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .cap { font-size: 12px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .pg { fill: #111827; stroke: #6b7280; }
+      .txt { fill: #374151; }
+      .hot { fill: #60a5fa; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Cinco formas de varrer uma página</text>
+  <text x="0" y="44" class="muted cap">Em azul, o que é lido. Nenhuma delas é ler do começo ao fim.</text>
+
+  <rect x="0" y="66" width="132" height="180" rx="8" class="box"/>
+  <rect x="16" y="82" width="100" height="120" rx="3" class="pg"/>
+  <g class="txt">
+    <rect x="24" y="92" width="84" height="5"/><rect x="24" y="102" width="84" height="5"/><rect x="24" y="112" width="60" height="5"/>
+    <rect x="24" y="126" width="84" height="5"/><rect x="24" y="136" width="70" height="5"/><rect x="24" y="146" width="84" height="5"/>
+    <rect x="24" y="160" width="84" height="5"/><rect x="24" y="170" width="76" height="5"/><rect x="24" y="180" width="84" height="5"/>
+  </g>
+  <g class="hot">
+    <rect x="24" y="92" width="84" height="5"/><rect x="24" y="102" width="84" height="5"/>
+    <rect x="24" y="126" width="60" height="5"/>
+    <rect x="24" y="136" width="10" height="5"/><rect x="24" y="146" width="10" height="5"/>
+    <rect x="24" y="160" width="10" height="5"/><rect x="24" y="170" width="10" height="5"/><rect x="24" y="180" width="10" height="5"/>
+  </g>
+  <text x="16" y="224" class="ink h">F</text>
+  <text x="16" y="240" class="muted cap">desce pela esquerda</text>
+
+  <rect x="147" y="66" width="132" height="180" rx="8" class="box"/>
+  <rect x="163" y="82" width="100" height="120" rx="3" class="pg"/>
+  <g class="txt">
+    <rect x="171" y="92" width="70" height="6"/><rect x="171" y="106" width="84" height="4"/><rect x="171" y="114" width="84" height="4"/>
+    <rect x="171" y="128" width="62" height="6"/><rect x="171" y="142" width="84" height="4"/><rect x="171" y="150" width="76" height="4"/>
+    <rect x="171" y="164" width="70" height="6"/><rect x="171" y="178" width="84" height="4"/><rect x="171" y="186" width="60" height="4"/>
+  </g>
+  <g class="hot">
+    <rect x="171" y="92" width="70" height="6"/><rect x="171" y="128" width="62" height="6"/><rect x="171" y="164" width="70" height="6"/>
+  </g>
+  <text x="163" y="224" class="ink h">Bolo de camadas</text>
+  <text x="163" y="240" class="muted cap">só os títulos</text>
+
+  <rect x="294" y="66" width="132" height="180" rx="8" class="box"/>
+  <rect x="310" y="82" width="100" height="120" rx="3" class="pg"/>
+  <g class="txt">
+    <rect x="318" y="92" width="84" height="5"/><rect x="318" y="102" width="84" height="5"/><rect x="318" y="112" width="70" height="5"/>
+    <rect x="318" y="126" width="84" height="5"/><rect x="318" y="136" width="84" height="5"/><rect x="318" y="146" width="60" height="5"/>
+    <rect x="318" y="160" width="84" height="5"/><rect x="318" y="170" width="76" height="5"/><rect x="318" y="180" width="84" height="5"/>
+  </g>
+  <g class="hot">
+    <rect x="340" y="102" width="22" height="5"/><rect x="318" y="136" width="18" height="5"/>
+    <rect x="366" y="160" width="26" height="5"/><rect x="330" y="180" width="20" height="5"/>
+  </g>
+  <text x="310" y="224" class="ink h">Manchado</text>
+  <text x="310" y="240" class="muted cap">caça uma palavra</text>
+
+  <rect x="441" y="66" width="132" height="180" rx="8" class="box"/>
+  <rect x="457" y="82" width="100" height="120" rx="3" class="pg"/>
+  <g class="txt">
+    <rect x="465" y="92" width="84" height="5"/><rect x="465" y="102" width="84" height="5"/><rect x="465" y="112" width="70" height="5"/>
+    <rect x="465" y="126" width="84" height="5"/><rect x="465" y="136" width="84" height="5"/><rect x="465" y="146" width="60" height="5"/>
+    <rect x="465" y="160" width="84" height="5"/><rect x="465" y="170" width="76" height="5"/><rect x="465" y="180" width="84" height="5"/>
+  </g>
+  <g class="hot">
+    <rect x="465" y="126" width="84" height="5"/><rect x="465" y="136" width="84" height="5"/><rect x="465" y="146" width="60" height="5"/>
+  </g>
+  <text x="457" y="224" class="ink h">Desvio</text>
+  <text x="457" y="240" class="muted cap">pula o que se repete</text>
+
+  <rect x="588" y="66" width="132" height="180" rx="8" class="box"/>
+  <rect x="604" y="82" width="100" height="120" rx="3" class="pg"/>
+  <g class="hot">
+    <rect x="612" y="92" width="84" height="5"/><rect x="612" y="102" width="84" height="5"/><rect x="612" y="112" width="70" height="5"/>
+    <rect x="612" y="126" width="84" height="5"/><rect x="612" y="136" width="84" height="5"/><rect x="612" y="146" width="60" height="5"/>
+    <rect x="612" y="160" width="84" height="5"/><rect x="612" y="170" width="76" height="5"/><rect x="612" y="180" width="84" height="5"/>
+  </g>
+  <text x="604" y="224" class="ink h">Exaustivo</text>
+  <text x="604" y="240" class="muted cap">releu: não achou</text>
+
+  <text x="0" y="288" class="muted cap">O último padrão é o único em que a página inteira é lida — e ele é sintoma de fracasso, não de engajamento.</text>
+  <text x="0" y="306" class="muted cap">Alguém relendo tudo é alguém que não achou o que procurava da primeira vez.</text>
+  <text x="0" y="336" class="muted cap">O padrão “bolo de camadas” é o argumento mais forte a favor de subtítulos honestos: para muita gente,</text>
+  <text x="0" y="354" class="muted cap">os subtítulos são a página inteira.</text>
+</svg>

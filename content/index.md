@@ -12,7 +12,7 @@ tags:
 [[UX Design/index]]
 [[UI Design]]
 [[Design Ops/index]]
-[[Conteúdo]]
+[[Conteúdo/index]]
 
 ---
 

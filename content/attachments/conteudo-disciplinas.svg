@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-label="Comparação entre quatro disciplinas de conteúdo — estratégia de conteúdo, content design, UX writing e copywriting — pela pergunta que cada uma responde, o horizonte de tempo e o que entrega">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.4; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 14.5px; font-weight: 700; }
+    .k   { font-size: 11px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Quatro coisas que chamam de “conteúdo”</text>
+  <text x="0" y="44" class="muted cap">Não são sinônimos e não são degraus de senioridade. São perguntas diferentes.</text>
+
+  <rect x="0" y="66" width="174" height="252" rx="8" class="box"/>
+  <text x="16" y="92" class="accent k">HORIZONTE: ANOS</text>
+  <text x="16" y="118" class="ink h">Estratégia</text>
+  <text x="16" y="136" class="ink h">de conteúdo</text>
+  <text x="16" y="164" class="muted cap">“Que conteúdo deve</text>
+  <text x="16" y="182" class="muted cap">existir, quem faz, como</text>
+  <text x="16" y="200" class="muted cap">se mantém e quem</text>
+  <text x="16" y="218" class="muted cap">decide?”</text>
+  <text x="16" y="252" class="muted cap">Entrega: inventário,</text>
+  <text x="16" y="270" class="muted cap">auditoria, modelo de</text>
+  <text x="16" y="288" class="muted cap">governança, fluxo.</text>
+
+  <rect x="182" y="66" width="174" height="252" rx="8" class="box"/>
+  <text x="198" y="92" class="accent k">HORIZONTE: O PROJETO</text>
+  <text x="198" y="118" class="ink h">Content design</text>
+  <text x="198" y="164" class="muted cap">“De que forma esta</text>
+  <text x="198" y="182" class="muted cap">informação atende</text>
+  <text x="198" y="200" class="muted cap">melhor a necessidade —</text>
+  <text x="198" y="218" class="muted cap">texto, tabela, vídeo?”</text>
+  <text x="198" y="252" class="muted cap">Entrega: a decisão de</text>
+  <text x="198" y="270" class="muted cap">formato e estrutura,</text>
+  <text x="198" y="288" class="muted cap">baseada em evidência.</text>
+
+  <rect x="364" y="66" width="174" height="252" rx="8" class="box"/>
+  <text x="380" y="92" class="accent k">HORIZONTE: A TELA</text>
+  <text x="380" y="118" class="ink h">UX writing</text>
+  <text x="380" y="164" class="muted cap">“Que palavras fazem</text>
+  <text x="380" y="182" class="muted cap">esta pessoa entender e</text>
+  <text x="380" y="200" class="muted cap">conseguir seguir?”</text>
+  <text x="380" y="252" class="muted cap">Entrega: rótulos, erros,</text>
+  <text x="380" y="270" class="muted cap">estados vazios, ajuda</text>
+  <text x="380" y="288" class="muted cap">contextual.</text>
+
+  <rect x="546" y="66" width="174" height="252" rx="8" class="box"/>
+  <text x="562" y="92" class="accent k">HORIZONTE: A PEÇA</text>
+  <text x="562" y="118" class="ink h">Copywriting</text>
+  <text x="562" y="164" class="muted cap">“Que palavras</text>
+  <text x="562" y="182" class="muted cap">convencem esta pessoa</text>
+  <text x="562" y="200" class="muted cap">a agir?”</text>
+  <text x="562" y="252" class="muted cap">Entrega: persuasão.</text>
+  <text x="562" y="270" class="muted cap">Ofício legítimo, com</text>
+  <text x="562" y="288" class="muted cap">outro objetivo.</text>
+
+  <text x="0" y="352" class="muted cap">A confusão mais cara é tratar content design como copywriting com outro nome. Um decide o que a pessoa</text>
+  <text x="0" y="370" class="muted cap">precisa e em que forma; o outro escreve bem o que já foi decidido. Trocá-los faz o trabalho começar tarde.</text>
+</svg>
