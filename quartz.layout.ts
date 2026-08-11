@@ -1,41 +1,45 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// components shared across all pages
+// Barra do topo: marca · migalhas · busca, tema e leitura à direita.
+// Vive no slot `chrome`, irmão da grade — ver openspec/changes/adopt-docs-style-layout.
+const topBar = Component.TopBar({
+  trail: [Component.Breadcrumbs(), Component.SidebarToggle()],
+  actions: [
+    Component.Search(),
+    Component.Darkmode(),
+    Component.DesktopOnly(Component.ReaderMode()),
+  ],
+})
+
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  // Barras fixas do topo. Vivem no slot `chrome`, irmão da grade — ver
-  // openspec/changes/adopt-docs-style-layout.
-  chrome: [
-    Component.TopBar({
-      actions: [
-        Component.Search(),
-        Component.Darkmode(),
-        Component.DesktopOnly(Component.ReaderMode()),
-      ],
-    }),
-    Component.ContextBar({ trail: [Component.Breadcrumbs()] }),
-    Component.DrawerScrim(),
-  ],
+  chrome: [topBar, Component.DrawerScrim()],
   header: [],
   afterBody: [],
   footer: Component.Footer(),
 }
 
-// components for pages that display a single page (e.g. a single note)
+// A home é a única página sem colunas laterais. Em vez de escondê-las por CSS,
+// não são renderizadas — assim os scripts do explorador e do grafo nem rodam.
+const notHome = (props: { fileData: { slug?: string } }) => props.fileData.slug !== "index"
+const onlyOutsideHome = (component: Parameters<typeof Component.ConditionalRender>[0]["component"]) =>
+  Component.ConditionalRender({ component, condition: notHome })
+
+// páginas de conteúdo (uma nota)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.ContentMeta(), Component.TagList()],
-  left: [Component.Explorer()],
+  left: [onlyOutsideHome(Component.SidebarToggle()), onlyOutsideHome(Component.Explorer())],
   right: [
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Graph(),
-    Component.Backlinks(),
+    onlyOutsideHome(Component.DesktopOnly(Component.TableOfContents())),
+    onlyOutsideHome(Component.Graph()),
+    onlyOutsideHome(Component.Backlinks()),
   ],
 }
 
-// components for pages that display lists of pages  (e.g. tags or folders)
+// páginas de listagem (pastas e tags)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.ContentMeta()],
-  left: [Component.Explorer()],
+  left: [Component.SidebarToggle(), Component.Explorer()],
   right: [],
 }

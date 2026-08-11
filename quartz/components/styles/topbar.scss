@@ -1,15 +1,15 @@
 @use "../../styles/variables.scss" as *;
 
 .topbar {
-  position: fixed;
-  inset: 0 0 auto 0;
+  position: sticky;
+  top: 0;
   z-index: 100;
   height: var(--topbar-height);
   box-sizing: border-box;
   display: flex;
   align-items: center;
   gap: 1rem;
-  padding: 0 1rem;
+  padding: 0 1.25rem;
   background: var(--light);
   border-bottom: 1px solid var(--lightgray);
 
@@ -42,12 +42,27 @@
     &:hover {
       color: var(--secondary);
     }
+  }
+
+  // Migalhas logo depois da marca, separadas por um filete.
+  & .topbar-trail {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    padding-left: 1rem;
+    border-left: 1px solid var(--lightgray);
+
+    & > .breadcrumb-container {
+      margin: 0;
+      padding: 0;
+      flex-wrap: nowrap;
+      white-space: nowrap;
+      overflow: hidden;
+      font-size: 0.85rem;
+    }
 
     @media all and ($mobile) {
-      font-size: 0.95rem;
-      max-width: 40vw;
-      overflow: hidden;
-      text-overflow: ellipsis;
+      display: none;
     }
   }
 
@@ -55,16 +70,11 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    flex: 1;
-    min-width: 0;
-    justify-content: flex-end;
+    flex-shrink: 0;
 
-    // A busca ocupa o espaço central que sobra, como na referência.
     & > .search {
-      flex: 1;
-      min-width: 0;
-      max-width: 34rem;
-      margin-right: auto;
+      width: 16rem;
+      max-width: 30vw;
     }
 
     & > .darkmode,
@@ -72,10 +82,20 @@
       flex-shrink: 0;
       margin: 0;
     }
+
+    @media all and ($mobile) {
+      flex: 1;
+      justify-content: flex-end;
+
+      & > .search {
+        width: auto;
+        flex: 1;
+      }
+    }
   }
 }
 
-// A busca dentro da barra vira campo, não só ícone.
+// A busca na barra vira campo, não só ícone.
 .topbar .search > .search-button {
   width: 100%;
   justify-content: flex-start;

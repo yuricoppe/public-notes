@@ -20,11 +20,10 @@
 
 :root {
   --topbar-height: 3.5rem;
-  --contextbar-height: 2.75rem;
-  --chrome-height: calc(var(--topbar-height) + var(--contextbar-height));
   --nav-width: 19rem;
   --aside-width: 17rem;
   --reading-width: 75ch;
+  --home-width: 76rem;
 }
 
 /* ---------------------------------------------------------------- *
@@ -32,11 +31,9 @@
  * ---------------------------------------------------------------- */
 
 #quartz-root.page {
-  padding-top: var(--chrome-height);
-
   // O upstream limita a página a 1500px e centraliza. Num layout de
-  // documentação as colunas laterais devem encostar nas bordas, como na
-  // referência — quem limita a leitura é o teto de linha do centro.
+  // documentação as colunas laterais devem encostar nas bordas — quem limita a
+  // leitura é o teto de linha do centro.
   max-width: none;
 }
 
@@ -58,8 +55,8 @@
 
   // As laterais grudam abaixo das barras, não no topo da janela.
   & .sidebar {
-    top: var(--chrome-height);
-    height: calc(100vh - var(--chrome-height));
+    top: var(--topbar-height);
+    height: calc(100vh - var(--topbar-height));
     padding-top: 1.5rem;
     overflow-y: auto;
     overscroll-behavior: contain;
@@ -121,7 +118,7 @@
 @media all and not ($desktop) {
   .page > #quartz-body > .sidebar.left {
     position: fixed;
-    top: var(--chrome-height);
+    top: var(--topbar-height);
     bottom: 0;
     z-index: 98;
     width: min(var(--nav-width), 85vw);
@@ -188,6 +185,29 @@
  * ---------------------------------------------------------------- */
 
 body[data-slug="index"] {
+  // Única página sem colunas laterais: o acervo inteiro em grade, como na
+  // home do GitHub Docs.
+  & .page > #quartz-body {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  & .sidebar {
+    display: none;
+  }
+
+  & .center {
+    padding: 0 2rem;
+  }
+
+  & .center > .page-header,
+  & .center > article,
+  & .center > .page-footer,
+  & .center > hr {
+    max-width: var(--home-width);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   & .center > article > h2 {
     font-size: 1rem;
     text-transform: uppercase;
@@ -222,8 +242,4 @@ body[data-slug="index"] {
     }
   }
 
-  // A home não precisa de teto de leitura: a grade usa a largura toda.
-  & .center > article {
-    max-width: none;
-  }
 }

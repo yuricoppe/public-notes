@@ -5,19 +5,22 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import styles from "./styles/topbar.scss"
 
 type TopBarConfig = {
-  /** Controles à direita da marca: busca, tema, modo leitura. */
+  /** Migalhas de pão, logo depois da marca. */
+  trail: QuartzComponent[]
+  /** Busca, tema e modo leitura, à direita. */
   actions: QuartzComponent[]
 }
 
 /**
- * Barra superior fixa, de ponta a ponta.
+ * Barra superior, de ponta a ponta.
  *
- * Renderiza como primeiro item da coluna esquerda, mas sai do fluxo com
- * `position: fixed` — assim cobre a largura toda sem exigir mudança na árvore
- * que o `renderPage.tsx` monta. A grade compensa com `padding-top`.
+ * É `position: sticky`, não `fixed`: o `base.scss` do upstream põe
+ * `overflow-x: hidden` e `width: 100vw` no `html`, e essa combinação deixa
+ * `position: fixed` instável — a barra acaba deslocada do topo. Sticky vive no
+ * fluxo normal, dispensa compensar altura no corpo e não sofre com isso.
  *
- * Os subcomponentes vêm por opção, e não por `children`: componentes fora de
- * `header[]` não recebem filhos do renderizador. É o mesmo padrão do `Flex`.
+ * Subcomponentes vêm por opção, não por `children`: só o `header[]` recebe
+ * filhos do renderizador. Mesmo padrão do `Flex`.
  */
 export default ((config: TopBarConfig) => {
   const TopBar: QuartzComponent = (props: QuartzComponentProps) => {
@@ -30,6 +33,11 @@ export default ((config: TopBarConfig) => {
         <a href={baseDir} class="topbar-brand">
           {props.cfg.pageTitle}
         </a>
+        <div class="topbar-trail">
+          {config.trail.map((Crumb) => (
+            <Crumb {...props} />
+          ))}
+        </div>
         <div class="topbar-actions">
           {config.actions.map((Action) => (
             <Action {...props} />
@@ -39,8 +47,9 @@ export default ((config: TopBarConfig) => {
     )
   }
 
-  TopBar.css = concatenateResources(styles, ...config.actions.map((c) => c.css))
-  TopBar.beforeDOMLoaded = concatenateResources(...config.actions.map((c) => c.beforeDOMLoaded))
-  TopBar.afterDOMLoaded = concatenateResources(...config.actions.map((c) => c.afterDOMLoaded))
+  const all = [...config.trail, ...config.actions]
+  TopBar.css = concatenateResources(styles, ...all.map((c) => c.css))
+  TopBar.beforeDOMLoaded = concatenateResources(...all.map((c) => c.beforeDOMLoaded))
+  TopBar.afterDOMLoaded = concatenateResources(...all.map((c) => c.afterDOMLoaded))
   return TopBar
 }) satisfies QuartzComponentConstructor<TopBarConfig>

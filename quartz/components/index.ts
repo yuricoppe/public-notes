@@ -25,7 +25,7 @@ import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 // --- fork: componentes do layout de documentação (ver openspec/changes/adopt-docs-style-layout)
 import TopBar from "./TopBar"
-import ContextBar from "./ContextBar"
+import SidebarToggle from "./SidebarToggle"
 import DrawerScrim from "./DrawerScrim"
 
 export {
@@ -55,6 +55,6 @@ export {
   Flex,
   ConditionalRender,
   TopBar,
-  ContextBar,
+  SidebarToggle,
   DrawerScrim,
 }

@@ -1,0 +1,63 @@
+@use "../../styles/variables.scss" as *;
+
+.sidebar-toggle-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.25rem;
+}
+
+.sidebar-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--darkgray);
+  cursor: pointer;
+
+  &:hover {
+    background: var(--lightgray);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--secondary);
+    outline-offset: 2px;
+  }
+}
+
+// Recolhida, a coluna some — então o botão de reabrir vive na barra do topo.
+.topbar .sidebar-toggle-row {
+  display: none;
+  margin: 0;
+}
+
+html[data-sidebar="collapsed"] .topbar .sidebar-toggle-row {
+  @media all and ($desktop) {
+    display: flex;
+  }
+}
+
+@media all and not ($desktop) {
+  .topbar .sidebar-toggle-row {
+    display: flex;
+  }
+  .sidebar .sidebar-toggle-row {
+    display: none;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
