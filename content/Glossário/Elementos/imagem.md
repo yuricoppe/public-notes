@@ -19,6 +19,8 @@ Imagens são elementos visuais cruciais para transmitir informações, ilustrar 
 
 ## Detalhes Adicionais / Tópicos
 
+![Árvore de decisão do texto alternativo: decorativa recebe alt vazio, informativa é descrita, funcional descreve a ação e complexa ganha descrição longa](attachments/glossario-alt-text.svg)
+
 - **Formatos de Arquivo:**
   - `JPEG/JPG`: Para fotografias e imagens com muitas [[Glossário/Linguagem Visual/cor|cores]]/gradações. Oferece boa compressão com perda.
   - `PNG`: Para imagens com transparência, logotipos, [[Glossário/Linguagem Visual/iconografia|ícones]] complexos ou quando a fidelidade de cor é crucial. Compressão sem perda.

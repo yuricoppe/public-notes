@@ -14,6 +14,8 @@ O [[Glossário/Elementos/botoes|botão]] "Voltar ao Topo" é um controle de nave
 
 ## Detalhes Adicionais / Tópicos
 
+![Botão voltar ao topo: ausente na primeira tela e visível depois de uma tela de rolagem, fixo no canto inferior direito](attachments/glossario-back-to-top.svg)
+
 - **Visibilidade Condicional:** Só aparece após o usuário rolar uma determinada quantidade da página (ex: uma altura de tela).
 - **Posicionamento:** Geralmente fixo no canto inferior direito da tela, flutuando sobre o conteúdo.
 - **[[Glossário/Linguagem Visual/iconografia|Ícone]]:** Comumente usa um ícone de seta para cima (`↑`).

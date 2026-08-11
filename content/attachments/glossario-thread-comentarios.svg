@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Fila de comentários anotada: ordenação, autor com data, resposta aninhada em um nível, ação de denunciar e botão carregar mais">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Comentários</text>
+  <text x="0" y="44" class="muted cap">Publicar é a parte fácil. O que sustenta uma seção de comentários é ordenação, aninhamento e moderação</text>
+
+  <rect x="0" y="70" width="430" height="272" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.2"/>
+  <text x="16" y="96" font-size="12" font-weight="700" fill="#1f2937">24 comentários</text>
+  <rect x="300" y="82" width="116" height="22" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="310" y="97" font-size="9" fill="#1f2937">Mais recentes</text>
+  <path d="M 396 92 L 400 96 L 404 92" fill="none" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+
+  <circle cx="30" cy="130" r="13" fill="#e5e7eb"/>
+  <text x="52" y="126" font-size="11" font-weight="700" fill="#1f2937">Marina Alves</text>
+  <text x="140" y="126" font-size="9" fill="#9ca3af">há 2 horas</text>
+  <text x="52" y="146" font-size="10" fill="#1f2937">Faltou dizer que o prazo muda quando o pedido</text>
+  <text x="52" y="161" font-size="10" fill="#1f2937">sai de outro estado.</text>
+  <text x="52" y="182" font-size="9" fill="#2563eb">Responder</text>
+  <text x="118" y="182" font-size="9" fill="#6b7280">Denunciar</text>
+
+  <line x1="42" y1="196" x2="42" y2="262" stroke="#e5e7eb" stroke-width="2"/>
+  <circle cx="70" cy="212" r="11" fill="#dbeafe"/>
+  <text x="88" y="209" font-size="10" font-weight="700" fill="#1f2937">Equipe</text>
+  <rect x="134" y="200" width="40" height="14" rx="7" fill="#dbeafe"/>
+  <text x="154" y="211" font-size="8" fill="#1e40af" text-anchor="middle">Autor</text>
+  <text x="186" y="209" font-size="9" fill="#9ca3af">há 1 hora</text>
+  <text x="88" y="228" font-size="10" fill="#1f2937">Boa observação — acabamos de corrigir o texto.</text>
+  <text x="88" y="248" font-size="9" fill="#2563eb">Responder</text>
+
+  <line x1="16" y1="276" x2="416" y2="276" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="16" y="288" width="180" height="26" rx="5" fill="#ffffff" stroke="#d1d5db" stroke-width="1.2"/>
+  <text x="28" y="305" font-size="9" fill="#9ca3af">Escreva um comentário</text>
+  <rect x="206" y="288" width="72" height="26" rx="5" fill="#2563eb"/>
+  <text x="242" y="305" font-size="9" font-weight="600" fill="#ffffff" text-anchor="middle">Publicar</text>
+  <text x="216" y="332" font-size="10" fill="#2563eb">Carregar mais 22 comentários</text>
+
+  <text x="460" y="92" class="ink h">Ordenação declarada</text>
+  <text x="460" y="112" class="muted an">"Mais recentes" ou "mais votados"</text>
+  <text x="460" y="128" class="muted an">mudam completamente o que a</text>
+  <text x="460" y="144" class="muted an">pessoa lê primeiro. Diga qual está</text>
+  <text x="460" y="160" class="muted an">valendo.</text>
+
+  <text x="460" y="194" class="ink h">Um nível de aninhamento</text>
+  <text x="460" y="214" class="muted an">Threads profundas viram uma escada</text>
+  <text x="460" y="230" class="muted an">ilegível no celular. Recuo de um</text>
+  <text x="460" y="246" class="muted an">nível resolve quase tudo.</text>
+
+  <text x="460" y="280" class="ink h">Moderação desde o dia um</text>
+  <text x="460" y="300" class="muted an">Denunciar precisa existir antes do</text>
+  <text x="460" y="316" class="muted an">primeiro abuso, não depois. E diga</text>
+  <text x="460" y="332" class="muted an">se o comentário foi publicado ou</text>
+  <text x="460" y="348" class="muted an">se está aguardando revisão.</text>
+
+  <text x="0" y="382" class="muted cap">Selo de autor ou de equipe muda a leitura de tudo: identifica quem responde em nome de quem.</text></svg>

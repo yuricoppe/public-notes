@@ -14,6 +14,8 @@ Utilizado para exibir trechos de código inline (dentro de um [[Glossário/Eleme
 
 ## Detalhes Adicionais / Tópicos
 
+![Diferença entre código inline dentro do parágrafo e bloco de código de várias linhas, com o critério de quando usar cada um](attachments/glossario-codigo-inline-bloco.svg)
+
 - **Código Inline:** Para nomes de variáveis, funções, tags curtas, etc.
 - **Bloco de Código:** Para exemplos de múltiplas linhas, com destaque de sintaxe (syntax highlighting) se possível.
 - [[Glossário/Linguagem Visual/tipografia|Tipografia]] monoespaçada para melhor legibilidade do código.

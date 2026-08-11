@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-label="Hero anotado: uma mensagem, título dominante, subtítulo de apoio, um CTA principal e o overlay que garante contraste do texto sobre a foto">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Anatomia de um hero</text>
+  <text x="0" y="44" class="muted cap">Tem alguns segundos para responder "que lugar é este e o que eu ganho aqui". Uma mensagem, não cinco</text>
+
+  <rect x="0" y="70" width="440" height="220" rx="8" fill="#94a3b8"/>
+  <path d="M 240 290 L 320 200 L 366 250 L 396 220 L 440 268 L 440 290 Z" fill="#64748b"/>
+  <circle cx="380" cy="122" r="22" fill="#cbd5e1"/>
+  <rect x="0" y="70" width="300" height="220" fill="#0f172a" opacity="0.45"/>
+
+  <text x="28" y="130" font-size="22" font-weight="700" fill="#ffffff">Seu pedido chega</text>
+  <text x="28" y="158" font-size="22" font-weight="700" fill="#ffffff">em até 24 horas</text>
+  <text x="28" y="186" font-size="12" fill="#e2e8f0">Em mais de 400 cidades, sem taxa extra.</text>
+  <rect x="28" y="204" width="126" height="36" rx="6" fill="#2563eb"/>
+  <text x="91" y="227" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">Ver cobertura</text>
+  <text x="170" y="227" font-size="12" font-weight="600" fill="#ffffff">Como funciona</text>
+
+  <path d="M 60 264 L 60 276 M 54 270 L 60 277 L 66 270" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+
+  <text x="470" y="94" class="ink h">Título faz o trabalho todo</text>
+  <text x="470" y="114" class="muted an">É o elemento mais dominante da tela.</text>
+  <text x="470" y="130" class="muted an">Diz o benefício, não o nome do produto.</text>
+
+  <text x="470" y="164" class="ink h">Um CTA primário</text>
+  <text x="470" y="184" class="muted an">O segundo, se existir, vem sem caixa.</text>
+  <text x="470" y="200" class="muted an">Dois botões de mesmo peso anulam</text>
+  <text x="470" y="216" class="muted an">a decisão que o hero deveria provocar.</text>
+
+  <text x="470" y="250" class="accent h">Overlay não é enfeite</text>
+  <text x="470" y="270" class="muted an">Texto sobre foto só passa nos 4,5:1 com</text>
+  <text x="470" y="286" class="muted an">uma camada escura por baixo — e a foto</text>
+  <text x="470" y="302" class="muted an">muda a cada campanha.</text>
+
+  <text x="0" y="332" class="ink h">O que o hero não resolve</text>
+  <text x="0" y="352" class="muted an">Ele ocupa a primeira tela inteira e empurra o conteúdo real para baixo. Em produto — diferente de landing page —</text>
+  <text x="0" y="368" class="muted an">isso costuma custar mais do que rende: quem já é cliente quer a tarefa, não a proposta de valor.</text></svg>

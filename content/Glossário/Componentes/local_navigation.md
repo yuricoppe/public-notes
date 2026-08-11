@@ -21,6 +21,8 @@ Local Navigation (Navegação Local) refere-se a sistemas de navegação que per
 
 ## Tipos Comuns e Seus Componentes
 
+![Os cinco tipos de navegação local desenhados: abas, menu lateral de seção, menu horizontal secundário, indicador de etapas e índice de conteúdo](attachments/glossario-navegacao-local.svg)
+
 1.  **Abas (Tabs):**
     *   **[[Glossário/Elementos/listas|Lista]] de Abas:** Contêiner com os rótulos das abas clicáveis.
     *   **Painéis de Aba:** Conteúdo associado a cada aba, onde apenas um é visível por vez.

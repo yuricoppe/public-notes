@@ -30,6 +30,8 @@ O componente de Notificação de Cookies (também conhecido como banner de cooki
 
 ## Melhores Práticas
 
+![Banner de cookies em duas versões: uma com aceitar, recusar e preferências no mesmo peso visual, e outra em que recusar está escondido como link cinza](attachments/glossario-cookie-banner.svg)
+
 -   **Visibilidade e Não Intrusividade:** O banner deve ser perceptível sem ser excessivamente obstrutivo ou impedir o acesso ao conteúdo principal antes da interação (especialmente para consentimento explícito).
     *   Posicionamentos comuns: [[Glossário/Componentes/footer|rodapé]] da página (banner fixo), canto inferior, ou um [[Glossário/Componentes/dialog|modal]] menos intrusivo.
 -   **Linguagem Clara e Simples:** Evitar jargões legais complexos. A informação deve ser fácil de entender.

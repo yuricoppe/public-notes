@@ -14,6 +14,8 @@ Listas são usadas para agrupar itens relacionados de forma ordenada (numerada) 
 
 ## Detalhes Adicionais / Tópicos
 
+![As três listas do HTML — não ordenada, ordenada e de definição — e a mesma informação em parágrafo corrido contra lista](attachments/glossario-tipos-de-lista.svg)
+
 - **Listas Não Ordenadas (`<ul>`):** Usam marcadores (bullets).
 - **Listas Ordenadas (`<ol>`):** Usam números ou letras.
 - **Listas de Definição (`<dl>`):** Usadas para pares de termo/descrição (menos comum, mas útil para glossários, etc.).

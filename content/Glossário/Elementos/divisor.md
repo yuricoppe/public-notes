@@ -14,6 +14,8 @@ Divisores ou réguas horizontais (e às vezes verticais) são usados para separa
 
 ## Detalhes Adicionais / Tópicos
 
+![Três níveis de separação entre conteúdos — só espaço, divisor de linha e cabeçalho — mais o divisor ornamental com a palavra ou](attachments/glossario-divisor.svg)
+
 - Usados para criar separação e agrupamento visual.
 - Podem ser de largura total ou parcial.
 - Estilo: [[Glossário/Linguagem Visual/cor|Cor]], espessura, tracejado (opcional).

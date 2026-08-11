@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Comparação entre drawer, que desliza por cima do conteúdo com overlay, e acordeão, que expande dentro do fluxo empurrando o que vem abaixo">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Drawer e acordeão: os dois escondem conteúdo, de jeitos opostos</text>
+  <text x="0" y="44" class="muted cap">Um cobre a tela e exige atenção; o outro cresce no lugar e deixa o resto onde estava</text>
+
+  <rect x="0" y="70" width="352" height="240" rx="6" class="card"/>
+  <text x="14" y="94" class="ink h">Drawer &#8212; entra por cima</text>
+  <rect x="14" y="106" width="150" height="188" rx="8" class="frame"/>
+  <rect x="20" y="112" width="138" height="176" rx="5" fill="#9ca3af" opacity="0.5"/>
+  <rect x="20" y="112" width="92" height="176" rx="5" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="30" y="130" font-size="9" font-weight="700" fill="#1f2937">Menu</text>
+  <text x="140" y="130" font-size="10" fill="#374151">&#10005;</text>
+  <text x="30" y="154" font-size="9" fill="#1f2937">Início</text>
+  <text x="30" y="174" font-size="9" fill="#1f2937">Pedidos</text>
+  <text x="30" y="194" font-size="9" fill="#1f2937">Favoritos</text>
+  <text x="30" y="214" font-size="9" fill="#1f2937">Conta</text>
+  <path d="M 118 200 L 138 200" class="arrow"/>
+  <path d="M 132 195 L 139 200 L 132 205" class="arrow"/>
+
+  <text x="180" y="130" class="muted an">Desliza da lateral ou do</text>
+  <text x="180" y="146" class="muted an">rodapé, cobre o conteúdo e</text>
+  <text x="180" y="162" class="muted an">escurece o que ficou atrás.</text>
+  <text x="180" y="190" class="accent an">Precisa de overlay, fechar</text>
+  <text x="180" y="206" class="accent an">com Esc e com clique fora, e</text>
+  <text x="180" y="222" class="accent an">prender o foco enquanto está</text>
+  <text x="180" y="238" class="accent an">aberto.</text>
+  <text x="180" y="266" class="muted an">No gatilho: aria-expanded</text>
+  <text x="180" y="282" class="muted an">e aria-controls.</text>
+
+  <rect x="368" y="70" width="352" height="240" rx="6" class="card"/>
+  <text x="382" y="94" class="ink h">Acordeão &#8212; cresce no lugar</text>
+  <rect x="382" y="108" width="220" height="26" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="394" y="125" font-size="10" font-weight="700" fill="#1f2937">Prazo de entrega</text>
+  <path d="M 578 120 L 584 126 L 590 120" fill="none" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="382" y="134" width="220" height="58" fill="#f9fafb"/>
+  <rect x="394" y="148" width="180" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="394" y="160" width="196" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="394" y="172" width="140" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="382" y="198" width="220" height="26" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="394" y="215" font-size="10" font-weight="700" fill="#1f2937">Trocas e devoluções</text>
+  <path d="M 578 210 L 584 216 L 590 210" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="382" y="230" width="220" height="26" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="394" y="247" font-size="10" font-weight="700" fill="#1f2937">Formas de pagamento</text>
+  <path d="M 578 242 L 584 248 L 590 242" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 616 152 L 636 152 M 616 232 L 636 232" class="lead"/>
+  <text x="614" y="278" class="muted an">O que está abaixo</text>
+  <text x="614" y="294" class="muted an">desce, não some.</text>
+
+  <text x="0" y="348" class="ink h">A pergunta que separa os dois</text>
+  <text x="0" y="368" class="muted an">O conteúdo escondido é um desvio da tarefa (navegação, filtros, carrinho)? Drawer. É parte do que a pessoa</text>
+  <text x="0" y="384" class="muted an">veio ler, só que nem todo mundo precisa de tudo (FAQ, detalhes de um item)? Acordeão.</text></svg>

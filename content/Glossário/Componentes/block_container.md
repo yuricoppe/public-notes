@@ -30,6 +30,8 @@ O componente "Block" ou "Container" refere-se a um agrupador visual genérico us
 
 ## Melhores Práticas
 
+![O mesmo conteúdo em duas versões: à esquerda com caixas aninhadas e bordas em tudo, à direita apenas com espaçamento e uma divisória sutil](attachments/glossario-boxitis.svg)
+
 -   **Propósito Claro:** Usar blocos para criar uma separação ou agrupamento visual que faça sentido para o usuário e para a estrutura da informação.
 -   **Consistência de Estilo:** Se usar blocos para propósitos semelhantes (ex: todos os blocos de destaque de feature), eles devem ter um estilo visual consistente (padding, bordas, etc.).
 -   **Não Abusar:** Evitar o uso excessivo de blocos com bordas ou fundos muito destacados, o que pode levar a uma interface visualmente poluída ("boxitis"). Às vezes, o espaço em branco (margin) é suficiente para criar separação.

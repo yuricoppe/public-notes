@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Escada de composição da interface: elementos como átomos, componentes como agrupamentos e padrões como telas inteiras, com um formulário montado a partir de rótulo, campo e botão">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Elementos são as peças de que tudo o mais é feito</text>
+  <text x="0" y="44" class="muted cap">Um elemento não se divide sem deixar de funcionar. Tudo acima dele é combinação</text>
+
+  <rect x="0" y="70" width="216" height="230" rx="6" class="card"/>
+  <text x="14" y="94" class="ink h">Elementos</text>
+  <text x="14" y="112" class="muted sm">não se dividem mais</text>
+
+  <text x="16" y="140" font-size="9" fill="#6b7280">Rótulo</text>
+  <rect x="16" y="148" width="120" height="24" rx="5" fill="#ffffff" stroke="#9ca3af" stroke-width="1.2"/>
+  <text x="150" y="164" class="muted sm">campo</text>
+
+  <rect x="16" y="184" width="80" height="26" rx="5" fill="#2563eb"/>
+  <text x="56" y="201" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle">Enviar</text>
+  <text x="110" y="201" class="muted sm">botão</text>
+
+  <text x="16" y="234" font-size="11" fill="#2563eb">um link</text>
+  <line x1="16" y1="238" x2="58" y2="238" stroke="#2563eb" stroke-width="1"/>
+  <text x="72" y="234" class="muted sm">link</text>
+
+  <text x="16" y="262" font-size="11" fill="#1f2937">texto corrido</text>
+  <text x="110" y="262" class="muted sm">parágrafo</text>
+
+  <line x1="16" y1="280" x2="136" y2="280" stroke="#d1d5db" stroke-width="1"/>
+  <text x="150" y="284" class="muted sm">divisor</text>
+
+  <path d="M 232 185 L 260 185" class="arrow"/>
+  <path d="M 254 180 L 261 185 L 254 190" class="arrow"/>
+
+  <rect x="272" y="70" width="216" height="230" rx="6" class="card"/>
+  <text x="286" y="94" class="ink h">Componentes</text>
+  <text x="286" y="112" class="muted sm">elementos com uma regra</text>
+
+  <rect x="286" y="128" width="188" height="150" rx="5" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.2"/>
+  <text x="298" y="150" font-size="10" font-weight="700" fill="#1f2937">Assine a newsletter</text>
+  <text x="298" y="172" font-size="8" fill="#6b7280">E-mail</text>
+  <rect x="298" y="178" width="164" height="24" rx="5" fill="#ffffff" stroke="#9ca3af" stroke-width="1.2"/>
+  <text x="298" y="220" font-size="8" fill="#6b7280">Aceito receber contato</text>
+  <rect x="298" y="228" width="12" height="12" rx="3" fill="#ffffff" stroke="#9ca3af" stroke-width="1.2"/>
+  <rect x="298" y="250" width="80" height="24" rx="5" fill="#2563eb"/>
+  <text x="338" y="266" font-size="9" font-weight="600" fill="#ffffff" text-anchor="middle">Enviar</text>
+  <text x="286" y="294" class="muted sm">os mesmos elementos, agora com hierarquia</text>
+
+  <path d="M 504 185 L 532 185" class="arrow"/>
+  <path d="M 526 180 L 533 185 L 526 190" class="arrow"/>
+
+  <rect x="544" y="70" width="176" height="230" rx="6" class="card"/>
+  <text x="558" y="94" class="ink h">Padrões</text>
+  <text x="558" y="112" class="muted sm">componentes numa tarefa</text>
+
+  <rect x="558" y="128" width="148" height="150" rx="5" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.2"/>
+  <rect x="558" y="128" width="148" height="20" rx="5" fill="#f3f4f6"/>
+  <rect x="568" y="134" width="40" height="8" rx="4" fill="#d1d5db"/>
+  <rect x="568" y="160" width="128" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="568" y="172" width="100" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="568" y="190" width="128" height="34" rx="4" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="568" y="234" width="70" height="20" rx="4" fill="#2563eb"/>
+  <rect x="558" y="266" width="148" height="12" rx="0" fill="#f3f4f6"/>
+  <text x="558" y="294" class="muted sm">a tela inteira de cadastro</text>
+
+  <text x="0" y="342" class="ink h">Por que a distinção importa na prática</text>
+  <text x="0" y="362" class="muted an">Um ajuste feito no elemento se propaga por todo o sistema; um ajuste feito dentro de um componente fica preso ali.</text>
+  <text x="0" y="378" class="muted an">Quando o botão de um card não parece com o botão de um formulário, quase sempre é porque alguém redesenhou</text>
+  <text x="0" y="394" class="muted an">o botão dentro do componente em vez de mexer no elemento.</text></svg>

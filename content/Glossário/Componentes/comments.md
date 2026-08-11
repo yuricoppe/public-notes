@@ -20,6 +20,8 @@ O componente de Comentários permite que os usuários publiquem e visualizem fee
 
 ## Funcionalidades Essenciais
 
+![Fila de comentários anotada: ordenação, autor com data, resposta aninhada em um nível, ação de denunciar e botão carregar mais](attachments/glossario-thread-comentarios.svg)
+
 -   **Exibição de Comentários:**
     *   [[Glossário/Elementos/listas|Lista]] de comentários, geralmente em ordem cronológica ou por relevância.
     *   Nome/avatar do autor do comentário.

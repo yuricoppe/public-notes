@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" role="img" aria-label="Três níveis de separação entre conteúdos: só espaço, divisor de linha e cabeçalho, do mais leve ao mais forte, mais o divisor ornamental com a palavra ou">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Divisor: o terceiro recurso, não o primeiro</text>
+  <text x="0" y="44" class="muted cap">Separar conteúdo tem uma escada. A linha fica no meio dela — e quase sempre se pula para ela cedo demais</text>
+
+  <rect x="0" y="70" width="232" height="182" rx="6" class="card"/>
+  <text x="14" y="94" class="ink h">1. Só espaço</text>
+  <rect x="14" y="110" width="180" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="14" y="122" width="200" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="14" y="134" width="140" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="14" y="176" width="200" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="14" y="188" width="170" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="14" y="200" width="200" height="5" rx="2.5" fill="#e5e7eb"/>
+  <text x="14" y="230" class="muted sm">Resolve a maioria dos casos. Não</text>
+  <text x="14" y="244" class="muted sm">acrescenta ruído nenhum.</text>
+
+  <rect x="244" y="70" width="232" height="182" rx="6" class="card"/>
+  <text x="258" y="94" class="ink h">2. Divisor</text>
+  <rect x="258" y="110" width="180" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="258" y="122" width="200" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="258" y="134" width="140" height="5" rx="2.5" fill="#e5e7eb"/>
+  <line x1="258" y1="158" x2="458" y2="158" stroke="#d1d5db" stroke-width="1"/>
+  <rect x="258" y="180" width="200" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="258" y="192" width="170" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="258" y="204" width="200" height="5" rx="2.5" fill="#e5e7eb"/>
+  <text x="258" y="230" class="muted sm">Quando o espaço não basta e não</text>
+  <text x="258" y="244" class="muted sm">há título para dar aos dois lados.</text>
+
+  <rect x="488" y="70" width="232" height="182" rx="6" class="card"/>
+  <text x="502" y="94" class="ink h">3. Cabeçalho</text>
+  <rect x="502" y="110" width="180" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="502" y="122" width="200" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="502" y="134" width="140" height="5" rx="2.5" fill="#e5e7eb"/>
+  <text x="502" y="176" font-size="13" font-weight="700" fill="#1f2937">Trocas</text>
+  <rect x="502" y="190" width="200" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="502" y="202" width="170" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="502" y="214" width="200" height="5" rx="2.5" fill="#e5e7eb"/>
+  <text x="502" y="238" class="accent sm">O mais forte: separa e ainda diz</text>
+  <text x="502" y="252" class="accent sm">o que vem a seguir.</text>
+
+  <rect x="0" y="270" width="352" height="72" rx="6" class="card"/>
+  <text x="16" y="292" class="ink h">Divisor com texto</text>
+  <line x1="16" y1="316" x2="150" y2="316" stroke="#d1d5db" stroke-width="1"/>
+  <text x="168" y="320" font-size="10" fill="#6b7280">ou</text>
+  <line x1="196" y1="316" x2="330" y2="316" stroke="#d1d5db" stroke-width="1"/>
+  <text x="16" y="338" class="muted sm">Para alternativa real: "entrar com senha" ou "entrar com o Google".</text>
+
+  <rect x="368" y="270" width="352" height="72" rx="6" class="card"/>
+  <text x="384" y="292" class="ink h">No código</text>
+  <text x="384" y="312" class="muted an">&lt;hr&gt; marca mudança de assunto e é anunciado. Se a linha é só</text>
+  <text x="384" y="328" class="muted an">enfeite, use borda no CSS e deixe o HTML fora disso.</text></svg>

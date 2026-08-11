@@ -14,6 +14,8 @@ Utilizado para destacar citações diretas ou trechos de texto que são retirado
 
 ## Detalhes Adicionais / Tópicos
 
+![Três formas de marcar uma citação em bloco — borda lateral, recuo com fundo e aspas tipográficas — e a atribuição da fonte](attachments/glossario-block-quote.svg)
+
 - Pode incluir uma borda lateral, fundo diferente ou [[Glossário/Linguagem Visual/tipografia|tipografia]] específica.
 - Pode ter um elemento para atribuir a fonte da citação.
 

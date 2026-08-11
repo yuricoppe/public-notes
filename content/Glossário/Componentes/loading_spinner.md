@@ -20,6 +20,8 @@ O componente Loading / Spinner (Indicador de Carregamento) é um elemento visual
 
 ## Tipos Comuns
 
+![Quatro indicadores de carregamento mapeados ao tempo de espera: nada abaixo de 0,2s, spinner, esqueleto para conteúdo estruturado e barra determinada](attachments/glossario-indicadores-carregamento.svg)
+
 1.  **Spinner (Animação Circular):** Um dos mais comuns. Um círculo ou conjunto de pontos que giram.
 2.  **Progress Bar (Barra de Progresso):**
     *   **Indeterminada:** Uma barra que anima para frente e para trás ou com um padrão pulsante, indicando atividade sem mostrar o progresso exato.

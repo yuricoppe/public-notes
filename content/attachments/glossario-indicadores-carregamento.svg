@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Quatro indicadores de carregamento mapeados ao tempo de espera: nada abaixo de 0,2 segundo, spinner até 1 segundo, esqueleto para conteúdo estruturado e barra determinada quando o progresso é conhecido">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Qual indicador para qual espera</text>
+  <text x="0" y="44" class="muted cap">O indicador não acelera nada. Ele só troca "travou?" por "está vindo" — e cada faixa de tempo pede um</text>
+
+  <rect x="0" y="70" width="174" height="196" rx="6" class="card"/>
+  <rect x="10" y="82" width="154" height="72" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="26" y="100" width="100" height="6" rx="3" fill="#e5e7eb"/>
+  <rect x="26" y="114" width="122" height="6" rx="3" fill="#e5e7eb"/>
+  <rect x="26" y="128" width="80" height="6" rx="3" fill="#e5e7eb"/>
+  <text x="0" y="180" class="ink h">Abaixo de 0,2s</text>
+  <text x="0" y="200" class="accent an">Não mostre nada.</text>
+  <text x="0" y="220" class="muted an">Um spinner que pisca</text>
+  <text x="0" y="236" class="muted an">chama mais atenção para</text>
+  <text x="0" y="252" class="muted an">a espera do que o silêncio.</text>
+
+  <rect x="182" y="70" width="174" height="196" rx="6" class="card"/>
+  <rect x="192" y="82" width="154" height="72" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="269" cy="118" r="16" fill="none" stroke="#e5e7eb" stroke-width="4"/>
+  <path d="M 269 102 A 16 16 0 0 1 285 118" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
+  <text x="182" y="180" class="ink h">Até ~1s, duração incerta</text>
+  <text x="182" y="200" class="accent an">Spinner.</text>
+  <text x="182" y="220" class="muted an">Perto do elemento que</text>
+  <text x="182" y="236" class="muted an">disparou a ação, não no</text>
+  <text x="182" y="252" class="muted an">meio da tela inteira.</text>
+
+  <rect x="364" y="70" width="174" height="196" rx="6" class="card"/>
+  <rect x="374" y="82" width="154" height="72" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="386" y="92" width="40" height="40" rx="4" fill="#e5e7eb"/>
+  <rect x="434" y="94" width="82" height="8" rx="4" fill="#e5e7eb"/>
+  <rect x="434" y="108" width="66" height="8" rx="4" fill="#e5e7eb"/>
+  <rect x="386" y="140" width="130" height="6" rx="3" fill="#e5e7eb"/>
+  <text x="364" y="180" class="ink h">Conteúdo estruturado</text>
+  <text x="364" y="200" class="accent an">Esqueleto (skeleton).</text>
+  <text x="364" y="220" class="muted an">Antecipa o formato do que</text>
+  <text x="364" y="236" class="muted an">vem e o layout não pula</text>
+  <text x="364" y="252" class="muted an">quando o conteúdo chega.</text>
+
+  <rect x="546" y="70" width="174" height="196" rx="6" class="card"/>
+  <rect x="556" y="82" width="154" height="72" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="572" y="106" font-size="9" fill="#6b7280">relatorio.pdf</text>
+  <rect x="572" y="116" width="122" height="8" rx="4" fill="#e5e7eb"/>
+  <rect x="572" y="116" width="80" height="8" rx="4" fill="#2563eb"/>
+  <text x="572" y="140" font-size="9" fill="#6b7280">66% &#183; faltam 12s</text>
+  <text x="546" y="180" class="ink h">Progresso conhecido</text>
+  <text x="546" y="200" class="accent an">Barra determinada.</text>
+  <text x="546" y="220" class="muted an">Porcentagem e tempo</text>
+  <text x="546" y="236" class="muted an">restante. Acima de 10s,</text>
+  <text x="546" y="252" class="muted an">ofereça cancelar.</text>
+
+  <rect x="0" y="290" width="720" height="66" rx="6" class="card"/>
+  <text x="16" y="314" class="ink h">O que todo indicador precisa carregar</text>
+  <text x="16" y="336" class="muted an">role="status" com aria-live="polite" e um texto real ("Carregando pedidos") — a animação sozinha é invisível para</text>
+  <text x="16" y="350" class="muted an">quem usa leitor de tela. E respeite prefers-reduced-motion: giro contínuo incomoda quem tem sensibilidade a movimento.</text>
+
+  <text x="0" y="388" class="muted cap">Botão que dispara ação longa fica desabilitado com spinner dentro dele — assim ninguém clica duas vezes.</text></svg>

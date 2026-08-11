@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="Os cinco tipos de navegação local desenhados: abas, menu lateral de seção, menu horizontal secundário, indicador de etapas e índice de conteúdo">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Navegação local: cinco formatos, um mesmo trabalho</text>
+  <text x="0" y="44" class="muted cap">Mover-se dentro de uma seção sem perder o lugar. Todos precisam de uma coisa: dizer onde você está agora</text>
+
+  <rect x="0" y="70" width="232" height="150" rx="6" class="card"/>
+  <text x="14" y="94" class="ink h">Abas</text>
+  <rect x="14" y="106" width="66" height="26" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="47" y="123" font-size="9" font-weight="700" fill="#2563eb" text-anchor="middle">Visão geral</text>
+  <rect x="14" y="130" width="66" height="3" fill="#2563eb"/>
+  <text x="103" y="123" font-size="9" fill="#6b7280">Atividade</text>
+  <text x="165" y="123" font-size="9" fill="#6b7280">Ajustes</text>
+  <line x1="14" y1="133" x2="218" y2="133" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="14" y="146" width="180" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="14" y="158" width="204" height="5" rx="2.5" fill="#e5e7eb"/>
+  <text x="14" y="188" class="muted sm">Painéis irmãos, um visível por vez.</text>
+  <text x="14" y="204" class="muted sm">Até 5 abas, sem rolagem lateral.</text>
+
+  <rect x="244" y="70" width="232" height="150" rx="6" class="card"/>
+  <text x="258" y="94" class="ink h">Menu lateral de seção</text>
+  <rect x="258" y="106" width="74" height="20" rx="3" fill="#dbeafe"/>
+  <text x="266" y="120" font-size="9" font-weight="700" fill="#1e40af">Perfil</text>
+  <text x="266" y="142" font-size="9" fill="#6b7280">Segurança</text>
+  <text x="266" y="162" font-size="9" fill="#6b7280">Notificações</text>
+  <text x="266" y="182" font-size="9" fill="#6b7280">Faturamento</text>
+  <rect x="348" y="106" width="118" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="348" y="118" width="100" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="348" y="130" width="118" height="5" rx="2.5" fill="#e5e7eb"/>
+  <text x="258" y="204" class="muted sm">Para seções com muitas subpáginas.</text>
+
+  <rect x="488" y="70" width="232" height="150" rx="6" class="card"/>
+  <text x="502" y="94" class="ink h">Menu horizontal secundário</text>
+  <text x="502" y="122" font-size="9" font-weight="700" fill="#2563eb">Todos</text>
+  <text x="546" y="122" font-size="9" fill="#6b7280">Em aberto</text>
+  <text x="612" y="122" font-size="9" fill="#6b7280">Pagos</text>
+  <text x="660" y="122" font-size="9" fill="#6b7280">Cancelados</text>
+  <rect x="502" y="128" width="34" height="2.5" fill="#2563eb"/>
+  <line x1="502" y1="130" x2="706" y2="130" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="502" y="144" width="180" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="502" y="156" width="204" height="5" rx="2.5" fill="#e5e7eb"/>
+  <text x="502" y="188" class="muted sm">Poucas opções, abaixo do cabeçalho.</text>
+  <text x="502" y="204" class="muted sm">Vira rolagem lateral se crescer.</text>
+
+  <rect x="0" y="232" width="352" height="150" rx="6" class="card"/>
+  <text x="14" y="256" class="ink h">Indicador de etapas (stepper)</text>
+  <line x1="34" y1="292" x2="316" y2="292" stroke="#d1d5db" stroke-width="2"/>
+  <line x1="34" y1="292" x2="175" y2="292" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="34" cy="292" r="11" fill="#2563eb"/>
+  <path d="M 29 292 L 32 295 L 39 288" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="175" cy="292" r="11" fill="#2563eb"/>
+  <text x="175" y="296" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <circle cx="316" cy="292" r="11" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="316" y="296" font-size="9" font-weight="700" fill="#9ca3af" text-anchor="middle">3</text>
+  <text x="34" y="320" font-size="9" fill="#6b7280" text-anchor="middle">Dados</text>
+  <text x="175" y="320" font-size="9" font-weight="700" fill="#2563eb" text-anchor="middle">Entrega</text>
+  <text x="316" y="320" font-size="9" fill="#9ca3af" text-anchor="middle">Pagamento</text>
+  <text x="14" y="348" class="muted sm">Processo linear. Mostra o que já passou, onde você está</text>
+  <text x="14" y="364" class="muted sm">e quanto falta. Voltar precisa ser permitido.</text>
+
+  <rect x="368" y="232" width="352" height="150" rx="6" class="card"/>
+  <text x="382" y="256" class="ink h">Índice do conteúdo</text>
+  <line x1="384" y1="272" x2="384" y2="352" stroke="#e5e7eb" stroke-width="2"/>
+  <line x1="384" y1="288" x2="384" y2="304" stroke="#2563eb" stroke-width="2"/>
+  <text x="398" y="280" font-size="9" fill="#6b7280">O que é</text>
+  <text x="398" y="300" font-size="9" font-weight="700" fill="#2563eb">Como funciona</text>
+  <text x="410" y="318" font-size="9" fill="#6b7280">Estrutura</text>
+  <text x="410" y="336" font-size="9" fill="#6b7280">Exemplos</text>
+  <text x="398" y="356" font-size="9" fill="#6b7280">Referências</text>
+  <text x="560" y="300" class="muted sm">Gerado dos cabeçalhos,</text>
+  <text x="560" y="316" class="muted sm">acompanha a rolagem e</text>
+  <text x="560" y="332" class="muted sm">destaca a seção atual.</text>
+
+  <text x="0" y="410" class="muted cap">O item ativo precisa ser marcado de duas formas: visualmente e no código — aria-current="page" ou aria-selected.</text></svg>

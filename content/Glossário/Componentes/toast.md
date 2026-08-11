@@ -19,6 +19,8 @@ Toasts (também conhecidos como Snackbars, especialmente no Material Design) sã
 
 ## Elementos Comuns
 
+![Toast anotado com mensagem curta, ação de desfazer e fechar, empilhamento de vários toasts e a régua de quando não usar toast](attachments/glossario-anatomia-toast.svg)
+
 -   **Contêiner do Toast:** A "caixa" da mensagem.
 -   **Texto da Mensagem:** Curto e direto ao ponto.
 -   **(Opcional) [[Glossário/Linguagem Visual/iconografia|Ícone]]:** Para indicar o tipo de mensagem (sucesso, informação, etc.), embora toasts sejam frequentemente apenas textuais.

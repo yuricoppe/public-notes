@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Mapa anotado com marcadores, agrupamento de marcadores no zoom afastado, janela de informação, controles de zoom e a alternativa em lista para quem não usa o mapa">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Anatomia de um mapa</text>
+  <text x="0" y="44" class="muted cap">Mapa é caro de carregar e impossível de usar sem enxergar. Quase sempre precisa de uma lista ao lado</text>
+
+  <rect x="0" y="70" width="430" height="250" rx="8" fill="#e8ecef"/>
+  <path d="M 0 190 C 90 176 150 210 240 196 C 320 184 380 206 430 196 L 430 250 L 0 250 Z" fill="#cfd8dd"/>
+  <path d="M 0 130 L 430 156" stroke="#ffffff" stroke-width="6" fill="none"/>
+  <path d="M 120 70 L 172 320" stroke="#ffffff" stroke-width="5" fill="none"/>
+  <path d="M 300 70 L 268 320" stroke="#ffffff" stroke-width="4" fill="none"/>
+
+  <circle cx="96" cy="228" r="17" fill="#2563eb" opacity="0.85"/>
+  <text x="96" y="233" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">12</text>
+  <circle cx="350" cy="112" r="13" fill="#2563eb" opacity="0.85"/>
+  <text x="350" y="116" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+
+  <path d="M 224 176 C 224 166 232 158 242 158 C 252 158 260 166 260 176 C 260 188 242 206 242 206 C 242 206 224 188 224 176 Z" fill="#dc2626"/>
+  <circle cx="242" cy="175" r="5" fill="#ffffff"/>
+
+  <rect x="188" y="88" width="150" height="62" rx="6" fill="#ffffff"/>
+  <text x="200" y="108" font-size="10" font-weight="700" fill="#1f2937">Loja Paulista</text>
+  <text x="200" y="124" font-size="9" fill="#6b7280">Av. Paulista, 1000</text>
+  <text x="200" y="140" font-size="9" fill="#2563eb">Ver rota</text>
+  <text x="322" y="104" font-size="10" fill="#6b7280">&#10005;</text>
+  <path d="M 236 150 L 248 150 L 242 158 Z" fill="#ffffff"/>
+
+  <rect x="388" y="212" width="28" height="56" rx="5" fill="#ffffff"/>
+  <text x="402" y="234" font-size="14" fill="#1f2937" text-anchor="middle">+</text>
+  <line x1="392" y1="240" x2="412" y2="240" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="402" y="258" font-size="14" fill="#1f2937" text-anchor="middle">&#8722;</text>
+  <rect x="388" y="278" width="28" height="28" rx="5" fill="#ffffff"/>
+  <circle cx="402" cy="292" r="6" fill="none" stroke="#2563eb" stroke-width="1.8"/>
+  <circle cx="402" cy="292" r="1.8" fill="#2563eb"/>
+
+  <rect x="14" y="86" width="180" height="26" rx="13" fill="#ffffff"/>
+  <circle cx="32" cy="99" r="5" fill="none" stroke="#9ca3af" stroke-width="1.4"/>
+  <line x1="35.5" y1="102.5" x2="39" y2="106" stroke="#9ca3af" stroke-width="1.4"/>
+  <text x="48" y="103" font-size="9" fill="#9ca3af">Buscar endereço</text>
+
+  <text x="460" y="94" class="ink h">Agrupamento (clustering)</text>
+  <text x="460" y="114" class="muted an">Com o zoom afastado, marcadores viram</text>
+  <text x="460" y="130" class="muted an">um número. Sem isso, 200 pinos empilhados</text>
+  <text x="460" y="146" class="muted an">viram uma mancha sem informação.</text>
+
+  <text x="460" y="180" class="ink h">Janela de informação</text>
+  <text x="460" y="200" class="muted an">Curta, com o próximo passo dentro dela.</text>
+  <text x="460" y="216" class="muted an">Uma por vez, e fechável.</text>
+
+  <text x="460" y="250" class="ink h">Controles explícitos</text>
+  <text x="460" y="270" class="muted an">Zoom em botões, além do gesto. "Minha</text>
+  <text x="460" y="286" class="muted an">localização" só depois de pedir permissão,</text>
+  <text x="460" y="302" class="muted an">e explicando para quê.</text>
+
+  <rect x="0" y="336" width="720" height="60" rx="6" class="card"/>
+  <text x="16" y="358" class="accent h">O mapa nunca é a única saída</text>
+  <text x="16" y="378" class="muted an">Quem usa leitor de tela, quem está com internet ruim ou quem só quer o endereço precisa da mesma informação em lista:</text>
+  <text x="16" y="392" class="muted an">nome, endereço, distância e link de rota. O mapa complementa essa lista — não substitui.</text></svg>

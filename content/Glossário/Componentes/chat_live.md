@@ -20,6 +20,8 @@ O componente de Chat em Tempo Real permite a comunicação síncrona entre usuá
 
 ## Funcionalidades Essenciais
 
+![Janela de chat anotada: mensagem recebida à esquerda, mensagem enviada à direita com estado de entrega, indicador de digitando e campo de entrada](attachments/glossario-anatomia-chat.svg)
+
 -   **Exibição de Mensagens:** [[Glossário/Elementos/listas|Lista]] de mensagens em ordem cronológica (geralmente as mais recentes no final).
     -   Nome/avatar do remetente.
     -   Conteúdo da mensagem (texto, emojis, opcionalmente [[Glossário/Elementos/imagem|imagens]]/arquivos).

@@ -20,6 +20,8 @@ O componente de Mapas é usado para exibir informações geográficas de forma v
 
 ## Funcionalidades Essenciais
 
+![Mapa anotado com marcadores, agrupamento no zoom afastado, janela de informação, controles de zoom e a alternativa em lista](attachments/glossario-anatomia-mapa.svg)
+
 -   **Exibição do Mapa:** Renderizar um mapa base (ex: de ruas, satélite, terreno).
 -   **Zoom:** Capacidade de aumentar e diminuir o zoom no mapa.
 -   **Pan (Arrastar):** Capacidade de mover a visualização do mapa.

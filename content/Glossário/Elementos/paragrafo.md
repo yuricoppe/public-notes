@@ -20,6 +20,8 @@ Utilizado para exibir blocos de texto padrão em todo o conteúdo do site ou apl
 
 ## Detalhes Adicionais / Tópicos
 
+![Parágrafo alinhado à esquerda com comprimento de linha controlado, contra a versão justificada com rios de espaço em branco](attachments/glossario-paragrafo.svg)
+
 - **Legibilidade:** A principal preocupação. Deve seguir as diretrizes de `Tipografia` (família, tamanho, altura de linha, cor) e `Cor` (contraste) para garantir fácil leitura.
 - **Comprimento da Linha (Measure):** Idealmente entre 45-75 caracteres por linha para evitar fadiga ocular e facilitar a leitura.
 - **Alinhamento:** Geralmente alinhado à esquerda para idiomas ocidentais. Evitar texto justificado na web, pois pode criar "rios" de espaço em branco e prejudicar a legibilidade.

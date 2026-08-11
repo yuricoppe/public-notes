@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-label="Bloco de código anotado: rótulo da linguagem, botão copiar com confirmação, destaque de sintaxe, numeração de linhas e rolagem horizontal">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Bloco de código</text>
+  <text x="0" y="44" class="muted cap">O trabalho todo é deixar o código legível, selecionável e copiável — nessa ordem</text>
+
+  <rect x="0" y="70" width="430" height="196" rx="8" fill="#111827"/>
+  <rect x="0" y="70" width="430" height="34" rx="8" fill="#1f2937"/>
+  <rect x="0" y="92" width="430" height="12" fill="#1f2937"/>
+  <text x="16" y="92" font-size="10" font-weight="700" fill="#9ca3af">TYPESCRIPT</text>
+  <rect x="344" y="79" width="72" height="20" rx="4" fill="#374151"/>
+  <text x="380" y="93" font-size="9" fill="#e5e7eb" text-anchor="middle">Copiar</text>
+
+  <text x="16" y="128" class="mono" fill="#4b5563">1</text>
+  <text x="38" y="128" class="mono" fill="#c084fc">export function</text>
+  <text x="146" y="128" class="mono" fill="#60a5fa">slug</text>
+  <text x="176" y="128" class="mono" fill="#e5e7eb">(fp: FilePath) {</text>
+
+  <text x="16" y="150" class="mono" fill="#4b5563">2</text>
+  <text x="52" y="150" class="mono" fill="#c084fc">const</text>
+  <text x="96" y="150" class="mono" fill="#e5e7eb">res =</text>
+  <text x="142" y="150" class="mono" fill="#60a5fa">strip</text>
+  <text x="178" y="150" class="mono" fill="#e5e7eb">(fp,</text>
+  <text x="212" y="150" class="mono" fill="#34d399">"index"</text>
+  <text x="266" y="150" class="mono" fill="#e5e7eb">)</text>
+
+  <text x="16" y="172" class="mono" fill="#4b5563">3</text>
+  <text x="52" y="172" class="mono" fill="#6b7280">// vazio vira a raiz</text>
+
+  <text x="16" y="194" class="mono" fill="#4b5563">4</text>
+  <text x="52" y="194" class="mono" fill="#c084fc">return</text>
+  <text x="102" y="194" class="mono" fill="#e5e7eb">res.length === 0 ?</text>
+  <text x="240" y="194" class="mono" fill="#34d399">"/"</text>
+  <text x="266" y="194" class="mono" fill="#e5e7eb">: res</text>
+
+  <text x="16" y="216" class="mono" fill="#4b5563">5</text>
+  <text x="38" y="216" class="mono" fill="#e5e7eb">}</text>
+
+  <rect x="16" y="240" width="180" height="6" rx="3" fill="#374151"/>
+  <rect x="16" y="240" width="80" height="6" rx="3" fill="#6b7280"/>
+  <text x="212" y="246" font-size="9" fill="#6b7280">rolagem horizontal, sem quebrar linha</text>
+
+  <text x="460" y="92" class="ink h">Rótulo da linguagem</text>
+  <text x="460" y="112" class="muted an">Diz o que a pessoa está lendo antes</text>
+  <text x="460" y="128" class="muted an">de ela tentar adivinhar pela sintaxe.</text>
+
+  <text x="460" y="162" class="ink h">Copiar, com confirmação</text>
+  <text x="460" y="182" class="muted an">aria-label claro e um "Copiado!"</text>
+  <text x="460" y="198" class="muted an">depois. Sem retorno, ninguém sabe</text>
+  <text x="460" y="214" class="muted an">se funcionou.</text>
+
+  <text x="460" y="248" class="ink h">Cores com contraste</text>
+  <text x="460" y="268" class="muted an">O destaque de sintaxe também</text>
+  <text x="460" y="284" class="muted an">precisa passar nos 4,5:1 — inclusive</text>
+  <text x="460" y="300" class="muted an">o cinza dos comentários.</text>
+
+  <rect x="0" y="296" width="430" height="60" rx="6" class="card"/>
+  <text x="16" y="318" class="warn h">Nunca imagem de código</text>
+  <text x="16" y="338" class="muted an">Print de código não é selecionável, não é copiável, não é</text>
+  <text x="16" y="352" class="muted an">indexável e não é lido por leitor de tela. Use texto.</text>
+
+  <text x="460" y="334" class="muted an">Marcação: &lt;pre&gt;&lt;code&gt;, que preserva</text>
+  <text x="460" y="350" class="muted an">espaços e quebras de linha.</text></svg>

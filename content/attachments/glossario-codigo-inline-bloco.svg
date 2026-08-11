@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img" aria-label="Diferença entre código inline dentro do parágrafo e bloco de código de várias linhas, com o critério de quando usar cada um">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Código inline e bloco de código</text>
+  <text x="0" y="44" class="muted cap">A fonte monoespaçada é um sinal: aquilo ali é literal e precisa ser digitado exatamente assim</text>
+
+  <rect x="0" y="70" width="352" height="176" rx="6" class="card"/>
+  <text x="16" y="94" class="ink h">Inline</text>
+  <text x="16" y="122" font-size="11" fill="#1f2937">Defina o valor em</text>
+  <rect x="122" y="110" width="80" height="17" rx="3" fill="#f3f4f6"/>
+  <text x="128" y="122" class="mono" fill="#be185d">markdownLink</text>
+  <text x="206" y="122" font-size="11" fill="#1f2937">e</text>
+  <text x="16" y="144" font-size="11" fill="#1f2937">depois rode</text>
+  <rect x="82" y="132" width="98" height="17" rx="3" fill="#f3f4f6"/>
+  <text x="88" y="144" class="mono" fill="#be185d">npx quartz build</text>
+  <text x="184" y="144" font-size="11" fill="#1f2937">.</text>
+  <text x="16" y="182" class="muted an">Para um nome de arquivo, variável,</text>
+  <text x="16" y="198" class="muted an">tecla ou comando de uma linha.</text>
+  <text x="16" y="222" class="accent sm">Fundo sutil e padding horizontal —</text>
+  <text x="16" y="236" class="accent sm">nunca altura que quebre a entrelinha.</text>
+
+  <rect x="368" y="70" width="352" height="176" rx="6" class="card"/>
+  <text x="384" y="94" class="ink h">Bloco</text>
+  <rect x="384" y="106" width="320" height="74" rx="5" fill="#111827"/>
+  <text x="396" y="126" class="mono" fill="#c084fc">const</text>
+  <text x="438" y="126" class="mono" fill="#e5e7eb">cfg = {</text>
+  <text x="410" y="146" class="mono" fill="#60a5fa">resolution</text>
+  <text x="484" y="146" class="mono" fill="#e5e7eb">:</text>
+  <text x="494" y="146" class="mono" fill="#34d399">"shortest"</text>
+  <text x="396" y="166" class="mono" fill="#e5e7eb">}</text>
+  <text x="384" y="204" class="muted an">Para várias linhas, onde recuo e</text>
+  <text x="384" y="220" class="muted an">quebra fazem parte do sentido.</text>
+  <text x="384" y="238" class="accent sm">Ganha rótulo de linguagem e botão copiar.</text>
+
+  <text x="0" y="286" class="ink h">O critério</text>
+  <text x="0" y="306" class="muted an">Se o trecho precisa manter recuo e quebra de linha, é bloco. Se é uma palavra que aparece no meio de uma frase,</text>
+  <text x="0" y="322" class="muted an">é inline — e transformar isso em bloco corta a leitura no meio sem necessidade.</text></svg>

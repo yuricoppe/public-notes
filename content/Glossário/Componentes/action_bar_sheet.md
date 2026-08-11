@@ -22,6 +22,8 @@ Um tipo de diálogo [[Glossário/Componentes/dialog|modal]] que desliza da parte
 
 ## Detalhes Adicionais / Tópicos
 
+![Barra de ação persistente no topo e no rodapé de uma tela, ao lado de uma planilha de ação que sobe do rodapé com opções, ação destrutiva destacada e botão cancelar](attachments/glossario-action-bar-sheet.svg)
+
 ### Barra de Ação (Action Bar)
 
 - **Posicionamento:** Topo, rodapé, ou flutuante (contextual).

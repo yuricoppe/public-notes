@@ -27,6 +27,8 @@ O componente Legend (Legenda) é usado para explicar o significado de símbolos,
 
 ## Melhores Práticas
 
+![Legenda de gráfico: itens com amostra e rótulo, versão com rótulo direto na série e a alternativa com traço distinto para quem não distingue as cores](attachments/glossario-legenda-grafico.svg)
+
 -   **Clareza e Precisão:** Os rótulos devem ser concisos e descrever com precisão o que cada amostra visual significa. A amostra visual deve corresponder exatamente ao que é usado na visualização principal.
 -   **Proximidade:** A legenda deve estar posicionada próxima à visualização de dados que ela descreve, para fácil referência.
 -   **Visibilidade:** Deve ser fácil de encontrar e ler. Evitar que a legenda sobreponha dados importantes na visualização.

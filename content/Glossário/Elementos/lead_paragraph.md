@@ -20,6 +20,8 @@ Utilizado no início de um artigo, seção ou página para fornecer um resumo in
 
 ## Detalhes Adicionais / Tópicos
 
+![Parágrafo de destaque comparado ao corpo do texto, contra a versão em que tudo tem o mesmo peso](attachments/glossario-lead-paragraph.svg)
+
 - **Distinção Visual:** Geralmente possui um tamanho de fonte maior e/ou peso diferente (ex: mais leve ou mais pesado) em relação ao parágrafo padrão.
 - **Concisão:** Deve ser breve, idealmente uma ou duas frases.
 - **Localização:** Sempre precede o corpo principal do texto.

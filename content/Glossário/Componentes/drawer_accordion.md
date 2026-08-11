@@ -12,6 +12,8 @@ tags:
 
 ## Drawer (Gaveta)
 
+![Comparação entre drawer, que desliza por cima do conteúdo com overlay, e acordeão, que expande dentro do fluxo empurrando o que vem abaixo](attachments/glossario-drawer-accordion.svg)
+
 Drawers, também conhecidos como "Off-Canvas Panels" ou "Sidebars Móveis", são painéis que deslizam para dentro ou para fora da viewport, geralmente a partir da lateral (esquerda ou direita) ou da parte inferior/superior da tela. São muito usados para navegação ou [[Glossário/Componentes/filters|filtros]] em interfaces mobile.
 
 ### Casos de Uso do Drawer:

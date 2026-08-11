@@ -18,6 +18,8 @@ O componente Hero (Herói) ou Billboard (Painel) é uma área de destaque proemi
 
 ## Elementos Comuns
 
+![Hero anotado: título dominante, subtítulo de apoio, um CTA principal e o overlay que garante contraste do texto sobre a foto](attachments/glossario-anatomia-hero.svg)
+
 -   **Título Principal (Headline):** Mensagem central, concisa e impactante.
 -   **Subtítulo ou Descrição:** Texto de apoio que elabora o título e fornece mais contexto ou benefícios.
 -   **[[Glossário/Elementos/imagem|Imagem]] de Fundo ou Vídeo de Fundo:** Visualmente atraente e relevante para a mensagem.

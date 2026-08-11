@@ -36,6 +36,8 @@ A documentação dos componentes de UI visa:
 
 ## Estrutura da Documentação de um Componente
 
+![Mapa dos componentes agrupados por função: navegação, entrada e ação, feedback, exibição de conteúdo e contêineres](attachments/glossario-mapa-componentes.svg)
+
 Cada componente de UI documentado neste diretório (geralmente em seu próprio arquivo `.md`) deve incluir:
 
 - **Descrição:** O que é o componente e qual seu propósito.

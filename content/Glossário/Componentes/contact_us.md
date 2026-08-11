@@ -19,6 +19,8 @@ O componente ou seção "Contact Us" (Fale Conosco) fornece aos usuários os mei
 
 ## Elementos Comuns
 
+![Página de contato com formulário curto, canais diretos com horário de atendimento e a expectativa de prazo de resposta declarada](attachments/glossario-fale-conosco.svg)
+
 Dependendo da complexidade, pode incluir:
 
 1.  **Formulário de Contato:**

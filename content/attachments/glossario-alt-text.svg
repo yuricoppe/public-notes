@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="Árvore de decisão do texto alternativo: imagem decorativa recebe alt vazio, informativa é descrita, funcional descreve a ação e complexa ganha descrição longa">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Imagem: a decisão que vem antes do arquivo</text>
+  <text x="0" y="44" class="muted cap">Não é "o que aparece na foto" — é "que trabalho esta imagem faz aqui". A resposta muda o alt inteiro</text>
+
+  <rect x="0" y="70" width="174" height="204" rx="6" class="card"/>
+  <rect x="10" y="82" width="154" height="60" rx="4" fill="#f3f4f6"/>
+  <path d="M 40 130 L 62 106 L 78 122 L 90 110 L 118 130 Z" fill="#d1d5db"/>
+  <text x="0" y="166" class="ink h">Decorativa</text>
+  <text x="0" y="186" class="muted an">Só preenche espaço. Se</text>
+  <text x="0" y="202" class="muted an">sumir, nada se perde.</text>
+  <text x="0" y="228" class="accent mono">alt=""</text>
+  <text x="0" y="250" class="muted sm">Vazio de propósito, para o</text>
+  <text x="0" y="264" class="muted sm">leitor de tela pular.</text>
+
+  <rect x="182" y="70" width="174" height="204" rx="6" class="card"/>
+  <rect x="192" y="82" width="154" height="60" rx="4" fill="#dbeafe"/>
+  <polyline points="204,132 232,112 258,120 284,94 330,100" fill="none" stroke="#2563eb" stroke-width="2"/>
+  <text x="182" y="166" class="ink h">Informativa</text>
+  <text x="182" y="186" class="muted an">Carrega conteúdo que não</text>
+  <text x="182" y="202" class="muted an">está no texto ao redor.</text>
+  <text x="182" y="228" class="accent mono">alt="Vendas subiram</text>
+  <text x="182" y="244" class="accent mono">de 1,2k para 3,4k"</text>
+  <text x="182" y="266" class="muted sm">Descreva a informação, não a forma.</text>
+
+  <rect x="364" y="70" width="174" height="204" rx="6" class="card"/>
+  <rect x="374" y="82" width="154" height="60" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="420" y="96" width="62" height="32" rx="6" fill="#2563eb"/>
+  <path d="M 443 112 L 459 112 M 454 107 L 460 112 L 454 117" fill="none" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"/>
+  <text x="364" y="166" class="ink h">Funcional</text>
+  <text x="364" y="186" class="muted an">É um botão ou link. O que</text>
+  <text x="364" y="202" class="muted an">importa é o destino.</text>
+  <text x="364" y="228" class="accent mono">alt="Enviar mensagem"</text>
+  <text x="364" y="252" class="muted sm">Descreva a ação, nunca o desenho</text>
+  <text x="364" y="266" class="muted sm">da seta.</text>
+
+  <rect x="546" y="70" width="174" height="204" rx="6" class="card"/>
+  <rect x="556" y="82" width="154" height="60" rx="4" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="568" y="112" width="16" height="24" fill="#2563eb"/>
+  <rect x="590" y="98" width="16" height="38" fill="#2563eb"/>
+  <rect x="612" y="120" width="16" height="16" fill="#2563eb"/>
+  <rect x="634" y="104" width="16" height="32" fill="#2563eb"/>
+  <rect x="656" y="92" width="16" height="44" fill="#2563eb"/>
+  <text x="546" y="166" class="ink h">Complexa</text>
+  <text x="546" y="186" class="muted an">Gráfico, diagrama, mapa —</text>
+  <text x="546" y="202" class="muted an">não cabe em uma frase.</text>
+  <text x="546" y="228" class="accent mono">alt curto + descrição</text>
+  <text x="546" y="244" class="accent mono">longa perto da imagem</text>
+  <text x="546" y="266" class="muted sm">Uma tabela ou um parágrafo com os</text>
+  <text x="546" y="280" class="muted sm">mesmos dados resolve.</text>
+
+  <rect x="0" y="304" width="352" height="76" rx="6" class="card"/>
+  <text x="16" y="326" class="ink h">Peso e formato</text>
+  <text x="16" y="346" class="muted an">SVG para logo, ícone e ilustração. WebP ou JPEG para foto. PNG</text>
+  <text x="16" y="362" class="muted an">só quando precisa de transparência sem perda.</text>
+
+  <rect x="368" y="304" width="352" height="76" rx="6" class="card"/>
+  <text x="384" y="326" class="ink h">Reserve o espaço</text>
+  <text x="384" y="346" class="muted an">width, height ou aspect-ratio no HTML impedem o layout de pular</text>
+  <text x="384" y="362" class="muted an">quando a imagem chega. loading="lazy" no que está abaixo da dobra.</text>
+
+  <text x="0" y="412" class="muted cap">Teste rápido: leia a página em voz alta trocando cada imagem pelo seu alt. Se a frase ficar sem sentido ou repetida, o alt está errado.</text></svg>

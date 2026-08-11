@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img" aria-label="Parágrafo de destaque comparado ao corpo do texto: maior, mais curto e resumindo o que vem depois, contra a versão em que tudo tem o mesmo peso">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Parágrafo de destaque (lead)</text>
+  <text x="0" y="44" class="muted cap">Uma ou duas frases que resumem o texto inteiro. Quem lê só isso precisa sair sabendo do que se trata</text>
+
+  <rect x="0" y="70" width="352" height="200" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.2"/>
+  <text x="16" y="100" font-size="17" font-weight="700" fill="#1f2937">Por que a busca falha</text>
+  <text x="16" y="128" font-size="14" fill="#374151">Metade das pessoas que usam a</text>
+  <text x="16" y="148" font-size="14" fill="#374151">busca desiste na primeira tentativa</text>
+  <text x="16" y="168" font-size="14" fill="#374151">— e quase nunca por culpa delas.</text>
+  <text x="16" y="196" font-size="11" fill="#6b7280">A causa raramente é o algoritmo. Está no</text>
+  <text x="16" y="212" font-size="11" fill="#6b7280">campo que não diz o que vasculha, na página</text>
+  <text x="16" y="228" font-size="11" fill="#6b7280">de resultados que joga fora a consulta e no</text>
+  <text x="16" y="244" font-size="11" fill="#6b7280">zero resultados que só oferece conselho.</text>
+  <text x="16" y="262" class="ok sm">Lead maior e mais leve; corpo menor e mais denso.</text>
+
+  <rect x="368" y="70" width="352" height="200" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.2"/>
+  <text x="384" y="100" font-size="17" font-weight="700" fill="#1f2937">Por que a busca falha</text>
+  <text x="384" y="126" font-size="11" fill="#6b7280">Metade das pessoas que usam a busca desiste</text>
+  <text x="384" y="142" font-size="11" fill="#6b7280">na primeira tentativa e quase nunca por culpa</text>
+  <text x="384" y="158" font-size="11" fill="#6b7280">delas. A causa raramente é o algoritmo. Está no</text>
+  <text x="384" y="174" font-size="11" fill="#6b7280">campo que não diz o que vasculha, na página de</text>
+  <text x="384" y="190" font-size="11" fill="#6b7280">resultados que joga fora a consulta e no zero</text>
+  <text x="384" y="206" font-size="11" fill="#6b7280">resultados que só oferece conselho. Corrigir</text>
+  <text x="384" y="222" font-size="11" fill="#6b7280">isso costuma render mais do que trocar o motor</text>
+  <text x="384" y="238" font-size="11" fill="#6b7280">de indexação inteiro.</text>
+  <text x="384" y="262" class="warn sm">Sem lead: uma parede cinza logo depois do título.</text>
+
+  <text x="0" y="304" class="ink h">O que faz um lead funcionar</text>
+  <text x="0" y="324" class="muted an">Maior que o corpo (uns 20 a 24px) e mais leve no peso &#183; no máximo duas frases &#183; resume, não apenas introduz.</text>
+  <text x="0" y="340" class="muted an">Se ele só diz "neste artigo vamos falar sobre", não era lead — era espaço desperdiçado.</text></svg>

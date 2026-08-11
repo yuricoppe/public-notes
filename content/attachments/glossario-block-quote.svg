@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" role="img" aria-label="Três formas de marcar uma citação em bloco — borda lateral, recuo com fundo e aspas tipográficas — e a atribuição da fonte com cite">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Citação em bloco</text>
+  <text x="0" y="44" class="muted cap">Precisa de duas coisas: parecer que veio de fora, e dizer de onde veio</text>
+
+  <rect x="0" y="70" width="232" height="176" rx="6" class="card"/>
+  <text x="14" y="94" class="ink h">Borda lateral</text>
+  <rect x="14" y="108" width="3" height="76" fill="#2563eb"/>
+  <text x="30" y="126" font-size="11" fill="#1f2937">"O bom design é o mínimo</text>
+  <text x="30" y="144" font-size="11" fill="#1f2937">de design possível."</text>
+  <text x="30" y="172" font-size="10" fill="#6b7280">&#8212; Dieter Rams</text>
+  <text x="14" y="212" class="muted sm">Barata de fazer e sobrevive a</text>
+  <text x="14" y="228" class="muted sm">qualquer largura de tela.</text>
+
+  <rect x="244" y="70" width="232" height="176" rx="6" class="card"/>
+  <text x="258" y="94" class="ink h">Recuo com fundo</text>
+  <rect x="272" y="108" width="190" height="76" rx="5" fill="#f3f4f6"/>
+  <text x="286" y="132" font-size="11" fill="#1f2937">"O bom design é o</text>
+  <text x="286" y="150" font-size="11" fill="#1f2937">mínimo de design possível."</text>
+  <text x="286" y="174" font-size="10" fill="#6b7280">&#8212; Dieter Rams</text>
+  <text x="258" y="212" class="muted sm">Separa mais, mas some quando a</text>
+  <text x="258" y="228" class="muted sm">página inteira já tem blocos cinza.</text>
+
+  <rect x="488" y="70" width="232" height="176" rx="6" class="card"/>
+  <text x="502" y="94" class="ink h">Aspas tipográficas</text>
+  <text x="502" y="146" font-size="46" font-weight="700" fill="#d1d5db">&#8220;</text>
+  <text x="538" y="128" font-size="11" fill="#1f2937">O bom design é o mínimo</text>
+  <text x="538" y="146" font-size="11" fill="#1f2937">de design possível.</text>
+  <text x="538" y="174" font-size="10" fill="#6b7280">&#8212; Dieter Rams</text>
+  <text x="502" y="212" class="muted sm">Bonito no desktop, some no</text>
+  <text x="502" y="228" class="muted sm">celular. Não use sozinha.</text>
+
+  <rect x="0" y="266" width="352" height="72" rx="6" class="card"/>
+  <text x="16" y="288" class="ink h">A atribuição não é decoração</text>
+  <text x="16" y="308" class="muted an">Citação sem fonte é frase de efeito. O travessão antes do nome é</text>
+  <text x="16" y="324" class="muted an">convenção — e &lt;cite&gt; marca a obra, não a pessoa.</text>
+
+  <rect x="368" y="266" width="352" height="72" rx="6" class="card"/>
+  <text x="384" y="288" class="warn h">Não use citação como destaque</text>
+  <text x="384" y="308" class="muted an">&lt;blockquote&gt; diz "isto veio de outra fonte". Usar só para deixar um</text>
+  <text x="384" y="324" class="muted an">trecho maior engana quem lê pelo código.</text></svg>

@@ -19,6 +19,8 @@ O componente Code Block é usado para exibir trechos de [[Glossário/Elementos/c
 
 ## Funcionalidades Essenciais
 
+![Bloco de código anotado: rótulo da linguagem, botão copiar com confirmação, destaque de sintaxe, numeração de linhas e rolagem horizontal](attachments/glossario-code-block.svg)
+
 -   **Exibição de Código:** Apresentar o código de forma monoespaçada e preservando a formatação (espaços, quebras de linha).
 -   **Destaque de Sintaxe (Syntax Highlighting):** Colorir diferentes partes do código (palavras-chave, [[Glossário/Componentes/comments|comentários]], strings, etc.) de acordo com a linguagem de programação para melhorar a legibilidade.
 -   **Identificação da Linguagem (Opcional, mas Recomendado):** Indicar a linguagem do bloco de código (ex: JavaScript, Python, HTML).

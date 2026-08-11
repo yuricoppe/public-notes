@@ -17,6 +17,8 @@ Controles deslizantes (sliders) são usados para permitir que o usuário selecio
 
 ## Detalhes Adicionais / Tópicos
 
+![Slider anotado com trilha, preenchimento, alça, valor visível e marcadores de passo, mais a comparação com um campo numérico](attachments/glossario-anatomia-slider.svg)
+
 - **Trilha (Track):** A barra horizontal ou vertical ao longo da qual a alça se move.
 - **Alça (Thumb/Handle):** O elemento que o usuário arrasta.
 - **Valor Atual:** Exibição opcional do valor selecionado (numérico ou tooltip).

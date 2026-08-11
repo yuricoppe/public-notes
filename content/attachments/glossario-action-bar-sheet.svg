@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-label="Barra de ação persistente no topo e no rodapé de uma tela, ao lado de uma planilha de ação que sobe do rodapé com opções, ação destrutiva destacada e botão cancelar">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Barra de ação e planilha de ação</text>
+  <text x="0" y="44" class="muted cap">Parecem primas, mas uma fica e a outra passa — e é isso que decide o que pode morar em cada uma</text>
+
+  <rect x="0" y="70" width="352" height="240" rx="6" class="card"/>
+  <rect x="14" y="84" width="120" height="212" rx="10" class="frame"/>
+  <rect x="20" y="90" width="108" height="26" rx="3" fill="#f3f4f6"/>
+  <text x="26" y="107" font-size="9" fill="#1f2937">&#8249;</text>
+  <text x="38" y="107" font-size="8" fill="#1f2937">Pedido 12342</text>
+  <text x="122" y="107" font-size="8" fill="#2563eb" text-anchor="end">Salvar</text>
+  <rect x="24" y="128" width="100" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="24" y="140" width="86" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="24" y="152" width="100" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="24" y="164" width="70" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="20" y="262" width="108" height="28" rx="3" fill="#f3f4f6"/>
+  <circle cx="36" cy="272" r="4" fill="#2563eb"/><circle cx="62" cy="272" r="4" fill="#9ca3af"/>
+  <circle cx="88" cy="272" r="4" fill="#9ca3af"/><circle cx="114" cy="272" r="4" fill="#9ca3af"/>
+  <text x="30" y="285" font-size="6" fill="#2563eb">Início</text>
+  <text x="56" y="285" font-size="6" fill="#6b7280">Busca</text>
+  <text x="82" y="285" font-size="6" fill="#6b7280">Conta</text>
+  <text x="108" y="285" font-size="6" fill="#6b7280">Mais</text>
+
+  <text x="148" y="106" class="ink h">Barra de ação</text>
+  <text x="148" y="128" class="muted an">Persistente. Fica no topo ou no</text>
+  <text x="148" y="144" class="muted an">rodapé e concentra as ações</text>
+  <text x="148" y="160" class="muted an">daquela tela, sem sumir.</text>
+  <text x="148" y="188" class="accent an">Topo: voltar, título e a ação</text>
+  <text x="148" y="204" class="accent an">principal.</text>
+  <text x="148" y="228" class="accent an">Rodapé: de 2 a 5 destinos,</text>
+  <text x="148" y="244" class="accent an">sempre os mesmos, sempre na</text>
+  <text x="148" y="260" class="accent an">mesma ordem.</text>
+
+  <rect x="368" y="70" width="352" height="240" rx="6" class="card"/>
+  <rect x="382" y="84" width="120" height="212" rx="10" class="frame"/>
+  <rect x="388" y="90" width="108" height="100" rx="3" fill="#d1d5db"/>
+  <rect x="386" y="196" width="112" height="96" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="394" y="212" font-size="8" font-weight="700" fill="#6b7280">Compartilhar</text>
+  <text x="394" y="232" font-size="9" fill="#1f2937">Copiar link</text>
+  <text x="394" y="250" font-size="9" fill="#1f2937">Enviar por e-mail</text>
+  <text x="394" y="268" font-size="9" fill="#dc2626">Excluir</text>
+  <line x1="390" y1="276" x2="494" y2="276" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="394" y="288" font-size="9" font-weight="700" fill="#1f2937">Cancelar</text>
+
+  <text x="516" y="106" class="ink h">Planilha de ação</text>
+  <text x="516" y="128" class="muted an">Temporária. Sobe do rodapé em</text>
+  <text x="516" y="144" class="muted an">resposta a um toque e some</text>
+  <text x="516" y="160" class="muted an">assim que você escolhe.</text>
+  <text x="516" y="188" class="warn an">A ação destrutiva fica separada</text>
+  <text x="516" y="204" class="warn an">e em vermelho — longe do dedo</text>
+  <text x="516" y="220" class="warn an">que ia acertar outra coisa.</text>
+  <text x="516" y="244" class="accent an">"Cancelar" sempre presente, e</text>
+  <text x="516" y="260" class="accent an">grande o bastante para acertar.</text>
+
+  <text x="0" y="342" class="muted cap">A planilha é um dialog: prende o foco do teclado enquanto está aberta, fecha com Esc e devolve o foco</text>
+  <text x="0" y="360" class="muted cap">ao elemento que a abriu. A barra de ação, não — ela faz parte da tela.</text></svg>

@@ -14,6 +14,8 @@ Links são usados para navegação, permitindo que os usuários acessem outras p
 
 ## Detalhes Adicionais / Tópicos
 
+![Estados de um link — normal, hover, visitado e foco — a indicação de link externo e a diferença entre texto descritivo e clique aqui](attachments/glossario-anatomia-link.svg)
+
 - Estilo visual claro para indicar interatividade ([[Glossário/Linguagem Visual/cor|cor]], sublinhado).
 - Estados: normal, hover, visitado, ativo/foco.
 - Links inline (dentro de [[Glossário/Elementos/paragrafo|parágrafos]]) e links em bloco (como itens de [[Glossário/Componentes/menu|menu]]).

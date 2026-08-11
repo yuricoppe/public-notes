@@ -40,6 +40,8 @@ Cada elemento (ou grupo de elementos, como a paleta de cores) será detalhado em
 
 ## Relação com Outras Partes do Design System
 
+![Escada de composição da interface: elementos como peças indivisíveis, componentes como agrupamentos e padrões como telas inteiras](attachments/glossario-atomos-ui.svg)
+
 - **Linguagem Visual (`visual_language/`):** Os elementos de UI são a concretização das diretrizes mais amplas da linguagem visual.
 - **Componentes de UI (`ui_components/`):** Os elementos de UI são os blocos de construção estilísticos dos componentes de UI.
 

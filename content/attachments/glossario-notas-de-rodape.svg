@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img" aria-label="Nota de rodapé: marcador sobrescrito no corpo do texto que leva até a nota no fim, e o link de retorno que traz de volta ao ponto exato da leitura">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Notas de rodapé</text>
+  <text x="0" y="44" class="muted cap">Uma ida e uma volta. A volta é a parte que quase sempre falta</text>
+
+  <rect x="0" y="70" width="430" height="210" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.2"/>
+
+  <text x="20" y="98" font-size="11" fill="#1f2937">A taxa de abandono no terceiro passo chegou a</text>
+  <text x="20" y="116" font-size="11" fill="#1f2937">41% no último trimestre</text>
+  <text x="230" y="112" font-size="8" fill="#2563eb">1</text>
+  <text x="238" y="116" font-size="11" fill="#1f2937">, um salto em relação</text>
+  <text x="20" y="134" font-size="11" fill="#1f2937">aos 28% do trimestre anterior.</text>
+
+  <text x="20" y="164" font-size="11" fill="#1f2937">A amostra considerou apenas sessões concluídas</text>
+  <text x="20" y="182" font-size="11" fill="#1f2937">em celular</text>
+  <text x="83" y="178" font-size="8" fill="#2563eb">2</text>
+  <text x="91" y="182" font-size="11" fill="#1f2937">.</text>
+
+  <line x1="20" y1="212" x2="140" y2="212" stroke="#d1d5db" stroke-width="1"/>
+
+  <text x="20" y="236" font-size="8" fill="#2563eb">1</text>
+  <text x="30" y="238" font-size="10" fill="#6b7280">Dados do painel interno, jan&#8211;mar de 2026.</text>
+  <text x="316" y="238" font-size="10" fill="#2563eb">&#8617;</text>
+
+  <text x="20" y="262" font-size="8" fill="#2563eb">2</text>
+  <text x="30" y="264" font-size="10" fill="#6b7280">Desktop ficou fora por falta de instrumentação.</text>
+  <text x="356" y="264" font-size="10" fill="#2563eb">&#8617;</text>
+
+  <path d="M 246 112 C 300 112 300 224 250 232" class="lead"/>
+  <path d="M 256 227 L 249 233 L 256 238" class="lead"/>
+  <path d="M 326 234 C 380 200 380 120 250 108" class="lead"/>
+  <path d="M 256 103 L 248 108 L 256 113" class="lead"/>
+
+  <text x="460" y="96" class="ink h">Marcador que é link</text>
+  <text x="460" y="116" class="muted an">Sobrescrito, numerado em sequência</text>
+  <text x="460" y="132" class="muted an">e clicável. Um número solto sem link</text>
+  <text x="460" y="148" class="muted an">manda a pessoa rolar caçando.</text>
+
+  <text x="460" y="182" class="accent h">Link de retorno &#8617;</text>
+  <text x="460" y="202" class="muted an">Devolve ao ponto exato da frase. Sem</text>
+  <text x="460" y="218" class="muted an">ele, quem foi ler a nota precisa achar</text>
+  <text x="460" y="234" class="muted an">de novo onde estava.</text>
+
+  <text x="460" y="268" class="ink h">O teste do conteúdo</text>
+  <text x="460" y="288" class="muted an">Se o texto principal não se sustenta</text>
+  <text x="460" y="304" class="muted an">sem ler a nota, aquilo não era nota.</text>
+
+  <text x="0" y="326" class="muted cap">Em página longa, a nota no fim do artigo funciona melhor do que no fim da página — o contexto fica mais perto.</text></svg>

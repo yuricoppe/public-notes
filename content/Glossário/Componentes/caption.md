@@ -21,6 +21,8 @@ Captions, ou legendas, são textos descritivos curtos associados a outros elemen
 
 ## Melhores Práticas
 
+![Os três lugares onde uma legenda aparece: figcaption abaixo da figura, caption acima da tabela e legend como primeiro filho do fieldset](attachments/glossario-legenda-caption.svg)
+
 -   **Concisão:** Legendas devem ser curtas e diretas ao ponto.
 -   **Relevância:** Devem fornecer informações úteis e diretamente relacionadas ao elemento que acompanham.
 -   **Posicionamento:**

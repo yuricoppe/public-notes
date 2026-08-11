@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-label="Os três lugares onde uma legenda aparece: figcaption abaixo da figura, caption acima da tabela e legend como primeiro filho do fieldset">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Legenda: três elementos diferentes, com o mesmo nome</text>
+  <text x="0" y="44" class="muted cap">Cada um tem uma tag própria — e é a tag, não o estilo, que faz o leitor de tela ligar o texto ao objeto</text>
+
+  <rect x="0" y="70" width="232" height="212" rx="6" class="card"/>
+  <text x="14" y="94" class="ink h">Figura</text>
+  <rect x="14" y="106" width="204" height="74" rx="4" fill="#e5e7eb"/>
+  <path d="M 60 172 L 92 140 L 116 164 L 132 150 L 168 172 Z" fill="#9ca3af"/>
+  <circle cx="150" cy="128" r="9" fill="#9ca3af"/>
+  <text x="14" y="198" font-size="10" fill="#6b7280">Fig. 1 &#8212; Fluxo de aprovação</text>
+  <text x="14" y="212" font-size="10" fill="#6b7280">em vigor desde março.</text>
+  <text x="14" y="238" class="accent mono">&lt;figure&gt; + &lt;figcaption&gt;</text>
+  <text x="14" y="258" class="muted sm">Abaixo da imagem. O alt descreve;</text>
+  <text x="14" y="272" class="muted sm">a legenda contextualiza.</text>
+
+  <rect x="244" y="70" width="232" height="212" rx="6" class="card"/>
+  <text x="258" y="94" class="ink h">Tabela</text>
+  <text x="258" y="116" font-size="10" font-weight="700" fill="#1f2937">Pedidos por trimestre, 2026</text>
+  <rect x="258" y="126" width="204" height="22" fill="#f3f4f6"/>
+  <text x="266" y="141" font-size="9" font-weight="700" fill="#6b7280">TRIM.</text>
+  <text x="400" y="141" font-size="9" font-weight="700" fill="#6b7280">TOTAL</text>
+  <text x="266" y="164" font-size="10" fill="#1f2937">1&#186;</text>
+  <text x="452" y="164" font-size="10" fill="#1f2937" text-anchor="end">1.204</text>
+  <text x="266" y="184" font-size="10" fill="#1f2937">2&#186;</text>
+  <text x="452" y="184" font-size="10" fill="#1f2937" text-anchor="end">1.877</text>
+  <text x="258" y="238" class="accent mono">&lt;caption&gt;</text>
+  <text x="258" y="258" class="muted sm">Acima da tabela, e anunciada antes</text>
+  <text x="258" y="272" class="muted sm">dos dados. É o título dela.</text>
+
+  <rect x="488" y="70" width="232" height="212" rx="6" class="card"/>
+  <text x="502" y="94" class="ink h">Grupo de campos</text>
+  <rect x="502" y="108" width="204" height="86" rx="4" fill="#ffffff" stroke="#9ca3af" stroke-width="1.2"/>
+  <rect x="512" y="102" width="118" height="14" fill="#f9fafb"/>
+  <text x="516" y="113" font-size="10" font-weight="700" fill="#1f2937">Endereço de entrega</text>
+  <text x="514" y="136" font-size="9" fill="#6b7280">CEP</text>
+  <rect x="514" y="142" width="80" height="18" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="514" y="176" font-size="9" fill="#6b7280">Rua</text>
+  <rect x="514" y="180" width="180" height="8" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="502" y="238" class="accent mono">&lt;fieldset&gt; + &lt;legend&gt;</text>
+  <text x="502" y="258" class="muted sm">Primeiro filho do grupo. Dá contexto</text>
+  <text x="502" y="272" class="muted sm">a cada campo lido isoladamente.</text>
+
+  <text x="0" y="322" class="muted cap">Sem essas tags, a legenda vira um parágrafo solto: quem enxerga entende pela proximidade,</text>
+  <text x="0" y="340" class="muted cap">quem ouve recebe um texto avulso sem relação nenhuma com a imagem, a tabela ou os campos.</text>
+  <text x="0" y="366" class="accent cap">Estilo é consequência: menor que o corpo do texto e em cor secundária — mas ainda legível.</text></svg>

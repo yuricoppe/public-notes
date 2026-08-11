@@ -20,6 +20,8 @@ Footnotes (Notas de [[Glossário/Componentes/footer|Rodapé]]) são referências
 
 ## Elementos Essenciais
 
+![Nota de rodapé: marcador sobrescrito que leva até a nota no fim, e o link de retorno que traz de volta ao ponto exato da leitura](attachments/glossario-notas-de-rodape.svg)
+
 1.  **Marcador de Referência no Texto:** Um número (geralmente sobrescrito: ¹, ², ³), asterisco (*, **, ***), ou outra convenção de símbolo no corpo do texto, indicando a presença de uma nota de rodapé.
     *   Este marcador é geralmente um [[Glossário/Elementos/links|link]] que leva o usuário diretamente para a nota de rodapé correspondente.
 

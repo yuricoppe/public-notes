@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Banner de cookies em duas versões: uma com aceitar, recusar e preferências no mesmo peso visual, e outra em que recusar está escondido como link cinza">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Notificação de cookies</text>
+  <text x="0" y="44" class="muted cap">A lei exige que recusar seja tão fácil quanto aceitar. É exatamente aí que quase todo banner escorrega</text>
+
+  <text x="0" y="74" class="ok h">Simétrico &#8212; recusar custa o mesmo que aceitar</text>
+  <rect x="0" y="86" width="720" height="98" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.2"/>
+  <text x="20" y="112" font-size="11" font-weight="700" fill="#1f2937">Usamos cookies</text>
+  <text x="20" y="132" font-size="10" fill="#6b7280">Os essenciais fazem o site funcionar. Os de análise e marketing só entram se você deixar.</text>
+  <text x="20" y="150" font-size="10" fill="#2563eb">Política de cookies</text>
+  <rect x="356" y="126" width="112" height="32" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="412" y="147" font-size="11" font-weight="600" fill="#2563eb" text-anchor="middle">Recusar todos</text>
+  <rect x="478" y="126" width="112" height="32" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="534" y="147" font-size="11" font-weight="600" fill="#2563eb" text-anchor="middle">Preferências</text>
+  <rect x="600" y="126" width="100" height="32" rx="6" fill="#2563eb"/>
+  <text x="650" y="147" font-size="11" font-weight="600" fill="#ffffff" text-anchor="middle">Aceitar todos</text>
+
+  <text x="0" y="216" class="warn h">Assimétrico &#8212; o padrão escuro mais comum da web</text>
+  <rect x="0" y="228" width="720" height="98" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.2"/>
+  <text x="20" y="254" font-size="11" font-weight="700" fill="#1f2937">Valorizamos sua privacidade</text>
+  <text x="20" y="274" font-size="10" fill="#6b7280">Nós e nossos 847 parceiros processamos dados para melhorar sua experiência.</text>
+  <text x="20" y="292" font-size="9" fill="#d1d5db">Gerenciar opções</text>
+  <rect x="486" y="266" width="214" height="36" rx="6" fill="#2563eb"/>
+  <text x="593" y="289" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Aceitar tudo e continuar</text>
+  <path d="M 76 288 L 76 300 L 120 300" class="lead"/>
+  <text x="128" y="304" class="warn sm">recusar virou um link cinza, sem contraste e fora do caminho</text>
+
+  <text x="0" y="360" class="ink h">O que o banner honesto tem</text>
+  <text x="0" y="380" class="muted an">Mesmo tamanho e mesmo peso nos dois botões &#183; linguagem sem jargão jurídico &#183; escolha lembrada entre visitas</text>
+  <text x="0" y="396" class="muted an">&#183; e um caminho para mudar de ideia depois, num link fixo no rodapé.</text></svg>

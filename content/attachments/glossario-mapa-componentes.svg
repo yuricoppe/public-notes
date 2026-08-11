@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="Mapa dos componentes do glossário agrupados por função: navegação, entrada e ação, feedback, exibição de conteúdo e contêineres">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Os componentes, agrupados pelo trabalho que fazem</text>
+  <text x="0" y="44" class="muted cap">A lista alfabética esconde o que importa: quase todo componente cabe em uma destas cinco funções</text>
+
+  <rect x="0" y="70" width="232" height="152" rx="6" class="card"/>
+  <rect x="0" y="70" width="232" height="6" rx="3" fill="#2563eb"/>
+  <text x="14" y="100" class="ink h">Navegação</text>
+  <text x="14" y="118" class="muted an">Levar a pessoa a outro lugar</text>
+  <text x="14" y="142" class="muted sm">Breadcrumbs &#183; Menu &#183; Navegação local</text>
+  <text x="14" y="158" class="muted sm">Cabeçalho &#183; Rodapé &#183; Voltar ao topo</text>
+  <text x="14" y="174" class="muted sm">Drawer &#183; Barra de ação</text>
+  <text x="14" y="200" class="accent sm">Regra comum: marcar onde você está.</text>
+
+  <rect x="244" y="70" width="232" height="152" rx="6" class="card"/>
+  <rect x="244" y="70" width="232" height="6" rx="3" fill="#16a34a"/>
+  <text x="258" y="100" class="ink h">Entrada e ação</text>
+  <text x="258" y="118" class="muted an">Receber uma decisão</text>
+  <text x="258" y="142" class="muted sm">Filtros &#183; Seletor de data</text>
+  <text x="258" y="158" class="muted sm">Planilha de ação &#183; Fale conosco</text>
+  <text x="258" y="174" class="muted sm">Notificação de cookies</text>
+  <text x="258" y="200" class="accent sm">Regra comum: dizer o que vai acontecer.</text>
+
+  <rect x="488" y="70" width="232" height="152" rx="6" class="card"/>
+  <rect x="488" y="70" width="232" height="6" rx="3" fill="#d97706"/>
+  <text x="502" y="100" class="ink h">Feedback</text>
+  <text x="502" y="118" class="muted an">Contar o que aconteceu</text>
+  <text x="502" y="142" class="muted sm">Mensagens &#183; Toast &#183; Erro inline</text>
+  <text x="502" y="158" class="muted sm">Modal &#183; Indicador de carregamento</text>
+  <text x="502" y="174" class="muted sm">Badges</text>
+  <text x="502" y="200" class="accent sm">Regra comum: ser anunciado, não só visto.</text>
+
+  <rect x="0" y="238" width="352" height="140" rx="6" class="card"/>
+  <rect x="0" y="238" width="352" height="6" rx="3" fill="#7c3aed"/>
+  <text x="14" y="268" class="ink h">Exibição de conteúdo</text>
+  <text x="14" y="286" class="muted an">Mostrar o que existe, de um jeito comparável</text>
+  <text x="14" y="310" class="muted sm">Cards &#183; Tabelas de dados &#183; Hero &#183; Carrossel</text>
+  <text x="14" y="326" class="muted sm">Mapas &#183; Chat &#183; Comentários &#183; Bloco de código</text>
+  <text x="14" y="342" class="muted sm">Legenda de gráfico &#183; Legenda &#183; Notas de rodapé</text>
+  <text x="14" y="366" class="accent sm">Regra comum: mesma estrutura para itens do mesmo tipo.</text>
+
+  <rect x="368" y="238" width="352" height="140" rx="6" class="card"/>
+  <rect x="368" y="238" width="352" height="6" rx="3" fill="#0891b2"/>
+  <text x="382" y="268" class="ink h">Contêineres</text>
+  <text x="382" y="286" class="muted an">Agrupar e revelar</text>
+  <text x="382" y="310" class="muted sm">Bloco / contêiner &#183; Acordeão</text>
+  <text x="382" y="326" class="muted sm">São a matéria-prima de quase todos os outros:</text>
+  <text x="382" y="342" class="muted sm">um card é um bloco com regras, um modal é um bloco que flutua.</text>
+  <text x="382" y="366" class="accent sm">Regra comum: agrupar com espaço antes de agrupar com borda.</text>
+
+  <text x="0" y="410" class="muted cap">Componente é combinação de elementos. Se algo aqui não puder ser desmontado em botões, campos e texto, provavelmente é um padrão — não um componente.</text></svg>

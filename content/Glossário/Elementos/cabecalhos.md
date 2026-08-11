@@ -14,6 +14,8 @@ Os cabeçalhos são usados para estruturar o conteúdo de uma página, indicando
 
 ## Detalhes Adicionais / Tópicos
 
+![Espaçamento de cabeçalhos: mais espaço acima do que abaixo para que o título grude na seção que introduz, e a escala de h1 a h6](attachments/glossario-cabecalhos-ritmo.svg)
+
 - Hierarquia clara e consistente.
 - Tamanhos, pesos e margens definidos para cada nível (H1 a H6).
 - Importante para SEO e acessibilidade (leitores de tela).

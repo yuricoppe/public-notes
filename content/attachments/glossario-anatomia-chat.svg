@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Janela de chat anotada: mensagem recebida à esquerda com avatar e hora, mensagem enviada à direita com estado de entrega, indicador de digitando e campo de entrada">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Anatomia de um chat</text>
+  <text x="0" y="44" class="muted cap">Quase tudo aqui existe para responder duas perguntas: quem falou, e a minha mensagem chegou?</text>
+
+  <rect x="0" y="70" width="400" height="290" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.2"/>
+  <rect x="1" y="71" width="398" height="38" rx="8" fill="#f9fafb"/>
+  <rect x="1" y="96" width="398" height="13" fill="#f9fafb"/>
+  <circle cx="26" cy="90" r="12" fill="#e5e7eb"/>
+  <circle cx="34" cy="98" r="4.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="48" y="86" font-size="11" font-weight="700" fill="#1f2937">Suporte</text>
+  <text x="48" y="100" font-size="9" fill="#16a34a">online</text>
+  <line x1="0" y1="109" x2="400" y2="109" stroke="#e5e7eb" stroke-width="1"/>
+
+  <text x="200" y="128" font-size="9" fill="#9ca3af" text-anchor="middle">Hoje</text>
+
+  <circle cx="26" cy="152" r="11" fill="#e5e7eb"/>
+  <rect x="46" y="138" width="200" height="44" rx="10" fill="#f3f4f6"/>
+  <text x="58" y="156" font-size="10" fill="#1f2937">Oi! Em que posso ajudar</text>
+  <text x="58" y="172" font-size="10" fill="#1f2937">com o pedido 12342?</text>
+  <text x="252" y="176" font-size="9" fill="#9ca3af">09:14</text>
+
+  <rect x="154" y="194" width="234" height="44" rx="10" fill="#2563eb"/>
+  <text x="166" y="212" font-size="10" fill="#ffffff">Ele consta como entregue, mas</text>
+  <text x="166" y="228" font-size="10" fill="#ffffff">não chegou aqui.</text>
+  <text x="148" y="232" font-size="9" fill="#9ca3af" text-anchor="end">09:15 &#10003;&#10003;</text>
+
+  <circle cx="26" cy="264" r="11" fill="#e5e7eb"/>
+  <rect x="46" y="252" width="66" height="26" rx="13" fill="#f3f4f6"/>
+  <circle cx="64" cy="265" r="3.5" fill="#9ca3af"/>
+  <circle cx="79" cy="265" r="3.5" fill="#9ca3af"/>
+  <circle cx="94" cy="265" r="3.5" fill="#9ca3af"/>
+
+  <line x1="0" y1="300" x2="400" y2="300" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="14" y="312" width="310" height="32" rx="16" fill="#ffffff" stroke="#d1d5db" stroke-width="1.2"/>
+  <text x="30" y="332" font-size="10" fill="#9ca3af">Escreva sua mensagem</text>
+  <circle cx="356" cy="328" r="17" fill="#2563eb"/>
+  <path d="M 349 328 L 363 328 M 358 323 L 364 328 L 358 333" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+
+  <text x="430" y="90" class="ink h">Lado e cor separam os interlocutores</text>
+  <text x="430" y="110" class="muted an">Quem fala está à esquerda, você à direita. Só a cor não</text>
+  <text x="430" y="126" class="muted an">basta: o alinhamento é a pista que sobrevive ao daltonismo.</text>
+
+  <text x="430" y="160" class="ink h">Hora e estado de entrega</text>
+  <text x="430" y="180" class="muted an">Enviado, entregue e lido são três coisas diferentes. Se a</text>
+  <text x="430" y="196" class="muted an">interface promete uma, precisa cumprir.</text>
+
+  <text x="430" y="230" class="ink h">"Digitando" é uma promessa curta</text>
+  <text x="430" y="250" class="muted an">Sustenta a espera por poucos segundos. Deixado ligado por</text>
+  <text x="430" y="266" class="muted an">minutos, vira ruído e depois mentira.</text>
+
+  <text x="430" y="300" class="ink h">O que costuma faltar</text>
+  <text x="430" y="320" class="muted an">Mensagens novas anunciadas por aria-live, rolagem que não</text>
+  <text x="430" y="336" class="muted an">pula quando você está lendo o histórico, e um caminho claro</text>
+  <text x="430" y="352" class="muted an">quando o envio falha — com a opção de tentar de novo.</text>
+
+  <text x="0" y="382" class="muted cap">Rolagem automática só quando a pessoa já está no fim da conversa — puxar alguém de volta para baixo</text>
+  <text x="0" y="396" class="muted cap">no meio da leitura do histórico é uma das formas mais rápidas de irritar quem está buscando algo.</text></svg>

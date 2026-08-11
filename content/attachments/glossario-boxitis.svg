@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-label="Mesmo conteúdo em duas versões: à esquerda com caixas aninhadas e bordas em tudo, à direita apenas com espaçamento e uma divisória sutil">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Bloco e contêiner — e a tentação de encaixotar tudo</text>
+  <text x="0" y="44" class="muted cap">A borda é o jeito mais caro de agrupar. Quase sempre o espaço em branco já tinha resolvido</text>
+
+  <text x="0" y="72" class="warn h">Boxitis: cada agrupamento virou uma borda</text>
+  <rect x="0" y="84" width="340" height="200" rx="6" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+  <rect x="10" y="94" width="320" height="180" rx="5" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1.2"/>
+  <rect x="20" y="104" width="300" height="30" rx="4" fill="#ffffff" stroke="#9ca3af" stroke-width="1.2"/>
+  <text x="32" y="124" font-size="12" font-weight="700" fill="#1f2937">Resumo do mês</text>
+  <rect x="20" y="142" width="300" height="56" rx="4" fill="#ffffff" stroke="#9ca3af" stroke-width="1.2"/>
+  <rect x="30" y="154" width="120" height="6" rx="3" fill="#e5e7eb"/>
+  <rect x="30" y="168" width="260" height="6" rx="3" fill="#e5e7eb"/>
+  <rect x="30" y="182" width="200" height="6" rx="3" fill="#e5e7eb"/>
+  <rect x="20" y="206" width="300" height="56" rx="4" fill="#ffffff" stroke="#9ca3af" stroke-width="1.2"/>
+  <rect x="30" y="218" width="140" height="6" rx="3" fill="#e5e7eb"/>
+  <rect x="30" y="232" width="260" height="6" rx="3" fill="#e5e7eb"/>
+  <rect x="30" y="246" width="180" height="6" rx="3" fill="#e5e7eb"/>
+
+  <text x="380" y="72" class="ok h">Mesmo conteúdo, resolvido no espaço</text>
+  <text x="380" y="112" font-size="12" font-weight="700" fill="#1f2937">Resumo do mês</text>
+  <rect x="380" y="130" width="120" height="6" rx="3" fill="#e5e7eb"/>
+  <rect x="380" y="144" width="300" height="6" rx="3" fill="#e5e7eb"/>
+  <rect x="380" y="158" width="240" height="6" rx="3" fill="#e5e7eb"/>
+  <line x1="380" y1="188" x2="680" y2="188" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="380" y="212" width="140" height="6" rx="3" fill="#e5e7eb"/>
+  <rect x="380" y="226" width="300" height="6" rx="3" fill="#e5e7eb"/>
+  <rect x="380" y="240" width="220" height="6" rx="3" fill="#e5e7eb"/>
+  <text x="380" y="272" class="muted sm">Uma divisória sutil, e o resto é margem.</text>
+
+  <text x="0" y="316" class="ink h">Quando o bloco se justifica</text>
+  <text x="0" y="336" class="muted an">Quando o agrupamento precisa de fundo próprio, elevação ou de ser</text>
+  <text x="0" y="352" class="muted an">arrastado e reordenado como uma unidade.</text>
+
+  <text x="380" y="316" class="ink h">O que ele deve carregar</text>
+  <text x="380" y="336" class="muted an">Se agrupa uma região com sentido, vale role="region" e um</text>
+  <text x="380" y="352" class="muted an">aria-labelledby apontando para o título da seção.</text></svg>

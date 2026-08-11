@@ -25,6 +25,8 @@ O componente Inline Error (Erro Inline) é uma mensagem de erro exibida diretame
 
 ## Melhores Práticas
 
+![Mensagem de erro inline: versão ruim com texto genérico e versão boa que diz o problema e como resolver, mais a ligação por aria-describedby e aria-invalid](attachments/glossario-erro-inline.svg)
+
 -   **Imediaticidade e Contexto:** A mensagem de erro deve aparecer assim que a validação falha (ex: ao sair do campo - on blur, ou na tentativa de submissão do formulário) e estar claramente associada ao campo problemático.
 -   **Clareza e Ação:** A mensagem deve ser fácil de entender. Evitar jargões técnicos. Se possível, sugerir como corrigir o erro.
     *   Ruim: "Erro de validação 2a-4f"

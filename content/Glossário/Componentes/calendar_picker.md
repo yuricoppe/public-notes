@@ -20,6 +20,8 @@ O Calendar Picker é um componente de interface que permite aos usuários seleci
 
 ## Funcionalidades Essenciais
 
+![Seletor de data anotado: navegação entre meses, dia de hoje contornado, dia selecionado, intervalo destacado, dias desabilitados e o mapa de teclado](attachments/glossario-calendar-picker.svg)
+
 -   **Navegação entre Meses/Anos:** Permitir que o usuário avance e retroceda facilmente entre meses e anos.
 -   **Seleção de Dia:** Indicação clara do dia selecionado.
 -   **Dia Atual:** Destaque para o dia atual.

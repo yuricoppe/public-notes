@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-label="Espaçamento de cabeçalhos: mais espaço acima do que abaixo para que o título grude na seção que introduz, e a escala de tamanho de h1 a h6">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .accent{ fill: #2563eb; }
+    .warn  { fill: #dc2626; }
+    .ok    { fill: #16a34a; }
+    .card  { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1.2; }
+    .frame { fill: none; stroke: #9ca3af; stroke-width: 1.2; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; fill: none; }
+    .badge { fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .an  { font-size: 11.5px; }
+    .sm  { font-size: 10.5px; }
+    .cap { font-size: 13px; }
+    .num { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .accent { fill: #60a5fa; }
+      .warn { fill: #f87171; }
+      .ok { fill: #34d399; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .frame { stroke: #6b7280; }
+      .lead { stroke: #6b7280; }
+      .arrow { stroke: #6b7280; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Cabeçalhos: o espaço acima importa mais que o de baixo</text>
+  <text x="0" y="44" class="muted cap">Um título espaçado por igual dos dois lados flutua entre as seções e não pertence a nenhuma</text>
+
+  <text x="0" y="76" class="warn h">Espaçamento simétrico</text>
+  <rect x="0" y="88" width="340" height="184" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.2"/>
+  <rect x="16" y="102" width="290" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="16" y="114" width="240" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="16" y="152" width="150" height="11" rx="3" fill="#9ca3af"/>
+  <rect x="16" y="190" width="300" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="16" y="202" width="270" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="16" y="214" width="200" height="5" rx="2.5" fill="#e5e7eb"/>
+  <path d="M 328 122 L 328 149" class="lead"/>
+  <path d="M 328 166 L 328 187" class="lead"/>
+  <text x="336" y="140" class="warn sm">32</text>
+  <text x="336" y="182" class="warn sm">32</text>
+  <text x="16" y="250" class="muted sm">O título fica igualmente longe dos dois</text>
+  <text x="16" y="264" class="muted sm">blocos. A qual deles ele pertence?</text>
+
+  <text x="380" y="76" class="ok h">Mais acima do que abaixo</text>
+  <rect x="380" y="88" width="340" height="184" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.2"/>
+  <rect x="396" y="102" width="290" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="396" y="114" width="240" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="396" y="164" width="150" height="11" rx="3" fill="#1f2937"/>
+  <rect x="396" y="190" width="300" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="396" y="202" width="270" height="5" rx="2.5" fill="#e5e7eb"/>
+  <rect x="396" y="214" width="200" height="5" rx="2.5" fill="#e5e7eb"/>
+  <path d="M 706 122 L 706 161" class="lead"/>
+  <path d="M 706 178 L 706 187" class="lead"/>
+  <text x="694" y="146" class="accent sm" text-anchor="end">48</text>
+  <text x="694" y="184" class="accent sm" text-anchor="end">16</text>
+  <text x="396" y="250" class="muted sm">O título gruda no que vem depois. A</text>
+  <text x="396" y="264" class="muted sm">proximidade já diz que eles são um só.</text>
+
+  <rect x="0" y="296" width="720" height="76" rx="6" class="card"/>
+  <text x="16" y="318" class="ink h">A escala de h1 a h6, e onde ela para</text>
+  <text x="16" y="344" font-size="20" font-weight="700" fill="#1f2937">H1</text>
+  <text x="56" y="344" font-size="17" font-weight="700" fill="#1f2937">H2</text>
+  <text x="92" y="344" font-size="14" font-weight="700" fill="#1f2937">H3</text>
+  <text x="124" y="344" font-size="12" font-weight="700" fill="#1f2937">H4</text>
+  <text x="152" y="344" font-size="11" font-weight="700" fill="#6b7280">H5</text>
+  <text x="176" y="344" font-size="10" font-weight="700" fill="#6b7280">H6</text>
+  <text x="216" y="338" class="muted an">Na prática, poucas páginas passam do h3. Se você precisou de h5,</text>
+  <text x="216" y="354" class="muted an">a página provavelmente devia ter virado duas.</text></svg>
