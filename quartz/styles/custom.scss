@@ -18,6 +18,14 @@
  *  - a gaveta no tablet e no celular
  */
 
+// O padrão do navegador é 16px e todo o Quartz mede em `rem`. Subir a raiz
+// para 18px acrescenta os 2px pedidos no texto corrido e leva o resto junto,
+// na mesma proporção — inclusive o teto de leitura, que é medido em `ch` e
+// portanto continua valendo 75 caracteres.
+html {
+  font-size: 18px;
+}
+
 :root {
   --topbar-height: 3.5rem;
   --nav-width: 19rem;
@@ -320,6 +328,25 @@ body[data-slug="index"] {
         font-size: 0.85rem;
         color: var(--darkgray);
         line-height: 1.4;
+      }
+
+      // As páginas de dentro, até quatro por acervo: atalho direto, sem
+      // passar pelo índice da pasta.
+      & > ul {
+        list-style: none;
+        margin: 0.5rem 0 0 0;
+        padding: 0;
+
+        & > li {
+          margin: 0;
+          padding: 0.1rem 0;
+
+          & > a {
+            font-size: 0.85rem;
+            font-weight: $normalWeight;
+            line-height: 1.35;
+          }
+        }
       }
     }
   }
