@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 344" width="720" height="344" role="img" aria-label="Dois erros de eixo: valores negativos e positivos desenhados do mesmo lado da linha de base, em vez de lados opostos; e duas séries de grandezas diferentes num gráfico com dois eixos verticais, em vez de dois gráficos empilhados com o mesmo eixo horizontal">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .card  { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .plot  { fill: #ffffff; stroke: #e5e7eb; stroke-width: 1; }
+    .axis  { stroke: #9ca3af; stroke-width: 1; }
+    .base  { stroke: #1f2937; stroke-width: 1.4; }
+    .pos   { fill: #10b981; }
+    .neg   { fill: #f87171; }
+    .ln1   { stroke: #2563eb; stroke-width: 1.8; fill: none; }
+    .ln2   { stroke: #f59e0b; stroke-width: 1.8; fill: none; }
+    .bad   { fill: #dc2626; }
+    .ok    { fill: #10b981; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .why { font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    .tiny{ font-size: 9px; }
+    .badge { font-size: 11px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .plot { fill: #111827; stroke: #374151; }
+      .axis { stroke: #6b7280; } .base { stroke: #e5e7eb; }
+      .ln1 { stroke: #60a5fa; } .ln2 { stroke: #fbbf24; }
+      .bad { fill: #f87171; } .ok { fill: #34d399; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Onde o eixo mente</text>
+  <text x="0" y="44" class="muted cap">Dois itens da lista que tratam da mesma coisa: a linha de base tem que significar alguma coisa</text>
+
+  <rect x="0" y="62" width="352" height="212" rx="8" class="card"/>
+  <text x="16" y="86" class="ink h">Negativo e positivo do mesmo lado</text>
+  <text x="16" y="104" class="muted why">Se tudo cresce para a direita, a cor vira a única</text>
+  <text x="16" y="119" class="muted why">pista do sinal — e some para quem não a distingue.</text>
+  <rect x="16" y="132" width="152" height="122" rx="4" class="plot"/>
+  <text x="22" y="147" class="bad badge">✕</text>
+  <line x1="44" y1="156" x2="44" y2="242" class="base"/>
+  <rect x="44" y="162" width="72" height="12" class="pos"/><text x="120" y="172" class="muted tiny">124</text>
+  <rect x="44" y="180" width="56" height="12" class="pos"/><text x="104" y="190" class="muted tiny">98</text>
+  <rect x="44" y="198" width="50" height="12" class="neg"/><text x="98"  y="208" class="bad tiny">-87</text>
+  <rect x="44" y="216" width="60" height="12" class="neg"/><text x="108" y="226" class="bad tiny">-104</text>
+  <text x="24" y="252" class="bad tiny">todos apontam para o mesmo lado</text>
+  <rect x="184" y="132" width="152" height="122" rx="4" class="plot"/>
+  <text x="190" y="147" class="ok badge">✓</text>
+  <line x1="262" y1="156" x2="262" y2="242" class="base"/>
+  <rect x="262" y="162" width="60" height="12" class="pos"/>
+  <rect x="262" y="180" width="46" height="12" class="pos"/>
+  <rect x="220" y="198" width="42" height="12" class="neg"/>
+  <rect x="212" y="216" width="50" height="12" class="neg"/>
+  <text x="192" y="252" class="ok tiny">o lado já diz o sinal</text>
+
+  <rect x="368" y="62" width="352" height="212" rx="8" class="card"/>
+  <text x="384" y="86" class="ink h">Duas escalas no mesmo gráfico</text>
+  <text x="384" y="104" class="muted why">Onde as duas linhas se cruzam foi escolhido por quem</text>
+  <text x="384" y="119" class="muted why">desenhou. Mexa num máximo e a conclusão muda.</text>
+  <rect x="384" y="132" width="152" height="122" rx="4" class="plot"/>
+  <text x="390" y="147" class="bad badge">✕</text>
+  <text x="404" y="160" class="muted tiny">500</text>
+  <text x="508" y="160" class="muted tiny">12K</text>
+  <line x1="402" y1="164" x2="402" y2="238" class="axis"/>
+  <line x1="518" y1="164" x2="518" y2="238" class="axis"/>
+  <path d="M406 228 L432 216 L458 220 L484 196 L514 178" class="ln1"/>
+  <path d="M406 178 L432 190 L458 186 L484 208 L514 224" class="ln2"/>
+  <text x="392" y="250" class="bad tiny">cruzamento arbitrário</text>
+  <rect x="552" y="132" width="152" height="122" rx="4" class="plot"/>
+  <text x="558" y="147" class="ok badge">✓</text>
+  <line x1="572" y1="160" x2="572" y2="192" class="axis"/>
+  <line x1="572" y1="192" x2="694" y2="192" class="axis"/>
+  <path d="M576 186 L602 178 L628 180 L654 168 L690 162" class="ln1"/>
+  <text x="600" y="172" class="muted tiny">maçãs</text>
+  <line x1="572" y1="206" x2="572" y2="238" class="axis"/>
+  <line x1="572" y1="238" x2="694" y2="238" class="axis"/>
+  <path d="M576 212 L602 220 L628 218 L654 228 L690 232" class="ln2"/>
+  <text x="600" y="218" class="muted tiny">laranjas</text>
+  <text x="562" y="250" class="ok tiny">mesmo eixo horizontal, escalas próprias</text>
+
+  <text x="0" y="308" class="muted cap">A saída da direita preserva a comparação de forma honesta. Se o que interessa é o crescimento relativo,</text>
+  <text x="0" y="326" class="muted cap">a outra opção é indexar as duas séries a uma base comum e desenhar em um eixo só.</text>
+</svg>

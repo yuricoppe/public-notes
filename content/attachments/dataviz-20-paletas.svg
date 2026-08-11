@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="As três paletas que o artigo descreve — qualitativa para categorias, sequencial para magnitude e divergente para polaridade — mais a quarta que ele não menciona, a semântica de estado, e o teste de imprimir em preto e branco">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .card  { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .miss  { fill: #fffbeb; stroke: #f59e0b; stroke-width: 1.4; }
+    .warn  { fill: #b45309; }
+    .sw    { stroke: #ffffff; stroke-width: 1.5; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .why { font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    .tiny{ font-size: 9.5px; }
+    .k   { font-size: 10.5px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .miss { fill: #2a2312; stroke: #fbbf24; }
+      .warn { fill: #fbbf24; }
+      .sw { stroke: #111827; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Três paletas — e a quarta que falta na lista</text>
+  <text x="0" y="44" class="muted cap">O trabalho que a cor está fazendo decide a regra. Trocar um pelo outro é o erro de cor mais comum.</text>
+
+  <rect x="0" y="62" width="234" height="150" rx="8" class="card"/>
+  <text x="16" y="86" class="ink h">Qualitativa</text>
+  <text x="16" y="104" class="muted why">Categorias sem ordem entre si.</text>
+  <rect x="16" y="118" width="30" height="30" rx="3" fill="#2563eb" class="sw"/>
+  <rect x="48" y="118" width="30" height="30" rx="3" fill="#f59e0b" class="sw"/>
+  <rect x="80" y="118" width="30" height="30" rx="3" fill="#0d9488" class="sw"/>
+  <rect x="112" y="118" width="30" height="30" rx="3" fill="#7c3aed" class="sw"/>
+  <rect x="144" y="118" width="30" height="30" rx="3" fill="#64748b" class="sw"/>
+  <text x="16" y="170" class="muted tiny">A cor pertence à entidade —</text>
+  <text x="16" y="186" class="muted tiny">nunca à posição no ranking.</text>
+  <text x="16" y="202" class="muted tiny">Limite em três ou quatro.</text>
+
+  <rect x="243" y="62" width="234" height="150" rx="8" class="card"/>
+  <text x="259" y="86" class="ink h">Sequencial</text>
+  <text x="259" y="104" class="muted why">Uma quantidade que cresce.</text>
+  <rect x="259" y="118" width="30" height="30" rx="3" fill="#dbeafe" class="sw"/>
+  <rect x="291" y="118" width="30" height="30" rx="3" fill="#93c5fd" class="sw"/>
+  <rect x="323" y="118" width="30" height="30" rx="3" fill="#60a5fa" class="sw"/>
+  <rect x="355" y="118" width="30" height="30" rx="3" fill="#2563eb" class="sw"/>
+  <rect x="387" y="118" width="30" height="30" rx="3" fill="#1e3a8a" class="sw"/>
+  <text x="259" y="170" class="muted tiny">Uma cor só, do claro ao escuro.</text>
+  <text x="259" y="186" class="muted tiny">É a luminosidade que carrega a</text>
+  <text x="259" y="202" class="muted tiny">ordem — por isso arco-íris falha.</text>
+
+  <rect x="486" y="62" width="234" height="150" rx="8" class="card"/>
+  <text x="502" y="86" class="ink h">Divergente</text>
+  <text x="502" y="104" class="muted why">Dois lados a partir de um meio.</text>
+  <rect x="502" y="118" width="30" height="30" rx="3" fill="#dc2626" class="sw"/>
+  <rect x="534" y="118" width="30" height="30" rx="3" fill="#fca5a5" class="sw"/>
+  <rect x="566" y="118" width="30" height="30" rx="3" fill="#e5e7eb" class="sw"/>
+  <rect x="598" y="118" width="30" height="30" rx="3" fill="#93c5fd" class="sw"/>
+  <rect x="630" y="118" width="30" height="30" rx="3" fill="#1d4ed8" class="sw"/>
+  <text x="502" y="170" class="muted tiny">Duas temperaturas opostas e um</text>
+  <text x="502" y="186" class="muted tiny">cinza neutro no meio. Cor no meio</text>
+  <text x="502" y="202" class="muted tiny">faz o “nada” parecer alguma coisa.</text>
+
+  <rect x="0" y="224" width="352" height="118" rx="8" class="miss"/>
+  <text x="16" y="248" class="warn k">A QUARTA, QUE O ARTIGO NÃO CITA</text>
+  <text x="16" y="270" class="ink h">Semântica de estado</text>
+  <rect x="16" y="282" width="30" height="24" rx="3" fill="#10b981" class="sw"/>
+  <rect x="48" y="282" width="30" height="24" rx="3" fill="#f59e0b" class="sw"/>
+  <rect x="80" y="282" width="30" height="24" rx="3" fill="#ea580c" class="sw"/>
+  <rect x="112" y="282" width="30" height="24" rx="3" fill="#dc2626" class="sw"/>
+  <text x="150" y="298" class="muted tiny">bom · atenção · grave · crítico</text>
+  <text x="16" y="326" class="muted tiny">São reservadas. Se vermelho significa erro no produto, ele não pode</text>
+  <text x="16" y="338" class="muted tiny">ser também a série 4 do gráfico ao lado.</text>
+
+  <rect x="368" y="224" width="352" height="118" rx="8" class="card"/>
+  <text x="384" y="248" class="ink h">O teste de bolso</text>
+  <text x="384" y="266" class="muted why">Imprima em preto e branco. Se continua legível, serve</text>
+  <text x="384" y="281" class="muted why">para quem não distingue matiz.</text>
+  <rect x="384" y="292" width="26" height="22" rx="3" fill="#2563eb" class="sw"/>
+  <rect x="412" y="292" width="26" height="22" rx="3" fill="#0d9488" class="sw"/>
+  <rect x="440" y="292" width="26" height="22" rx="3" fill="#f59e0b" class="sw"/>
+  <text x="474" y="307" class="muted tiny">→</text>
+  <rect x="492" y="292" width="26" height="22" rx="3" fill="#6b7280" class="sw"/>
+  <rect x="520" y="292" width="26" height="22" rx="3" fill="#8a8f98" class="sw"/>
+  <rect x="548" y="292" width="26" height="22" rx="3" fill="#b3b7bd" class="sw"/>
+  <text x="586" y="307" class="muted tiny">distintas em cinza</text>
+  <text x="384" y="332" class="muted tiny">Funciona porque a maior parte do daltonismo é de matiz, não de brilho.</text>
+
+  <text x="0" y="376" class="muted cap">Uma correção ao item 16: o artigo diz que cerca de 1 em 12 <tspan class="ink">humanos</tspan> é daltônico. O correto é 1 em 12</text>
+  <text x="0" y="394" class="muted cap"><tspan class="ink">homens</tspan> e 1 em 200 mulheres — prevalência geral perto de 4%, não de 8%. Cerca de 300 milhões de pessoas.</text>
+</svg>

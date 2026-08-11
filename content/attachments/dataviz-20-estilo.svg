@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 366" width="720" height="366" role="img" aria-label="Dois itens sobre estilo: ornamento que atrapalha o dado — três dimensões, gradiente, sombra, grade pesada e fundo em zebra — contra o mesmo gráfico limpo; e seis defeitos de tipografia — fonte decorativa, caixa alta, contraste baixo, itálico, negrito e texto girado — contra o rótulo legível">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .card  { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .plot  { fill: #ffffff; stroke: #e5e7eb; stroke-width: 1; }
+    .axis  { stroke: #9ca3af; stroke-width: 1; }
+    .heavy { stroke: #9ca3af; stroke-width: 1; stroke-dasharray: 3 3; }
+    .mark  { fill: #2563eb; }
+    .bad   { fill: #dc2626; }
+    .ok    { fill: #10b981; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .why { font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    .tiny{ font-size: 9px; }
+    .lbl { font-size: 10px; }
+    .badge { font-size: 11px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .plot { fill: #111827; stroke: #374151; }
+      .axis { stroke: #6b7280; } .heavy { stroke: #6b7280; }
+      .mark { fill: #60a5fa; }
+      .bad { fill: #f87171; } .ok { fill: #34d399; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d4ed8"/><stop offset="100%" stop-color="#bfdbfe"/>
+    </linearGradient>
+    <filter id="sh"><feDropShadow dx="2" dy="3" stdDeviation="2" flood-opacity="0.4"/></filter>
+  </defs>
+
+  <text x="0" y="22" class="ink ttl">Ornamento e tipografia</text>
+  <text x="0" y="44" class="muted cap">Tudo que ocupa tinta sem carregar dado disputa atenção com o dado</text>
+
+  <rect x="0" y="62" width="352" height="176" rx="8" class="card"/>
+  <text x="16" y="86" class="ink h">Deixe o dado falar</text>
+  <text x="16" y="104" class="muted why">3D, gradiente, sombra, grade tracejada, faixa de fundo:</text>
+  <text x="16" y="119" class="muted why">cinco enfeites, nenhum acrescenta informação.</text>
+  <rect x="16" y="130" width="152" height="94" rx="4" class="plot"/>
+  <text x="22" y="145" class="bad badge">✕</text>
+  <rect x="38" y="152" width="24" height="62" fill="#eef2ff"/>
+  <rect x="86" y="152" width="24" height="62" fill="#eef2ff"/>
+  <rect x="134" y="152" width="24" height="62" fill="#eef2ff"/>
+  <line x1="34" y1="170" x2="162" y2="170" class="heavy"/>
+  <line x1="34" y1="190" x2="162" y2="190" class="heavy"/>
+  <line x1="34" y1="210" x2="162" y2="210" class="heavy"/>
+  <g filter="url(#sh)">
+    <polygon points="40,178 52,172 60,176 48,182" fill="#93c5fd"/>
+    <rect x="40" y="178" width="8" height="36" fill="url(#grad)"/>
+    <polygon points="48,182 60,176 60,208 48,214" fill="#1e40af"/>
+    <polygon points="70,162 82,156 90,160 78,166" fill="#93c5fd"/>
+    <rect x="70" y="162" width="8" height="52" fill="url(#grad)"/>
+    <polygon points="78,166 90,160 90,208 78,214" fill="#1e40af"/>
+    <polygon points="100,186 112,180 120,184 108,190" fill="#93c5fd"/>
+    <rect x="100" y="186" width="8" height="28" fill="url(#grad)"/>
+    <polygon points="108,190 120,184 120,208 108,214" fill="#1e40af"/>
+  </g>
+  <text x="26" y="150" class="bad tiny" font-style="italic" font-weight="700">Novos usuários</text>
+  <rect x="184" y="130" width="152" height="94" rx="4" class="plot"/>
+  <text x="190" y="145" class="ok badge">✓</text>
+  <text x="206" y="150" class="ink tiny">Novos usuários</text>
+  <line x1="206" y1="214" x2="326" y2="214" class="axis"/>
+  <rect x="214" y="178" width="22" height="36" class="mark"/>
+  <rect x="248" y="162" width="22" height="52" class="mark"/>
+  <rect x="282" y="186" width="22" height="28" class="mark"/>
+
+  <rect x="368" y="62" width="352" height="176" rx="8" class="card"/>
+  <text x="384" y="86" class="ink h">Legibilidade do rótulo</text>
+  <text x="384" y="104" class="muted why">Seis defeitos de tipografia que o artigo enfileira, e o</text>
+  <text x="384" y="119" class="muted why">mesmo rótulo escrito para ser lido.</text>
+  <rect x="384" y="130" width="320" height="94" rx="4" class="plot"/>
+  <text x="390" y="145" class="bad badge">✕</text>
+  <text x="410" y="146" class="bad lbl" font-family="Georgia, serif" font-style="italic">Jul  Ago  Set</text>
+  <text x="518" y="146" class="muted tiny">fonte decorativa</text>
+  <text x="410" y="166" class="ink lbl" letter-spacing="1">JUL  AGO  SET</text>
+  <text x="518" y="166" class="muted tiny">caixa alta</text>
+  <text x="410" y="186" class="lbl" fill="#c7d2dd">Jul  Ago  Set</text>
+  <text x="518" y="186" class="muted tiny">contraste baixo</text>
+  <text x="410" y="206" class="ink lbl" font-style="italic" font-weight="700">Jul  Ago  Set</text>
+  <text x="518" y="206" class="muted tiny">itálico e negrito</text>
+  <g transform="translate(478,214) rotate(-45)"><text x="0" y="0" class="ink lbl">Setembro</text></g>
+  <text x="518" y="220" class="muted tiny">girado</text>
+  <text x="384" y="242" class="ok tiny">✓ Jul · Ago · Set — sem serifa, caixa mista, contraste alto, na horizontal</text>
+
+  <text x="0" y="286" class="muted cap">A ressalva que a pesquisa posterior levantou contra o purismo de tinta-dado: certos elementos memoráveis</text>
+  <text x="0" y="304" class="muted cap">ajudam na retenção, e gráfico completamente despido nem sempre comunica melhor para público amplo.</text>
+  <text x="0" y="326" class="muted cap">A regra que sobrevive: rigor por padrão, ornamento como decisão consciente com objetivo declarado —</text>
+  <text x="0" y="344" class="muted cap">e nunca em cima da codificação do dado.</text>
+</svg>

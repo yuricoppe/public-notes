@@ -38,6 +38,8 @@ Vale acrescentar o que a pesquisa mostrou depois, porque complica tudo: Correll,
 
 Concordo inteiramente, e acrescento o motivo formal: o alinhamento entre as duas escalas é **arbitrário**. Quem monta o gráfico decide onde as duas linhas se cruzam, e a correlação aparente muda se alguém mexer no máximo de um dos eixos. As saídas: dois gráficos, pequenos múltiplos, ou indexar as duas séries a uma base comum.
 
+![Negativos e positivos desenhados do mesmo lado da linha de base contra lados opostos, e duas escalas num gráfico só contra dois gráficos empilhados com o mesmo eixo horizontal](attachments/dataviz-20-direcao-e-eixo.svg)
+
 ## Linhas
 
 **5. Pense na série temporal antes de usar linha.** O ponto é sutil e pouco citado: a linha liga marcadores, e quem lê presume que os valores entre eles existem. Se a receita é anual mas atualizada mensalmente, as linhas entre os pontos sugerem valores que ninguém mediu. A recomendação dele é usar barras verticais nesses casos.
@@ -78,6 +80,8 @@ Com uma exceção que vale registrar: quando a pessoa vem **procurar um item esp
 
 **18. Barra horizontal em vez de rótulo girado.** Simples e certo. Texto na vertical é mais lento de ler e, em gráfico interativo, é um problema de acessibilidade — o WCAG desaconselha texto rotacionado.
 
+![Legenda separada contra rótulo direto, ordem alfabética contra ordem por valor com o caminho do olho desenhado, e rótulo girado contra barra horizontal](attachments/dataviz-20-rotulo-e-ordem.svg)
+
 ## Estilo
 
 **14. Deixe o dado falar.** A lista do que evitar é a do Tufte: 3D, sombreado, sombras, gradientes e distorções de cor, padrões de zebra, excesso de linhas de grade, fontes decorativas, itálico, negrito ou serifadas.
@@ -85,6 +89,8 @@ Com uma exceção que vale registrar: quando a pessoa vem **procurar um item esp
 Concordo com quase tudo. Duas notas. A primeira é que a proibição de negrito é forte demais — negrito em subtítulo de seção funciona bem e não atrapalha a leitura do dado; o que atrapalha é negrito **no dado**. A segunda é a ressalva que a pesquisa posterior levantou contra o purismo de tinta-dado: certos elementos memoráveis ajudam na retenção, e gráfico completamente despido nem sempre comunica melhor para público amplo. A regra que sobrevive: rigor por padrão, ornamento como decisão consciente, e nunca em cima da codificação.
 
 **17. Cuide da legibilidade.** Tipografia legível, sem serifa e sem fonte decorativa; evitar itálico, negrito e caixa alta; alto contraste com o fundo; não girar texto.
+
+![Gráfico carregado de 3D, gradiente, sombra, grade tracejada e faixa de fundo contra o mesmo gráfico limpo; e seis defeitos de tipografia contra o rótulo legível](attachments/dataviz-20-estilo.svg)
 
 ## Cor
 
@@ -104,6 +110,8 @@ Duas correções, porém. A primeira é um dado: o artigo diz, citando o Nationa
 
 A segunda é de escopo, e é a maior lacuna do artigo: **acessibilidade aqui é só cor**. Não há leitor de tela, teclado, tabela equivalente, zoom nem descrição textual. É o assunto de [[Acessibilidade em dataviz]], e é onde as auditorias reais encontram os problemas mais graves.
 
+![As três paletas do artigo — qualitativa, sequencial e divergente — mais a semântica de estado que ele não cita, e o teste de imprimir em preto e branco](attachments/dataviz-20-paletas.svg)
+
 ## Ferramenta e interação
 
 **19. Escolha a biblioteca de gráficos.** O argumento é bom e raramente feito: bibliotecas modernas já trazem muitas dessas regras e interações embutidas, e desenhar a partir de uma biblioteca definida facilita a implementação e sugere ideias de interação.
@@ -113,6 +121,8 @@ O critério que falta na lista dele é justamente o de acessibilidade. Bibliotec
 **20. Vá além do relatório estático.** Deixar a pessoa mudar parâmetros, tipo de visualização e período; tirar conclusões para maximizar o insight. O exemplo dele é o app Saúde do iOS, que combina vários tipos de apresentação do mesmo dado.
 
 O exemplo é bem escolhido — e o app Saúde é, por outros motivos, o melhor caso público de acessibilidade em dataviz, com navegação estruturada por leitor de tela, gráficos sonoros e resumo em texto acima do gráfico.
+
+![Os três níveis: relatar, que só mostra o número; explorar, que deixa mudar o recorte; e concluir, que diz em uma frase o que aquilo significa](attachments/dataviz-20-relatar-explorar-concluir.svg)
 
 Uma ressalva importante que a lista não faz: **não esconda o dado atrás da interação**. Informação que só existe no hover exclui celular, teclado e leitor de tela de uma vez. Interação enriquece; não pode ser o único caminho.
 
