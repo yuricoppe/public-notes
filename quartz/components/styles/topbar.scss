@@ -76,6 +76,9 @@
     align-items: center;
     gap: 0.5rem;
     flex-shrink: 0;
+    // Empurra para a direita por conta própria: na home as migalhas não
+    // existem, e sem isso as ações encostariam na marca.
+    margin-left: auto;
 
     & > .search {
       width: 16rem;

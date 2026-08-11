@@ -44,13 +44,20 @@
 .page > #quartz-body {
   column-gap: 0;
 
+  // As faixas do upstream são todas `auto`. Como a coluna esquerda cruza todas
+  // elas e costuma ser mais alta que o texto, a sobra de altura se reparte
+  // entre as faixas — inclusive a do cabeçalho, que está vazia — e o conteúdo
+  // de páginas curtas descia até o rodapé. Dando `1fr` à faixa do meio, a
+  // sobra vai toda para lá e o texto fica no topo.
   @media all and ($desktop) {
     grid-template-columns: var(--nav-width) minmax(0, 1fr) var(--aside-width);
+    grid-template-rows: auto 1fr auto;
   }
 
   @media all and ($tablet) {
     // A coluna esquerda deixa de ocupar espaço e vira gaveta sobreposta.
     grid-template-columns: 0 minmax(0, 1fr);
+    grid-template-rows: auto 1fr auto auto;
   }
 
   // As laterais grudam abaixo das barras, não no topo da janela.
@@ -285,7 +292,9 @@ body[data-slug="index"] {
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    color: var(--gray);
+    // `--gray` sobre `--light` dá menos de 2:1. Estes são rótulos de seção e
+    // linhas de apoio, não decoração — usam a tinta de texto secundária.
+    color: var(--darkgray);
     border-bottom: 1px solid var(--lightgray);
     padding-bottom: 0.4rem;
     margin-top: 2.5rem;
@@ -309,7 +318,7 @@ body[data-slug="index"] {
       & > .home-desc {
         display: block;
         font-size: 0.85rem;
-        color: var(--gray);
+        color: var(--darkgray);
         line-height: 1.4;
       }
     }
