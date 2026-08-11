@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-label="Comparação entre componente de design system, receita e floco de neve: o componente é agnóstico de conteúdo e contexto e vale para todos os produtos, a receita é uma composição específica de um produto e o floco é uma peça de uso único">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.4; }
+    .accent{ fill: #2563eb; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 15px; font-weight: 700; }
+    .k   { font-size: 11.5px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Componente, receita e floco de neve</text>
+  <text x="0" y="44" class="muted cap">Nem tudo que se constrói pertence ao sistema. Nomear a diferença evita a briga sobre isso.</text>
+
+  <rect x="0" y="66" width="230" height="238" rx="8" class="box"/>
+  <text x="18" y="92" class="accent k">VALE PARA TODO MUNDO</text>
+  <text x="18" y="118" class="ink h">Componente</text>
+  <text x="18" y="146" class="muted cap">Agnóstico de conteúdo e de</text>
+  <text x="18" y="164" class="muted cap">contexto, feito para reuso</text>
+  <text x="18" y="182" class="muted cap">máximo.</text>
+  <text x="18" y="212" class="accent mono">Button · Card · Select</text>
+  <text x="18" y="230" class="accent mono">Accordion · Dialog</text>
+  <text x="18" y="262" class="muted cap">Mora na biblioteca publicada</text>
+  <text x="18" y="280" class="muted cap">do design system.</text>
+
+  <rect x="245" y="66" width="230" height="238" rx="8" class="box"/>
+  <text x="263" y="92" class="accent k">VALE PARA ESTE PRODUTO</text>
+  <text x="263" y="118" class="ink h">Receita</text>
+  <text x="263" y="146" class="muted cap">Composição de componentes</text>
+  <text x="263" y="164" class="muted cap">do sistema, reutilizada dentro</text>
+  <text x="263" y="182" class="muted cap">de um produto só.</text>
+  <text x="263" y="212" class="accent mono">CartaoDeProduto</text>
+  <text x="263" y="230" class="accent mono">CampoDeNome</text>
+  <text x="263" y="262" class="muted cap">Mora no repositório do</text>
+  <text x="263" y="280" class="muted cap">produto. É legítima.</text>
+
+  <rect x="490" y="66" width="230" height="238" rx="8" class="box"/>
+  <text x="508" y="92" class="accent k">VALE PARA UM CASO SÓ</text>
+  <text x="508" y="118" class="ink h">Floco de neve</text>
+  <text x="508" y="146" class="muted cap">Peça de uso único, que não</text>
+  <text x="508" y="164" class="muted cap">se repete nem dentro do</text>
+  <text x="508" y="182" class="muted cap">próprio produto.</text>
+  <text x="508" y="212" class="accent mono">SeletorDePoltrona</text>
+  <text x="508" y="240" class="muted cap">Também é legítimo. O erro é</text>
+  <text x="508" y="258" class="muted cap">tentar empurrá-lo para o</text>
+  <text x="508" y="276" class="muted cap">sistema por via das dúvidas.</text>
+
+  <text x="0" y="340" class="muted cap">A pergunta que decide não é “isto é bem feito?”, e sim “quantos produtos precisam disto?”. Duas respostas</text>
+  <text x="0" y="358" class="muted cap">honestas — “só o meu” e “só esta tela” — economizam meses de manutenção de coisa que ninguém usa.</text>
+</svg>

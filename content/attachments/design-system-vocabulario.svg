@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Diagrama de caixas aninhadas mostrando que o design system contém guia de estilo, biblioteca de componentes e biblioteca de padrões, e que o que o distingue dos três é ter um time e um processo de decisão">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .outer { fill: none; stroke: #2563eb; stroke-width: 2; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .team  { fill: #eef2ff; stroke: #2563eb; stroke-width: 1.4; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 14px; font-weight: 700; }
+    .k   { font-size: 11.5px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .team { fill: #1e293b; stroke: #60a5fa; }
+      .outer { stroke: #60a5fa; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">O que é design system e o que é só parte dele</text>
+  <text x="0" y="44" class="muted cap">As três primeiras caixas são artefatos. A quarta é o que transforma um acervo em sistema.</text>
+
+  <rect x="0" y="66" width="720" height="264" rx="10" class="outer"/>
+  <text x="20" y="92" class="accent k">DESIGN SYSTEM</text>
+
+  <rect x="20" y="106" width="216" height="118" rx="8" class="box"/>
+  <text x="38" y="132" class="ink h">Guia de estilo</text>
+  <text x="38" y="158" class="muted cap">Cor, tipografia, logo,</text>
+  <text x="38" y="176" class="muted cap">tom de voz, espaçamento.</text>
+  <text x="38" y="202" class="muted cap">Diz como as coisas parecem.</text>
+
+  <rect x="252" y="106" width="216" height="118" rx="8" class="box"/>
+  <text x="270" y="132" class="ink h">Biblioteca de componentes</text>
+  <text x="270" y="158" class="muted cap">Peças reutilizáveis com nome,</text>
+  <text x="270" y="176" class="muted cap">estados, props e código.</text>
+  <text x="270" y="202" class="muted cap">Diz do que as coisas são feitas.</text>
+
+  <rect x="484" y="106" width="216" height="118" rx="8" class="box"/>
+  <text x="502" y="132" class="ink h">Biblioteca de padrões</text>
+  <text x="502" y="158" class="muted cap">Arranjos e fluxos: formulário,</text>
+  <text x="502" y="176" class="muted cap">página de erro, checkout.</text>
+  <text x="502" y="202" class="muted cap">Diz como as peças se juntam.</text>
+
+  <rect x="20" y="240" width="680" height="72" rx="8" class="team"/>
+  <text x="38" y="266" class="ink h">Um time e um processo de decisão</text>
+  <text x="38" y="292" class="muted cap">Quem mantém, quem decide o que entra, como se contribui, como se comunica mudança.</text>
+
+  <text x="0" y="360" class="muted cap">Um acervo de arquivos sem essa última faixa é uma biblioteca. Vira design system quando alguém é</text>
+  <text x="0" y="378" class="muted cap">responsável por mantê-lo vivo e existe um caminho conhecido para mudá-lo.</text>
+</svg>

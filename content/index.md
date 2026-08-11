@@ -19,7 +19,7 @@ tags:
 ## Base
 
 [[Figma]]
-[[Design System]]
+[[Design System/index]]
 [[Tokens]]
 [[Acessibilidade/index]]
 [[Análise de Dados]]
@@ -30,6 +30,7 @@ tags:
 
 [[UX Healthcare/index]]
 [[Busca/index]]
+[[Notificações/index]]
 [[Pesquisa de Satisfação do Cliente (CSAT)]]
 [[DataViz]]
 [[Pagamento/index]]

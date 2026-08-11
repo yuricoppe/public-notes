@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" role="img" aria-label="A escala de contribuição de Nathan Curtis: correção, pequena melhoria, grande melhoria e recurso novo, mostrando que o custo e o envolvimento do time central crescem enquanto a frequência cai">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .b1 { fill: #10b981; } .b2 { fill: #84cc16; } .b3 { fill: #f59e0b; } .b4 { fill: #dc2626; }
+    .accent{ fill: #2563eb; }
+    .line { stroke: #9ca3af; stroke-width: 1.4; fill: none; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 14px; font-weight: 700; }
+    .k   { font-size: 11.5px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .accent { fill: #60a5fa; }
+      .line { stroke: #6b7280; }
+      .b1 { fill: #34d399; } .b2 { fill: #a3e635; } .b3 { fill: #fbbf24; } .b4 { fill: #f87171; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Contribuição não é uma coisa só</text>
+  <text x="0" y="44" class="muted cap">Tratar as quatro com o mesmo processo é o que faz o pequeno demorar e o grande passar sem revisão.</text>
+
+  <rect x="0" y="66" width="170" height="150" rx="8" class="box"/>
+  <rect x="0" y="66" width="170" height="6" class="b1"/>
+  <text x="16" y="98" class="ink h">Correção</text>
+  <text x="16" y="124" class="muted cap">Defeito em código,</text>
+  <text x="16" y="142" class="muted cap">arquivo ou documentação.</text>
+  <text x="16" y="172" class="accent k">AUTÔNOMA</text>
+  <text x="16" y="194" class="muted cap">Sem reunião. Direto.</text>
+
+  <rect x="183" y="66" width="170" height="150" rx="8" class="box"/>
+  <rect x="183" y="66" width="170" height="6" class="b2"/>
+  <text x="199" y="98" class="ink h">Melhoria pequena</text>
+  <text x="199" y="124" class="muted cap">Arquitetura estável,</text>
+  <text x="199" y="142" class="muted cap">acréscimo simples.</text>
+  <text x="199" y="172" class="accent k">QUASE AUTÔNOMA</text>
+  <text x="199" y="194" class="muted cap">Uma revisão rápida.</text>
+
+  <rect x="366" y="66" width="170" height="150" rx="8" class="box"/>
+  <rect x="366" y="66" width="170" height="6" class="b3"/>
+  <text x="382" y="98" class="ink h">Melhoria grande</text>
+  <text x="382" y="124" class="muted cap">Estende o que existe</text>
+  <text x="382" y="142" class="muted cap">com vários atributos.</text>
+  <text x="382" y="172" class="accent k">EM DUPLA</text>
+  <text x="382" y="194" class="muted cap">Escopo negociado.</text>
+
+  <rect x="549" y="66" width="171" height="150" rx="8" class="box"/>
+  <rect x="549" y="66" width="171" height="6" class="b4"/>
+  <text x="565" y="98" class="ink h">Recurso novo</text>
+  <text x="565" y="124" class="muted cap">Componente que não</text>
+  <text x="565" y="142" class="muted cap">existia.</text>
+  <text x="565" y="172" class="accent k">PROJETO</text>
+  <text x="565" y="194" class="muted cap">Rodadas e priorização.</text>
+
+  <path d="M16 250 C 200 250, 380 262, 700 276" class="line"/>
+  <text x="0" y="242" class="muted k">CUSTO E ENVOLVIMENTO DO TIME CENTRAL →</text>
+  <text x="0" y="300" class="muted k">← FREQUÊNCIA COM QUE ACONTECE</text>
+
+  <text x="0" y="338" class="muted cap">O contribuidor costuma ser designer OU desenvolvedor — quase nunca os dois. Quanto maior a mudança,</text>
+  <text x="0" y="356" class="muted cap">mais isso importa, porque falta metade do trabalho no meio do caminho.</text>
+</svg>

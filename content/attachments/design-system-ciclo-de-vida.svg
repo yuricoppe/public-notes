@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Ciclo de vida de um componente: proposto, experimental, estável, depreciado e removido, com a observação de que a fase de depreciação precisa de prazo anunciado, alternativa apontada e guia de migração, e que a janela varia de 3 a 6 meses em times próximos até 18 meses em organizações grandes">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.3; }
+    .warnb { fill: #fffbeb; stroke: #f59e0b; stroke-width: 1.5; }
+    .s1 { fill: #9ca3af; } .s2 { fill: #84cc16; } .s3 { fill: #10b981; } .s4 { fill: #f59e0b; } .s5 { fill: #dc2626; }
+    .line { stroke: #9ca3af; stroke-width: 1.6; fill: none; }
+    .accent{ fill: #2563eb; }
+    .warn { fill: #b45309; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .k   { font-size: 11.5px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .warnb { fill: #2a2312; stroke: #fbbf24; }
+      .warn { fill: #fbbf24; }
+      .accent { fill: #60a5fa; }
+      .line { stroke: #6b7280; }
+      .s1 { fill: #6b7280; } .s2 { fill: #a3e635; } .s3 { fill: #34d399; } .s4 { fill: #fbbf24; } .s5 { fill: #f87171; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">O estado de um componente é informação pública</text>
+  <text x="0" y="44" class="muted cap">O segundo maior problema relatado por quem usa design system é não saber em que estado a peça está.</text>
+
+  <rect x="0" y="70" width="134" height="86" rx="8" class="box"/>
+  <rect x="0" y="70" width="134" height="6" class="s1"/>
+  <text x="14" y="102" class="ink h">Proposto</text>
+  <text x="14" y="126" class="muted cap">Existe o pedido,</text>
+  <text x="14" y="144" class="muted cap">não existe a peça.</text>
+
+  <path d="M134 113 H 152" class="line" marker-end="url(#c)"/>
+
+  <rect x="152" y="70" width="134" height="86" rx="8" class="box"/>
+  <rect x="152" y="70" width="134" height="6" class="s2"/>
+  <text x="166" y="102" class="ink h">Experimental</text>
+  <text x="166" y="126" class="muted cap">Usável, mas a API</text>
+  <text x="166" y="144" class="muted cap">ainda pode mudar.</text>
+
+  <path d="M286 113 H 304" class="line" marker-end="url(#c)"/>
+
+  <rect x="304" y="70" width="134" height="86" rx="8" class="box"/>
+  <rect x="304" y="70" width="134" height="6" class="s3"/>
+  <text x="318" y="102" class="ink h">Estável</text>
+  <text x="318" y="126" class="muted cap">Só muda com aviso</text>
+  <text x="318" y="144" class="muted cap">e versão maior.</text>
+
+  <path d="M438 113 H 456" class="line" marker-end="url(#c)"/>
+
+  <rect x="456" y="70" width="134" height="86" rx="8" class="box"/>
+  <rect x="456" y="70" width="134" height="6" class="s4"/>
+  <text x="470" y="102" class="ink h">Depreciado</text>
+  <text x="470" y="126" class="muted cap">Ainda funciona.</text>
+  <text x="470" y="144" class="muted cap">Já tem substituto.</text>
+
+  <path d="M590 113 H 608" class="line" marker-end="url(#c)"/>
+
+  <rect x="608" y="70" width="112" height="86" rx="8" class="box"/>
+  <rect x="608" y="70" width="112" height="6" class="s5"/>
+  <text x="622" y="102" class="ink h">Removido</text>
+  <text x="622" y="126" class="muted cap">Sai na próxima</text>
+  <text x="622" y="144" class="muted cap">versão maior.</text>
+
+  <rect x="0" y="186" width="720" height="128" rx="8" class="warnb"/>
+  <text x="18" y="212" class="warn k">A FASE QUE QUASE SEMPRE FALTA</text>
+  <text x="18" y="238" class="ink h">Depreciar é um anúncio, não uma exclusão</text>
+  <text x="18" y="264" class="muted cap">Precisa de três coisas: um prazo dito em público, o substituto apontado por nome, e um guia de migração</text>
+  <text x="18" y="282" class="muted cap">com antes e depois. Sem elas, “deprecated” na documentação é só uma palavra que ninguém lê.</text>
+  <text x="18" y="306" class="muted cap">A janela vai de 3 a 6 meses em times próximos até 18 meses em organizações grandes e dispersas.</text>
+
+  <text x="0" y="352" class="muted cap">Remover na próxima versão maior é a regra simples: se foi depreciado na 10, sai na 11. O que não pode é</text>
+  <text x="0" y="370" class="muted cap">sumir sem aviso — uma vez que isso acontece, os times param de atualizar, e aí o sistema congela.</text>
+
+  <defs>
+    <marker id="c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#9ca3af"/>
+    </marker>
+  </defs>
+</svg>

@@ -10,6 +10,8 @@ tags:
 
 Um **Design System (Sistema de Design)** é uma coleção abrangente e viva de componentes de interface reutilizáveis, diretrizes claras, princípios de design e [[Glossário/Elementos/codigo|código]], tudo organizado e documentado para guiar o design e desenvolvimento de produtos digitais de forma consistente e eficiente. É mais do que apenas uma biblioteca de UI ou um [[Glossário/Entregáveis/style_guide|guia de estilo]]; é um ecossistema completo que promove a colaboração entre designers e desenvolvedores.
 
+> Esta página é a definição de glossário. O tratamento longo do assunto — o que entra no sistema, quem decide, como se versiona e como se mede adoção — está em **[[Design System/index|Design System]]**.
+
 ## Propósito Principal
 
 Os principais objetivos de um Design System são:

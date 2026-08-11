@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" width="720" height="440" role="img" aria-label="As seis dimensões de maturidade de design system do Nielsen Norman Group — alinhamento organizacional, eficácia do time, robustez da infraestrutura, governança, suporte e adoção — cada uma avaliada em cinco níveis, de ausente a excepcional, e medidas separadamente em vez de como uma escada única">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .box   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .dot   { fill: #d1d5db; }
+    .on    { fill: #2563eb; }
+    .accent{ fill: #2563eb; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .h   { font-size: 14px; font-weight: 700; }
+    .k   { font-size: 11px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .box { fill: #1f2937; stroke: #4b5563; }
+      .dot { fill: #4b5563; }
+      .on { fill: #60a5fa; }
+      .accent { fill: #60a5fa; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Maturidade não é uma escada</text>
+  <text x="0" y="44" class="muted cap">Seis dimensões medidas separadamente, cada uma de 1 a 5. Os pontos abaixo são só um exemplo.</text>
+
+  <text x="286" y="76" class="muted k">1 ausente</text>
+  <text x="620" y="76" class="muted k">5 excepcional</text>
+
+  <rect x="0" y="86" width="720" height="46" rx="8" class="box"/>
+  <text x="16" y="106" class="ink h">Alinhamento organizacional</text>
+  <text x="16" y="124" class="muted cap">patrocínio, orçamento, posição estratégica</text>
+  <circle cx="470" cy="109" r="8" class="on"/><circle cx="512" cy="109" r="8" class="on"/><circle cx="554" cy="109" r="8" class="dot"/><circle cx="596" cy="109" r="8" class="dot"/><circle cx="638" cy="109" r="8" class="dot"/>
+
+  <rect x="0" y="140" width="720" height="46" rx="8" class="box"/>
+  <text x="16" y="160" class="ink h">Eficácia do time</text>
+  <text x="16" y="178" class="muted cap">capacidade, disciplinas, saúde de quem mantém</text>
+  <circle cx="470" cy="163" r="8" class="on"/><circle cx="512" cy="163" r="8" class="on"/><circle cx="554" cy="163" r="8" class="on"/><circle cx="596" cy="163" r="8" class="dot"/><circle cx="638" cy="163" r="8" class="dot"/>
+
+  <rect x="0" y="194" width="720" height="46" rx="8" class="box"/>
+  <text x="16" y="214" class="ink h">Robustez da infraestrutura</text>
+  <text x="16" y="232" class="muted cap">componentes, tokens, documentação, ferramentas</text>
+  <circle cx="470" cy="217" r="8" class="on"/><circle cx="512" cy="217" r="8" class="on"/><circle cx="554" cy="217" r="8" class="on"/><circle cx="596" cy="217" r="8" class="on"/><circle cx="638" cy="217" r="8" class="dot"/>
+
+  <rect x="0" y="248" width="720" height="46" rx="8" class="box"/>
+  <text x="16" y="268" class="ink h">Governança</text>
+  <text x="16" y="286" class="muted cap">como se decide, contribui, versiona e trata desvio</text>
+  <circle cx="470" cy="271" r="8" class="on"/><circle cx="512" cy="271" r="8" class="on"/><circle cx="554" cy="271" r="8" class="dot"/><circle cx="596" cy="271" r="8" class="dot"/><circle cx="638" cy="271" r="8" class="dot"/>
+
+  <rect x="0" y="302" width="720" height="46" rx="8" class="box"/>
+  <text x="16" y="322" class="ink h">Suporte</text>
+  <text x="16" y="340" class="muted cap">onboarding, canal de ajuda, treino, comunicação</text>
+  <circle cx="470" cy="325" r="8" class="on"/><circle cx="512" cy="325" r="8" class="dot"/><circle cx="554" cy="325" r="8" class="dot"/><circle cx="596" cy="325" r="8" class="dot"/><circle cx="638" cy="325" r="8" class="dot"/>
+
+  <rect x="0" y="356" width="720" height="46" rx="8" class="box"/>
+  <text x="16" y="376" class="ink h">Adoção</text>
+  <text x="16" y="394" class="muted cap">quanto se usa, se usa certo e se confia no sistema</text>
+  <circle cx="470" cy="379" r="8" class="on"/><circle cx="512" cy="379" r="8" class="on"/><circle cx="554" cy="379" r="8" class="dot"/><circle cx="596" cy="379" r="8" class="dot"/><circle cx="638" cy="379" r="8" class="dot"/>
+
+  <text x="0" y="432" class="muted cap">O perfil desenhado aqui é comum: infraestrutura forte, suporte fraco — e a adoção travada por causa disso.</text>
+</svg>
