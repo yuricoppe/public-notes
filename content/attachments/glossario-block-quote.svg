@@ -68,5 +68,5 @@
 
   <rect x="368" y="266" width="352" height="72" rx="6" class="card"/>
   <text x="384" y="288" class="warn h">Não use citação como destaque</text>
-  <text x="384" y="308" class="muted an">&lt;blockquote&gt; diz "isto veio de outra fonte". Usar só para deixar um</text>
+  <text x="384" y="308" class="muted an">&lt;blockquote&gt; diz "veio de outra fonte". Usar só para deixar um</text>
   <text x="384" y="324" class="muted an">trecho maior engana quem lê pelo código.</text></svg>

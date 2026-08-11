@@ -44,7 +44,7 @@
   <!-- checkbox -->
   <rect x="374" y="70" width="346" height="206" rx="6" class="card"/>
   <text x="390" y="96" class="ink h">Checkbox — vale quando você confirma</text>
-  <text x="390" y="118" class="muted an">Para escolha que entra em vigor junto com o resto do formulário.</text>
+  <text x="390" y="118" class="muted an">Para escolha que só vale ao enviar o formulário.</text>
 
   <rect x="390" y="132" width="314" height="60" rx="5" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
   <rect x="406" y="154" width="16" height="16" rx="3" fill="#2563eb"/>

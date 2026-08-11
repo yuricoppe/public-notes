@@ -93,5 +93,5 @@
 
   <rect x="512" y="378" width="40" height="20" rx="4" class="kbd"/>
   <text x="532" y="392" class="ink mono" text-anchor="middle">Esc</text>
-  <text x="560" y="392" class="muted an">fecha e devolve o foco ao gatilho</text>
+  <text x="560" y="392" class="muted an">fecha e devolve o foco ao botão</text>
 </svg>

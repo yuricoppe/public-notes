@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-label="Slider anotado com trilha, preenchimento, alça, valor visível e marcadores de passo, mais a comparação com um campo numérico quando a precisão importa">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 402" width="720" height="402" role="img" aria-label="Slider anotado com trilha, preenchimento, alça, valor visível e marcadores de passo, mais a comparação com um campo numérico quando a precisão importa">
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
     .ink   { fill: #1f2937; }
@@ -75,4 +75,5 @@
   <text x="384" y="304" class="muted an">idade, quantidade, CEP, porcentagem exata.</text>
   <text x="384" y="330" class="accent an">Melhor ainda: os dois juntos, sincronizados.</text>
 
-  <text x="0" y="374" class="muted cap">No teclado: setas movem de um passo, PageUp/PageDown de um salto, Home e End vão aos extremos. E o ARIA precisa de aria-valuenow, aria-valuemin e aria-valuemax.</text></svg>
+  <text x="0" y="374" class="muted cap">No teclado: setas movem de um passo, PageUp/PageDown de um salto, Home e End vão aos</text>
+  <text x="0" y="392" class="muted cap">extremos. E o ARIA precisa de aria-valuenow, aria-valuemin e aria-valuemax.</text></svg>

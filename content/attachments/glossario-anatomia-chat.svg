@@ -70,19 +70,19 @@
 
   <text x="430" y="90" class="ink h">Lado e cor separam os interlocutores</text>
   <text x="430" y="110" class="muted an">Quem fala está à esquerda, você à direita. Só a cor não</text>
-  <text x="430" y="126" class="muted an">basta: o alinhamento é a pista que sobrevive ao daltonismo.</text>
+  <text x="430" y="126" class="muted an">basta: alinhamento é a pista que sobrevive à cor.</text>
 
   <text x="430" y="160" class="ink h">Hora e estado de entrega</text>
   <text x="430" y="180" class="muted an">Enviado, entregue e lido são três coisas diferentes. Se a</text>
   <text x="430" y="196" class="muted an">interface promete uma, precisa cumprir.</text>
 
   <text x="430" y="230" class="ink h">"Digitando" é uma promessa curta</text>
-  <text x="430" y="250" class="muted an">Sustenta a espera por poucos segundos. Deixado ligado por</text>
+  <text x="430" y="250" class="muted an">Sustenta a espera de poucos segundos. Ligado por</text>
   <text x="430" y="266" class="muted an">minutos, vira ruído e depois mentira.</text>
 
   <text x="430" y="300" class="ink h">O que costuma faltar</text>
-  <text x="430" y="320" class="muted an">Mensagens novas anunciadas por aria-live, rolagem que não</text>
-  <text x="430" y="336" class="muted an">pula quando você está lendo o histórico, e um caminho claro</text>
+  <text x="430" y="320" class="muted an">Mensagens novas anunciadas por aria-live, rolagem que</text>
+  <text x="430" y="336" class="muted an">não pula quando você lê o histórico, e um caminho claro</text>
   <text x="430" y="352" class="muted an">quando o envio falha — com a opção de tentar de novo.</text>
 
   <text x="0" y="382" class="muted cap">Rolagem automática só quando a pessoa já está no fim da conversa — puxar alguém de volta para baixo</text>

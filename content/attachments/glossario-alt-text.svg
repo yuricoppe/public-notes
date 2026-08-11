@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="Árvore de decisão do texto alternativo: imagem decorativa recebe alt vazio, informativa é descrita, funcional descreve a ação e complexa ganha descrição longa">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" width="720" height="440" role="img" aria-label="Árvore de decisão do texto alternativo: imagem decorativa recebe alt vazio, informativa é descrita, funcional descreve a ação e complexa ganha descrição longa">
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
     .ink   { fill: #1f2937; }
@@ -88,6 +88,7 @@
   <rect x="368" y="304" width="352" height="76" rx="6" class="card"/>
   <text x="384" y="326" class="ink h">Reserve o espaço</text>
   <text x="384" y="346" class="muted an">width, height ou aspect-ratio no HTML impedem o layout de pular</text>
-  <text x="384" y="362" class="muted an">quando a imagem chega. loading="lazy" no que está abaixo da dobra.</text>
+  <text x="384" y="362" class="muted an">quando a imagem chega. loading="lazy" abaixo da dobra.</text>
 
-  <text x="0" y="412" class="muted cap">Teste rápido: leia a página em voz alta trocando cada imagem pelo seu alt. Se a frase ficar sem sentido ou repetida, o alt está errado.</text></svg>
+  <text x="0" y="412" class="muted cap">Teste rápido: leia a página em voz alta trocando cada imagem pelo seu alt. Se a frase ficar</text>
+  <text x="0" y="430" class="muted cap">sem sentido ou repetida, o alt está errado.</text></svg>

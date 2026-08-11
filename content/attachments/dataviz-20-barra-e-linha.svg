@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="Comparação mostrando por que barra precisa começar no zero e linha não: a barra codifica quantidade por comprimento e cortar a base quebra a codificação, enquanto a linha codifica variação e forçar o zero achata o gráfico até a tendência sumir">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .card  { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .plot  { fill: #ffffff; stroke: #e5e7eb; stroke-width: 1; }
+    .axis  { stroke: #9ca3af; stroke-width: 1; }
+    .mark  { fill: #2563eb; }
+    .ln    { stroke: #2563eb; stroke-width: 2; fill: none; }
+    .bad   { fill: #dc2626; }
+    .ok    { fill: #10b981; }
+    .h   { font-size: 13.5px; font-weight: 700; }
+    .why { font-size: 11.5px; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    .tiny{ font-size: 9px; }
+    .badge { font-size: 11px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .plot { fill: #111827; stroke: #374151; }
+      .axis { stroke: #6b7280; }
+      .mark { fill: #60a5fa; } .ln { stroke: #60a5fa; }
+      .bad { fill: #f87171; } .ok { fill: #34d399; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">A regra do zero vale para barra, não para linha</text>
+  <text x="0" y="44" class="muted cap">É a distinção que a maioria dos guias não faz — e o melhor acerto da lista de Bakusevych</text>
+
+  <rect x="0" y="62" width="352" height="264" rx="8" class="card"/>
+  <text x="16" y="86" class="ink h">Barra codifica quantidade</text>
+  <text x="16" y="104" class="muted why">O comprimento <tspan class="ink">é</tspan> o valor. Cortar a base quebra a</text>
+  <text x="16" y="119" class="muted why">codificação: a barra deixa de dizer a verdade.</text>
+
+  <rect x="16" y="132" width="152" height="122" rx="4" class="plot"/>
+  <text x="22" y="147" class="bad badge">✕</text>
+  <text x="40" y="148" class="muted tiny">eixo em 90</text>
+  <line x1="38" y1="158" x2="38" y2="236" class="axis"/>
+  <line x1="38" y1="236" x2="158" y2="236" class="axis"/>
+  <rect x="50"  y="212" width="20" height="24" class="mark"/>
+  <rect x="78"  y="176" width="20" height="60" class="mark"/>
+  <rect x="106" y="196" width="20" height="40" class="mark"/>
+  <rect x="134" y="164" width="20" height="72" class="mark"/>
+  <text x="40" y="248" class="bad tiny">B parece 3× a A. Não é.</text>
+
+  <rect x="184" y="132" width="152" height="122" rx="4" class="plot"/>
+  <text x="190" y="147" class="ok badge">✓</text>
+  <text x="208" y="148" class="muted tiny">eixo em 0</text>
+  <line x1="206" y1="158" x2="206" y2="236" class="axis"/>
+  <line x1="206" y1="236" x2="326" y2="236" class="axis"/>
+  <rect x="218" y="166" width="20" height="70" class="mark"/>
+  <rect x="246" y="160" width="20" height="76" class="mark"/>
+  <rect x="274" y="163" width="20" height="73" class="mark"/>
+  <rect x="302" y="158" width="20" height="78" class="mark"/>
+  <text x="208" y="248" class="ok tiny">a diferença real é pequena</text>
+
+  <text x="16" y="278" class="muted why">92 · 96 · 94 · 97 — os mesmos quatro números</text>
+  <text x="16" y="298" class="muted why">nos dois gráficos.</text>
+  <text x="16" y="316" class="muted why">A régua é o comprimento, e ela precisa da origem.</text>
+
+  <rect x="368" y="62" width="352" height="264" rx="8" class="card"/>
+  <text x="384" y="86" class="ink h">Linha codifica variação</text>
+  <text x="384" y="104" class="muted why">O que importa é a forma da curva. Forçar o zero</text>
+  <text x="384" y="119" class="muted why">achata o gráfico até não sobrar tendência.</text>
+
+  <rect x="384" y="132" width="152" height="122" rx="4" class="plot"/>
+  <text x="390" y="147" class="bad badge">✕</text>
+  <text x="408" y="148" class="muted tiny">forçado em 0</text>
+  <line x1="406" y1="158" x2="406" y2="236" class="axis"/>
+  <line x1="406" y1="236" x2="526" y2="236" class="axis"/>
+  <path d="M412 176 L436 175 L460 177 L484 174 L520 173" class="ln"/>
+  <text x="396" y="180" class="muted tiny">100</text>
+  <text x="400" y="234" class="muted tiny">0</text>
+  <text x="396" y="248" class="bad tiny">reta. e no entanto subiu 12%</text>
+
+  <rect x="552" y="132" width="152" height="122" rx="4" class="plot"/>
+  <text x="558" y="147" class="ok badge">✓</text>
+  <text x="576" y="148" class="muted tiny">escala adaptada</text>
+  <line x1="574" y1="158" x2="574" y2="236" class="axis"/>
+  <line x1="574" y1="236" x2="694" y2="236" class="axis"/>
+  <path d="M580 224 L604 216 L628 226 L652 196 L688 168" class="ln"/>
+  <text x="562" y="172" class="muted tiny">94</text>
+  <text x="562" y="234" class="muted tiny">82</text>
+  <text x="576" y="248" class="ok tiny">a subida aparece</text>
+
+  <text x="384" y="278" class="muted why">A recomendação dele é prática: deixe a linha ocupar</text>
+  <text x="384" y="298" class="muted why">cerca de dois terços da altura do gráfico.</text>
+  <text x="384" y="316" class="muted why">O zero, aqui, só gastaria espaço.</text>
+
+  <text x="0" y="360" class="muted cap">A ressalva que veio depois: Correll, Bertini e Franconeri mostraram que marcar a quebra do eixo — com o</text>
+  <text x="0" y="378" class="muted cap">símbolo de corte ou barras interrompidas — <tspan class="ink h">não desfaz</tspan> o exagero percebido. Julgamento de tamanho é visual,</text>
+  <text x="0" y="396" class="muted cap">não aritmético: quem lê o eixo direito continua sentindo a diferença maior do que ela é.</text>
+</svg>

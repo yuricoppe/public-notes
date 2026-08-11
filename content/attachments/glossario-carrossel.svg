@@ -58,17 +58,17 @@
   <!-- annotations -->
   <circle cx="490" cy="86" r="10" class="badge"/><text x="486.5" y="90" class="num">1</text>
   <text x="510" y="90" class="ink h">Setas de verdade</text>
-  <text x="490" y="110" class="muted an">Visíveis sem hover, grandes o bastante para o</text>
+  <text x="490" y="110" class="muted an">Visíveis sem hover, grandes o bastante</text>
   <text x="490" y="126" class="muted an">dedo, e alcançáveis pelo teclado.</text>
 
   <circle cx="490" cy="152" r="10" class="badge"/><text x="486.5" y="156" class="num">2</text>
   <text x="510" y="156" class="ink h">Indicadores</text>
-  <text x="490" y="176" class="muted an">Dizem quantos slides existem e onde você está.</text>
+  <text x="490" y="176" class="muted an">Dizem quantos slides há e onde você está.</text>
   <text x="490" y="192" class="muted an">Clicáveis, para pular direto.</text>
 
   <circle cx="490" cy="218" r="10" class="badge"/><text x="486.5" y="222" class="num">3</text>
   <text x="510" y="222" class="ink h">Pausar não é enfeite</text>
-  <text x="490" y="242" class="muted an">A WCAG exige poder parar qualquer movimento</text>
+  <text x="490" y="242" class="muted an">A WCAG exige poder parar o movimento</text>
   <text x="490" y="258" class="muted an">automático que dure mais de 5 segundos.</text>
 
   <!-- attention chart -->

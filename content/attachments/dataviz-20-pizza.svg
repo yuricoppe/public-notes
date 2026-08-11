@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 348" width="720" height="348" role="img" aria-label="As quatro regras de pizza da lista: no máximo cinco a sete fatias agrupando o resto em Outros, rótulo fora da fatia e não por cima, maior fatia começando às 12 horas em ordem decrescente, e rosca fina que fica ilegível">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ink   { fill: #1f2937; }
+    .muted { fill: #6b7280; }
+    .card  { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.2; }
+    .plot  { fill: #ffffff; stroke: #e5e7eb; stroke-width: 1; }
+    .lead  { stroke: #9ca3af; stroke-width: 1; }
+    .bad   { fill: #dc2626; }
+    .ok    { fill: #10b981; }
+    .h   { font-size: 13px; font-weight: 700; }
+    .ttl { font-size: 17px; font-weight: 700; }
+    .cap { font-size: 12.5px; }
+    .tiny{ font-size: 9px; }
+    .badge { font-size: 11px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .card { fill: #1f2937; stroke: #4b5563; }
+      .plot { fill: #111827; stroke: #374151; }
+      .lead { stroke: #6b7280; }
+      .bad { fill: #f87171; } .ok { fill: #34d399; }
+    }
+  </style>
+
+  <text x="0" y="22" class="ink ttl">Quatro dos vinte itens são sobre pizza</text>
+  <text x="0" y="44" class="muted cap">De um gráfico que ele mesmo diz que quase sempre deveria ser uma barra. Se for usar, é assim.</text>
+
+  <rect x="0" y="62" width="174" height="212" rx="8" class="card"/>
+  <text x="14" y="84" class="ink h">Quantas fatias</text>
+  <text x="14" y="102" class="bad badge">✕</text>
+  <g transform="translate(60,132)">
+    <path d="M0 0 L0 -26 A26 26 0 0 1 18 -18 Z" fill="#2563eb"/>
+    <path d="M0 0 L18 -18 A26 26 0 0 1 25 -6 Z" fill="#0d9488"/>
+    <path d="M0 0 L25 -6 A26 26 0 0 1 20 16 Z" fill="#7c3aed"/>
+    <path d="M0 0 L20 16 A26 26 0 0 1 6 25 Z" fill="#dc2626"/>
+    <path d="M0 0 L6 25 A26 26 0 0 1 -10 24 Z" fill="#f59e0b"/>
+    <path d="M0 0 L-10 24 A26 26 0 0 1 -22 13 Z" fill="#10b981"/>
+    <path d="M0 0 L-22 13 A26 26 0 0 1 -26 0 Z" fill="#64748b"/>
+    <path d="M0 0 L-26 0 A26 26 0 0 1 -16 -20 Z" fill="#a3e635"/>
+    <path d="M0 0 L-16 -20 A26 26 0 0 1 0 -26 Z" fill="#f472b6"/>
+  </g>
+  <text x="14" y="176" class="muted tiny">nove fatias: nenhuma legível</text>
+  <text x="14" y="200" class="ok badge">✓</text>
+  <g transform="translate(60,232)">
+    <path d="M0 0 L0 -26 A26 26 0 0 1 24 9 Z" fill="#2563eb"/>
+    <path d="M0 0 L24 9 A26 26 0 0 1 -6 25 Z" fill="#60a5fa"/>
+    <path d="M0 0 L-6 25 A26 26 0 0 1 -24 -9 Z" fill="#93c5fd"/>
+    <path d="M0 0 L-24 -9 A26 26 0 0 1 0 -26 Z" fill="#cbd5e1"/>
+  </g>
+  <text x="14" y="266" class="ok tiny">o resto vira “Outros”</text>
+
+  <rect x="182" y="62" width="174" height="212" rx="8" class="card"/>
+  <text x="196" y="84" class="ink h">Onde vai o rótulo</text>
+  <text x="196" y="102" class="bad badge">✕</text>
+  <g transform="translate(242,132)">
+    <path d="M0 0 L0 -26 A26 26 0 0 1 24 9 Z" fill="#2563eb"/>
+    <path d="M0 0 L24 9 A26 26 0 0 1 -18 18 Z" fill="#60a5fa"/>
+    <path d="M0 0 L-18 18 A26 26 0 0 1 -3 -26 Z" fill="#93c5fd"/>
+    <path d="M0 0 L-3 -26 A26 26 0 0 1 0 -26 Z" fill="#cbd5e1"/>
+    <text x="6" y="-8" class="tiny" fill="#ffffff">48%</text>
+    <text x="-4" y="16" class="tiny" fill="#ffffff">31%</text>
+    <text x="-20" y="-4" class="tiny" fill="#ffffff">19</text>
+    <text x="-8" y="-22" class="tiny" fill="#ffffff">2</text>
+  </g>
+  <text x="196" y="176" class="bad tiny">na fatia fina não cabe</text>
+  <text x="196" y="200" class="ok badge">✓</text>
+  <g transform="translate(230,232)">
+    <path d="M0 0 L0 -24 A24 24 0 0 1 22 8 Z" fill="#2563eb"/>
+    <path d="M0 0 L22 8 A24 24 0 0 1 -17 17 Z" fill="#60a5fa"/>
+    <path d="M0 0 L-17 17 A24 24 0 0 1 -3 -24 Z" fill="#93c5fd"/>
+    <path d="M0 0 L-3 -24 A24 24 0 0 1 0 -24 Z" fill="#cbd5e1"/>
+  </g>
+  <line x1="248" y1="222" x2="286" y2="216" class="lead"/>
+  <text x="290" y="220" class="ink tiny">48%</text>
+  <line x1="224" y1="252" x2="286" y2="248" class="lead"/>
+  <text x="290" y="252" class="ink tiny">31%</text>
+  <line x1="212" y1="226" x2="286" y2="232" class="lead"/>
+  <text x="290" y="236" class="ink tiny">19%</text>
+  <text x="290" y="268" class="muted tiny">2% · Outros</text>
+
+  <rect x="364" y="62" width="174" height="212" rx="8" class="card"/>
+  <text x="378" y="84" class="ink h">Em que ordem</text>
+  <text x="378" y="102" class="bad badge">✕</text>
+  <g transform="translate(424,132)">
+    <path d="M0 0 L0 -26 A26 26 0 0 1 15 -21 Z" fill="#93c5fd"/>
+    <path d="M0 0 L15 -21 A26 26 0 0 1 12 23 Z" fill="#2563eb"/>
+    <path d="M0 0 L12 23 A26 26 0 0 1 -18 19 Z" fill="#cbd5e1"/>
+    <path d="M0 0 L-18 19 A26 26 0 0 1 0 -26 Z" fill="#60a5fa"/>
+  </g>
+  <text x="378" y="176" class="bad tiny">sem ordem: o olho volta</text>
+  <text x="378" y="200" class="ok badge">✓</text>
+  <g transform="translate(424,232)">
+    <path d="M0 0 L0 -26 A26 26 0 0 1 24 9 Z" fill="#2563eb"/>
+    <path d="M0 0 L24 9 A26 26 0 0 1 -6 25 Z" fill="#60a5fa"/>
+    <path d="M0 0 L-6 25 A26 26 0 0 1 -24 -9 Z" fill="#93c5fd"/>
+    <path d="M0 0 L-24 -9 A26 26 0 0 1 0 -26 Z" fill="#cbd5e1"/>
+    <path d="M0 -32 l -4 -6 l 8 0 z" fill="#10b981"/>
+  </g>
+  <text x="378" y="266" class="ok tiny">maior às 12h, decrescendo</text>
+
+  <rect x="546" y="62" width="174" height="212" rx="8" class="card"/>
+  <text x="560" y="84" class="ink h">Grossura da rosca</text>
+  <text x="560" y="102" class="bad badge">✕</text>
+  <g transform="translate(606,132)">
+    <circle cx="0" cy="0" r="26" fill="none" stroke="#cbd5e1" stroke-width="4"/>
+    <path d="M0 -26 A26 26 0 0 1 22 14" fill="none" stroke="#2563eb" stroke-width="4"/>
+    <path d="M22 14 A26 26 0 0 1 -14 22" fill="none" stroke="#60a5fa" stroke-width="4"/>
+  </g>
+  <text x="560" y="176" class="bad tiny">o anel some, resta o buraco</text>
+  <text x="560" y="200" class="ok badge">✓</text>
+  <g transform="translate(606,232)">
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#cbd5e1" stroke-width="16"/>
+    <path d="M0 -20 A20 20 0 0 1 17 11" fill="none" stroke="#2563eb" stroke-width="16"/>
+    <path d="M17 11 A20 20 0 0 1 -11 17" fill="none" stroke="#60a5fa" stroke-width="16"/>
+  </g>
+  <text x="560" y="266" class="ok tiny">anel largo ainda compara</text>
+
+  <text x="0" y="308" class="muted cap">Todas as quatro regras existem para compensar uma codificação fraca: pizza mede por ângulo, o quarto</text>
+  <text x="0" y="326" class="muted cap">degrau de seis na hierarquia perceptual. Quando a comparação importa de verdade, a resposta é barra.</text>
+</svg>

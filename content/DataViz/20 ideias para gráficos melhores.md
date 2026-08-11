@@ -16,7 +16,7 @@ Esta página existe porque uma lista de sete minutos não mostra de onde as regr
 
 **1. Escolha o tipo de gráfico certo.** O argumento é que cair no gráfico mais comum por inércia confunde ou induz a erro, e que o mesmo conjunto de dados admite muitas representações conforme o que a pessoa quer ver. A recomendação prática dele é começar sempre pela revisão do conjunto de dados e por entrevista com quem vai usar.
 
-É a base de [[Escolher a forma]], e o diagrama que acompanha esse item — as quatro perguntas — está reproduzido lá. O que a pesquisa acrescenta é a ordem de precisão de Cleveland e McGill: posição numa escala comum é o que o olho mede melhor, e cor e volume o que ele mede pior. Isso transforma "escolha o certo" em algo verificável.
+É a base de [[Escolher a forma]], e o diagrama que acompanha esse item — as quatro perguntas, cada tipo com seu glifo — está redesenhado lá. O que a pesquisa acrescenta é a ordem de precisão de Cleveland e McGill: posição numa escala comum é o que o olho mede melhor, e cor e volume o que ele mede pior. Isso transforma "escolha o certo" em algo verificável.
 
 ## Eixos e escalas
 
@@ -27,6 +27,8 @@ Esta página existe porque uma lista de sete minutos não mostra de onde as regr
 **3. Barra sempre começa no zero.** O exemplo dele é bom: com eixo truncado, a barra B parece mais de três vezes maior que a D, quando a diferença real é bem menor.
 
 **4. Linha usa escala adaptativa.** E aqui está o acerto mais importante do artigo inteiro. Ele **não** aplica a regra do zero às linhas: forçar o zero numa linha frequentemente deixa o gráfico achatado, e como o objetivo da linha é mostrar tendência, a escala deve se adaptar ao conjunto — mantendo a linha ocupando cerca de dois terços da altura.
+
+![Comparação mostrando que barra precisa começar no zero, porque codifica quantidade por comprimento, e que linha não precisa, porque codifica variação e o zero a achata](attachments/dataviz-20-barra-e-linha.svg)
 
 Essa distinção entre barra e linha é o que separa um guia bom de um guia de senso comum. A barra codifica quantidade por **comprimento**, e cortar o comprimento quebra a codificação. A linha codifica **variação**, e o zero muitas vezes é irrelevante.
 
@@ -44,9 +46,13 @@ Esse é o item mais subestimado da lista. A linha faz uma afirmação sobre cont
 
 **6. Não use linha suavizada.** Curvas suaves são agradáveis e desonestas: elas inventam valores entre os pontos, e traço muito grosso ainda esconde onde os marcadores realmente estão.
 
+![Dois problemas da linha: medição esparsa desenhada como linha inventa os valores entre as medições e deveria ser barra, e linha suavizada cria mínimos e máximos que não existem](attachments/dataviz-20-linhas.svg)
+
 ## Pizza e rosca
 
 Quatro dos vinte itens tratam de pizza — de um gráfico que ele mesmo diz que na maioria dos casos deveria ser uma barra. É um retrato honesto da realidade: ninguém consegue matar a pizza, então mais vale ensinar a fazê-la direito.
+
+![As quatro regras de pizza da lista: número de fatias, rótulo fora e não por cima, maior fatia às 12 horas em ordem decrescente, e rosca larga o bastante para comparar](attachments/dataviz-20-pizza.svg)
 
 **8. Limite as fatias.** Não mais que cinco a sete, agrupando o resto em "Outros".
 

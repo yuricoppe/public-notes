@@ -87,5 +87,5 @@
   <text x="0" y="386" class="muted an">Frete, imposto e desconto visíveis desde o primeiro passo.</text>
 
   <text x="446" y="366" class="warn h">Se o pagamento falhar</text>
-  <text x="446" y="386" class="muted an">Volte ao passo, com os dados preservados — menos o CVV.</text>
+  <text x="446" y="386" class="muted an">Volte ao passo com os dados salvos — menos o CVV.</text>
 </svg>
