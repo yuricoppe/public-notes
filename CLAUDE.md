@@ -49,6 +49,8 @@ So folder-relative wikilinks silently break. From `content/Glossário/Componente
 
 There is **no build error** for a broken wikilink — the build succeeds and the link is dead on the site. When touching links, verify by resolving every target against the file list rather than trusting the build.
 
+**Aliases participate in that uniqueness check.** `transformLink` in `quartz/util/path.ts` only takes the bare-filename shortcut when exactly _one_ slug ends with that name, and `allSlugs` includes every entry in every `aliases:` list. So an alias ending in the same segment as a page's own filename makes that page unreachable by its bare name — the link silently falls back to an absolute path from the vault root, which does not exist. This bit `content/UX Healthcare/UX Login e Cadastro.md`, whose Notion-derived alias `UX Healthcare/UX Login e Cadastro/UX Login e Cadastro` shadowed the file itself. The fix is to link with the full path from `content/`; the alias stays so the old URL keeps redirecting.
+
 Related: Quartz has no `README.md` convention, so a folder's landing page must be `index.md`. `FolderPage`/`TagPage` emitters generate folder and tag listings automatically, so a folder `index.md` is optional.
 
 ## Content conventions

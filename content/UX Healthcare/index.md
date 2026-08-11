@@ -201,7 +201,7 @@ Os desafios específicos do setor de saúde são amplamente discutidos, incluind
 
 ---
 
-[[UX Login e Cadastro]]
+[[UX Healthcare/UX Login e Cadastro|UX Login e Cadastro]]
 
 - **[Insurance user experience: best design practices](https://cadabra.studio/blog/insurance-user-experience/)** · Cadabra Studio
   UX de seguros — adjacente a plano de saúde, com os mesmos problemas de cobertura e elegibilidade.
