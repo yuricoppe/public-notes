@@ -20,7 +20,7 @@ const chrome = (withCrumbs: boolean) => [
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [Component.DrawerScrim()],
   footer: Component.Footer(),
 }
 

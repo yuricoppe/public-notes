@@ -26,6 +26,7 @@ import ConditionalRender from "./ConditionalRender"
 // --- fork: componentes do layout de documentação (ver openspec/changes/adopt-docs-style-layout)
 import TopBar from "./TopBar"
 import ContextBar from "./ContextBar"
+import DrawerScrim from "./DrawerScrim"
 
 export {
   ArticleTitle,
@@ -55,4 +56,5 @@ export {
   ConditionalRender,
   TopBar,
   ContextBar,
+  DrawerScrim,
 }
