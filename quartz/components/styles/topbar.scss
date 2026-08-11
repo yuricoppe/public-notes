@@ -3,6 +3,11 @@
 .topbar {
   position: sticky;
   top: 0;
+  // O `base.scss` dá 2rem de margem a todo `header`. Como a barra é o primeiro
+  // filho e não há borda nem preenchimento no caminho, essa margem colapsava
+  // para fora e empurrava o `body` inteiro 32px para baixo — era isso que
+  // deixava a barra fora do topo.
+  margin: 0;
   z-index: 100;
   height: var(--topbar-height);
   box-sizing: border-box;

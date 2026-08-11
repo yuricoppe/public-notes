@@ -69,6 +69,12 @@
     gap: 0.75rem;
   }
 
+  // Páginas de pasta não têm sumário: a coluna sai em vez de desenhar um
+  // filete ao lado de nada.
+  & .sidebar.right:empty {
+    display: none;
+  }
+
   & .sidebar.right {
     border-left: 1px solid var(--lightgray);
     padding-left: 1.25rem;
@@ -77,6 +83,12 @@
   }
 
   & .center {
+    // O upstream dá a área `grid-center` ao `article`, que não é filho da
+    // grade — a `.center` fica sem posição e vai por colocação automática. No
+    // desktop ela caía na coluna do meio por sorte; no tablet, com a coluna
+    // esquerda fora do fluxo por ser gaveta, caía na coluna de largura zero e
+    // o texto virava uma letra por linha.
+    grid-area: grid-center;
     min-width: 0;
     padding: 0 2.5rem;
 
@@ -251,12 +263,13 @@ body[data-slug="index"] {
     padding: 0;
   }
 
-  & .sidebar {
+  // O `#quartz-body` precisa entrar em todos os seletores daqui: as regras
+  // gerais do centro e das laterais carregam esse id, e sem ele elas ganham em
+  // especificidade. Sem isso as colunas continuavam exibidas e, num pai que
+  // virou bloco, empilhavam 100vh de vazio acima do conteúdo.
+  & .page > #quartz-body .sidebar {
     display: none;
   }
-
-  // O `#quartz-body` precisa entrar nos seletores: as regras gerais do centro
-  // carregam esse id, e sem ele o teto de leitura de 75ch ganharia daqui.
   & .page > #quartz-body .center {
     padding: 0 2rem;
   }

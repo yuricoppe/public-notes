@@ -24,8 +24,9 @@ export const sharedPageComponents: SharedLayout = {
 // A home é a única página sem colunas laterais. Em vez de escondê-las por CSS,
 // não são renderizadas — assim os scripts do explorador e do grafo nem rodam.
 const notHome = (props: { fileData: { slug?: string } }) => props.fileData.slug !== "index"
-const onlyOutsideHome = (component: Parameters<typeof Component.ConditionalRender>[0]["component"]) =>
-  Component.ConditionalRender({ component, condition: notHome })
+const onlyOutsideHome = (
+  component: Parameters<typeof Component.ConditionalRender>[0]["component"],
+) => Component.ConditionalRender({ component, condition: notHome })
 
 // páginas de conteúdo (uma nota)
 export const defaultContentPageLayout: PageLayout = {
